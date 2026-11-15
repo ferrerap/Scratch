@@ -1,5 +1,5 @@
 {
-  "_note": "PROPOSED changes only, for later review by the ledger owner. Nothing here edits the canonical model or dashboard, and nothing assigns or changes a conviction. Anchor IDs are used only where the mapping is clear; otherwise target_claim_id is null and research_question_ids identify the scope. Evidence IDs resolve to evidence.json.",
+  "_note": "PROPOSED changes only, for later review by the ledger owner. Nothing here edits the canonical model or dashboard, and nothing assigns or changes a conviction. Anchor IDs are used only where the mapping is clear; otherwise target_claim_id is null and research_question_ids identify the scope. Evidence IDs resolve to evidence.json. supporting_evidence_ids and challenging_evidence_ids are relative to the PROPOSED wording or qualification, not the original ledger claim (corrected after the final fidelity check, FC-26 to FC-29).",
   "revision_candidates": [
     {
       "revision_id": "REV001",
@@ -22,21 +22,21 @@
         "EVR212",
         "EVR150",
         "EVR087",
-        "EVR324"
-      ],
-      "challenging_evidence_ids": [
+        "EVR324",
         "EVR005",
         "EVR171",
-        "EVR059",
+        "EVR329",
+        "EVR326",
+        "EVR059"
+      ],
+      "challenging_evidence_ids": [
         "EVR026",
         "EVR027",
         "EVR008",
         "EVR081",
-        "EVR083",
-        "EVR329",
-        "EVR326"
+        "EVR083"
       ],
-      "rationale": "Round 2 reviewers agreed the obligation core is well evidenced (~33 evidence groups) and that the size of the opacity-driven component is unmeasured. The Round 2 audit asked that P1.1 be split into 'obligation exists' and 'obligation is the dominant driver'. Round 3 legal doctrine located the line between relying on outside work and having to investigate independently (red flags; content certified by an expert).",
+      "rationale": "Round 2 reviewers agreed the obligation core is well evidenced (33 evidence groups at Round 1; 35 'supports' groups for P1.1 in the final register) and that the size of the opacity-driven component is unmeasured. The Round 2 audit asked that P1.1 be split into 'obligation exists' and 'obligation is the dominant driver'. Round 3 legal doctrine located the line between relying on outside work and having to investigate independently (red flags; content certified by an expert).",
       "unresolved_user_judgment": "Whether 'repeated review' in the ledger refers to excessive review (where opacity is the lever) or to misdirected review (detail-checking while assumptions go unchallenged), and whether CL027 should treat under-review as part of the same claim.",
       "change_type": "scope"
     },
@@ -55,9 +55,7 @@
         "EVR036",
         "EVR021",
         "EVR053",
-        "EVR055"
-      ],
-      "challenging_evidence_ids": [
+        "EVR055",
         "EVR039",
         "EVR043",
         "EVR285",
@@ -65,7 +63,8 @@
         "EVR276",
         "EVR296"
       ],
-      "rationale": "Reviewer B noted CL025 is supported but not uniquely identified. Round 3 target-domain evidence (lender account, wind back-test, rating action) shows adaptation is tied to forecast bias.",
+      "challenging_evidence_ids": [],
+      "rationale": "Reviewer B noted CL025 is supported but not uniquely identified. Round 3 target-domain evidence (lender account, wind back-test, rating action) shows adaptation is tied to forecast bias. No registered item challenges the qualified wording.",
       "unresolved_user_judgment": "Whether CL025 should explicitly name W1 and W3 as rival explanations, or whether that belongs in a separate claim.",
       "change_type": "relationship"
     },
@@ -75,7 +74,7 @@
       "research_question_ids": [
         "RQ2"
       ],
-      "proposed_wording_or_qualification": "Customers should see what was checked, including checks without findings, provided the coverage record is (i) verifiable \u2014 traceable to underlying samples or data and recomputable; (ii) right-sized \u2014 the nature and scope of each test rather than sample-level detail; (iii) paired with an accountable conclusion, not a findings-only list; and (iv) designed to expose omissions, not only to cite inputs. Current evidence supports coverage records as the way professional systems allocate reliance and as a driver of report completeness. It does not yet show that they improve recipients' detection or reduce recipients' effort. Behavioural evidence adds that design and timing matter. Generic lists used as the method of review narrowed professionals' attention and lowered detection. Specific documentation, lists consulted after the reviewer's own first read, and coverage focused on how key assumptions were derived helped. Records should therefore be deal-specific, state exclusions and how sensitive each check was, and be consulted after an independent read.",
+      "proposed_wording_or_qualification": "Customers should see what was checked, including checks without findings, provided the coverage record is (i) verifiable \u2014 traceable to underlying samples or data and recomputable; (ii) right-sized \u2014 the nature and scope of each test rather than sample-level detail; (iii) paired with an accountable conclusion, not a findings-only list; and (iv) designed to expose omissions, not only to cite inputs. Current evidence supports coverage records as the way professional systems allocate reliance and as a driver of report completeness. It does not yet show that they improve recipients' detection or reduce recipients' effort. Behavioural evidence adds that design and timing matter. Generic lists or decomposition used as the method of review were associated with lower fraud-risk assessments and poorer detection (abstract-level evidence). Specific documentation, lists consulted after the reviewer's own first read, and coverage focused on how key assumptions were derived helped. Records should therefore be deal-specific, state exclusions and how sensitive each check was, and be consulted after an independent read.",
       "supporting_evidence_ids": [
         "EVR019",
         "EVR022",
@@ -95,27 +94,28 @@
         "EVR313",
         "EVR304",
         "EVR319",
-        "EVR318"
-      ],
-      "challenging_evidence_ids": [
+        "EVR318",
+        "EVR077",
+        "EVR252",
         "EVR245",
         "EVR249",
-        "EVR252",
-        "EVR253",
-        "EVR243",
-        "EVR202",
-        "EVR196",
-        "EVR192",
-        "EVR077",
-        "EVR232",
         "EVR298",
         "EVR299",
         "EVR303",
         "EVR309",
         "EVR305",
         "EVR314",
-        "EVR312",
-        "EVR307"
+        "EVR202",
+        "EVR243",
+        "EVR232"
+      ],
+      "challenging_evidence_ids": [
+        "EVR192",
+        "EVR196",
+        "EVR253",
+        "EVR307",
+        "EVR308",
+        "EVR312"
       ],
       "rationale": "Reviewer A called this the thesis's strongest ground, but normative. Reviewer B called it mostly mandates or producer-side completeness. Round 3 doctrine shows procedure disclosures do not move the recipient's duty, and recipients reportedly want negative assurance. Prefilled 'normal' text produced contradictions. Round 3 (R3E) split the dispute by design and timing. No study tests 'checked, no findings' against silence on recipients' detection (DIS004).",
       "unresolved_user_judgment": "Whether the ledger wants CL026 as a design principle (normative) or as an empirical claim about customer benefit. The evidence supports the former more than the latter.",
@@ -158,14 +158,14 @@
       "proposed_wording_or_qualification": "Mark the value-capture link as untested by public evidence, and add two cautions. (1) Recipients appear to value an accountable conclusion (negative assurance or opinion) over a findings-only report \u2014 one practitioner source. (2) Moving into the recipient's own judgment \u2014 drafting substantive memo content \u2014 risks anchoring the recipient on the advisor's conclusions and reducing scrutiny, and memos written by external consultants were flagged as a governance concern.",
       "supporting_evidence_ids": [
         "EVR252",
-        "EVR135"
-      ],
-      "challenging_evidence_ids": [
         "EVR126",
         "EVR129",
         "EVR222",
         "EVR272",
         "EVR056"
+      ],
+      "challenging_evidence_ids": [
+        "EVR135"
       ],
       "rationale": "Both reviewers found no evidence on value capture. Round 3 added professional evidence that integrated drafts import judgment and lower skepticism.",
       "unresolved_user_judgment": "Whether 'beyond findings' in CL007 means accountable conclusions (supported as recipient preference) or integration into the recipient's decision materials (where the risks apply). These have different evidence profiles.",
@@ -184,11 +184,11 @@
         "EVR056",
         "EVR061",
         "EVR132",
-        "EVR133"
+        "EVR133",
+        "EVR057",
+        "EVR124"
       ],
       "challenging_evidence_ids": [
-        "EVR057",
-        "EVR124",
         "EVR222"
       ],
       "rationale": "No source quantifies preparation or reformatting time. Board-pack sources are vendor-linked. The literature on investment memos is essentially absent.",
@@ -203,14 +203,14 @@
       ],
       "proposed_wording_or_qualification": "No public evidence tests whether reduced verification effort converts into paid demand. Available evidence shows purchase decisions resting on satisfaction or break-even framing rather than measured effort reduction, and perceived time savings diverging from measured ones. In the appraisal case, effort reduction from standardized, machine-checkable outside analysis accrued mainly to recipients and the consequence-bearer, not the producer.",
       "supporting_evidence_ids": [
-        "EVR139"
-      ],
-      "challenging_evidence_ids": [
         "EVR126",
         "EVR129",
         "EVR142",
         "EVR334",
         "EVR336"
+      ],
+      "challenging_evidence_ids": [
+        "EVR139"
       ],
       "rationale": "Reviewer B: stated pain only. Reviewer A: unsupported. No disagreement.",
       "unresolved_user_judgment": "What observation would count as conversion evidence for this ledger (e.g., renewal tied to measured review hours).",
@@ -230,16 +230,16 @@
         "EVR271",
         "EVR336",
         "EVR327",
-        "EVR339"
+        "EVR339",
+        "EVR216",
+        "EVR333",
+        "EVR335",
+        "EVR206",
+        "EVR208",
+        "EVR334"
       ],
       "challenging_evidence_ids": [
         "EVR055",
-        "EVR206",
-        "EVR216",
-        "EVR208",
-        "EVR335",
-        "EVR334",
-        "EVR333",
         "EVR341"
       ],
       "rationale": "Round 2: Reviewer A said formats only; Reviewer B said challenged. Round 3 (R3F) found that, in appraisal, standardization coincided with commoditization and substitution; the gains went to recipients and the consequence-bearer (DIS007, resolved at the level framed).",
@@ -257,14 +257,15 @@
         "EVR109",
         "EVR092",
         "EVR186",
-        "EVR228"
-      ],
-      "challenging_evidence_ids": [
+        "EVR228",
         "EVR110",
         "EVR236",
         "EVR102",
         "EVR103",
         "EVR223"
+      ],
+      "challenging_evidence_ids": [
+        "EVR097"
       ],
       "rationale": "This is the narrowed version of the thesis that both Round 2 reviewers could accept (DIS003). Supporting experiments are lay or bundled-professional, and the error-location distinction is synthesized from two lay studies.",
       "unresolved_user_judgment": "Whether to hold this as a working design principle pending a professional seeded-error study.",
@@ -283,16 +284,16 @@
         "EVR266",
         "EVR263",
         "EVR212",
-        "EVR270"
+        "EVR270",
+        "EVR272",
+        "EVR273",
+        "EVR222"
       ],
       "challenging_evidence_ids": [
         "EVR268",
         "EVR260",
         "EVR264",
-        "EVR261",
-        "EVR272",
-        "EVR273",
-        "EVR222"
+        "EVR261"
       ],
       "rationale": "Round 3 (R3D) replicated the integration effect beyond one site, at moderate size, with offsets. R3A and R3D added evidence that inherited analysis is scrutinized less.",
       "unresolved_user_judgment": "Whether the ledger's integration thesis targets W5 assembly, W2 regeneration, or memo content. The evidence supports the first two more than the third.",
@@ -304,7 +305,7 @@
       "research_question_ids": [
         "RQ1"
       ],
-      "proposed_wording_or_qualification": "New candidate (renewable project finance): lenders' retained energy-yield work is mainly adaptation (own P-cases, haircuts, sizing rules) justified by measured forecast bias, plus occasional parallel assessments. In public scopes, review of the sponsor's yield assessment is largely bought from the independent engineer. Better-documented IE reports would not by themselves remove haircuts; back-tested accuracy evidence bears on them more directly. Traceability benefits may land first at the IE and second at the lender.",
+      "proposed_wording_or_qualification": "New candidate (renewable project finance): in the public record (one lender presentation, one rating action, one DFI terms of reference, one securitization report), lenders' retained energy-yield work consists of adaptation (own P-cases, haircuts, sizing rules), with parallel assessments listed but not quantified. The lender justifies this by forecast bias; that the adaptation responds to bias is analyst inference. In public scopes, review of the sponsor's yield assessment is largely bought from the independent engineer. Better-documented IE reports would not by themselves remove haircuts; back-tested accuracy evidence bears on them more directly. Traceability benefits may land first at the IE and second at the lender.",
       "supporting_evidence_ids": [
         "EVR275",
         "EVR276",

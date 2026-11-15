@@ -1,0 +1,421 @@
+{
+  "issues": [
+    {
+      "issue_id": "FC-01",
+      "location": "Summary of conclusions, item 3: 'They raise trust whether or not they are checked (EVR102, EVR103, EVR108)'",
+      "evr_ids": [
+        "EVR102",
+        "EVR103",
+        "EVR108"
+      ],
+      "problem_type": "unsupported",
+      "description": "EVR103 contradicts 'whether or not they are checked': checking was associated with lower trust, and checked random-citation answers were no more trusted than answers without citations. EVR108 measures click-through on AI-summary links, not trust.",
+      "register_says": "EVR103: 'checking was associated with lower trust; random-citation answers that were checked were no more trusted than answers without citations' (M 7.55 vs 7.73, p=0.38). EVR102: citations (even random) raised self-reported trust. EVR108: link inside AI summary clicked in 1% of visits to pages with a summary.",
+      "suggested_fix": "They raise trust even when irrelevant (EVR102) but are rarely checked: 9.77% of cited answers were checked, and when random citations were checked the trust boost disappeared (EVR103). Links in AI summaries were clicked in about 1% of visits (EVR108).",
+      "severity": "high"
+    },
+    {
+      "issue_id": "FC-02",
+      "location": "Summary item 1: 'Re-derivation is deliberately required only in specific regimes (EVR017, EVR081, EVR083)'; RQ1 counterevidence: 'NRC requires alternate calculations (EVR083)'",
+      "evr_ids": [
+        "EVR083"
+      ],
+      "problem_type": "unsupported",
+      "description": "EVR083 (10 CFR 50 App. B Criterion III) does not require alternate calculations. It requires independent design verification by design review, alternate or simplified calculations, or testing, and leaves the choice to the licensee. So it shows independent checking, not mandated re-derivation.",
+      "register_says": "'verifying or checking design adequacy, such as by design reviews, alternate or simplified calculational methods, or a suitable testing program, performed by individuals or groups other than those who performed the original design'. Limitations: 'the choice among review, alternate calculation, or testing is left to the licensee.'",
+      "suggested_fix": "RQ1: 'NRC requires design verification by people other than the designer, through design review, alternate calculations or testing, at the licensee's choice (EVR083).' Summary: 'Independent re-derivation is deliberately required only in specific regimes (EVR017, EVR081); NRC requires independent verification but permits review instead of recalculation (EVR083).'",
+      "severity": "high"
+    },
+    {
+      "issue_id": "FC-03",
+      "location": "Summary item 2: 'Standards prescribe extra procedures when producer documentation is missing (EVR003, EVR013, EVR020, EVR245)'",
+      "evr_ids": [
+        "EVR245"
+      ],
+      "problem_type": "kind_label",
+      "description": "EVR245 is a court decision (WorldCom) holding that comfort letters are not expertised statements for the §11 reliance defence. It is not a standard and says nothing about extra procedures when documentation is missing. EVR004 (AS 1105.A10) fits this claim and is cited in RQ1.",
+      "register_says": "EVR245 type=court_decision: underwriters 'may not rely on an accountant's comfort letters for interim financial statements' for the §11(b)(3)(C) reliance defense.",
+      "suggested_fix": "Standards prescribe extra procedures when producer documentation is missing or restricted (EVR003, EVR004, EVR013, EVR020).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-04",
+      "location": "Summary item 2: 'the lender work described publicly is mostly W4 (own cases and haircuts) driven by measured W3 bias' and RQ1 'What can reasonably be concluded': '*Empirical, target domain:* ... justified by measured forecast bias (W3). Full parallel assessments happen only some of the time (EVR275–EVR277)'",
+      "evr_ids": [
+        "EVR275",
+        "EVR276",
+        "EVR277",
+        "EVR285",
+        "EVR297"
+      ],
+      "problem_type": "overclaim",
+      "description": "Labelled 'Empirical', but the lender-practice part rests on one lender's conference presentation (EVR275-277; practitioner account, 'stated view of one lender') plus one rating action (EVR297, secondary reproduction). EVR275 lists sensitivity cases, haircuts, parallel assessments and structural protections without saying which dominates, so 'mostly W4' is not in the record. 'Full parallel assessments happen only some of the time' is not stated by any cited record. 'Driven by' joins the lender's stated reasons to a separate wind back-test (EVR285), which is analyst inference. The lender cites its own solar portfolio data, not EVR285.",
+      "register_says": "EVR275 limitations: 'Stated view of one lender; does not quantify how much effort goes to parallel assessments versus haircuts.' EVR277: 'Typical-practice statement from one lender.' EVR297: 'Secondary reproduction; one transaction.' EVR285: wind, not solar.",
+      "suggested_fix": "*Stated practice, target domain (one lender presentation, one rating action):* the lender work described publicly consists of own-case selection, haircuts and sizing rules (W4), with parallel assessments listed among the tools but not quantified (EVR275-EVR277, EVR297). The lender justifies this by forecast bias seen in its own portfolio data (EVR276). Independent back-tests also measure such bias in wind (EVR285). *Analyst inference:* W4 adaptation is a response to W3 bias.",
+      "severity": "high"
+    },
+    {
+      "issue_id": "FC-05",
+      "location": "RQ1 supporting/counterevidence: 'Its stated reasons are bias, uncertainty bands that are too tight, and omitted factors, not opacity (EVR275, EVR276)'",
+      "evr_ids": [
+        "EVR275",
+        "EVR276"
+      ],
+      "problem_type": "unsupported",
+      "description": "The records list the lender's stated reasons. Neither says opacity was ruled out or contrasted. 'Not opacity' is analyst inference.",
+      "register_says": "EVR276: IE ratios 'inconsistent, not comprehensive and trending optimistic'; distributions too tight; factors omitted; P50 bias. No statement about opacity.",
+      "suggested_fix": "Its stated reasons are bias, uncertainty bands that are too tight, and omitted factors (EVR275, EVR276); opacity is not among the reasons given (Analyst inference).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-06",
+      "location": "Summary item 4: 'Generic checklists used as the method of review narrowed professionals' attention and lowered fraud or abnormality detection (EVR298, EVR303, EVR309)'; same in RQ2 'What can reasonably be concluded' ('Hurt detection')",
+      "evr_ids": [
+        "EVR298",
+        "EVR303",
+        "EVR309"
+      ],
+      "problem_type": "overclaim",
+      "description": "All three records are abstract-only. EVR298 measured fraud-risk assessments, not detection. EVR303 is about decomposed likelihood and magnitude assessment, not a checklist, and its abstract frames the result as a trade-off, so the direction may be ambiguous. EVR309 compares a checklist study with an earlier verbalization study (not randomized). 'Lowered detection' and 'narrowed attention' are stronger than the records support.",
+      "register_says": "EVR298: 'lower fraud risk assessments'; Q 'not reported in abstract (direction only)'. EVR303 limitations: 'whether lower concern is miscalibration ... is ambiguous'. EVR309 limitations: 'Cross-study comparison (not randomized between conditions)'. All access_status=abstract_only.",
+      "suggested_fix": "Generic checklists or decomposition used as the method of review were associated with lower fraud-risk assessments on known-fraud cases (EVR298, EVR303) and with poorer abnormality detection in a cross-study comparison (EVR309). All three are abstract-only and give direction without effect sizes.",
+      "severity": "high"
+    },
+    {
+      "issue_id": "FC-07",
+      "location": "Summary item 4 and RQ2 'What can reasonably be concluded': 'lists consulted after the reviewer's own read ... helped (EVR313)'",
+      "evr_ids": [
+        "EVR313"
+      ],
+      "problem_type": "overclaim",
+      "description": "In EVR313 ECG experts applied the checklist to their own interpretations during verification, not to an outside producer's output. The study is abstract-only, has N=15, and interpretations took longer. Calling it a recipient reviewing another party's work is a transfer that should be flagged.",
+      "register_says": "EVR313 limitations: 'Abstract only; small N; checklist applied by the interpreter to their own work; time cost rises.'",
+      "suggested_fix": "a checklist used to verify one's own interpretation after a first read corrected more errors, at some time cost (15 ECG experts, abstract-only; EVR313)",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-08",
+      "location": "Summary item 5: 'Medical image and record sharing replicates a 16–67% relative reduction in repeat testing (EVR259, EVR265, EVR266, EVR263)'",
+      "evr_ids": [
+        "EVR259",
+        "EVR263",
+        "EVR265",
+        "EVR266"
+      ],
+      "problem_type": "number",
+      "description": "The 16-67% range comes only from EVR265 (44-67%) and EVR266 (16-29%). Both are abstract-only observational studies. EVR259 reports a standardized effect size (not convertible to percent) and EVR263 is a vote count. EVR266's 16% is subsequent CTs within 24h after successful vs failed import, and its 29% is against a historical control, so neither is strictly 'repeat testing'. 'Replicates' suggests a consistent percent effect across all four.",
+      "register_says": "EVR259: pooled ES -0.17, 'not converted into natural units'. EVR263: 7 causal-design studies all reported some benefit (vote count). EVR265: -8.7 pp CT; 44-67% relative; abstract only. EVR266: 16% fewer CTs (successful vs failed import), 29% vs historical control; abstract only.",
+      "suggested_fix": "Medical image and record sharing is consistently associated with less repeat imaging: pooled standardized effect -0.17 (EVR259), benefit in all causally designed studies in one review (EVR263), and 16-67% relative reductions in two abstract-only observational studies (EVR265, EVR266).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-09",
+      "location": "Summary item 5: 'AI drafting generally moves effort into review (EVR119, EVR122, EVR229, EVR237)'",
+      "evr_ids": [
+        "EVR119",
+        "EVR122",
+        "EVR229",
+        "EVR237"
+      ],
+      "problem_type": "overclaim",
+      "description": "Most cited support is self-report or author interpretation. EVR119 is perceived effort, and most examples were rated less effort overall. EVR122 is a vendor-run survey about receiving 'workslop', not about drafting. EVR229 is the developers' interpretation. EVR237 (abstract-only) found read time +21.8% but no change in reply time. 'Generally' is too strong, and the evidence kind is not stated.",
+      "register_says": "EVR119: perceived, not measured; 55-79% of examples rated less effort; 56/319 reported more effort in retrieval due to verification. EVR122: vendor survey, self-reported. EVR229: 'Interpretation by developers'. EVR237: read time +21.8% (95% CI 5.2-41.0), reply time -5.9% (n.s.).",
+      "suggested_fix": "AI drafting tends to shift effort toward verification, mostly by self-report and author interpretation (EVR119, EVR122, EVR229), with one measured rise in physicians' read time but no change in reply time (EVR237, abstract-only).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-10",
+      "location": "RQ3 counterevidence: 'Auditors who inherit analysis show less skepticism; a development memo only partly restores it (26% → 34% vs 54%; EVR272, EVR273)'",
+      "evr_ids": [
+        "EVR272",
+        "EVR273"
+      ],
+      "problem_type": "overclaim",
+      "description": "The percentages come from a university press release. Full text was blocked and significance was not verified. RQ2 correctly says 'press-release figures', but this RQ3 bullet and the summary table entry drop the caveat.",
+      "register_says": "EVR272 Q: 'Per university press release: 54% (developed) vs 26% (inherited)... Cell sizes and test statistics not verified.' EVR273: 'Per press release: 34% ... Statistical significance not verified.' access_status=partial.",
+      "suggested_fix": "Auditors who inherit analysis show less skepticism; a development memo only partly restores it (26% → 34% vs 54%; press-release figures, significance not verified; EVR272, EVR273).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-11",
+      "location": "RQ1 counterevidence: 'Seven assessors given identical PV inputs produced P50s with 9.7% SD (EVR296)'",
+      "evr_ids": [
+        "EVR296"
+      ],
+      "problem_type": "number",
+      "description": "9.7% is the SD at one of two sites (Bolzano) and is the SD of the initial yield assessment. At the other site (Alice Springs) the SD was 3.9%. Reporting only the larger figure overstates the dispersion.",
+      "register_says": "EVR296 Q: 'Bolzano: ... mean initial YA 1278 kWh/kWp, SD 9.7% ... Alice Springs: ... mean 1878, SD 3.9%'. n=7 assessors, 2 sites; summary only.",
+      "suggested_fix": "Seven assessors given identical PV inputs produced initial yield assessments with an SD of 9.7% at one site and 3.9% at the other (EVR296; summary-level access).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-12",
+      "location": "RQ1 counterevidence, 'Review is often thinner, not thicker, than required': 'DOE's Inspector General found the Loan Programs Office could identify borrower-side engineering advisors on only 3 of 18 projects (EVR059)'",
+      "evr_ids": [
+        "EVR059"
+      ],
+      "problem_type": "unsupported",
+      "description": "EVR059 concerns conflict-of-interest management (LPO could not identify which advisors also worked for applicants). It is not about how thoroughly reports were reviewed. It belongs under vetting producer independence, where it is also cited, not as evidence of thin review.",
+      "register_says": "EVR059 limitations: 'Judgmental sample; about conflicts management, not report quality or reviewer effort.'",
+      "suggested_fix": "Move to the independence/vetting bullet: 'DOE's Inspector General found the Loan Programs Office could identify which engineering advisors also worked for prospective borrowers on only 3 of 18 projects, a conflict-of-interest blind spot (EVR059).'",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-13",
+      "location": "RQ1 counterevidence: 'Interviews show auditors seek \"comfort, not insight\" from specialists, limit specialist scope for budget reasons, and delete contrary content (EVR026, EVR027, EVR029)'",
+      "evr_ids": [
+        "EVR026",
+        "EVR027",
+        "EVR029"
+      ],
+      "problem_type": "overclaim",
+      "description": "None of the three was read in full. EVR026 and EVR027 are abstract-only, with passages quoted secondhand by the PCAOB. For EVR029 the abstract was not directly viewed (access 'other'; summaries only), and the budget point comes only from it. The brief reports these without caveat.",
+      "register_says": "EVR026 limitations: 'Excerpt is the PCAOB's quotation of the working paper (secondary)'. EVR027 access=abstract_only. EVR029 access=other, limitations 'Abstract not directly viewed; summaries only.'",
+      "suggested_fix": "Interview studies, known only from abstracts, summaries and PCAOB quotations, report that auditors seek 'comfort, not insight' from specialists, limit specialist scope for budget reasons, and delete contrary content (EVR026, EVR027, EVR029).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-14",
+      "location": "RQ2 supporting: 'Synoptic checklists raised report completeness in 13 of 14 pathology studies (EVR197) and in 88% vs 34% of institutions (EVR199, correlational)'",
+      "evr_ids": [
+        "EVR197",
+        "EVR199"
+      ],
+      "problem_type": "number",
+      "description": "The EVR199 denominator is wrong: 88% vs 34% is report completeness at checklist vs non-checklist institutions, not a share of institutions. 'Raised' is causal language for one correlational audit (EVR199) and a review of observational studies (EVR197).",
+      "register_says": "EVR199 Q: '68.8% of 2125 reports complete; checklist institutions 88% vs non-checklist 34%'; limitations 'Correlational; institution-level confounding'. EVR197: 'associated with higher overall completeness in 13 of 14 studies'; observational designs.",
+      "suggested_fix": "Synoptic checklists were associated with higher report completeness in 13 of 14 observational pathology studies (EVR197), and institutions using checklists had complete reports 88% vs 34% of the time (EVR199, correlational).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-15",
+      "location": "RQ2 supporting: 'A mandatory checklist cut residents' misses of non-fracture findings from 28.3% to 9.3% (EVR201)'",
+      "evr_ids": [
+        "EVR201"
+      ],
+      "problem_type": "overclaim",
+      "description": "The design is a retrospective pre/post cohort ('associated with'). The reported subgroup is the only significant one: overall emergent misses fell non-significantly and fracture misses rose non-significantly. The record's relationship is 'qualifies', but the brief lists it as support.",
+      "register_says": "EVR201 Q: all emergent 17.6% vs 11.9% (p=0.21); fractures 9.8% vs 14.5% (p=0.39); non-fracture 28.3% vs 9.3% (p=0.01). Limitations: single program, cohort changes, underpowered.",
+      "suggested_fix": "After a mandatory checklist template was introduced, residents' misses of non-fracture emergent findings fell from 28.3% to 9.3% (pre/post, single program); overall emergent misses did not change significantly and fracture misses did not improve (EVR201).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-16",
+      "location": "RQ2 counterevidence: 'links in AI summaries got ~1% of clicks (EVR108)'",
+      "evr_ids": [
+        "EVR108"
+      ],
+      "problem_type": "number",
+      "description": "Wrong denominator: the 1% is the share of visits to result pages with an AI summary in which a link inside the summary was clicked, not the share of clicks.",
+      "register_says": "EVR108 Q: 'Link inside AI summary clicked in 1% of visits to pages with a summary.' Observational; industry survey panel.",
+      "suggested_fix": "a link inside Google's AI summary was clicked in about 1% of visits to pages showing one (EVR108)",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-17",
+      "location": "RQ2 counterevidence: 'Radiologists' accuracy fell from 82% to 45.5% with wrong suggestions (press release; EVR189)'",
+      "evr_ids": [
+        "EVR189"
+      ],
+      "problem_type": "number",
+      "description": "82% vs 45.5% compares experienced readers given correct vs incorrect suggestions. It is not a fall from an unaided baseline.",
+      "register_says": "EVR189 Q: 'Experienced (>15 yrs avg): 82% vs 45.5%' (correct vs incorrect suggestion); press-release summary.",
+      "suggested_fix": "Experienced radiologists were correct 82% of the time with correct suggestions vs 45.5% with incorrect ones (press release; EVR189).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-18",
+      "location": "RQ2 'What can reasonably be concluded', professional settings: 'Field trials show professional time savings without detectable quality loss ... (EVR227, EVR231). Professional baseline detection of plausible errors without traceability is poor.'",
+      "evr_ids": [
+        "EVR219",
+        "EVR223",
+        "EVR227",
+        "EVR231"
+      ],
+      "problem_type": "overclaim",
+      "description": "EVR227 is a nonrandomized prospective cohort, not a trial, and both EVR227 and EVR231 are abstract-only. The 'poor baseline detection' generalization rests on EVR219 (20 PCPs, 4 erroneous drafts, no comparator, record relationship 'contextual') and EVR223 (catch rate unknown).",
+      "register_says": "EVR227: 'Nonrandomized; ... abstract only'. EVR219 limitations: 'only 4 erroneous items ... no comparator'. EVR223: 'no pre-edit error count, so catch rate unknown'.",
+      "suggested_fix": "Field studies (one stepped-wedge RCT, one nonrandomized cohort; both abstract-only) show professional time savings without detectable quality loss on rating instruments but did not test detection (EVR227, EVR231). In one small simulation, most physicians missed most erroneous AI drafts (EVR219).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-19",
+      "location": "RQ3 counterevidence: 'The UK Department for Business and Trade (DBT) evaluation found no productivity gain once outputs that were discarded or created extra work were counted (EVR123, qualifies)'",
+      "evr_ids": [
+        "EVR123"
+      ],
+      "problem_type": "unsupported",
+      "description": "In EVR123, adjusted (self-reported) savings shrink but stay positive for most tasks. The overall 'no productivity improvement evidence' finding is not stated as resulting from counting discarded outputs.",
+      "register_says": "EVR123 Q: mean hours saved, adjusted for unused outputs and novel tasks: drafting 1.3, summarising 0.8, data analysis 0.6 ... images -0.5, scheduling -0.6; 'No productivity improvement evidence.' Self-reported diary; no CIs.",
+      "suggested_fix": "The UK DBT evaluation found no evidence of productivity improvement; self-reported per-task savings shrank, and turned negative for some tasks, once unused outputs and novel tasks were accounted for (EVR123, qualifies).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-20",
+      "location": "RQ3 counterevidence: 'Governance holds reviewer diligence constant. PCAOB outreach firms apply \"the same level of diligence\" to GenAI-assisted work (EVR130)'",
+      "evr_ids": [
+        "EVR130"
+      ],
+      "problem_type": "kind_label",
+      "description": "EVR130 records firms' stated policies as reported to PCAOB staff, not observed reviewer behaviour. The heading presents it as an observed fact.",
+      "register_says": "EVR130 type: 'regulator staff observations from outreach (stated firm policies)'; limitations 'Stated policies, not observed behavior or review time.'",
+      "suggested_fix": "Governance policies state that reviewer diligence is held constant: audit firms told PCAOB staff they apply 'the same level of diligence' to GenAI-assisted work (stated policy; EVR130).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-21",
+      "location": "Secondary questions, RQ5: 'Adoption followed accreditation: 77% for resections vs 19% for biopsies (EVR208)'",
+      "evr_ids": [
+        "EVR208"
+      ],
+      "problem_type": "unsupported",
+      "description": "EVR208 gives the adoption split but says nothing about accreditation. The causal link to accreditation requirements is analyst inference. The record is abstract-only.",
+      "register_says": "EVR208: 'In a random sample of 1,618 VA pathology reports ... 48% used synoptic format: 77% of resections but 19% of biopsies'.",
+      "suggested_fix": "Synoptic adoption in one national system was 77% for resections vs 19% for biopsies (abstract-only; EVR208); that this tracks where accreditation requires it is analyst inference.",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-22",
+      "location": "RQ3 supporting: 'Drafting and summarising benefit ... Summarising took 12:37 vs 41:34 and was more accurate in the UK government evaluation (EVR124)'",
+      "evr_ids": [
+        "EVR124"
+      ],
+      "problem_type": "overclaim",
+      "description": "This picks the favourable task from a record whose relationship is 'qualifies'. The same evaluation found slides much less accurate and Excel analysis slower and worse.",
+      "register_says": "EVR124 Q: PowerPoint accuracy 1.5 vs 5; Excel accuracy 1.5 vs 2.7, time 25:01 vs 20:33; summarising accuracy 4 vs 2.5, time 12:37 vs 41:34.",
+      "suggested_fix": "Summarising took 12:37 vs 41:34 and was more accurate in the UK government evaluation, but slides were far less accurate and Excel analysis was slower and worse (EVR124).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-23",
+      "location": "Summary item 3: 'Citations are often wrong or unsupported (EVR062, EVR094, EVR113, EVR236)'",
+      "evr_ids": [
+        "EVR236"
+      ],
+      "problem_type": "unsupported",
+      "description": "EVR236 reports that most hallucinations missed by a citation/detection tool were computed claims. It does not measure how often citations are wrong. It supports the separate point that a 'supported' label does not verify computations.",
+      "register_says": "EVR236: '56% of 27 missed hallucinations computational'; uncontrolled pilot, developer-run.",
+      "suggested_fix": "Citations are often wrong or unsupported (EVR062, EVR094, EVR113), and citation checks miss computed claims (EVR236).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-24",
+      "location": "RQ2 supporting: 'LLM uncertainty expressions raised accuracy from 63.9% to 72.8% (EVR099)'",
+      "evr_ids": [
+        "EVR099"
+      ],
+      "problem_type": "overclaim",
+      "description": "Only first-person uncertainty expressions had a significant effect; the general-uncertainty arm did not. Accuracy stayed below the no-AI condition (74.2%), and participants were lay.",
+      "register_says": "EVR099 Q: Uncertain1st 72.8% vs Control 63.9% (significant); UncertainGeneral 67.9% (n.s.); No-AI 74.2%. Lay participants.",
+      "suggested_fix": "First-person LLM uncertainty expressions raised lay participants' accuracy from 63.9% to 72.8%, close to the 74.2% without AI; general uncertainty phrasing had no significant effect (EVR099).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-25",
+      "location": "RQ3 counterevidence: 'The successful radiology AI integration took *more* time (EVR151)'",
+      "evr_ids": [
+        "EVR151"
+      ],
+      "problem_type": "overclaim",
+      "description": "The record is ethnographic. Time was not measured quantitatively.",
+      "register_says": "EVR151 limitations: 'Time was not measured quantitatively.'",
+      "suggested_fix": "In the radiology department that integrated AI, radiologists were observed investing additional time (qualitative; EVR151).",
+      "severity": "low"
+    },
+    {
+      "issue_id": "FC-26",
+      "location": "revision_candidates.json REV005: challenging_evidence_ids ['EVR126','EVR129','EVR222','EVR272','EVR056']",
+      "evr_ids": [
+        "EVR126",
+        "EVR129",
+        "EVR222",
+        "EVR272",
+        "EVR056",
+        "EVR135"
+      ],
+      "problem_type": "revision_direction",
+      "description": "The proposed wording marks value capture as untested and adds cautions that substantive drafting anchors recipients and reduces scrutiny, and that memos by external consultants were flagged as a governance concern. EVR126 and EVR129 (no effort-to-purchase link), EVR222 and EVR272 (anchoring, reduced skepticism) and EVR056 (governance concern) are the basis for that wording, so they support it rather than challenge it. EVR135 (buyer marketing claim) is the only item that leans against the caution.",
+      "register_says": "EVR222: physicians' replies converged on LLM draft content (kappa 0.10 to 0.52). EVR272: inherited test, fewer skeptical actions. EVR056: consultant-written memos flagged as governance concern. EVR126/129: satisfaction and break-even framing, no productivity evidence.",
+      "suggested_fix": "supporting_evidence_ids: ['EVR252','EVR126','EVR129','EVR222','EVR272','EVR056']; challenging_evidence_ids: ['EVR135'] (or rename the fields to 'evidence_for_original_claim'/'evidence_against_original_claim' if relative to the original CL007).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-27",
+      "location": "revision_candidates.json REV007: supporting ['EVR139'] / challenging ['EVR126','EVR129','EVR142','EVR334','EVR336']",
+      "evr_ids": [
+        "EVR126",
+        "EVR129",
+        "EVR142",
+        "EVR334",
+        "EVR336",
+        "EVR139"
+      ],
+      "problem_type": "revision_direction",
+      "description": "Each 'challenging' ID is cited, in substance, as the basis of the proposed wording: satisfaction or break-even purchase framing (EVR126, EVR129), perceived vs measured time (EVR142), and appraisal gains going to recipients and the consequence-bearer (EVR334, EVR336). EVR139 (firms bought more consulting for operational gains) is the item closest to challenging the 'no link' wording.",
+      "register_says": "EVR142: forecast -24%, post-hoc -20%, measured +19%. EVR334: interested-party analysis of waiver loans. EVR336: fee clustering, AMC intermediation. EVR139: treated firms bought more consulting; benefit was operational, not reduced review effort.",
+      "suggested_fix": "supporting_evidence_ids: ['EVR126','EVR129','EVR142','EVR334','EVR336']; challenging_evidence_ids: ['EVR139'] (qualifies).",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-28",
+      "location": "revision_candidates.json REV002: challenging_evidence_ids ['EVR039','EVR043','EVR285','EVR275','EVR276','EVR296']",
+      "evr_ids": [
+        "EVR039",
+        "EVR043",
+        "EVR285",
+        "EVR275",
+        "EVR276",
+        "EVR296"
+      ],
+      "problem_type": "revision_direction",
+      "description": "The proposed wording names obligation (W1) and rational discounting of biased forecasts (W3) as co-explanations, and says lender adaptation is justified by measured forecast bias. EVR039 and EVR043 (W1) and EVR285, EVR275, EVR276 and EVR296 (W3 bias and dispersion) support that wording. They challenge only the original single-cause CL025.",
+      "register_says": "EVR275/276: lender says IE results inadequate due to bias and too-tight uncertainty. EVR285: P50 bias -6.6% to -7.4%. EVR039: decision non-delegable.",
+      "suggested_fix": "Move EVR039, EVR043, EVR285, EVR275, EVR276, EVR296 to supporting_evidence_ids, or add a note that supporting/challenging are relative to original CL025, not to the proposed wording.",
+      "severity": "medium"
+    },
+    {
+      "issue_id": "FC-29",
+      "location": "revision_candidates.json REV003, REV006, REV008, REV009, REV010: challenging lists include items the proposed wording relies on",
+      "evr_ids": [
+        "EVR077",
+        "EVR252",
+        "EVR057",
+        "EVR124",
+        "EVR216",
+        "EVR333",
+        "EVR335",
+        "EVR110",
+        "EVR236",
+        "EVR102",
+        "EVR103",
+        "EVR272",
+        "EVR273",
+        "EVR222"
+      ],
+      "problem_type": "revision_direction",
+      "description": "Same pattern across these REVs: IDs listed as challenging are the evidence for the proposed qualifications. REV003: EVR077 (recomputable validation samples) supports condition (i), and EVR252 supports condition (iii). REV006: EVR057 (no memo research) and EVR124 (slides faster but less accurate) are the basis of the wording. REV008: EVR216 (variable judgment), EVR333 (bespoke complex work) and EVR335 (fee pressure) support the split. REV009: EVR110, EVR236, EVR102 and EVR103 support 'links can increase acceptance of reasoning/computation errors' and 'measure detection, not trust'. REV010: EVR272, EVR273 and EVR222 support the second sentence on judgments anchoring.",
+      "register_says": "See the cited records: EVR077 recomputed recall/precision 97.4%/16.7% from disclosed samples; EVR110 detection of wrong answers 72.2% to 54.8% with highlights; EVR222 kappa 0.10 to 0.52.",
+      "suggested_fix": "Either add a field note that supporting/challenging refer to the original claim or thesis, or move these IDs to supporting_evidence_ids for the proposed wording: REV003 +['EVR077','EVR252']; REV006 +['EVR057','EVR124']; REV008 +['EVR216','EVR333','EVR335']; REV009 +['EVR110','EVR236','EVR102','EVR103']; REV010 +['EVR272','EVR273','EVR222'].",
+      "severity": "medium"
+    }
+  ],
+  "checked_ok_count": 84,
+  "sections_checked": [
+    "Summary of conclusions (items 1-6)",
+    "RQ1 - Strongest supporting evidence",
+    "RQ1 - Strongest counterevidence",
+    "RQ1 - What can reasonably be concluded",
+    "RQ1 - Limits of transfer (spot-check)",
+    "RQ2 - Strongest supporting evidence",
+    "RQ2 - Strongest counterevidence",
+    "RQ2 - What can reasonably be concluded",
+    "RQ2 - Limits of transfer (spot-check)",
+    "RQ3 - Strongest supporting evidence",
+    "RQ3 - Strongest counterevidence",
+    "RQ3 - What can reasonably be concluded",
+    "Secondary questions RQ4-RQ6 (spot-check)",
+    "revision_candidates.json REV001-REV012 (direction of supporting/challenging IDs)",
+    "Duplicate check: EVR147, EVR152, EVR164 (duplicate_of) not cited in brief or revision_candidates"
+  ],
+  "notes": "checked_ok_count is approximate: the number of claim-to-EVR citation pairs checked against evidence.json that matched on number, direction, kind and caveat. Not checked: cross-domain transfer table wording, the '~33' and '~9 evidence groups' counts, EVR321/EVR254/EVR256 detail, and REV011 challenging IDs (EVR279, EVR294, EVR295)."
+}

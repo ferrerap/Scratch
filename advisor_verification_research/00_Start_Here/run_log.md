@@ -106,3 +106,24 @@ The three core questions have coverage sufficient to state defensible conclusion
 - Deduplication: URL/title union-find plus manual overrides; evidence-group aliases recorded; duplicate evidence items flagged rather than deleted.
 - Final synthesis-vs-register fidelity check (FC); see the results below.
 - Checked that no user conviction or canonical claim was changed: `revision_candidates.json` contains proposals only, and the validator fails on any field containing "conviction".
+- 19:24 Final fidelity check (FC) complete (≈5.4 min, 20 tool calls, ~155k tokens). 29 issues (4 high, 11 medium, 14 low); ~84 claim-to-evidence citations checked OK. Output: `03_Challenge_and_Followup/final_fidelity_check.json` + summary.
+- D17 (19:26) All 29 FC issues applied:
+  - **High:** FC-01 corrected the citation-trust claim (EVR103 shows checked random citations earned no extra trust); FC-02 corrected the NRC rule (design review, alternate calculations or testing); FC-04 relabelled the target-domain "mostly W4 driven by W3" claim as stated practice from one lender and one rating action, with the causal link marked as analyst inference; FC-06 reworded the checklist findings as associations from abstract-only studies.
+  - **Medium/low:** wording, numbers, denominators and caveats corrected in the brief, READ_FIRST, dispute register and REV003/REV011.
+  - **Revision candidates:** supporting/challenging lists are now consistently relative to the proposed wording. This fixed reversed directions in REV005/REV007 and moved IDs in REV001, REV002, REV003, REV006, REV008, REV009, REV010.
+
+## Storage and upload status
+- **Local and git:** the full project tree is committed to branch `claude/advisor-verification-research-ge4a2n` (repository `ferrerap/Scratch`), pushed after each major step. It excludes downloads and copyrighted PDFs (D03).
+- **Google Drive:** private run folder https://drive.google.com/drive/folders/1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk. Owner-only permissions verified at creation; no sharing changes were made.
+  - Subfolders: 00_Start_Here, 01_Evidence, 02_Workstreams (WS1–WS8 subfolders), 03_Challenge_and_Followup (with Round3_followups), 04_Final_Handoff.
+- **Uploads verified:** 55 files were uploaded before final packaging, each by file reference. For every one, the Drive-reported `fileSize` equalled the local byte count (per-file IDs, sizes and links in `drive_manifest.json`). They are:
+  - the worker brief;
+  - checkpoint ZIPs R1 and R2;
+  - R2 narratives, findings and comparison;
+  - all WS reports and search logs;
+  - all R3 reports and search logs;
+  - final registers, brief, disputes, revision candidates, validation results, READ_FIRST, status index, digest, source index, ID mapping, and the fidelity check.
+- **Failed uploads:** none.
+- **Post-packaging step:** `research_handoff.zip` and this `run_log.md` are uploaded *after* this ZIP is built. Their verification is recorded in the git copy of this log, the Drive copy of this log, and the final session summary. The copy of this log inside the ZIP therefore does not show the ZIP's own upload result.
+- **Post-packaging verification (19:28Z):** `research_handoff.zip` was uploaded to 04_Final_Handoff (Drive ID 1GpPETzBxYWnmbdM8EHblQncWnEG9iXqR; https://drive.google.com/file/d/1GpPETzBxYWnmbdM8EHblQncWnEG9iXqR/view). Drive-reported size is 1,023,556 bytes, equal to the local size (SHA-256 3e7e93ad56cf99cb41d4e412452c89f9fb0db24eabda88ed08c3f2e1d7bfdbc0). This run log was uploaded to 04_Final_Handoff as the last file.
+- **Session end:** no work continues after this session. No agents remain running.

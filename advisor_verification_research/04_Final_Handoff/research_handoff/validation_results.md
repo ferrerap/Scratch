@@ -2,7 +2,7 @@
 
 - Sources: 211; evidence items: 341; underlying evidence groups: 202
 - Revision candidates: 12; disputes referenced in disputes file: 8
-- Errors: 0; warnings: 38
+- Errors: 0; warnings: 25
 
 ## Errors
 - none
@@ -24,26 +24,13 @@
 - SRC098: no evidence items reference this source
 - SRC099: no evidence items reference this source
 - SRC173: no evidence items reference this source
-- research_brief.md: 21 long paragraphs without evidence IDs (review manually):
+- research_brief.md: 8 long paragraphs without evidence IDs (review manually):
 -    - Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.json` (EVR###). Disputes: `disp
 -    - - **Kinds of evidence.** Each finding names its kind: *obligation* (standard, regulation, doctrine), *observed
 -    - - **Counts.** Weight of evidence is counted in **independent evidence groups** (one study or event, however ma
 -    - - **Transfer.** Almost nothing here is direct evidence from renewable-energy investment committees (IC) or len
 -    - - **Work types.** W1 required independent judgment or governance; W2 avoidable reconstruction; W3 rework from 
 -    - - **Explanation/evidence types.** X1 persuasive explanation; X2 faithful explanation; X3 traceability to evide
--    - - *Empirical:* recipient review rests on a non-delegable core (deciding, vetting the producer, judging suffici
--    - - *Empirical:* where documentation is missing, standards prescribe more work. Where evidence is inaccessible, 
--    - - *Analyst inference:* the reducible part of review is the gap between "evaluate the producer's work" and "re-
--    - - *Analyst inference:* a traceable advisor report would not remove those haircuts. Back-testing evidence would
--    - - Whether lenders' and ICs' credit policies distinguish expert-certified content (for example, an IE report wi
--    - - **Securities-law doctrine** (§11, WorldCom) does not apply to private lenders or ICs. The expertised/non-exp
--    - - *Empirical (lay experiments, several groups):* checkable evidence (X3/X4) protects detection better than nar
--    - - *Empirical (obligation and courts):* coverage information supports reliance when it can be independently ver
--    - - *Analyst inference:* the thesis is best supported in a narrowed form. Claim- and calculation-level traceabil
--    - - **Court acceptance of coverage validation** rests on high-volume statistical sampling and an adversary. Dili
--    - - *Empirical (medicine, replicated; finance, one analog):* placing outside evidence inside the recipient's own
--    - - *Empirical (several groups, mostly generic AI tools):* assistance that produces drafts for the recipient ten
--    - - The mortgage analog is high-volume and standardized. Project-finance diligence is low-volume and heterogeneo
 -    - - **Totals:** see `READ_FIRST.md` for final counts of sources, evidence items, independent evidence groups and
 -    - - **Corrections:** the Round-2 audit verified 23 consequential statistics against originals and led to recorde
 

@@ -1,0 +1,13 @@
+{
+  "_doc": "Coordinator overrides applied by merge_registers.py. Every override is recorded here (never silent).",
+  "source_merge": [
+    ["WS7-S03", "WS6-S03"],
+    ["WS7-S04", "WS6-S05"]
+  ],
+  "source_no_merge": [],
+  "eg_alias": {},
+  "drop_sources": [],
+  "drop_evidence": [],
+  "source_patch": {},
+  "evidence_patch": {}
+}

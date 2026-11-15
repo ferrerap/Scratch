@@ -1,0 +1,157 @@
+{
+  "n_sources": 126,
+  "n_evidence": 217,
+  "n_underlying_evidence_groups": 121,
+  "multi_document_groups": {
+    "EG:occ-939a-investment-securities-2012": 2,
+    "EG:lerner-tetlock1999-accountability": 2,
+    "EG:deloitte-dewr-2025": 2,
+    "EG:choi2024-lawyering-gpt4-rct": 3
+  },
+  "merged_sources": {
+    "SRC001": [
+      "WS1-S01",
+      "WS7-S02"
+    ],
+    "SRC038": [
+      "WS3-S02",
+      "WS4-S16"
+    ],
+    "SRC045": [
+      "WS3-S09",
+      "WS6-S12"
+    ],
+    "SRC046": [
+      "WS3-S10",
+      "WS6-S13"
+    ],
+    "SRC054": [
+      "WS4-S03",
+      "WS6-S04",
+      "WS7-S11"
+    ],
+    "SRC055": [
+      "WS4-S04",
+      "WS7-S12"
+    ],
+    "SRC070": [
+      "WS5-S03",
+      "WS6-S17"
+    ],
+    "SRC082": [
+      "WS5-S15",
+      "WS6-S07"
+    ],
+    "SRC085": [
+      "WS6-S03",
+      "WS7-S03"
+    ],
+    "SRC086": [
+      "WS6-S05",
+      "WS7-S04"
+    ]
+  },
+  "by_access_status": {
+    "full_text": 85,
+    "partial": 17,
+    "abstract_only": 20,
+    "other": 4
+  },
+  "by_source_type": {
+    "professional_standard": 11,
+    "regulator_inspection_report": 2,
+    "regulation_or_guidance": 13,
+    "peer_reviewed_field_study (interviews)": 3,
+    "peer_reviewed_experiment": 34,
+    "peer_reviewed_survey": 2,
+    "peer_reviewed_field_study": 2,
+    "working_paper (experiment)": 1,
+    "podcast_or_webinar": 1,
+    "company_announcement": 2,
+    "news_report": 7,
+    "industry_survey": 9,
+    "procurement_document": 2,
+    "practitioner_account": 10,
+    "vendor_case_study": 2,
+    "job_posting": 1,
+    "field_experiment": 5,
+    "court_decision": 3,
+    "book_or_review": 11,
+    "other": 1,
+    "working_paper": 4
+  },
+  "evidence_by_rq": {
+    "RQ1": 99,
+    "RQ2": 120,
+    "RQ3": 43,
+    "RQ6": 9,
+    "RQ5": 14,
+    "RQ4": 9
+  },
+  "evidence_by_relationship": {
+    "supports": 136,
+    "challenges": 11,
+    "qualifies": 49,
+    "contextual": 21
+  },
+  "evidence_by_proposition_relationship": {
+    "P-NEW|challenges": 1,
+    "P-NEW|contextual": 4,
+    "P-NEW|qualifies": 7,
+    "P-NEW|supports": 22,
+    "P1.1|contextual": 3,
+    "P1.1|qualifies": 6,
+    "P1.1|supports": 34,
+    "P1.2|qualifies": 3,
+    "P1.2|supports": 13,
+    "P1.3|contextual": 2,
+    "P1.3|qualifies": 2,
+    "P1.3|supports": 12,
+    "P1.4|qualifies": 1,
+    "P1.4|supports": 5,
+    "P1.5|contextual": 2,
+    "P1.5|supports": 2,
+    "P1.6|challenges": 2,
+    "P1.6|contextual": 1,
+    "P1.6|qualifies": 3,
+    "P1.6|supports": 9,
+    "P2.1|challenges": 2,
+    "P2.1|contextual": 2,
+    "P2.1|qualifies": 8,
+    "P2.1|supports": 9,
+    "P2.2|challenges": 3,
+    "P2.2|qualifies": 11,
+    "P2.2|supports": 5,
+    "P2.3|challenges": 1,
+    "P2.3|qualifies": 5,
+    "P2.3|supports": 13,
+    "P2.4|challenges": 2,
+    "P2.4|contextual": 4,
+    "P2.4|qualifies": 11,
+    "P2.4|supports": 21,
+    "P2.5|qualifies": 3,
+    "P2.5|supports": 8,
+    "P2.6|qualifies": 1,
+    "P2.6|supports": 2,
+    "P3.1|challenges": 1,
+    "P3.1|contextual": 1,
+    "P3.1|qualifies": 1,
+    "P3.1|supports": 1,
+    "P3.2|qualifies": 1,
+    "P3.2|supports": 15,
+    "P3.3|qualifies": 2,
+    "P3.3|supports": 5,
+    "P3.4|supports": 2,
+    "P4.1|contextual": 2,
+    "P4.1|qualifies": 1,
+    "P4.1|supports": 4,
+    "P5.1|challenges": 1,
+    "P5.1|contextual": 3,
+    "P5.1|qualifies": 7,
+    "P5.1|supports": 2,
+    "P6.1|contextual": 1,
+    "P6.1|qualifies": 3,
+    "P6.1|supports": 1
+  },
+  "unresolved_evidence_source_links": []
+}

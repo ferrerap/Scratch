@@ -1,0 +1,2670 @@
+[
+  {
+    "source_id": "SRC001",
+    "title": "Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on Amendments to Auditing Standards for Auditor's Use of the Work of Specialists (SEC Release 34-85435; contains PCAOB's statement of purpose, response to comments, and economic analysis for PCAOB Release No. 2018-006)",
+    "authors_or_organization": "PCAOB (filed with U.S. SEC); published in Federal Register 84 FR 13442-13484",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2019-04-04/html/2019-06425.htm",
+    "publication_date": "2019-04-04 (Federal Register); PCAOB adoption 2018-12-20; SEC approval 2019-07-01 (Release 34-86270); effective for FY ending on/after 2020-12-15",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Regulator's own rationale and description; shows obligations and regulator-reported inspection observations, not compliance rates or effort. Inspection observations are from risk-selected (non-random) inspections. Full amended rule text (AS 1210, AS 1105 App. A) was not read verbatim; requirements are taken from the filing's description. pcaobus.org blocked scripted access so the PCAOB adopting release itself was not retrieved; the Federal Register filing reproduces its substance. | Same underlying rulemaking as WS7-S01 (not independent evidence). Used to record the SEC/Federal Register access route and the Board's own summary of the risk-based scaling intent. The SEC approval order PDF (Release 34-86270) on sec.gov returned a 'Request Rate Threshold Exceeded' page to curl and was not read.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists",
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS1-S01",
+      "WS7-S02"
+    ]
+  },
+  {
+    "source_id": "SRC002",
+    "title": "Interim Analysis Report: Evidence on the Initial Impact of New Requirements for Auditing Accounting Estimates and the Auditor's Use of the Work of Specialists (PCAOB Release No. 2022-008)",
+    "authors_or_organization": "PCAOB Office of Economic and Risk Analysis staff",
+    "url": "https://pcaobus.org/economicandriskanalysis/pir/documents/estimates-specialists-interim-analysis-report.pdf",
+    "publication_date": "2022-12-08",
+    "data_collection_dates": "Firm survey Aug 2021; 31 engagement-partner interviews Aug 2021-Feb 2022; 12 audit committee chairs + 9 preparers Sep 2021-Mar 2022; inspections data pre/post FY2020",
+    "access_date": "2026-11-15",
+    "source_type": "regulator_inspection_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob-specialists-pir-2022",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Regulator evaluating its own rule. Survey targeted firms/audits with heavy specialist use (explicitly non-random 'upper bound'); statistical analysis descriptive, not causal (no control group; COVID and other rule changes confound). Self-reported hours. Estimates and Specialists requirements implemented jointly, so effects not separable. Retrieved via WebFetch (binary saved by tool, converted locally).",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S02"
+    ]
+  },
+  {
+    "source_id": "SRC003",
+    "title": "ISA (UK) 620 (Revised June 2016): Using the Work of an Auditor's Expert",
+    "authors_or_organization": "Financial Reporting Council (UK), based on IAASB ISA 620",
+    "url": "https://www.frc.org.uk/documents/662/ISA_UK_620_Revised_June_2016.pdf",
+    "publication_date": "2016-06",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:isa620",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "UK-conformed version of IAASB ISA 620; quoted paragraphs (3, 8, 12-14, A33-A40) match the international text in substance but UK version was used because the IAASB PDF was not retrieved. Superseded by later UK editions and by IAASB narrow-scope amendments (Dec 2025); standard shows obligation, not practice.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S03"
+    ]
+  },
+  {
+    "source_id": "SRC004",
+    "title": "Basis for Conclusions: Narrow-Scope Amendments to IAASB Standards Arising from the IESBA's Using the Work of an External Expert Project",
+    "authors_or_organization": "Staff of the IAASB (IFAC)",
+    "url": "https://ifacweb.blob.core.windows.net/publicfiles/2026-01/IAASB-Basis-For-Conclusions-Experts-Narrow-Scope-Amendments_0.pdf",
+    "publication_date": "2026-01",
+    "data_collection_dates": "Exposure draft comments Apr-Jul 2025 (50 responses)",
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:iaasb-experts-nsa-2026",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Staff document, non-authoritative; only Sections A-D read. Concerns competence/capabilities/objectivity gating, not evaluation of content.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S04"
+    ]
+  },
+  {
+    "source_id": "SRC005",
+    "title": "ASA 500 Audit Evidence (compiled, Dec 2022) - conforms with ISA 500",
+    "authors_or_organization": "Auditing and Assurance Standards Board (Australia)",
+    "url": "https://auasb.gov.au/media/bg4bkuqn/asa500_12-22.pdf",
+    "publication_date": "2022-12 (compilation)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:isa500",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Only paragraph 8 (management's expert) read. Australian conformed text used as stand-in for IAASB ISA 500 para 8.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S05"
+    ]
+  },
+  {
+    "source_id": "SRC006",
+    "title": "ASA 610 Using the Work of Internal Auditors (compiled, Dec 2023) - conforms with ISA 610 (Revised 2013)",
+    "authors_or_organization": "Auditing and Assurance Standards Board (Australia)",
+    "url": "https://www.auasb.gov.au/media/qtxlmmpb/asa610_12-23.pdf",
+    "publication_date": "2023-12 (compilation)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:isa610",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Requirements paras 15-25 read; application material not read. Australian conformed text used as stand-in for ISA 610 (Revised 2013). PCAOB AS 2605 (US analog) not retrieved (pcaobus.org blocked).",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S06"
+    ]
+  },
+  {
+    "source_id": "SRC007",
+    "title": "ASA 402 Audit Considerations Relating to an Entity Using a Service Organisation (compiled, Dec 2023) - conforms with ISA 402",
+    "authors_or_organization": "Auditing and Assurance Standards Board (Australia)",
+    "url": "https://www.auasb.gov.au/media/dwadcoj3/asa402_12-23.pdf",
+    "publication_date": "2023-12 (compilation)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:isa402",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Definitions, requirements 13-21 and application paras A31-A38 read. Stand-in for ISA 402; US analogs AU-C 402 (AICPA) and PCAOB AS 2601 not retrieved (AS 2601 page returned HTTP 403). Standard shows obligation, not how user auditors behave.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S07"
+    ]
+  },
+  {
+    "source_id": "SRC008",
+    "title": "Basis for Conclusions: ISAE 3402, Assurance Reports on Controls at a Service Organization",
+    "authors_or_organization": "Staff of the IAASB (IFAC)",
+    "url": "https://www.ifac.org/system/files/publications/files/basis-for-conclusions-isae.pdf",
+    "publication_date": "2009-12",
+    "data_collection_dates": "Exposure draft comment period (dates not recorded)",
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:isae3402",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Staff document explaining standard-setter reasoning, non-authoritative. Reports respondent views qualitatively ('most', 'significant minority') without counts. Paras 41-46 and 65-66 read in full; rest skimmed.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S08"
+    ]
+  },
+  {
+    "source_id": "SRC009",
+    "title": "Order Granting Approval of Amendments to Auditing Standards for Planning and Supervision of Audits Involving Other Auditors and Dividing Responsibility for the Audit with Another Accounting Firm (SEC Release No. 34-95488)",
+    "authors_or_organization": "U.S. Securities and Exchange Commission (approving PCAOB Release No. 2022-002)",
+    "url": "https://www.sec.gov/files/rules/pcaob/2022/34-95488.pdf",
+    "publication_date": "2022-08-12 (order); 87 FR 50891 (2022-08-18)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob-other-auditors-2022",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "SEC summary of PCAOB amendments; full PCAOB adopting release not read. Describes obligations, not practice.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S09"
+    ]
+  },
+  {
+    "source_id": "SRC010",
+    "title": "Audits of Complex Estimates as Verification of Management Numbers: How Institutional Pressures Shape Practice",
+    "authors_or_organization": "Emily E. Griffith; Jacqueline S. Hammersley; Kathryn Kadous",
+    "url": "https://ideas.repec.org/a/wly/coacre/v32y2015i3p833-863.html (DOI 10.1111/1911-3846.12104)",
+    "publication_date": "2015-09 (Contemporary Accounting Research 32(3):833-863)",
+    "data_collection_dates": "Interviews (dates not reported in abstract)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_field_study (interviews)",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:griffith-hammersley-kadous-2015",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract seen only as rendered/paraphrased by a fetch tool (IDEAS page); verbatim abstract and full text not reviewed. Interview study (24 auditors per abstract summary), pre-2020 standards. source_type is interview-based field study (no closer category).",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S10"
+    ]
+  },
+  {
+    "source_id": "SRC011",
+    "title": "Auditors, Specialists, and Professional Jurisdiction in Audits of Fair Values",
+    "authors_or_organization": "Emily E. Griffith",
+    "url": "https://ideas.repec.org/a/wly/coacre/v37y2020i1p245-276.html (DOI 10.1111/1911-3846.12506); working paper SSRN 3404297 (blocked, HTTP 403)",
+    "publication_date": "2020-03 (Contemporary Accounting Research 37(1):245-276); working paper 2019",
+    "data_collection_dates": "Interviews (dates not located)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_field_study (interviews)",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:griffith-2020-jurisdiction",
+    "funding_or_commercial_relationships": "not located",
+    "archived_file_path": null,
+    "limitations": "Abstract seen via fetch-tool rendering of IDEAS record; two verbatim passages from the working paper are available only as quoted by the PCAOB in 84 FR 13472-13474 (secondary quotation). Published version not reviewed. Interview study of 28 auditors and 14 valuation specialists under pre-2020 standards. A related Griffith & Hammersley (2019) draft found during search is marked 'do not quote or cite without authors' permission' and was deliberately not used.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S11"
+    ]
+  },
+  {
+    "source_id": "SRC012",
+    "title": "When Do Auditors Use Specialists' Work to Improve Problem Representations of and Judgments about Complex Estimates?",
+    "authors_or_organization": "Emily E. Griffith",
+    "url": "https://business.wisc.edu/news/auditors-dont-underestimate-your-valuation-specialist/ (DOI 10.2308/accr-51926)",
+    "publication_date": "2018 (The Accounting Review 93(4):177-202)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:griffith-2018-relational-cue",
+    "funding_or_commercial_relationships": "not located",
+    "archived_file_path": null,
+    "limitations": "Only search-engine abstract excerpts and a university news article (fetched) were seen; participant counts, effect sizes and materials not reviewed.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S12"
+    ]
+  },
+  {
+    "source_id": "SRC013",
+    "title": "Auditors' and Specialists' Views About the Use of Specialists During an Audit",
+    "authors_or_organization": "J. Efrim Boritz; Natalia V. Kochetova(-Kozloski); Linda A. Robinson; Christopher Wong",
+    "url": "https://econbiz.de/Record/auditors-and-specialists-views-about-the-use-of-specialists-during-an-audit-boritz-jefim/10012813492",
+    "publication_date": "2020 (Behavioral Research in Accounting 32(2):15-40)",
+    "data_collection_dates": "Interviews (dates not located)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_field_study (interviews)",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:boritz-2020-specialists-views",
+    "funding_or_commercial_relationships": "not located",
+    "archived_file_path": null,
+    "limitations": "access_status=other: only search-engine summaries of catalog abstracts seen; abstract not directly viewed (econbiz blocked by bot protection); full text not reviewed. Interview study: 34 practitioners (12 auditors, 22 tax/IT/valuation/forensic specialists) from six firms per catalog summary.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S13"
+    ]
+  },
+  {
+    "source_id": "SRC014",
+    "title": "Current Practices and Challenges in Auditing Fair Value Measurements and Complex Estimates: Implications for Auditing Standards and the Academy",
+    "authors_or_organization": "Steven M. Glover; Mark H. Taylor; Yi-Jing Wu",
+    "url": "https://typeset.io/pdf/current-practices-and-challenges-in-auditing-fair-value-2fb8873ifh.pdf (DOI 10.2308/ajpt-51514)",
+    "publication_date": "2017-02 (Auditing: A Journal of Practice & Theory 36(1):63-84); published online 2016-07",
+    "data_collection_dates": "Survey (submitted Jan 2015; survey dates not located)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_survey",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:glover-taylor-wu-2017",
+    "funding_or_commercial_relationships": "Funded by the Center for Audit Quality (CAQ); CAQ Research Advisory Board helped refine survey",
+    "archived_file_path": null,
+    "limitations": "Copy obtained from a third-party academic aggregator (typeset.io); provenance of that copy uncertain. Survey of 32 partners/senior managers with FVM expertise at 5 firms (3 Big 4, 2 international networks); self-reported practice; open-ended responses coded (avg kappa 0.63); pre-2020 standards; small n.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S14"
+    ]
+  },
+  {
+    "source_id": "SRC015",
+    "title": "Mind the Gap: Why Do Experts Have Differences of Opinion Regarding the Sufficiency of Audit Evidence Supporting Complex Fair Value Measurements?",
+    "authors_or_organization": "Steven M. Glover; Mark H. Taylor; Yi-Jing Wu; Ken T. Trotman",
+    "url": "https://ideas.repec.org/a/wly/coacre/v36y2019i3p1417-1460.html (DOI 10.1111/1911-3846.12480)",
+    "publication_date": "2019-09 (Contemporary Accounting Research 36(3):1417-1460)",
+    "data_collection_dates": "not located",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_field_study",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:glover-et-al-2019-fvm-gap",
+    "funding_or_commercial_relationships": "not located",
+    "archived_file_path": null,
+    "limitations": "Abstract seen via fetch-tool rendering of IDEAS record only; participant counts not reported there; full text not reviewed.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S15"
+    ]
+  },
+  {
+    "source_id": "SRC016",
+    "title": "Auditing Challenging Fair Value Measurements: Evidence from the Field",
+    "authors_or_organization": "Nathan H. Cannon; Jean C. Bedard",
+    "url": "https://www.econbiz.de/Record/auditing-challenging-fair-value-measurements-evidence-from-the-field/10013007676 (DOI 10.2308/accr-51569)",
+    "publication_date": "2017-07 (The Accounting Review 92(4):81-114)",
+    "data_collection_dates": "not located",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_field_study",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:cannon-bedard-2017",
+    "funding_or_commercial_relationships": "not located",
+    "archived_file_path": null,
+    "limitations": "access_status=other: only search-engine summaries of the abstract seen; full text paywalled and not reviewed. Engagement-level field data reported by auditors; counts not seen.",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S16"
+    ]
+  },
+  {
+    "source_id": "SRC017",
+    "title": "Evidence Specificity and Auditors' Heuristic Responses to Human and Non-Human Specialists",
+    "authors_or_organization": "Benjamin P. Commerford; Blake A. Holman",
+    "url": "https://www.nhh.no/globalassets/centres/digaudit/activities/commerford-and-holman-2022-april--evidence-specificity-and-auditors-heuristic-responses-to-human-and-non-human-specialists.pdf",
+    "publication_date": "2022-04 (working paper)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper (experiment)",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:commerford-holman-2022",
+    "funding_or_commercial_relationships": "Funded by the Center for Audit Quality (participants supplied via CAQ Research Advisory Board grant) and the University of Kentucky",
+    "archived_file_path": null,
+    "limitations": "Working paper version (peer-review status of this version not established; source_type closest category). Single hypothetical case (insurance claim reserve); 98 audit managers; DV is proposed adjustment (reliance), no ground-truth accuracy measure; time-on-task result marginal (one-tailed p=0.09).",
+    "contributing_workstreams": [
+      "WS1_audit_specialists"
+    ],
+    "temp_ids": [
+      "WS1-S17"
+    ]
+  },
+  {
+    "source_id": "SRC018",
+    "title": "SR 26-2 Attachment: Supervisory Guidance on Model Risk Management (revised; supersedes SR 11-7 / OCC 2011-12)",
+    "authors_or_organization": "Board of Governors of the Federal Reserve System; FDIC; OCC",
+    "url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf",
+    "publication_date": "2026-04-17",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Supervisory guidance (not a rule); states expectations, not compliance or effects. Supersedes SR 11-7 (April 2011), so lead text quoted from SR 11-7 (e.g., vendors expected to provide developmental evidence) is no longer in the current Fed text in that detail. Footnote 3 places generative and agentic AI models outside scope. Applies to banking organizations' models, not to advisory reports generally; transfer to IE/advisor reports is by analogy.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S01"
+    ]
+  },
+  {
+    "source_id": "SRC019",
+    "title": "FDIC Examination Modules: Model Risk Management - Core Analysis Procedures (10/25)",
+    "authors_or_organization": "Federal Deposit Insurance Corporation (FDIC)",
+    "url": "https://www.fdic.gov/risk-management-manual-examination-policies/rc-mrm.pdf",
+    "publication_date": "2025-10 (PDF created 2025-10-03, modified 2025-11-05)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:fdic-mrm-exam-module-2025",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Examiner procedures; examiners 'are not expected to perform every procedure at every institution'. Shows what examiners may look for, not what banks actually do. References SR 11-7/FIL-22-2017, which SR 26-2 superseded in April 2026; may be revised.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S02"
+    ]
+  },
+  {
+    "source_id": "SRC020",
+    "title": "Guidance on Due Diligence Requirements in Determining Whether Securities Are Eligible for Investment (77 FR 35259)",
+    "authors_or_organization": "Office of the Comptroller of the Currency (OCC)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2012-06-13/pdf/2012-14168.pdf",
+    "publication_date": "2012-06-13",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Supervisory guidance implementing Dodd-Frank s.939A for national banks/FSAs; states expectations, not observed practice or effects. Securities investment context (not project loans). Page locators inferred from Federal Register page headers in extracted text.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S03"
+    ]
+  },
+  {
+    "source_id": "SRC021",
+    "title": "12 CFR Part 1 (Investment Securities), sections 1.2(d) 'Investment grade' and 1.5 'Safe and sound banking practices; credit information required' (current eCFR text)",
+    "authors_or_organization": "Office of the Comptroller of the Currency (OCC) / eCFR",
+    "url": "https://www.ecfr.gov/current/title-12/chapter-I/part-1",
+    "publication_date": "1996-12-02 as amended (1.2 amended 77 FR 35257, 2012-06-13; 1.5 amended 91 FR 18292, 2026-04-10)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Regulatory text only; the April 2026 amendment to 1.5 was not reviewed for what it changed. Same regulatory package as WS2-S03 (not independent evidence).",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S04"
+    ]
+  },
+  {
+    "source_id": "SRC022",
+    "title": "Interagency Guidance on Third-Party Relationships: Risk Management (88 FR 37920)",
+    "authors_or_organization": "Federal Reserve Board; FDIC; OCC",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2023-06-09/pdf/2023-12340.pdf",
+    "publication_date": "2023-06-09",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:interagency-tprm-2023",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Covers business arrangements/outsourced activities broadly, not specifically purchased analysis or advisory reports; analogy only. Exact FR page for quoted passages not pinned (text extracted without page mapping).",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S05"
+    ]
+  },
+  {
+    "source_id": "SRC023",
+    "title": "Final Report: Guidelines on loan origination and monitoring (EBA/GL/2020/06)",
+    "authors_or_organization": "European Banking Authority (EBA)",
+    "url": "https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2020/Guidelines%20on%20loan%20origination%20and%20monitoring/884283/EBA%20GL%202020%2006%20Final%20Report%20on%20GL%20on%20loan%20origination%20and%20monitoring.pdf",
+    "publication_date": "2020-05-29 (final report; application from 2021-06-30)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:eba-lom-2020",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Full PDF retrieved; only sections 5.2.6-5.2.11 (incl. project finance) and para. 91 reviewed in detail. EU guidelines (comply-or-explain); obligation, not observed practice.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S06"
+    ]
+  },
+  {
+    "source_id": "SRC024",
+    "title": "Debt Rating Drivers for Renewable Power Projects (presentation, CDFA Intro Course)",
+    "authors_or_organization": "Chris Joassin, Director, Fitch Ratings Global Infrastructure and Project Finance Group",
+    "url": "https://www.cdfa.net/cdfa/cdfaweb.nsf/ord/iefc12-joassin.html/$file/Joassin.%20Fitch%20CJ%20-%20CDFA%20Intro%20Course%207-31-12.pdf",
+    "publication_date": "2012-07-31",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "podcast_or_webinar",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:fitch-renewable-criteria-2012-presentation",
+    "funding_or_commercial_relationships": "Rating agency describing its own approach (Fitch is paid by issuers for ratings).",
+    "archived_file_path": null,
+    "limitations": "Conference slide deck summarizing 2012 Fitch criteria (onshore wind April 2012; solar Feb 2012); current Fitch Renewable Energy Project Rating Criteria not retrieved (fitchratings.com not accessed; criteria likely changed). Slides, not full criteria text.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S07"
+    ]
+  },
+  {
+    "source_id": "SRC025",
+    "title": "Fitch Revises Topaz Solar Farms LLC's Senior Notes Outlook to Positive; Affirms 'BB' Rating (republished rating action commentary)",
+    "authors_or_organization": "Fitch Ratings (republished by MarketScreener)",
+    "url": "https://in.marketscreener.com/quote/stock/PACIFIC-GAS-AND-ELECTRIC--15763/news/Fitch-Revises-Topaz-Solar-Farms-LLC-s-Senior-Notes-Outlook-to-Positive-Affirms-BB-Rating-46501223/",
+    "publication_date": "2024-04-23 (republication date)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "company_announcement",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:fitch-topaz-rac-2024",
+    "funding_or_commercial_relationships": "Rating agency output on an issuer-paid rating.",
+    "archived_file_path": null,
+    "limitations": "Read only via an automated fetch/summarization tool (direct curl returned a stub); excerpts truncated by the tool and not verified verbatim against Fitch's original. Single project; does not mention the independent engineer.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S08"
+    ]
+  },
+  {
+    "source_id": "SRC026",
+    "title": "US solar asset underperformance worsened over last decade, prompting P50 estimate concerns (news report on kWh Analytics 2021 Solar Generation Index)",
+    "authors_or_organization": "Liam Stoker, PV Tech (reporting on kWh Analytics)",
+    "url": "https://www.pv-tech.org/us-solar-asset-underperformance-worsened-over-last-decade-prompting-p50-estimate-concerns",
+    "publication_date": "2021-10-28",
+    "data_collection_dates": "2011-2020 (operational data)",
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:kwh-analytics-sgi-2021",
+    "funding_or_commercial_relationships": "kWh Analytics is a solar insurance/risk-data provider with commercial interest in performance-risk products.",
+    "archived_file_path": null,
+    "limitations": "Secondary news report read via automated fetch tool; original kWh Analytics report not retrieved. Does not state who produced the P50 estimates (IE vs sponsor consultant) or whether these were lender-relied IE reports; weather adjustment method not reviewed.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S09"
+    ]
+  },
+  {
+    "source_id": "SRC027",
+    "title": "Trends in KBRA's Renewable Portfolio (research report; press release 'KBRA Releases Research - Trends in KBRA's Renewable Portfolio')",
+    "authors_or_organization": "Kroll Bond Rating Agency (KBRA)",
+    "url": "https://www.kbra.com/publications/cJLkfjBN",
+    "publication_date": "2022-07-05",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:kbra-renewable-portfolio-2022",
+    "funding_or_commercial_relationships": "Rating agency analysis of its own rated portfolio.",
+    "archived_file_path": null,
+    "limitations": "ONLY search-engine result summaries seen; full report requires KBRA login and the BusinessWire release returned HTTP 403. Findings (70 rated renewable transactions; generation rarely at P50; solar closest to P90) are unverified paraphrases. Treat as a lead, not established evidence.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S10"
+    ]
+  },
+  {
+    "source_id": "SRC028",
+    "title": "Hope Enterprise Corporation Request for Proposals: Engineering Technical Assistance Services (Solar for All commercial solar lending)",
+    "authors_or_organization": "Hope Enterprise Corporation (HEC), a CDFI and EPA Solar for All grantee (hosted by CESA)",
+    "url": "https://www.cesa.org/wp-content/uploads/SFA-RFP-Engineering-Technical-Assistance-Services.pdf",
+    "publication_date": "2025-04-29 (PDF creation; responses due 2025-05-30)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "procurement_document",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:hope-sfa-engineering-rfp-2025",
+    "funding_or_commercial_relationships": "Federally funded (EPA awards FAIN 84091501 and 84091401).",
+    "archived_file_path": null,
+    "limitations": "One mission-driven lender's advertised scope; shows intended division of labor, not actual practice or outcomes. No reliance-letter language included in the RFP.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S11"
+    ]
+  },
+  {
+    "source_id": "SRC029",
+    "title": "Delaware General Corporation Law, Title 8, s.141(e) (reliance on records, reports and experts)",
+    "authors_or_organization": "State of Delaware",
+    "url": "https://delcode.delaware.gov/title8/c001/sc04/index.html",
+    "publication_date": "current code as accessed 2026-11-15",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:dgcl-141e",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Statute text only; interpretive case law (e.g., Brehm v. Eisner, 746 A.2d 244 (Del. 2000)) not retrieved (Justia 403; CourtListener API requires authentication). Applies to corporate directors, not lender credit committees directly.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S12"
+    ]
+  },
+  {
+    "source_id": "SRC030",
+    "title": "Why U.S. Private Equity Funds Should Adopt Sell-Side (Vendor) Due Diligence with a Twist",
+    "authors_or_organization": "Ted D. Rosen, Esq. (published in EisnerAmper Private Equity Intelligence)",
+    "url": "https://www.eisneramper.com/insights/private-equity/private-equity-funds-due-diligence-pei-1118/",
+    "publication_date": "2018-11-28",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:rosen-2018-vddr",
+    "funding_or_commercial_relationships": "Published on an accounting/advisory firm's site that sells diligence services; author is a transactional lawyer.",
+    "archived_file_path": null,
+    "limitations": "Opinion/advocacy piece by one practitioner; no data. Describes typical non-reliance letter terms, not a sample of deals.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S13"
+    ]
+  },
+  {
+    "source_id": "SRC031",
+    "title": "Drafting an IC memo from diligence findings (product workflow page)",
+    "authors_or_organization": "Model ML (AI software vendor)",
+    "url": "https://llms.modelml.com/ic-memo-from-diligence-findings",
+    "publication_date": "2026-07-07",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "vendor_case_study",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:modelml-ic-memo-2026",
+    "funding_or_commercial_relationships": "Vendor marketing for its own product; named customers are vendor-reported.",
+    "archived_file_path": null,
+    "limitations": "Vendor claims; no measurement method, no denominators; time saving stated qualitatively ('days to hours'). Selection and attribution limits; does not report error-detection outcomes.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S14"
+    ]
+  },
+  {
+    "source_id": "SRC032",
+    "title": "Investment memos and decision-making: Translating better memos into stronger returns (Addepar Research Brief)",
+    "authors_or_organization": "Barbara McEvilley, Ashby Monk, Dane Rook (Addepar; survey with Stanford Initiative in Long-Term Investing)",
+    "url": "https://info.addepar.com/rs/232-KUI-215/images/addepar-investment-memos.pdf",
+    "publication_date": "2023 (cites Google Scholar check as of March 2023; exact date not printed)",
+    "data_collection_dates": "Survey June 2022; six case-study interviews October 2022",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
+    "funding_or_commercial_relationships": "Addepar is an investment software vendor; audience included Addepar clients.",
+    "archived_file_path": null,
+    "limitations": "54 responding organizations; convenience sample including vendor clients; mostly asset owners (pension funds, endowment, family office in case studies) rather than lenders or renewable-energy investors. Self-reported; percentages without CIs.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S15"
+    ]
+  },
+  {
+    "source_id": "SRC033",
+    "title": "Credible model audit for the AI era",
+    "authors_or_organization": "Forvis Mazars UK (experts named: Jerome Brice, Ryan Humphrey)",
+    "url": "https://www.forvismazars.com/uk/en/insights/energy-infrastructure-and-environment-insights/credible-model-audit-for-the-ai-era",
+    "publication_date": "2025-10-20",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:forvismazars-model-audit-ai-2025",
+    "funding_or_commercial_relationships": "Model-audit service provider promoting a standards-based (ISAE 3000) model audit offering.",
+    "archived_file_path": null,
+    "limitations": "Marketing/thought-leadership page; assertions without data. Linked white paper not retrieved.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S16"
+    ]
+  },
+  {
+    "source_id": "SRC034",
+    "title": "Audit Report DOE-OIG-25-32: The Loan Programs Office's Management of Contractor Conflicts of Interest",
+    "authors_or_organization": "U.S. Department of Energy, Office of Inspector General",
+    "url": "https://www.oversight.gov/sites/default/files/documents/reports/2025-08/DOE-OIG-25-32.pdf",
+    "publication_date": "2025-08-26",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulator_inspection_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:doe-oig-25-32-lpo-coi",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Judgmental sample (18 projects; 12 of 66 third-party advisor agreements); results not projectable. Focus is conflicts-of-interest management, not quality or rework of advisor analysis.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S17"
+    ]
+  },
+  {
+    "source_id": "SRC035",
+    "title": "SEC Rule 15Ga-2 (17 CFR 240.15Ga-2) Findings and conclusions of third-party due diligence reports; and Rule 17g-10 (17 CFR 240.17g-10) certification of third-party due diligence providers",
+    "authors_or_organization": "U.S. Securities and Exchange Commission / eCFR",
+    "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.15Ga-2",
+    "publication_date": "current eCFR text (adopted 2014 under Dodd-Frank s.932/943)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:sec-abs-due-diligence-disclosure",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Disclosure obligation for rated ABS, not project finance; Form ABS Due Diligence-15E item text not retrieved (SEC URL tried returned 404). Shows a mandate, not effects on verification effort.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S18"
+    ]
+  },
+  {
+    "source_id": "SRC036",
+    "title": "Job posting: Associate, Clean Energy Investment (London)",
+    "authors_or_organization": "Capital Dynamics",
+    "url": "https://www.capdyn.com/Customer-Content/www/careers/PDFs/Clean_Energy_Associate_-_CD_Career.pdf",
+    "publication_date": "2023-09-22",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "job_posting",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:capdyn-job-2023",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Single job posting; shows advertised responsibilities, not time allocation or trend.",
+    "contributing_workstreams": [
+      "WS2_investment_credit_IC"
+    ],
+    "temp_ids": [
+      "WS2-S19"
+    ]
+  },
+  {
+    "source_id": "SRC037",
+    "title": "Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools",
+    "authors_or_organization": "Varun Magesh, Faiz Surani, Matthew Dahl, Mirac Suzgun, Christopher D. Manning, Daniel E. Ho (Stanford RegLab/HAI; Yale)",
+    "url": "https://arxiv.org/abs/2405.20362",
+    "publication_date": "2024-05-30 (arXiv v1); published version: Journal of Empirical Legal Studies 22(2):216-242, 2025, doi:10.1111/jels.12413",
+    "data_collection_dates": "Lexis+ AI, Ask Practical Law AI, GPT-4 queries run 2024-03-22 to 2024-04-22; Westlaw AI-Assisted Research run 2024-05-23 to 2024-05-27 (per arXiv v1 Section 5)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:magesh2024-legal-rag-hallucination",
+    "funding_or_commercial_relationships": "Academic study of commercial products from LexisNexis and Thomson Reuters; funding not extracted.",
+    "archived_file_path": null,
+    "limitations": "Full text read is arXiv v1 (2024-05-30). The published JELS 2025 version could not be downloaded (connection reset) and figures may differ slightly; v1 itself notes revalidation moved one accuracy figure from 19% to 20%. 202 preregistered queries; benchmark of tool outputs, not of lawyers' verification behavior; tools change over time.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S01"
+    ]
+  },
+  {
+    "source_id": "SRC038",
+    "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
+    "authors_or_organization": "Daniel Schwarcz, Sam Manning, Patrick Barry, David R. Cleveland, JJ Prescott, Beverly Rich",
+    "url": "https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/AI-Powered-Lawyering.pdf",
+    "publication_date": "2025 (manuscript; journal publication reported but not verified)",
+    "data_collection_dates": "not located (late 2024 implied by use of o1-preview)",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:schwarcz2025-ai-powered-lawyering-rct",
+    "funding_or_commercial_relationships": "Funded by Fredrikson & Byron PA, Robins Kaplan LLC, Univ. of Minnesota and Univ. of Michigan law schools; OpenAI and vLex made platforms freely available (no financial support per authors)",
+    "archived_file_path": null,
+    "limitations": "127 upper-level law students (not practicing lawyers); hallucinations counted only as fabricated sources (miscitations excluded, fn 138); hallucination counts very small; verification behavior not directly observed. | Full-text PDF (UMN repository) and SSRN page returned Cloudflare/403 blocks. Only the repository abstract (as summarized by a fetch tool, not verbatim) and secondary coverage were seen. Hallucination counts (Vincent 3, o1-preview 11, no-AI 4) come from a search-engine summary of Law360 coverage and are NOT verified against the paper. UMN Law magazine (Spring 2025) reported productivity gains of 34-140%, which differs from the abstract's ~50-130%; likely different paper versions or metrics. Participants were law students, not practicing lawyers.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering",
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS3-S02",
+      "WS4-S16"
+    ]
+  },
+  {
+    "source_id": "SRC039",
+    "title": "ABA Formal Opinion 512: Generative Artificial Intelligence Tools",
+    "authors_or_organization": "American Bar Association Standing Committee on Ethics and Professional Responsibility",
+    "url": "https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf",
+    "publication_date": "2024-07-29",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:aba-formal-op-512-2024",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Primary PDF blocked (Cloudflare challenge via curl; HTTP 403 via fetch tool). Text relied on is the verbatim block quotation reproduced in Matt Stephens, 'Competence and the Lawyer's Use of GenAI: ABA formal opinion 512' (josephhollander.com, 2024-08-31), corroborated by The Bar Examiner (NCBE, Fall 2024) and National Law Review (2026) quotations. Original page numbers not located. ABA formal opinions are advisory, not binding; they state an obligation, not compliance.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S03"
+    ]
+  },
+  {
+    "source_id": "SRC040",
+    "title": "The American Bar Association and Mississippi Bar Are Giving Lawyers Flawed AI Guidance",
+    "authors_or_organization": "Oliver Roberts (National Law Review, AI & the Law Newsletter)",
+    "url": "https://natlawreview.com/article/american-bar-association-and-mississippi-bar-are-giving-lawyers-flawed-ai-guidance",
+    "publication_date": "2026-05-04",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:roberts2026-critique-aba512",
+    "funding_or_commercial_relationships": "Not determined (author affiliation not extracted).",
+    "archived_file_path": null,
+    "limitations": "Opinion/commentary; no new data. Represents one commentator's normative position.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S04"
+    ]
+  },
+  {
+    "source_id": "SRC041",
+    "title": "Da Silva Moore v. Publicis Groupe & MSL Group, Opinion and Order, No. 11 Civ. 1279 (ALC)(AJP), 287 F.R.D. 182 (S.D.N.Y. Feb. 24, 2012) (Peck, M.J.)",
+    "authors_or_organization": "U.S. District Court, Southern District of New York (Magistrate Judge Andrew J. Peck)",
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.375665/gov.uscourts.nysd.375665.96.0.pdf",
+    "publication_date": "2012-02-24",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:dasilvamoore2012-tar",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Approval was based partly on the parties' agreement and on a specific protocol; the court said the protocol would not necessarily suit all cases. Affirmed by District Judge Carter (Apr. 26, 2012) - affirmance not read. Shows judicial acceptance, not measured outcomes in this case.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S05"
+    ]
+  },
+  {
+    "source_id": "SRC042",
+    "title": "Rio Tinto PLC v. Vale S.A., Opinion and Order, No. 14 Civ. 3042 (RMB)(AJP), 306 F.R.D. 125 (S.D.N.Y. Mar. 3, 2015) (Peck, M.J.), with attached stipulated TAR protocol",
+    "authors_or_organization": "U.S. District Court, Southern District of New York (Magistrate Judge Andrew J. Peck)",
+    "url": "https://www.steptoe.com/a/web/3oS1yD7SDvnQ7xm4REpsZf/3ZFuHj/20150303-rio-tinto-opinion-re-computer-assisted-review.pdf",
+    "publication_date": "2015-03-03",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:riotinto2015-tar",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Copy hosted by a law firm (Steptoe) - ECF-stamped Document 207, 17 pages. Court approved a stipulated protocol and expressly did not rule on seed-set transparency. Statements on alternative validation means are dicta.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S06"
+    ]
+  },
+  {
+    "source_id": "SRC043",
+    "title": "Technology-Assisted Review in E-Discovery Can Be More Effective and More Efficient Than Exhaustive Manual Review",
+    "authors_or_organization": "Maura R. Grossman, Gordon V. Cormack",
+    "url": "https://jolt.richmond.edu/jolt-archive/v17i3/article11.pdf",
+    "publication_date": "2011 (XVII Rich. J.L. & Tech. 11)",
+    "data_collection_dates": "TREC 2009 Legal Track Interactive Task data",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:grossman-cormack2011-trec-tar",
+    "funding_or_commercial_relationships": "Grossman was a TREC Legal Track coordinator and counsel at Wachtell Lipton; Cormack led the Waterloo team whose results are among those analyzed; H5 is a commercial vendor. Potential interest in the result.",
+    "archived_file_path": null,
+    "limitations": "Secondary analysis of TREC 2009 data; compares the two best-performing TAR efforts (5 topic-runs) with TREC assessor manual review, not a random sample of TAR systems; gold standard derived via adjudication of appealed documents; law-student and contract-reviewer assessors; law-review venue (student-edited, not peer-reviewed in the scientific sense).",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S07"
+    ]
+  },
+  {
+    "source_id": "SRC044",
+    "title": "The Sedona Conference TAR Case Law Primer, Second Edition (Public Comment Version)",
+    "authors_or_organization": "The Sedona Conference Working Group 1 (Electronic Document Retention and Production)",
+    "url": "https://thesedonaconference.org/sites/default/files/publications/Sedona_Conference_TAR_Case_Law_Primer_2d_ed_public_comment_February_2023%20%281%29.pdf",
+    "publication_date": "2023-02",
+    "data_collection_dates": "Case law through early 2023",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:sedona-tar-primer-2023",
+    "funding_or_commercial_relationships": "Sedona Conference is a nonprofit; working group members include practitioners and vendors.",
+    "archived_file_path": null,
+    "limitations": "Public-comment version marked as superseded by a final edition (not read). It is a secondary summary of court decisions; the underlying decisions (Diisocyanates, Lawson, Domestic Airline, City of Rockford) were not read directly.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S08"
+    ]
+  },
+  {
+    "source_id": "SRC045",
+    "title": "Mata v. Avianca, Inc., Opinion and Order on Sanctions, No. 22-cv-1461 (PKC), 678 F. Supp. 3d 443 (S.D.N.Y. June 22, 2023)",
+    "authors_or_organization": "U.S. District Court, Southern District of New York (Judge P. Kevin Castel)",
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_1.pdf",
+    "publication_date": "2023-06-22",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:mata-v-avianca-2023",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Single, extreme case (bad faith found partly because counsel stood by fake cases after being challenged). Shows legal standard and consequences, not typical verification practice. | Single case with findings of subjective bad faith (continuing to stand by fake cases); not representative of ordinary careless reliance. Shows duty and costs of failure, not the cost of verification.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering",
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS3-S09",
+      "WS6-S12"
+    ]
+  },
+  {
+    "source_id": "SRC046",
+    "title": "AI Hallucination Cases Database",
+    "authors_or_organization": "Damien Charlotin",
+    "url": "https://www.damiencharlotin.com/hallucinations/",
+    "publication_date": "continuously updated; page states last update 2026-11-14",
+    "data_collection_dates": "through 2026-11-14",
+    "access_date": "2026-11-15",
+    "source_type": "other",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:charlotin-hallucination-db",
+    "funding_or_commercial_relationships": "not reported",
+    "archived_file_path": null,
+    "limitations": "Counts court/tribunal decisions addressing hallucinated content; maintainer states it does not track the wider universe of fake citations; inclusion involves judgment calls; counts read via a fetch tool summarizing filter counts and may lag. | Only the landing page and its filter counts were read; individual entries not audited. Compiler-curated (inclusion is a 'judgment call'); covers only decisions addressing hallucinations, not the universe of AI-assisted filings, so no rate/denominator. Counts change over time.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering",
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS3-S10",
+      "WS6-S13"
+    ]
+  },
+  {
+    "source_id": "SRC047",
+    "title": "CG 300 Technical approval of highway structures (formerly BD 2/12), Version 0.2.1, Design Manual for Roads and Bridges",
+    "authors_or_organization": "National Highways and UK Overseeing Organisations (DMRB)",
+    "url": "https://www.standardsforhighways.co.uk/tses/attachments/7665f3a3-3463-4d72-a514-a283aba07676",
+    "publication_date": "2025-02-07",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:cg300-uk-technical-approval",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Standard shows obligation, not compliance, cost, or effectiveness. Clause numbering in the extracted text is partly scrambled by PDF layout; clauses 2.69-2.75 pinned, the category list clause number not pinned.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S11"
+    ]
+  },
+  {
+    "source_id": "SRC048",
+    "title": "10 CFR Part 50, Appendix B - Quality Assurance Criteria for Nuclear Power Plants and Fuel Reprocessing Plants (Criteria III Design Control and VII Control of Purchased Material, Equipment, and Services)",
+    "authors_or_organization": "U.S. Nuclear Regulatory Commission (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-50/appendix-Appendix%20B%20to%20Part%2050",
+    "publication_date": "current eCFR text as of 2026-11-15",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:nrc-10cfr50-appB",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Regulation states obligations; implementing standards (e.g., ASME NQA-1) and inspection findings not reviewed. Nuclear safety context has extreme consequence profile.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S12"
+    ]
+  },
+  {
+    "source_id": "SRC049",
+    "title": "Guidelines for Performance-Based Seismic Design of Tall Buildings, Version 2.03 (PEER Report 2017/06)",
+    "authors_or_organization": "Pacific Earthquake Engineering Research Center (PEER), Tall Buildings Initiative working group (co-chairs R. Hamburger, J. Moehle)",
+    "url": "https://peer.berkeley.edu/sites/default/files/tbi-working-group-led-by-co-chairs-ron-ha-burger-and-jack-moehle_10.9.17_withlinks.pdf",
+    "publication_date": "2017-05",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:peer-tbi-2017-guidelines",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Consensus guideline/commentary; statements about review efficiency are expert judgment, not measured outcomes.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S13"
+    ]
+  },
+  {
+    "source_id": "SRC050",
+    "title": "Expectations, Outcomes, and Challenges of Modern Code Review",
+    "authors_or_organization": "Alberto Bacchelli, Christian Bird (Microsoft Research)",
+    "url": "https://sback.it/publications/icse2013.pdf",
+    "publication_date": "2013 (ICSE 2013)",
+    "data_collection_dates": "not reported in extracted text",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:bacchelli-bird2013-mcr",
+    "funding_or_commercial_relationships": "Conducted at Microsoft (second author Microsoft Research employee).",
+    "archived_file_path": null,
+    "limitations": "Exploratory mixed-methods field study (observation/interviews with 17 developers, 570 review comments, surveys of 165 managers and 873 programmers) at one company; not an experiment; self-reported survey answers. source_type closest available label; actually an observational field study.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S14"
+    ]
+  },
+  {
+    "source_id": "SRC051",
+    "title": "Modern Code Review: A Case Study at Google",
+    "authors_or_organization": "Caitlin Sadowski, Emma Soderberg, Luke Church, Michal Sipko, Alberto Bacchelli",
+    "url": "https://sback.it/publications/icse2018seip.pdf",
+    "publication_date": "2018 (ICSE-SEIP 2018)",
+    "data_collection_dates": "Review logs covering ~9 million reviewed changes over two years (dates not extracted)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:sadowski2018-google-code-review",
+    "funding_or_commercial_relationships": "Most authors Google employees at the time.",
+    "archived_file_path": null,
+    "limitations": "Descriptive case study (12 interviews, survey of 44, log analysis) at one company; no causal identification of what makes review lightweight; does not measure defect escape. source_type closest available label; actually an observational case study.",
+    "contributing_workstreams": [
+      "WS3_legal_engineering"
+    ],
+    "temp_ids": [
+      "WS3-S15"
+    ]
+  },
+  {
+    "source_id": "SRC052",
+    "title": "Large Language Models Help Humans Verify Truthfulness -- Except When They Are Convincingly Wrong",
+    "authors_or_organization": "Chenglei Si, Navita Goyal, Sherry Tongshuang Wu, Chen Zhao, Shi Feng, Hal Daume III, Jordan Boyd-Graber (Stanford, UMD, CMU, NYU Shanghai, NYU, Microsoft Research)",
+    "url": "https://arxiv.org/abs/2310.12558",
+    "publication_date": "2024 (NAACL 2024; arXiv v2 2024-04-01)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:si2024-llm-explanation-vs-retrieval-factcheck",
+    "funding_or_commercial_relationships": "One author affiliated with Microsoft Research; funding not checked",
+    "archived_file_path": null,
+    "limitations": "Lay Prolific crowdworkers (16 per condition, 20 claims each, 1500 annotations); adversarial Wikipedia claims (FoolMeTwice); binary true/false judgments; gpt-3.5-turbo; Wikipedia retrieval; single session; no domain expertise or accountability; condition-level n is small.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S01"
+    ]
+  },
+  {
+    "source_id": "SRC053",
+    "title": "Evaluating Verifiability in Generative Search Engines",
+    "authors_or_organization": "Nelson F. Liu, Tianyi Zhang, Percy Liang (Stanford)",
+    "url": "https://arxiv.org/abs/2304.09848",
+    "publication_date": "2023 (Findings of EMNLP 2023; arXiv 2023-04)",
+    "data_collection_dates": "2023 (system outputs collected at time of study; exact dates not reported in excerpt read)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:liu2023-generative-search-verifiability",
+    "funding_or_commercial_relationships": "not checked",
+    "archived_file_path": null,
+    "limitations": "Audit of four 2023 commercial systems (Bing Chat, NeevaAI, perplexity.ai, YouChat) on 1450 queries; annotators judged support, not decision makers using outputs; systems have changed since; correlation between citation precision and perceived utility appears to be computed across system-level averages (few points).",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S02"
+    ]
+  },
+  {
+    "source_id": "SRC054",
+    "title": "Explanations Can Reduce Overreliance on AI Systems During Decision-Making",
+    "authors_or_organization": "Helena Vasconcelos, Matthew Jorke, Madeleine Grunde-McLaughlin, Tobias Gerstenberg, Michael S. Bernstein, Ranjay Krishna",
+    "url": "https://arxiv.org/abs/2212.06823",
+    "publication_date": "2023-04 (Proc. ACM HCI 7, CSCW1, Article 129)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:vasconcelos2023-cost-benefit-overreliance",
+    "funding_or_commercial_relationships": "not checked",
+    "archived_file_path": null,
+    "limitations": "Maze-solving task with simulated AI and 'perfect' explanations (authors' own limitation); crowdworkers; 5 studies N=731; low ecological validity for professional diligence; earlier pre-registered Wikipedia QA studies with inline answer highlights were stopped early and not reported. | Online participants on a maze task with a simulated AI; verification cost is manipulated cleanly in a way rarely possible in diligence work. 5 studies, N=731 total. | Prolific crowdworkers; artificial maze-solving task where verification of a highlighted path is visually easy; simulated AI; 5 studies N=731 total (Study 2 reuses Study 1 highlight-condition data). Bayesian model estimates reported on model scale (specification in appendix, not extracted). Task has an unambiguous ground truth, unlike most diligence judgments.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments",
+      "WS6_rivals_failures_disconfirming",
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS4-S03",
+      "WS6-S04",
+      "WS7-S11"
+    ]
+  },
+  {
+    "source_id": "SRC055",
+    "title": "In Search of Verifiability: Explanations Rarely Enable Complementary Performance in AI-Advised Decision Making",
+    "authors_or_organization": "Raymond Fok, Daniel S. Weld (University of Washington; Allen Institute for AI)",
+    "url": "https://arxiv.org/abs/2305.07722",
+    "publication_date": "arXiv v4 2024-02-01 (reported as AI Magazine 2024; venue not verified in this session)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:fok-weld2024-verifiability-theory",
+    "funding_or_commercial_relationships": "Co-author affiliated with Allen Institute for AI; funding not checked",
+    "archived_file_path": null,
+    "limitations": "Theory/position paper synthesizing prior studies; no new data; classification of tasks as verifiable is the authors' judgment. | Full text retrieved but only the abstract and introduction were reviewed in this timebox. Conceptual/theory synthesis of prior experiments, not new data.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments",
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS4-S04",
+      "WS7-S12"
+    ]
+  },
+  {
+    "source_id": "SRC056",
+    "title": "\"I'm Not Sure, But...\": Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust",
+    "authors_or_organization": "Sunnie S. Y. Kim, Q. Vera Liao, Mihaela Vorvoreanu, Stephanie Ballard, Jennifer Wortman Vaughan (Princeton; Microsoft)",
+    "url": "https://arxiv.org/abs/2405.00623",
+    "publication_date": "2024-06 (FAccT '24)",
+    "data_collection_dates": "not reported in sections read",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:kim2024-llm-uncertainty-expression",
+    "funding_or_commercial_relationships": "Four of five authors affiliated with Microsoft (an LLM search provider)",
+    "archived_file_path": null,
+    "limitations": "Pre-registered online experiment N=404 US lay participants; medical trivia-style questions; fictional LLM search engine with 50% designed accuracy (authors note low accuracy); single session; link-click vs self-report discrepancy partly due to modeling choices.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S05"
+    ]
+  },
+  {
+    "source_id": "SRC057",
+    "title": "Citations and Trust in LLM Generated Answers",
+    "authors_or_organization": "Yifan Ding, Matthew Facciani, Amrit Poudel, Ellen Joyce, Salvador Aguinaga, Balaji Veeramani, Sanmitra Bhattacharya, Tim Weninger (Univ. of Notre Dame; Deloitte AI Center for Excellence)",
+    "url": "https://arxiv.org/abs/2501.01303",
+    "publication_date": "arXiv 2025-01-02",
+    "data_collection_dates": "2024 (month not located)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:ding2025-citations-trust",
+    "funding_or_commercial_relationships": "Funded by DARPA (contracts HR001121C0168, HR00112290106); co-authors from Deloitte & Touche LLP",
+    "archived_file_path": null,
+    "limitations": "Prolific lay participants N=303, self-generated questions, self-reported trust only (no accuracy/error-detection measure); citation checking tracked by mouse interaction; publication venue not verified (arXiv version read).",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S06"
+    ]
+  },
+  {
+    "source_id": "SRC058",
+    "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+    "authors_or_organization": "Miles Turpin, Julian Michael, Ethan Perez, Samuel R. Bowman (NYU Alignment Research Group; Cohere; Anthropic)",
+    "url": "https://arxiv.org/abs/2305.04388",
+    "publication_date": "2023 (NeurIPS 2023; arXiv v2 2023-12-09)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:turpin2023-unfaithful-cot",
+    "funding_or_commercial_relationships": "Authors affiliated with Cohere and Anthropic (model developers)",
+    "archived_file_path": null,
+    "limitations": "Model-behavior experiment (no human subjects); GPT-3.5 and Claude 1.0 (older models); BIG-Bench Hard and BBQ benchmarks; biasing features are synthetic.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S07"
+    ]
+  },
+  {
+    "source_id": "SRC059",
+    "title": "Reasoning Models Don't Always Say What They Think",
+    "authors_or_organization": "Yanda Chen, Joe Benton, Ansh Radhakrishnan, Jonathan Uesato, et al. (Anthropic Alignment Science Team)",
+    "url": "https://arxiv.org/abs/2505.05410",
+    "publication_date": "2025-05 (arXiv)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:chen2025-reasoning-cot-faithfulness",
+    "funding_or_commercial_relationships": "Authored by Anthropic (developer of Claude models evaluated); note this worker is an Anthropic model",
+    "archived_file_path": null,
+    "limitations": "Model-behavior study; hint-based faithfulness measure on multiple-choice benchmarks (MMLU, GPQA); synthetic RL environments; not a human-verification study.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S08"
+    ]
+  },
+  {
+    "source_id": "SRC060",
+    "title": "Measuring Attribution in Natural Language Generation Models",
+    "authors_or_organization": "Hannah Rashkin, Vitaly Nikolaev, et al. (Google Research)",
+    "url": "https://arxiv.org/abs/2112.12870",
+    "publication_date": "2023 (Computational Linguistics 49(4); arXiv v2 2022-08-02 read)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:rashkin2023-ais-attribution",
+    "funding_or_commercial_relationships": "Google Research authors",
+    "archived_file_path": null,
+    "limitations": "Annotation-protocol paper; completion times reflect trained crowd raters with justification requirements in pilot; not a decision-making study; benchmarks (QReCC, WoW, CNN/DM, ToTTo).",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S09"
+    ]
+  },
+  {
+    "source_id": "SRC061",
+    "title": "Measuring the Impact of AI in the Diagnosis of Hospitalized Patients: A Randomized Clinical Vignette Survey Study",
+    "authors_or_organization": "Sarah Jabbour et al. (University of Michigan; full author list not verified in this session)",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2812908",
+    "publication_date": "2023-12 (JAMA 2023;330(23))",
+    "data_collection_dates": "April 2022 to January 2023",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:jabbour2023-biased-ai-explanations-clinicians",
+    "funding_or_commercial_relationships": "not checked",
+    "archived_file_path": null,
+    "limitations": "Full article page retrieved via WebFetch (an automated summarizer); values below were extracted by that tool from the article text, not read line by line; final ~7.5k characters not processed. Vignettes, not live care; Grad-CAM heatmap explanations only; no time-per-case measure.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S10"
+    ]
+  },
+  {
+    "source_id": "SRC062",
+    "title": "Google users are less likely to click on links when an AI summary appears in the results",
+    "authors_or_organization": "Pew Research Center",
+    "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+    "publication_date": "2025-07-22",
+    "data_collection_dates": "Browsing data March 1-31, 2025; search results re-collected April 7-17, 2025",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:pew2025-ai-overview-clicks",
+    "funding_or_commercial_relationships": "Pew Research Center (nonprofit)",
+    "archived_file_path": null,
+    "limitations": "Read via WebFetch summarizer (not line-by-line); observational browsing data (900 US adults, KnowledgePanel Digital); lay consumer search; only first three cited links counted; correlational (queries that trigger AI summaries differ from others).",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S11"
+    ]
+  },
+  {
+    "source_id": "SRC063",
+    "title": "Towards Verifiable Text Generation with Symbolic References (SymGen)",
+    "authors_or_organization": "Lucas Torroba Hennigen, Shannon Zejiang Shen, Aniruddha Nrusimha, Bernhard Gapp, David Sontag, Yoon Kim (MIT; Good Data Initiative)",
+    "url": "https://arxiv.org/abs/2311.09188",
+    "publication_date": "arXiv v2 2024-04-15 (later venue not verified)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:hennigen2024-symgen-provenance",
+    "funding_or_commercial_relationships": "Supported by Liberty Mutual through MIT Quest for Intelligence",
+    "archived_file_path": null,
+    "limitations": "60 Prolific annotators, 4 summaries each (within-subject), sports box-score summaries, single planted numeric error within 2 units; no significance tests located; tabular data only; provenance correct by construction.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S12"
+    ]
+  },
+  {
+    "source_id": "SRC064",
+    "title": "HoT: Highlighted Chain of Thought for Referencing Supporting Facts from Inputs",
+    "authors_or_organization": "Tin Nguyen, Logan Bolton, Mohammad Reza Taesiri, Trung Bui, Anh Totti Nguyen, et al. (Auburn University; University of Alberta)",
+    "url": "https://arxiv.org/abs/2503.02003",
+    "publication_date": "2026-06 (Transactions on Machine Learning Research; arXiv v6 2026-06-27)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:nguyen2026-hot-highlighted-cot",
+    "funding_or_commercial_relationships": "NSF grants; donations from NaphCare Foundation and Adobe Research; API credits from together.ai",
+    "archived_file_path": null,
+    "limitations": "63 students, 10 items each, balanced 50/50 correct/incorrect LLM answers, 2-minute cap per item; arithmetic and reading-comprehension tasks; SDs large; significance tests not located in section read.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S13"
+    ]
+  },
+  {
+    "source_id": "SRC065",
+    "title": "Comparing Traditional and LLM-based Search for Consumer Choice: A Randomized Experiment",
+    "authors_or_organization": "Sofia Eleni Spatharioti, David M. Rothschild, Daniel G. Goldstein, Jake M. Hofman (Microsoft Research NYC)",
+    "url": "https://arxiv.org/abs/2307.03744",
+    "publication_date": "arXiv v2 2023-11-08",
+    "data_collection_dates": "2023 (exact dates not located)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:spatharioti2023-llm-search-overreliance",
+    "funding_or_commercial_relationships": "All authors Microsoft Research (provider of Bing search/chat)",
+    "archived_file_path": null,
+    "limitations": "MTurk participants (Exp1 N=90; Exp2 N=120); consumer vehicle comparison tasks; one designed error item; Exp1 GPT-3.5 vs Exp2 GPT-3 (not comparable across experiments); the LLM tool gave no source links, traditional search gave links.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S14"
+    ]
+  },
+  {
+    "source_id": "SRC066",
+    "title": "How well do LLMs cite relevant medical references? An evaluation framework and analyses (SourceCheckup)",
+    "authors_or_organization": "Kevin Wu, Eric Wu, Ally Casasola, Angela Zhang, Kevin Wei, Teresa Nguyen, Sith Riantawan, Patricia Shi, Daniel Ho, James Zou (Stanford et al.)",
+    "url": "https://arxiv.org/abs/2402.02008",
+    "publication_date": "arXiv v1 2024-02-03 (a later peer-reviewed version reportedly exists; not verified)",
+    "data_collection_dates": "2023-2024 (model versions of that period)",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:wu2024-sourcecheckup-medical-citations",
+    "funding_or_commercial_relationships": "not checked",
+    "archived_file_path": null,
+    "limitations": "Automated GPT-4 judge validated on N=284 statement-source pairs against three physicians; model versions now outdated; measures support of citations, not user verification behavior.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S15"
+    ]
+  },
+  {
+    "source_id": "SRC067",
+    "title": "Show Me the Work: Fact-Checkers' Requirements for Explainable Automated Fact-Checking",
+    "authors_or_organization": "Greta Warren, Irina Shklovski, Isabelle Augenstein (University of Copenhagen; Linkoping University)",
+    "url": "https://arxiv.org/abs/2502.09083",
+    "publication_date": "2025-04 (CHI '25)",
+    "data_collection_dates": "not located",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:warren2025-factchecker-explanation-requirements",
+    "funding_or_commercial_relationships": "not checked",
+    "archived_file_path": null,
+    "limitations": "Qualitative semi-structured interviews with 10 professional fact-checkers; stated requirements, not observed verification performance.",
+    "contributing_workstreams": [
+      "WS4_traceability_verification_experiments"
+    ],
+    "temp_ids": [
+      "WS4-S17"
+    ]
+  },
+  {
+    "source_id": "SRC068",
+    "title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI (NBER Working Paper 33777; previously circulated as 'Large Language Models, Small Labor Market Effects')",
+    "authors_or_organization": "Anders Humlum; Emilie Vestergaard (University of Chicago / NBER)",
+    "url": "https://www.nber.org/system/files/working_papers/w33777/w33777.pdf",
+    "publication_date": "2025-05 (revised 2026-03)",
+    "data_collection_dates": "Surveys in 2023 and late 2024 (about 25,000 complete responses per round; 11 exposed occupations, ~7,000 workplaces), linked to Danish administrative registers",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:humlum-vestergaard2025-denmark-chatbots",
+    "funding_or_commercial_relationships": "Center for Applied Artificial Intelligence and Polsky Center (Chicago Booth); not peer reviewed (NBER WP)",
+    "archived_file_path": null,
+    "limitations": "Time savings, new tasks and reallocation are self-reported; employer initiatives are worker-perceived; new-task categories derived from free-text coding; Danish labor market; covers general chatbots, not outside-advisor deliverables. The version read is the March 2026 revision (title changed); figures may differ from the May 2025 version.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S01"
+    ]
+  },
+  {
+    "source_id": "SRC069",
+    "title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers (CHI '25)",
+    "authors_or_organization": "Hao-Ping (Hank) Lee (CMU); Advait Sarkar; Lev Tankelevitch; Ian Drosos; Sean Rintel; Richard Banks; Nicholas Wilson (Microsoft Research)",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf",
+    "publication_date": "2025-04 (CHI 2025, DOI 10.1145/3706598.3713778)",
+    "data_collection_dates": "not reported in extracted text (online Prolific survey)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_survey",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:lee2025-genai-critical-thinking",
+    "funding_or_commercial_relationships": "Six of seven authors are Microsoft Research employees (Microsoft sells GenAI tools)",
+    "archived_file_path": null,
+    "limitations": "Cross-sectional peer-reviewed survey study, not an experiment; n=319 Prolific knowledge workers, 936 self-reported examples; perceived effort, not measured time or accuracy; sample skewed younger/tech-oriented per authors; correlational betas.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S02"
+    ]
+  },
+  {
+    "source_id": "SRC070",
+    "title": "The hidden costs of workslop",
+    "authors_or_organization": "Marielle Leon, BetterUp (research credited to BetterUp Labs and Stanford Social Media Lab)",
+    "url": "https://www.betterup.com/blog/hidden-costs-workslop",
+    "publication_date": "2025-09-29",
+    "data_collection_dates": "September 2025 (online survey)",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:betterup-stanford-workslop-2025",
+    "funding_or_commercial_relationships": "BetterUp is a commercial coaching/AI vendor with products related to the topic",
+    "archived_file_path": null,
+    "limitations": "Self-reported perceptions; sample size inconsistent within the page (1,004 vs 1,150 US desk workers); no sampling method, weighting, or question wording given; not advisor-client specific. Related HBR article (same evidence group) not accessed. | Blog summary of a survey; no questionnaire, sampling frame or response rate published in the post; inconsistent N (1,004 vs 1,150); self-reported time per instance and self-estimated share of content; cost figures not reproducible from stated numbers; 'workslop' defined by recipients' perceptions.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption",
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS5-S03",
+      "WS6-S17"
+    ]
+  },
+  {
+    "source_id": "SRC071",
+    "title": "AI-Generated 'Workslop' Is Destroying Productivity (Harvard Business Review)",
+    "authors_or_organization": "Kate Niederhoffer; Gabriella Rosen Kellerman; Angela Lee; Alex Liebscher; Kristina Rapuano; Jeffrey T. Hancock",
+    "url": "https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity",
+    "publication_date": "2025-09-22 (updated 2025-09-25)",
+    "data_collection_dates": "not seen (paywalled body)",
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:niederhoffer2025-workslop",
+    "funding_or_commercial_relationships": "Authors affiliated with BetterUp Labs and Stanford Social Media Lab",
+    "archived_file_path": null,
+    "limitations": "Only the header and summary were retrievable (paywall); no evidence items drawn directly from this source; listed to anchor the evidence group. Same underlying survey as WS5-S03.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S04"
+    ]
+  },
+  {
+    "source_id": "SRC072",
+    "title": "Microsoft 365 Copilot Evaluation (Department for Business and Trade)",
+    "authors_or_organization": "UK Department for Business and Trade (DBT), Digital Data and Technology Monitoring and Evaluation team",
+    "url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf",
+    "publication_date": "2025-08 (blog summary 2025-09-25)",
+    "data_collection_dates": "Pilot October-December 2024 (1,000 licences); evaluation October 2024-March 2025",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:ukdbt2025-m365-copilot-evaluation",
+    "funding_or_commercial_relationships": "Buyer-authored internal evaluation of a licensed vendor product; no vendor funding reported",
+    "archived_file_path": null,
+    "limitations": "Theory-based evaluation without a counterfactual for diary data; diary response rate 32%; self-reported time savings with estimated counterfactual time; observed tasks have very small samples (exact n per task not reported in extracted text); government policy setting, not investment decisions; Copilot generation of late 2024.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S05"
+    ]
+  },
+  {
+    "source_id": "SRC073",
+    "title": "Evaluation of a trial of generative artificial intelligence (Copilot) in the Department of the Treasury",
+    "authors_or_organization": "Australian Centre for Evaluation (ACE), Australian Government Department of the Treasury",
+    "url": "https://evaluation.treasury.gov.au/sites/evaluation.treasury.gov.au/files/2025-02/evaluation-generative-artificial-intelligence.pdf",
+    "publication_date": "2025-02",
+    "data_collection_dates": "Trial 20 May-23 August 2024 (14 weeks), 218 participating staff",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:austreasury2025-copilot-trial",
+    "funding_or_commercial_relationships": "Buyer-authored internal evaluation; no vendor funding reported",
+    "archived_file_path": null,
+    "limitations": "Volunteer participants; surveys, focus groups, case studies and issues log; time savings not explicitly measured; protected security environment restricted functionality; policy-department setting.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S06"
+    ]
+  },
+  {
+    "source_id": "SRC074",
+    "title": "Spotlight: Staff Update on Outreach Activities Related to the Integration of Generative Artificial Intelligence in Audits and Financial Reporting",
+    "authors_or_organization": "PCAOB staff",
+    "url": "https://pcaobus.org/documents/generative-ai-spotlight.pdf",
+    "publication_date": "2024-07",
+    "data_collection_dates": "not reported (outreach prior to July 2024 with U.S. global network firms and several non-affiliated firms auditing >100 issuers, plus preparers)",
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob2024-genai-spotlight",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Staff views, not Board rules; describes what firms told the regulator (stated policies), not observed practice or measured time; 'some firms' quantifiers unspecified; early-stage adoption.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S07"
+    ]
+  },
+  {
+    "source_id": "SRC075",
+    "title": "The state of board reporting (Board Intelligence blog; with Chartered Governance Institute UK & Ireland)",
+    "authors_or_organization": "Board Intelligence",
+    "url": "https://boardintelligence.com/blog/the-state-of-board-reporting",
+    "publication_date": "not reported on retrieved page (data 2020-2023)",
+    "data_collection_dates": "2020-2023 self-assessment tool responses (N not stated)",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:boardintelligence-board-reporting-selfassessment",
+    "funding_or_commercial_relationships": "Board Intelligence sells board-reporting software (Report Writer) that addresses the problems reported",
+    "archived_file_path": null,
+    "limitations": "Vendor self-assessment tool data, self-selected respondents, N not stated; page read via automated extraction (inconsistent average-length figures 226 vs 220 pages on the page); no measure of preparation or reformatting time.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S08"
+    ]
+  },
+  {
+    "source_id": "SRC076",
+    "title": "Directors Want Less Volume, More Insight: Key Findings (Society for Corporate Governance blog summarizing a Society/Board Intelligence report)",
+    "authors_or_organization": "Society for Corporate Governance (Randi Morrison blog); report with Board Intelligence",
+    "url": "https://www.societycorpgov.org/blogs/randi-morrison/2026/06/08/directors-want-less-volume-more-insight-key-findin",
+    "publication_date": "2026-06-08",
+    "data_collection_dates": "not reported (five Society member surveys, two roundtables, interviews)",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:scg-boardintelligence2026-board-materials",
+    "funding_or_commercial_relationships": "Co-produced with Board Intelligence (board-reporting vendor)",
+    "archived_file_path": null,
+    "limitations": "Blog summary only; underlying report not retrieved; sample sizes not stated; governance professionals (preparers) rather than directors; no preparation-time data.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S09"
+    ]
+  },
+  {
+    "source_id": "SRC077",
+    "title": "A&O announces exclusive launch partnership with Harvey",
+    "authors_or_organization": "Allen & Overy (now A&O Shearman)",
+    "url": "https://www.aoshearman.com/en-gb/global/news-and-insights/news/ao-announces-exclusive-launch-partnership-with-harvey",
+    "publication_date": "2023-02-15",
+    "data_collection_dates": "Beta trial from November 2022 to announcement",
+    "access_date": "2026-11-15",
+    "source_type": "company_announcement",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:ao2023-harvey-rollout",
+    "funding_or_commercial_relationships": "Buyer announcement of an exclusive launch partnership with the vendor (commercial relationship)",
+    "archived_file_path": null,
+    "limitations": "Promotional announcement; usage counts self-reported; no time-savings, error, or review-effort data.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S10"
+    ]
+  },
+  {
+    "source_id": "SRC078",
+    "title": "AI in practice at Moonfare",
+    "authors_or_organization": "Philip Meschke, Head of Private Equity, Moonfare",
+    "url": "https://www.moonfare.com/blog/ai-in-practice-at-moonfare",
+    "publication_date": "2026-06-25",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:moonfare2026-ai-in-practice",
+    "funding_or_commercial_relationships": "Moonfare is a private-markets investment platform; post has marketing function",
+    "archived_file_path": null,
+    "limitations": "Buyer-authored blog; time figures unmeasured/anecdotal and partly forward-looking estimates; no description of review steps; about this one firm.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S11"
+    ]
+  },
+  {
+    "source_id": "SRC079",
+    "title": "AI-Driven Investment Memo Acceleration for a PE Secondary Transaction (case study)",
+    "authors_or_organization": "Binocs (vendor)",
+    "url": "https://binocs.co/case-study/ai-driven-investment-memo-acceleration-for-a-pe-secondary-transaction",
+    "publication_date": "not reported",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "vendor_case_study",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:binocs-pe-memo-casestudy",
+    "funding_or_commercial_relationships": "Vendor marketing for its own product",
+    "archived_file_path": null,
+    "limitations": "Anonymous client; no measurement method; no description of who reviewed outputs or how; selection of a favorable case; read via automated page extraction.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S12"
+    ]
+  },
+  {
+    "source_id": "SRC080",
+    "title": "Appendix D: Preliminary Due Diligence List (Developmental Solar Resources), 3 GW Alternative Market-Based Mechanism Process RFP for Solar Photovoltaic Resources for Entergy Louisiana, LLC",
+    "authors_or_organization": "Entergy Services, LLC",
+    "url": "https://rfp.entergy.com/ENTRFP/SEND/ELL3GWSOLARRFP/Documents/Appendix D Due Diligence List - Developmental Solar.pdf",
+    "publication_date": "2024-08-13",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "procurement_document",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:entergy2024-solar-rfp-dd-list",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Utility procurement of developer bids (buyer = offtaker/owner), not an investor engaging an advisor; shows stated requirements, not how they are used or how much review effort they save.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S13"
+    ]
+  },
+  {
+    "source_id": "SRC081",
+    "title": "Do Management Interventions Last? Evidence from India (NBER WP 24249; published AEJ: Applied Economics 2020)",
+    "authors_or_organization": "Nicholas Bloom; Aprajit Mahajan; David McKenzie; John Roberts",
+    "url": "https://www.nber.org/papers/w24249.pdf",
+    "publication_date": "2018-01 (WP)",
+    "data_collection_dates": "Original RCT 2008-2010 (tracking to 2011); follow-up January 2017",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:bloom2013-2020-india-management-rct",
+    "funding_or_commercial_relationships": "SEED (Stanford GSB) and World Bank Strategic Research Program",
+    "archived_file_path": null,
+    "limitations": "Small number of firms (Indian textile weaving, multi-plant family firms); operational management practices, not analytical deliverables; reasons for dropping practices are directors'/managers' stated reasons; WP version read, not final AEJ version.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption"
+    ],
+    "temp_ids": [
+      "WS5-S14"
+    ]
+  },
+  {
+    "source_id": "SRC082",
+    "title": "Overcoming Algorithm Aversion: People Will Use (Imperfect) Algorithms If They Can (Even Slightly) Modify Them (Management Science 64(3):1155-1170, 2018)",
+    "authors_or_organization": "Berkeley J. Dietvorst; Joseph P. Simmons; Cade Massey (Wharton)",
+    "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Dietvorst-Overcoming-Algorithm-Aversion.pdf",
+    "publication_date": "2018 (journal); preprint version read",
+    "data_collection_dates": "not reported in extracted text",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:dietvorst2018-modify-algorithms",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Pre-publication version on author's institutional site (title differs slightly from published); incentivized lab/online forecasting of student test percentiles by lay participants; algorithm, not human advisor; small stakes. | Accessed manuscript version with earlier title; published version may differ. Student-score forecasting by lab (Study 1, N=288) and MTurk participants; no professional accountability or advisor-client relationship.",
+    "contributing_workstreams": [
+      "WS5_workflow_integration_adoption",
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS5-S15",
+      "WS6-S07"
+    ]
+  },
+  {
+    "source_id": "SRC083",
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "authors_or_organization": "Joel Becker, Nate Rush, Elizabeth Barnes, David Rein (METR)",
+    "url": "https://arxiv.org/abs/2507.09089",
+    "publication_date": "2025-07-25 (arXiv v2)",
+    "data_collection_dates": "February-June 2025",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:metr2025-oss-dev-rct",
+    "funding_or_commercial_relationships": "METR (non-profit research org); funding details not extracted",
+    "archived_file_path": null,
+    "limitations": "16 developers, 246 issues, own mature repositories; software engineering, not advisory analysis. Producer-side use of AI (developer is both user and reviewer of AI output), not a client reviewing an outside advisor. Early-2025 tools; authors caution against generalization. 95% CI shown graphically (Fig. 1), not extracted from text.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S01"
+    ]
+  },
+  {
+    "source_id": "SRC084",
+    "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality (HBS Working Paper 24-013)",
+    "authors_or_organization": "Fabrizio Dell'Acqua, Edward McFowland III, Ethan Mollick, Hila Lifshitz-Assaf, Katherine C. Kellogg, Saran Rajendran, Lisa Krayer, Francois Candelon, Karim R. Lakhani",
+    "url": "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf",
+    "publication_date": "2023-09 (SSRN 4573321)",
+    "data_collection_dates": "2023 (exact dates not extracted)",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:dellacqua2023-bcg-jagged-frontier",
+    "funding_or_commercial_relationships": "Conducted with Boston Consulting Group (BCG co-authors); BCG consultants as subjects",
+    "archived_file_path": null,
+    "limitations": "Working paper (not peer reviewed at version accessed). Consultants are the producers using GPT-4, not clients reviewing advisor output; one outside-frontier task designed to trip AI. Correctness judged against a known answer; real advisory tasks rarely have one.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S02"
+    ]
+  },
+  {
+    "source_id": "SRC085",
+    "title": "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance",
+    "authors_or_organization": "Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco Tulio Ribeiro, Daniel S. Weld",
+    "url": "https://arxiv.org/abs/2006.14779",
+    "publication_date": "2021 (CHI '21; arXiv v3 2021-01-12)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:bansal2021-explanations-complementarity",
+    "funding_or_commercial_relationships": "Authors from University of Washington and Microsoft Research",
+    "archived_file_path": null,
+    "limitations": "Crowdworker lab tasks (sentiment classification, LSAT questions); explanations are model-generated highlights/feature explanations (X2-type), not citations to source evidence (X3). No professional accountability. | Amazon Mechanical Turk crowdworkers (US, >=97% approval); low-stakes common-sense tasks (sentiment of beer/book reviews, LSAT logic questions); AI accuracy deliberately matched to human accuracy (84% sentiment; 65% LSAT); small per-task payments with accuracy bonuses; outcome is decision accuracy only (no time or effort measured objectively); explanations are AI saliency highlights or expert-written narratives, not citations to source evidence. Not an advisor-client structure. Authors state results may not generalize to high-stakes expert domains.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming",
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS6-S03",
+      "WS7-S03"
+    ]
+  },
+  {
+    "source_id": "SRC086",
+    "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+    "authors_or_organization": "Zana Bucinca, Maja Barbara Malaya, Krzysztof Z. Gajos",
+    "url": "https://arxiv.org/abs/2102.09692",
+    "publication_date": "2021-04 (Proc. ACM HCI 5, CSCW1, Article 188; arXiv 2021-02-19)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:bucinca2021-cognitive-forcing",
+    "funding_or_commercial_relationships": "Harvard University; funding not extracted",
+    "archived_file_path": null,
+    "limitations": "Lay participants (N=199) on a nutrition/carbohydrate task with simulated AI; full text retrieved but only abstract and summary statistics table reviewed in detail. | MTurk lay participants (N=199 analysed of 260 recruited), single non-critical nutrition task chosen because experts are costly to recruit; simulated AI with designed errors (6 of 24 scored trials incorrect); within-subject two-block design with exploratory conditions excluded; no objective time/effort measure reported; explanations are feature-based (carb/flavor estimates), not provenance. Not an advisor-client structure.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming",
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS6-S05",
+      "WS7-S04"
+    ]
+  },
+  {
+    "source_id": "SRC087",
+    "title": "To Engage or Not to Engage with AI for Critical Judgments: How Professionals Deal with Opacity When Using AI for Medical Diagnosis",
+    "authors_or_organization": "Sarah Lebovitz, Hila Lifshitz-Assaf, Natalia Levina",
+    "url": "https://doi.org/10.1287/orsc.2021.1549",
+    "publication_date": "2022-01-10 (Organization Science, Articles in Advance; later 33(1):126-148)",
+    "data_collection_dates": "Ten months of ethnographic observation (over 500 hours); exact years not extracted",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:lebovitz2022-radiology-ai-opacity",
+    "funding_or_commercial_relationships": "not reported in reviewed sections",
+    "archived_file_path": null,
+    "limitations": "Qualitative ethnography (not an experiment; source_type field approximated) in one US hospital, three radiology departments; AI tools gave no explanations, so it shows effects of opacity but does not test whether adding traceability fixes them. Full text accessed via an NYU Law-hosted copy of the publisher PDF.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S06"
+    ]
+  },
+  {
+    "source_id": "SRC088",
+    "title": "Using Advice from Multiple Sources to Revise and Improve Judgments (discussion-paper version; published as Yaniv & Milyavsky 2007, OBHDP 103:104-120)",
+    "authors_or_organization": "Ilan Yaniv, Maxim Milyavsky (Hebrew University of Jerusalem)",
+    "url": "https://econ.biu.ac.il/sites/econ/files/seminars/yaniv_paper_dp.pdf",
+    "publication_date": "undated discussion paper (journal version 2007)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:yaniv-egocentric-discounting",
+    "funding_or_commercial_relationships": "not reported",
+    "archived_file_path": null,
+    "limitations": "Lab estimation tasks (judge-advisor system). The access-to-reasons explanation for egocentric discounting is a proposed mechanism summarized from Yaniv & Kleinberger (2000) and Yaniv (2004), which I did not access directly; not experimentally isolated here. Journal version citation verified via Crossref (DOI 10.1016/j.obhdp.2006.05.006); the discussion-paper text may differ from the published version.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S08"
+    ]
+  },
+  {
+    "source_id": "SRC089",
+    "title": "The Limits of Transparency: Pitfalls and Potential of Disclosing Conflicts of Interest",
+    "authors_or_organization": "George Loewenstein, Daylian M. Cain, Sunita Sah",
+    "url": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/PitfallsdisclosingCOI.pdf",
+    "publication_date": "2011-05 (American Economic Review: Papers & Proceedings 101(3):423-428)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:cain2005-disclosure-coi",
+    "funding_or_commercial_relationships": "not reported",
+    "archived_file_path": null,
+    "limitations": "Short review by the original authors summarizing Cain, Loewenstein & Moore (2005, J. Legal Studies; paywalled, not accessed) and (2011). Disclosure of advisor conflicts is a different construct from evidence traceability (X3) or scope visibility (X4).",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S09"
+    ]
+  },
+  {
+    "source_id": "SRC090",
+    "title": "Accounting for the effects of accountability",
+    "authors_or_organization": "Jennifer S. Lerner, Philip E. Tetlock",
+    "url": "https://doi.org/10.1037/0033-2909.125.2.255",
+    "publication_date": "1999-03 (Psychological Bulletin 125(2):255-275)",
+    "data_collection_dates": "not applicable (review)",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:lerner-tetlock1999-accountability",
+    "funding_or_commercial_relationships": "not reported",
+    "archived_file_path": null,
+    "limitations": "Only the PubMed abstract (via NCBI E-utilities) was accessed; the review's detailed conditions (e.g., pre- vs post-decisional accountability, known vs unknown audience views) are NOT verified here and must not be cited from this record.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S10"
+    ]
+  },
+  {
+    "source_id": "SRC091",
+    "title": "Getting comfortable with the numbers: Auditing and the micro-production of macro-order (as summarized in the chapter 'Some critical perspectives on auditing')",
+    "authors_or_organization": "Brian T. Pentland (original); secondary summary in 'Auditing and Society: Research on Audit Practice and Regulations' (chapter authors not identified on page)",
+    "url": "https://ebrary.net/232816/business_finance/critical_perspectives_auditing",
+    "publication_date": "1993-10 (Accounting, Organizations and Society 18(7-8):605-620); secondary summary undated",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:pentland1993-audit-comfort",
+    "funding_or_commercial_relationships": "not reported",
+    "archived_file_path": null,
+    "limitations": "Original paywalled (ScienceDirect 403; abstract elided in Crossref/Semantic Scholar). Only a secondary textbook summary was read; page citations to the original (606-608) are the secondary author's, not verified.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S11"
+    ]
+  },
+  {
+    "source_id": "SRC092",
+    "title": "Deloitte to refund government over AI errors",
+    "authors_or_organization": "Denham Sadler, Information Age (Australian Computer Society)",
+    "url": "https://ia.acs.org.au/article/2025/deloitte-to-refund-government-over-ai-errors.html",
+    "publication_date": "2025-10-07",
+    "data_collection_dates": "not applicable",
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:deloitte-dewr-2025",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Secondary news report quoting DEWR (via AFR) and the updated report. Primary DEWR pages and PDFs (dewr.gov.au) returned 503/connection resets; Finance FOI document also unreachable. Discoverer of errors (reported elsewhere as Dr Chris Rudge, University of Sydney) not named in this article.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S14"
+    ]
+  },
+  {
+    "source_id": "SRC093",
+    "title": "Government urged to get Deloitte's total fee returned for delivering a botched AI report",
+    "authors_or_organization": "Chris Johnson, Region Canberra (region.com.au)",
+    "url": "https://region.com.au/government-urged-to-get-deloittes-total-fee-returned-for-delivering-a-botched-ai-report/911846/",
+    "publication_date": "2025-10-11",
+    "data_collection_dates": "Senate Estimates hearing reported as 2025-10-09",
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:deloitte-dewr-2025",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "News report of Senate Estimates testimony; Hansard transcript not located/verified. Same underlying event group as WS6-S14.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S15"
+    ]
+  },
+  {
+    "source_id": "SRC094",
+    "title": "Deloitte breaks silence on N.L. healthcare report",
+    "authors_or_organization": "Justin Brake, The Independent (theindependent.ca)",
+    "url": "https://theindependent.ca/news/lji/deloitte-breaks-silence-on-n-l-healthcare-report/",
+    "publication_date": "2025-11-25",
+    "data_collection_dates": "not applicable",
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:deloitte-nl-hhr-2025",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "News report from the outlet that first reported the citation problems; Government of Newfoundland and Labrador primary statements not retrieved (CTV page body not returned). Total number of false citations not given.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S16"
+    ]
+  },
+  {
+    "source_id": "SRC095",
+    "title": "The Tricky Psychology of Holding Government Accountable (interview with Philip Tetlock; republished from The Atlantic)",
+    "authors_or_organization": "Julie Beck (The Atlantic), republished by Government Executive; interviewee Philip E. Tetlock",
+    "url": "https://www.govexec.com/management/2017/01/tricky-psychology-holding-government-accountable/134536",
+    "publication_date": "2017-01-12",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:lerner-tetlock1999-accountability",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Interview in which the researcher summarizes his own research program; not a primary study; quotes read via a fetch tool's extraction of the page.",
+    "contributing_workstreams": [
+      "WS6_rivals_failures_disconfirming"
+    ],
+    "temp_ids": [
+      "WS6-S18"
+    ]
+  },
+  {
+    "source_id": "SRC096",
+    "title": "PCAOB Release No. 2018-006: Amendments to Auditing Standards for Auditor's Use of the Work of Specialists (incl. Appendix 1 rule text of AS 1210, Using the Work of an Auditor-Engaged Specialist, and AS 1105 Appendix A)",
+    "authors_or_organization": "Public Company Accounting Oversight Board (PCAOB)",
+    "url": "https://pcaob.org/Rulemaking/Docket044/2018-006-specialists-final-rule.pdf",
+    "publication_date": "2018-12-20",
+    "data_collection_dates": "Inspection data analyses cited in release: 2015 and 2017 inspection cycles",
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Access route: pcaobus.org standard page returned HTTP 403 to both curl and WebFetch; the 149-page adopting release PDF was retrieved from the alternate PCAOB domain pcaob.org (Docket 044). Rule text is as ADOPTED on 2018-12-20 (SEC-approved 2019-07-01, Release 34-86270; effective for audits of fiscal years ending on or after 2020-12-15). The PCAOB lists later conforming amendments to AS 1210 (e.g., PCAOB Release 2022-002), which were not checked; current codified text may differ in minor wording. A standard shows an obligation, not compliance, cost, or demand. Inspection statistics come from risk-selected (non-random) engagements, as the release itself notes.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S01"
+    ]
+  },
+  {
+    "source_id": "SRC099",
+    "title": "Lawyering in the Age of Artificial Intelligence (109 Minn. L. Rev. 147 (2024)) - repository landing page and abstract",
+    "authors_or_organization": "Jonathan H. Choi, Amy B. Monahan, Daniel Schwarcz",
+    "url": "https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/",
+    "publication_date": "2024-11",
+    "data_collection_dates": "not reported in accessed material (SSRN version posted 2023-11-09)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:choi2024-lawyering-gpt4-rct",
+    "funding_or_commercial_relationships": "not reported in accessed material",
+    "archived_file_path": null,
+    "limitations": "Full text NOT reviewed: PDF links at scholarship.law.umn.edu (viewcontent.cgi), minnesotalawreview.org, and SSRN all returned Cloudflare bot challenges/403 to curl and WebFetch; not bypassed. Only the published abstract was read. Law-review article (student-edited, not peer-reviewed in the scientific sense). Participants were law students, not practicing lawyers; tasks were drafting/analysis tasks, not review of an outside advisor's work.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S05"
+    ]
+  },
+  {
+    "source_id": "SRC100",
+    "title": "Lawyering in the Age of Artificial Intelligence - SSRN abstract as reproduced on TaxProf Blog (2023-11-16)",
+    "authors_or_organization": "TaxProf Blog (AALS) reproducing abstract by Choi, Monahan & Schwarcz",
+    "url": "https://taxprofblog.aals.org/2023/11/16/lawyering-in-the-age-of-artificial-intelligence/",
+    "publication_date": "2023-11-16",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:choi2024-lawyering-gpt4-rct",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Secondary reproduction of the 2023 SSRN-version abstract; retrieved via WebFetch (model-summarized output), so wording was not independently verified character-by-character; used only for design facts (N=60 students, four tasks, training on GPT-4).",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S06"
+    ]
+  },
+  {
+    "source_id": "SRC101",
+    "title": "AI helps lawyers complete work quicker, study finds (Legal Futures)",
+    "authors_or_organization": "Legal Futures (news)",
+    "url": "https://www.legalfutures.co.uk/latest-news/ai-helps-lawyers-complete-work-quicker-study-finds/print/",
+    "publication_date": "not reported (c. Nov 2023)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:choi2024-lawyering-gpt4-rct",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "News coverage of the same study; retrieved via WebFetch summarizer; the reported 12%-32% time-saving range could not be checked against the paper's tables because full text was blocked.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S07"
+    ]
+  },
+  {
+    "source_id": "SRC102",
+    "title": "Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies (arXiv:2112.11471v1; later published as 'Towards a Science of Human-AI Decision Making: An Overview of Design Space in Empirical Human-Subject Studies', FAccT 2023)",
+    "authors_or_organization": "Vivian Lai, Chacha Chen, Q. Vera Liao, Alison Smith-Renner, Chenhao Tan",
+    "url": "https://arxiv.org/pdf/2112.11471",
+    "publication_date": "2021-12-21 (arXiv v1)",
+    "data_collection_dates": "Literature surveyed: >100 empirical human-subject papers (venues incl. CHI, CSCW, IUI, FAccT, NeurIPS etc.) up to 2021",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:lai2021-2023-human-ai-decision-survey",
+    "funding_or_commercial_relationships": "Co-author affiliations include Microsoft Research and Dataminr",
+    "archived_file_path": null,
+    "limitations": "The full text read is the 2021 arXiv survey version, not the FAccT 2023 camera-ready; counts and wording may differ in the published version. Narrative/coded survey without pooled effect sizes; does not quantify the share of studies with expert participants in the passages extracted.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S08"
+    ]
+  },
+  {
+    "source_id": "SRC103",
+    "title": "Appropriate Reliance on AI Advice: Conceptualization and the Effect of Explanations (IUI '23; arXiv:2302.02187v3)",
+    "authors_or_organization": "Max Schemmer, Niklas Kühl, Carina Benz, Andrea Bartos, Gerhard Satzger (Karlsruhe Institute of Technology)",
+    "url": "https://arxiv.org/pdf/2302.02187",
+    "publication_date": "2023-03",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:schemmer2023-appropriateness-of-reliance",
+    "funding_or_commercial_relationships": "not extracted",
+    "archived_file_path": null,
+    "limitations": "Prolific crowdworkers (N=200; one excluded); deceptive hotel-review task on which humans perform near chance; AI down-sampled to 50% accuracy on the 16 main items (4 per confusion-matrix cell); feature-importance highlights, not provenance; no time/effort measure in extracted results.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S09"
+    ]
+  },
+  {
+    "source_id": "SRC104",
+    "title": "Automation bias: a systematic review of frequency, effect mediators, and mitigators (J Am Med Inform Assoc 2012;19(1):121-127)",
+    "authors_or_organization": "Kate Goddard, Abdul Roudsari, Jeremy C. Wyatt",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3240751/",
+    "publication_date": "2012-01 (online 2011-06)",
+    "data_collection_dates": "Database searches retrieving 13,821 papers (after de-duplication); 74 included",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:goddard2012-automation-bias-review",
+    "funding_or_commercial_relationships": "not extracted",
+    "archived_file_path": null,
+    "limitations": "Mixed fields (healthcare, aviation, generic); pooled meta-analysis is small and 'indicative' (4 healthcare CDSS studies). Mediator findings (experience, accountability) are vote-counted narrative syntheses, several from aviation/student samples. Pre-dates generative AI. Decision support systems are tools, not outside advisors.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S10"
+    ]
+  },
+  {
+    "source_id": "SRC105",
+    "title": "Proxy Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable AI Systems (IUI '20; arXiv:2001.08298)",
+    "authors_or_organization": "Zana Buçinca, Phoebe Lin, Krzysztof Z. Gajos, Elena L. Glassman (Harvard University)",
+    "url": "https://arxiv.org/pdf/2001.08298",
+    "publication_date": "2020-03 (arXiv 2020-01-22)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:bucinca2020-proxy-tasks-subjective-measures",
+    "funding_or_commercial_relationships": "not extracted",
+    "archived_file_path": null,
+    "limitations": "Full text retrieved; only the abstract was reviewed in this timebox, so sample sizes and effect sizes are not recorded. Lay online participants plus an in-person think-aloud study.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S13"
+    ]
+  },
+  {
+    "source_id": "SRC106",
+    "title": "RSNA press release: AI Bias May Impair Radiologist Accuracy on Mammogram (on Dratsch et al., 'Automation Bias in Mammography: The Impact of Artificial Intelligence BI-RADS Suggestions on Reader Performance', Radiology 2023, doi:10.1148/radiol.222176)",
+    "authors_or_organization": "Radiological Society of North America (press release on study by Thomas Dratsch et al.)",
+    "url": "https://www.rsna.org/media/press/i/2432",
+    "publication_date": "2023-05-02",
+    "data_collection_dates": "not reported in press release",
+    "access_date": "2026-11-15",
+    "source_type": "news_report",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:dratsch2023-mammography-automation-bias",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Press release only; the Radiology article and PubMed abstract were not read (PubMed returned a cookie/bot page). Moderately experienced group results and statistical tests not available from the release. Simulated ('purported') AI with deliberately incorrect suggestions on 12 of 40 cases; reader-study setting, not clinical practice.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S14"
+    ]
+  },
+  {
+    "source_id": "SRC107",
+    "title": "Man Versus Machine: Complex Estimates and Auditor Reliance on Artificial Intelligence (Journal of Accounting Research 60(1):171-201) - repository abstract",
+    "authors_or_organization": "Benjamin P. Commerford, Sean A. Dennis, Jennifer R. Joe, Jenny W. Ulla",
+    "url": "https://digitalscholarship.unlv.edu/acct_fac_articles/51",
+    "publication_date": "2022-03",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:commerford2022-auditor-algorithm-aversion",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only (UNLV repository landing page); participant count, experience level, effect sizes and design details not reviewed. Experimental case, not field audits.",
+    "contributing_workstreams": [
+      "WS7_methods_transferability_audit"
+    ],
+    "temp_ids": [
+      "WS7-S15"
+    ]
+  },
+  {
+    "source_id": "SRC108",
+    "title": "Improving communication of diagnostic radiology findings through structured reporting",
+    "authors_or_organization": "Schwartz LH, Panicek DM, Berk AR, Li Y, Hricak H (Memorial Sloan-Kettering Cancer Center)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3121011/ (Radiology 2011;260(1):174-181; PMID 21518775)",
+    "publication_date": "2011-07",
+    "data_collection_dates": "Conventional reports Jan-Jun 2009; structured reports Jun-Sep 2009",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:schwartz2011-structured-ct-reports",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "Single tertiary cancer center; 11 raters (3 radiologists, 3 fellows, 3 surgeons, 2 oncologists); different reports in each arm (not the same cases dictated both ways); outcome is rated satisfaction, not report correctness or downstream decisions; radiologist time to produce reports not measured. Full text read through an automated page-extraction tool; abstract figures cross-checked against Europe PMC abstract.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S01"
+    ]
+  },
+  {
+    "source_id": "SRC109",
+    "title": "Structured reporting in radiology: a systematic review to explore its potential",
+    "authors_or_organization": "Nobel JM, van Geel K, Robben SGF (Maastricht UMC+)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8921035/ (Eur Radiol 2022;32(4):2837-2854; doi 10.1007/s00330-021-08327-5)",
+    "publication_date": "2021-10-15 (online)",
+    "data_collection_dates": "Literature searched up to 2020-08-10",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:nobel2021-sr-radiology-systematic-review",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "Narrative/thematic synthesis, no meta-analysis (heterogeneity); 63 studies, 61 graded level B; no tally of positive/negative/neutral outcomes; internal inconsistencies in subgroup counts (Results vs Discussion). Final ~9k characters (reference list tail) not read.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S02"
+    ]
+  },
+  {
+    "source_id": "SRC110",
+    "title": "Cohort study of structured reporting compared with conventional dictation",
+    "authors_or_organization": "Johnson AJ, Chen MY, Swan JS, Applegate KE, Littenberg B",
+    "url": "https://doi.org/10.1148/radiol.2531090138 (Radiology 2009;253(1):74-80; PMID 19709993)",
+    "publication_date": "2009-10",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:johnson2009-srs-cohort",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only (Europe PMC). Residents, not attending radiologists; one early-generation point-and-click SRS; cranial MR stroke cases; nonrandomized control vs intervention groups with 4-month repeat reading of the same 25 cases. Accompanying editorial (Langlotz) attributes result partly to early system design (seen only via search summary).",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S03"
+    ]
+  },
+  {
+    "source_id": "SRC111",
+    "title": "The effects of implementing synoptic pathology reporting in cancer diagnosis: a systematic review",
+    "authors_or_organization": "Sluijter CE, van Lonkhuijzen LRCW, van Slooten HJ, Nagtegaal ID, Overbeek LIH",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887530/ (Virchows Arch 2016;468:639-649; doi 10.1007/s00428-016-1935-8)",
+    "publication_date": "2016",
+    "data_collection_dates": "Literature searched to 2015-09-30",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:sluijter2016-synoptic-pathology-sr",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "All 33 included studies observational (23 cross-sectional, 10 case-control), no RCTs; 8 studies <200 reports; possible publication bias; mostly colorectal and breast; turnaround-time claims rest on references outside the included set; no cost data.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S04"
+    ]
+  },
+  {
+    "source_id": "SRC112",
+    "title": "Adequacy of surgical pathology reporting of cancer: a College of American Pathologists Q-Probes study of 86 institutions",
+    "authors_or_organization": "Idowu MO, Bekeris LG, Raab S, Ruby SG, Nakhleh RE (College of American Pathologists)",
+    "url": "https://doi.org/10.5858/2009-0412-cp.1 (Arch Pathol Lab Med 2010;134:969-974; PMID 20586623)",
+    "publication_date": "2010-07",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:idowu2010-cap-qprobes-checklists",
+    "funding_or_commercial_relationships": "Conducted within CAP's fee-based voluntary Q-Probes program (CAP also publishes the protocols)",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Cross-sectional, institution-level association between routine checklist use and complete reports (not causal); voluntary participating institutions; self-reviewed reports.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S05"
+    ]
+  },
+  {
+    "source_id": "SRC113",
+    "title": "Structured reporting of multiphasic CT for pancreatic cancer: potential effect on staging and surgical planning",
+    "authors_or_organization": "Brook OR, Brook A, Vollmer CM, Kent TS, Sanchez N, Pedrosa I",
+    "url": "https://doi.org/10.1148/radiol.14140206 (Radiology 2015;274:464-472; PMID 25286323)",
+    "publication_date": "2015-02",
+    "data_collection_dates": "Dec 2006 - Apr 2011 (template introduced Apr 2008)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:brook2015-pancreatic-ct-structured",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Single institution, retrospective before/after; 3 surgeon raters; surgeons' ratings of sufficiency/ease are judgments, not measured decision accuracy or patient outcomes; time costs not reported.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S06"
+    ]
+  },
+  {
+    "source_id": "SRC114",
+    "title": "Efficacy of a checklist-style structured radiology reporting template in reducing resident misses on cervical spine computed tomography examinations",
+    "authors_or_organization": "Lin E, Powell DK, Kagetsu NJ",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4171436/ (J Digit Imaging 2014;27(5):588-593)",
+    "publication_date": "2014",
+    "data_collection_dates": "Pre-template Jul 2009-Mar 2011; post-template Dec 2010-Oct 2011",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:lin2014-checklist-cspine-ct",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "Single residency program, retrospective pre/post; changing resident cohorts; possible Hawthorne effect; underpowered for overall effect; fracture misses not reduced. Co-author Powell also authored WS8-S11 (not independent authorship).",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S07"
+    ]
+  },
+  {
+    "source_id": "SRC115",
+    "title": "Prepopulated radiology report templates: a prospective analysis of error rate and turnaround time",
+    "authors_or_organization": "Hawkins CM, Hall S, Hardin J, Salisbury S, Towbin AJ (Cincinnati Children's Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3389086/ (J Digit Imaging 2012;25:504-511)",
+    "publication_date": "2012-01-25 (online)",
+    "data_collection_dates": "Two consecutive weeks (dates not reported)",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:hawkins2012-prepopulated-templates",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "Two-week crossover at one pediatric department; error categories pooled across weeks for many types; manual error logging; dictation time includes interpretation. Same department as WS8-S10 (not fully independent setting).",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S08"
+    ]
+  },
+  {
+    "source_id": "SRC116",
+    "title": "Style and content of CT and MR imaging lumbar spine reports: radiologist and clinician preferences",
+    "authors_or_organization": "Eskander MG, Leung A, Lee D (London Health Sciences Centre, Ontario)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7964006/ (AJNR Am J Neuroradiol 2010;31(10):1842-1847; doi 10.3174/ajnr.A2218)",
+    "publication_date": "2010",
+    "data_collection_dates": "not reported in extracted text",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:eskander2010-lumbar-report-preferences",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "Mailed survey with hypothetical reports (stated preference); single center; clinician response 89/183 (49%), radiologist 31/58 (53%); nonrespondents not analyzed; prose samples were themselves highly structured.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S09"
+    ]
+  },
+  {
+    "source_id": "SRC117",
+    "title": "Improving consistency in radiology reporting through the use of department-wide standardized structured reporting",
+    "authors_or_organization": "Larson DB, Towbin AJ, Pryor RM, Donnelly LF (Cincinnati Children's Hospital)",
+    "url": "https://doi.org/10.1148/radiol.12121502 (Radiology 2013;267:240-250; PMID 23329657)",
+    "publication_date": "2013-04",
+    "data_collection_dates": "Feb 2010 - Sep 2011 implementation; survey Aug 2012",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:larson2013-department-structured-reporting",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Single-department implementation report; adherence audits measure format conformance, not report correctness or recipient outcomes; radiologist feedback is self-report.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S10"
+    ]
+  },
+  {
+    "source_id": "SRC118",
+    "title": "State of structured reporting in radiology, a survey",
+    "authors_or_organization": "Powell DK, Silberzweig JE",
+    "url": "https://doi.org/10.1016/j.acra.2014.08.014 (Acad Radiol 2015;22:226-233; PMID 25442793)",
+    "publication_date": "2015-02",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:powell2015-sr-survey",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. 265/910 (29.1%) response, 90.6% academic; self-reported practices and perceptions (incl. perceived error reduction).",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S11"
+    ]
+  },
+  {
+    "source_id": "SRC119",
+    "title": "Content analysis of reporting templates and free-text radiology reports",
+    "authors_or_organization": "Hong Y, Kahn CE Jr",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3782601/ (J Digit Imaging 2013;26:843-849)",
+    "publication_date": "2013-10",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:hong2013-radreport-template-coverage",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Automated concept annotation (BioPortal) of 5 RSNA templates against reports from one academic center; concept coverage is not clinical importance.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S12"
+    ]
+  },
+  {
+    "source_id": "SRC120",
+    "title": "Cancer Protocol FAQs (CAP Cancer Protocol Templates)",
+    "authors_or_organization": "College of American Pathologists",
+    "url": "https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates/cancer-protocol-faqs",
+    "publication_date": "not reported (live web page)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:cap-cancer-protocol-faqs",
+    "funding_or_commercial_relationships": "CAP licenses protocols for use in information systems",
+    "archived_file_path": null,
+    "limitations": "Standard-setter's own FAQ: shows obligations and permitted flexibility, not compliance rates or effects. Page read via automated extraction; live page may change.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S13"
+    ]
+  },
+  {
+    "source_id": "SRC121",
+    "title": "Adherence to synoptic cancer pathology reporting among pathologists in the National Department of Veterans Affairs Health Care System",
+    "authors_or_organization": "Ould Ismail AA, Kale S, McGonagle K, Hill B, Pettus JR, DuVall SL, Ferraro JP, Schroeck FR",
+    "url": "https://doi.org/10.5858/arpa.2024-0229-oa (Arch Pathol Lab Med 2025;149:727-733; PMC12182258)",
+    "publication_date": "2025-08",
+    "data_collection_dates": "Reports from 2019-2021",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:ouldismail2025-va-synoptic-adherence",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Observational audit of 1618 randomly sampled reports in one (large) system; four cancer types; measures format use and element documentation, not downstream effects.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S14"
+    ]
+  },
+  {
+    "source_id": "SRC122",
+    "title": "Mandatory second opinion surgical pathology at a large referral hospital",
+    "authors_or_organization": "Kronz JD, Westra WH, Epstein JI (Johns Hopkins)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10590387/ (Cancer 1999;86(11):2426-2435); abstract read via Europe PMC REST API",
+    "publication_date": "1999-12-01",
+    "data_collection_dates": "April 1995 - December 1996 (21 months, prospective)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:kronz1999-hopkins-second-opinion",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only (PubMed page blocked by cookie wall; Europe PMC abstract used). Changed diagnosis defined narrowly (excludes grade/stage changes), so underestimates all discrepancies; no adjudication against outcomes described in abstract; single referral center; data ~30 years old.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S15"
+    ]
+  },
+  {
+    "source_id": "SRC123",
+    "title": "Mandatory second opinion in surgical pathology referral material: clinical consequences of major disagreements",
+    "authors_or_organization": "Manion E, Cohen MB, Weydert J (University of Iowa)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18360282/ (Am J Surg Pathol 2008;32:732-737); abstract read via Europe PMC REST API",
+    "publication_date": "2008-05-01",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:manion2008-iowa-second-opinion",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Single institution; disagreement classified by the second-opinion pathologist (who is not a neutral arbiter); clinical follow-up used for significance.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S16"
+    ]
+  },
+  {
+    "source_id": "SRC124",
+    "title": "Impact of neuroradiologist second opinion on staging and management of head and neck cancer",
+    "authors_or_organization": "Lysack JT, Hoy M, Hudon ME, Nakoneshny SC, Chandarana SP, Matthews TW, Dort JC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3680178/ (J Otolaryngol Head Neck Surg 2013;42:39)",
+    "publication_date": "2013",
+    "data_collection_dates": "2010 cases",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:lysack2013-hn-neuroradiology-second-opinion",
+    "funding_or_commercial_relationships": "not reported in extracted text",
+    "archived_file_path": null,
+    "limitations": "Retrospective, non-blinded; 94 cases, single center; pathologic gold standard only for 30 surgical cases; second readers had more clinical information and knew the context; time/cost of re-reads not measured.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S17"
+    ]
+  },
+  {
+    "source_id": "SRC125",
+    "title": "Reducing the rate of repeat imaging: import of outside images to PACS",
+    "authors_or_organization": "Lu MT, Tellis WM, Fidelman N, Qayyum A, Avrin DE (UCSF)",
+    "url": "https://doi.org/10.2214/ajr.11.6890 (AJR 2012;198:628-634; PMID 22358003)",
+    "publication_date": "2012-03",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:lu2012-outside-image-import",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Retrospective observational, 267 patients before chemoembolization at one center; small 'not available' group (n=18); adjusted ORs but residual confounding possible (e.g., why images were not imported).",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S18"
+    ]
+  },
+  {
+    "source_id": "SRC126",
+    "title": "40 CFR Part 312 - Innocent Landowners, Standards for Conducting All Appropriate Inquiries (7-1-20 edition)",
+    "authors_or_organization": "U.S. Environmental Protection Agency (Code of Federal Regulations, via GovInfo)",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2020-title40-vol30/pdf/CFR-2020-title40-vol30-part312.pdf",
+    "publication_date": "2020-07-01 (edition)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:epa-aai-40cfr312",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Regulation shows required report content and user duties, not compliance, report quality, or whether data-gap disclosure changes buyer behavior. ASTM E1527-21 (the practice most Phase I reports follow) could not be accessed (astm.org returned 403; standard is paywalled).",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S19"
+    ]
+  },
+  {
+    "source_id": "SRC127",
+    "title": "BI-RADS lexicon for US and mammography: interobserver variability and positive predictive value",
+    "authors_or_organization": "Lazarus E, Mainiero MB, Schepps B, Koelliker SL, Livingston LS",
+    "url": "https://doi.org/10.1148/radiol.2392042127 (Radiology 2006;239:385-391; PMID 16569780)",
+    "publication_date": "2006-05",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:lazarus2006-birads-interobserver",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. 5 radiologists, 94 biopsied lesions (enriched sample), single center, BI-RADS 4th edition; authors interpret agreement as 'good' despite fair kappa for final category.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S20"
+    ]
+  },
+  {
+    "source_id": "SRC128",
+    "title": "Structured Head and Neck CT Angiography Reporting Reduces Resident Revision Rates",
+    "authors_or_organization": "Johnson TF, Brinjikji W, Doolittle DA, Nagelschneider AA, Welch BT, Kotsenas AL (Mayo Clinic)",
+    "url": "https://doi.org/10.1067/j.cpradiol.2018.04.003 (Curr Probl Diagn Radiol 2019;48:114-116; PMID 29753407)",
+    "publication_date": "2019-03 (online 2018)",
+    "data_collection_dates": "not reported in abstract (2-month template period)",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:johnsontf2019-cta-template-revisions",
+    "funding_or_commercial_relationships": "not reported in abstract",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Resident-driven QI project; very small structured group (17 reports); revisions are attending corrections of resident preliminary reports (producer-side rework), mostly typographical per authors; trade-press summaries report inconsistent baseline counts (10/41 vs 11/54) - abstract figures used.",
+    "contributing_workstreams": [
+      "WS8_structured_reporting_coverage"
+    ],
+    "temp_ids": [
+      "WS8-S21"
+    ]
+  }
+]

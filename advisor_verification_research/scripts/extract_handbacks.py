@@ -35,7 +35,7 @@ open(os.path.join(wsdir, "final_message_to_coordinator.md"), "w", encoding="utf-
 
 lines = msg.splitlines()
 rep_re = re.compile(r"(content for report\.md|appendix a\b.*report\.md|^#+\s*report\.md)", re.I)
-log_re = re.compile(r"(content for search_log\.md|appendix b\b.*search_log\.md)", re.I)
+log_re = re.compile(r"(content for search_log\.md|appendix b\b.*search_log\.md|^#+\s*search_log\.md)", re.I)
 ri = next((i for i, l in enumerate(lines) if rep_re.search(l)), None)
 li = next((i for i, l in enumerate(lines) if log_re.search(l)), None)
 

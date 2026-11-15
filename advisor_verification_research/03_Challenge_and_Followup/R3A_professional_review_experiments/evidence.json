@@ -1,0 +1,542 @@
+[
+ {
+  "evidence_id": "R3A-E01",
+  "source_id": "R3A-S01",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P2.2 Traceability/structured evidence preserves or improves detection of material errors/omissions (baseline condition: professional review of AI drafts WITHOUT any traceability); P3.2 AI assistance shifts review effort rather than removing it",
+  "work_type_tags": [
+   "W3",
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Practicing primary care physicians reviewing AI-drafted patient portal replies failed to sufficiently address most erroneous drafts; each of the 4 erroneous drafts was missed by 13-15 of 20 physicians and 7-9 sent it entirely unedited; only 1 physician addressed all four.",
+  "relationship": "contextual",
+  "evidence_type": "direct evidence (professional reviewers, observed behavior, simulation)",
+  "population_and_setting": "20 practicing PCPs (19 attendings, 1 resident; mean 14.75 years post-medical school) from 13 sites, Baltimore-Washington area; simulated patient portal inbox",
+  "study_or_observation_method": "Cross-sectional simulation: 18 simulated messages each with a ChatGPT 4.0 draft reply that participants could edit; 4 drafts contained investigator-identified errors (2 objective inaccuracies, 2 potentially harmful omissions); binomial tests",
+  "intervention_and_comparator": "All participants reviewed AI drafts; no unassisted or traceability comparison arm",
+  "outcome_measured": "Number of participants who insufficiently addressed ('missed') each erroneous draft; number sending unedited; survey perceptions",
+  "quantitative_result": "Misses per erroneous draft: typo 14/20 (70%), outdated advice 14/20 (70%), blood-clot omission 13/20 (65%), DKA omission 15/20 (75%); unedited sends 7-9/20 (35-45%); mean 2.67 of 4 erroneous drafts missed (66.6%); all binomial p<0.001 (adjusted alpha 0.0125)",
+  "source_locator": "Results section and Table 2 (Europe PMC full text PMC12022076)",
+  "short_exact_excerpt": "Each erroneous AI draft was “missed” by at least 13 participants (65%) and was submitted entirely unedited by at least seven participants (35%).",
+  "underlying_evidence_group": "EG:biro2025-portal-ai-draft-errors",
+  "limitations": "Simulation without chart context; only 4 erroneous items; errors not deliberately engineered; no comparator, so detection cannot be attributed to the AI draft vs task difficulty; single LLM.",
+  "transferability_to_target_workflow": "Mechanism that transfers: an accountable professional signs off on a draft produced by someone/something else under time pressure, and errors that are absent (omissions) or plausible are hard to see. Consequential differences: clinicians review short documents about single patients with immediate feedback loops; credit/IC reviewers review long, multi-source analyses with delayed consequences, more numeric derivation, and committee-level second review. Needs verification in a diligence setting with seeded errors.",
+  "analyst_inference": "This is the best professional-reviewer baseline found for 'review an outside draft that looks fine': detection of seeded/identified errors was low even among experienced accountable physicians. It shows the size of the gap any traceability feature would need to close, but tests no traceability feature.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E02",
+  "source_id": "R3A-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.3 Explanations/citations increase trust/acceptance without improving error detection (here: favorable perception without explanations/citations)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "The same physicians who missed most errors rated the AI drafts favorably: 95% found them helpful, 80% agreed they reduced cognitive workload, 90% agreed they trusted the tool, 75% believed them safe. Total time on the study varied from 15 to 126 minutes; participants edited a mean of 10.05 of 18 drafts.",
+  "relationship": "qualifies",
+  "evidence_type": "direct evidence (stated perception vs observed behavior in same participants)",
+  "population_and_setting": "Same as R3A-E01",
+  "study_or_observation_method": "Post-task survey (6-point Likert) plus logged edits and total time",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Stated helpfulness, workload, trust, safety; total study time; number of drafts edited",
+  "quantitative_result": "Helpful 19/20 (95%); reduced workload 16/20 (80%); trust 18/20 (90%); accurate 14/20 (70%); safe 15/20 (75%); time on study mean 49.50 min (SD 30.33, range 15.15-126); drafts edited mean 10.05/18 (SD 5.94, range 2-18)",
+  "source_locator": "Results: participant characteristics paragraph and Survey Responses / Fig. 1",
+  "short_exact_excerpt": "Participants varied greatly in both time they spent on the study (mean = 49.50 min, SD = 30.33, range = [15.15, 126]) and number of AI drafts that they edited",
+  "underlying_evidence_group": "EG:biro2025-portal-ai-draft-errors",
+  "limitations": "No per-item time and no unassisted baseline, so no review-time effect can be estimated; time-detection relationship not reported.",
+  "transferability_to_target_workflow": "Suggests that recipient satisfaction/stated workload relief is not a valid proxy for verification quality among accountable professionals; any diligence pilot should measure detection directly.",
+  "analyst_inference": "Trust-detection divergence occurs even with no explanation or citation present, so P2.3's mechanism (overtrust) does not require citations; citations could add to or offset it - untested here.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E03",
+  "source_id": "R3A-S02",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 AI assistance shifts review effort elsewhere rather than removing it; P2.2 (baseline: unedited drafts' error content)",
+  "work_type_tags": [
+   "W3",
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Assessing radiation oncologists judged that unedited GPT-4 drafts posed a risk of severe harm in 7.1% and death in 0.6% of survey responses, mostly from misjudging acuity; they also reported improved subjective efficiency in 76.9% of cases.",
+  "relationship": "qualifies",
+  "evidence_type": "direct evidence (professional reviewers; subjective efficiency, judged harm)",
+  "population_and_setting": "6 board-certified attending radiation oncologists, Brigham and Women's Hospital, 2023; 100 GPT-4-generated simulated cancer patient messages",
+  "study_or_observation_method": "Two-stage observational study: stage 1 manual replies; stage 2 editing GPT-4 drafts; surveys on quality, safety, helpfulness",
+  "intervention_and_comparator": "LLM-assisted (edit GPT-4 draft) vs manual reply by the same physicians (fixed order)",
+  "outcome_measured": "Physician-judged harm of unedited drafts; subjective efficiency; response length and content",
+  "quantitative_result": "Severe harm risk 11/156 (7.1%) survey responses; death risk 1/156 (0.6%); subjective efficiency improved 120/156 (76.9%); manual reply 34 words vs LLM draft 169 and LLM-assisted 160 words (p<0.0001)",
+  "source_locator": "Main text, results paragraph (Europe PMC author manuscript PMC11829255); appendix p 19 for harm categories (not reviewed)",
+  "short_exact_excerpt": "It was felt by the assessing physicians that the LLM drafts posed a risk of severe harm in 11 (7·1%) of 156 survey responses, and death in one (0·6%) survey response.",
+  "underlying_evidence_group": "EG:chen2024-llm-patient-messages",
+  "limitations": "Efficiency not timed; harm judgments by participants; did not report how many harmful drafts survived physician editing in the text reviewed.",
+  "transferability_to_target_workflow": "Mechanism that transfers: an accountable professional signs off on a draft produced by someone/something else under time pressure, and errors that are absent (omissions) or plausible are hard to see. Consequential differences: clinicians review short documents about single patients with immediate feedback loops; credit/IC reviewers review long, multi-source analyses with delayed consequences, more numeric derivation, and committee-level second review. Needs verification in a diligence setting with seeded errors.",
+  "analyst_inference": "Perceived efficiency gains coexist with a non-trivial rate of harmful content in drafts; the study does not show whether reviewers caught it, so it cannot resolve the time-vs-detection trade-off.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E04",
+  "source_id": "R3A-S02",
+  "research_question_ids": [
+   "RQ3"
+  ],
+  "proposition_tested": "P3.3 Drafting/reformatting is separable from substantive judgment",
+  "work_type_tags": [
+   "W1",
+   "W5"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Physicians' LLM-assisted replies converged on the LLM draft's clinical content rather than their own manual assessments: content was more similar to LLM drafts than to manual responses, and inter-physician agreement rose from kappa 0.10 to 0.52; drafts were less likely to direct urgent action. Authors interpret this as automation bias and anchoring.",
+  "relationship": "challenges",
+  "evidence_type": "direct evidence (observed content change among professionals)",
+  "population_and_setting": "Same as R3A-E03",
+  "study_or_observation_method": "Content coding of manual vs LLM-draft vs LLM-assisted responses",
+  "intervention_and_comparator": "LLM-assisted vs manual responses",
+  "outcome_measured": "Similarity of response content; inter-physician agreement",
+  "quantitative_result": "LLM-assisted vs LLM draft content p=0.81 (no difference); LLM-assisted vs manual p<0.0001; mean Cohen's kappa 0.10 (manual) vs 0.52 (LLM-assisted)",
+  "source_locator": "Main text results paragraph and Figure (response content comparisons)",
+  "short_exact_excerpt": "The content of the LLM-assisted responses were more similar to the LLM drafts (p=0·81) than to manual responses (p<0·0001; figure ).",
+  "underlying_evidence_group": "EG:chen2024-llm-patient-messages",
+  "limitations": "Fixed order (manual first) and simulated scenarios; similarity measured by content categories.",
+  "transferability_to_target_workflow": "If an advisor's draft is placed directly into the recipient's decision document, the recipient may adopt its substantive judgments rather than only its wording; integration may therefore not be a pure 'reformatting' saving (relevant to W1 vs W5 separation in IC memos).",
+  "analyst_inference": "Evidence that 'drafting' assistance carries substantive judgment with it in a professional setting; challenges assuming drafting and judgment are cleanly separable.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E05",
+  "source_id": "R3A-S03",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 AI assistance shifts review effort rather than removing it / P2.2 detection preserved (here: less editing effort coincides with residual errors)",
+  "work_type_tags": [
+   "W3",
+   "W5"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Blinded, time-constrained residents edited a smaller share of LLM-drafted hospital courses than physician-drafted ones and made less semantic change, but attending evaluators rated the edited LLM versions as having more confabulations (and more completeness); composite quality did not differ.",
+  "relationship": "supports",
+  "evidence_type": "direct evidence (professional reviewers, effort and post-review error both measured, blinded to author)",
+  "population_and_setting": "10 internal medicine residents (editors) and 8 hospitalist attendings (evaluators), NYU Langone; 100 general medicine admissions (LOS 4-8 days), December 2023",
+  "study_or_observation_method": "Quality-improvement study; residents blinded to author type edited each LLM/physician pair (10 min record review, 3 min editing); attendings rated edited pairs A/B on 4Cs",
+  "intervention_and_comparator": "EHR-embedded LLM-drafted hospital course vs physician-written hospital course (both edited by residents)",
+  "outcome_measured": "Percentage of characters edited (normalized Levenshtein), semantic change, attending ratings of completeness, concision, cohesion, confabulation",
+  "quantitative_result": "Percent edited LLM 31.5% (SD 16.6) vs physician 44.8% (SD 20.0), P<.001; semantic change 2.4% (SD 1.6) vs 4.9% (SD 3.5), P<.001; completeness difference +3.00 (SD 5.28) favoring LLM, P<.001; confabulation difference -0.98 (SD 3.53) favoring physician, P=.002; composite +1.70 (SD 14.24) on 40-point scale, P=.46; no CIs reported",
+  "source_locator": "Abstract Results (Europe PMC PMID 40802185); article results section",
+  "short_exact_excerpt": "but with more confabulations (mean [SD], -0.98 [3.53]; P = .002)",
+  "underlying_evidence_group": "EG:small2025-nyu-hospital-course-llm",
+  "limitations": "Artificial time limits; confabulations rated comparatively after editing (no pre-edit error count, so catch rate unknown); convenience sample; single site; no provenance/traceability arm.",
+  "transferability_to_target_workflow": "Mechanism that transfers: an accountable professional signs off on a draft produced by someone/something else under time pressure, and errors that are absent (omissions) or plausible are hard to see. Consequential differences: clinicians review short documents about single patients with immediate feedback loops; credit/IC reviewers review long, multi-source analyses with delayed consequences, more numeric derivation, and committee-level second review. Needs verification in a diligence setting with seeded errors. Closest structural analogue found: reviewer improves a draft written by another author before it enters a formal record.",
+  "analyst_inference": "The one professional study found that measures both editing effort and residual errors shows the effort reduction did NOT come with equivalent error removal: fewer edits, more surviving confabulations. Lower editing can reflect a better draft or less scrutiny; the design cannot separate these.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3A-E06",
+  "source_id": "R3A-S04",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P3.2 (qualifier: review time constraints and unfamiliar material limit detection)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Invited commentary on R3A-S03 states that LLM hospital courses continued to contain confabulations after human editing and that the 10-minute review window with unfamiliar patients may have limited residents' capacity to detect subtle errors.",
+  "relationship": "qualifies",
+  "evidence_type": "expert commentary on direct evidence",
+  "population_and_setting": "Commentary on NYU study (R3A-S03)",
+  "study_or_observation_method": "Invited commentary",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": "Reports 32% vs 45% characters edited and 2% vs 5% semantic change (rounded from R3A-S03)",
+  "source_locator": "Commentary text (JAMA Netw Open 2025;8(8):e2526350); excerpt seen via WebFetch extraction, not verified line-by-line",
+  "short_exact_excerpt": "LLM HCs continued to contain confabulations even after editing by humans.",
+  "underlying_evidence_group": "EG:small2025-nyu-hospital-course-llm",
+  "limitations": "Same evidence group as R3A-S03; interpretation, not new data; excerpt obtained via an extraction tool.",
+  "transferability_to_target_workflow": "Time-boxed review of unfamiliar material resembles a credit reviewer receiving a third-party report late in a deal; detection may depend on time allowed, which is the variable traceability would act on.",
+  "analyst_inference": "Highlights that the review-time budget is a confounder: effort savings measured under fixed time caps say little about detection under realistic time.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3A-E07",
+  "source_id": "R3A-S05",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 AI assistance shifts review effort rather than removing it (test: time and errors with seeded-error AI drafts)",
+  "work_type_tags": [
+   "W3",
+   "W5"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Radiology readers editing AI-drafted chest CT reports (half with 1-3 seeded errors) were faster than when editing a normal template, with no statistically significant difference in clinically significant errors in final signed reports.",
+  "relationship": "challenges",
+  "evidence_type": "direct evidence (small crossover pilot, professional readers, seeded errors)",
+  "population_and_setting": "3 readers (1 radiologist, 2 radiology residents); 20 chest CT cases (CT-RATE); 59 signed reports",
+  "study_or_observation_method": "Multi-case crossover; GPT-4-simulated draft reports with GPT-4-inserted errors in half; independent radiologist scored final reports; mixed models",
+  "intervention_and_comparator": "Edit AI draft (platform highlights template insertions/positive findings) vs edit standard normal template",
+  "outcome_measured": "Reporting time (case opening to signing); clinically significant errors in final report",
+  "quantitative_result": "Median reporting time 573 s (IQR 403-895) vs 435 s (IQR 298-716) with AI draft, p=0.003 (24% reduction); clinically significant errors mean 0.27 (SD 0.52) AI-draft (n=30) vs 0.38 (SD 0.78) template (n=29), not significant; subgroup (drafts with vs without seeded errors) not significant",
+  "source_locator": "Abstract; Results (Clinical Accuracy, Reporting Time, Subgroup Analysis); Table 1",
+  "short_exact_excerpt": "The AI-assisted workflow significantly reduced average reporting time from 573 to 435 seconds (p=0.003), without a statistically significant difference in clinically significant errors between workflows.",
+  "underlying_evidence_group": "EG:acosta2024-radiology-ai-draft-pilot",
+  "limitations": "n=3 readers, underpowered (null error difference is not evidence of equivalence); seeded-error catch rate not reported; simulated drafts; preprint.",
+  "transferability_to_target_workflow": "Shows the study design needed (seeded errors + time + independent audit) but at pilot scale; image-to-text review differs from multi-document financial diligence.",
+  "analyst_inference": "Weak counterevidence to the 'effort shifts and detection drops' pattern: time fell without detectable accuracy loss, but power is far too low to rule out meaningful misses of seeded errors.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E08",
+  "source_id": "R3A-S05",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P3.2 (heterogeneity of time effect across professional reviewers)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Time effects varied by reader: two readers' mean times fell (717 to 398 s; 361 to 322 s) while one reader's mean time rose (947 to 1015 s); two of three said AI reporting required somewhat less mental effort.",
+  "relationship": "qualifies",
+  "evidence_type": "direct evidence (per-reader descriptive)",
+  "population_and_setting": "Same as R3A-E07",
+  "study_or_observation_method": "Per-reader descriptive statistics; post-study survey",
+  "intervention_and_comparator": "AI draft vs template",
+  "outcome_measured": "Per-reader mean and median reporting time; survey",
+  "quantitative_result": "Reader 1 mean 717->398 s; Reader 2 361->322 s; Reader 3 947->1015 s; medians 678->356, 354->312, 904->879 s; recommend scores 5, 9, 10 of 10",
+  "source_locator": "Results: Reporting Time; User Experience; Figure 3",
+  "short_exact_excerpt": "while Reader 3 showed an increase (947 to 1015 seconds)",
+  "underlying_evidence_group": "EG:acosta2024-radiology-ai-draft-pilot",
+  "limitations": "Three readers only.",
+  "transferability_to_target_workflow": "Reviewer-level heterogeneity suggests average time savings can mask reviewers who verify more thoroughly (and take longer) when given drafts.",
+  "analyst_inference": "Consistent with the idea that some professionals treat a draft as something to verify (more time) and others as something to accept (less time); not testable here.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E09",
+  "source_id": "R3A-S06",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 AI assistance shifts review effort rather than removing it (field: time and audited accuracy)",
+  "work_type_tags": [
+   "W5",
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "In live clinical use, radiologists documenting plain radiographs with a workflow-integrated generative draft were faster than a matched baseline without the model, and peer review of 800 studies found no difference in clinical accuracy or textual quality.",
+  "relationship": "challenges",
+  "evidence_type": "direct evidence (prospective field cohort, nonrandomized)",
+  "population_and_setting": "Radiologists at a tertiary academic health system (Northwestern); 23,960 radiographs (11,980 with and 11,980 without model); Nov 2023-Apr 2024",
+  "study_or_observation_method": "Prospective cohort; linear mixed-effects model for documentation time; cumulative-link mixed model for peer-review Likert ratings",
+  "intervention_and_comparator": "Model-assisted draft reports vs matched baseline set without model use",
+  "outcome_measured": "Documentation time; peer-reviewed clinical accuracy and textual quality",
+  "quantitative_result": "Mean (SE) 159.8 (27.0) s with model vs 189.2 (36.2) s without, P=.02 (15.5% efficiency increase); peer review n=800: clinical accuracy chi2=0.68, P=.41; textual quality chi2=3.62, P=.06",
+  "source_locator": "Abstract Results (Europe PMC PMID 40471579)",
+  "short_exact_excerpt": "Interpretations with model assistance (mean [SE], 159.8 [27.0] seconds) were faster than the baseline set of those without (mean [SE], 189.2 [36.2] seconds) (P = .02), representing a 15.5% documentation efficiency increase.",
+  "underlying_evidence_group": "EG:huang2025-northwestern-genai-radiograph",
+  "limitations": "Nonrandomized; peer review is a sampled quality rating, not a catch rate for model errors; developer-authored; abstract only.",
+  "transferability_to_target_workflow": "Audited field evidence that an integrated draft can cut professional documentation time without detectable accuracy loss in a high-volume, short, standardized task; diligence reports are low-volume, long, and bespoke, so transfer is weak.",
+  "analyst_inference": "Strongest field counterevidence to 'effort just shifts': time fell and audited accuracy held. It does not test provenance/traceability and concerns a task where the reviewer independently sees the primary evidence (the image).",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "R3A-E10",
+  "source_id": "R3A-S07",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 Access to sources/provenance reduces verification time/effort; P2.2 preserves accuracy (tested only as a bundle: LLM synthesis + per-claim citations vs EHR alone)",
+  "work_type_tags": [
+   "W2",
+   "W5"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "Clinicians completing realistic chart-synthesis tasks with a citation-first LLM tool (each claim linked to source record content via evidence cards) finished faster than with the EHR alone, with lower workload, and met prespecified non-inferiority for blinded-adjudicated accuracy, completeness and relevance.",
+  "relationship": "qualifies",
+  "evidence_type": "direct evidence (randomized crossover, professionals, blinded outcome adjudication)",
+  "population_and_setting": "20 clinical staff (faculty physicians, trainees, APPs, others) across 7 specialties at Duke Health; 200 structured cases on charts unfamiliar to participants",
+  "study_or_observation_method": "Two-period randomized crossover; log-transformed time in linear mixed model; non-inferiority margin -0.5 rubric points; senior physician blinded adjudication",
+  "intervention_and_comparator": "Scout (LLM synthesis with per-claim citations and evidence cards; participants asked to verify in Scout or EHR) vs EHR-only",
+  "outcome_measured": "Task completion time; NASA-TLX; accuracy, completeness, relevance (rubric)",
+  "quantitative_result": "Geometric mean time 9.67 min (95% CI 8.29-11.28) EHR-only vs 6.03 min (95% CI 5.17-7.03) Scout; ratio 0.624 (95% CI 0.565-0.689), p<0.001; NASA-TLX raw 32.81 vs 24.07, difference -8.74 (95% CI -12.02 to -5.46); accuracy difference +0.20 (95% CI -0.20 to 0.61); completeness +0.84 (0.44 to 1.24); relevance +0.05 (-0.33 to 0.43)",
+  "source_locator": "Results: Time Endpoint; Table 2; Output Quality and Figure 6 (arXiv 2604.26953 PDF, around p. 13)",
+  "short_exact_excerpt": "This corresponded to a ratio of geometric means (Scout/Control) of 0.624 (95% CI, 0.565 to 0.689, p < 0.001)",
+  "underlying_evidence_group": "EG:gao2026-duke-scout-rct",
+  "limitations": "Comparator lacks AI, so citations' contribution is not isolated; no seeded errors, so 'accuracy maintained' reflects whatever errors arose naturally; adjudicator authored the tasks; developer-authored preprint.",
+  "transferability_to_target_workflow": "Closest professional analogue to an evidence-linked synthesis of a large record set (like a data room). Shows time can fall with accuracy held when claims link to sources; does not show the links themselves cause the saving or protect against plausible errors.",
+  "analyst_inference": "Most direct professional RCT found involving traceability, but it answers 'LLM+citations vs manual search', not 'with vs without citations'. Treat as supporting the bundle, not P2.1 specifically.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E11",
+  "source_id": "R3A-S07",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 Integration/AI assistance shifts review effort elsewhere rather than removing it",
+  "work_type_tags": [
+   "W2",
+   "W1"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "Authors state the tool shifts the core task from manual curation to verification; frustration did not significantly change (-3.36 points, Holm-adjusted p=0.192) and perceived performance slightly decreased, which they attribute to the cognitive cost of verification and reduced ownership.",
+  "relationship": "supports",
+  "evidence_type": "direct evidence (subscale results) plus author interpretation",
+  "population_and_setting": "Same as R3A-E10",
+  "study_or_observation_method": "NASA-TLX subscales; discussion",
+  "intervention_and_comparator": "Scout vs EHR-only",
+  "outcome_measured": "NASA-TLX frustration and performance subscales",
+  "quantitative_result": "Frustration difference -3.36 points, Holm-adjusted p=0.192 (not significant); other subscale values in Table 2 not fully extracted",
+  "source_locator": "Results (NASA-TLX); Discussion paragraph beginning 'Scout and similar tools shift...'",
+  "short_exact_excerpt": "Scout and similar tools shift the core task from manual curation to verification.",
+  "underlying_evidence_group": "EG:gao2026-duke-scout-rct",
+  "limitations": "Interpretation by developers; subscale differences modest; brief training.",
+  "transferability_to_target_workflow": "In diligence, evidence-linked outputs may convert reconstruction (W2) into verification work that remains and may feel less 'owned' by the accountable reviewer (W1).",
+  "analyst_inference": "Even the most favorable professional study frames the residual work as verification, consistent with P3.2's shift (smaller, but not zero).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E12",
+  "source_id": "R3A-S08",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 AI assistance shifts review effort rather than removing it (field RCT: time vs self-reported accuracy)",
+  "work_type_tags": [
+   "W3",
+   "W5"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "In a three-arm pragmatic RCT, one ambient scribe (Nabla) reduced time-in-note by 9.5% versus usual care while the other (DAX) showed no significant change; clinicians reported clinically significant inaccuracies 'occasionally'; one mild adverse event was reported.",
+  "relationship": "qualifies",
+  "evidence_type": "direct evidence (RCT, field); accuracy self-reported",
+  "population_and_setting": "238 outpatient physicians, 14 specialties, UCLA Health; Nov 4 2024-Jan 3 2025; ~48,000 visits",
+  "study_or_observation_method": "Parallel three-group pragmatic RCT, covariate-constrained randomization",
+  "intervention_and_comparator": "Microsoft DAX Copilot or Nabla ambient scribe vs usual care",
+  "outcome_measured": "Change in log writing time-in-note (primary); surveys incl. accuracy and safety items",
+  "quantitative_result": "Nabla -9.5% time-in-note (95% CI -17.2% to -1.8%; P=0.02); DAX -1.7% (95% CI -9.4% to +5.9%; P=0.66); inaccuracies Likert DAX 2.7 (95% CI 2.4-3.0), Nabla 2.8 (95% CI 2.6-3.0) ('occasionally'); 1 grade 1 adverse event",
+  "source_locator": "Abstract Results (Europe PMC PMID 41497288)",
+  "short_exact_excerpt": "clinically significant inaccuracies were noted \"occasionally\" on five-point Likert questions (DAX 2.7 [95% CI, 2.4 to 3.0]; Nabla 2.8 [95% CI, 2.6 to 3.0])",
+  "underlying_evidence_group": "EG:lukac2025-ucla-ambient-scribe-rct",
+  "limitations": "No independent audit of note errors or of whether physicians caught them; abstract only; short duration; usage ~30% of visits.",
+  "transferability_to_target_workflow": "Product-dependent and modest effort reductions in a large professional RCT; error detection by the accountable signer was not measured, which is the same gap expected in diligence tooling evaluations.",
+  "analyst_inference": "Large professional RCTs of drafting tools measure time well and detection poorly (self-report only); evidence on 'time saved while preserving error detection' remains unestablished even in the best-studied professional setting.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "R3A-E13",
+  "source_id": "R3A-S09",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 AI assistance shifts review effort rather than removing it (field RCT: time vs instrument-rated quality)",
+  "work_type_tags": [
+   "W5",
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "In a stepped-wedge pragmatic RCT, ambient AI reduced time spent on notes by 0.36 hours/day; PDSQI-9 documentation quality scores stayed high (3.97-4.99 of 5); diagnostic billing codes improved.",
+  "relationship": "challenges",
+  "evidence_type": "direct evidence (RCT, field); quality via rating instrument",
+  "population_and_setting": "66 health care practitioners, ambulatory clinics in two states (UW Health); 71,487 notes, 27,092 (38%) AI-generated; 24 weeks",
+  "study_or_observation_method": "Stepped-wedge individually randomized pragmatic trial; linear mixed models, ITT",
+  "intervention_and_comparator": "Ambient AI scribe vs pre-implementation usual documentation",
+  "outcome_measured": "Time on notes; work outside work; PDSQI-9 quality; billing codes reviewed by professional coders",
+  "quantitative_result": "Time on notes -0.36 h/day (95% CI -0.55 to -0.17); work outside work -0.50 h/day (95% CI -0.90 to -0.09; not robust to removing top 3% observations); PDSQI-9 means 3.97-4.99 across domains; billing codes improved P<0.001",
+  "source_locator": "Abstract Results and Conclusions (Europe PMC PMC12858090)",
+  "short_exact_excerpt": "Documentation time decreased without compromising diagnosis, billing compliance, or note quality.",
+  "underlying_evidence_group": "EG:afshar2025-uw-ambient-ai-rct",
+  "limitations": "PDSQI-9 is a quality rating on sampled notes, not a measure of omissions against the encounter or of clinician error detection; abstract only; no traceability manipulation.",
+  "transferability_to_target_workflow": "Field RCT evidence that professional documentation effort can fall without detectable quality loss as measured by an instrument; the error-catching question remains unmeasured.",
+  "analyst_inference": "Counterevidence to strong forms of P3.2 at the time level, but 'quality' here is not equivalent to detection of seeded/omitted facts.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "R3A-E14",
+  "source_id": "R3A-S10",
+  "research_question_ids": [
+   "RQ2",
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 Rework due to inaccurate/incomplete output drives review; P2.4 visibility into omissions matters for appropriate reliance",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "Two commercial ambient scribe products produced 127 errors in 31 of 44 draft notes (70%) from simulated encounters; omissions were the most frequent error type; authors argue omissions may be hardest for clinicians to identify because spotting them requires recall of the encounter.",
+  "relationship": "contextual",
+  "evidence_type": "direct evidence of error prevalence; author reasoning on detectability",
+  "population_and_setting": "Simulated primary-care-type encounters read by 2 researchers acting as patients; 2 unnamed commercial ambient digital scribe products; MedStar Health",
+  "study_or_observation_method": "Instrument validation study; error coding of draft notes",
+  "intervention_and_comparator": "Product A vs product B (no human-review arm)",
+  "outcome_measured": "Error count and type per draft note",
+  "quantitative_result": "127 errors (mean 2.9, SD 2.7 per note) in 31/44 notes (70%); omissions 55/66 (83%) of product A errors and 33/61 (54%) of product B errors; error type distribution differed (Fisher exact P=.002)",
+  "source_locator": "Results and Table 1; Discussion (Europe PMC PMC11811668)",
+  "short_exact_excerpt": "errors of omission were the most common; this error type may be the most difficult for clinicians to identify since the identification process requires memory recall of details from the patient encounter.",
+  "underlying_evidence_group": "EG:biro2025-jmir-ambient-scribe-errors",
+  "limitations": "No clinician-review experiment; detectability of omissions is the authors' reasoning, not measured.",
+  "transferability_to_target_workflow": "Omissions dominate AI-drafted professional documents; in diligence, unseen gaps (e.g., missing permit, unreviewed contract) cannot be caught from the draft alone - this is the case where coverage/scope visibility (X4) rather than citation (X3) would matter.",
+  "analyst_inference": "Statement-level source links (X3) can only verify what is stated; omission errors require coverage visibility (X4). No professional study found tests X4 for omission detection.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E15",
+  "source_id": "R3A-S11",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 Access to sources/provenance reduces verification time/effort",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "A click-to-inspect interface linking each sentence of an AI-generated longitudinal patient summary to a matched source sentence was evaluated in a formative, qualitative usability study with clinicians; authors report feedback supporting sentence-level inspectability as a low-friction verification mechanism.",
+  "relationship": "contextual",
+  "evidence_type": "formative usability (stated perceptions)",
+  "population_and_setting": "Convenience sample of clinicians; remote moderated sessions Nov 2023-Jan 2024 (per search summary)",
+  "study_or_observation_method": "Formative qualitative usability evaluation",
+  "intervention_and_comparator": "Sentence-level provenance interface vs (qualitative contrast with) document-level citation interfaces",
+  "outcome_measured": "Qualitative feedback",
+  "quantitative_result": null,
+  "source_locator": "not located (abstract seen only via search-result summary)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:parambath2026-sentence-provenance-ux",
+  "limitations": "No measured time or error detection in what was seen; access limited to search-result summary.",
+  "transferability_to_target_workflow": "Design pattern (sentence-to-source links) maps directly onto evidence-linked diligence memos; the study supplies stated preference only.",
+  "analyst_inference": "The most direct professional provenance-interface study located reports no quantitative verification outcome - an instance of absence of evidence, not evidence of absence.",
+  "access_status": "other"
+ },
+ {
+  "evidence_id": "R3A-E16",
+  "source_id": "R3A-S12",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 / P2.2 (deployment of statement-to-transcript linking without published outcome evaluation)",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "Per search-result summary of the vendor support article, Abridge's 'Linked Evidence' lets clinicians select note text to see the matching transcript passage and play the audio before signing. No evaluation of its effect on review time or error detection was found.",
+  "relationship": "contextual",
+  "evidence_type": "vendor documentation (feature existence only)",
+  "population_and_setting": "Commercial ambient scribe deployed in US health systems",
+  "study_or_observation_method": "Product documentation",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "not located (page returned HTTP 403)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:abridge-linked-evidence-feature",
+  "limitations": "Access blocked; vendor claim; no outcomes.",
+  "transferability_to_target_workflow": "Statement-to-source linking is already deployed in a professional sign-off workflow at scale, so an evaluation of its effect is feasible but none was found.",
+  "analyst_inference": "Observed gap: the mechanism most analogous to evidence-linked advisor output is deployed in medicine, yet its effect on accountable reviewers' detection is not publicly tested.",
+  "access_status": "blocked"
+ },
+ {
+  "evidence_id": "R3A-E17",
+  "source_id": "R3A-S13",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 Access to sources/provenance reduces verification time/effort (granularity of citation)",
+  "work_type_tags": [
+   "W2",
+   "W3"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "In an uncontrolled four-week pilot, equity research and compliance analysts strongly preferred table-cell-level citations over paragraph-level references, reporting verification 'in seconds rather than minutes'; explanations naming the specific source-vs-answer conflict were the most valued feature.",
+  "relationship": "qualifies",
+  "evidence_type": "uncontrolled pilot, self-reported (developer-run)",
+  "population_and_setting": "24 financial analysts (equity research and compliance) at one financial services firm; 1,847 queries over 43 SEC 10-K/10-Q filings",
+  "study_or_observation_method": "Feasibility pilot with logging of analyst corrections and post-pilot Likert survey",
+  "intervention_and_comparator": "FinGround claim verification with paragraph- and table-cell-level citations; no controlled comparator",
+  "outcome_measured": "Self-reported design preferences; false positive/negative rates from analyst corrections; acceptability",
+  "quantitative_result": "False positive rate 6.1% (analyst corrections); false negative rate 3.8% (27 analyst-flagged misses); 20/24 rated acceptability >=4/5 (mean 4.1, SD 0.7); override rate 5.8-6.3% across weeks (p=0.71 for trend)",
+  "source_locator": "Section 6 'Deployment and Analyst Feedback'; Limitations; Ethical Considerations (arXiv 2604.23588)",
+  "short_exact_excerpt": "table-cell-level citations (e.g., “Table 3, Row: Operating Income, Col: FY2024”) were strongly preferred over paragraph-level references, enabling verification in seconds rather than minutes",
+  "underlying_evidence_group": "EG:guo2026-finground",
+  "limitations": "Self-reported, uncontrolled, single firm, developer-run with commercial affiliation; no time measurement.",
+  "transferability_to_target_workflow": "Closest finance-domain evidence: analysts verifying AI statements against filings. Suggests citation granularity (cell vs paragraph) matters for verification effort - plausibly transferable to financial-model and data-room checks in credit diligence; needs controlled timing.",
+  "analyst_inference": "Hypothesis-generating only: granularity of traceability, not merely its presence, may drive the effort saving.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E18",
+  "source_id": "R3A-S13",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.5 Citations/traceability do not guarantee correctness or completeness; P2.2 (which errors evade professional reviewers)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X3",
+   "X5"
+  ],
+  "observed_finding": "Among 27 hallucinations missed by the system and flagged by analysts, 56% involved computational claims; authors state incorrect derived metrics are the most dangerous errors and hardest for humans to catch, warn of automation bias, and recommend mandatory human verification of numerical claims where small errors matter; a 'supported' label means consistency with the retrieved source, not correctness of the source.",
+  "relationship": "supports",
+  "evidence_type": "uncontrolled pilot plus adversarial benchmark",
+  "population_and_setting": "Same as R3A-E17; plus 50 near-miss adversarial claims",
+  "study_or_observation_method": "Pilot logs; near-miss adversarial analysis",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Composition of missed hallucinations; detector recall on near-miss values",
+  "quantitative_result": "56% of 27 missed hallucinations computational; detector recall 71.4% (+/-6.3) on hallucinated values within +/-5% of ground truth",
+  "source_locator": "Section 6 design insight (3); Limitations; Appendix 'Near-Miss Adversarial Analysis'",
+  "short_exact_excerpt": "incorrect derived metrics are the most dangerous errors and hardest for humans to catch (56% of the 27 missed hallucinations involved computational claims).",
+  "underlying_evidence_group": "EG:guo2026-finground",
+  "limitations": "Claim about human difficulty is not from a controlled human detection test; developer-run.",
+  "transferability_to_target_workflow": "Renewable-energy credit diligence relies heavily on derived metrics (DSCR, P50/P90 yields, degradation-adjusted cash flows); a source link to an input does not verify a derived figure, so traceability must extend to calculations.",
+  "analyst_inference": "Traceability to sources (X3) helps for extracted facts but not for computed claims, which are where professional reviewers reportedly miss most.",
+  "access_status": "full_text"
+ }
+]

@@ -158,11 +158,11 @@
   "data_collection_dates": null,
   "access_date": "2026-11-15",
   "source_type": "procurement_document (sample ToR)",
-  "access_status": "blocked",
+  "access_status": "abstract_only",
   "underlying_evidence_group": "EG:wb-ppp-sample-tor-wind-tdd",
   "funding_or_commercial_relationships": null,
   "archived_file_path": null,
-  "limitations": "HTTP 403 to both WebFetch and curl (page and /print/pdf/node/3564). Search snippet only: consultant to act as technical advisor to the lenders for a review of the project prior to financing. Energy-yield scope NOT seen. No evidence items extracted."
+  "limitations": "ppp.worldbank.org returned HTTP 403 to WebFetch and curl. The energypedia mirror page (https://old.energypedia.info/wiki/Technical_Due_Diligence_Wind_Power_Project) gives only an abstract: a 65 MW wind farm (44 x 1.5 MW) in Uruguay; the consulting firm provides independent engineer due diligence services to lenders in Phase I (initial project review and technical due diligence before financial close) and Phase II (construction, performance-test and operations monitoring). The mirror's PDF link returned 404. A search-engine summary claimed the ToR asks for a wind assessment and energy yield calculation explaining loss factors and quantifying uncertainty; this was NOT verified. No evidence items extracted."
  },
  {
   "source_id": "R3C-S12",
@@ -178,5 +178,50 @@
   "funding_or_commercial_relationships": "Public green bank.",
   "archived_file_path": null,
   "limitations": "curl returned HTTP 403; content known only from a search-engine summary; energy-yield scope, deliverables and reliance terms not seen."
+ },
+ {
+  "source_id": "R3C-S13",
+  "title": "Homa Bay Biogas ONE Project, Kenya - Request for Proposal for a Lenders' Technical Advisor (Technical Due Diligence)",
+  "authors_or_organization": "Emerging Africa Infrastructure Fund (EAIF, PIDG) on behalf of EAIF, EDFI and BIO (the 'Lenders')",
+  "url": "https://eaif.com/wp-content/uploads/2021/03/2021-03-29-RfP-LTA-Homa-Bay_vf.pdf",
+  "publication_date": "2021-03 (file dated 2021-03-29)",
+  "data_collection_dates": null,
+  "access_date": "2026-11-15",
+  "source_type": "procurement_document (actual lender-issued LTA terms of reference)",
+  "access_status": "full_text",
+  "underlying_evidence_group": "EG:eaif-2021-homabay-lta-rfp",
+  "funding_or_commercial_relationships": "Issued by development-finance lenders (EAIF, EDFI, BIO).",
+  "archived_file_path": null,
+  "limitations": "Biogas/CHP with fertilizer production (12.7 MW), not solar or wind, so energy-yield inputs are feedstock rather than irradiance or wind; one procurement; an RfP states intended scope, not what was delivered or how lenders used it."
+ },
+ {
+  "source_id": "R3C-S14",
+  "title": "Uncertainties in PV System Yield Predictions and Assessments (Report IEA-PVPS T13-12:2018)",
+  "authors_or_organization": "IEA PVPS Task 13 (primary authors C. Reise, B. Müller et al.)",
+  "url": "https://iea-pvps.org/wp-content/uploads/2020/01/Uncertainties_in_PV_System_Yield_Predictions_and_Assessments_by_Task_13.pdf",
+  "publication_date": "2018-04",
+  "data_collection_dates": "not reported for the LTYP reporting questionnaire",
+  "access_date": "2026-11-15",
+  "source_type": "book_or_review (intergovernmental technical report)",
+  "access_status": "full_text",
+  "underlying_evidence_group": "EG:iea-pvps-t13-12-2018-yield-uncertainty",
+  "funding_or_commercial_relationships": "IEA technology collaboration programme; authors from research institutes and industry.",
+  "archived_file_path": null,
+  "limitations": "Technical framework report; statements about financiers' difficulty are the authors' assessment, not a measured study; 2018 vintage."
+ },
+ {
+  "source_id": "R3C-S15",
+  "title": "Executive Summary - Uncertainties in Yield Assessments and PV LCOE (Report IEA-PVPS T13-18:2020)",
+  "authors_or_organization": "IEA PVPS Task 13 (D. Moser, S. Lindig, M. Richter, et al.; Eurac, 3E, IMEC, Fraunhofer ISE, TUV Rheinland, KU Leuven and others)",
+  "url": "https://iea-pvps.org/wp-content/uploads/2021/01/Executive-Summary-IEA-PVPS-T13-18_2020-Uncertainties-in-Yield-Assessments-and-PV-LCOE.pdf",
+  "publication_date": "2020-11",
+  "data_collection_dates": "Blind yield-assessment exercise, two sites (Bolzano, IT; Alice Springs, AU); operating data 2009/2010-2019",
+  "access_date": "2026-11-15",
+  "source_type": "book_or_review (intergovernmental technical report; contains a blind inter-assessor comparison)",
+  "access_status": "partial",
+  "underlying_evidence_group": "EG:iea-pvps-t13-18-2020-yield-lcoe",
+  "funding_or_commercial_relationships": "IEA technology collaboration programme; some assessors and authors are from consultancies (e.g., 3E, TUV Rheinland).",
+  "archived_file_path": null,
+  "limitations": "Executive summary only (full report not retrieved); seven assessors, two sites; the statement on typical investor practice is the authors' characterisation, not survey data."
  }
 ]

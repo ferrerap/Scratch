@@ -463,5 +463,182 @@
   "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; a public lender procures a standing lender's engineer to produce 'reviews'. The split between review and independent EYA is unknown.",
   "analyst_inference": "Weak; included as a lead.",
   "access_status": "other"
+ },
+ {
+  "evidence_id": "R3C-E17",
+  "source_id": "R3C-S13",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 required independent judgment vs P1.2 review of others' analysis (what an LTA scope requires for energy yield)",
+  "work_type_tags": [
+   "W2",
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The development-finance lenders' LTA terms of reference frame energy-yield work as review and verification of the Sponsor's analyses. The LTA is to review the Sponsor's energy yield analyses and verify they are consistent with plant design and feedstock assumptions, considering supply, efficiency, technology, losses, availability projections, and uncertainties and deviations. It is also to review the Sponsor's probability-based production forecasts. No independent energy yield assessment is requested.",
+  "relationship": "supports",
+  "evidence_type": "direct (procurement document)",
+  "population_and_setting": "12.7 MW biogas/CHP project, Kenya; senior loan up to USD 50 million from EAIF, EDFI, BIO",
+  "study_or_observation_method": "Document review of RfP",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Specified LTA scope",
+  "quantitative_result": null,
+  "source_locator": "Section 'Feedstock Resource and Energy Yield Assessment', PDF p. 6",
+  "short_exact_excerpt": "Review of the energy yield analyses undertaken by the Sponsor and verify that its results are consistent with the plant design and the feedstock supply assumptions.",
+  "underlying_evidence_group": "EG:eaif-2021-homabay-lta-rfp",
+  "limitations": "Biogas rather than solar/wind; one RfP; a biogas yield depends on feedstock models that differ from irradiance/wind EYAs.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; a public DFI lender scope places LTA yield work in 'review of sponsor analysis' mode (W2 setting). Whether solar/wind LTA ToRs from DFIs use the same mode needs verification (the World Bank wind ToR was blocked).",
+  "analyst_inference": "This is the clearest public example found of an LTA scope that is review, not re-derivation. Here, sponsor-side traceability (inputs, losses, uncertainty components) would directly affect LTA effort.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E18",
+  "source_id": "R3C-S13",
+  "research_question_ids": [
+   "RQ1",
+   "RQ3"
+  ],
+  "proposition_tested": "P1.4 adaptation to lender criteria; P3.1 integration into lender analysis",
+  "work_type_tags": [
+   "W4",
+   "W5"
+  ],
+  "concept_tags": [],
+  "observed_finding": "The ToR asks the LTA to review technical inputs and work with the Lender in its analysis of the financial model, including running different scenarios. The LTA comments on the adequacy of technical assumptions (yield, availability, degradation, downtime, etc.) and proposes alternatives where inputs are inappropriate. Deliverables are a major-issues list within one week of the site visit, a draft report with professional opinions by area within three weeks, and an open-items list.",
+  "relationship": "supports",
+  "evidence_type": "direct (procurement document)",
+  "population_and_setting": "Same as R3C-E17",
+  "study_or_observation_method": "Document review",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Specified LTA tasks and deliverables",
+  "quantitative_result": "Major-issues list within 1 week of site visit; draft report within 3 weeks of site visit",
+  "source_locator": "Sections 'Financial Model' (PDF p. 8) and 'List of Major Issues and Draft Report'",
+  "short_exact_excerpt": "Review technical input assumptions and work with the Lender in their analysis of the financial model including running different scenarios on the financial model.",
+  "underlying_evidence_group": "EG:eaif-2021-homabay-lta-rfp",
+  "limitations": "Intended scope only.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; the lender's own scenario analysis (W4) is procured as a joint LTA-lender task. Part of the adaptation work is therefore outsourced to the advisor rather than retained.",
+  "analyst_inference": "The 'open items list' is a structured coverage artefact (X4-like) already built into practice. Integration with the lender model is explicitly in scope.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E19",
+  "source_id": "R3C-S13",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 governance/reliance structure drives retained independent judgment",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Each lender's decision to finance depends on satisfactory results of 'our respective due diligences' and internal approvals. The LTA report is prepared primarily for the Lenders and may be shared with equity and mezzanine investors only on a non-reliance basis.",
+  "relationship": "supports",
+  "evidence_type": "direct (procurement document)",
+  "population_and_setting": "Same as R3C-E17",
+  "study_or_observation_method": "Document review",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Reliance terms",
+  "quantitative_result": null,
+  "source_locator": "Introduction, PDF p. 3",
+  "short_exact_excerpt": "The LTA’s report will be prepared primarily for the Lenders but may be shared with the equity and mezzanine investors on a non-reliance basis.",
+  "underlying_evidence_group": "EG:eaif-2021-homabay-lta-rfp",
+  "limitations": "Standard terms; does not show how much separate work each lender does.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; reliance and internal approval structures mean non-relying parties (equity, mezzanine) and each lender's credit function keep their own judgment duty.",
+  "analyst_inference": "W1 persists structurally whatever the report's transparency. Transparency may change how cheaply that judgment is exercised, not whether it is required.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E20",
+  "source_id": "R3C-S14",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 visibility into uncertainty / P5.1 standardization; P1.2 reconstruction from non-comparable outputs",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "IEA PVPS states there is no standardized uncertainty framework for lifetime PV yield predictions and a lack of definitions, which makes it difficult for financers and investors to compare uncertainty assessments. Commonly reported figures (initial yield and its P90, lifetime average and its P90) may not suffice for financial models covering degradation and inter-annual variation. It also reports that no respondent to its LTYP reporting questionnaire applied a physical soiling model in bankability studies; only estimated monthly averages were used.",
+  "relationship": "supports",
+  "evidence_type": "intergovernmental technical report (expert assessment + questionnaire)",
+  "population_and_setting": "PV yield assessment practice (international)",
+  "study_or_observation_method": "Literature/expert synthesis; LTYP reporting questionnaire (n not located)",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "Section 4.2.1 (printed p. 60; PDF p. 62); Section 3.5 (soiling)",
+  "short_exact_excerpt": "Up to now, there is no standardized uncertainty framework for lifetime energy yield predictions available. Furthermore, there is a lack of definitions in this field",
+  "underlying_evidence_group": "EG:iea-pvps-t13-12-2018-yield-uncertainty",
+  "limitations": "Authors' assessment as of 2018; does not measure financiers' effort.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; non-standard uncertainty reporting forces lenders to translate or re-derive P-cases for their own models.",
+  "analyst_inference": "Translating non-standard uncertainty outputs into lender-specific P-cases is a mix of W2 (missing decomposition) and W4 (lender-specific cases). Standardisation could cut the W2 part.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E21",
+  "source_id": "R3C-S15",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 vs P1.2 (when do investors require additional independent assessments?)",
+  "work_type_tags": [
+   "W1",
+   "W2",
+   "W3"
+  ],
+  "concept_tags": [],
+  "observed_finding": "IEA PVPS characterises investor practice: investors typically require one yield assessment (YA); more may be requested if results are unclear, and multiple YAs can be averaged to set a purchase value. It asks why different assessors get different answers and whether one YA is more reliable.",
+  "relationship": "qualifies",
+  "evidence_type": "intergovernmental technical report (authors' characterisation)",
+  "population_and_setting": "PV investment practice (international)",
+  "study_or_observation_method": "Authors' statement",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "Executive Summary, p. 3",
+  "short_exact_excerpt": "Typically, investors require one YA. In some cases, more YAs might be requested if results are unclear. The various YAs can be averaged to assign a purchase value to a given project.",
+  "underlying_evidence_group": "EG:iea-pvps-t13-18-2020-yield-lcoe",
+  "limitations": "Unsupported generalisation; no frequency data.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; suggests independent re-derivation (a second YA) is conditional, triggered by unclear results, rather than routine.",
+  "analyst_inference": "If additional YAs are triggered by unclarity, clearer and more traceable YAs could reduce some duplicate assessments (a W2 mechanism). If triggered by inter-assessor dispersion (E22), clarity alone would not suffice.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3C-E22",
+  "source_id": "R3C-S15",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.3 inaccurate/variable advisor output; P2.4 visibility into assumptions enables reliability judgment",
+  "work_type_tags": [
+   "W3",
+   "W2"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "In a blind exercise, seven skilled yield assessors given the same detailed inputs produced different results. Differences were attributed mainly to modeler experience and assumptions: irradiance database and site adaptation, degradation, total modelling uncertainty, and soiling and shading. The authors recommend highlighting the assumptions and modelling chain and publishing post-mortem comparisons with measured data. They say they have identified the input and output data an assessor must provide for a YA's reliability to be judged.",
+  "relationship": "supports",
+  "evidence_type": "blind inter-assessor comparison (summary)",
+  "population_and_setting": "7 independent yield assessors; PV systems at Bolzano (IT) and Alice Springs (AU)",
+  "study_or_observation_method": "Same-input blind yield assessments compared with each other and with measured yield",
+  "intervention_and_comparator": "Assessor vs assessor; predictions vs measured",
+  "outcome_measured": "P50/P90 ranges; SD of initial YA; measured yield",
+  "quantitative_result": "Bolzano: P50 1095-1406 kWh/kWp; P90 997-1274 kWh/kWp; mean initial YA 1278 kWh/kWp, SD 9.7%; LTYP-implied 2010-2019 average 1253 vs measured 1275 kWh/kWp. Alice Springs: P50 1757-1985; P90 1631-1819 kWh/kWp; mean 1878, SD 3.9%; measured initial 2075 and 10-year average 1926 kWh/kWp.",
+  "source_locator": "Executive Summary, p. 3",
+  "short_exact_excerpt": "differences in these stem primarily from personal experience and assumptions by the modeler",
+  "underlying_evidence_group": "EG:iea-pvps-t13-18-2020-yield-lcoe",
+  "limitations": "n=7 assessors, 2 sites; summary only; assessor selection not described.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; a single IE P50 embeds assessor-specific judgment, which rationalises lender sensitivities and parallel views. The recommended remedy is assumption and modelling-chain visibility.",
+  "analyst_inference": "This is the strongest source linking X4 (assumption visibility) to the ability to judge which assessment to trust. It shows a mechanism and a recommendation, not an effort or detection outcome.",
+  "access_status": "partial"
  }
 ]

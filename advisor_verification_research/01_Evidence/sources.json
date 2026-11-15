@@ -2617,12 +2617,14 @@
     "underlying_evidence_group": "EG:epa-aai-40cfr312",
     "funding_or_commercial_relationships": null,
     "archived_file_path": null,
-    "limitations": "Regulation shows required report content and user duties, not compliance, report quality, or whether data-gap disclosure changes buyer behavior. ASTM E1527-21 (the practice most Phase I reports follow) could not be accessed (astm.org returned 403; standard is paywalled).",
+    "limitations": "Regulation shows required report content and user duties, not compliance, report quality, or whether data-gap disclosure changes buyer behavior. ASTM E1527-21 (the practice most Phase I reports follow) could not be accessed (astm.org returned 403; standard is paywalled). | Shows a regulatory content requirement (opinion, data gaps and their significance), not compliance, user review effort, or effects. ASTM E1527-21 itself (paywalled) not accessed.",
     "contributing_workstreams": [
+      "R3F_appraisal_review_standardization",
       "WS8_structured_reporting_coverage"
     ],
     "temp_ids": [
-      "WS8-S19"
+      "WS8-S19",
+      "R3F-S14"
     ]
   },
   {
@@ -3738,6 +3740,720 @@
     ],
     "temp_ids": [
       "R3C-S16"
+    ]
+  },
+  {
+    "source_id": "SRC178",
+    "title": "The effectiveness of alternative risk assessment and program planning tools in a fraud setting",
+    "authors_or_organization": "Stephen K. Asare; Arnold M. Wright",
+    "url": "https://doi.org/10.1506/L20L-7FUM-FPCB-7BE2 (Contemporary Accounting Research 21(2):325-352)",
+    "publication_date": "2004-06",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:asare-wright2004-fraud-checklist-program",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract read via IDEAS/RePEc only; full text not retrieved (publisher paywall; a third-party full-text copy was not used). One case (SEC enforcement fraud case), 69 auditors, between-subjects; benchmark set by expert panel. Checklist is a tool used by the auditor in their own planning, not a coverage disclosure given to a recipient.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S01"
+    ]
+  },
+  {
+    "source_id": "SRC179",
+    "title": "The Influence of Documentation Specificity and Priming on Auditors' Fraud Risk Assessments and Evidence Evaluation Decisions",
+    "authors_or_organization": "Jacqueline S. Hammersley; E. Michael Bamber; Tina D. Carpenter",
+    "url": "https://doi.org/10.2308/accr.2010.85.2.547 (The Accounting Review 85(2):547-571); SSRN WP https://doi.org/10.2139/ssrn.1090608",
+    "publication_date": "2010-03",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:hammersley2010-documentation-specificity",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only (Crossref metadata for published and SSRN versions); participant numbers, effect sizes and design details not verified. Documentation is planning-stage documentation consumed in later audit work (intra-team handoff), not an outside advisor's report.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S02"
+    ]
+  },
+  {
+    "source_id": "SRC180",
+    "title": "Decomposition of Fraud-Risk Assessments and Auditors' Sensitivity to Fraud Cues",
+    "authors_or_organization": "T. Jeffrey Wilks; Mark F. Zimbelman",
+    "url": "https://doi.org/10.1506/HGXP-4DBH-59D1-3FHJ (Contemporary Accounting Research 21(3):719-745); abstract at https://ideas.repec.org/a/wly/coacre/v21y2004i3p719-745.html",
+    "publication_date": "2004",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:wilks-zimbelman2004-fraud-decomposition",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. 52 audit managers. Decomposition is a structured judgment procedure performed by the auditor, not a recipient-facing coverage list.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S03"
+    ]
+  },
+  {
+    "source_id": "SRC181",
+    "title": "The Influence of Judgment Decomposition on Auditors' Fraud Risk Assessments: Some Trade-Offs",
+    "authors_or_organization": "Chad A. Simon; Jason L. Smith; Mark F. Zimbelman",
+    "url": "https://doi.org/10.2308/accr-52024 (The Accounting Review 93(5):273-291 per Crossref)",
+    "publication_date": "2018-01",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:simon2018-lm-decomposition",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only (Crossref). 101 experienced auditors plus two student follow-ups. Structured likelihood-magnitude decomposition, not coverage disclosure. Same research lineage as Wilks & Zimbelman (shared author) but a separate experiment.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S04"
+    ]
+  },
+  {
+    "source_id": "SRC182",
+    "title": "Auditing Complex Estimates: How Do Construal Level and Evidence Formatting Impact Auditors' Consideration of Inconsistent Evidence?",
+    "authors_or_organization": "Ann G. Backof; Tina D. Carpenter; Jane Thayer",
+    "url": "https://doi.org/10.1111/1911-3846.12368 (Contemporary Accounting Research 35(4):1798-1815)",
+    "publication_date": "2018-08",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:backof2018-construal-evidence-format",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only (Crossref); participant counts and effect sizes not verified. Manipulates a prime (consider how management arrived at the assumption) and evidence format (graph vs text), not a checklist of checks performed.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S05"
+    ]
+  },
+  {
+    "source_id": "SRC183",
+    "title": "The Informational Value of Key Audit Matters in the Auditor's Report: Evidence from an Eye-Tracking Study",
+    "authors_or_organization": "Louis-Philippe Sirois; Jean Bedard; Palash Bera",
+    "url": "https://doi.org/10.2308/acch-52047 (Accounting Horizons 32(2):141-162); SSRN WP https://doi.org/10.2139/ssrn.2469905",
+    "publication_date": "2018-02",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:sirois2018-kam-eyetracking",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract/synopsis only (Crossref); SSRN and publisher pages returned 403. Participants were accounting students (per Jarvinen et al. WP description, R3E-S07), not professional users. Abstract does not report the effect of the 'overview of audit procedures performed' format manipulation. Attention (eye fixation) is not detection accuracy.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S06"
+    ]
+  },
+  {
+    "source_id": "SRC184",
+    "title": "Going-Concern Uncertainty and Loan Officers' Information Search Behavior: Evidence from Eye-Tracking (seminar working paper)",
+    "authors_or_organization": "Tuukka Jarvinen; Emma-Riikka Myllymaki; Nina Sormunen; Laura Winther Balling",
+    "url": "https://www.nhh.no/globalassets/departments/accounting-auditing-and-law/seminar-papers/evidence-from-eyetracking.pdf",
+    "publication_date": "not reported (PDF creation date 2018-01-31)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:jarvinen-loan-officer-eyetracking",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Unpublished seminar version; publication status not verified. Final sample 35 bank loan officers (Danish/Finnish banks) split across 4 cells of 8-10; eye-tracking with Tobii T120. Measures information search, not decision accuracy against a benchmark. One author affiliated with EY Finland at time of writing.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S07"
+    ]
+  },
+  {
+    "source_id": "SRC185",
+    "title": "Risk Disclosure Preceding Negative Outcomes: The Effects of Reporting Critical Audit Matters on Judgments of Auditor Liability",
+    "authors_or_organization": "Kelsey Brasel; Marcus M. Doxey; Jonathan H. Grenier; Andrew Reffett",
+    "url": "https://doi.org/10.2308/accr-51380 (The Accounting Review 91(5):1345-1362); practitioner summary https://doi.org/10.2308/ciia-51546",
+    "publication_date": "2016",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:brasel2016-cam-liability",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract plus Current Issues in Auditing summary abstract (Crossref); CIIA full text returned 403. Participants are mock jurors judging liability, not recipients detecting issues. Shows how evaluators read 'no CAMs' vs CAM disclosures after an undetected fraud.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S08"
+    ]
+  },
+  {
+    "source_id": "SRC186",
+    "title": "The Forewarning Effect of Critical Audit Matter Disclosures Involving Measurement Uncertainty",
+    "authors_or_organization": "Steven J. Kachelmeier; Dan Rimkus; Jaime J. Schmidt; Kristen Valentine",
+    "url": "https://doi.org/10.1111/1911-3846.12583 (Contemporary Accounting Research 37(4):2186-2212)",
+    "publication_date": "2020-08",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:kachelmeier2020-cam-forewarning",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. Study 1 MBA students, financial analysts, attorneys; Study 2 student mock jurors; sample sizes not verified. Measures confidence and responsibility judgments, not whether confidence reduction was appropriate (calibration).",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S09"
+    ]
+  },
+  {
+    "source_id": "SRC187",
+    "title": "Can a checklist reduce SOS errors in chest radiography?",
+    "authors_or_organization": "Kevin S. Berbaum; Edmund A. Franken; Robert T. Caldwell; Kevin M. Schartz",
+    "url": "https://doi.org/10.1016/j.acra.2005.11.032 (Academic Radiology 13(3):296-304; PMID 16488841)",
+    "publication_date": "2006-03",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:berbaum2006-checklist-sos",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only (Europe PMC). 20 observers, 57 radiographs; checklist condition compared with a separate earlier verbalization study using the same images (historical comparison, not randomized within one study). Reader-side checklist, not a recipient-facing coverage list.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S10"
+    ]
+  },
+  {
+    "source_id": "SRC188",
+    "title": "The Influence of a Vocalized Checklist on Detection of Multiple Abnormalities in Chest Radiography",
+    "authors_or_organization": "Kevin S. Berbaum; Elizabeth A. Krupinski; Kevin M. Schartz; et al.",
+    "url": "https://doi.org/10.1016/j.acra.2015.12.017 (Academic Radiology 23(4):413-420; PMID 26916249)",
+    "publication_date": "2016",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:berbaum2016-vocalized-checklist-sos",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. 20 radiologists, 64 radiographs. Same lab as R3E-S10 but separate experiment. Reader-side checklist.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S11"
+    ]
+  },
+  {
+    "source_id": "SRC189",
+    "title": "The invisible gorilla strikes again: sustained inattentional blindness in expert observers",
+    "authors_or_organization": "Trafton Drew; Melissa L.-H. Vo; Jeremy M. Wolfe",
+    "url": "https://doi.org/10.1177/0956797613479386 (Psychological Science 24(9):1848-1853; PMC3964612)",
+    "publication_date": "2013",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:drew2013-invisible-gorilla",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only (Europe PMC full-text XML not returned). 24 radiologists; single unexpected, task-irrelevant target in last case. Shows task-directed search misses unexpected items; not about checklists or coverage statements per se.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S12"
+    ]
+  },
+  {
+    "source_id": "SRC190",
+    "title": "Systematic viewing in radiology: seeing more, missing less?",
+    "authors_or_organization": "Ellen M. Kok; Halszka Jarodzka; Anique B.H. de Bruin; et al.",
+    "url": "https://doi.org/10.1007/s10459-015-9624-y (Advances in Health Sciences Education 21(1):189-205; PMC4749649)",
+    "publication_date": "2016 (online 2015-07-31)",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:kok2016-systematic-viewing",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Full text via Europe PMC. Small samples (Exp 1: 30 readers, 5 radiographs; Exp 2: 75 students). Coverage measured by eye tracking, not by a report statement. Novice-heavy for the training experiment.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S13"
+    ]
+  },
+  {
+    "source_id": "SRC191",
+    "title": "Checklists improve experts' diagnostic decisions",
+    "authors_or_organization": "Matthew Sibbald; Anique B.H. de Bruin; Jeroen J.G. van Merrienboer",
+    "url": "https://doi.org/10.1111/medu.12080 (Medical Education 47(3):301-308; PMID 23398016)",
+    "publication_date": "2013",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:sibbald2013-ecg-checklist",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. 15 experts, 18 ECGs, within-subject conditions. Checklist used by the interpreter to verify own work, not by a downstream recipient.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S14"
+    ]
+  },
+  {
+    "source_id": "SRC192",
+    "title": "Effects of incorrect computer-aided detection (CAD) output on human decision-making in mammography",
+    "authors_or_organization": "Eugenio Alberdi; Andrey Povyakalo; Lorenzo Strigini; Peter Ayton",
+    "url": "https://doi.org/10.1016/j.acra.2004.05.012 (Academic Radiology 11(8):909-918; PMID 15354301)",
+    "publication_date": "2004",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:alberdi2004-cad-incorrect-output",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. Two separate reader groups (20 with CAD, 19 without) rather than within-reader comparison; test set enriched (50% of cancers with incorrect CAD output). Automation-bias literature broadly is already in register (Goddard 2012 review); this item is used narrowly for the 'absence of a flag read as clean' mechanism.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S15"
+    ]
+  },
+  {
+    "source_id": "SRC193",
+    "title": "Introduction of surgical safety checklists in Ontario, Canada",
+    "authors_or_organization": "David R. Urbach; Anand Govindarajan; Refik Saskin; Andrew S. Wilton; Nancy N. Baxter",
+    "url": "https://doi.org/10.1056/NEJMsa1308261 (NEJM 370(11):1029-1038; PMID 24620866)",
+    "publication_date": "2014-03",
+    "data_collection_dates": "3-month periods before and after each hospital's checklist adoption (Ontario, c. 2010)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:urbach2014-ontario-ssc",
+    "funding_or_commercial_relationships": "Canadian Institutes of Health Research (per abstract)",
+    "archived_file_path": null,
+    "limitations": "Abstract only. Natural experiment with administrative data; checklist compliance/quality not observed in abstract; short pre/post windows. Mechanism analogy only (team process checklist, not coverage disclosure). Contrasts with earlier pre-post evidence (Haynes et al. 2009, NEJM, PMID 19144931: deaths 1.5% to 0.8%), noted but not separately registered.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S16"
+    ]
+  },
+  {
+    "source_id": "SRC194",
+    "title": "Causal Analysis of World Health Organization's Surgical Safety Checklist Implementation Quality and Impact on Care Processes and Patient Outcomes: Secondary Analysis From a Large Stepped Wedge Cluster Randomized Controlled Trial in Norway",
+    "authors_or_organization": "Arvid Steinar Haugen; Hilde Valen Waehle; Stian Kreken Almeland; Stig Harthug; Nick Sevdalis; Geir Egil Eide; Monica Wammen Nortvedt; Ingrid Smith; Eirik Softeland",
+    "url": "https://doi.org/10.1097/SLA.0000000000002584 (Annals of Surgery 269(2):283-290; PMID 29112512)",
+    "publication_date": "2019",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:haugen-norway-ssc-stepped-wedge",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. Secondary analysis from one hospital of a stepped-wedge RCT; implementation quality was not randomized, so the 'high-quality implementation' contrast is observational. Mechanism analogy only.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S17"
+    ]
+  },
+  {
+    "source_id": "SRC195",
+    "title": "Checklists to prevent diagnostic errors: a pilot randomized controlled trial",
+    "authors_or_organization": "John W. Ely; Mark A. Graber",
+    "url": "https://doi.org/10.1515/dx-2015-0008 (Diagnosis 2(3):163-169; PMID 29540029)",
+    "publication_date": "2015",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:ely-graber2015-diagnostic-checklist-rct",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract only. Pilot: 14 physicians, 100 patients, 17 diagnostic errors; underpowered; subgroup finding post hoc. Checklist used by the decision-maker, not a recipient-facing coverage list.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S18"
+    ]
+  },
+  {
+    "source_id": "SRC196",
+    "title": "Do Critical Audit Matter Paragraphs in the Audit Report Change Nonprofessional Investors' Decision to Invest?",
+    "authors_or_organization": "Brant E. Christensen; Steven M. Glover; Christopher J. Wolfe",
+    "url": "https://doi.org/10.2308/ajpt-50793 (Auditing: A Journal of Practice & Theory 33(4):71-93)",
+    "publication_date": "2014",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:christensen2014-cam-resolution",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract (summary) only via Crossref. Nonprofessional investors (business school graduates who invest in individual stocks); sample size not verified. CAM centered on fair value estimates. Measures decision change, not decision accuracy.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S19"
+    ]
+  },
+  {
+    "source_id": "SRC197",
+    "title": "Does Discussing Audit Procedures in Critical Audit Matter Calibrate Financial Reporting Risk Assessments?",
+    "authors_or_organization": "El'fred Boo; Kin Yew Low; Premila Gowri Shankar; Hun-Tong Tan",
+    "url": "https://doi.org/10.2308/horizons-2022-040 (Accounting Horizons 39(2):19-31)",
+    "publication_date": "2025-04",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:boo2025-cam-procedures-calibration",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Synopsis only via Crossref; participant type described only as 'sophisticated users', numbers not verified. 'Calibration' is operationalized as smaller shifts in risk assessments before vs after a pre-flagged risk event, not as accuracy against a benchmark.",
+    "contributing_workstreams": [
+      "R3E_checklists_coverage_judgment"
+    ],
+    "temp_ids": [
+      "R3E-S20"
+    ]
+  },
+  {
+    "source_id": "SRC198",
+    "title": "FHFA’s Oversight of the Enterprises’ Use of Appraisal Data Before They Buy Single-Family Mortgages, AUD-2014-008",
+    "authors_or_organization": "Federal Housing Finance Agency Office of Inspector General",
+    "url": "https://www.fhfaoig.gov/Content/Files/AUD-2014-008.pdf",
+    "publication_date": "2014-02-06",
+    "data_collection_dates": "Portal data Jan 2013-Sep 2013; fieldwork through Nov 2013",
+    "access_date": "2026-11-15",
+    "source_type": "regulator_inspection_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Covers the first years of the portal (pre-Collateral Underwriter, 2013 data). Counts loans that triggered warnings, not loans that were actually defective; false-positive rate of warnings unknown (the report says the Enterprises had not measured it).",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S01"
+    ]
+  },
+  {
+    "source_id": "SRC199",
+    "title": "Interagency Appraisal and Evaluation Guidelines (75 FR 77450), Section XV Reviewing Appraisals and Evaluations",
+    "authors_or_organization": "OCC, Federal Reserve Board, FDIC, OTS, NCUA",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2010-12-10/pdf/2010-30913.pdf",
+    "publication_date": "2010-12-10",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:interagency-2010-appraisal-evaluation-guidelines",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Supervisory guidance: shows expected review obligations and permitted risk-based depth, not actual lender practice, compliance, review hours or detection performance. Read Section XV (pp. 77461-77463) closely; other sections skimmed.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S02"
+    ]
+  },
+  {
+    "source_id": "SRC200",
+    "title": "An Overview of Enterprise Appraisal Waivers, WPR-2018-006",
+    "authors_or_organization": "Federal Housing Finance Agency Office of Inspector General",
+    "url": "https://www.fhfaoig.gov/Content/Files/WPR-2018-006.pdf",
+    "publication_date": "2018-09-14",
+    "data_collection_dates": "Program data Jan-Mar 2018",
+    "access_date": "2026-11-15",
+    "source_type": "regulator_inspection_report",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:fhfaoig2018-appraisal-waivers",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "White paper, not an audit; benefits (time, cost) are Enterprise-reported projections relayed by OIG, not OIG measurements. Redacted (an FHFA offer-rate cap is blacked out). Predates large 2020-2021 waiver expansion.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S03"
+    ]
+  },
+  {
+    "source_id": "SRC201",
+    "title": "Loan Collateral Advisor FAQ",
+    "authors_or_organization": "Freddie Mac",
+    "url": "https://sf.freddiemac.com/faqs/loan-collateral-advisor-faq",
+    "publication_date": "not reported (page (c) 2026)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "company_announcement",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:freddiemac-lca-policy",
+    "funding_or_commercial_relationships": "Freddie Mac is the developer of the tool and the consequence-bearing purchaser (interested party).",
+    "archived_file_path": null,
+    "limitations": "Read via WebFetch extraction (small-model summary with quoted phrases), not a full manual read; quotes may be incomplete. Statement of intended use, not evidence of effects.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S04"
+    ]
+  },
+  {
+    "source_id": "SRC202",
+    "title": "Freddie Mac Seller/Servicer Guide Section 5602.2 (Loan Collateral Advisor), as reproduced on homebuyer.com",
+    "authors_or_organization": "Freddie Mac (Guide text); reproduced by Homebuyer.com",
+    "url": "https://homebuyer.com/guidelines/freddie-mac/loan-collateral-advisor-5602-2",
+    "publication_date": "Guide text undated on page; page published 2026-02-24",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:freddiemac-lca-policy",
+    "funding_or_commercial_relationships": "Freddie Mac is interested party; reproduction by a commercial third-party site.",
+    "archived_file_path": null,
+    "limitations": "Secondary reproduction of Guide text read via WebFetch extraction; original Freddie Mac Guide not accessed (my.sf.freddiemac.com returned proxy 502). Shows contractual policy (relief eligibility), not effects.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S05"
+    ]
+  },
+  {
+    "source_id": "SRC203",
+    "title": "Fannie Mae's 'Day 1 Certainty' Initiative Gives Lenders Greater Certainty and Efficiency on Appraisals (press release) and related Selling Guide announcement SEL-2017-03",
+    "authors_or_organization": "Fannie Mae",
+    "url": "https://fanniemae.com/newsroom/fannie-mae-news/fannie-maes-day-1-certainty-initiative-gives-lenders-greater-certainty-and-efficiency-appraisals",
+    "publication_date": "2016 (exact date not verified)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "company_announcement",
+    "access_status": "blocked",
+    "underlying_evidence_group": "EG:fanniemae-day1certainty-cu",
+    "funding_or_commercial_relationships": "Fannie Mae developed CU and is the consequence-bearing purchaser (interested party).",
+    "archived_file_path": null,
+    "limitations": "All fanniemae.com and singlefamily.fanniemae.com pages returned HTTP 403 / Cloudflare challenge. Content known only from search-engine result summaries (not verbatim, not verified). Treat as unverified pointer.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S06"
+    ]
+  },
+  {
+    "source_id": "SRC204",
+    "title": "Attribute (Mis)Reporting and Appraisal Bias (preliminary AEA 2021 version; published as 'Attribute misreporting and appraisal bias', Review of Finance 28(5):1663-1686, 2024)",
+    "authors_or_organization": "Michael D. Eriksen, Chun Kuang, Wenyu Zhu",
+    "url": "https://www.aeaweb.org/conference/2021/preliminary/paper/rFbSGyz6",
+    "publication_date": "2021 (preliminary); 2024 (journal)",
+    "data_collection_dates": "Loan applications 2013-2017",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:eriksen-kuang-zhu-attribute-misreporting",
+    "funding_or_commercial_relationships": "Data obtained with assistance of secondary-market-institution staff (acknowledgments); no commercial funding reported in preliminary version.",
+    "archived_file_path": null,
+    "limitations": "Read the preliminary version; published version not accessed (search summary says headline delinquency estimate changed to 9.8%; unverified). Data from one secondary-market institution, conforming loans only, stable market period. Observational.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S07"
+    ]
+  },
+  {
+    "source_id": "SRC205",
+    "title": "Home Purchase Appraisals in Minority Neighborhoods, FHFA Staff Working Paper 24-06",
+    "authors_or_organization": "Daniel Grodzicki, Sean Cannon, Christopher W. Davis, Ken Lam (FHFA)",
+    "url": "https://www.fhfa.gov/document/wp2406.pdf",
+    "publication_date": "2024-10",
+    "data_collection_dates": "UAD purchase appraisals (period per paper; not extracted)",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:grodzicki2024-fhfa-wp2406",
+    "funding_or_commercial_relationships": "FHFA staff; views not official FHFA position.",
+    "archived_file_path": null,
+    "limitations": "Topic is appraisal bias, not review effort; used here only for (a) what standardized UAD data enables and (b) the local-information mechanism. Preliminary working paper; observational with IV.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S08"
+    ]
+  },
+  {
+    "source_id": "SRC206",
+    "title": "Lowering Credit Risk: The Case for ACE (Capital Market Insights research note)",
+    "authors_or_organization": "Kadiri Karamon and Doug McManus (Freddie Mac)",
+    "url": "https://capitalmarkets.freddiemac.com/crt/docs/pdfs/SF_CS_ACEResearchNote.pdf",
+    "publication_date": "2024-05",
+    "data_collection_dates": "Originations May 2017-June 2023; performance through Dec 2023",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:freddiemac-ace-karamon-mcmanus",
+    "funding_or_commercial_relationships": "Authored by Freddie Mac, which operates ACE (interested party).",
+    "archived_file_path": null,
+    "limitations": "GSE self-evaluation; selection into ACE on unpublished criteria; authors' IV estimate is imprecise and not statistically different from zero. Results specific to ACE decision logic and a low-default period.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S09"
+    ]
+  },
+  {
+    "source_id": "SRC207",
+    "title": "Residential Appraisals: Opportunities to Enhance Oversight of an Evolving Industry, GAO-11-653",
+    "authors_or_organization": "U.S. Government Accountability Office",
+    "url": "https://gao.gov/products/gao-11-653",
+    "publication_date": "2011-07-13",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulator_inspection_report",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:gao2011-residential-appraisal-oversight",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Full report PDF/HTML returned Access Denied to scripted fetch; only the GAO product page summary read via WebFetch extraction. Reports participant concerns, not measured AMC effects; no share-of-AMC figure on product page.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S10"
+    ]
+  },
+  {
+    "source_id": "SRC208",
+    "title": "The Texas Appraisers and Appraisal Management Company Survey (October 2012)",
+    "authors_or_organization": "Texas A&M Real Estate Center; NORC at the University of Chicago; Hobby Center for Public Policy (for Texas Appraiser Licensing and Certification Board)",
+    "url": "https://www.talcb.texas.gov/sites/default/files/uploaded-files/texas_appraiser_amc_survey_report_2012.pdf",
+    "publication_date": "2012-10",
+    "data_collection_dates": "August 2012",
+    "access_date": "2026-11-15",
+    "source_type": "industry_survey",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:texas2012-appraiser-amc-survey",
+    "funding_or_commercial_relationships": "Commissioned by state licensing board (per hosting); no commercial sponsor identified.",
+    "archived_file_path": null,
+    "limitations": "Self-reported survey; one state; appraiser response rate 26%, AMC response rate 54% (per report); 2012 market. Stated perceptions about fees/quality, not measured quality.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S11"
+    ]
+  },
+  {
+    "source_id": "SRC209",
+    "title": "The real impact of Fannie Mae's Collateral Underwriter",
+    "authors_or_organization": "Chuck Mureddu (SVP and chief valuation officer, SWBC Lending Solutions) in HousingWire",
+    "url": "https://www.housingwire.com/articles/33523-the-real-impact-of-fannie-maes-collateral-underwriter/",
+    "publication_date": "2015-04-10",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:mureddu2015-cu-housingwire",
+    "funding_or_commercial_relationships": "Author is an executive of an appraisal management/valuation services firm (interested party).",
+    "archived_file_path": null,
+    "limitations": "Anecdotal account from one AMC's client base, ~1 month after CU launch; read via WebFetch extraction. No data on magnitudes.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S12"
+    ]
+  },
+  {
+    "source_id": "SRC210",
+    "title": "UAD and Forms Redesign FAQs",
+    "authors_or_organization": "Freddie Mac (Uniform Mortgage Data Program, with Fannie Mae, at FHFA direction)",
+    "url": "https://sf.freddiemac.com/faqs/uad-and-forms-redesign",
+    "publication_date": "not reported (entry updated 2026-09-30)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "company_announcement",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:gse-uad36-redesign",
+    "funding_or_commercial_relationships": "Freddie Mac is standard-setter and purchaser (interested party).",
+    "archived_file_path": null,
+    "limitations": "Official purpose statements, not effects. Read via WebFetch extraction.",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S13"
+    ]
+  },
+  {
+    "source_id": "SRC212",
+    "title": "Phase I environmental site assessments: what lenders require (NYREJ Long Island section column)",
+    "authors_or_organization": "Chuck Merritt, President, Merritt Environmental Consulting Corp.",
+    "url": "https://nyrej.com/print/45352",
+    "publication_date": "2021-09-07",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:merritt2021-phase1-nyrej",
+    "funding_or_commercial_relationships": "Author runs a Phase I consulting firm (interested party).",
+    "archived_file_path": null,
+    "limitations": "Single practitioner's description; read via WebFetch extraction; title paraphrased (exact headline not captured).",
+    "contributing_workstreams": [
+      "R3F_appraisal_review_standardization"
+    ],
+    "temp_ids": [
+      "R3F-S15"
     ]
   }
 ]

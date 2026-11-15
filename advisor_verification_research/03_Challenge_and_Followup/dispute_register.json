@@ -1,130 +1,329 @@
 [
   {
     "dispute_id": "DIS001",
-    "proposition_ids": ["P1.2", "P1.1"],
-    "ledger_anchors": ["CL027"],
+    "proposition_ids": [
+      "P1.2",
+      "P1.1"
+    ],
+    "ledger_anchors": [
+      "CL027"
+    ],
     "question": "Is a material share of recipient review avoidable reconstruction (W2), or is much apparent reconstruction the independent understanding that W1 obligations require?",
     "reviewer_A_position": "The mechanism is well attested across ~10 groups: missing evidence or scope raises recipient effort. Standards themselves link missing test descriptions to extra procedures, and judges discount advice partly for lack of the advisor's reasons. The share is unmeasured. Opacity often produces under-review rather than reconstruction, which supports the detection half of the thesis more than the effort half.",
-    "reviewer_A_evidence": ["EVR007", "EVR020", "EVR087", "EVR086", "EVR115", "EVR153", "EVR212"],
+    "reviewer_A_evidence": [
+      "EVR007",
+      "EVR020",
+      "EVR087",
+      "EVR086",
+      "EVR115",
+      "EVR153",
+      "EVR212"
+    ],
     "reviewer_B_position": "This is a limitation, not a refutation. The reducible share is unmeasured in any investment workflow. The one quantified item concerns data availability and integration, not opaque reasoning. Some 'reconstruction' is the effective challenge and independent checking that W1 requires. The incremental burden of the rule changes was small.",
-    "reviewer_B_evidence": ["EVR035", "EVR081", "EVR083", "EVR008", "EVR212"],
+    "reviewer_B_evidence": [
+      "EVR035",
+      "EVR081",
+      "EVR083",
+      "EVR008",
+      "EVR212"
+    ],
     "shared_ground": "Both: the W2 mechanism exists, and no public source measures its share of recipient time. Both treat EVR212 as observational, single-site, medical.",
     "discriminating_observation": "Time-use or think-aloud logs of credit/IC reviewers coding effort into mandated evaluation, locating evidence, understanding rationale, and fixing errors, under high vs low traceability of the same advisor report.",
-    "followup_assignments": ["R3B", "R3C"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3B",
+      "R3C"
+    ],
+    "followup_findings": "R3B (doctrine): re-performance of an expert's work is not legally required absent red flags. Required work is targeted inquiry, checking against records, judging sufficiency and building a record (EVR246, EVR240, EVR241, EVR249, EVR247). Anything beyond that is, in principle, avoidable. R3C (target domain): public scopes buy review of the sponsor's yield assessment from the independent engineer (EVR291, EVR281, EVR283). The lender's described in-house work is mostly adaptation and haircuts driven by measured bias (EVR275\u2013EVR277, EVR285). IEA PVPS says extra assessments are requested when results are unclear, an opacity-driven trigger (EVR295). R3A/R3D: no study measures recipient review time split by work type (EVR261). Searches for time-use data in audit, credit, legal and IC settings found none (search logs WS1, WS2, WS3, WS5, R3B, R3C).",
+    "status": "Unresolved with available public evidence",
+    "status_rationale": "The mechanism (W2 exists) and the legal boundary (re-derivation is not mandatory absent red flags) are resolved. The share of recipient effort that is W2 is not observable in public sources in any domain. Both reviewers' positions remain compatible with the evidence. The smallest resolving observation: time-use or think-aloud logs of credit/IC reviewers on the same advisor report delivered with vs without traceable inputs, assumptions and coverage."
   },
   {
     "dispute_id": "DIS002",
-    "proposition_ids": ["P1.1"],
-    "ledger_anchors": ["CL025", "CL027"],
+    "proposition_ids": [
+      "P1.1"
+    ],
+    "ledger_anchors": [
+      "CL025",
+      "CL027"
+    ],
     "question": "Do W1 obligations require the recipient to re-derive outside analysis, or to evaluate it (so that traceability can lower the cost of meeting them)?",
     "reviewer_A_position": "Obligations specify what must be evaluated and scale effort to risk. They impose an obligation, not a method. Reliance on third-party analysis is explicitly allowed while decision ownership is retained. Traceability targets the cost of meeting W1, not W1 itself.",
-    "reviewer_A_evidence": ["EVR013", "EVR169", "EVR001", "EVR167", "EVR039", "EVR067", "EVR003", "EVR051"],
+    "reviewer_A_evidence": [
+      "EVR013",
+      "EVR169",
+      "EVR001",
+      "EVR167",
+      "EVR039",
+      "EVR067",
+      "EVR003",
+      "EVR051"
+    ],
     "reviewer_B_position": "Some regimes require re-derivation that traceability cannot replace (no exchange of calculation sheets; alternate calculations). Where standards scale effort, traceability is not among the factors.",
-    "reviewer_B_evidence": ["EVR081", "EVR083", "EVR001", "EVR012", "EVR167", "EVR017"],
-    "shared_ground": "Both: decision responsibility is non-delegable across ~17–18 groups. Re-derivation is mandated in some regimes (CG 300 Cat 3, NRC alternate calculations, ISA 610 re-performance) and not in others. Both concede EVR081 as the strongest counterexample.",
+    "reviewer_B_evidence": [
+      "EVR081",
+      "EVR083",
+      "EVR001",
+      "EVR012",
+      "EVR167",
+      "EVR017"
+    ],
+    "shared_ground": "Both: decision responsibility is non-delegable across ~17\u201318 groups. Re-derivation is mandated in some regimes (CG 300 Cat 3, NRC alternate calculations, ISA 610 re-performance) and not in others. Both concede EVR081 as the strongest counterexample.",
     "discriminating_observation": "Target-domain documents (IE scopes, lender credit policies, rating criteria, legal reliance doctrine) that state whether the recipient must independently re-derive (e.g., run its own energy yield assessment) or may review and rely.",
-    "followup_assignments": ["R3B", "R3C"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3B",
+      "R3C"
+    ],
+    "followup_findings": "R3B: across US securities law and Delaware doctrine the line is set by expert status and red flags, not documentation quality. Recipients may rely on expert-certified content without re-checking but must investigate the rest by inquiry and verification, not re-performance (EVR238, EVR240, EVR244, EVR246, EVR254, EVR256). R3C: the public target-domain scopes found (one DFI biogas terms of reference, one securitization report, IFC guidance) describe review of the sponsor's yield assessment, or accept 'produced and/or verified' (EVR291, EVR281, EVR283). One lender reports parallel assessments some of the time (EVR275). Regimes mandating independent re-derivation remain specific: CG 300 Category 3, NRC alternate calculations, ISA 610 re-performance (EVR081, EVR083, EVR017).",
+    "status": "Dependent on context or assumptions",
+    "status_rationale": "Resolved at the level of principle: most regimes require evaluation, a few require re-derivation, and red flags or knowledge expand the duty. For the target domain, public documents point to review plus adaptation rather than mandated re-derivation, but lenders sometimes run parallel assessments and the triggers are unknown. Which regime an investor's policy resembles is an assumption the ledger owner must make or verify."
   },
   {
     "dispute_id": "DIS003",
-    "proposition_ids": ["P2.1", "P2.2", "P2.3"],
+    "proposition_ids": [
+      "P2.1",
+      "P2.2",
+      "P2.3"
+    ],
     "ledger_anchors": [],
     "question": "Does fine-grained traceability reduce verification time while preserving error detection, or do apparent time savings come from checking less?",
     "reviewer_A_position": "Only fine-grained provenance has been shown to cut time with accuracy preserved (cell-level links). Sources protect detection better than explanations when the producer is wrong (0.54 vs 0.35 vs 0.49 baseline). Coarse evidence costs more time.",
-    "reviewer_A_evidence": ["EVR109", "EVR092", "EVR186", "EVR147", "EVR096"],
+    "reviewer_A_evidence": [
+      "EVR109",
+      "EVR092",
+      "EVR186",
+      "EVR147",
+      "EVR096"
+    ],
     "reviewer_B_position": "Savings partly reflect reduced checking. Highlighting cut time but lowered accuracy when the model was wrong, and links are rarely clicked. Average-accuracy nulls hide a right-vs-wrong asymmetry, which is exactly the error-detection case.",
-    "reviewer_B_evidence": ["EVR110", "EVR091", "EVR103", "EVR108", "EVR100", "EVR142", "EVR093", "EVR174"],
-    "shared_ground": "Both: X3 (sources) beats X1 (narrative) on detection when the producer is wrong. The evidence is lay participants on short tasks. The time–detection trade-off depends on granularity and on where the error sits (cited fact vs reasoning).",
+    "reviewer_B_evidence": [
+      "EVR110",
+      "EVR091",
+      "EVR103",
+      "EVR108",
+      "EVR100",
+      "EVR142",
+      "EVR093",
+      "EVR174"
+    ],
+    "shared_ground": "Both: X3 (sources) beats X1 (narrative) on detection when the producer is wrong. The evidence is lay participants on short tasks. The time\u2013detection trade-off depends on granularity and on where the error sits (cited fact vs reasoning).",
     "discriminating_observation": "Randomized seeded-error study with accountable professionals (credit/IC analysts, clinicians, auditors), crossing link granularity with error location. Report time per claim and detection on producer-wrong trials, with logged source opens.",
-    "followup_assignments": ["R3A", "R3F"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3A",
+      "R3F"
+    ],
+    "followup_findings": "R3A: no published study gives accountable professionals output with vs without source links and measures both effort and detection of seeded errors (targeted searches in medicine, radiology, audit, law and finance; R3A search log). Closest evidence: a clinician RCT of a tool that cites a source for every claim, vs the EHR alone, cut time (ratio 0.624) with non-inferior accuracy, but cannot isolate the citations and used no seeded errors (EVR228). Developer-run self-report favours cell-level citations (EVR235). Professionals reviewing untraceable AI drafts missed most planted errors (EVR219). Lighter editing went with more surviving confabulations (EVR223). Radiology drafts cut time with no significant change in clinically significant errors, but only 3 readers (EVR225). R3F: in appraisal review, standardized machine-checkable data enabled automated triage and portfolio-level detection (EVR325, EVR331). The GSEs nonetheless overrode automated warnings because clearing flags, including unmeasured false positives, was costly (EVR320, EVR321). An automated check failed silently for ~$88B of loans (EVR322). The visible cut in lender review came through liability transfer (rep-and-warranty relief, waivers) rather than cheaper per-file verification (EVR329, EVR326).",
+    "status": "Unresolved with available public evidence",
+    "status_rationale": "Both readings survive. Fine-grained provenance can cut time without detectable detection loss (lay: EVR109; professional bundle: EVR228). Time savings can also come from checking less (EVR110, EVR223). The discriminating professional seeded-error experiment has not been published. The appraisal case adds that machine-checkability raises detection capacity but does not by itself produce verification. Its realized effort reduction came through risk transfer, a different mechanism from the thesis."
   },
   {
     "dispute_id": "DIS004",
-    "proposition_ids": ["P2.4"],
-    "ledger_anchors": ["CL026"],
+    "proposition_ids": [
+      "P2.4"
+    ],
+    "ledger_anchors": [
+      "CL026"
+    ],
     "question": "Does explicit coverage visibility (what was checked, incl. checks without findings) improve recipients' appropriate reliance, or mainly document completeness and boilerplate?",
     "reviewer_A_position": "This is the thesis's strongest ground, though mostly normative. Standards keep test-and-result descriptions so recipients can link them to their own work. Courts accept validated coverage evidence in place of item review. Clinicians value pertinent negatives. Show checks-without-findings at the level of test nature and scope, not sample detail.",
-    "reviewer_A_evidence": ["EVR019", "EVR022", "EVR023", "EVR020", "EVR214", "EVR060", "EVR069", "EVR071", "EVR075", "EVR076", "EVR203", "EVR099", "EVR112"],
+    "reviewer_A_evidence": [
+      "EVR019",
+      "EVR022",
+      "EVR023",
+      "EVR020",
+      "EVR214",
+      "EVR060",
+      "EVR069",
+      "EVR071",
+      "EVR075",
+      "EVR076",
+      "EVR203",
+      "EVR099",
+      "EVR112"
+    ],
     "reviewer_B_position": "Much of the evidence is mandates or producer-side completeness, not recipient benefit. Prefilled 'normal' text produced contradictions without error benefit. The top-level structured-reporting study found no improvement. Reported TAR metrics diverged from the underlying samples. IAASB declined sample-size detail on cost grounds.",
-    "reviewer_B_evidence": ["EVR202", "EVR194", "EVR196", "EVR077", "EVR022", "EVR192", "EVR072"],
+    "reviewer_B_evidence": [
+      "EVR202",
+      "EVR194",
+      "EVR196",
+      "EVR077",
+      "EVR022",
+      "EVR192",
+      "EVR072"
+    ],
     "shared_ground": "Both: coverage information must be verifiable (recomputable from underlying samples/data) and right-sized. The courts' acceptance of TAR rested on statistical sampling plus adversarial access. Recipient decision benefit is not shown.",
     "discriminating_observation": "Planted omissions in reports with vs without explicit no-findings entries. Also, recipients' follow-up question/addendum logs before vs after coverage maps.",
-    "followup_assignments": ["R3E", "R3B"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3E",
+      "R3B"
+    ],
+    "followup_findings": "R3B (doctrine): procedure-and-findings disclosures are 'important evidence, but ... insufficient by itself' (EVR245); only the recipient can judge sufficiency (EVR249); AS 6101 requires procedures to be described and bans vague terms (EVR250); banks reportedly will not proceed without negative assurance (practitioner, no data; EVR252); a written program is not proof of performance (EVR243). R3E (behavioural): the evidence splits by design and timing. Reviewer-side lists imposed as the method of review narrowed attention and hurt detection: auditors given a fraud checklist or standard program (EVR298, EVR299); likelihood-times-magnitude decomposition (EVR303); an imposed radiology checklist (EVR309, EVR310); highlighted audit matters drew attention away from other content (EVR305). Specific documentation (EVR300), checklists used after the reviewer's own read (EVR313), prompts toward how assumptions were derived (EVR304), and procedure descriptions for flagged matters (EVR319) helped. 'No findings'/resolution statements change recipients' reactions (EVR318); unflagged areas are over-trusted (EVR314). Disclosure creates liability incentives for boilerplate (EVR307, EVR308). Achieved coverage \u2260 detection (EVR312). No study tests 'checked, no findings' vs silence on recipients' detection.",
+    "status": "Partly resolved",
+    "status_rationale": "Resolved that coverage disclosure does not change the recipient's legal duty, and that effects depend on design and timing: specific, deal-specific coverage of how judgments were reached, consulted after an independent first read, helps; generic lists used as the review method narrow attention. Unresolved whether explicit 'checked, no findings' entries improve recipients' detection of omissions compared with silence. No experiment exists."
   },
   {
     "dispute_id": "DIS005",
-    "proposition_ids": ["P1.6"],
-    "ledger_anchors": ["CL027"],
+    "proposition_ids": [
+      "P1.6"
+    ],
+    "ledger_anchors": [
+      "CL027"
+    ],
     "question": "Is persistent review excess ritual that better information could reduce, or misdirected review (detail-checking while assumptions go unchallenged) that traceability might reinforce?",
     "reviewer_A_position": "Double-edged. Part of non-error-driven review comes from lack of access to the advisor's reasons, which is addressable. The accountability-driven part is not informational. Observed under-review is the main adverse fact.",
-    "reviewer_A_evidence": ["EVR157", "EVR088", "EVR090", "EVR074", "EVR153", "EVR154", "EVR069", "EVR071", "EVR165", "EVR156"],
+    "reviewer_A_evidence": [
+      "EVR157",
+      "EVR088",
+      "EVR090",
+      "EVR074",
+      "EVR153",
+      "EVR154",
+      "EVR069",
+      "EVR071",
+      "EVR165",
+      "EVR156"
+    ],
     "reviewer_B_position": "Review is misdirected, not excessive. Auditors verify details of management's numbers while assumptions go unchallenged. Analyst inference (untested): traceability that makes detail-checking easier could reinforce this pattern.",
-    "reviewer_B_evidence": ["EVR025", "EVR027", "EVR029", "EVR031", "EVR191", "EVR033", "EVR165", "EVR005", "EVR171", "EVR059"],
+    "reviewer_B_evidence": [
+      "EVR025",
+      "EVR027",
+      "EVR029",
+      "EVR031",
+      "EVR191",
+      "EVR033",
+      "EVR165",
+      "EVR005",
+      "EVR171",
+      "EVR059"
+    ],
     "shared_ground": "Both cite regulator-observed under-challenge (EVR005, EVR171, EVR059) as adverse to the view that review is excessive.",
     "discriminating_observation": "Whether reviewers given traceable reports spend proportionally more effort on verifiable details vs judgmental assumptions, and whether assumption-level errors are detected less.",
-    "followup_assignments": ["R3E"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3E"
+    ],
+    "followup_findings": "R3E: standardized decomposition and checklists made auditors less sensitive to fraud risk (EVR298, EVR303). Prompting attention to how management derived an assumption increased sensitivity to contradictory evidence (EVR304). This is the closest direct test of Reviewer B's worry: detail-oriented structure can crowd out assumption-level skepticism, while structure aimed at the assumptions can counter it. R3D: auditors who inherited an analytic test followed up red flags less often (26% vs 54%); a development memo partly restored follow-up (34%) (EVR272, EVR273). R3B: review persists partly as record-building 'even if ... futile' (EVR247, EVR251).",
+    "status": "Partly resolved",
+    "status_rationale": "Evidence now supports both reviewers' mechanisms in different conditions. Structure focused on verifiable details or generic lists can narrow skepticism (B). Structure focused on assumptions and derivation can sharpen it (A). Record-building is an explicit legal function of review (P1.6 'legitimacy' rival). Whether traceable advisor reports would, on balance, shift IC reviewers toward detail-checking is untested in the target setting."
   },
   {
     "dispute_id": "DIS006",
-    "proposition_ids": ["P3.1", "P3.2"],
-    "ledger_anchors": ["K001"],
+    "proposition_ids": [
+      "P3.1",
+      "P3.2"
+    ],
+    "ledger_anchors": [
+      "K001"
+    ],
     "question": "Does integrating outside analysis into the recipient's systems/decision materials reduce total work, or relocate it?",
     "reviewer_A_position": "P3.1 is not established. The best analog separates integration from mere availability (repeat imaging 52% vs 11%). The net sign of relocation depends on checkability: QA time fell for easy-to-check outputs.",
-    "reviewer_A_evidence": ["EVR213", "EVR212", "EVR125", "EVR054", "EVR136", "EVR135"],
+    "reviewer_A_evidence": [
+      "EVR213",
+      "EVR212",
+      "EVR125",
+      "EVR054",
+      "EVR136",
+      "EVR135"
+    ],
     "reviewer_B_position": "Relocation is strongly supported (~13 groups). No item measures end-to-end IC workflow, and there is zero academic work on memos. Specialist hours did not fall after the rule change; they moved to planning.",
-    "reviewer_B_evidence": ["EVR116", "EVR118", "EVR119", "EVR122", "EVR125", "EVR127", "EVR141", "EVR151", "EVR117", "EVR123", "EVR057", "EVR010"],
+    "reviewer_B_evidence": [
+      "EVR116",
+      "EVR118",
+      "EVR119",
+      "EVR122",
+      "EVR125",
+      "EVR127",
+      "EVR141",
+      "EVR151",
+      "EVR117",
+      "EVR123",
+      "EVR057",
+      "EVR010"
+    ],
     "shared_ground": "Both: P3.1 is unmeasured in investment workflows. Self-reported savings are unreliable (EVR142). EVR213 is the only observed integration effect and is single-site medical.",
     "discriminating_observation": "Matched-deal end-to-end logs (advisor report -> memo -> reviewer edits -> IC follow-ups) with and without integration. Multi-site replication of integration effects on duplicated work.",
-    "followup_assignments": ["R3D"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3D"
+    ],
+    "followup_findings": "R3D: replicated, moderate reductions in duplicated work when outside evidence is integrated into the recipient's system \u2014 meta-analysis ES \u22120.17 (EVR259); repeat CT \u22128.7 pp across 37 vs 410 EDs (EVR265); 16\u201329% at a second centre (EVR266); all 7 causally designed studies beneficial (EVR263). Offsets: total imaging rose (EVR260), exchanges were used in under 10% of encounters (EVR264), a national Medicare study found no effect from network membership alone (EVR268), and the largest effect relied on unnetted liaison labour (EVR267). Review effort added was never measured (EVR261). Finance: ~20% faster end-to-end consumer mortgage processing with no default penalty (EVR270); in a vendor case, a 70% task gain shrank to 21% end to end (EVR274). Audit experiment: inherited analysis got less skeptical follow-up (EVR272, EVR273). R3A: physicians' read time rose with integrated drafts (EVR237), and drafts imported clinical judgment (EVR222).",
+    "status": "Partly resolved",
+    "status_rationale": "Resolved that integrating outside evidence at the point of use reduces regeneration of that evidence, moderately and conditionally (medicine, replicated; finance, one analog). Unresolved whether total recipient work falls end to end in IC/credit workflows, because added review time is unmeasured and integration can reduce scrutiny. Reviewer A's 'net sign depends on checkability' and Reviewer B's 'relocation is the default' both remain partly supported."
   },
   {
     "dispute_id": "DIS007",
-    "proposition_ids": ["P5.1", "P4.1"],
-    "ledger_anchors": ["AS06", "CL029"],
+    "proposition_ids": [
+      "P5.1",
+      "P4.1"
+    ],
+    "ledger_anchors": [
+      "AS06",
+      "CL029"
+    ],
     "question": "Does standardization make delivery repeatable, or does customer-specific adaptation dominate?",
     "reviewer_A_position": "Formats can be standardized (228 templates covering 94% of volume; accreditation-driven synoptic adherence), i.e., AS06 'assets'. That says nothing about economics.",
-    "reviewer_A_evidence": ["EVR204", "EVR199", "EVR207", "EVR206", "EVR055", "EVR137"],
-    "reviewer_B_position": "AS06 is challenged. Templates are never the same across investors, national templates covered 17–49% of local content, judgment agreement stayed low with a standard lexicon, adoption was uneven, and users prefer adaptable structures.",
-    "reviewer_B_evidence": ["EVR055", "EVR206", "EVR216", "EVR208", "EVR205", "EVR198", "EVR193", "EVR217"],
+    "reviewer_A_evidence": [
+      "EVR204",
+      "EVR199",
+      "EVR207",
+      "EVR206",
+      "EVR055",
+      "EVR137"
+    ],
+    "reviewer_B_position": "AS06 is challenged. Templates are never the same across investors, national templates covered 17\u201349% of local content, judgment agreement stayed low with a standard lexicon, adoption was uneven, and users prefer adaptable structures.",
+    "reviewer_B_evidence": [
+      "EVR055",
+      "EVR206",
+      "EVR216",
+      "EVR208",
+      "EVR205",
+      "EVR198",
+      "EVR193",
+      "EVR217"
+    ],
     "shared_ground": "Both: standardization within an organization is feasible; cross-customer templates leave substantial local content; judgment stays variable; no economics evidence.",
     "discriminating_observation": "Share of standard vs local content at providers serving many recipients. What happened to producer economics when an outside deliverable became standardized and machine-checkable.",
-    "followup_assignments": ["R3F"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3F"
+    ],
+    "followup_findings": "R3F: in US residential appraisal, the standardized data format (UAD) plus automated scoring made routine appraisals repeatable enough to be intermediated by appraisal management companies, with fee clustering and workload increases (EVR336, EVR335), and partly replaced by waivers (EVR326, EVR327, EVR334; interested-party outcome data). Complex, dissimilar or data-thin properties and local knowledge still require bespoke work (EVR327, EVR333, EVR325). The standard itself was redesigned to absorb property diversity (EVR339). Lender-specific acceptance policies limit report portability, e.g. Phase I ESAs from other consultants are typically not accepted (EVR341; practitioner). Gains went to borrowers, lenders and the GSE rather than producers (EVR334, EVR336). R3C: in PV/wind yield assessment, calls for standardized uncertainty reporting come mainly from suppliers (EVR279, EVR288); no standardized PV framework exists (EVR294).",
+    "status": "Resolved by additional evidence",
+    "status_rationale": "Resolved at the level both reviewers framed it. Standardization can make the homogeneous core of an outside deliverable repeatable ('assets repeat'), while complex or heterogeneous cases and recipient-specific acceptance rules keep bespoke work. The one credit-domain case shows standardization coinciding with commoditization and substitution, i.e. repeatability did not lift producer economics ('economics repeat' challenged for producers). Transfer to low-volume, heterogeneous renewable diligence is limited: it resembles the complex-commercial tier."
   },
   {
     "dispute_id": "DIS008",
-    "proposition_ids": ["P2.3", "P-NEW: transfer of lab reliance findings to accountable professionals"],
+    "proposition_ids": [
+      "P2.3",
+      "P-NEW: transfer of lab reliance findings to accountable professionals"
+    ],
     "ledger_anchors": [],
     "question": "Do lab findings that explanations/citations raise trust without improving detection transfer to accountable professionals?",
     "reviewer_A_position": "P2.3 is treated as a binding design constraint: judge the thesis on detection and appropriate reliance, never on satisfaction.",
-    "reviewer_A_evidence": ["EVR102", "EVR103", "EVR108", "EVR095", "EVR146", "EVR173", "EVR174", "EVR145", "EVR177", "EVR178"],
+    "reviewer_A_evidence": [
+      "EVR102",
+      "EVR103",
+      "EVR108",
+      "EVR095",
+      "EVR146",
+      "EVR173",
+      "EVR174",
+      "EVR145",
+      "EVR177",
+      "EVR178"
+    ],
     "reviewer_B_position": "The best-supported rival (~10 groups), but transfer to accountable professionals is weak. Professionals show both automation bias and algorithm aversion.",
-    "reviewer_B_evidence": ["EVR176", "EVR180", "EVR107", "EVR189", "EVR191", "EVR033"],
+    "reviewer_B_evidence": [
+      "EVR176",
+      "EVR180",
+      "EVR107",
+      "EVR189",
+      "EVR191",
+      "EVR033"
+    ],
     "shared_ground": "Both: participant pools are mostly lay. Professional studies (clinicians, radiologists, auditors) show over-reliance in some designs and discounting of AI-sourced evidence in others.",
     "discriminating_observation": "Professional-reviewer studies measuring both reliance and detection.",
-    "followup_assignments": ["R3A"],
-    "followup_findings": null,
-    "status": null,
-    "status_rationale": null
+    "followup_assignments": [
+      "R3A"
+    ],
+    "followup_findings": "R3A: in professional settings the trust\u2013detection gap appears even without citations or explanations. 90% of physicians trusted a drafting tool while each erroneous draft was missed by 13\u201315 of 20 physicians (EVR219, EVR220). Residents edited LLM drafts less and left more confabulations (EVR223). Physicians anchored on draft content (EVR222). A clinician RCT of a citation-first tool showed time savings with accuracy non-inferior, but no seeded errors (EVR228). No professional study isolates the effect of citations on trust or detection (R3A search log).",
+    "status": "Partly resolved",
+    "status_rationale": "Over-trust and weak detection transfer to accountable professionals reviewing AI drafts. Whether citations or explanations add to that over-trust among professionals, as they do among lay participants, remains untested."
   }
 ]

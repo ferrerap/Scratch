@@ -560,5 +560,59 @@
     "transferability_to_target_workflow": "Mechanism only: a list widened what was considered (coverage) without a demonstrable fall in errors. Analogous to listing more checks without proven better detection.",
     "analyst_inference": "Absence of evidence (underpowered), not evidence of absence. Consistent with branch (c) but weak.",
     "access_status": "abstract_only"
+  },
+  {
+    "evidence_id": "R3E-E21",
+    "source_id": "R3E-S19",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Stating that a flagged matter was addressed/resolved (checks with no adverse finding) changes recipient reliance",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Nonprofessional investors receiving a CAM paragraph on fair value estimates were more likely to change their investment decision than those receiving a standard report or the same information in management's footnotes; the CAM effect was reduced when followed by a paragraph offering resolution of the critical audit matter.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (recipient-side experiment, nonprofessional users)",
+    "population_and_setting": "Nonprofessional investors (business school graduates who invest in individual stocks); number not verified",
+    "study_or_observation_method": "Between-subjects experiment",
+    "intervention_and_comparator": "Standard report vs CAM paragraph vs CAM information in management footnotes vs CAM plus resolution paragraph",
+    "outcome_measured": "Change in investment decision",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract/summary (Crossref, AJPT 33(4):71-93)",
+    "short_exact_excerpt": "We also find that the effect of a CAM paragraph is reduced when it is followed by a paragraph offering resolution of the critical audit matter.",
+    "underlying_evidence_group": "EG:christensen2014-cam-resolution",
+    "limitations": "Abstract only; non-expert participants; no benchmark for whether reduced reaction was appropriate.",
+    "transferability_to_target_workflow": "Mechanism: a producer statement that a flagged issue was examined and resolved ('checked, no exception') reassures recipients. In diligence, an advisor's 'reviewed, no issues' line will lower IC concern; whether this is appropriate depends on what the check could detect.",
+    "analyst_inference": "Recipients do respond to 'checked and resolved' statements, so such statements are not just ignored boilerplate. Whether the reassurance is calibrated is not tested, so this cannot settle the dispute either way.",
+    "access_status": "abstract_only"
+  },
+  {
+    "evidence_id": "R3E-E22",
+    "source_id": "R3E-S20",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Describing procedures performed (what was checked) improves recipients' calibration of risk",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "In a controlled experiment, discussing in the CAM paragraph the audit procedures that addressed a complex investment valuation issue led sophisticated users to make smaller shifts in financial reporting risk assessments between before and after the risk event (a significant fair value decline flagged earlier in the CAM). The authors interpret this as calibration.",
+    "relationship": "supports",
+    "evidence_type": "direct evidence (recipient-side experiment, sophisticated users)",
+    "population_and_setting": "Sophisticated users (type and number not verified in synopsis)",
+    "study_or_observation_method": "Controlled experiment",
+    "intervention_and_comparator": "CAM with discussion of audit procedures vs CAM without (as described in synopsis)",
+    "outcome_measured": "Change in financial reporting risk assessments before vs after a realized risk event",
+    "quantitative_result": "not reported in synopsis (direction only)",
+    "source_locator": "Synopsis (Crossref, Accounting Horizons 39(2):19-31)",
+    "short_exact_excerpt": "Our findings support this calibrating effect, that is, minimizing shifts in their risk assessments before versus after the realization of the risk event",
+    "underlying_evidence_group": "EG:boo2025-cam-procedures-calibration",
+    "limitations": "Synopsis only; 'calibration' means stability (smaller pre/post shifts), not accuracy or detection; the risk was already flagged, so it does not test unflagged areas.",
+    "transferability_to_target_workflow": "Most direct test found of 'state what was checked' disclosure to recipients. Transfers to advisor reports that describe procedures behind key conclusions (e.g., yield or valuation reviews): recipients may form risk views that change less when flagged risks materialize. Does not show better detection of unflagged issues.",
+    "analyst_inference": "Support for P2.4 in a narrow sense: describing procedures for a flagged area helped recipients anticipate the outcome of that area. Combined with Sirois (R3E-E08), the net picture is better calibration on listed areas and possibly less attention to unlisted ones.",
+    "access_status": "abstract_only"
   }
 ]

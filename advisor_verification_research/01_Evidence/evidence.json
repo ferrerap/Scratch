@@ -9357,5 +9357,1350 @@
     "access_status": "partial",
     "workstream": "R3C_project_finance_IE_scopes",
     "temp_id": "R3C-E23"
+  },
+  {
+    "evidence_id": "EVR298",
+    "source_id": "SRC178",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured evidence/checklists preserve or improve detection of material errors (tested via a standard fraud-risk checklist used in audit planning)",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Auditors using a standard risk checklist structured by SAS No. 82 risk categories made lower fraud risk assessments than auditors without a checklist in an SEC enforcement fraud case; the authors interpret this as a less effective diagnosis of the fraud.",
+    "relationship": "challenges",
+    "evidence_type": "direct evidence (professional experiment; reviewer-side tool)",
+    "population_and_setting": "69 practicing auditors; US; SEC enforcement fraud case",
+    "study_or_observation_method": "Between-subjects 2x2 experiment (checklist vs none; standard program vs none)",
+    "intervention_and_comparator": "Standard SAS No. 82 risk checklist vs no checklist",
+    "outcome_measured": "Fraud risk assessment level in a known-fraud case",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (IDEAS/RePEc)",
+    "short_exact_excerpt": "auditors who used a standard risk checklist, structured by SAS No. 82 risk categories, made lower risk assessments than those without a checklist.",
+    "underlying_evidence_group": "EG:asare-wright2004-fraud-checklist-program",
+    "limitations": "Single case; abstract only; effect sizes not seen; checklist is an internal tool, not a coverage disclosure from a producer.",
+    "transferability_to_target_workflow": "Mechanism: a standardized list handed to a reviewer shapes what the reviewer looks for. In diligence, a lender's or IC's own checklist / an advisor's 'scope of work' table could play this role. Differences: here the checklist is the reviewer's own tool, not an advisor's statement of what the advisor checked; tasks are lab cases with known answers. Needs verification: whether an advisor-authored coverage table produces the same narrowing in IC/credit reviewers.",
+    "analyst_inference": "Supports dispute branch (b): a generic list can lower sensitivity to case-specific red flags. It tests generic checklists, not case-specific coverage statements; the result may not transfer to a list that states what was actually examined for this deal.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E01"
+  },
+  {
+    "evidence_id": "EVR299",
+    "source_id": "SRC178",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured tools preserve detection; P-NEW: standardized programs anchor reviewers on listed procedures and impair tailoring to case-specific risk",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Auditors given a standard audit program designed a relatively less effective fraud program (vs. an expert-validated benchmark) than those without the program, and were not more willing to consult fraud experts. Fraud risk assessment was not associated with more effective procedures but was associated with desire to consult specialists.",
+    "relationship": "challenges",
+    "evidence_type": "direct evidence (professional experiment; reviewer-side tool)",
+    "population_and_setting": "69 practicing auditors; SEC enforcement fraud case",
+    "study_or_observation_method": "Between-subjects experiment",
+    "intervention_and_comparator": "Standard audit program vs no program",
+    "outcome_measured": "Quality of planned procedures relative to expert-panel benchmark; propensity to consult fraud experts",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (IDEAS/RePEc)",
+    "short_exact_excerpt": "auditors with a standard audit program designed a relatively less effective fraud program than those without this tool but were not more willing to seek consultation with fraud experts.",
+    "underlying_evidence_group": "EG:asare-wright2004-fraud-checklist-program",
+    "limitations": "Abstract only; one case; benchmark validity depends on the expert panel.",
+    "transferability_to_target_workflow": "Mechanism: a standardized list handed to a reviewer shapes what the reviewer looks for. In diligence, a lender's or IC's own checklist / an advisor's 'scope of work' table could play this role. Differences: here the checklist is the reviewer's own tool, not an advisor's statement of what the advisor checked; tasks are lab cases with known answers. Needs verification: whether an advisor-authored coverage table produces the same narrowing in IC/credit reviewers.",
+    "analyst_inference": "The most direct audit evidence for the 'checklist mentality' concern: a pre-listed set of procedures crowded out tailored responses. It concerns procedure design, not reading a producer's report.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E02"
+  },
+  {
+    "evidence_id": "EVR300",
+    "source_id": "SRC179",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Visibility into scope/identified risks improves downstream reliance and attention (tested via specificity of planning-stage fraud-risk documentation consumed in later audit work)",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Planning-stage documentation affected later fraud risk assessments and evidence evaluation. Unprimed auditors who received more specific fraud-risk documentation increased their fraud risk assessments and evidence requests relative to those receiving summary documentation.",
+    "relationship": "supports",
+    "evidence_type": "direct evidence (professional experiment; documentation handed to a downstream user)",
+    "population_and_setting": "Auditors (number not verified); US",
+    "study_or_observation_method": "Experiment guided by Support Theory; documentation specificity x priming",
+    "intervention_and_comparator": "Specific vs summary fraud-risk documentation from planning; primed vs unprimed",
+    "outcome_measured": "Fraud risk assessments; evidence requests",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (Crossref, TAR 2010 and SSRN versions)",
+    "short_exact_excerpt": "Unprimed auditors who receive more specific documentation increase their fraud risk assessments and evidence requests.",
+    "underlying_evidence_group": "EG:hammersley2010-documentation-specificity",
+    "limitations": "Abstract only; sample size and effect sizes unverified; intra-firm handoff, not outside advisor to client.",
+    "transferability_to_target_workflow": "Closest structural analog in this set: one party documents identified risks/coverage; a later party uses it to set its own review effort. Transfers to advisor -> IC handoffs where the advisor's risk register is the starting point. Difference: same firm and same incentives; no independent consequence-bearer.",
+    "analyst_inference": "Specific (client-tailored) documentation of what was identified made later reviewers more attentive. This counts against branch (c) 'no effect beyond completeness' when documentation is specific rather than generic.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E03"
+  },
+  {
+    "evidence_id": "EVR301",
+    "source_id": "SRC179",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 (boundary condition): explicit coverage/risk documentation combined with reminders can reduce sensitivity",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Priming auditors about planned fraud risks increased risk assessments and evidence requests for those with summary documentation, but reduced these judgments for auditors with specific documentation, which the authors attribute to priming making client-specific risks seem less typical. They conclude that the PCAOB's call for more documentation can reduce auditors' sensitivity to fraud.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (professional experiment)",
+    "population_and_setting": "Auditors (number not verified)",
+    "study_or_observation_method": "Experiment (documentation specificity x priming)",
+    "intervention_and_comparator": "Priming vs no priming, crossed with specific vs summary documentation",
+    "outcome_measured": "Fraud risk assessments; evidence requests",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (Crossref)",
+    "short_exact_excerpt": "priming auditors who receive specific documentation reduces these judgments because the priming makes the client-specific risks seem less typical.",
+    "underlying_evidence_group": "EG:hammersley2010-documentation-specificity",
+    "limitations": "Abstract only; mechanism (typicality under Support Theory) is the authors' interpretation.",
+    "transferability_to_target_workflow": "Warns that layering generic reminders (e.g., standard risk categories) on top of deal-specific coverage documentation could dilute attention to the specific items. Needs testing with IC reviewers.",
+    "analyst_inference": "The same intervention (more explicit documentation) can raise or lower sensitivity depending on how it interacts with framing. This is direct evidence that effects depend on design, not that coverage disclosure is uniformly good or bad.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E04"
+  },
+  {
+    "evidence_id": "EVR302",
+    "source_id": "SRC180",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured decomposition improves detection/sensitivity to risk cues",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Audit managers who decomposed fraud-risk assessments into fraud-triangle components were more sensitive to opportunity and incentive cues than holistic assessors, but only when those cues suggested low fraud risk; when the cues suggested high risk, sensitivity was equal across approaches.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (professional experiment; reviewer-side structure)",
+    "population_and_setting": "52 practicing audit managers",
+    "study_or_observation_method": "Experiment, decomposition vs holistic assessment",
+    "intervention_and_comparator": "Fraud-triangle decomposition vs single overall assessment",
+    "outcome_measured": "Sensitivity of overall fraud-risk assessment to opportunity/incentive cues",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (IDEAS/RePEc; SSRN 540503)",
+    "short_exact_excerpt": "this increased sensitivity to opportunity and incentive cues appears to happen only when those cues suggest low fraud risk.",
+    "underlying_evidence_group": "EG:wilks-zimbelman2004-fraud-decomposition",
+    "limitations": "Abstract only; structure is in the reviewer's own judgment process.",
+    "transferability_to_target_workflow": "Weak transfer: shows that structuring judgment around listed components helps at the margin where cues are subtle, not where risk is obvious.",
+    "analyst_inference": "Mixed: structure helped only where it was least needed for material red flags. Neither side of the dispute gains much.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E05"
+  },
+  {
+    "evidence_id": "EVR303",
+    "source_id": "SRC181",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured decomposition preserves detection of high-risk issues",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Experienced auditors who separately assessed likelihood and magnitude (as auditing standards recommend) were less concerned about high-risk fraud schemes than holistic assessors; their overall judgments tracked likelihood judgments more closely and were more coherent. Student follow-ups replicated for higher-risk events; LM decomposition mitigated affective responses on high-risk judgments.",
+    "relationship": "challenges",
+    "evidence_type": "direct evidence (professional experiment + student replications)",
+    "population_and_setting": "101 experienced auditors; two follow-up student experiments",
+    "study_or_observation_method": "Experiment, LM decomposition vs holistic",
+    "intervention_and_comparator": "Likelihood-magnitude decomposition vs holistic risk assessment",
+    "outcome_measured": "Concern about high-risk fraud schemes; coherence of judgments",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (Crossref, TAR 93:273-291)",
+    "short_exact_excerpt": "An experiment with 101 experienced auditors shows that LM decomposition leads auditors to be less concerned about high-risk fraud schemes relative to auditors who make holistic risk assessments.",
+    "underlying_evidence_group": "EG:simon2018-lm-decomposition",
+    "limitations": "Abstract only; whether lower concern is miscalibration (vs. correction of affect-driven overreaction) is ambiguous: the abstract itself frames it as a trade-off.",
+    "transferability_to_target_workflow": "Relevant if diligence templates force risks into likelihood x impact grids: such structure may make reviewers more coherent but less alarmed by severe tail risks.",
+    "analyst_inference": "Evidence that required structure can damp attention to the most material risks. It is about structuring judgment, not about disclosing checks performed.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E06"
+  },
+  {
+    "evidence_id": "EVR304",
+    "source_id": "SRC182",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured evidence/prompts improve detection of problems in management assumptions (verification vs challenge of assumptions)",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X3",
+      "X4"
+    ],
+    "observed_finding": "Priming auditors to consider how management arrived at an assumption curbed aggressive reporting by inducing concrete thinking about the direct evidence underlying the assumption, increasing sensitivity to contradictory evidence. Auditors reviewing graphical (vs textual) evidence were more skeptical of aggressive assumptions in a complex estimate.",
+    "relationship": "supports",
+    "evidence_type": "direct evidence (professional experiment)",
+    "population_and_setting": "Auditors (number not verified); complex accounting estimate task",
+    "study_or_observation_method": "Experiment manipulating construal-level prime and evidence format",
+    "intervention_and_comparator": "'How' prime vs alternative primes; graphical vs textual evidence",
+    "outcome_measured": "Acceptance of aggressive assumptions; sensitivity to inconsistent evidence",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (Crossref, CAR 35(4):1798-1815)",
+    "short_exact_excerpt": "priming auditors to consider how management arrived at a particular assumption helps curb aggressive reporting by encouraging auditors to engage in low-level, concrete thinking regarding the direct evidence underlying the assumption.",
+    "underlying_evidence_group": "EG:backof2018-construal-evidence-format",
+    "limitations": "Abstract only; prime is a short instruction; effect durability and field relevance unknown.",
+    "transferability_to_target_workflow": "Directly relevant to diligence of key assumptions (e.g., energy yield, price curves): presenting how each assumption was derived and the underlying evidence (rather than a list of verified figures) may help reviewers challenge it. Needs testing with IC members.",
+    "analyst_inference": "Partially answers the 'unlisted judgments go unchallenged' worry: what helped was directing attention to the derivation of assumptions, i.e., making judgments themselves the listed object, not listing verification checks.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E07"
+  },
+  {
+    "evidence_id": "EVR305",
+    "source_id": "SRC183",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Making focus areas explicit improves recipients' appropriate reliance; P-NEW: explicit lists narrow recipients' attention away from unlisted areas",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "When KAMs (auditor-highlighted matters) were included in the auditor's report, participants accessed KAM-related disclosures more rapidly and paid relatively more attention to them; with several KAMs, participants devoted less attention to the remaining parts of the financial statements. The study also manipulated inclusion of an overview of audit procedures performed for each KAM (effect not stated in abstract).",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (recipient-side lab experiment with eye tracking)",
+    "population_and_setting": "Participants reported elsewhere as accounting students (number not verified); financial statement users' information acquisition",
+    "study_or_observation_method": "Between-subjects experiment with eye tracking",
+    "intervention_and_comparator": "No KAM vs one KAM vs three KAMs vs three KAMs with procedures overview",
+    "outcome_measured": "Speed of access and visual attention to KAM-related vs other disclosures",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Synopsis (Crossref; Accounting Horizons 32(2):141-162)",
+    "short_exact_excerpt": "However, when exposed to an auditor's report with several KAMs, participants devote less attention to the remaining parts of the financial statements.",
+    "underlying_evidence_group": "EG:sirois2018-kam-eyetracking",
+    "limitations": "Abstract only; students; attention is not detection; no misstatement planted in unlisted areas (as far as abstract shows).",
+    "transferability_to_target_workflow": "Strong mechanism transfer: an advisor's report that highlights listed matters (or lists checks) will pull an IC reader's attention toward those items and away from others. Needs a test with a planted issue outside the listed areas to show whether detection, not just attention, falls.",
+    "analyst_inference": "The most direct recipient-side evidence for branch (b) attentional narrowing. It shows reallocation of attention, not worse detection.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E08"
+  },
+  {
+    "evidence_id": "EVR306",
+    "source_id": "SRC184",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Explicit flagged matters in a third-party report direct professional recipients' review (credit setting)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Among bank loan officers, the going-concern paragraph had an attention-directing effect: information most explicitly mentioned in it (loan restructuring) was accessed more rapidly, but only when the report was signed by a Big 4 auditor. The audit report's content directed information use early in search; differences disappeared when the entire search was analyzed.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (recipient-side professional experiment, small N)",
+    "population_and_setting": "35 usable bank loan officers from international Danish and Finnish banks; 43% with >10 years commercial lending experience; distressed borrower case",
+    "study_or_observation_method": "2x2 between-subjects eye-tracking experiment (GC modification x Big 4/non-Big 4); cells of 8-10",
+    "intervention_and_comparator": "Clean vs going-concern-modified audit report; Big 4 vs non-Big 4 signer",
+    "outcome_measured": "Fixation duration and order of access to report-referenced information; loan decision",
+    "quantitative_result": "Cell sizes: GC Big 4 n=9; clean non-Big 4 n=8; GC non-Big 4 n=8; clean Big 4 n=10. Effect sizes for attention measures reported as coefficients with significance at 0.05/0.10 levels in early-search models; non-significant over entire search.",
+    "source_locator": "PDF p. 6 (introduction summary of attention-directing result); p. 18 (final sample of 35); p. 20 (cell sizes); pp. 29-30 (Model 4 information-search results, effect dilutes over entire search)",
+    "short_exact_excerpt": "the information most explicitly mentioned in the going-concern paragraph (i.e. loans restructuring in our experiment) is accessed more rapidly, but only when the audit report is signed by a Big 4 auditor.",
+    "underlying_evidence_group": "EG:jarvinen-loan-officer-eyetracking",
+    "limitations": "Working paper; very small cells; marginal significance in several tests; attention not accuracy.",
+    "transferability_to_target_workflow": "High setting similarity (credit officers reading a third-party assurance report before a lending decision). Suggests flagged items steer early review only when the producer is credible, and the steering fades as the reviewer gathers more information.",
+    "analyst_inference": "Moderates branch (b): attentional narrowing by explicit flags appears early and fades with a full review, and depends on producer credibility. Sample too small to rely on.",
+    "access_status": "full_text",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E09"
+  },
+  {
+    "evidence_id": "EVR307",
+    "source_id": "SRC185",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Explicit 'no findings' statements improve appropriate reliance; P1.6 disclosure shaped by liability/legitimacy incentives (P-NEW: coverage statements are used as liability shields, encouraging boilerplate)",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "In a mock-juror experiment, CAM disclosures reduced auditor liability judgments for undetected misstatements that were otherwise hard to foresee. CAMs unrelated to the later misstatement did not change liability vs. no CAM section, but reduced liability relative to stating there were no CAMs. The authors warn this could incentivize innocuous boilerplate CAMs. The practitioner summary states that explicitly stating there were no CAMs would increase negligence verdicts.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (experiment with evaluators of responsibility, not recipients detecting issues)",
+    "population_and_setting": "Mock jurors (number and type not verified)",
+    "study_or_observation_method": "Between-subjects experiment",
+    "intervention_and_comparator": "Related CAM vs unrelated CAM vs no CAM section (current regime) vs explicit 'no CAMs' statement",
+    "outcome_measured": "Auditor liability/negligence judgments after an undetected fraud",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (TAR 91(5):1345-1362) and CIIA summary abstract (Crossref)",
+    "short_exact_excerpt": "relative to stating there were no CAMs, disclosure of any CAM (i.e., related or unrelated) provides litigation protection in cases of undetected fraud.",
+    "underlying_evidence_group": "EG:brasel2016-cam-liability",
+    "limitations": "Abstract only; jurors, not decision-making recipients; liability judgments do not measure detection or reliance quality.",
+    "transferability_to_target_workflow": "Mechanism for branch (a): if listing items reduces producer liability after failures, producers (advisors) are rewarded for long, generic lists. Diligence engagement letters and reliance letters may produce similar incentives. Note: legal doctrine is covered by R3B; this is behavioral only.",
+    "analyst_inference": "Explicit negative statements ('nothing to report') are read as stronger commitments than silence and penalize the producer after failures. That pushes producers toward listing many items rather than stating clean negatives. This is evidence about producer incentives, not recipient detection.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E10"
+  },
+  {
+    "evidence_id": "EVR308",
+    "source_id": "SRC186",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Disclosure of areas of uncertainty/focus changes recipients' reliance (calibration)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "CAM disclosures involving measurement uncertainty lowered pre-misstatement confidence in the financial statement area disclosed and lowered assessments of auditor responsibility for a later misstatement in that area; the responsibility-mitigating effect was driven by measurement-uncertainty CAMs rather than categorical-determination CAMs.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (experiments with users and mock jurors)",
+    "population_and_setting": "Study 1: MBA students, financial analysts, attorneys; Study 2: student mock jurors (numbers not verified)",
+    "study_or_observation_method": "Two experiments",
+    "intervention_and_comparator": "CAM disclosure vs none; measurement-uncertainty vs categorical CAMs",
+    "outcome_measured": "Confidence in disclosed area; auditor responsibility for later misstatement",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract (Crossref, CAR 37(4):2186-2212)",
+    "short_exact_excerpt": "CAMs (i) lower premisstatement assessments of confidence in the financial statement area disclosed as a CAM, and (ii) lower assessments of auditor responsibility for a subsequently revealed misstatement in a CAM‐related area.",
+    "underlying_evidence_group": "EG:kachelmeier2020-cam-forewarning",
+    "limitations": "Abstract only; confidence reduction not benchmarked against actual misstatement risk, so 'appropriate' reliance not shown.",
+    "transferability_to_target_workflow": "Suggests that when a diligence report flags uncertain areas, recipients reduce confidence there and shift responsibility for later problems toward themselves. Whether that improves IC decisions is untested.",
+    "analyst_inference": "Shows that disclosure changes reliance in the flagged direction, which supports P2.4 only weakly because calibration is not measured. Also shows a responsibility shift from producer to recipient.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E11"
+  },
+  {
+    "evidence_id": "EVR309",
+    "source_id": "SRC187",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Checklists preserve/improve detection (reader-side checklist vs satisfaction of search)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Radiologists using a formal checklist showed no satisfaction-of-search effect, but their ROC detection performance for native abnormalities was much poorer than in an earlier study where readers verbalized their search with the same images. The authors conclude that recommending a self-prompting checklist to counteract SOS is not warranted.",
+    "relationship": "challenges",
+    "evidence_type": "mechanism evidence (expert lab experiment; medical analogy)",
+    "population_and_setting": "20 observers; 57 chest radiographs, half with native abnormalities; simulated nodule added in one reading",
+    "study_or_observation_method": "Within-reader nodule manipulation; checklist condition compared with prior verbalization study",
+    "intervention_and_comparator": "Formal checklist vs verbalized search (historical comparison)",
+    "outcome_measured": "ROC area for detecting native abnormalities",
+    "quantitative_result": "Mean ROC area 0.68 (checklist) vs 0.75 (verbalization); F(1, 37) = 17.26, P < .001",
+    "source_locator": "Abstract, Results",
+    "short_exact_excerpt": "Although no SOS effect was found when the checklist was used, ROC performance was, on average, much poorer with the checklist than when ongoing search was reported verbally (0.68 versus 0.75, F(1, 37) = 17.26, P < .001).",
+    "underlying_evidence_group": "EG:berbaum2006-checklist-sos",
+    "limitations": "Cross-study comparison (not randomized between conditions); checklist required turning away from the display (per the 2016 follow-up abstract).",
+    "transferability_to_target_workflow": "Analogy only: imposing an external list on an expert reviewer can disrupt their own search strategy and reduce overall detection. Transfers to IC reviewers only if they are forced to review through the advisor's list rather than their own approach.",
+    "analyst_inference": "Supports concern that an imposed list can make expert detection worse. Implementation (switching attention away from the material) may explain part of the effect.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E12"
+  },
+  {
+    "evidence_id": "EVR310",
+    "source_id": "SRC188",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Checklists prevent missed additional findings",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "With a vocalized checklist directing search (designed to avoid turning away from the image), adding a nodule still induced substantial reluctance to report other abnormalities; the checklist did not reduce or eliminate the SOS effect, although the authors judged it useful for organizing search and reporting, especially for students.",
+    "relationship": "challenges",
+    "evidence_type": "mechanism evidence (expert lab experiment; medical analogy)",
+    "population_and_setting": "20 radiologists; 64 chest radiographs",
+    "study_or_observation_method": "Within-reader experiment, with/without added nodule",
+    "intervention_and_comparator": "Vocalized checklist (both conditions) with vs without added nodule",
+    "outcome_measured": "ROC accuracy and decision thresholds for other abnormalities",
+    "quantitative_result": "P < 0.001 for reluctance to report other abnormalities after nodule added; no effect sizes in abstract",
+    "source_locator": "Abstract, Results/Conclusions",
+    "short_exact_excerpt": "The vocalized checklist did not reduce nor eliminate the SOS effect on readiness to report further abnormalities.",
+    "underlying_evidence_group": "EG:berbaum2016-vocalized-checklist-sos",
+    "limitations": "Abstract only; no no-checklist arm within this study.",
+    "transferability_to_target_workflow": "Analogy: once a salient finding is reported, reviewers under-report further issues even with a checklist. In diligence, a report's headline findings may similarly reduce recipient search for additional problems.",
+    "analyst_inference": "Checklists did not fix early stopping after a salient finding. That is evidence for branch (c) on this specific failure mode.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E13"
+  },
+  {
+    "evidence_id": "EVR311",
+    "source_id": "SRC189",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Task-directed search (looking for listed targets) causes experts to miss salient unlisted anomalies",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "When searching CT scans for lung nodules, 83% of 24 radiologists did not notice a gorilla image 48 times the size of an average nodule inserted in the last case; eye tracking showed most who missed it looked directly at its location.",
+    "relationship": "contextual",
+    "evidence_type": "mechanism evidence (expert lab experiment)",
+    "population_and_setting": "24 radiologists; familiar lung-nodule detection task",
+    "study_or_observation_method": "Lab experiment with eye tracking",
+    "intervention_and_comparator": "None (single condition; unexpected stimulus)",
+    "outcome_measured": "Detection of unexpected stimulus",
+    "quantitative_result": "83% (approximately 20 of 24) did not see the gorilla",
+    "source_locator": "Abstract",
+    "short_exact_excerpt": "Eighty-three percent of the radiologists did not see the gorilla. Eye tracking revealed that the majority of those who missed the gorilla looked directly at its location.",
+    "underlying_evidence_group": "EG:drew2013-invisible-gorilla",
+    "limitations": "Abstract only; the anomaly was irrelevant to the clinical task; no checklist or coverage statement manipulated.",
+    "transferability_to_target_workflow": "Mechanism only: reviewers primed to verify specific items can miss conspicuous items outside that frame. Supports designing coverage disclosures to state what was NOT examined and to invite search beyond the list.",
+    "analyst_inference": "General attentional evidence behind branch (b); it does not show that coverage lists cause the narrowing.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E14"
+  },
+  {
+    "evidence_id": "EVR312",
+    "source_id": "SRC190",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4/X4 vs X5: reported or achieved coverage indicates detection (coverage = checks performed implies findings would have been caught)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "Neither systematic viewing nor greater image coverage (measured by eye tracking) was associated with better diagnostic performance; students trained for full coverage performed worse than systematic or non-systematic training groups; a more complete view did not increase abnormalities detected.",
+    "relationship": "challenges",
+    "evidence_type": "mechanism evidence (lab experiments; medical analogy)",
+    "population_and_setting": "Exp 1: 11 students, 10 residents, 9 radiologists, 5 chest radiographs; Exp 2: 75 medical students trained in one of three viewing approaches",
+    "study_or_observation_method": "Two eye-tracking experiments (correlational + randomized training)",
+    "intervention_and_comparator": "Systematic vs full-coverage vs non-systematic viewing training",
+    "outcome_measured": "Coverage of image; diagnostic performance",
+    "quantitative_result": "Exp 1: coverage-performance r = -.06, p = .74; Exp 2: coverage-performance r = .13, p = .31; training effect F(2,71) = 3.95, p = .02 (full-coverage group worse)",
+    "source_locator": "Abstract; Discussion (Exp 1 and General discussion)",
+    "short_exact_excerpt": "having a more complete view of the image did not result in an increase in the number of abnormalities detected.",
+    "underlying_evidence_group": "EG:kok2016-systematic-viewing",
+    "limitations": "Small samples; novices in Exp 2; radiographs not reports.",
+    "transferability_to_target_workflow": "Mechanism: 'we looked at X' (coverage) is not 'we would have caught a problem in X' (detection). A diligence report listing areas reviewed with no findings conveys coverage, which recipients may over-read as detection capability.",
+    "analyst_inference": "Supports keeping X4 (coverage visibility) separate from X5 (correctness): statements of checks performed need detection-capability information (method, sample, thresholds) to be meaningful.",
+    "access_status": "full_text",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E15"
+  },
+  {
+    "evidence_id": "EVR313",
+    "source_id": "SRC191",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Checklists improve detection of errors when used at the verification stage",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Among ECG experts, using a checklist during verification corrected more errors and produced fewer net errors than conditions without a checklist, without raising cognitive load, though interpretations took longer and were longer.",
+    "relationship": "supports",
+    "evidence_type": "mechanism evidence (expert experiment; medical analogy)",
+    "population_and_setting": "15 ECG interpretation experts; 18 ECGs",
+    "study_or_observation_method": "Within-subject experiment, four conditions",
+    "intervention_and_comparator": "Verification with checklist vs without; interpretation+verification with checklist vs undirected",
+    "outcome_measured": "Errors per ECG; cognitive load; time; length",
+    "quantitative_result": "Errors corrected in verification: 0.29 +/- 0.77 (checklist) vs 0.03 +/- 0.61 errors per ECG; net errors: 0.39 +/- 1.14 vs 1.04 +/- 1.49 per ECG (p < 0.01 both); cognitive load 3.7 +/- 1.9 vs 3.3 +/- 2.0 (ns)",
+    "source_locator": "Abstract, Results",
+    "short_exact_excerpt": "Among ECG interpretation experts, checklist use during the verification stage of diagnostic decisions did not increase cognitive load or cause expertise reversal, but did reduce diagnostic error.",
+    "underlying_evidence_group": "EG:sibbald2013-ecg-checklist",
+    "limitations": "Abstract only; small N; checklist applied by the interpreter to their own work; time cost rises.",
+    "transferability_to_target_workflow": "Boundary condition that transfers: a list used AFTER an independent first pass (verification) helped experts; a list imposed during initial interpretation (Berbaum) hurt. For IC reviewers this suggests reading the analysis first and consulting the coverage table afterwards.",
+    "analyst_inference": "Discriminating evidence on timing: checklists help when they follow, not replace, the expert's own search.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E16"
+  },
+  {
+    "evidence_id": "EVR314",
+    "source_id": "SRC192",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 'No findings' vs silence: recipients read absence of a flag as evidence of absence",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "Film readers with CAD output had significantly lower average sensitivity than a separate group without CAD on an enriched test set, with the difference most marked for cancers for which CAD failed to provide correct prompting.",
+    "relationship": "contextual",
+    "evidence_type": "mechanism evidence (expert lab experiment; automation analogy)",
+    "population_and_setting": "Study 1: 20 film readers with CAD; Study 2: 19 different readers without CAD; 60 mammogram sets, 30 with cancer (50% of cancers with incorrect CAD output)",
+    "study_or_observation_method": "Two-group comparison following a UK clinical trial",
+    "intervention_and_comparator": "CAD output available vs not",
+    "outcome_measured": "Reader sensitivity (recall decisions)",
+    "quantitative_result": "Sensitivity significantly lower with CAD; magnitudes not reported in abstract",
+    "source_locator": "Abstract, Results",
+    "short_exact_excerpt": "The average sensitivity of readers in Study 1 (with CAD) was significantly lower than the average sensitivity of read-ers in Study 2 (without CAD). The difference was most marked for cancers for which CAD failed to provide correct prompting.",
+    "underlying_evidence_group": "EG:alberdi2004-cad-incorrect-output",
+    "limitations": "Abstract only; between-group design; enriched case mix exaggerates prevalence of CAD failures.",
+    "transferability_to_target_workflow": "Mechanism: when a producer's output flags some issues, recipients treat unflagged areas as clean. A diligence report listing checks and findings could create the same implicit 'all clear' for unflagged or unlisted areas unless limits are stated.",
+    "analyst_inference": "Speaks to the 'silence' arm of the no-findings question: implicit negatives are over-trusted. It does not test whether explicit 'checked, no findings' statements are better or worse than silence. No such behavioral test was found.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E17"
+  },
+  {
+    "evidence_id": "EVR315",
+    "source_id": "SRC193",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2/P1.6: checklists improve outcomes when adopted at scale (vs ritual box-ticking)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "After a policy encouraging universal adoption of surgical safety checklists in Ontario, adjusted operative mortality and complication rates did not change significantly between 3-month periods before and after adoption across 101 hospitals.",
+    "relationship": "qualifies",
+    "evidence_type": "mechanism evidence (natural experiment, administrative data; medical analogy)",
+    "population_and_setting": "101 Ontario acute-care hospitals; 109,341 procedures before and 106,370 after adoption",
+    "study_or_observation_method": "Pre-post comparison around hospital-specific adoption dates",
+    "intervention_and_comparator": "After vs before checklist adoption",
+    "outcome_measured": "30-day/in-hospital mortality; complications; LOS; readmissions; ED visits",
+    "quantitative_result": "Adjusted mortality 0.71% (95% CI 0.66-0.76) before vs 0.65% (0.60-0.70) after, OR 0.91 (0.80-1.03), P=0.13; complications 3.86% (3.76-3.96) vs 3.82% (3.71-3.92), OR 0.97 (0.90-1.03), P=0.29",
+    "source_locator": "Abstract, Results",
+    "short_exact_excerpt": "Implementation of surgical safety checklists in Ontario, Canada, was not associated with significant reductions in operative mortality or complications.",
+    "underlying_evidence_group": "EG:urbach2014-ontario-ssc",
+    "limitations": "Abstract only; compliance and quality of use not measured in abstract; short windows; low baseline mortality limits power. Contrasts with Haynes et al. 2009 pre-post (8 hospitals, deaths 1.5% to 0.8%).",
+    "transferability_to_target_workflow": "Mechanism only: mandated, standardized lists may not change outcomes when adopted as a formality. Transfers as a caution against assuming a standardized coverage section in diligence reports will itself improve detection.",
+    "analyst_inference": "Consistent with branch (c) at the system level when adoption is mandated; it says nothing about recipient reading of coverage.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E18"
+  },
+  {
+    "evidence_id": "EVR316",
+    "source_id": "SRC194",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 boundary condition: checklist benefit depends on implementation quality (full use vs partial/box-ticking)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "In a secondary analysis from one hospital in a Norwegian stepped-wedge RCT, high-quality implementation of the WHO checklist (all three parts) was associated with improved care processes (e.g., preincision antibiotics, warming) and fewer surgical infections; the parent trial had found reduced morbidity.",
+    "relationship": "qualifies",
+    "evidence_type": "mechanism evidence (secondary analysis of RCT; medical analogy)",
+    "population_and_setting": "3,702 procedures (1,398 control vs 2,304 intervention) at one Norwegian hospital",
+    "study_or_observation_method": "Secondary analysis; logistic regression; implementation quality not randomized",
+    "intervention_and_comparator": "Checklist intervention vs control; high-quality vs partial implementation",
+    "outcome_measured": "Care process metrics; in-hospital complications",
+    "quantitative_result": "Surgical infections 7.4% (104/1398) to 3.6% (P<0.001); adjusted OR 0.52 (95% CI 0.38-0.72) for intervention procedures",
+    "source_locator": "Abstract, Results",
+    "short_exact_excerpt": "When implemented well, the SSC improved operating room care processes; subsequently, high-quality SSC implementation and improved care processes led to better patient outcomes.",
+    "underlying_evidence_group": "EG:haugen-norway-ssc-stepped-wedge",
+    "limitations": "Abstract only; implementation quality is self-selected (confounding); single hospital.",
+    "transferability_to_target_workflow": "Mechanism only: checklist effects depend on whether the list prompts real action or is ticked. For diligence, a 'checks performed' section is useful only if each line reflects real work with stated method and results.",
+    "analyst_inference": "Together with Urbach, suggests the dispute is about implementation: the same artifact can be ritual or functional.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E19"
+  },
+  {
+    "evidence_id": "EVR317",
+    "source_id": "SRC195",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Checklists that broaden consideration reduce missed diagnoses (more coverage -> fewer errors)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Primary care physicians randomized to read aloud a differential-diagnosis checklist considered more diagnoses than usual-care physicians, but diagnostic error rates did not differ significantly; a post hoc subgroup of emergency physicians showed lower error with checklists.",
+    "relationship": "qualifies",
+    "evidence_type": "mechanism evidence (pilot RCT; medical analogy)",
+    "population_and_setting": "14 primary care physicians; 100 patients; ED and same-day clinic",
+    "study_or_observation_method": "Pilot randomized clinical trial",
+    "intervention_and_comparator": "Differential-diagnosis checklist vs usual care",
+    "outcome_measured": "Diagnostic error at 1-month follow-up",
+    "quantitative_result": "Error 11.2% (checklist, 7 physicians) vs 17.8% (usual care, 7 physicians), p=0.46; diagnoses considered 6.5 (SD 4.2) vs 3.4 (SD 2.0), p<0.001; ED subgroup 19.1% vs 45.0%, p=0.04 (post hoc)",
+    "source_locator": "Abstract, Results",
+    "short_exact_excerpt": "Checklists did not improve the diagnostic error rate in this study.",
+    "underlying_evidence_group": "EG:ely-graber2015-diagnostic-checklist-rct",
+    "limitations": "Underpowered pilot (17 errors total); post hoc subgroup.",
+    "transferability_to_target_workflow": "Mechanism only: a list widened what was considered (coverage) without a demonstrable fall in errors. Analogous to listing more checks without proven better detection.",
+    "analyst_inference": "Absence of evidence (underpowered), not evidence of absence. Consistent with branch (c) but weak.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E20"
+  },
+  {
+    "evidence_id": "EVR318",
+    "source_id": "SRC196",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Stating that a flagged matter was addressed/resolved (checks with no adverse finding) changes recipient reliance",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Nonprofessional investors receiving a CAM paragraph on fair value estimates were more likely to change their investment decision than those receiving a standard report or the same information in management's footnotes; the CAM effect was reduced when followed by a paragraph offering resolution of the critical audit matter.",
+    "relationship": "qualifies",
+    "evidence_type": "direct evidence (recipient-side experiment, nonprofessional users)",
+    "population_and_setting": "Nonprofessional investors (business school graduates who invest in individual stocks); number not verified",
+    "study_or_observation_method": "Between-subjects experiment",
+    "intervention_and_comparator": "Standard report vs CAM paragraph vs CAM information in management footnotes vs CAM plus resolution paragraph",
+    "outcome_measured": "Change in investment decision",
+    "quantitative_result": "not reported in abstract (direction only)",
+    "source_locator": "Abstract/summary (Crossref, AJPT 33(4):71-93)",
+    "short_exact_excerpt": "We also find that the effect of a CAM paragraph is reduced when it is followed by a paragraph offering resolution of the critical audit matter.",
+    "underlying_evidence_group": "EG:christensen2014-cam-resolution",
+    "limitations": "Abstract only; non-expert participants; no benchmark for whether reduced reaction was appropriate.",
+    "transferability_to_target_workflow": "Mechanism: a producer statement that a flagged issue was examined and resolved ('checked, no exception') reassures recipients. In diligence, an advisor's 'reviewed, no issues' line will lower IC concern; whether this is appropriate depends on what the check could detect.",
+    "analyst_inference": "Recipients do respond to 'checked and resolved' statements, so such statements are not just ignored boilerplate. Whether the reassurance is calibrated is not tested, so this cannot settle the dispute either way.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E21"
+  },
+  {
+    "evidence_id": "EVR319",
+    "source_id": "SRC197",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Describing procedures performed (what was checked) improves recipients' calibration of risk",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "In a controlled experiment, discussing in the CAM paragraph the audit procedures that addressed a complex investment valuation issue led sophisticated users to make smaller shifts in financial reporting risk assessments between before and after the risk event (a significant fair value decline flagged earlier in the CAM). The authors interpret this as calibration.",
+    "relationship": "supports",
+    "evidence_type": "direct evidence (recipient-side experiment, sophisticated users)",
+    "population_and_setting": "Sophisticated users (type and number not verified in synopsis)",
+    "study_or_observation_method": "Controlled experiment",
+    "intervention_and_comparator": "CAM with discussion of audit procedures vs CAM without (as described in synopsis)",
+    "outcome_measured": "Change in financial reporting risk assessments before vs after a realized risk event",
+    "quantitative_result": "not reported in synopsis (direction only)",
+    "source_locator": "Synopsis (Crossref, Accounting Horizons 39(2):19-31)",
+    "short_exact_excerpt": "Our findings support this calibrating effect, that is, minimizing shifts in their risk assessments before versus after the realization of the risk event",
+    "underlying_evidence_group": "EG:boo2025-cam-procedures-calibration",
+    "limitations": "Synopsis only; 'calibration' means stability (smaller pre/post shifts), not accuracy or detection; the risk was already flagged, so it does not test unflagged areas.",
+    "transferability_to_target_workflow": "Most direct test found of 'state what was checked' disclosure to recipients. Transfers to advisor reports that describe procedures behind key conclusions (e.g., yield or valuation reviews): recipients may form risk views that change less when flagged risks materialize. Does not show better detection of unflagged issues.",
+    "analyst_inference": "Support for P2.4 in a narrow sense: describing procedures for a flagged area helped recipients anticipate the outcome of that area. Combined with Sirois (R3E-E08), the net picture is better calibration on listed areas and possibly less attention to unlisted ones.",
+    "access_status": "abstract_only",
+    "workstream": "R3E_checklists_coverage_judgment",
+    "temp_id": "R3E-E22"
+  },
+  {
+    "evidence_id": "EVR320",
+    "source_id": "SRC198",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Traceability/structured evidence preserves or improves detection of material errors/omissions (here: standardized appraisal data plus automated portal checks).",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "After appraisal data were standardized and run through automated portal checks, the checks flagged tens of thousands of appraisals, but the Enterprises bought the loans anyway because the warnings were configured as 'automatic overrides' that lenders could ignore; Fannie Mae relied instead on post-purchase sampling.",
+    "relationship": "qualifies",
+    "evidence_type": "regulator audit (administrative data analysis)",
+    "population_and_setting": "Fannie Mae and Freddie Mac single-family loan purchases using the Uniform Collateral Data Portal, 2013",
+    "study_or_observation_method": "OIG analysis of portal warning messages matched to Enterprise purchases",
+    "intervention_and_comparator": "Standardized appraisal data + automated warning messages vs. (implicitly) acting on them before purchase",
+    "outcome_measured": "Loans purchased despite portal warnings",
+    "quantitative_result": "Fannie Mae: >56,000 loans, $13 billion, Jan-Jun 2013, triggered at least one of 25 warning messages (>4,500 with more than one, up to 9). Freddie Mac: >29,000 loans, $6.7 billion, Jun-Sep 2013, despite warnings that no value could be provided or value was in question. Fannie Mae post-purchase manual review ~3%-5% of purchases (2013 redesign).",
+    "source_locator": "Synopsis (front matter); Finding 1, pp. 16-17",
+    "short_exact_excerpt": "The Enterprises had set such warning messages as automatic overrides allowing lenders to disregard the problems signalled by the portal before selling the associated loans to the Enterprises.",
+    "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+    "limitations": "Warnings are potential, not confirmed, violations; false-positive rate unknown. Early implementation period (pre-Collateral Underwriter).",
+    "transferability_to_target_workflow": "Mechanism (machine checks on standardized fields flag issues; someone must resolve flags) transfers to diligence platforms that run automated checks on structured advisor outputs. Differences: GSE portal screens millions of homogeneous loans with a central data store; renewable-energy credit diligence has few, heterogeneous deals and no central repository. Needs verification: false-positive rates and resolution cost of automated diligence flags.",
+    "analyst_inference": "Standardization made detection cheap at portfolio level, but detection did not become verification: resolving flags had a cost, and the consequence-bearer chose throughput. Evidence that machine-checkable structure creates detection capacity, not that it improves recipient verification by itself.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E01"
+  },
+  {
+    "evidence_id": "EVR321",
+    "source_id": "SRC198",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.1 Access to structured evidence reduces verification time/effort (via cost of acting on automated flags).",
+    "work_type_tags": [
+      "W1",
+      "W3"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "The Enterprises set warnings as automatic overrides partly because they needed more time to fine-tune messages (false positives not yet measured) and because they did not want to burden lenders with responding; OIG judged that after ~4 years of development and >23,500 rule tests they should require lender responses.",
+    "relationship": "qualifies",
+    "evidence_type": "regulator audit (interviews and document review)",
+    "population_and_setting": "Fannie Mae/Freddie Mac portal implementation, 2010-2013",
+    "study_or_observation_method": "Interviews with Enterprise officials; review of testing records",
+    "intervention_and_comparator": "Requiring lender resolution of warnings vs. automatic override",
+    "outcome_measured": "Rationale for not requiring action on flags",
+    "quantitative_result": "Fannie Mae performed over 23,500 tests before 2013 deployment and a 6-month pilot with 3 lenders (from June 2012); joint five-year portal contract valued at $52 million.",
+    "source_locator": "Synopsis; Finding 1, p. 16",
+    "short_exact_excerpt": "Both Enterprises also expressed concern that they did not want to burden lenders with having to respond to messages.",
+    "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+    "limitations": "Stated rationales from interested officials; no measurement of lender response cost.",
+    "transferability_to_target_workflow": "Mechanism (machine checks on standardized fields flag issues; someone must resolve flags) transfers to diligence platforms that run automated checks on structured advisor outputs. Differences: GSE portal screens millions of homogeneous loans with a central data store; renewable-energy credit diligence has few, heterogeneous deals and no central repository. Needs verification: false-positive rates and resolution cost of automated diligence flags.",
+    "analyst_inference": "Direct institutional evidence that the recipient-side cost of clearing automated findings (including false positives) was treated as a binding constraint. Structured checks can add review work rather than remove it unless precision is high.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E02"
+  },
+  {
+    "evidence_id": "EVR322",
+    "source_id": "SRC198",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations/traceability (here: structured, machine-checked data) do not guarantee correctness or completeness.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "System logic errors in the portal prevented the Enterprises from determining whether appraisers were properly licensed; the portal flagged some suspended appraisers but messages were auto-overridden.",
+    "relationship": "supports",
+    "evidence_type": "regulator audit",
+    "population_and_setting": "Enterprise loan purchases through the portal",
+    "study_or_observation_method": "OIG data analysis",
+    "intervention_and_comparator": "Automated license-status check vs. working check",
+    "outcome_measured": "Loans bought without valid license verification",
+    "quantitative_result": "Nearly $88 billion in loans bought when logic errors prevented license determination; 23 loans valued at $3.4 million may be repurchased due to suspended appraiser status.",
+    "source_locator": "Synopsis (front matter)",
+    "short_exact_excerpt": "the Enterprises bought nearly $88 billion in loans when system logic errors in the portal did not allow them to determine if the appraiser was properly licensed",
+    "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+    "limitations": "Dollar figure is exposure to a broken check, not confirmed defects.",
+    "transferability_to_target_workflow": "Mechanism (machine checks on standardized fields flag issues; someone must resolve flags) transfers to diligence platforms that run automated checks on structured advisor outputs. Differences: GSE portal screens millions of homogeneous loans with a central data store; renewable-energy credit diligence has few, heterogeneous deals and no central repository. Needs verification: false-positive rates and resolution cost of automated diligence flags.",
+    "analyst_inference": "Automated verification of standardized fields can fail silently; recipients relying on it inherit its errors.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E03"
+  },
+  {
+    "evidence_id": "EVR323",
+    "source_id": "SRC198",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 Structured evidence reduces verification effort (official purpose statement only).",
+    "work_type_tags": [
+      "W2",
+      "W5"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Among the stated purposes of standardizing appraisal data was to create efficiency and consistency in appraisal reviews and to give lenders greater confidence in loan quality.",
+    "relationship": "contextual",
+    "evidence_type": "official purpose statement (as relayed in audit)",
+    "population_and_setting": "Uniform Mortgage Data Program / UAD design, 2010-2012",
+    "study_or_observation_method": "Document review",
+    "intervention_and_comparator": "n/a",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "Background, 'Developing the Uniform Collateral Data Portal', p. 11",
+    "short_exact_excerpt": "Create efficiency and consistency in appraisal reviews by offering appraisers and lenders an improved view and understanding of Enterprise appraisal data requirements.",
+    "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+    "limitations": "Purpose statement, not a measured effect. Note 'greater confidence' (trust) is listed separately from 'efficiency'.",
+    "transferability_to_target_workflow": "Shows the intended theory of change matches the thesis; does not test it.",
+    "analyst_inference": "A purpose statement; useful only to show that efficiency of review was an explicit design goal, so absence of published effect measurement is notable.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E04"
+  },
+  {
+    "evidence_id": "EVR324",
+    "source_id": "SRC199",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review is driven by formal obligations that persist regardless of advisor transparency.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Before a final credit decision, institutions should review appraisals for regulatory/policy compliance and sufficiency, assess reasonableness of methods, assumptions, and data sources; reviewers cannot change the appraiser's value; deficient appraisals that cannot be resolved must be replaced before the credit decision; using a third-party reviewer does not shift responsibility.",
+    "relationship": "supports",
+    "evidence_type": "regulatory guidance",
+    "population_and_setting": "U.S. federally regulated depository institutions, real-estate-secured lending",
+    "study_or_observation_method": "Guidance text",
+    "intervention_and_comparator": "n/a",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "75 FR 77462, Section XV (intro) and XV.A",
+    "short_exact_excerpt": "Through the review process, the institution should be able to assess the reasonableness of the appraisal or evaluation, including whether the valuation methods, assumptions, and data sources are appropriate and well-supported.",
+    "underlying_evidence_group": "EG:interagency-2010-appraisal-evaluation-guidelines",
+    "limitations": "Guidance states expectations; says nothing about effort or actual practice.",
+    "transferability_to_target_workflow": "Close analogy: lender (accountable recipient) must review an outside producer's analysis before relying on it; review of 'methods, assumptions, and data sources' is the same object an IE report or diligence memo presents. Difference: appraisal review is supervised by bank regulators with specific guidance; renewable-energy credit diligence review is governed mostly by internal credit policy and lender/investor practice.",
+    "analyst_inference": "Strong evidence that a core of review is obligatory and focused on assumptions/data sources, i.e., exactly what traceability exposes. Transparency can make this obligatory review cheaper but cannot remove it.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E05"
+  },
+  {
+    "evidence_id": "EVR325",
+    "source_id": "SRC199",
+    "research_question_ids": [
+      "RQ2",
+      "RQ5"
+    ],
+    "proposition_tested": "P2.1 Structured evidence/automation reduces verification effort; P5.1 repeatability rises with standardization and falls with bespoke judgment.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Review depth must be risk-focused: more comprehensive, technical review for large-dollar, complex/specialized, or out-of-market commercial properties; for lower-risk 1-4 family residential, institutions may (with prior regulator approval) use automated tools or sampling for prefunding review, while maintaining screening parameters, periodic review of all appraisers, and criteria for expanding review depth.",
+    "relationship": "qualifies",
+    "evidence_type": "regulatory guidance",
+    "population_and_setting": "U.S. federally regulated lenders",
+    "study_or_observation_method": "Guidance text",
+    "intervention_and_comparator": "Automated tools/sampling (lower-risk residential) vs. comprehensive review (complex/high-risk CRE)",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "75 FR 77462, Section XV.B 'Depth of Review'",
+    "short_exact_excerpt": "With prior approval from its primary Federal regulator, an institution may employ various techniques, such as automated tools or sampling methods, for performing prefunding reviews of appraisals or evaluations supporting lower risk residential mortgages.",
+    "underlying_evidence_group": "EG:interagency-2010-appraisal-evaluation-guidelines",
+    "limitations": "Permission, not evidence of effectiveness.",
+    "transferability_to_target_workflow": "Utility-scale renewable projects map onto the 'complex or specialized properties / large-dollar credits' tier, where guidance expects deeper technical review, not automated triage. Automated/standardized review is sanctioned for the homogeneous low-risk tier (closer to small distributed-generation or residential solar portfolios).",
+    "analyst_inference": "Regulators accept that standardization-enabled automation can substitute for full human review only where assets are homogeneous and stakes per unit are low, with safeguards. That supports the thesis in a bounded domain and challenges it for complex single-asset credits.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E06"
+  },
+  {
+    "evidence_id": "EVR326",
+    "source_id": "SRC200",
+    "research_question_ids": [
+      "RQ6",
+      "RQ5"
+    ],
+    "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics; P-NEW: standardized, machine-readable producer output can be reused to substitute for the producer.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Fannie Mae's appraisal waiver decision searches the >29 million appraisals previously submitted through the collateral data portal, scores a prior appraisal (120 days to 6 years old) with Collateral Underwriter analytics, and, if the waiver is accepted, accepts the lender's value estimate and relieves the lender of representation-and-warranty enforcement on value, condition and marketability.",
+    "relationship": "challenges",
+    "evidence_type": "regulator white paper (program description)",
+    "population_and_setting": "Fannie Mae and Freddie Mac waiver programs, 2016-2018",
+    "study_or_observation_method": "Document review and interviews",
+    "intervention_and_comparator": "Appraisal waiver (no new appraisal) vs. traditional appraisal",
+    "outcome_measured": "Program mechanics",
+    "quantitative_result": "Over 29 million appraisal reports submitted through the portal (2018).",
+    "source_locator": "pp. 8-9 'How Fannie Mae Appraisal Waivers Work'",
+    "short_exact_excerpt": "If an appraisal waiver is accepted, Fannie Mae accepts the lender’s property value estimate as the market value of the property and provides relief from enforcement of representation and warranty of value, condition, and marketability of the property.",
+    "underlying_evidence_group": "EG:fhfaoig2018-appraisal-waivers",
+    "limitations": "Describes mechanism; no data on appraiser revenue effects.",
+    "transferability_to_target_workflow": "If renewable-energy diligence outputs become standardized and pooled (e.g., by a platform or a large lender), the pooled data could underwrite automated substitutes for some repeat deliverables. Requires a large homogeneous population, which utility-scale project diligence rarely has.",
+    "analyst_inference": "For the challenged proposition: the efficiency gain from standardization was captured by the consequence-bearer and lender (fewer appraisals, faster closings) and partly took business away from the producer, rather than raising the producer's pricing power.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E07"
+  },
+  {
+    "evidence_id": "EVR327",
+    "source_id": "SRC200",
+    "research_question_ids": [
+      "RQ5",
+      "RQ4"
+    ],
+    "proposition_tested": "P5.1 Repeatability rises with standardization and falls with bespoke judgment; P4.1 heterogeneity drives specific work.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "Waiver programs were limited to one-unit properties under $1 million with LTV caps; AVMs may be less reliable where properties are dissimilar or data are thin (e.g., rural); take-up was low because lenders/borrowers often obtained appraisals anyway; Enterprises report waiver loans performed as well as appraised loans; OIG judged risks small given modest size and stringent eligibility.",
+    "relationship": "supports",
+    "evidence_type": "regulator white paper",
+    "population_and_setting": "Fannie Mae and Freddie Mac waiver programs, 2017-2018",
+    "study_or_observation_method": "Program data reported to OIG; interviews",
+    "intervention_and_comparator": "Waiver vs. appraisal",
+    "outcome_measured": "Offer and take-up rates; stated benefits and limitations",
+    "quantitative_result": "Fannie Mae offered waivers on ~10% of purchase submissions (March 2018); lenders exercised ~7% of those offers; >90% of offers not accepted because lender obtained an appraisal. Freddie ACE: ~3.7% of LPA submissions eligible (Jan 2018), accepted ~25% of the time. Freddie projected closings 7-10 days faster and borrower savings $300-$700 per waived appraisal (Enterprise projections).",
+    "source_locator": "pp. 9-13 (Results; Benefits; Limitations and Risks)",
+    "short_exact_excerpt": "AVMs may be less reliable in areas where properties do not share similar characteristics, such as age and size.",
+    "underlying_evidence_group": "EG:fhfaoig2018-appraisal-waivers",
+    "limitations": "Early-program snapshot; take-up later rose sharply (see R3F-E15). Performance claim is Enterprise-reported.",
+    "transferability_to_target_workflow": "Heterogeneous, data-thin assets resist automated substitution; renewable projects (site-specific resource, interconnection, contracts) sit at the heterogeneous end.",
+    "analyst_inference": "Supports a bounded version of P5.1: standardization yields repeatable (even automatable) delivery only for homogeneous, data-rich segments. Low take-up also shows recipients sometimes retain the human product even when a standardized/automated alternative carries liability relief (consistent with P1.6 or borrower preference; cause not established).",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E08"
+  },
+  {
+    "evidence_id": "EVR328",
+    "source_id": "SRC201",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Visibility into scope/checks/uncertainty improves appropriate reliance; P1.1 obligations persist.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Freddie Mac says Loan Collateral Advisor analyzes appraisal reports and provides a view of valuation risk, that feedback helps lenders determine the level of review required, that results are to be used in conjunction with human due diligence, and that lenders may not ask appraisers to revise reports based solely on the score or forward system messages directly to appraisers.",
+    "relationship": "qualifies",
+    "evidence_type": "official tool guidance",
+    "population_and_setting": "Lenders selling to Freddie Mac",
+    "study_or_observation_method": "Policy/FAQ text",
+    "intervention_and_comparator": "Automated risk score as triage input vs. full manual review",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "LCA FAQ (sections on purpose, usage, revision requests)",
+    "short_exact_excerpt": "The results are to be used in conjunction with human due diligence.",
+    "underlying_evidence_group": "EG:freddiemac-lca-policy",
+    "limitations": "Intended-use statement from the tool owner; read via extraction tool; not evidence of how lenders actually use it.",
+    "transferability_to_target_workflow": "A diligence platform's automated checks would similarly be positioned as triage for human review; the restriction on forwarding raw machine messages to the producer is a design lesson (prevents shifting unvetted machine output onto the advisor).",
+    "analyst_inference": "Official design: scores allocate review depth (supports risk-based triage) but explicitly do not replace human judgment. The ban on score-only revision requests implies the owner saw a risk of machine flags generating low-value rework for producers.",
+    "access_status": "partial",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E09"
+  },
+  {
+    "evidence_id": "EVR329",
+    "source_id": "SRC202",
+    "research_question_ids": [
+      "RQ2",
+      "RQ6"
+    ],
+    "proposition_tested": "P2.1 Structured evidence reduces verification effort; P-NEW: recipient review effort falls mainly because liability is transferred, not because verification improves.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Freddie Mac's Guide ties collateral representation-and-warranty relief to an appraisal with an LCA risk score of 2.5 or lower (subject to conditions such as LTV limits), under which Freddie Mac will not exercise remedies including repurchase requests, while the seller remains responsible for certain requirements.",
+    "relationship": "qualifies",
+    "evidence_type": "contractual policy (secondary reproduction)",
+    "population_and_setting": "Freddie Mac sellers",
+    "study_or_observation_method": "Guide text",
+    "intervention_and_comparator": "Score at or below 2.5 (relief) vs. above (no relief)",
+    "outcome_measured": "n/a",
+    "quantitative_result": "Threshold: risk score 2.5 or lower; FAQ adds LTV/TLTV/HTLTV must be 95% or less for relief (R3F-S04).",
+    "source_locator": "Guide 5602.2 as reproduced on homebuyer.com",
+    "short_exact_excerpt": "representation and warranty relief eligibility corresponds to an appraisal with a risk score of 2.5 or lower.",
+    "underlying_evidence_group": "EG:freddiemac-lca-policy",
+    "limitations": "Secondary reproduction; no data on how relief changed lender review behavior.",
+    "transferability_to_target_workflow": "Analogous lever in renewable-energy finance would be a party that bears consequences (e.g., an insurer, guarantor, or tax-equity investor) accepting standardized diligence and releasing others from re-review; absent such a party, standardization alone does not remove the recipient's incentive to review.",
+    "analyst_inference": "Key mechanism for the dispute: in appraisal, the main route by which standardized, scored outside analysis reduced lender review is risk transfer to the ultimate consequence-bearer, who verifies statistically at portfolio level. That is not evidence that the lender's verification became cheaper at equal quality.",
+    "access_status": "partial",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E10"
+  },
+  {
+    "evidence_id": "EVR330",
+    "source_id": "SRC203",
+    "research_question_ids": [
+      "RQ2",
+      "RQ6"
+    ],
+    "proposition_tested": "P2.1 Structured evidence reduces verification effort (GSE claim; unverified).",
+    "work_type_tags": [
+      "W1",
+      "W3"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "UNVERIFIED (page blocked; search-engine summaries only): Fannie Mae's Day 1 Certainty (effective for submissions from Dec 10, 2016) reportedly offers value rep-and-warrant relief for appraisals with a CU risk score of 2.5 or lower; Fannie Mae reportedly expected ~60% of appraisals to qualify and claimed lenders could focus attention on high-risk appraisals and appraisers would get fewer correction requests.",
+    "relationship": "contextual",
+    "evidence_type": "company announcement (not read)",
+    "population_and_setting": "Fannie Mae sellers, 2016-2017",
+    "study_or_observation_method": "n/a",
+    "intervention_and_comparator": "CU score <=2.5 vs >2.5",
+    "outcome_measured": "n/a",
+    "quantitative_result": "Reported (unverified): ~60% expected eligibility at launch; a 2017 Fannie appraiser update reportedly said ~64% eligible.",
+    "source_locator": "not located (page blocked)",
+    "short_exact_excerpt": null,
+    "underlying_evidence_group": "EG:fanniemae-day1certainty-cu",
+    "limitations": "Not read; numbers unverified; interested party; claims are expectations, not measurements.",
+    "transferability_to_target_workflow": "Same as R3F-E10.",
+    "analyst_inference": "Included only as a pointer: if verified, it is a GSE claim that triage shifts lender attention to high-risk files; no outcome measurement of review effort or missed defects was found.",
+    "access_status": "blocked",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E11"
+  },
+  {
+    "evidence_id": "EVR331",
+    "source_id": "SRC204",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured evidence preserves or improves detection of material errors/omissions; P2.5 structure does not guarantee correctness.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Using appraiser-reported structured attributes for 3.5 million loan applications (2013-2017), the authors found pervasive inconsistent reporting of the same property's attributes across appraisals, consistent with systematic misreporting to inflate values; strongest evidence where the same appraiser reported the same comparable differently in different appraisals; inconsistent reporting predicted serious delinquency for highly leveraged borrowers.",
+    "relationship": "qualifies",
+    "evidence_type": "observational econometric study",
+    "population_and_setting": "Conforming purchase-loan appraisals held by a secondary-market institution, U.S., 2013-2017",
+    "study_or_observation_method": "Cross-appraisal panel of attribute reports; regressions with lender and time fixed effects",
+    "intervention_and_comparator": "Appraisals with inconsistently reported comparable attributes vs. consistent",
+    "outcome_measured": "Attribute consistency; serious delinquency",
+    "quantitative_result": "98% of properties had at least one of seven attributes inconsistently reported; highly leveraged borrowers with inconsistently reported attributes were 6%-15% more likely to become seriously delinquent (preliminary version; published version reportedly 9.8%, unverified).",
+    "source_locator": "Abstract; Section 4 (p. 12 ff.)",
+    "short_exact_excerpt": "We find that 98% of properties had at least one-of-seven attributes inconsistently reported, and that errors were consistent with systematic misreporting to inflate valuations.",
+    "underlying_evidence_group": "EG:eriksen-kuang-zhu-attribute-misreporting",
+    "limitations": "Some inconsistency reflects measurement/interpretation differences (authors acknowledge); one data provider; observational.",
+    "transferability_to_target_workflow": "Mechanism transfers: structured fields allow cross-report consistency checks (same parcel, same lease, same equipment reported across deals/reports) that single-report human review cannot do. Requires a pooled dataset across reports, which a single recipient of renewable-energy diligence usually lacks.",
+    "analyst_inference": "Two-sided: standardization made misreporting detectable by an analyst with cross-report data (detection capacity rises), yet misreporting persisted within the standardized, CU-era regime, i.e., the standard format did not itself ensure correctness, and per-file review did not catch it.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E12"
+  },
+  {
+    "evidence_id": "EVR332",
+    "source_id": "SRC204",
+    "research_question_ids": [
+      "RQ5",
+      "RQ6"
+    ],
+    "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics (producer-side pressure).",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Authors note some misreporting is likely accidental by appraisers asked to do more with fewer resources, that appraisers are scrutinized when their estimates differ from others', and recommend a national auditable database of verified property attributes to enforce uniform definitions.",
+    "relationship": "contextual",
+    "evidence_type": "authors' discussion",
+    "population_and_setting": "U.S. residential appraisal",
+    "study_or_observation_method": "Discussion section",
+    "intervention_and_comparator": "n/a",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "Conclusion, pp. 37-38",
+    "short_exact_excerpt": "at least some of this misreporting is accidental by appraisers faced with the impossible task of doing more with increasingly limited resources.",
+    "underlying_evidence_group": "EG:eriksen-kuang-zhu-attribute-misreporting",
+    "limitations": "Authors' interpretation, not measured.",
+    "transferability_to_target_workflow": "Suggests that verified shared reference data (not just a standard format) is what makes outputs cheaply checkable; in renewable energy, analogous shared references (parcel records, interconnection queues, resource data) matter more than report templates.",
+    "analyst_inference": "Points to a distinction the thesis needs: standardizing the format of outside analysis differs from giving the recipient verified reference data to check it against.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E13"
+  },
+  {
+    "evidence_id": "EVR333",
+    "source_id": "SRC205",
+    "research_question_ids": [
+      "RQ4",
+      "RQ5",
+      "RQ2"
+    ],
+    "proposition_tested": "P4.1 Customer/asset-specific needs driven by heterogeneity; P5.1 repeatability falls with bespoke judgment.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Controlling for appraisal inputs and appraiser fixed effects in the standardized UAD, low appraisals (below contract price) were more likely in majority African American neighborhoods, but the effect dissipated when appraisers had prior experience in the neighborhood or many recent appraisals existed there, consistent with an information-based mechanism; the authors credit UAD's detail (including non-originated appraisals) for enabling the analysis.",
+    "relationship": "qualifies",
+    "evidence_type": "observational econometric study (with IV)",
+    "population_and_setting": "UAD purchase appraisals, 1-unit single-family, U.S.",
+    "study_or_observation_method": "Regression with appraiser fixed effects; IV using historical shares",
+    "intervention_and_comparator": "Neighborhood African American share; appraiser local experience",
+    "outcome_measured": "Probability of appraisal below contract price",
+    "quantitative_result": "At least 23% more likely in majority African American vs. similar neighborhoods with none; IV at least 13%; raising share from 0 to 50% -> 13.3% increase in likelihood of low appraisal.",
+    "source_locator": "Abstract; Section 3 Data; Section 5 Conclusion (approx. p. 34)",
+    "short_exact_excerpt": "However, this effect dissipates when an appraiser works in neighborhoods in which they have appraised before or in which many appraisals were recently completed, facts consistent with an information based mechanism.",
+    "underlying_evidence_group": "EG:grodzicki2024-fhfa-wp2406",
+    "limitations": "Topic is bias, not review cost; mechanism interpretation is the authors'.",
+    "transferability_to_target_workflow": "Even with a rigid national form, output quality depended on the producer's local/contextual information. Renewable diligence quality likely depends even more on context-specific knowledge (grid region, permitting jurisdiction, offtaker), limiting what a standard format can make repeatable.",
+    "analyst_inference": "Standardization of format did not remove dependence on context-specific knowledge; it did make the dependence measurable at portfolio level. Supports P4.1/qualifies AS06 (repeatability limited by local information requirements).",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E14"
+  },
+  {
+    "evidence_id": "EVR334",
+    "source_id": "SRC206",
+    "research_question_ids": [
+      "RQ6",
+      "RQ2"
+    ],
+    "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics; P2.2 (outcome quality preserved when review is automated).",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Freddie Mac's own analysis found loans originated with ACE appraisal waivers had lower 90+ day delinquency than otherwise similar eligible loans originated with appraisals; ACE share of Freddie Mac fundings peaked near 40% (Q3 2020) and fell to 8.4% (Q2 2023); ACE generated about $1.63 billion in borrower appraisal-fee savings; the authors flag selection bias and an imprecise IV estimate.",
+    "relationship": "qualifies",
+    "evidence_type": "observational analysis by interested party",
+    "population_and_setting": "Freddie Mac 1-unit single-family loans, May 2017-June 2023 (5,540,307 loans: 3,261,955 ACE; 2,278,352 eligible non-ACE)",
+    "study_or_observation_method": "Logistic regression with controls and quarter/state fixed effects; IV robustness",
+    "intervention_and_comparator": "ACE waiver (no appraisal) vs. eligible loans originated with appraisal",
+    "outcome_measured": "D90+ delinquency through Dec 2023",
+    "quantitative_result": "ACE ~8.9% lower delinquency rate (no COVID adjustment); 13.9% lower excluding COVID-forbearance delinquencies; raw D90+ 1.09% vs 1.66% (0.55% vs 0.86% excl. forbearance); IV estimate 63% lower (57% excl. forbearance) than OLS and not statistically different from zero or OLS.",
+    "source_locator": "Key Findings p. 1-2; footnote 1 p. 2; Data and Summary Statistics pp. 4-5",
+    "short_exact_excerpt": "There is a potential for selection bias in this analysis as loans that meet the ACE’s credit eligibility requirements are evaluated and selected into the program based on additional unpublished criteria.",
+    "underlying_evidence_group": "EG:freddiemac-ace-karamon-mcmanus",
+    "limitations": "Interested party; selection on unpublished criteria; benign credit period; 87% of ACE loans were refinances vs 55% of controls.",
+    "transferability_to_target_workflow": "Shows the end state of standardization in a homogeneous market: the consequence-bearer automates away the outside product for a large share of low-risk volume. Utility-scale renewable diligence lacks the volume and homogeneity; distributed portfolios might partially resemble it.",
+    "analyst_inference": "Reduced recipient effort here came from eliminating the producer for a segment, with (GSE-reported) no performance deterioration; benefits accrued to borrowers, lenders and the GSE, not appraisers. Challenges any assumption that standardization lifts producer economics.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E15"
+  },
+  {
+    "evidence_id": "EVR335",
+    "source_id": "SRC207",
+    "research_question_ids": [
+      "RQ5",
+      "RQ6",
+      "RQ1"
+    ],
+    "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics; P1.1 accountability persists.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "GAO reported that greater use of appraisal management companies raised oversight and quality questions; some appraisers were concerned AMC fees were too low; some participants worried some AMCs prioritize low cost and speed over quality; regulators and Enterprises hold lenders responsible for AMC practices including appraiser selection, appraisal review, and reviewer qualifications, but generally do not examine AMCs directly.",
+    "relationship": "challenges",
+    "evidence_type": "government audit report (summary only)",
+    "population_and_setting": "U.S. residential appraisal industry, 2010-2011",
+    "study_or_observation_method": "GAO interviews, document and data review (per GAO; not read in full)",
+    "intervention_and_comparator": "Lender use of AMCs vs. direct engagement",
+    "outcome_measured": "Reported concerns on fees, quality, oversight",
+    "quantitative_result": null,
+    "source_locator": "GAO product page 'What GAO Found' summary",
+    "short_exact_excerpt": "some AMCs may prioritize low costs and speed over quality and competence",
+    "underlying_evidence_group": "EG:gao2011-residential-appraisal-oversight",
+    "limitations": "Only the summary was read; concerns are participant-reported, not measured effects.",
+    "transferability_to_target_workflow": "If a standardized diligence deliverable is procured through intermediaries/platforms, price and turnaround competition may squeeze producer fees and quality while the recipient keeps review responsibility.",
+    "analyst_inference": "In appraisal, standardization coincided with intermediation that pushed producer fees down; recipient responsibility for review was explicitly not transferred to the intermediary.",
+    "access_status": "partial",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E16"
+  },
+  {
+    "evidence_id": "EVR336",
+    "source_id": "SRC208",
+    "research_question_ids": [
+      "RQ5",
+      "RQ6",
+      "RQ4"
+    ],
+    "proposition_tested": "P5.1 Repeatability rises with standardization and falls with bespoke judgment; P6.1 supplier economics.",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "AMC-paid residential appraisal fees clustered at $300-$450 vs $350-$450 from lenders/individuals; AMCs and appraisers said property complexity, size, rural location and travel raise fees; most appraisers had turned down low-fee jobs; 40% said they increased workloads to make up for lower fees, and 27% said increased workload hurt quality.",
+    "relationship": "supports",
+    "evidence_type": "industry survey (state-commissioned)",
+    "population_and_setting": "Texas appraisers (n~1,584) and AMCs (n=55), August 2012",
+    "study_or_observation_method": "Survey; appraiser response rate 26%, AMC 54%",
+    "intervention_and_comparator": "AMC vs non-AMC clients; property characteristics",
+    "outcome_measured": "Self-reported fees, fee drivers, workload, perceived quality",
+    "quantitative_result": "98% of AMCs said complexity increases fee; 85% cited rural location and large size. Appraisers: complex property 85%, travel 80%, large 75%, rural 63% would increase fee. 78% turned down an appraisal because fee too low; 40% (N=1569) increased workload to offset lower fees; 27% said this hurt quality (48% said not; ~25% no answer).",
+    "source_locator": "Executive Summary pp. 1-2; Figures 25-28, Section III (approx. pp. 30-32 by page footer; list of figures gives pp. 32-34)",
+    "short_exact_excerpt": "Ninety-eight percent of Appraisal Management Companies noted that the complexity of the property would cause an increase in the fee",
+    "underlying_evidence_group": "EG:texas2012-appraiser-amc-survey",
+    "limitations": "Self-report; one state; 2012; low appraiser response rate.",
+    "transferability_to_target_workflow": "Bespoke complexity commands price; standardized routine work is price-competed. Renewable-energy diligence is mostly in the 'complex' tier, which may protect pricing but also limit repeatability.",
+    "analyst_inference": "Consistent with a two-tier market: standardized routine units become commodity-priced through intermediaries; complexity (heterogeneity) is where producers retain pricing. Supports P5.1 and qualifies any link from standardization to producer margins.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E17"
+  },
+  {
+    "evidence_id": "EVR337",
+    "source_id": "SRC208",
+    "research_question_ids": [
+      "RQ6"
+    ],
+    "proposition_tested": "P6.1 Supplier economics (added standardized requirements and compensation).",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "After the standardized Market Conditions Addendum was added to appraisal requirements, 40% of responding AMCs reported fees they pay increased because of it; 51% saw no change.",
+    "relationship": "contextual",
+    "evidence_type": "industry survey",
+    "population_and_setting": "Texas AMCs (N=55), 2012",
+    "study_or_observation_method": "Survey",
+    "intervention_and_comparator": "Addition of Market Conditions Addendum",
+    "outcome_measured": "AMC-reported fee change",
+    "quantitative_result": "40% increase; 51% no change; 5% don't know (N=55).",
+    "source_locator": "Figure 3, p. 11",
+    "short_exact_excerpt": null,
+    "underlying_evidence_group": "EG:texas2012-appraiser-amc-survey",
+    "limitations": "Small N; AMC self-report.",
+    "transferability_to_target_workflow": "Added standardized content requirements are not reliably compensated; a diligence provider adding structured traceability fields may not be paid for the extra work.",
+    "analyst_inference": "Weak but relevant: added structure is a producer cost; price response is mixed.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E18"
+  },
+  {
+    "evidence_id": "EVR338",
+    "source_id": "SRC209",
+    "research_question_ids": [
+      "RQ3",
+      "RQ2"
+    ],
+    "proposition_tested": "P3.2 Integration/automation shifts review effort elsewhere rather than removing it.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "An AMC executive reported that shortly after Collateral Underwriter launched, lender clients sent more revision requests to appraisers (e.g., on comparable quality ratings), while stating Fannie Mae does not use CU to deny appraisals or loans; he predicted better-supported reports would reduce revisions.",
+    "relationship": "supports",
+    "evidence_type": "practitioner account (anecdotal)",
+    "population_and_setting": "One AMC's lender clients, ~1 month after CU launch (early 2015)",
+    "study_or_observation_method": "Practitioner observation",
+    "intervention_and_comparator": "CU deployment vs. before",
+    "outcome_measured": "Revision requests",
+    "quantitative_result": null,
+    "source_locator": "Article body",
+    "short_exact_excerpt": "we are starting to see some of the effects through revision requests from our lender clients.",
+    "underlying_evidence_group": "EG:mureddu2015-cu-housingwire",
+    "limitations": "Anecdotal, early, interested party; no magnitudes.",
+    "transferability_to_target_workflow": "Automated checks on a recipient's side can convert into rework requests to the outside advisor; a diligence platform's flags may increase advisor revision cycles before they reduce them.",
+    "analyst_inference": "Weak evidence; consistent with E02 and E09 (Freddie later barred score-only revision requests).",
+    "access_status": "partial",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E19"
+  },
+  {
+    "evidence_id": "EVR339",
+    "source_id": "SRC210",
+    "research_question_ids": [
+      "RQ4",
+      "RQ5"
+    ],
+    "proposition_tested": "P5.1 Repeatability rises with standardized evidence formats; P4.1 heterogeneity drives specific work.",
+    "work_type_tags": [
+      "W5"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "The GSEs redesigned UAD/URAR to a data-driven, dynamic reporting structure covering all property and inspection types, replacing reliance on form types and free-form commentary addenda; standardized fields and enumerations describe the property; stated benefit is helping lenders and end users understand property characteristics (e.g., easier for reviewers to identify ADUs).",
+    "relationship": "qualifies",
+    "evidence_type": "official purpose statement",
+    "population_and_setting": "GSE-delivered residential appraisals, 2024-2027 rollout",
+    "study_or_observation_method": "FAQ text",
+    "intervention_and_comparator": "Dynamic data-driven URAR (UAD 3.6) vs legacy form-based UAD 2.6 with commentary addenda",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "UAD and Forms Redesign FAQ: 'What is UAD and why is it being updated?'; 'Are form numbers going away?'",
+    "short_exact_excerpt": "The data that describes the subject property drives the appraisal report, not a form type or number.",
+    "underlying_evidence_group": "EG:gse-uad36-redesign",
+    "limitations": "Purpose statements; no effect data. Read via extraction tool.",
+    "transferability_to_target_workflow": "Suggests a design path for renewable diligence standards: accommodate heterogeneity inside a structured schema (conditional sections) rather than free-text annexes.",
+    "analyst_inference": "A decade after UAD, the standard-setter concluded the first standard pushed heterogeneous information into free text; the response was a more flexible standard, not abandoning standardization. Qualifies both sides of AS06.",
+    "access_status": "partial",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E20"
+  },
+  {
+    "evidence_id": "EVR340",
+    "source_id": "SRC124",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Visibility into scope, checks, omissions and uncertainty improves appropriate reliance (obligation only).",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "The federal All Appropriate Inquiries rule requires the environmental professional's report to include an opinion on indications of releases and an identification of data gaps that affect that ability, with comments on the significance of those gaps.",
+    "relationship": "contextual",
+    "evidence_type": "regulation",
+    "population_and_setting": "U.S. property transactions seeking CERCLA liability protections (Phase I ESAs under ASTM E1527)",
+    "study_or_observation_method": "Regulatory text",
+    "intervention_and_comparator": "n/a",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "40 CFR 312.21(c)(1)-(2)",
+    "short_exact_excerpt": "An identification of data gaps (as defined in § 312.10) in the information developed as part of the inquiry that affect the ability of the environmental professional to identify conditions indicative of releases or threatened releases of hazardous substances",
+    "underlying_evidence_group": "EG:epa-aai-40cfr312",
+    "limitations": "Shows required content only; no evidence on whether data-gap disclosure reduces user review or improves reliance.",
+    "transferability_to_target_workflow": "Direct precedent for mandated scope/omission disclosure (X4) in a diligence deliverable lenders use, including for renewable sites.",
+    "analyst_inference": "A regulator chose to standardize disclosure of omissions, not just findings; no effect evidence found.",
+    "access_status": "full_text",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E21"
+  },
+  {
+    "evidence_id": "EVR341",
+    "source_id": "SRC212",
+    "research_question_ids": [
+      "RQ4",
+      "RQ5"
+    ],
+    "proposition_tested": "P4.1 Customer-specific needs driven by heterogeneous policies; P5.1 standardization and repeatability.",
+    "work_type_tags": [
+      "W4"
+    ],
+    "concept_tags": [],
+    "observed_finding": "A Phase I consultant writes that lenders request quotes from consultants on their approved lists, that lender internal policies dictate which report is required, that report quality varies between companies, and that a prior Phase I from another consultant is typically not accepted by a new lender.",
+    "relationship": "supports",
+    "evidence_type": "practitioner account",
+    "population_and_setting": "New York commercial real estate lending, 2021",
+    "study_or_observation_method": "Practitioner description",
+    "intervention_and_comparator": "n/a",
+    "outcome_measured": "n/a",
+    "quantitative_result": null,
+    "source_locator": "Article body",
+    "short_exact_excerpt": "typically not accepted by the new lender",
+    "underlying_evidence_group": "EG:merritt2021-phase1-nyrej",
+    "limitations": "Single interested practitioner; no data.",
+    "transferability_to_target_workflow": "Even with a national practice standard (ASTM E1527) and regulation, lender-specific approved lists and reliance policies limit portability, so the same site may be re-studied for each lender. Renewable-energy lenders likewise use approved-consultant lists and reliance letters.",
+    "analyst_inference": "Recipient-specific acceptance policy, not the deliverable's format, drove repeated work here; standardization did not make the outside analysis reusable across recipients.",
+    "access_status": "partial",
+    "workstream": "R3F_appraisal_review_standardization",
+    "temp_id": "R3F-E22"
   }
 ]

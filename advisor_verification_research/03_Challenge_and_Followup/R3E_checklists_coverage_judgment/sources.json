@@ -268,5 +268,35 @@
     "funding_or_commercial_relationships": null,
     "archived_file_path": null,
     "limitations": "Abstract only. Pilot: 14 physicians, 100 patients, 17 diagnostic errors; underpowered; subgroup finding post hoc. Checklist used by the decision-maker, not a recipient-facing coverage list."
+  },
+  {
+    "source_id": "R3E-S19",
+    "title": "Do Critical Audit Matter Paragraphs in the Audit Report Change Nonprofessional Investors' Decision to Invest?",
+    "authors_or_organization": "Brant E. Christensen; Steven M. Glover; Christopher J. Wolfe",
+    "url": "https://doi.org/10.2308/ajpt-50793 (Auditing: A Journal of Practice & Theory 33(4):71-93)",
+    "publication_date": "2014",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:christensen2014-cam-resolution",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Abstract (summary) only via Crossref. Nonprofessional investors (business school graduates who invest in individual stocks); sample size not verified. CAM centered on fair value estimates. Measures decision change, not decision accuracy."
+  },
+  {
+    "source_id": "R3E-S20",
+    "title": "Does Discussing Audit Procedures in Critical Audit Matter Calibrate Financial Reporting Risk Assessments?",
+    "authors_or_organization": "El'fred Boo; Kin Yew Low; Premila Gowri Shankar; Hun-Tong Tan",
+    "url": "https://doi.org/10.2308/horizons-2022-040 (Accounting Horizons 39(2):19-31)",
+    "publication_date": "2025-04",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:boo2025-cam-procedures-calibration",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Synopsis only via Crossref; participant type described only as 'sophisticated users', numbers not verified. 'Calibration' is operationalized as smaller shifts in risk assessments before vs after a pre-flagged risk event, not as accuracy against a benchmark."
   }
 ]

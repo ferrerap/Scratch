@@ -1,0 +1,467 @@
+[
+ {
+  "evidence_id": "R3C-E01",
+  "source_id": "R3C-S01",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 Rework due to inaccurate/incomplete advisor output is a major driver of review; also P1.4 adaptation to recipient criteria",
+  "work_type_tags": [
+   "W1",
+   "W3",
+   "W4"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "A lender's technology director states that independent engineer (IE) results taken alone are generally inadequate for structuring, so lenders underwrite conservatively using sensitivity cases, haircuts, parallel assessments and structural protections; downside cases must account for relevant uncertainties and P50 bias.",
+  "relationship": "supports",
+  "evidence_type": "direct (buyer-side practitioner statement)",
+  "population_and_setting": "US utility-scale solar project finance and tax equity; Wells Fargo REEF",
+  "study_or_observation_method": "Conference presentation drawing on the lender's portfolio data and IE reports",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Lender's stated response to IE energy estimates",
+  "quantitative_result": null,
+  "source_locator": "Slide 8 ('All models are wrong, but some are useful...'), 'Theory vs. Practice' bullets",
+  "short_exact_excerpt": "IE results in isolation are generally inadequate, leading to conservative underwriting (sensitivity cases, haircuts, parallel assessments, structural protections, etc.).",
+  "underlying_evidence_group": "EG:pvpmc2024-elser-wellsfargo",
+  "limitations": "Stated view of one lender; does not quantify how much effort goes to parallel assessments versus haircuts; no transcript.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; directly on point: names four retained lender activities. 'Parallel assessments' is re-derivation (W1/W3); 'haircuts' and 'sensitivity cases' are adaptation to the lender's criteria informed by observed bias (W3/W4). Need to verify the share of each across lenders.",
+  "analyst_inference": "The lender's stated reason for retained work is accuracy (P50 bias, too-narrow uncertainty), not lack of traceability. This points to W3/W4 more than W2. Better traceability alone would not remove haircuts tied to empirical bias. It might reduce the parallel-assessment component only if it exposes which assumptions drive bias.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E02",
+  "source_id": "R3C-S01",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.3 inaccurate/incomplete advisor output drives review; P2.4 visibility into omitted uncertainty",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "The lender characterises IE 10-year P99:P50 ratios as inconsistent, not comprehensive and trending optimistic. It says empirical data show uncertainty distributions are too tight, that some uncertainty factors (availability, degradation) are commonly omitted, and that operational data show significant P50 bias beyond recent IE adjustments.",
+  "relationship": "supports",
+  "evidence_type": "direct (buyer-side practitioner statement with portfolio data)",
+  "population_and_setting": "Lender portfolio performance index of 32 solar projects, adjusted for curtailment and normalised to 99% availability",
+  "study_or_observation_method": "Comparison of operating performance with IE-equivalent P-cases (charts)",
+  "intervention_and_comparator": "Actual production vs IE P-cases",
+  "outcome_measured": "Performance index vs IE P50/P99; IE 10-year P99:P50 ratios",
+  "quantitative_result": "Chart labels on slide 7 read '~87%' and '~83-94% range' for IE 10-year P99:P50 ratios (precise meaning, i.e. central value vs spread, not stated in text); n=32 projects for performance index (slides 4-5); time period not stated",
+  "source_locator": "Slides 4-8",
+  "short_exact_excerpt": "Operational data demonstrate significant P50 bias—beyond recent IE adjustments for sub-hourly clipping, complex terrain, and availability.",
+  "underlying_evidence_group": "EG:pvpmc2024-elser-wellsfargo",
+  "limitations": "Chart values not extractable; selection of 32 projects unknown; lender has an interest in conservative assumptions.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; shows inconsistent uncertainty reporting across IEs ('not comprehensive') as well as bias.",
+  "analyst_inference": "'Not comprehensive' and 'commonly omitted' factors are X4 gaps: the lender cannot see which uncertainty components were considered. Standardised component-level uncertainty disclosure might reduce some reconstruction (W2). The P50 bias part is W3 and needs back-testing, not traceability.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E03",
+  "source_id": "R3C-S01",
+  "research_question_ids": [
+   "RQ1",
+   "RQ3"
+  ],
+  "proposition_tested": "P1.4 Adaptation to recipient-specific policies/criteria is a major driver of retained work",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "The lender applies its own sizing rules to IE P-cases: debt coverage ratios on 1-year P99 (x1.0) and P50 (x~1.3), with P50 typically governing debt sizing; tax equity uses P50 for PTC forecasts and 10-year P99 as a structuring metric. Sizing parameters and commercial terms are largely set before detailed diligence.",
+  "relationship": "supports",
+  "evidence_type": "direct (buyer-side description of practice)",
+  "population_and_setting": "US solar debt and tax equity",
+  "study_or_observation_method": "Practitioner description",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Use of IE outputs in sizing",
+  "quantitative_result": "Debt: coverage on 1-year P99 x1.0 and P50 x~1.3",
+  "source_locator": "Slide 3 ('Typical Application of Uncertainties for Solar Project Financing')",
+  "short_exact_excerpt": "Sizing parameters and commercial terms largely established prior to detailed diligence",
+  "underlying_evidence_group": "EG:pvpmc2024-elser-wellsfargo",
+  "limitations": "Typical-practice statement from one lender; coverage multiples vary by market and deal.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; shows the W4 step: IE P-values feed the lender's own coverage tests and tax-equity flip models.",
+  "analyst_inference": "Because sizing is largely fixed before detailed IE diligence, the IE report may mostly confirm or adjust terms. Most of the lender's adaptation could be mechanical once P-cases and the uncertainty breakdown are available in structured form (W4/W5). Unverified.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E04",
+  "source_id": "R3C-S02",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P-NEW: IE incentive structure (reputational, not financial, risk; sponsor engagement) gives lenders a rational reason to discount IE outputs (W3)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [],
+  "observed_finding": "An IE managing director presents the IE role as an unbiased independent technical review, says results should be the same whichever party engages the firm, and notes the IE bears no direct financial risk, only reputational risk. Overly conservative modeling means developers won't engage; overly aggressive or inaccurate modeling means the industry will no longer accept the IE's work.",
+  "relationship": "supports",
+  "evidence_type": "direct (supplier-side practitioner statement)",
+  "population_and_setting": "US renewable IE practice (financing, tax equity, M&A)",
+  "study_or_observation_method": "Conference presentation",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "Slides 3 and 7",
+  "short_exact_excerpt": "No direct financial risk, instead, reputational risk",
+  "underlying_evidence_group": "EG:pvpmc2024-reusser-icf",
+  "limitations": "Supplier self-description; not evidence of actual bias.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; names the incentive tension that a lender would weigh.",
+  "analyst_inference": "IEs are often sponsor-engaged (see R3C-S04) and face a 'developers won't engage' constraint. That makes lender discounting partly rational (W3) and partly governance (W1). Traceability tools do not change this incentive.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E05",
+  "source_id": "R3C-S02",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 Repeatability rises with standardized evidence formats; P2.4 visibility into scope/uncertainty",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The IE lists open issues: 'black box' uncertainty vs individual sources of error, the value of standardisation, inconsistent reporting of availability (contractual vs actual), and how to compare a project to peer data. It says IEs need operating data, standardisation of processes and standardisation of language to support apples-to-apples comparison.",
+  "relationship": "supports",
+  "evidence_type": "direct (supplier-side stated need)",
+  "population_and_setting": "US renewable IE practice",
+  "study_or_observation_method": "Conference presentation",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "Slides 5-7",
+  "short_exact_excerpt": "“Black Box” uncertainty vs individual sources of error/uncertainty",
+  "underlying_evidence_group": "EG:pvpmc2024-reusser-icf",
+  "limitations": "Questions and stated needs, not measured effects.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; supplier confirms that a lack of standard uncertainty decomposition and definitions hampers comparison.",
+  "analyst_inference": "Both buyer (E02) and supplier (E05) name non-standard, non-decomposed uncertainty reporting as a problem. That is the X4/W2 gap the thesis targets, though neither shows that fixing it reduces lender effort.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E06",
+  "source_id": "R3C-S03",
+  "research_question_ids": [
+   "RQ1",
+   "RQ6"
+  ],
+  "proposition_tested": "P1.4 adaptation (here: sponsor adapting to the IE view); contextual on the economic stakes of P90",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "A developer describes keeping its 'build' model aligned with the IE's view. Across 20 case-study projects it reports an average of $70,000 of value per 1% increase in P90-1yr, and a 2.3% average P90-1yr gain from ground-tuned resource data. Higher P-values mean higher debt sizing.",
+  "relationship": "contextual",
+  "evidence_type": "direct (sponsor-side self-reported case study)",
+  "population_and_setting": "Lightsource bp, 20 solar projects (Americas)",
+  "study_or_observation_method": "Internal comparison of tuned vs untuned resource data",
+  "intervention_and_comparator": "Ground-tuned vs untuned satellite resource data",
+  "outcome_measured": "P90-1yr and estimated value",
+  "quantitative_result": "Average $70,000 per 1% increase in P90-1yr (independent of DC size); average +2.3% P90-1yr with tuned data; n=20 projects; in 2 cases P50 and P90 decreased",
+  "source_locator": "Slides 3, 5, 7 ('The Evolution of the Model', 'What does Tuned Data Mean', 'By The Numbers')",
+  "short_exact_excerpt": "Independent of DC size, we observed an average of $70,000 for every 1% increase in P90-1yr.",
+  "underlying_evidence_group": "EG:pvpmc2024-solis-lightsourcebp",
+  "limitations": "Self-reported; valuation method not given; sponsor incentive.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; shows that several parties (sponsor, IE, lender) keep their own energy models, and that small P90 differences are worth money, which motivates scrutiny.",
+  "analyst_inference": "Parallel models exist on both sides of the deal. Duplication is structural, not only a lender habit. The money at stake per 1% of P90 helps explain why lenders retain parallel checks.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E07",
+  "source_id": "R3C-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 retained review driven by required independent judgment (here: what an IE scope actually contains)",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X3",
+   "X4"
+  ],
+  "observed_finding": "In a filed technical due diligence report for a solar portfolio securitization, the IE describes reviewing the methodology behind the sponsor's energy production estimates. It does not describe running its own PVsyst simulation. It weather-adjusted the sponsor's expected energy using MERRA-2 GHI anomaly data, based uncertainty on review of pre-construction PVsyst reports and operating data, and found the financial-model energy yields generally reasonable.",
+  "relationship": "qualifies",
+  "evidence_type": "direct (actual IE deliverable)",
+  "population_and_setting": "~43.5 MWdc distributed solar portfolio (DSD), US, 2022 securitization",
+  "study_or_observation_method": "Document review of filed report",
+  "intervention_and_comparator": "Weather-adjusted expected energy vs original expected energy",
+  "outcome_measured": "Ratio of adjusted expected to original expected energy; estimated impact",
+  "quantitative_result": "Portfolio weather-adjusted expected energy 98.7% of original expected (Table 4-1, as returned by fetch tool); estimated downward impact of 1.3% on weather-adjusted expected production (Section 4.2.1/1.5.3); 0.7% P90 portfolio-effect benefit (Section 1.5.3)",
+  "source_locator": "Sections 1.2, 1.3, 1.5.3, 4.1-4.2, 5.1.1, 6.2; Table 4-1",
+  "short_exact_excerpt": "reviewed the methodology for DSD's energy production estimates",
+  "underlying_evidence_group": "EG:bv-dsd-solar-securitization-tdd-2022",
+  "limitations": "Fetch-tool extraction; truncated parts read in a second pass; whether B&V ran any independent model cannot be fully excluded; one deal.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; shows that at least some bankable IE work in securitization is review-and-adjust of the sponsor's EYA, not full independent re-derivation.",
+  "analyst_inference": "This is a 'review' scope (the W2 setting): the IE checks sponsor methodology and adjusts with operating data. Better traceability of sponsor EYA inputs could plausibly lower that review cost. That is untested.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3C-E08",
+  "source_id": "R3C-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 governance/reliance limits drive retained recipient work",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "The report states it was prepared solely for the sponsor's use and should not be relied upon by any other party. The IE's total liability is capped at the compensation received from the sponsor.",
+  "relationship": "supports",
+  "evidence_type": "direct (reliance language in actual deliverable)",
+  "population_and_setting": "Same securitization report",
+  "study_or_observation_method": "Document review",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Reliance/limitation terms",
+  "quantitative_result": null,
+  "source_locator": "Section 1.2; Special Notice",
+  "short_exact_excerpt": "should not be relied upon by any other party",
+  "underlying_evidence_group": "EG:bv-dsd-solar-securitization-tdd-2022",
+  "limitations": "Typical boilerplate; investors may obtain reliance letters not visible here.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; no-reliance terms and liability caps leave investors, and rating agencies, with their own judgment burden.",
+  "analyst_inference": "Limits on reliance are a structural W1 driver that persists whatever the transparency.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3C-E09",
+  "source_id": "R3C-S05",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 required independent judgment (does guidance require independent re-derivation or allow verification?)",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [],
+  "observed_finding": "IFC guidance says utility-scale projects should include a professional independent energy yield assessment 'produced and/or verified' by an experienced bank-grade consultant, at a confidence level of at least P75, if not P90.",
+  "relationship": "qualifies",
+  "evidence_type": "direct (DFI guidance)",
+  "population_and_setting": "Utility-scale solar PV, emerging markets (IFC)",
+  "study_or_observation_method": "Guidance text",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "Chapter 13 (Power Purchase Agreements), Section 13.2.1 text, printed p. 151",
+  "short_exact_excerpt": "utility-scale projects should include a professional independent energy yield assessment, produced and/or verified by an experienced consultant with a track record of producing “bank grade” data, and a confidence interval of at least P75, if not P90.",
+  "underlying_evidence_group": "EG:ifc-2015-utility-solar-developers-guide",
+  "limitations": "Developer guide in a PPA context; not a lender requirement document.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; the DFI standard accepts either producing or verifying an EYA. Independent re-derivation is therefore not mandated by this guidance.",
+  "analyst_inference": "'Produced and/or verified' means verification-mode work (W2-type) is accepted as bankable in at least this DFI guidance. That leaves room for traceability to matter.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E10",
+  "source_id": "R3C-S05",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 required independent judgment: lender technical due diligence includes yield prediction",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "IFC says investors and project-finance lenders will require technical due diligence that at minimum includes a site visit and 'solar resource assessment and energy yield prediction with uncertainty analysis'. Most other items are phrased as 'review' (design, technology, contracts, grid, permits, financial model inputs). The process requires the sponsor to put documentation in an online data room and ends with a technical due diligence report.",
+  "relationship": "supports",
+  "evidence_type": "direct (DFI guidance)",
+  "population_and_setting": "Solar PV project financing (IFC guidance)",
+  "study_or_observation_method": "Guidance text",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "Section 14.4.1 'Technical Due Diligence', printed pp. 166-167",
+  "short_exact_excerpt": "Solar resource assessment and energy yield prediction with uncertainty analysis.",
+  "underlying_evidence_group": "EG:ifc-2015-utility-solar-developers-guide",
+  "limitations": "Does not specify whether lender's advisor must re-run the model or may review the sponsor's; descriptive guidance.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; the minimum lender TDD lists energy yield as a prediction task alongside review tasks. Wording is ambiguous on independence.",
+  "analyst_inference": "Together with E09, DFI guidance tolerates both modes. The W1/W2 split is therefore set deal by deal in the ToR, which public sources rarely show.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3C-E11",
+  "source_id": "R3C-S06",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 inaccurate advisor output drives review (rational discounting, W3)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5",
+   "X4"
+  ],
+  "observed_finding": "Back-testing 115 pre-construction EYAs for 94 wind plants (6 owners, 19 named consultants) against 707 plant-years, the study finds P50s overestimate production. It says neither EYA uncertainty nor the P90 is conservative enough. It found no statistically significant difference across consultants.",
+  "relationship": "supports",
+  "evidence_type": "peer-reviewed observational back-test",
+  "population_and_setting": "94 wind plants, 6 countries (76 US), CODs mostly 2012-2017",
+  "study_or_observation_method": "Comparison of EYA P50/P90 with long-term-corrected operational AEP",
+  "intervention_and_comparator": "EYA predictions vs realised long-term-corrected production",
+  "outcome_measured": "P50 bias; prediction-error SD vs stated EYA uncertainty; exceedance level of EYA P50",
+  "quantitative_result": "P50 bias -7.4% to -6.6% (post-2010 CODs, by scenario) vs -6.7% to -5.5% in Lunacek et al. 2018. Prediction-error SD without IAV 11.4%-13.1% vs EYA long-term uncertainty 7.5% +/- 2.1%. EYA P50 sits at about P22 of the corrected distribution (SD 30 pp). Consultant ANOVA p = 0.7263.",
+  "source_locator": "Abstract; Sections 3-4; Table 3 (as extracted)",
+  "short_exact_excerpt": "neither the energy yield assessment uncertainty nor the P90 is conservative enough",
+  "underlying_evidence_group": "EG:hammond-simley-2026-wind-aep-bias",
+  "limitations": "Wind (not solar); owner-contributed sample; extracted via fetch tool.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; gives an empirical basis for lenders' haircuts and own downside cases on wind EYAs.",
+  "analyst_inference": "Systematic bias shared across consultants (no significant consultant effect) suggests a second EYA by another consultant would not correct it. Back-test-based haircuts (W3/W4) would. This weakens the case that traceability removes discounting, but supports keeping structured EYA data for back-testing.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3C-E12",
+  "source_id": "R3C-S07",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.3 inaccurate/variable advisor output drives review; P2.4 component visibility",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "Comparing eight consultancies' estimates for 10 wind plants, consultants tended to overestimate gross energy and then compensated by overestimating losses. The mean P50 bias was near zero but plant-to-plant variability was significant, and disagreement between consultants stayed flat through the loss steps. Consultant differences could change LCOE by up to $10/MWh.",
+  "relationship": "supports",
+  "evidence_type": "peer-reviewed observational study",
+  "population_and_setting": "10 US wind plants; 8 consultancies",
+  "study_or_observation_method": "Comparison of consultant gross-to-net estimates with operational data",
+  "intervention_and_comparator": "Consultant estimates vs each other and vs operations",
+  "outcome_measured": "P50 bias by loss step; inter-consultant spread; LCOE impact",
+  "quantitative_result": "Mean P50 bias near zero; LCOE differences up to $10/MWh between consultants (abstract)",
+  "source_locator": "Abstract",
+  "short_exact_excerpt": "The disagreement between consultants, however, remains flat throughout the addition of losses.",
+  "underlying_evidence_group": "EG:todd2022-wind-eya-consultant-variability",
+  "limitations": "Abstract only; small sample.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; inter-consultant dispersion is material, so a single IE number carries model risk. That rationalises parallel assessments or second opinions.",
+  "analyst_inference": "Offsetting errors (gross too high, losses too high) are only visible with component-level disclosure (X4). A headline P50 can look right for the wrong reasons. This supports structured, decomposed reporting for detection, though no effort or detection outcome was measured.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "R3C-E13",
+  "source_id": "R3C-S08",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 inaccurate advisor output (bias) motivates discounting",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "DNV's validation of its own offshore energy assessments reports a slight negative bias in P50 predictions. Underperformance risk exceeds the chance of overperformance, partly attributed to curtailment, balancing payments and availability issues.",
+  "relationship": "supports",
+  "evidence_type": "vendor self-validation (summary)",
+  "population_and_setting": "Offshore wind projects assessed by DNV",
+  "study_or_observation_method": "Back-test (details not seen)",
+  "intervention_and_comparator": "Predicted vs actual",
+  "outcome_measured": "P50 bias",
+  "quantitative_result": null,
+  "source_locator": "Listing summary",
+  "short_exact_excerpt": "The results show a slight negative bias in the prediction of P50 energy output",
+  "underlying_evidence_group": "EG:dnv2023-offshore-eya-validation",
+  "limitations": "Summary only; magnitudes and n not seen; self-assessment.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; offshore wind; same mechanism.",
+  "analyst_inference": "Even a leading consultant's self-validation shows a downside skew, which is consistent with lender haircuts.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "R3C-E14",
+  "source_id": "R3C-S09",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 standardization/accreditation increases comparability; context for parallel assessments",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X3",
+   "X4"
+  ],
+  "observed_finding": "A vendor blog says yield uncertainty typically ranges 8% to 14%. It reports that in a DTU proficiency test on Walney 3 & 4, 28 participants' estimates had a standard deviation of about 3% but more than 10% between the most conservative and most optimistic results. It says ISO 17025 accreditation is increasingly referenced in lender technical advisor requirements, and that standards make results reproducible, traceable and comparable when applied rigorously.",
+  "relationship": "supports",
+  "evidence_type": "vendor blog citing a proficiency test (second-hand)",
+  "population_and_setting": "Wind yield assessment practice (Europe)",
+  "study_or_observation_method": "Vendor commentary",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Inter-participant spread",
+  "quantitative_result": "DTU Walney 3&4 test: 28 participants; SD ~3%; >10% min-max difference (second-hand)",
+  "source_locator": "Body text (fetch-tool summary)",
+  "short_exact_excerpt": "more than 10% difference between the most conservative and most optimistic results",
+  "underlying_evidence_group": "EG:3e-2026-standardisation-blog",
+  "limitations": "Vendor marketing; original DTU test not retrieved; claims about lender TA requirements are unquantified.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; inter-consultant spread of this size gives a lender reason to want a second view. Accreditation is a lender-side requirement that standardises process, not content.",
+  "analyst_inference": "Accreditation and standards target process comparability (P5.1). No evidence here that they reduce lender re-analysis.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3C-E15",
+  "source_id": "R3C-S10",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.4 adaptation to recipient's criteria (rating agency substitutes its own case); P1.3",
+  "work_type_tags": [
+   "W3",
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "According to a search-engine summary (article not accessed), S&P concluded that one-year P90 estimates are the best proxy for forecasting rated Spanish solar plants, and that one-year P50 and P75 estimates overstate future production for its rated portfolio.",
+  "relationship": "supports",
+  "evidence_type": "rating agency research (unverified summary)",
+  "population_and_setting": "S&P-rated Spanish solar plants",
+  "study_or_observation_method": "Back-test of P-values (details not seen)",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "not located (article blocked, HTTP 403)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:sp2024-spanish-solar-production-forecasts",
+  "limitations": "Search summary only; must be verified before use.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; if confirmed, a rating agency replaces the IE P50 with its own more conservative base case derived from back-testing.",
+  "analyst_inference": "Consistent with Fitch (already in the register): agencies adapt IE outputs to their own criteria, motivated by observed bias.",
+  "access_status": "other"
+ },
+ {
+  "evidence_id": "R3C-E16",
+  "source_id": "R3C-S12",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (what public lenders procure: 'independent engineer reviews')",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [],
+  "observed_finding": "According to a search-engine summary (PDF blocked), NY Green Bank's 2014 RFP for technical and engineering advisor services lists services 'as is common practice for a lender's engineer', including preparing independent engineer reviews for transaction due diligence.",
+  "relationship": "contextual",
+  "evidence_type": "procurement document (unverified summary)",
+  "population_and_setting": "NY Green Bank, 2014",
+  "study_or_observation_method": "Procurement text (not seen)",
+  "intervention_and_comparator": null,
+  "outcome_measured": null,
+  "quantitative_result": null,
+  "source_locator": "not located",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:nygb-2014-engineering-advisor-rfp",
+  "limitations": "Unverified; does not show whether EYA re-derivation was required.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence itself; a public lender procures a standing lender's engineer to produce 'reviews'. The split between review and independent EYA is unknown.",
+  "analyst_inference": "Weak; included as a lead.",
+  "access_status": "other"
+ }
+]

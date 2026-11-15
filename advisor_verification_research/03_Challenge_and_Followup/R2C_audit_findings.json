@@ -243,7 +243,8 @@
     "SRC025",
     "SRC026",
     "EVR046",
-    "EVR047"
+    "EVR047",
+    "WS2 report.md (Fitch Topaz: output beat base case for 7 years)"
    ],
    "description": "The renewable-domain figures most likely to be cited (Fitch Topaz DSCRs, 2% haircut, ~7% overperformance; kWh Analytics 5-13% underperformance vs P50) rest on fetch-tool summaries of secondary republications (MarketScreener; PV Tech). The R2 re-check failed: MarketScreener returns 'Access Denied' and PV Tech returns HTTP 403 to curl. Both items are correctly marked 'partial', but '~7%' is explicitly 'as returned by fetch tool' and the Fitch excerpt is not verified verbatim.",
    "verified_against": "curl to the SRC025 and SRC026 URLs on 2026-11-15 (blocked: 403 / Access Denied). Not bypassed.",
@@ -326,6 +327,20 @@
    "verified_against": "Recomputed from evidence.json by parsing the proposition IDs in proposition_tested and grouping by underlying_evidence_group.",
    "recommended_correction": "Add a 'distinct EGs' column to the digest header for each proposition (values above). Synthesis should cite EG counts, never item counts, as weight of evidence.",
    "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-25",
+   "issue_type": "causal_overclaim",
+   "ids_affected": [
+    "WS1 report.md (W2 heading)",
+    "EVR020",
+    "EVR003",
+    "EVR018"
+   ],
+   "description": "The WS1 report heading says 'W2: missing documentation causes extra work (the standards say so explicitly)'. The cited items (EVR020 ISA 402 A37; EVR003 model-description fallback; EVR018 ISA 610 documentation condition) are standards. They PRESCRIBE more procedures when documentation is missing. They do not observe extra hours or effort. The report's own qualification (opacity often produces shallower comfort review rather than rebuilding; EVR007, EVR026) cuts against the heading. Normative text is being presented as a causal effect.",
+   "verified_against": "02_Workstreams/WS1_audit_specialists/report.md lines 19-23, read against the cited item types (professional_standard).",
+   "recommended_correction": "Synthesis wording: 'Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.' Do not cite these items as evidence of effort magnitude for P1.2.",
+   "severity": "medium"
   }
  ],
  "verified_ok": [
@@ -389,6 +404,13 @@
    ],
    "what_was_checked": "Magesh: 'hallucinate between 17% and 33% of the time' (abstract); 17% / 33% in Figure 4",
    "locator": "arXiv 2405.20362v1 abstract; Fig. 4"
+  },
+  {
+   "ids": [
+    "EVR062"
+   ],
+   "what_was_checked": "Magesh benchmark sample size: 202 queries",
+   "locator": "arXiv 2405.20362v1 limitations section"
   },
   {
    "ids": [

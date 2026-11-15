@@ -91,10 +91,13 @@
     "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Lists alternatives without ranking their cost; does not show that documentation route is cheaper in practice.",
     "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Direct analog: advisor's proprietary models/tools; a clear model description may substitute for rebuilding.",
-    "analyst_inference": "Standard-level recognition that producer documentation of method can substitute for receiver reconstruction (alternative model) — the closest public-standard analog to P1.2/P2.1. When descriptions are absent, the fallback is building an alternative model: W2 reconstruction caused by opacity.",
+    "analyst_inference": "Standard-level recognition that producer documentation of method can substitute for receiver reconstruction (alternative model) — the closest public-standard analog to P1.2/P2.1. When descriptions are absent, the fallback is building an alternative model: W2 reconstruction caused by opacity. [R2C-25] Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.",
     "access_status": "full_text",
     "workstream": "WS1_audit_specialists",
-    "temp_id": "WS1-E03"
+    "temp_id": "WS1-E03",
+    "coordinator_corrections": [
+      "R2C-25"
+    ]
   },
   {
     "evidence_id": "EVR004",
@@ -294,7 +297,7 @@
     ],
     "concept_tags": [],
     "observed_finding": "Large-sample analysis of inspections data (descriptive, not causal): probability an engagement used one or more auditor-employed specialists rose by a statistically significant 4.8 percentage points post-implementation, and probability of using company specialists' work rose 10.5 pp, both driven by smaller firms. Among engagements using auditor-employed specialists, hours per engagement did not change significantly, but the share of their hours in the preliminary (planning) phase rose 2.3 pp.",
-    "relationship": "qualifies",
+    "relationship": "contextual",
     "evidence_type": "regulator_inspection_report (statistical analysis)",
     "population_and_setting": "PCAOB inspections data, pre vs post FY2020",
     "study_or_observation_method": "Descriptive pre/post comparison; no control group",
@@ -304,12 +307,15 @@
     "source_locator": "PCAOB Release 2022-008, pp. 7-8 (Large-Sample Statistical Analysis; fn 12) (two-column PDF layout; excerpt read across column line breaks)",
     "short_exact_excerpt": "the proportion of auditor-employed specialist hours allocated to the preliminary phase of the audit increased by 2.3 percentage points",
     "underlying_evidence_group": "EG:pcaob-specialists-pir-2022",
-    "limitations": "Confounded by COVID and other rule changes (staff explicitly say not causal).",
+    "limitations": "Confounded by COVID and other rule changes (staff explicitly say not causal). [R2C-15] Staff note that the +2.3 pp planning-phase shift is consistent with a broader shift of total audit hours to earlier phases, i.e., not attributable to the new requirements.",
     "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
     "analyst_inference": "Requirements moved specialist effort earlier (planning/scoping) without raising total specialist hours — consistent with effort being re-sequenced rather than eliminated.",
     "access_status": "full_text",
     "workstream": "WS1_audit_specialists",
-    "temp_id": "WS1-E10"
+    "temp_id": "WS1-E10",
+    "coordinator_corrections": [
+      "R2C-15"
+    ]
   },
   {
     "evidence_id": "EVR011",
@@ -553,10 +559,13 @@
     "underlying_evidence_group": "EG:isa610",
     "limitations": "Obligation; extent of savings when documentation is good not quantified.",
     "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
-    "analyst_inference": "Documentation of procedures and findings is a gating condition for any reliance: without it the receiver must do the work itself (W2). With it, the receiver still evaluates and re-performs some (W1). The standard thus separates W1 and W2 cleanly.",
+    "analyst_inference": "Documentation of procedures and findings is a gating condition for any reliance: without it the receiver must do the work itself (W2). With it, the receiver still evaluates and re-performs some (W1). The standard thus separates W1 and W2 cleanly. [R2C-25] Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.",
     "access_status": "partial",
     "workstream": "WS1_audit_specialists",
-    "temp_id": "WS1-E18"
+    "temp_id": "WS1-E18",
+    "coordinator_corrections": [
+      "R2C-25"
+    ]
   },
   {
     "evidence_id": "EVR019",
@@ -618,10 +627,13 @@
     "underlying_evidence_group": "EG:isa402",
     "limitations": "Guidance ('may'); no cost data.",
     "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
-    "analyst_inference": "Direct standard-level link: absence of a description of checks performed (X4) forces additional receiver work — the cleanest public example of W2 caused by missing coverage information.",
+    "analyst_inference": "Direct standard-level link: absence of a description of checks performed (X4) forces additional receiver work — the cleanest public example of W2 caused by missing coverage information. [R2C-25] Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.",
     "access_status": "partial",
     "workstream": "WS1_audit_specialists",
-    "temp_id": "WS1-E20"
+    "temp_id": "WS1-E20",
+    "coordinator_corrections": [
+      "R2C-25"
+    ]
   },
   {
     "evidence_id": "EVR021",
@@ -1014,12 +1026,15 @@
     "source_locator": "Commerford & Holman (2022) pp. 5, 16-22 (design, Table 2 discussion, fn 7)",
     "short_exact_excerpt": "we find that a less specific explanation constrains auditors' elaboration, resulting in judgments indicative of algorithm aversion",
     "underlying_evidence_group": "EG:commerford-holman-2022",
-    "limitations": "No ground truth for correct adjustment, so effects are on reliance, not accuracy; single case; working paper; CAQ funded.",
+    "limitations": "No ground truth for correct adjustment, so effects are on reliance, not accuracy; single case; working paper; CAQ funded. [R2C-22] Same research program as EVR191; distinct experiment.",
     "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Directly relevant to AI-generated advisor analysis reviewed by IC members: explanation detail changes how source cues (AI vs human) drive reliance.",
     "analyst_inference": "More specific explanations increased reviewer processing time (contrary to a simple time-saving P2.1) and shifted reliance from source heuristics toward content. This is evidence about appropriate-reliance mechanisms, not about reduced effort or improved detection.",
     "access_status": "full_text",
     "workstream": "WS1_audit_specialists",
-    "temp_id": "WS1-E33"
+    "temp_id": "WS1-E33",
+    "coordinator_corrections": [
+      "R2C-22"
+    ]
   },
   {
     "evidence_id": "EVR034",
@@ -1196,11 +1211,14 @@
     "short_exact_excerpt": "While analytical support may be delegated to third parties, management may not delegate its responsibility for decision-making and should ensure that prospective third parties are independent, reliable, and qualified.",
     "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
     "limitations": "Securities context; does not say how much review of third-party analysis is needed.",
-    "transferability_to_target_workflow": "Directly transferable principle for lenders using IE/market/insurance advisors: analysis may be outsourced; the decision and the vetting of the advisor's independence/qualifications may not.",
+    "transferability_to_target_workflow": "Directly transferable principle for lenders using IE/market/insurance advisors: analysis may be outsourced; the decision and the vetting of the advisor's independence/qualifications may not. [R2C-16] Plausible mechanism analog, not 'directly transferable': US bank investment-securities rule; needs verification against renewable-energy lender/IC policies.",
     "analyst_inference": "Important discrimination: the regulator does NOT require reconstruction of outside analysis; the non-delegable core is the decision plus advisor vetting. Retained work is therefore partly 'decision ownership' (W1) and partly 'advisor qualification' review, not necessarily re-performance.",
     "access_status": "full_text",
     "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E06"
+    "temp_id": "WS2-E06",
+    "coordinator_corrections": [
+      "R2C-16"
+    ]
   },
   {
     "evidence_id": "EVR040",
@@ -1376,11 +1394,14 @@
     "short_exact_excerpt": "One-year P90 energy production with other potential production adjustments",
     "underlying_evidence_group": "EG:fitch-renewable-criteria-2012-presentation",
     "limitations": "2012 criteria; current criteria may differ. Slides, not the criteria document.",
-    "transferability_to_target_workflow": "Core mechanism transfers directly: credit receivers re-cut IE output into their own cases rather than adopting the IE's base case. What transfers to an advisor product is the need to supply exceedance distributions (P50/P90/P99, one-year vs ten-year) and adjustable inputs so the receiver can apply its own criteria without reconstruction.",
+    "transferability_to_target_workflow": "Core mechanism transfers directly: credit receivers re-cut IE output into their own cases rather than adopting the IE's base case. What transfers to an advisor product is the need to supply exceedance distributions (P50/P90/P99, one-year vs ten-year) and adjustable inputs so the receiver can apply its own criteria without reconstruction. [R2C-16] Rests on 2012 Fitch presentation slides; current criteria not retrieved; plausible mechanism analog requiring verification against current rating criteria and lender practice.",
     "analyst_inference": "This is W4 rather than W2/W3: the agency uses the IE's distribution as given and applies house haircuts. An advisor output that exposes uncertainty (X4) in the receiver's required format could reduce reconstruction but the adaptation step itself is policy and persists.",
     "access_status": "full_text",
     "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E12"
+    "temp_id": "WS2-E12",
+    "coordinator_corrections": [
+      "R2C-16"
+    ]
   },
   {
     "evidence_id": "EVR046",
@@ -1404,12 +1425,15 @@
     "source_locator": "Rating action text (paragraphs on rating case and performance); exact paragraph not pinned",
     "short_exact_excerpt": "Fitch has maintained the production haircut at 2% given that this is a single-site project, in line with peer projects.",
     "underlying_evidence_group": "EG:fitch-topaz-rac-2024",
-    "limitations": "Single asset; read via fetch tool with truncated quotes; no mention of the independent engineer.",
+    "limitations": "Single asset; read via fetch tool with truncated quotes; no mention of the independent engineer. [R2C-18] Not re-verifiable in Round 2 (blocked); figures come from a fetch-tool summary of a secondary republication; treat as unverified secondary figures, not headline numbers.",
     "transferability_to_target_workflow": "Shows house haircuts are peer-calibrated criteria applied uniformly, not responses to a specific IE error. In the target workflow, lender haircuts on IE P50/P90 would similarly persist even with a perfect, fully traceable IE report.",
     "analyst_inference": "Counterweight to reading haircuts as evidence of advisor inaccuracy (W3): here the receiver's adjusted case was conservative relative to outcomes. Receiver adaptation (W4) is criteria-driven and would not be removed by traceability.",
     "access_status": "partial",
     "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E13"
+    "temp_id": "WS2-E13",
+    "coordinator_corrections": [
+      "R2C-18"
+    ]
   },
   {
     "evidence_id": "EVR047",
@@ -1436,12 +1460,15 @@
     "source_locator": "PV Tech article body (not paginated)",
     "short_exact_excerpt": "operational solar systems underperformed P50 estimates by between 5 – 13%",
     "underlying_evidence_group": "EG:kwh-analytics-sgi-2021",
-    "limitations": "Secondary report, read via fetch tool; does not identify whether P50s came from lender IEs or sponsor consultants; vendor-produced dataset.",
+    "limitations": "Secondary report, read via fetch tool; does not identify whether P50s came from lender IEs or sponsor consultants; vendor-produced dataset. [R2C-18] Not re-verifiable in Round 2 (blocked); figures come from a fetch-tool summary of a secondary republication; treat as unverified secondary figures, not headline numbers.",
     "transferability_to_target_workflow": "Highly relevant to renewable credit: a documented systematic bias in outside energy forecasts gives lenders a rational (not ritual) reason to discount or re-check yield reports. Needs verification against the original kWh report and whether bias persisted after 2021.",
     "analyst_inference": "Supports P1.3 as a reason review persists in this specific domain, and shows X5 (correctness) is distinct from X3/X4: a perfectly traceable P50 can still be biased. Traceability would help detect method choices behind bias, but only outcome data revealed the bias.",
     "access_status": "partial",
     "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E14"
+    "temp_id": "WS2-E14",
+    "coordinator_corrections": [
+      "R2C-18"
+    ]
   },
   {
     "evidence_id": "EVR048",
@@ -1796,8 +1823,8 @@
       "X3",
       "X4"
     ],
-    "observed_finding": "DOE OIG found the Loan Programs Office contracts third-party advisors for financial/credit, engineering/technical and market reports and relies on their work as essential components of the loan application process while prospective borrowers pay; a limited pool of qualified firms means some advisors also work for applicants; for 18 projects reviewed, LPO could identify the engineering advisors for only 3 and the marketing/financial advisors for none; reliance on advisors' self-identification of conflicts 'creates a blind spot'.",
-    "relationship": "challenges",
+    "observed_finding": "DOE OIG found the Loan Programs Office contracts third-party advisors for financial/credit, engineering/technical and market reports and relies on their work as essential components of the loan application process while prospective borrowers pay; a limited pool of qualified firms means some advisors also work for applicants; for 18 projects reviewed, LPO could identify the engineering advisors for only 3 and the marketing/financial advisors for none; reliance on advisors' self-identification of conflicts 'creates a blind spot'. [R2C-06 clarification] For the 18 projects reviewed, LPO could identify the engineering third-party advisors working for prospective borrowers on only 3, and marketing/financial borrower-side advisors on none, so it could not check whether individuals supporting LPO also worked for applicants.",
+    "relationship": "supports",
     "evidence_type": "regulator inspection report (audit with judgmental sample)",
     "population_and_setting": "US DOE Loan Programs Office loan application processing (18 projects; 12 of 66 advisor agreements sampled)",
     "study_or_observation_method": "Audit: interviews, document review, judgmental sampling",
@@ -1812,7 +1839,10 @@
     "analyst_inference": "Challenges a blanket assumption that recipients over-review outside analysis: here the observed failure mode is insufficient verification of advisor independence. Traceability that includes advisor identity/engagement provenance (a form of X3/X4 about the producer) could matter as much as traceability of the analysis itself.",
     "access_status": "full_text",
     "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E26"
+    "temp_id": "WS2-E26",
+    "coordinator_corrections": [
+      "R2C-06: relationship corrected to supports (relative to its P-NEW); borrower-side wording added"
+    ]
   },
   {
     "evidence_id": "EVR060",
@@ -1992,7 +2022,7 @@
     "study_or_observation_method": "Randomized controlled trial (within-subject task assignment per secondary accounts).",
     "intervention_and_comparator": "RAG legal tool vs reasoning model vs no AI.",
     "outcome_measured": "Graded quality, time/productivity, hallucinations.",
-    "quantitative_result": "Abstract (paraphrased by fetch tool): productivity gains roughly 50% to 130% in five of six tasks. Hallucination counts reported in Law360 coverage via search summary (UNVERIFIED): Vincent AI 3, o1-preview 11, no AI 4. Sample size not verified.",
+    "quantitative_result": "Superseded by EVR114 (full text read by WS4); figures in this abstract-level item were unverified.",
     "source_locator": "not located (abstract only)",
     "short_exact_excerpt": null,
     "underlying_evidence_group": "EG:schwarcz2025-ai-powered-lawyering-rct",
@@ -2001,7 +2031,10 @@
     "analyst_inference": "Source grounding appears to trade analytical depth for fidelity; neither result speaks to how much the downstream supervisor must re-check.",
     "access_status": "abstract_only",
     "workstream": "WS3_legal_engineering",
-    "temp_id": "WS3-E04"
+    "temp_id": "WS3-E04",
+    "coordinator_corrections": [
+      "R2C-05: superseded by EVR114"
+    ]
   },
   {
     "evidence_id": "EVR066",
@@ -2123,11 +2156,14 @@
     "short_exact_excerpt": "MSL's transparency in its proposed ESI search protocol made it easier for the Court to approve the use of predictive coding.",
     "underlying_evidence_group": "EG:dasilvamoore2012-tar",
     "limitations": "Approval tied to this case's protocol and party agreement; does not measure realized recall.",
-    "transferability_to_target_workflow": "Strong structural analog: producer (responding party/vendor) -> receiving professional (opposing counsel/court) -> decision. Acceptance rests on disclosed process, sampling of what was excluded (checks with no findings), and opportunity to challenge. For diligence: disclose what was reviewed, how, and a sample of what was screened out.",
+    "transferability_to_target_workflow": "Strong structural analog: producer (responding party/vendor) -> receiving professional (opposing counsel/court) -> decision. Acceptance rests on disclosed process, sampling of what was excluded (checks with no findings), and opportunity to challenge. For diligence: disclose what was reviewed, how, and a sample of what was screened out. [R2C-16] Differences: high-volume document classification with statistical validation and an adversary; diligence judgments are low-volume and bespoke. Needs verification that recipients would accept coverage evidence in place of item review.",
     "analyst_inference": "Shows an institution replacing item-level review with process-plus-sample validation when volume makes exhaustive review impractical and the alternative (manual review) is itself imperfect.",
     "access_status": "full_text",
     "workstream": "WS3_legal_engineering",
-    "temp_id": "WS3-E08"
+    "temp_id": "WS3-E08",
+    "coordinator_corrections": [
+      "R2C-16"
+    ]
   },
   {
     "evidence_id": "EVR070",
@@ -2267,7 +2303,7 @@
       "X5"
     ],
     "observed_finding": "The article opens by quoting the Sedona Conference that there 'appears to be a myth' that manual human review is as accurate and complete as possible and the gold standard, and concludes that the myth that exhaustive manual review is the most effective and therefore most defensible approach is strongly refuted; human assessors missed between 20% and 75% of relevant documents.",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "secondary analysis plus professional-body statement",
     "population_and_setting": "E-discovery practice, ca. 2009-2011.",
     "study_or_observation_method": "As WS3-E12.",
@@ -2282,7 +2318,10 @@
     "analyst_inference": "Legal profession's attachment to exhaustive review was defended on defensibility grounds; courts shifted once validation evidence offered an alternative defensibility route.",
     "access_status": "full_text",
     "workstream": "WS3_legal_engineering",
-    "temp_id": "WS3-E13"
+    "temp_id": "WS3-E13",
+    "coordinator_corrections": [
+      "R2C-10: study does not observe why manual review persisted"
+    ]
   },
   {
     "evidence_id": "EVR075",
@@ -2593,11 +2632,14 @@
     "short_exact_excerpt": "objective evidence of quality furnished by the contractor or subcontractor, inspection at the contractor or subcontractor source, and examination of products upon delivery.",
     "underlying_evidence_group": "EG:nrc-10cfr50-appB",
     "limitations": "Obligation only; no data on how much re-checking occurs in practice.",
-    "transferability_to_target_workflow": "Closest regulatory analog to the thesis: the buyer accepts outside work using the supplier's documented evidence and periodic audits of the supplier's process, graded by importance. Diligence analog: lenders accepting IE work based on IE qualification and documented scope rather than redoing it.",
+    "transferability_to_target_workflow": "Closest regulatory analog to the thesis: the buyer accepts outside work using the supplier's documented evidence and periodic audits of the supplier's process, graded by importance. Diligence analog: lenders accepting IE work based on IE qualification and documented scope rather than redoing it. [R2C-16] Differences: nuclear QA regulation; needs verification of analogous grading in diligence.",
     "analyst_inference": "Supports a two-level design: evidence-of-quality per deliverable (X3) plus periodic supplier-process assessment (X4), with intensity graded by consequence.",
     "access_status": "full_text",
     "workstream": "WS3_legal_engineering",
-    "temp_id": "WS3-E23"
+    "temp_id": "WS3-E23",
+    "coordinator_corrections": [
+      "R2C-16"
+    ]
   },
   {
     "evidence_id": "EVR085",
@@ -2654,11 +2696,14 @@
     "short_exact_excerpt": "More is not necessarily better. For example, presenting graphical results of key maximum response quantities with explanations of \"what it means\" is far more effective than submitting binders or computer-storage media full of raw analysis data.",
     "underlying_evidence_group": "EG:peer-tbi-2017-guidelines",
     "limitations": "Expert recommendation, not measured effect.",
-    "transferability_to_target_workflow": "Directly supports curated evidence linkage (key assumptions flagged, criteria agreed upfront, interpretive summaries with worked examples) over data dumps. Energy diligence analog: agreeing the IC's acceptance criteria (Basis of Design) with the advisor before work starts.",
+    "transferability_to_target_workflow": "Directly supports curated evidence linkage (key assumptions flagged, criteria agreed upfront, interpretive summaries with worked examples) over data dumps. Energy diligence analog: agreeing the IC's acceptance criteria (Basis of Design) with the advisor before work starts. [R2C-16] Guideline prescribes curated linkage; it does not show that curation reduces reviewer effort.",
     "analyst_inference": "Distinguishes good traceability (prioritized, interpreted, tied to agreed criteria) from raw provenance volume; the agreed-criteria step is a W4 mechanism (adapting to recipient criteria up front).",
     "access_status": "full_text",
     "workstream": "WS3_legal_engineering",
-    "temp_id": "WS3-E25"
+    "temp_id": "WS3-E25",
+    "coordinator_corrections": [
+      "R2C-16"
+    ]
   },
   {
     "evidence_id": "EVR087",
@@ -2798,9 +2843,9 @@
       "X3"
     ],
     "observed_finding": "Showing retrieved Wikipedia passages and showing ChatGPT explanations produced statistically indistinguishable overall human fact-checking accuracy, but reading passages took about 2.5x longer per claim than reading the explanation.",
-    "relationship": "challenges",
+    "relationship": "qualifies",
     "evidence_type": "randomized between-subjects online experiment",
-    "population_and_setting": "80 Prolific crowdworkers (16 per condition), 20 adversarial FoolMeTwice claims each, 1500 judgments",
+    "population_and_setting": "80 Prolific crowdworkers (16 per condition), 20 adversarial FoolMeTwice claims each, 1500 judgments [R2C-13] 80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims.",
     "study_or_observation_method": "Five conditions (baseline, retrieval, explanation, contrastive explanation, retrieval+explanation); accuracy and time per claim recorded; t-tests",
     "intervention_and_comparator": "Top-10 retrieved Wikipedia passages (X3) vs ChatGPT natural-language explanation (X1) vs no assistance",
     "outcome_measured": "Binary verification accuracy; minutes per claim",
@@ -2808,12 +2853,15 @@
     "source_locator": "Section 5.1 (RQ1 results), Figure 2",
     "short_exact_excerpt": "Showing explanations allows significantly faster decision time than showing retrieved passages",
     "underlying_evidence_group": "EG:si2024-llm-explanation-vs-retrieval-factcheck",
-    "limitations": "Crowdworkers; Wikipedia sources; condition n=16; time differences may reflect skimming rather than verification.",
+    "limitations": "Crowdworkers; Wikipedia sources; condition n=16; time differences may reflect skimming rather than verification. [R2C-13] Comparison is retrieval vs explanation; no-evidence baseline time not reported.",
     "transferability_to_target_workflow": "Mechanism (how source access vs AI narrative changes checking time and error catch) plausibly transfers to a diligence reviewer checking an advisor's claims against data-room documents. Consequential differences: lay crowdworkers, no accountability, short binary items, no professional priors; diligence claims are multi-document and judgment-laden. Needs verification with professional reviewers on realistic advisor memos.",
     "analyst_inference": "Raw source access is the slower path; the time saving offered by AI narratives is real but (see E02) is bought with loss of error detection when the narrative is wrong. Traceability did not reduce effort relative to a narrative summary here.",
     "access_status": "full_text",
     "workstream": "WS4_traceability_verification_experiments",
-    "temp_id": "WS4-E01"
+    "temp_id": "WS4-E01",
+    "coordinator_corrections": [
+      "R2C-13"
+    ]
   },
   {
     "evidence_id": "EVR092",
@@ -2833,7 +2881,7 @@
     "observed_finding": "When the ChatGPT explanation was wrong, users shown the explanation scored below the no-assistance baseline and below users shown retrieved passages; users spent similar time on claims with correct and wrong explanations. Users' stated reasons included that explanations looked convincing, especially with quotes from retrieved passages, even when quotes or reasoning were wrong.",
     "relationship": "supports",
     "evidence_type": "randomized between-subjects online experiment (conditional analysis)",
-    "population_and_setting": "Same as WS4-E01",
+    "population_and_setting": "Same as WS4-E01 [R2C-13] 80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims.",
     "study_or_observation_method": "Responses split by whether the ChatGPT explanation was correct",
     "intervention_and_comparator": "Explanation vs retrieval vs baseline, conditioned on explanation correctness",
     "outcome_measured": "Accuracy conditional on AI explanation correctness; time",
@@ -2866,7 +2914,7 @@
     "observed_finding": "Combining retrieved passages with an LLM explanation gave no complementary benefit over passages alone, took slightly longer, and lowered accuracy when the explanation was wrong. Contrastive (pro and con) explanations improved accuracy when the standard explanation was wrong but reduced it when the standard explanation was correct, and did not beat retrieval.",
     "relationship": "qualifies",
     "evidence_type": "randomized between-subjects online experiment",
-    "population_and_setting": "Same as WS4-E01",
+    "population_and_setting": "Same as WS4-E01 [R2C-13] 80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims.",
     "study_or_observation_method": "Retrieval+Explanation and Contrastive Explanation conditions compared with Retrieval",
     "intervention_and_comparator": "Retrieval+Explanation vs Retrieval; Contrastive vs non-contrastive explanation",
     "outcome_measured": "Accuracy conditional on explanation correctness; minutes per claim",
@@ -2926,13 +2974,13 @@
       "X5"
     ],
     "observed_finding": "Citation precision was inversely correlated with perceived utility across systems: responses rated more helpful were often those with inaccurate citations; authors hypothesize that systems that copy closely from sources score higher precision but lower perceived utility.",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "correlational analysis within human evaluation",
     "population_and_setting": "Same as WS4-E04",
     "study_or_observation_method": "Pearson correlation between system citation precision and perceived utility",
     "intervention_and_comparator": null,
     "outcome_measured": "Perceived utility (Likert) vs citation precision",
-    "quantitative_result": "r = -0.96 (appears to be computed across system-level averages; e.g., Bing Chat highest precision, lowest perceived utility; YouChat lowest precision).",
+    "quantitative_result": "r = -0.96 (appears to be computed across system-level averages; e.g., Bing Chat highest precision, lowest perceived utility; YouChat lowest precision). [R2C-12] Computed over 4 generative search engines (system-level means; no CI reported).",
     "source_locator": "Section 4.3, Figure 4",
     "short_exact_excerpt": "citation precision is inversely correlated with perceived utility (r = -0.96); the responses that seem more helpful are often those with inaccurate citations",
     "underlying_evidence_group": "EG:liu2023-generative-search-verifiability",
@@ -2941,7 +2989,10 @@
     "analyst_inference": "Supports the trust-vs-appropriate-reliance distinction: perceived usefulness and verifiability can move in opposite directions.",
     "access_status": "full_text",
     "workstream": "WS4_traceability_verification_experiments",
-    "temp_id": "WS4-E05"
+    "temp_id": "WS4-E05",
+    "coordinator_corrections": [
+      "R2C-12"
+    ]
   },
   {
     "evidence_id": "EVR096",
@@ -2973,7 +3024,10 @@
     "analyst_inference": "Supports a conditional version of P2.1/P2.2: evidence that is cheap to check against the claim (a 'certificate') can lower effort and raise error detection; evidence that is costly to map onto the claim does not.",
     "access_status": "full_text",
     "workstream": "WS4_traceability_verification_experiments",
-    "temp_id": "WS4-E06"
+    "temp_id": "WS4-E06",
+    "coordinator_corrections": [
+      "R2C-20: intervals are Bayesian credible intervals"
+    ]
   },
   {
     "evidence_id": "EVR097",
@@ -3361,7 +3415,7 @@
     "observed_finding": "Showing symbolic-reference annotations linking each number in an LLM-generated summary to its source table cell reduced time to decide whether the summary contained an error by about 20%, with error-identification accuracy essentially unchanged; participants reported more confidence and less effort.",
     "relationship": "supports",
     "evidence_type": "within-subject online experiment",
-    "population_and_setting": "60 Prolific annotators; 4 Rotowire basketball summaries each (2 with annotations, 2 without), half containing a single planted numeric inconsistency",
+    "population_and_setting": "60 Prolific annotators; 4 Rotowire basketball summaries each (2 with annotations, 2 without), half containing a single planted numeric inconsistency [R2C-14] n=60 Prolific annotators; synthetic/structured-data summaries; no significance tests reported; equivalence of accuracy not tested.",
     "study_or_observation_method": "Timed correct/incorrect decision, Likert confidence and effort, exit survey",
     "intervention_and_comparator": "Hover-to-source provenance annotations vs plain LLM text with source table available",
     "outcome_measured": "Error-identification accuracy; decision time; perceived confidence and effort",
@@ -3374,7 +3428,10 @@
     "analyst_inference": "Positive case for P2.1 with preserved (not improved) detection; the provenance link was exact and correct, which may be the key condition.",
     "access_status": "full_text",
     "workstream": "WS4_traceability_verification_experiments",
-    "temp_id": "WS4-E19"
+    "temp_id": "WS4-E19",
+    "coordinator_corrections": [
+      "R2C-14"
+    ]
   },
   {
     "evidence_id": "EVR110",
@@ -3587,7 +3644,7 @@
     ],
     "concept_tags": [],
     "observed_finding": "Among workers in 11 AI-exposed Danish occupations, AI chatbots generated new workloads for about 12% of users even without employer initiatives (about 5 pp more of the same tasks, 8 pp entirely new tasks), rising to roughly 18% performing new tasks in workplaces with active chatbot initiatives. In free-text classification, about 42% of new AI-related tasks were content generation, 35% were AI Quality Review and AI Ethics & Compliance (oversight), and AI Integration was the single most common category (~26% of all new tasks). 4% of non-users also reported new AI-related workloads.",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "linked survey-administrative data; self-reported task change (observational)",
     "population_and_setting": "About 25,000 workers in ~7,000 Danish workplaces across 11 exposed occupations (incl. accountants, financial advisors, legal professionals), late-2024 survey round",
     "study_or_observation_method": "Large representative survey linked to registers; free-text responses on new tasks coded into six categories",
@@ -3599,10 +3656,13 @@
     "underlying_evidence_group": "EG:humlum-vestergaard2025-denmark-chatbots",
     "limitations": "Self-reported; share of new tasks among the minority of users who report new tasks, not share of total work time; general chatbot use, not integration of an outside advisor's analysis.",
     "transferability_to_target_workflow": "Mechanism (AI output creates oversight and integration tasks for the receiving professional) plausibly transfers to analysts receiving AI-assisted diligence outputs. Differences: Danish general workforce; no decision-authority/consequence-bearer structure measured. Needs verification: whether review tasks in investment diligence scale with volume of AI-generated material.",
-    "analyst_inference": "Large-sample evidence that AI-generated output adds review/oversight and integration work for recipients; it does not show the net balance for any specific workflow.",
+    "analyst_inference": "[Rewritten per R2C-07] Survey self-reports from chatbot users (not recipients) indicate that new tasks include oversight/QA of AI output; the category also includes detecting others' AI use (e.g., teachers). Shows the existence and share of reported new tasks, not measured review hours or net workload.",
     "access_status": "full_text",
     "workstream": "WS5_workflow_integration_adoption",
-    "temp_id": "WS5-E01"
+    "temp_id": "WS5-E01",
+    "coordinator_corrections": [
+      "R2C-07"
+    ]
   },
   {
     "evidence_id": "EVR117",
@@ -3647,7 +3707,7 @@
       "X5"
     ],
     "observed_finding": "The paper's occupation-specific examples of new AI-related tasks for accountants include drafting financial statements and reports with AI for initial content and reviewing AI-generated financial outputs for accuracy and completeness (classified as AI Quality Review), and ensuring AI-driven accounting processes comply with regulations (AI Ethics & Compliance).",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "coded free-text survey responses (illustrative examples)",
     "population_and_setting": "Danish accountants (one of 11 surveyed occupations)",
     "study_or_observation_method": "Classification of free-text new-task descriptions",
@@ -3658,11 +3718,14 @@
     "short_exact_excerpt": "Reviewing AI-generated financial outputs for accuracy and completeness (AI Quality Review)",
     "underlying_evidence_group": "EG:humlum-vestergaard2025-denmark-chatbots",
     "limitations": "Illustrative examples; prevalence by task not given for accountants in the text read.",
-    "transferability_to_target_workflow": "Close task analog: financial outputs drafted by AI require accuracy/completeness review by the accountable professional, analogous to analysts reviewing AI-drafted model outputs or memo sections.",
+    "transferability_to_target_workflow": "Close task analog: financial outputs drafted by AI require accuracy/completeness review by the accountable professional, analogous to analysts reviewing AI-drafted model outputs or memo sections. [R2C-07/R2C-16] Self-reported new tasks among AI users; not measured review hours of recipients of outside analysis.",
     "analyst_inference": "Shows the review burden is named by finance workers themselves as a new task category, i.e., drafting effort moves into checking effort.",
     "access_status": "full_text",
     "workstream": "WS5_workflow_integration_adoption",
-    "temp_id": "WS5-E03"
+    "temp_id": "WS5-E03",
+    "coordinator_corrections": [
+      "R2C-07"
+    ]
   },
   {
     "evidence_id": "EVR119",
@@ -3786,7 +3849,7 @@
     "source_locator": "BetterUp blog sections 'How common is workslop?' and 'The hidden tax of AI misuse'",
     "short_exact_excerpt": "Employees reported spending an average of 1 hour and 51 minutes dealing with each instance of workslop, about 20 minutes longer than if the sender had done the work themselves.",
     "underlying_evidence_group": "EG:betterup-stanford-workslop-2025",
-    "limitations": "Vendor-run survey summarized in a blog; inconsistent N; recall-based time estimates; counterfactual 'sender doing the work' is the recipient's guess; HBR article body not accessed.",
+    "limitations": "Vendor-run survey summarized in a blog; inconsistent N; recall-based time estimates; counterfactual 'sender doing the work' is the recipient's guess; HBR article body not accessed. [R2C-03] Self-reported estimates; convenience survey; vendor-affiliated research.",
     "transferability_to_target_workflow": "Mechanism: polished-looking but substantively weak deliverables move rework to the receiving professional (W3), and polish (X1) does not equal correctness (X5). Directly relevant if advisor deliverables are AI-assisted. Needs verification with observed time data in diligence contexts.",
     "analyst_inference": "Stated-preference evidence that AI-generated deliverables can increase, not reduce, recipient work when quality is low; it is about low-quality output, not about traceable output.",
     "access_status": "partial",
@@ -3807,13 +3870,13 @@
     ],
     "concept_tags": [],
     "observed_finding": "Small time savings were observed across most use cases, with written tasks presenting the largest savings; scheduling and image generation took additional time, primarily because Copilot could not produce high-quality outputs or because the task was additional workload only done because users had Copilot. The evaluation did not find evidence that time savings led to improved productivity, and control-group colleagues had not observed productivity improvements.",
-    "relationship": "challenges",
+    "relationship": "qualifies",
     "evidence_type": "buyer-authored evaluation (diary study, interviews, observed tasks; no counterfactual for diary data)",
     "population_and_setting": "UK Department for Business and Trade staff, 1,000 M365 Copilot licences, Oct-Dec 2024 pilot",
     "study_or_observation_method": "Diary study (32% response), 19 interviews (13 pilot, 6 control), observed tasks; time savings adjusted for unused outputs and novel tasks",
     "intervention_and_comparator": "Copilot use vs self-estimated time without Copilot; pilot vs control-group colleagues",
     "outcome_measured": "Time saved per task, productivity (limited data), satisfaction",
-    "quantitative_result": "Table 5 mean hours saved per task (unadjusted / adjusted for unused outputs / adjusted for unused outputs and novel tasks): drafting written documents 1.5/1.4/1.3; summarising research 1.6/1.4/0.8; data analysis 2/1.7/0.6; editing written documents 1.7/1.6/0.4; reviewing code 1.6/1.6/0.3; writing an email 0.2/0.2/0.2; presentations 0.8/0.3/0; generating images 1.5/0.3/-0.5; scheduling 0/-0.5/-0.6. Raw box plots centred around 0 hours saved. No productivity improvement evidence. (Self-reported diary data; no CIs.)",
+    "quantitative_result": "Table 5 mean hours saved per task (unadjusted / adjusted for unused outputs / adjusted for unused outputs and novel tasks): drafting written documents 1.5/1.4/1.3; summarising research 1.6/1.4/0.8; data analysis 2/1.7/0.6; editing written documents 1.7/1.6/0.4; reviewing code 1.6/1.6/0.3; writing an email 0.2/0.2/0.2; presentations 0.8/0.3/0; generating images 1.5/0.3/-0.5; scheduling 0/-0.5/-0.6. Raw box plots centred around 0 hours saved. No productivity improvement evidence. (Self-reported diary data; no CIs.) [R2C-11] Total N = 1,411 diary entries; N per task e.g. drafting 114, data analysis 47, summarising research 45, presentations 78, generating images 22, reviewing code 17, scheduling 14; self-reported; no CIs.",
     "source_locator": "Executive summary 'Time savings' (PDF p.5); 'Time saving findings' Chart H and Table 5 (PDF p.28-30)",
     "short_exact_excerpt": "The evaluation did not find evidence that time savings have led to improved productivity, and control group participants had not observed productivity improvements from colleagues taking part in the M365 Copilot pilot.",
     "underlying_evidence_group": "EG:ukdbt2025-m365-copilot-evaluation",
@@ -3822,7 +3885,10 @@
     "analyst_inference": "Counterevidence to assuming workflow-embedded AI reduces total work. Adjusting for unused outputs and novel (AI-induced) tasks cut reported savings sharply (e.g., data analysis 2.0 -> 0.6 h; presentations 0.8 -> 0 h), which is itself evidence that some apparent savings are offset by discarded output and new work. Secondary press figures of '35 minutes longer' for scheduling were not found in Table 5 and should not be reused.",
     "access_status": "full_text",
     "workstream": "WS5_workflow_integration_adoption",
-    "temp_id": "WS5-E08"
+    "temp_id": "WS5-E08",
+    "coordinator_corrections": [
+      "R2C-11"
+    ]
   },
   {
     "evidence_id": "EVR124",
@@ -4151,11 +4217,14 @@
     "short_exact_excerpt": "Whilst the output needs careful review by an A&O lawyer, Harvey can help generate insights, recommendations and predictions based on large volumes of data",
     "underlying_evidence_group": "EG:ao2023-harvey-rollout",
     "limitations": "Promotional; exclusive partnership; usage counts not equal to value; no data on review time.",
-    "transferability_to_target_workflow": "Accountable professional buyer adopted while explicitly retaining professional review; analogous to investors adopting diligence tools while retaining analyst/IC review.",
+    "transferability_to_target_workflow": "Accountable professional buyer adopted while explicitly retaining professional review; analogous to investors adopting diligence tools while retaining analyst/IC review. [R2C-16] Firm announcement; shows retained review policy, not effort.",
     "analyst_inference": "Adoption (RQ6) occurred without any public claim of reduced review; buying decisions may rest on drafting/search speed rather than reduced verification.",
     "access_status": "full_text",
     "workstream": "WS5_workflow_integration_adoption",
-    "temp_id": "WS5-E19"
+    "temp_id": "WS5-E19",
+    "coordinator_corrections": [
+      "R2C-16"
+    ]
   },
   {
     "evidence_id": "EVR135",
@@ -4352,7 +4421,7 @@
       "X5"
     ],
     "observed_finding": "Allowing early-2025 AI tools increased task completion time by 19% on average for experienced developers working in their own mature repositories; nearly all quantiles of implementation time were longer when AI was allowed.",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "causal estimate (randomized at task level); observed behavior",
     "population_and_setting": "16 experienced open-source developers (avg. 5 years on their repository), 246 real issues in mature projects",
     "study_or_observation_method": "Randomized controlled trial; each issue randomly assigned AI-allowed vs AI-disallowed; screen recordings for a subset",
@@ -4362,12 +4431,15 @@
     "source_locator": "Abstract (p.1); Section 3 Results; Figure 1",
     "short_exact_excerpt": "Surprisingly, we find that allowing AI actually increases completion time by 19%—AI tooling slowed developers down.",
     "underlying_evidence_group": "EG:metr2025-oss-dev-rct",
-    "limitations": "Developers act as both producer and reviewer of AI output; small N; high-quality-standard repositories with extensive implicit context; tools of early 2025.",
+    "limitations": "Developers act as both producer and reviewer of AI output; small N; high-quality-standard repositories with extensive implicit context; tools of early 2025. [R2C-08] Producer-side AI use by experts in their own repositories, not receipt of outside analysis; slowdown is multi-causal per the authors; CI shown in a figure, not extracted.",
     "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Mechanism that transfers: when the reviewer has deep implicit context and high quality standards, time spent prompting, waiting, reviewing and repairing AI output can exceed time saved. Similar to a credit team with deep project knowledge reviewing AI-assisted advisor output. Differences: code is executable/testable; diligence conclusions are not. Needs verification: whether experienced deal teams show the same net slowdown when AI-generated analysis is in the loop.",
     "analyst_inference": "Strong disconfirming evidence for the naive claim that AI assistance reduces expert effort. It concerns AI assistance generally, not traceability; it does not show that traceability would fail, but it shows that review/repair of imperfect output can dominate.",
     "access_status": "full_text",
     "workstream": "WS6_rivals_failures_disconfirming",
-    "temp_id": "WS6-E01"
+    "temp_id": "WS6-E01",
+    "coordinator_corrections": [
+      "R2C-08"
+    ]
   },
   {
     "evidence_id": "EVR142",
@@ -4454,12 +4526,15 @@
     "source_locator": "Abstract; Section 3.2 'Quality Disruptor - Outside the frontier' (pp.14-15); Table 4, Table 5; Section 3.3 (p.17)",
     "short_exact_excerpt": "Professionals who had a negative performance when using AI tended to blindly adopt its output and interrogate it less",
     "underlying_evidence_group": "EG:dellacqua2023-bcg-jagged-frontier",
-    "limitations": "Single designed outside-frontier task with a known right answer; producers, not recipients, were studied.",
+    "limitations": "Single designed outside-frontier task with a known right answer; producers, not recipients, were studied. [R2C-01] Outside-frontier task was deliberately designed so that GPT-4 would give a plausible but wrong answer; the inside-frontier arm of the same experiment showed gains (see the coordinator-added item from the same source).",
     "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Consultants are the advisor side. Transfers: an advisor using AI may deliver faster but wrong conclusions on non-standard questions (e.g., unusual offtake terms, novel interconnection risk). The recipient cannot tell from the deliverable which tasks were outside the frontier. Needs verification: whether such errors survive the advisor's QA and reach clients.",
     "analyst_inference": "Rival for the advisor-AI pathway: AI-assisted advisory output can raise W3 for the client. Traceability might help the client find these errors only if the wrong reasoning is visible in the cited evidence; it would not help if the error is an omission.",
     "access_status": "full_text",
     "workstream": "WS6_rivals_failures_disconfirming",
-    "temp_id": "WS6-E04"
+    "temp_id": "WS6-E04",
+    "coordinator_corrections": [
+      "R2C-01: inside-frontier arm added as separate item"
+    ]
   },
   {
     "evidence_id": "EVR145",
@@ -4544,7 +4619,7 @@
     "study_or_observation_method": "Randomized manipulation of task difficulty, explanation difficulty, and rewards; Bayesian regression",
     "intervention_and_comparator": "Highlight (easy-to-verify) explanation vs written (hard-to-verify) explanation vs prediction only",
     "outcome_measured": "Overreliance (agreeing with AI when AI is incorrect)",
-    "quantitative_result": "Study 2: Highlight - Written, medium task: mean -1.63 (95% CI -2.78 to -0.559); hard task: -1.632 (95% CI -2.570 to -0.694) (model-scale estimates; units per authors' model specification)",
+    "quantitative_result": "Study 2: Highlight - Written, medium task: mean -1.63 (95% Bayesian credible interval -2.78 to -0.559); hard task: -1.632 (95% Bayesian credible interval -2.570 to -0.694) (model-scale estimates; units per authors' model specification)",
     "source_locator": "Abstract; Section 6, Table 3, Figure 9 (p.129:18)",
     "short_exact_excerpt": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
     "underlying_evidence_group": "EG:vasconcelos2023-cost-benefit-overreliance",
@@ -4553,7 +4628,12 @@
     "analyst_inference": "This is the clearest support for a conditional thesis and also its main boundary: traceability is valuable when it lowers per-check cost; volume of explanation does not help. It predicts that unpinpointed citations or long rationales will not reduce work.",
     "access_status": "full_text",
     "workstream": "WS6_rivals_failures_disconfirming",
-    "temp_id": "WS6-E07"
+    "temp_id": "WS6-E07",
+    "duplicate_of": "EVR186",
+    "coordinator_corrections": [
+      "R2C duplicate: same finding as EVR186; do not count separately",
+      "R2C-20: intervals are Bayesian credible intervals"
+    ]
   },
   {
     "evidence_id": "EVR148",
@@ -4711,7 +4791,11 @@
     "analyst_inference": "Cuts both ways: supports W4/integration value (P3.4), but implies some 'adaptation' work is ownership-seeking rather than rational correction, so it will persist even with perfect traceability.",
     "access_status": "full_text",
     "workstream": "WS6_rivals_failures_disconfirming",
-    "temp_id": "WS6-E12"
+    "temp_id": "WS6-E12",
+    "duplicate_of": "EVR140",
+    "coordinator_corrections": [
+      "R2C duplicate: same finding as EVR140; do not count separately"
+    ]
   },
   {
     "evidence_id": "EVR153",
@@ -5003,7 +5087,7 @@
     "concept_tags": [
       "X3"
     ],
-    "observed_finding": "At Senate Estimates, the DEWR Secretary said the department should not receive work with glaring errors in footnotes and sources and that her staff should not be double-checking a third-party provider's footnotes; the Minister said departmental processes are expected to ensure consultants' work is high quality. Officials reported recovering $97,587 of the fee.",
+    "observed_finding": "At Senate Estimates, the DEWR Secretary said the department should not receive work with glaring errors in footnotes and sources and that her staff should not be double-checking a third-party provider's footnotes; the Minister said departmental processes are expected to ensure consultants' work is high quality. Officials reported recovering $97,587 of the fee. [R2C-21] Finance officials said the errors were discovered only through media reporting (as reported by Region Canberra; Hansard not verified).",
     "relationship": "qualifies",
     "evidence_type": "news report of parliamentary testimony",
     "population_and_setting": "Australian Senate Estimates hearing, 9 October 2025",
@@ -5019,7 +5103,10 @@
     "analyst_inference": "Two readings conflict: the minister expects departmental QA (W1 persists), while the secretary rejects citation checking (W3 should be the supplier's). This suggests traceability's value may be risk transfer and auditability after the fact rather than reduced routine review.",
     "access_status": "full_text",
     "workstream": "WS6_rivals_failures_disconfirming",
-    "temp_id": "WS6-E22"
+    "temp_id": "WS6-E22",
+    "coordinator_corrections": [
+      "R2C-21"
+    ]
   },
   {
     "evidence_id": "EVR163",
@@ -5085,7 +5172,11 @@
     "analyst_inference": "Consistent with METR and BCG: polished AI output can transfer effort to recipients. Weak evidence on its own.",
     "access_status": "full_text",
     "workstream": "WS6_rivals_failures_disconfirming",
-    "temp_id": "WS6-E24"
+    "temp_id": "WS6-E24",
+    "duplicate_of": "EVR122",
+    "coordinator_corrections": [
+      "R2C duplicate: same finding as EVR122; do not count separately"
+    ]
   },
   {
     "evidence_id": "EVR165",
@@ -5732,22 +5823,26 @@
       "X3"
     ],
     "observed_finding": "In a maze task with a simulated AI, explanations rendered as path highlights on the maze (easy to check) produced lower overreliance than the same content rendered as written step-by-step text (hard to check), in both medium and hard mazes; written explanations did not reduce overreliance relative to prediction-only. Authors argue null results in the literature may arise because explanations do not sufficiently reduce the cost of verifying the AI's prediction.",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "randomized online experiments (5 studies)",
     "population_and_setting": "Prolific crowdworkers; total N=731 across 5 studies; Study 2 N=340 (170 highlight from Study 1, 170 written).",
     "study_or_observation_method": "Between-subjects; Bayesian regression models (specification in appendix).",
     "intervention_and_comparator": "Highlight explanation vs written explanation (Study 2); explanation vs prediction-only across task difficulty (Study 1).",
     "outcome_measured": "Overreliance (agreeing with AI when it is wrong); exploratory accuracy.",
-    "quantitative_result": "Study 2, Highlight minus Written: medium maze mean -1.63 (95% CI -2.78 to -0.559); hard maze -1.632 (95% CI -2.570 to -0.694) (model-scale estimates; units per appendix model, not extracted).",
+    "quantitative_result": "Study 2, Highlight minus Written: medium maze mean -1.63 (95% Bayesian credible interval -2.78 to -0.559); hard maze -1.632 (95% Bayesian credible interval -2.570 to -0.694) (model-scale estimates; units per appendix model, not extracted).",
     "source_locator": "Abstract p. 1; Section 6 Study 2, Table 3 and Fig. 9, p. 18; Fig. 8 caption p. 16.",
     "short_exact_excerpt": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI’s prediction.",
     "underlying_evidence_group": "EG:vasconcelos2023-cost-benefit-overreliance",
     "limitations": "Artificial task with unambiguous, visually checkable ground truth; lay participants; units of effect on model scale.",
-    "transferability_to_target_workflow": "Strongest mechanism-level support found for P2.1/P2.2: what matters is whether the presentation makes checking cheaper than re-deriving. Diligence analogue: a pinpoint link from an advisor's claim to the exact contract clause/data series (cheap check) vs a narrative justification (costly check). Must be tested in realistic documents where checking a source still requires judgment.",
+    "transferability_to_target_workflow": "Strongest mechanism-level support found for P2.1/P2.2: what matters is whether the presentation makes checking cheaper than re-deriving. Diligence analogue: a pinpoint link from an advisor's claim to the exact contract clause/data series (cheap check) vs a narrative justification (costly check). Must be tested in realistic documents where checking a source still requires judgment. [R2C-16] Plausible mechanism analog only (crowdworker maze task); needs verification with accountable professionals reviewing advisor reports.",
     "analyst_inference": "Highlights here are closer to 'showing the evidence path' (X2/X3) than to persuasive rationale (X1); this is the most relevant experimental analogue to traceability, but still not source citation in the legal/financial sense.",
     "access_status": "full_text",
     "workstream": "WS7_methods_transferability_audit",
-    "temp_id": "WS7-E21"
+    "temp_id": "WS7-E21",
+    "coordinator_corrections": [
+      "R2C-20: intervals are Bayesian credible intervals",
+      "R2C-02: relationship harmonized to 'qualifies' (condition-dependent; maze task, simulated AI, N=340 crowdworkers)"
+    ]
   },
   {
     "evidence_id": "EVR187",
@@ -5894,12 +5989,15 @@
     "source_locator": "Abstract (UNLV Digital Scholarship repository page).",
     "short_exact_excerpt": "auditors receiving contradictory evidence from their firm's AI system (instead of a human specialist) propose smaller adjustments to management's complex estimates",
     "underlying_evidence_group": "EG:commerford2022-auditor-algorithm-aversion",
-    "limitations": "Abstract only; no ground truth for 'correct' adjustment stated in abstract; hypothetical case.",
+    "limitations": "Abstract only; no ground truth for 'correct' adjustment stated in abstract; hypothetical case. [R2C-22] Same research program as EVR033; distinct experiment.",
     "transferability_to_target_workflow": "Professional participants in an advisor-like structure (specialist evidence -> auditor -> opinion). Transfers as: recipients weight outside evidence by perceived source legitimacy; an AI-produced or tool-produced diligence output may be discounted relative to a named human expert even if identical, so traceability products may need human attribution/accountability to be relied upon. Opposite failure mode to automation bias.",
     "analyst_inference": "Important counterweight to lab overreliance findings (WS7-E08, E12): in professional settings, under-reliance on machine-produced evidence is also documented, so 'reduced review' cannot be assumed from better evidence; source identity and accountability matter.",
     "access_status": "abstract_only",
     "workstream": "WS7_methods_transferability_audit",
-    "temp_id": "WS7-E26"
+    "temp_id": "WS7-E26",
+    "coordinator_corrections": [
+      "R2C-22"
+    ]
   },
   {
     "evidence_id": "EVR192",
@@ -6453,8 +6551,8 @@
     "concept_tags": [
       "X5"
     ],
-    "observed_finding": "Johns Hopkins requires second-opinion review of outside surgical pathology before treating referred patients; over 21 months, 86 of 6,171 reviewed cases (1.4%) had a changed diagnosis causing major modification in therapy or prognosis, with higher rates for serosal surfaces (9.5%) and female reproductive tract (5.1%). The authors note the practice was threatened by managed-care cost containment and recommend review before major therapy.",
-    "relationship": "supports",
+    "observed_finding": "Johns Hopkins requires second-opinion review of outside surgical pathology before treating referred patients; over 21 months, 86 of 6,171 reviewed cases (1.4%) had a changed diagnosis causing major modification in therapy or prognosis, with higher rates for serosal surfaces (9.5%) and female reproductive tract (5.1%). The authors note the practice was threatened by managed-care cost containment and recommend review before major therapy. [R2C-09] Yield denominator = all referred cases; low per-case yield, high per-error consequence.",
+    "relationship": "qualifies",
     "evidence_type": "prospective case series at a referral center",
     "population_and_setting": "Outside surgical pathology referred to Johns Hopkins Hospital, Apr 1995 - Dec 1996",
     "study_or_observation_method": "Prospective collection; changed diagnosis = discordance with major therapy/prognosis modification (grade/stage changes excluded)",
@@ -6469,7 +6567,10 @@
     "analyst_inference": "Low yield (1.4%) with blanket policy, but high consequence; review is justified by error cost, not report format. Re-review uses original evidence (slides) - traceability to raw evidence is what makes re-review possible.",
     "access_status": "abstract_only",
     "workstream": "WS8_structured_reporting_coverage",
-    "temp_id": "WS8-E18"
+    "temp_id": "WS8-E18",
+    "coordinator_corrections": [
+      "R2C-09: relabelled qualifies for P1.3 (continues to support P1.1 policy-driven review)"
+    ]
   },
   {
     "evidence_id": "EVR210",
@@ -6485,8 +6586,8 @@
     "concept_tags": [
       "X5"
     ],
-    "observed_finding": "University of Iowa requires second opinion of outside surgical pathology slides before definitive treatment; of 5,629 cases, 132 (2.3%) had major and 507 (9.0%) minor diagnostic disagreements; 68 (1.2% of all cases) led to changes in clinical management on follow-up.",
-    "relationship": "supports",
+    "observed_finding": "University of Iowa requires second opinion of outside surgical pathology slides before definitive treatment; of 5,629 cases, 132 (2.3%) had major and 507 (9.0%) minor diagnostic disagreements; 68 (1.2% of all cases) led to changes in clinical management on follow-up. [R2C-09] Yield denominator = all referred cases; low per-case yield, high per-error consequence.",
+    "relationship": "qualifies",
     "evidence_type": "retrospective case series with clinical/pathologic follow-up",
     "population_and_setting": "Second-opinion surgical pathology cases at University of Iowa Hospitals and Clinics",
     "study_or_observation_method": "Classification by second-opinion pathologist; follow-up for clinical significance",
@@ -6501,7 +6602,10 @@
     "analyst_inference": "Second, independent site with similar ~1.2-1.4% material-change rate; supports P1.1 and shows rework yield is low per case but persistent.",
     "access_status": "abstract_only",
     "workstream": "WS8_structured_reporting_coverage",
-    "temp_id": "WS8-E19"
+    "temp_id": "WS8-E19",
+    "coordinator_corrections": [
+      "R2C-09: relabelled qualifies for P1.3 (continues to support P1.1 policy-driven review)"
+    ]
   },
   {
     "evidence_id": "EVR211",
@@ -6584,7 +6688,7 @@
       "X3"
     ],
     "observed_finding": "Images that were physically available but not imported into the recipient institution's PACS were associated with a 52% repeat-imaging rate, versus 11% when imported.",
-    "relationship": "supports",
+    "relationship": "qualifies",
     "evidence_type": "retrospective observational cohort",
     "population_and_setting": "Same as WS8-E21 (267 patients, one center)",
     "study_or_observation_method": "Group comparison with adjustment",
@@ -6594,12 +6698,15 @@
     "source_locator": "Abstract (Results)",
     "short_exact_excerpt": null,
     "underlying_evidence_group": "EG:lu2012-outside-image-import",
-    "limitations": "Same as above; the decision to import may correlate with other workflow factors.",
+    "limitations": "Same as above; the decision to import may correlate with other workflow factors. [R2C-19] Outcome is repeat imaging, not end-to-end work; observational, confounding by indication possible (images not imported may have been inadequate); import effort not measured.",
     "transferability_to_target_workflow": "Mechanism: delivering an advisor's evidence in a form that loads into the recipient's own decision system may matter as much as delivering it at all. Verify: in diligence, compare re-work when deliverables are integrated into the client's data room/model templates vs delivered as standalone files.",
     "analyst_inference": "One of the few observed-behavior (not stated-preference) items here bearing on integration value; analogy only.",
     "access_status": "abstract_only",
     "workstream": "WS8_structured_reporting_coverage",
-    "temp_id": "WS8-E22"
+    "temp_id": "WS8-E22",
+    "coordinator_corrections": [
+      "R2C-19"
+    ]
   },
   {
     "evidence_id": "EVR214",
@@ -6726,5 +6833,37 @@
     "access_status": "abstract_only",
     "workstream": "WS8_structured_reporting_coverage",
     "temp_id": "WS8-E26"
+  },
+  {
+    "evidence_id": "EVR218",
+    "source_id": "SRC084",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3"
+    ],
+    "proposition_tested": "P3.2 Integration/AI assistance shifts review effort elsewhere rather than removing it; P1.3 Rework due to inaccurate output is a major driver (inside-frontier arm of the same experiment)",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "In the pre-registered field experiment with 758 BCG consultants, for 18 realistic consulting tasks inside the AI capability frontier, consultants with GPT-4 access completed more tasks, faster, and with higher-rated quality than controls; below-average performers gained most. For one task deliberately designed to be outside the frontier, AI users were less likely to be correct.",
+    "relationship": "challenges",
+    "evidence_type": "field_experiment (pre-registered RCT)",
+    "population_and_setting": "758 BCG individual-contributor consultants (~7% of that level); realistic consulting tasks; producers of analysis, not recipients reviewing outside work",
+    "study_or_observation_method": "Randomized assignment to no AI / GPT-4 / GPT-4 + prompt-engineering overview after a baseline task",
+    "intervention_and_comparator": "GPT-4 access (with or without prompt overview) vs no AI access",
+    "outcome_measured": "Task completion, time, human-graded quality (inside frontier); binary correctness (outside frontier)",
+    "quantitative_result": "Inside frontier: 12.2% more tasks completed on average, 25.1% more quickly, >40% higher quality vs control; below-average performers +43%, above-average +17% vs own baseline. Outside frontier: correctness ~84.5% control vs 60% and 70% in AI conditions (average -19 percentage points).",
+    "source_locator": "Abstract (p.1); Section 3.1 'Quality and Productivity Booster - Inside the Frontier'; Section 3.2 'Quality Disruptor - Outside the frontier' (correctness paragraph, Figure 7, Table 4) — HBS Working Paper 24-013 as hosted at mitsloan.mit.edu",
+    "short_exact_excerpt": "consultants using AI were significantly more productive (they completed 12.2% more tasks on average, and completed tasks 25.1% more quickly), and produced significantly higher quality results",
+    "underlying_evidence_group": "EG:dellacqua2023-bcg-jagged-frontier",
+    "limitations": "Producer-side use of AI by consultants on their own tasks, not recipients reviewing outside analysis. Quality graded by humans; outside-frontier task deliberately designed so that GPT-4 would give a plausible but wrong answer (Section 3.2), so the -19 pp result is a constructed stress test, not a prevalence estimate. Working-paper version (2023); published version (Organization Science) not checked.",
+    "transferability_to_target_workflow": "Mechanism analog only: advisor-side AI can raise output volume/quality on in-frontier tasks while degrading correctness on tasks where the AI is plausibly wrong. For renewable-energy diligence, needs verification of which diligence tasks are inside vs outside the frontier and whether recipients can tell. Differences: consultants are producers; no client review step was measured.",
+    "analyst_inference": "Added by the coordinator to correct selective reporting flagged by R2C-01: the register previously contained only the outside-frontier arm. Read together, the two arms imply that rework risk (W3) is task-dependent and hard for producers to see, rather than uniformly high.",
+    "access_status": "full_text",
+    "workstream": "R3_COORD_corrections",
+    "temp_id": "COORD-E01"
   }
 ]

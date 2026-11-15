@@ -350,7 +350,7 @@
     "underlying_evidence_group": "EG:commerford-holman-2022",
     "funding_or_commercial_relationships": "Funded by the Center for Audit Quality (participants supplied via CAQ Research Advisory Board grant) and the University of Kentucky",
     "archived_file_path": null,
-    "limitations": "Working paper version (peer-review status of this version not established; source_type closest category). Single hypothetical case (insurance claim reserve); 98 audit managers; DV is proposed adjustment (reliance), no ground-truth accuracy measure; time-on-task result marginal (one-tailed p=0.09).",
+    "limitations": "Working paper version (peer-review status of this version not established; source_type closest category). Single hypothetical case (insurance claim reserve); 98 audit managers; DV is proposed adjustment (reliance), no ground-truth accuracy measure; time-on-task result marginal (one-tailed p=0.09). [R2C-22] Same research program as SRC105; distinct experiment.",
     "contributing_workstreams": [
       "WS1_audit_specialists"
     ],
@@ -791,7 +791,7 @@
     "underlying_evidence_group": "EG:schwarcz2025-ai-powered-lawyering-rct",
     "funding_or_commercial_relationships": "Funded by Fredrikson & Byron PA, Robins Kaplan LLC, Univ. of Minnesota and Univ. of Michigan law schools; OpenAI and vLex made platforms freely available (no financial support per authors)",
     "archived_file_path": null,
-    "limitations": "127 upper-level law students (not practicing lawyers); hallucinations counted only as fabricated sources (miscitations excluded, fn 138); hallucination counts very small; verification behavior not directly observed. | Full-text PDF (UMN repository) and SSRN page returned Cloudflare/403 blocks. Only the repository abstract (as summarized by a fetch tool, not verbatim) and secondary coverage were seen. Hallucination counts (Vincent 3, o1-preview 11, no-AI 4) come from a search-engine summary of Law360 coverage and are NOT verified against the paper. UMN Law magazine (Spring 2025) reported productivity gains of 34-140%, which differs from the abstract's ~50-130%; likely different paper versions or metrics. Participants were law students, not practicing lawyers.",
+    "limitations": "127 upper-level law students; hallucination counts very small; WS4 read full text (law.berkeley.edu copy), WS3 abstract only (R2C-05/R2C-17).",
     "contributing_workstreams": [
       "WS3_legal_engineering",
       "WS4_traceability_verification_experiments"
@@ -959,11 +959,11 @@
     "data_collection_dates": "through 2026-11-14",
     "access_date": "2026-11-15",
     "source_type": "other",
-    "access_status": "full_text",
+    "access_status": "partial",
     "underlying_evidence_group": "EG:charlotin-hallucination-db",
     "funding_or_commercial_relationships": "not reported",
     "archived_file_path": null,
-    "limitations": "Counts court/tribunal decisions addressing hallucinated content; maintainer states it does not track the wider universe of fake citations; inclusion involves judgment calls; counts read via a fetch tool summarizing filter counts and may lag. | Only the landing page and its filter counts were read; individual entries not audited. Compiler-curated (inclusion is a 'judgment call'); covers only decisions addressing hallucinations, not the universe of AI-assisted filings, so no rate/denominator. Counts change over time.",
+    "limitations": "Counts court/tribunal decisions addressing hallucinated content; maintainer states it does not track the wider universe of fake citations; inclusion involves judgment calls; counts read via a fetch tool summarizing filter counts and may lag. | Only the landing page and its filter counts were read; individual entries not audited. Compiler-curated (inclusion is a 'judgment call'); covers only decisions addressing hallucinations, not the universe of AI-assisted filings, so no rate/denominator. Counts change over time. [R2C-17] Counts read through a fetch tool; access set to partial.",
     "contributing_workstreams": [
       "WS3_legal_engineering",
       "WS6_rivals_failures_disconfirming"
@@ -2218,7 +2218,7 @@
     "underlying_evidence_group": "EG:commerford2022-auditor-algorithm-aversion",
     "funding_or_commercial_relationships": "not reported in abstract",
     "archived_file_path": null,
-    "limitations": "Abstract only (UNLV repository landing page); participant count, experience level, effect sizes and design details not reviewed. Experimental case, not field audits.",
+    "limitations": "Abstract only (UNLV repository landing page); participant count, experience level, effect sizes and design details not reviewed. Experimental case, not field audits. [R2C-22] Same research program as SRC017; distinct experiment.",
     "contributing_workstreams": [
       "WS7_methods_transferability_audit"
     ],

@@ -355,6 +355,7 @@
     "WS8_structured_reporting_coverage::WS8-E23": "EVR214",
     "WS8_structured_reporting_coverage::WS8-E24": "EVR215",
     "WS8_structured_reporting_coverage::WS8-E25": "EVR216",
-    "WS8_structured_reporting_coverage::WS8-E26": "EVR217"
+    "WS8_structured_reporting_coverage::WS8-E26": "EVR217",
+    "R3_COORD_corrections::COORD-E01": "EVR218"
   }
 }

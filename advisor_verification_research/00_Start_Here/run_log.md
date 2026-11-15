@@ -12,6 +12,8 @@ Concise, auditable record of execution, decisions, deviations and storage. Times
 - 18:33 Created local structure and shared worker brief (`00_Start_Here/research_instructions.md`) with proposition catalog P1.1–P6.1, work-type tags W1–W5 and concept tags X1–X5.
 - 18:35 ROUND 1 launched: 7 parallel workers (WS1–WS7), coordinator role (#8) held by main session.
 - 18:36 Drive run folder + 5 subfolders created in My Drive root; permissions verified owner-only.
+- 18:38 First Drive upload (research_instructions.md, 12,018 bytes; size verified against local). Scaffold committed and pushed to git branch.
+- 18:41 Added WS8 (see D06).
 
 ## Agent assignments (actual)
 | ID | Assignment | Round | Launched |
@@ -23,6 +25,7 @@ Concise, auditable record of execution, decisions, deviations and storage. Times
 | WS5 | Workflow integration & buyer-origin adoption | 1 | 18:35 |
 | WS6 | Rival explanations, failures, disconfirming cases | 1 | 18:35 |
 | WS7 | Methods, initial-lead full-text audit, transferability rubric | 1 | 18:35 |
+| WS8 | Structured/synoptic reporting & coverage visibility (medicine consult analog; Phase I ESA) | 1 (added) | 18:41 |
 | COORD | Coordinator: evidence register merge, IDs, disputes, packaging (main session) | all | 18:31 |
 
 ## Consequential decisions
@@ -31,3 +34,4 @@ Concise, auditable record of execution, decisions, deviations and storage. Times
 - D03 (18:33) Copyrighted full-text PDFs are kept only in the session scratch area (not in the project folder, git, ZIP, or Drive). The archive keeps URLs, locators and short excerpts (<=40 words). Public-domain regulatory text may be excerpted more fully.
 - D04 (18:35) Workers use temp IDs (WSn-Snn / WSn-Enn); coordinator assigns final SRC/EVR IDs with a preserved mapping file.
 - D05 (18:36) Drive destination = new folder in the user's My Drive root (not a shared drive); permissions verified owner-only; no sharing changes.
+- D06 (18:41) Added an 8th Round-1 worker (WS8) for a concrete uncovered question: does explicit coverage reporting (structured/synoptic reports, pertinent negatives) in producer->recipient consult reports improve recipient use, and does standardization make delivery repeatable? Directly tests CL026 / P2.4 / P5.1, which no other worker owned.

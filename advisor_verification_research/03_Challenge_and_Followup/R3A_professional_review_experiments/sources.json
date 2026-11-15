@@ -193,5 +193,20 @@
   "funding_or_commercial_relationships": "One author affiliated with Stellaris AI Limited (commercial); system developers ran the pilot",
   "archived_file_path": null,
   "limitations": "Primarily a technical benchmark paper; the analyst pilot is uncontrolled, single firm, 24 analysts, self-reported observations; authors call the results qualitative design signals, not population estimates; no comparison of citation granularity under controlled conditions."
+ },
+ {
+  "source_id": "R3A-S14",
+  "title": "AI-Generated Draft Replies Integrated Into Health Records and Physicians' Electronic Communication (JAMA Netw Open 2024; doi:10.1001/jamanetworkopen.2024.6565)",
+  "authors_or_organization": "Tai-Seale M, Baxter SL, Vaida F, Walker A, Sitapati AM, et al. (UC San Diego Health)",
+  "url": "https://doi.org/10.1001/jamanetworkopen.2024.6565 (abstract read via Europe PMC, PMC11019394)",
+  "publication_date": "2024-04",
+  "data_collection_dates": "June-August 2023 (analysis Aug-Nov 2023)",
+  "access_date": "2026-11-15",
+  "source_type": "field_experiment",
+  "access_status": "abstract_only",
+  "underlying_evidence_group": "EG:taiseale2024-ucsd-genai-draft-replies",
+  "funding_or_commercial_relationships": "AHRQ P30 HS029770 (per Europe PMC); EHR-vendor-integrated GenAI drafting tool (vendor not named in abstract)",
+  "archived_file_path": null,
+  "limitations": "Randomized waiting-list QI study, 52 PCPs plus 70 contemporary controls; measures time and reply length, not reply accuracy or error detection; abstract only."
  }
 ]

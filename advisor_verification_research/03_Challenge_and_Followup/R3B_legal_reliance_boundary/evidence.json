@@ -1,0 +1,619 @@
+[
+ {
+  "evidence_id": "R3B-E01",
+  "source_id": "R3B-S01",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Retained review is substantially driven by formal obligations that persist regardless of advisor transparency (tests where the obligation stops for expert-made content).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Section 11(b)(3) sets two different defense standards for non-issuer defendants. For parts NOT made on an expert's authority, the defendant must show that 'after reasonable investigation' he had reasonable ground to believe and did believe the statements were true (b)(3)(A). For parts made on the authority of an expert other than himself, he need only show he 'had no reasonable ground to believe and did not believe' the statements were untrue or unfairly represented the expert's statement (b)(3)(C) — no affirmative investigation requirement is stated. Section 11(c) applies a single 'prudent man in the management of his own property' standard to both.",
+  "relationship": "qualifies",
+  "evidence_type": "legal doctrine (statute)",
+  "population_and_setting": "US registered securities offerings; non-issuer defendants (directors, signers, underwriters); experts whose consent is filed (accountants, engineers, appraisers etc. per §11(a)(4))",
+  "study_or_observation_method": "Reading of statutory text",
+  "intervention_and_comparator": "Expertised vs non-expertised portions of a registration statement",
+  "outcome_measured": "Legal standard for a due diligence / reliance defense",
+  "quantitative_result": null,
+  "source_locator": "15 U.S.C. §77k(b)(3)(A), (b)(3)(C), (c)",
+  "short_exact_excerpt": "he had no reasonable ground to believe and did not believe, at the time such part of the registration statement became effective, that the statements therein were untrue",
+  "underlying_evidence_group": "EG:securities-act-s11-statute",
+  "limitations": "Statute states a standard, not how much work satisfies it; whether recipients actually skip re-performance for expertised content is not shown. US securities-specific; liability runs to investors, not to the recipient's own decision.",
+  "transferability_to_target_workflow": "Mechanism that transfers: the law itself draws the reliance line by WHO stands behind the content (a named expert who consents and is liable) rather than by how well documented the content is. In renewable-energy credit diligence, an independent engineer's or reserve/energy-yield consultant's report with a reliance letter is the closest analogue to 'expertised' content; sponsor-prepared models and summaries are analogous to non-expertised content. Consequential difference: lenders/investors are not under §11; their duty comes from credit policy, fiduciary duty and contract. Needs verification: whether credit policies explicitly distinguish expert-reported vs sponsor-reported items.",
+  "analyst_inference": "The boundary between W1 (must investigate) and avoidable re-work (W2) is set by expert status plus absence of reasons to doubt, not by transparency. A traceable advisor product that is not 'expertised' (no accountable, consenting expert) would leave the recipient's investigation duty intact under this structure.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E02",
+  "source_id": "R3B-S02",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (tests what circumstances calibrate the required depth of independent investigation).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Rule 176 lists circumstances 'relevant' to whether a non-issuer conducted a reasonable investigation, including the type of issuer, security and person; the office held; other relationships to the issuer; '(f) Reasonable reliance on officers, employees, and others whose duties should have given them knowledge of the particular facts'; for underwriters, the type of underwriting arrangement, the person's role and 'the availability of information'; and responsibility for incorporated documents. It prescribes no procedures.",
+  "relationship": "qualifies",
+  "evidence_type": "regulation_or_guidance",
+  "population_and_setting": "US Securities Act §11 defendants other than the issuer",
+  "study_or_observation_method": "Reading of regulatory text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Factors relevant to reasonableness of investigation",
+  "quantitative_result": null,
+  "source_locator": "17 CFR §230.176(a)-(h)",
+  "short_exact_excerpt": "Reasonable reliance on officers, employees, and others whose duties should have given them knowledge of the particular facts",
+  "underlying_evidence_group": "EG:sec-rule-176",
+  "limitations": "Non-exclusive list; no weighting; per R3B-S04 the SEC said only a court can decide reasonableness and a 1998 proposal to list practices (incl. comfort letters) was never finalized.",
+  "transferability_to_target_workflow": "Transfers as a pattern: the required depth of a recipient's own investigation is calibrated to its role, its access to information and the reliability of the people/reports it relies on. In renewable-energy deals this maps to lead arranger vs participant lender, or sponsor-equity vs passive tax-equity investor. Difference: no comparable rule codifies these factors for private credit; credit policies and interagency TPRM guidance (already in register) are the analogues. Verify: whether lender policies vary diligence depth by role/access in a documented way.",
+  "analyst_inference": "Codifies that the W1 burden is role- and access-dependent rather than fixed; none of the factors is 'how transparent the advisor's output was', though 'availability of information' could be read to include it (inference, untested).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E03",
+  "source_id": "R3B-S03",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 / P1.2 (where reliance without re-performance is legitimate vs where investigation is required).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The court held that only Peat, Marwick (the auditor) was an expert in the statutory sense and only its audited 1960 figures were 'expertised'; the company's and underwriters' lawyers who drafted the registration statement were not experts, so drafting by a professional did not expertise the document. Several outside directors and the underwriters were held entitled to rely on Peat, Marwick for the audited 1960 figures without investigating them, but not on management for the non-expertised portions, as to which each had to show a reasonable investigation (e.g., Auslander, Birnbaum, Grant; the lead underwriter Drexel failed as to portions 'not made on the authority of Peat, Marwick as an expert'; Coleman 'has not established his due diligence defense except as to the audited 1960 figures').",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "Purchasers of BarChris 5½% debentures (1961 registration) v. directors, officers, underwriters and auditor; S.D.N.Y. bench trial",
+  "study_or_observation_method": "Findings of fact and conclusions of law after trial",
+  "intervention_and_comparator": "Expertised (audited) vs non-expertised (unaudited, narrative) portions; defendants with differing roles and knowledge",
+  "outcome_measured": "Whether each defendant established due diligence / reliance defense",
+  "quantitative_result": null,
+  "source_locator": "283 F. Supp. 643, section 'The \"Due Diligence\" Defenses' (preliminary matter on experts) and individual-defendant sections (Birnbaum, Auslander, Grant, 'The Underwriters and Coleman')",
+  "short_exact_excerpt": "Neither the lawyer for the company nor the lawyer for the underwriters is an expert within the meaning of Section 11. The only expert, in the statutory sense, was Peat, Marwick",
+  "underlying_evidence_group": "EG:escott-barchris-1968",
+  "limitations": "1968 facts; single trial court; the court found that management misled several defendants, so holdings reflect an extreme fraud setting.",
+  "transferability_to_target_workflow": "Transfers: a diligence report's legal 'weight' to the recipient comes from the accountable expert behind specific content, and only for that content. In an IC memo built on an IE report plus sponsor materials plus counsel's summaries, only the IE-certified portions are analogous to 'expertised'; counsel summaries are not. Verify: how lenders' credit memos label which content rests on which consultant's report.",
+  "analyst_inference": "Directly locates the boundary: reliance without re-performance is legitimate for content certified by an accountable expert; everything else requires the recipient's own reasonable investigation, even if prepared by competent professionals. This limits how far a well-documented but non-expertised advisor product can remove W1 work.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E04",
+  "source_id": "R3B-S03",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (accountability for delegated investigation remains with the delegator) and P1.6 contrast (asking questions without verification is insufficient).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "For non-expertised portions, the court held that asking management questions and accepting answers that would be satisfactory if true, without checking records, was not a reasonable investigation; 'reasonable investigation' requires more than accurately reporting 'data presented' by the company, and the extent of verification is 'a question of degree, a matter of judgment in each case'. The lead underwriter (Drexel) was bound by its counsel's failure to verify because it had delegated the factual examination of minutes and contracts to counsel as its agent.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "As above (underwriters and underwriters' counsel)",
+  "study_or_observation_method": "Findings after trial",
+  "intervention_and_comparator": "Questioning management only vs verifying against records",
+  "outcome_measured": "Adequacy of underwriters' investigation",
+  "quantitative_result": null,
+  "source_locator": "283 F. Supp. 643, section 'The Underwriters and Coleman'",
+  "short_exact_excerpt": "is it sufficient to ask questions, to obtain answers which, if true, would be thought satisfactory, and to let it go at that, without seeking to ascertain from the records whether the answers in fact are true and complete ?",
+  "underlying_evidence_group": "EG:escott-barchris-1968",
+  "limitations": "Concerns verification of an issuer's own representations, not of an independent expert's work; one court's judgment of degree.",
+  "transferability_to_target_workflow": "Transfers strongly to lender diligence on sponsor-supplied data (e.g., interconnection status, offtake terms, permits): a recipient that relies on summaries without tracing to source documents (minutes, contracts) is exposed. Traceability to originals (X3) is exactly what such checking needs. Difference: lenders' standard is contractual/regulatory, not §11. Verify: whether credit reviewers routinely trace sponsor representations to source documents and how long it takes.",
+  "analyst_inference": "Supports the thesis mechanism that X3 traceability matters: the required check is 'ascertain from the records whether the answers in fact are true'. A product that links claims to the underlying records could lower the cost of that required step (W2) without removing it (W1). Also shows delegation does not transfer accountability: the delegator bears the delegate's failure.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E05",
+  "source_id": "R3B-S03",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (conditions that move the boundary: knowledge and role).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Reliance even on the expertised portion was unavailable to a defendant who knew facts indicating it was wrong: the CEO (Kircher), knowing the facts, 'had reason to believe that the expertised portion ... was in part incorrect'. Conversely, outside director Birnbaum was entitled to rely on Peat, Marwick because 'he had no personal knowledge of the company’s books'. The director who drafted the registration statement (Grant) was held to a higher standard of investigation than a director 'who had no connection with this work'.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "As above (individual directors/officers)",
+  "study_or_observation_method": "Findings after trial",
+  "intervention_and_comparator": "Defendants differing in knowledge and role",
+  "outcome_measured": "Availability of reliance defense",
+  "quantitative_result": null,
+  "source_locator": "283 F. Supp. 643, sections 'Kircher', 'Birnbaum', 'Grant'",
+  "short_exact_excerpt": "He could not shut his eyes to the facts and rely on Peat, Marwick for that portion.",
+  "underlying_evidence_group": "EG:escott-barchris-1968",
+  "limitations": "Fact-specific to insiders; the gradation by role is the court's judgment, not a formula.",
+  "transferability_to_target_workflow": "Transfers: a recipient's own knowledge (e.g., a lender's prior exposure to the sponsor, internal portfolio data on similar projects) can defeat reliance on an expert report that conflicts with it, and staff closest to drafting the decision document carry more investigation burden. Verify: whether credit policies assign heavier verification to deal team vs credit approvers.",
+  "analyst_inference": "The boundary moves with what the recipient knows: more knowledge (or more involvement) means less permitted reliance. This implies that integrating recipient-side data into the evaluation (RQ3) could increase, not decrease, the recipient's duty to reconcile conflicts.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E06",
+  "source_id": "R3B-S03",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 / P2.5 (a documented scope/procedure list does not establish that the check was adequate or performed).",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "The auditor's S-1 (subsequent events) review followed a written program that the court found 'conformed to generally accepted auditing standards', but the senior accountant did not perform some prescribed steps, spent a little over two days, 'a total of 20½ hours' (CAP OCR text reads '20%'), found none of the material 1961 errors, and was 'too easily satisfied with glib answers'. The court held the review 'useless' as to results and the auditor failed its defense, while stating it was not requiring 'a complete audit'.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "Auditor (Peat, Marwick) as expert defendant; S-1 review of events after audited balance-sheet date",
+  "study_or_observation_method": "Findings after trial",
+  "intervention_and_comparator": "Written review program vs procedures actually performed",
+  "outcome_measured": "Whether expert's own investigation was reasonable",
+  "quantitative_result": "Review time reported by the court: a little over two days, 'a total of 20½ hours' (CAP OCR renders as '20% hours'); no material 1961 errors detected (court's finding). No comparator time given.",
+  "source_locator": "283 F. Supp. 643, section 'The S-l Review'",
+  "short_exact_excerpt": "He did not take some of the steps which Peat, Marwick’s written program prescribed. He did not spend an adequate amount of time on a task of this magnitude.",
+  "underlying_evidence_group": "EG:escott-barchris-1968",
+  "limitations": "OCR artefact in CAP text for the hours figure ('20%'); value read as 20½ from context ('a little over two days'). One engagement.",
+  "transferability_to_target_workflow": "Transfers to CL026-type 'procedures performed and findings, including none' disclosures by IEs or diligence advisors: a stated program and a 'no findings' result are not evidence that the procedures were carried out or were adequate for the risk. Verify: whether recipients of IE reports can check performance (e.g., site-visit logs, documents reviewed) rather than program descriptions.",
+  "analyst_inference": "Qualifies the coverage-visibility thesis (P2.4): visibility of the planned checks (X4) differs from correctness of what was done (X5). A 'checks with no findings' list is only as reliable as the evidence that each check was performed; a court looked behind the program to what was done.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E07",
+  "source_id": "R3B-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (red flags move the boundary on expertised content).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The court held that underwriters may rely on audited financial statements (expertised) under §11(b)(3)(C) but that reliance 'may not be blind': where red flags emerge, mere reliance on an audit is insufficient. For §11 a red flag is any information that strips the defendant of confidence in the accuracy of the expertised portion, whether or not it concerns accounting fraud; the 'prudent man' standard applies to (b)(3)(C); there is 'no category of information which can always be ignored'; and whether a red flag exists is an 'exquisitely fact intensive' jury question. Publicly available comparative data (WorldCom's E/R ratio vs competitors) could be a red flag even for audited figures.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "Bond purchasers v. underwriters (SSB, J.P. Morgan et al.) of WorldCom's 2000 and 2001 bond offerings; S.D.N.Y.",
+  "study_or_observation_method": "Summary judgment opinion",
+  "intervention_and_comparator": "Audited (expertised) figures with vs without red flags",
+  "outcome_measured": "Availability of reliance defense",
+  "quantitative_result": null,
+  "source_locator": "346 F. Supp. 2d 628, Part III.E 'Case Law: Reliance Defense' and III.G.1 'Audited Financial Statements' (2000 and 2001 Registration Statements; E/R Ratio)",
+  "short_exact_excerpt": "Any information that strips a defendant of his confidence in the accuracy of those portions of a registration statement premised on audited financial statements is a red flag, whether or not it relates to accounting fraud or an audit failure.",
+  "underlying_evidence_group": "EG:in-re-worldcom-2004-underwriters",
+  "limitations": "Summary-judgment ruling; jury never decided (settlement). Red-flag definition is one district court's formulation.",
+  "transferability_to_target_workflow": "Transfers: a lender may rely on an IE's energy-yield or construction-cost conclusions until it encounters information (e.g., portfolio underperformance of similar sites, curtailment data, peer benchmarks) that undermines confidence; then a duty to inquire arises regardless of the IE's credentials. Difference: lenders face credit loss rather than investor suits. Verify: whether lenders document benchmark comparisons that act as red-flag screens.",
+  "analyst_inference": "The legally relevant trigger for leaving 'reliance' mode is any confidence-undermining information, including public benchmarks. Structured evidence and explicit assumptions could make red flags easier to see (potentially increasing required W1 follow-up in some cases while reducing blind re-checking in others) — an inference, not shown.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E08",
+  "source_id": "R3B-S04",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (does disclosure of procedures performed + negative assurance shift what the recipient must do?) and P1.1.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The court held that auditors' comfort letters (SAS 72) and SAS 71 interim reviews are not 'expertised' statements: underwriters 'may not rely on an accountant’s comfort letters for interim financial statements' for the §11(b)(3)(C) reliance defense; comfort letters do not expertise non-expertised content. For interim financials the underwriters must prove their own reasonable investigation; receipt of comfort letters is 'important evidence' but 'insufficient by itself'. The court rejected the underwriters' request to rule that an investigation 'is reasonable when it rests on the independent auditor’s SAS 71 review', saying that would convert the due diligence defense into the reliance defense and balkanize (court: 'balkan-izes', OCR hyphenation) the task.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "As above",
+  "study_or_observation_method": "Summary judgment opinion",
+  "intervention_and_comparator": "Comfort letter (procedures + negative assurance) vs audit opinion",
+  "outcome_measured": "Whether comfort letter alone establishes underwriter due diligence",
+  "quantitative_result": null,
+  "source_locator": "346 F. Supp. 2d 628, Part III.C 'Accountants as Experts' and III.G.2 'Interim Financial Statements'",
+  "short_exact_excerpt": "In assessing the reasonableness of the investigation, their receipt of the comfort letters will be important evidence, but it is insufficient by itself to establish the defense.",
+  "underlying_evidence_group": "EG:in-re-worldcom-2004-underwriters",
+  "limitations": "District-court reasoning tied to SEC Rule 436 treatment of interim reviews; summary-judgment posture.",
+  "transferability_to_target_workflow": "Directly relevant to CL026 in renewable-energy diligence: an advisor deliverable that lists procedures performed and findings (including none), without an accountable expert opinion, is evidence the recipient can cite for the reasonableness of its own process, but does not by itself discharge the recipient's investigation. Verify: whether lender credit policies treat 'agreed-upon procedures' style consultant outputs differently from IE opinions with reliance letters.",
+  "analyst_inference": "Most direct answer to the CL026 question in this set: disclosure of procedures performed and findings changes the EVIDENCE available to the recipient (and probably the cost of its review) but not the legal LOCATION of the duty. Required recipient work persists (W1); what may be avoidable is re-performing the accountant's procedures (see next item).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E09",
+  "source_id": "R3B-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.2 (re-performance/reconstruction is not mandated; the required work is a reasonable investigation between reliance and re-audit).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Responding to the argument that denying reliance on comfort letters would force underwriters to hire accountants to 'rehash' the auditor's work, the court said nothing in the opinion imposes that obligation: underwriters 'are not being asked to duplicate the work of auditors, but to conduct a reasonable investigation'; reasonable investigation lies between obtaining comfort letters 'and doing little more' and re-auditing; if red flags arise, underwriters must inquire until satisfied and if unsatisfied 'demand disclosure, withdraw ... or bear the risk'; on aggressive accounting a prudent underwriter 'may choose to consult with accounting experts'.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "As above",
+  "study_or_observation_method": "Summary judgment opinion",
+  "intervention_and_comparator": "Comfort-letter-only vs re-audit vs intermediate inquiry",
+  "outcome_measured": "Scope of required underwriter investigation",
+  "quantitative_result": null,
+  "source_locator": "346 F. Supp. 2d 628, Part III.G.2 'Interim Financial Statements' (closing paragraphs)",
+  "short_exact_excerpt": "The term “reasonable investigation” encompasses many modes of inquiry between obtaining comfort letters from an auditor and doing little more, on one hand, and having to re-audit a company’s books on the other.",
+  "underlying_evidence_group": "EG:in-re-worldcom-2004-underwriters",
+  "limitations": "Doctrinal statement, not a specification of tasks; does not say how much time an intermediate investigation takes.",
+  "transferability_to_target_workflow": "Transfers: lenders need not re-run an IE's energy model or re-perform a consultant's checks, but must ask the questions their own business expertise identifies and follow up on anomalies. Verify with lender workflow data: how much reviewer time goes to re-performing consultant work vs targeted inquiry.",
+  "analyst_inference": "Explicitly separates mandatory W1 (targeted, judgment-driven inquiry; follow-up on red flags) from non-mandatory re-performance (re-audit). Re-performance that occurs without red flags is therefore not legally compelled in this setting — consistent with it being at least partly avoidable (W2) or driven by other motives (P1.6).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E10",
+  "source_id": "R3B-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.6 (review persists as record-building / defensibility rather than only marginal error detection).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "The court stated that an underwriter must conduct a reasonable investigation to prevail even if the investigation would have proven futile in uncovering the fraud, and conversely prevails if it conducted a reasonable investigation even if no investigation would have uncovered the fraud. Lead Plaintiff's contentions (not findings) described the underwriters' diligence as a limited number of conversations, 'cursory' inquiries and failure 'to go behind any of the almost formulaic answers'.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "As above",
+  "study_or_observation_method": "Summary judgment opinion",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Whether process or outcome determines the defense",
+  "quantitative_result": null,
+  "source_locator": "346 F. Supp. 2d 628, Part III.G.2 'Interim Financial Statements'",
+  "short_exact_excerpt": "Conversely, an underwriter must conduct a reasonable investigation to prevail on the due diligence defense, even if it appears that such an investigation would have proven futile in uncovering the fraud.",
+  "underlying_evidence_group": "EG:in-re-worldcom-2004-underwriters",
+  "limitations": "Legal standard; the description of actual diligence is plaintiffs' characterization, not a finding.",
+  "transferability_to_target_workflow": "Transfers: much lender and IC review is evaluated ex post by process (was a reasonable process followed and documented?) rather than by whether it would have caught the problem. A product that reduces effort must still leave the recipient with a defensible record of its own inquiry. Verify: whether credit-file requirements specify documentation of reviewer questions and responses.",
+  "analyst_inference": "Review effort has a component whose value is the defensibility of the recipient's own process, independent of detection yield. This sustains W1 work even when advisor output is accurate and transparent; tools could help produce that record, but cannot replace the recipient's inquiry.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E11",
+  "source_id": "R3B-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P-NEW: Legal doctrine on required investigation can diverge from effort actually expended (doctrine ≠ observed practice).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "The opinion quotes academics and practitioners stating that, under shelf registration time constraints, 'serious due diligence efforts are simply not feasible' (Coffee, 1997), that disinterested advance due diligence is 'the exception not the rule' for shelf offerings (Partnoy, 2001), and an ABA committee letter to the SEC (2001) stating it 'is not possible' for underwriters to meet the standard in the current financing environment. The court nonetheless held the prudent-man standard has not been diluted by regulatory changes.",
+  "relationship": "qualifies",
+  "evidence_type": "court_decision (quoting commentary)",
+  "population_and_setting": "US shelf-registered offerings c. 1990s-2001",
+  "study_or_observation_method": "Court's survey of commentary",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Feasibility of required diligence in practice",
+  "quantitative_result": null,
+  "source_locator": "346 F. Supp. 2d 628, Part III.D 'Integrated Disclosure, Shelf Registration, and Rule 176'",
+  "short_exact_excerpt": "It is not possible for underwriters and others to meet this standard in the current financing environment.",
+  "underlying_evidence_group": "EG:in-re-worldcom-2004-underwriters",
+  "limitations": "Secondhand quotations of opinion; no measurement of actual diligence effort.",
+  "transferability_to_target_workflow": "Transfers as a caution: competitive, time-compressed renewable-energy financings (portfolio deals, tax-equity closings) may similarly produce gaps between required and performed diligence. Legal standards therefore cannot be used to infer how much review lenders actually do. Verify: observed time budgets for credit review in competitive processes.",
+  "analyst_inference": "Supports the coordinator's caveat that doctrine establishes required W1 work, not actual effort; it also suggests time pressure, not only transparency, constrains review.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E12",
+  "source_id": "R3B-S05",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (scope disclosure is designed to let the recipient judge sufficiency) and P1.1.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "AS 6101 states that what constitutes a reasonable investigation of unaudited information 'has never been authoritatively established' and therefore 'only the underwriter can determine what is sufficient'; procedures short of an audit give accountants a basis for 'at the most, negative assurance'; such procedures do not provide assurance that accountants will become aware of all significant matters, so there is 'necessarily a risk' that negative assurance is given about the absence of conditions that existed. Any discussion of procedures must be accompanied by a statement that accountants cannot furnish assurance about the procedures' sufficiency for the underwriter's purposes.",
+  "relationship": "qualifies",
+  "evidence_type": "professional_standard",
+  "population_and_setting": "Auditors issuing comfort letters to underwriters in SEC-registered offerings",
+  "study_or_observation_method": "Reading of standard",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Allocation of responsibility for sufficiency of procedures",
+  "quantitative_result": null,
+  "source_locator": "AS 6101.12 and .15 (compiled PCAOB standards PDF pp. 560-561)",
+  "short_exact_excerpt": "What constitutes a reasonable investigation of unaudited financial information sufficient to satisfy an underwriter's purposes has never been authoritatively established. Consequently, only the underwriter can determine what is sufficient for his or her purposes.",
+  "underlying_evidence_group": "EG:pcaob-as6101",
+  "limitations": "Standard states allocation and rationale; it does not show whether underwriters actually exercise independent sufficiency judgment or accept customary letters.",
+  "transferability_to_target_workflow": "Transfers: renewable-energy advisors (IE, insurance, market consultants) and their lender recipients face the same allocation — the producer describes what it did; the recipient decides whether that is enough for its credit purpose. Verify: whether IE engagement letters or reliance letters contain analogous sufficiency disclaimers (R3C may have scopes).",
+  "analyst_inference": "The profession that produces the work explicitly refuses to own the sufficiency judgment; that judgment is a non-delegable W1 task for the recipient. Coverage visibility (X4) is the input to that judgment, not a substitute for it.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E13",
+  "source_id": "R3B-S05",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (visibility into checks performed, stated in unambiguous terms, as a design requirement).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "AS 6101 requires the procedures to be 'clearly set out in the comfort letter, in both draft and final form' so the underwriter 'can decide whether the procedures performed are sufficient'; accountants should avoid statements that they carried out 'such procedures as they consider necessary'; terms of uncertain meaning ('general review, limited review, reconcile, check, or test') should not be used unless the procedures are described; the underwriter may request additional procedures and specify items and materiality thresholds, which must then be described; acceptance of the draft and final letter lets accountants assume the underwriter considers the procedures sufficient.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard",
+  "population_and_setting": "As above",
+  "study_or_observation_method": "Reading of standard",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required content/wording of procedure descriptions",
+  "quantitative_result": null,
+  "source_locator": "AS 6101.16 and .35(a)-(c) (compiled PDF pp. 561-562, 568)",
+  "short_exact_excerpt": "so that there will be no misunderstanding about the basis on which the accountants' comments have been made and so that the underwriter can decide whether the procedures performed are sufficient for his or her purposes.",
+  "underlying_evidence_group": "EG:pcaob-as6101",
+  "limitations": "Shows a mandated design feature and its rationale, not evidence that it reduces underwriter effort or improves detection.",
+  "transferability_to_target_workflow": "Transfers closely to CL026: a long-standing professional regime already requires producers to state procedures performed (and findings) in concrete, non-vague terms, specifically so the recipient can make its own sufficiency decision. Renewable diligence deliverables could be benchmarked against this (e.g., ban on undefined 'reviewed'/'checked'). Verify: whether IE reports in practice describe procedures at this specificity.",
+  "analyst_inference": "This is the closest existing institutional analogue to the thesis's X4 proposal. Its rationale is allocation of responsibility and avoidance of misunderstanding, not effort reduction; no effect data were found.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E14",
+  "source_id": "R3B-S05",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.6 / P1.1 (comfort procedures exist partly to build the recipient's defense record).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "AS 6101.02 states that because of §11, underwriters 'request accountants to assist them in developing a record of reasonable investigation' and that a comfort letter is 'one of a number of procedures' that may be used to establish a reasonable investigation. Para .43 states that where requirements for negative assurance are not met, accountants 'are limited to reporting procedures performed and findings obtained'.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard",
+  "population_and_setting": "As above",
+  "study_or_observation_method": "Reading of standard",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Purpose and permitted forms of comfort",
+  "quantitative_result": null,
+  "source_locator": "AS 6101.02 (pp. 556-557) and .43 (p. 571)",
+  "short_exact_excerpt": "Consequently, underwriters request accountants to assist them in developing a record of reasonable investigation.",
+  "underlying_evidence_group": "EG:pcaob-as6101",
+  "limitations": "Statement of purpose by the standard-setter; not evidence on actual use.",
+  "transferability_to_target_workflow": "Transfers: third-party diligence outputs in project finance also serve as part of the lender's documented process (credit file), which is a reason recipients demand them even when they add little new information. Verify: credit-policy requirements for consultant reports as file documents.",
+  "analyst_inference": "Supports a 'record-building' function of outside work for the recipient: part of the demand for advisor output is to document the recipient's own diligence, which neither eliminates the recipient's work nor is fully captured by detection metrics.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E15",
+  "source_id": "R3B-S06",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (does disclosure of procedures performed and findings — without an assurance conclusion — satisfy recipients?).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Under current AS 6101, after the 135-day window the comfort letter is limited to 'procedures performed and findings obtained' ('management inquiries'), and Davis Polk states that investment banks are usually unwilling to proceed with an offering without a customary negative assurance paragraph. It reports that the gap between Q3 period end and the 10-K deadline can be up to 182 days, creating up to a 47-day window in which an issuer is effectively precluded from offering; the PCAOB proposal (Nov. 2026) would tie the outside date to filing deadlines and add a note that auditors are not required to give negative assurance and listing factors for that decision.",
+  "relationship": "challenges",
+  "evidence_type": "practitioner_account",
+  "population_and_setting": "US underwriters and issuers in SEC-registered offerings (incl. foreign private issuers, proposed semiannual filers)",
+  "study_or_observation_method": "Law-firm client update describing proposal and market practice",
+  "intervention_and_comparator": "Comfort letter with negative assurance vs letter limited to procedures and findings",
+  "outcome_measured": "Underwriters' willingness to proceed with an offering",
+  "quantitative_result": "Per Davis Polk: Q3-end-to-10-K gap up to 182 days -> up to 47-day window without negative assurance; up to 212 days for proposed small non-accelerated filers; up to 274 days for semiannual filers. No counts of deals delayed or abandoned.",
+  "source_locator": "Section 'Background: The 135-day convention'",
+  "short_exact_excerpt": "investment banks are usually unwilling to proceed with an offering if the comfort letter does not include a customary negative assurance paragraph",
+  "underlying_evidence_group": "EG:pcaob-as6101-2026-proposal",
+  "limitations": "Practitioner assertion without data; firm has a stated policy position. Underlying PCAOB release not reviewed directly (pcaobus.org docket blocked scripted access).",
+  "transferability_to_target_workflow": "Transfers as counterevidence to CL026: sophisticated recipients treat a disclosure of procedures performed and findings as NOT equivalent to a producer's (even limited) conclusion — they want the expert to commit to 'nothing came to our attention'. In renewable-energy credit, a consultant report that lists checks without an opinion may likewise fail to satisfy credit committees. Verify: whether lenders accept 'findings-only' consultant reports or require opinions/negative assurance.",
+  "analyst_inference": "Challenges the assumption that coverage visibility alone substitutes for producer judgment. Recipients appear to demand a producer conclusion with accountability attached (here, negative assurance) — likely because it supports their legal defense and shifts some responsibility — so 'procedures and findings, including none' is a complement, not a replacement. Stated-practice evidence, not observed behavior counts.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E16",
+  "source_id": "R3B-S07",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (findings without assurance: the user, not the producer, must judge appropriateness and draw conclusions).",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "For AUP engagements the IAASB introduced acceptance conditions that the engaging party 'acknowledges that the expected procedures ... are appropriate for the purpose' and that procedures and findings can be described objectively 'not subject to varying interpretations'; it required the engagement letter and report to explain that findings are 'the factual results' of the procedures; and it replaced the report statement that the engagement 'does not constitute a reasonable or limited assurance engagement' with 'is not an assurance engagement' because respondents were concerned the phrase 'may not be well understood by intended users'. An AUP engagement 'does not involve obtaining evidence for the purpose of the practitioner expressing an opinion or an assurance conclusion in any form.'",
+  "relationship": "qualifies",
+  "evidence_type": "professional_standard",
+  "population_and_setting": "Practitioners performing agreed-upon procedures on financial or non-financial subject matter (international)",
+  "study_or_observation_method": "Standard-setter's basis for conclusions summarizing exposure-draft responses",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Report/engagement design requirements",
+  "quantitative_result": null,
+  "source_locator": "Basis for Conclusions paras 25, 34-37, 57, 61 (pp. 10-17)",
+  "short_exact_excerpt": "The engaging party acknowledges that the expected procedures to be performed by the practitioner are appropriate for the purpose of the AUP engagement;",
+  "underlying_evidence_group": "EG:isrs4400-revised",
+  "limitations": "Basis for conclusions, not the standard text; user-misunderstanding concern is respondents' view, not measured.",
+  "transferability_to_target_workflow": "Transfers: a 'procedures performed and findings (incl. none)' diligence product resembles an AUP report: it shifts the judgment of whether the checks suffice, and what the findings mean, onto the recipient. For renewable-energy diligence, an advisor offering checks-and-findings outputs would leave interpretation and sufficiency with the investment/credit team. Verify: whether recipients of such outputs spend less time than with opinion-style reports, or more (because they must draw the conclusions).",
+  "analyst_inference": "Clarifies what CL026-style disclosure does and does not do: it makes coverage visible (X4) but expressly transfers sufficiency and interpretation to the user (W1). The standard-setter itself worried users misread assurance terminology — suggesting coverage disclosure can be misunderstood as assurance (a P2.3-type risk).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E17",
+  "source_id": "R3B-S08",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (conditions under which decision-makers may rely on an outside expert without independent investigation).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [],
+  "observed_finding": "The court held the board was presumed to have relied in good faith on its compensation consultant (Graef Crystal) under §141(e) and that plaintiffs must plead particularized facts showing, e.g., (a) no actual reliance; (b) reliance not in good faith; (c) directors did not reasonably believe the advice was within the expert's competence; (d) the expert was not selected with reasonable care, attributable to the directors; (e) the material, reasonably available subject matter was 'so obvious' that failing to consider it was grossly negligent regardless of the expert's advice; or (f) waste/fraud. Due care is 'process due care only'.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "Disney shareholders v. directors (Ovitz employment/severance); Delaware Supreme Court, derivative suit",
+  "study_or_observation_method": "Appellate review of dismissal (pleading stage)",
+  "intervention_and_comparator": "Reliance on outside expert vs uninformed decision",
+  "outcome_measured": "Conditions for §141(e) protection",
+  "quantitative_result": null,
+  "source_locator": "746 A.2d 244, section 'Plaintiffs’ Contention that the Old Board Violated the Process Duty of Care in Approving the Ovitz Employment Agreement'",
+  "short_exact_excerpt": "(e) the subject matter (in this case the cost calculation) that was material and reasonably available was so obvious that the board’s failure to consider it was grossly negligent regardless of the expert’s advice or lack of advice",
+  "underlying_evidence_group": "EG:brehm-v-eisner-2000",
+  "limitations": "Pleading-stage list ('for example'); gross-negligence standard is more forgiving than §11's negligence-type standard; Delaware-specific.",
+  "transferability_to_target_workflow": "Transfers to investment committees relying on outside advisors (e.g., fairness or valuation advisors for project acquisitions, market price-curve consultants): reliance is protected when the advisor was chosen with care, acted within expertise, and nothing material was obviously missing. Difference: lenders' regulators (SR 26-2, TPRM — already in register) impose their own oversight expectations. Verify: IC charters' language on reliance on advisors.",
+  "analyst_inference": "Defines the boundary for decision-makers in terms of selection, competence, good faith and an 'obviousness' exception — none of which requires re-performing the expert's work. The 'obvious material gap' exception means the recipient must still scan for glaring omissions (W1), which is where explicit coverage/omission statements (X4) could matter.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E18",
+  "source_id": "R3B-S08",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 (advisor omissions) — does an expert's incomplete work make the recipient's reliance improper?",
+  "work_type_tags": [
+   "W1",
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "Although the total severance cost was material and 'reasonably available' (the expert or board could have calculated it) and the expert later said 'nobody' quantified it, the court held the expert's hindsight regret did not rebut the presumption of proper reliance; the board must consider 'only material facts that are reasonably available', not every fact; the expert was the board's adviser ex ante, 'not their agent ex post to make binding admissions'. The court left open that a properly pleaded complaint could rebut reliance.",
+  "relationship": "qualifies",
+  "evidence_type": "court_decision",
+  "population_and_setting": "As above",
+  "study_or_observation_method": "Appellate review of dismissal (pleading stage)",
+  "intervention_and_comparator": "Expert's omitted calculation",
+  "outcome_measured": "Whether omission defeats directors' reliance",
+  "quantitative_result": null,
+  "source_locator": "746 A.2d 244, sections 'Analytical Framework for the Informational Component of Directorial Decisionmaking' and process-duty-of-care section",
+  "short_exact_excerpt": "The Board is responsible for considering only material facts that are reasonably available, not those that are immaterial or out of the Board’s reasonable reach.",
+  "underlying_evidence_group": "EG:brehm-v-eisner-2000",
+  "limitations": "Later trial (In re Walt Disney, 2005/2006) not reviewed here; pleading-stage holding only.",
+  "transferability_to_target_workflow": "Transfers: if a consultant omits an analysis (e.g., downside curtailment scenario), the recipient's reliance may still be proper unless the gap was obvious and material. Making omissions explicit (X4) would make gaps 'obvious' and arguably shift them into the recipient's W1 scope. Verify: whether IC memos record advisor scope exclusions.",
+  "analyst_inference": "Under Delaware's standard, advisor omissions (W3 risk) do not automatically convert into recipient fault; but transparency about omissions could make them obvious and so expand what the recipient must address — a possible tension with the thesis's effort-reduction claim (inference).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E19",
+  "source_id": "R3B-S09",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 / P2.4 (reliance requires a substantive report with a knowable basis; uninformed reliance is unprotected).",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X3",
+   "X4"
+  ],
+  "observed_finding": "Directors approved a merger after a 20-minute oral presentation with no documents; the court held the CEO's oral presentation and the CFO's statement did not qualify as §141(e) 'reports' (the former 'lacked substance' because the presenter was uninformed of key terms). Directors were entitled to rely on the chairman's opinion of value 'provided that such opinion was reached on a sound basis', but had they informed themselves they would have learned 'the source and derivation of the $55 price and could not reasonably have relied thereupon in good faith'. The court stated an outside valuation or fairness opinion is not required as a matter of law and insiders may be better placed.",
+  "relationship": "supports",
+  "evidence_type": "court_decision",
+  "population_and_setting": "Trans Union shareholders v. directors (cash-out merger); Delaware Supreme Court",
+  "study_or_observation_method": "Appellate decision after trial",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Whether directors were informed / entitled to §141(e) protection",
+  "quantitative_result": "Board deliberation based on a '20-minute oral presentation' (court's description); no written summary or valuation documents before the board.",
+  "source_locator": "488 A.2d 858, discussion of the September 20 meeting and §141(e) (text and footnotes)",
+  "short_exact_excerpt": "Under § 141(e), the directors were entitled to rely upon their chairman’s opinion of value and adequacy, provided that such opinion was reached on a sound basis.",
+  "underlying_evidence_group": "EG:smith-v-van-gorkom-1985",
+  "limitations": "Concerns reliance on insiders, not outside experts; heavily criticized and followed by statutory exculpation (§102(b)(7)).",
+  "transferability_to_target_workflow": "Transfers: an IC that adopts an advisor's valuation without knowing how it was derived risks unprotected reliance; legitimate reliance requires access to the basis (assumptions, derivation). Traceable assumptions (X3/X4) are therefore not only a convenience but bear on whether reliance is defensible. Verify: whether IC approvals record the derivation of key numbers (e.g., price curves, P50/P90).",
+  "analyst_inference": "Supports the thesis that visibility into the basis of an opinion matters for legitimate reliance: the reliance failure was precisely that the derivation was unknown. It does not show that such visibility reduces effort — the duty is to be informed, which may require more reading.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E20",
+  "source_id": "R3B-S10",
+  "research_question_ids": [
+   "RQ1",
+   "RQ3"
+  ],
+  "proposition_tested": "P1.3 / P1.2 / P1.1 (why recipients duplicate an outside party's diligence).",
+  "work_type_tags": [
+   "W1",
+   "W2",
+   "W3",
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Clifford Chance reports that borrower/vendor-produced due diligence reports for lenders and purchasers are 'rarely popular' and that 'certain institutional financing bodies will typically insist on engaging their own counsel'; it says it is 'increasingly coming across' vendor diligence 'below basic standards' that 'causes far more trouble (and thus time and cost) than it saves'; reports that 'simply recite or reword' underlying documents leave recipient counsel effectively reading the documents; recommends evaluative content, agreeing report style with beneficiaries in advance, and warns that restricted document access undermines precedent (a contractor's claimed 'banked' liability cap had never been seen by lenders' counsel).",
+  "relationship": "supports",
+  "evidence_type": "practitioner_account",
+  "population_and_setting": "Project/construction financings and asset sales (energy and infrastructure sectors implied); lenders, purchasers and their counsel",
+  "study_or_observation_method": "Practitioner blog drawing on firm experience",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Recipient acceptance and re-work of vendor/borrower diligence",
+  "quantitative_result": null,
+  "source_locator": "Blog post, guidelines 1-5",
+  "short_exact_excerpt": "We have seen too many reports lately that simply recite or reword at length the drafting from the underlying documents - in which case the purchaser/lender counsel might as well be reading the actual documents.",
+  "underlying_evidence_group": "EG:cliffordchance-2020-vendor-dd",
+  "limitations": "Anecdotal; author's firm has an interest in lenders engaging their own counsel; no frequency or effort data.",
+  "transferability_to_target_workflow": "Directly in-domain for renewable-energy project finance: duplicate legal diligence by lenders' counsel arises from (i) institutional policy requiring own counsel (W1/W4), (ii) descriptive rather than evaluative reports (W2/W3), and (iii) restricted access to source documents (X3). Verify: share of deals where lenders accept vendor DD with reliance vs commission their own.",
+  "analyst_inference": "Separates causes of duplicate work: some is policy-mandated and would persist (W1/W4), some is caused by low-value outputs and lack of access (W2/W3). The latter is the part a traceable, evaluative product could plausibly address.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3B-E21",
+  "source_id": "R3B-S11",
+  "research_question_ids": [
+   "RQ1",
+   "RQ4"
+  ],
+  "proposition_tested": "P1.1 (reliance is allocated contractually; non-reliance recipients receive information without the legal ability to rely).",
+  "work_type_tags": [
+   "W1",
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "EAIF's RfP for a Lenders' Technical Advisor on a Kenyan biogas project states the LTA's report 'will be prepared primarily for the Lenders but may be shared with the equity and mezzanine investors on a non-reliance basis'; scope includes a conceptual-phase feasibility analysis 'including red flags', detailed design review and construction/commissioning monitoring.",
+  "relationship": "contextual",
+  "evidence_type": "procurement_document",
+  "population_and_setting": "Development-finance lender procuring technical due diligence for a renewable (biogas) project, 2021",
+  "study_or_observation_method": "Reading of RfP",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Reliance allocation and scope of LTA work",
+  "quantitative_result": null,
+  "source_locator": "RfP p. 3 ('Request for Proposal' section)",
+  "short_exact_excerpt": "The LTA’s report will be prepared primarily for the Lenders but may be shared with the equity and mezzanine investors on a non-reliance basis.",
+  "underlying_evidence_group": "EG:eaif-homabay-lta-rfp-2021",
+  "limitations": "Single RfP; intended allocation only; does not show what equity investors did with the report.",
+  "transferability_to_target_workflow": "In-domain: in renewable-energy financings the same technical report may circulate to parties with and without reliance rights; the non-reliance parties must decide for themselves whether to commission or perform their own review. Verify: whether equity/mezzanine investors in such deals commission separate technical advisors.",
+  "analyst_inference": "Who may rely is set by contract, not by the report's quality; identical transparency can carry different implications for recipients' required work depending on reliance rights. This adds a contractual boundary alongside the statutory (§11) and fiduciary (§141(e)) ones.",
+  "access_status": "full_text"
+ }
+]

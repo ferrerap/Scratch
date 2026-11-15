@@ -223,5 +223,19 @@
   "funding_or_commercial_relationships": "IEA technology collaboration programme; some assessors and authors are from consultancies (e.g., 3E, TUV Rheinland).",
   "archived_file_path": null,
   "limitations": "Executive summary only (full report not retrieved); seven assessors, two sites; the statement on typical investor practice is the authors' characterisation, not survey data."
+ },
+ {
+  "source_id": "R3C-S16",
+  "title": "Fitch Assigns ReNew Power Restricted Group 4's Proposed Notes 'BB-(EXP)' (rating action commentary as reproduced by EQ Mag Pro; page cites Reuters)",
+  "authors_or_organization": "Fitch Ratings (reproduced by EQ Mag Pro / Reuters)",
+  "url": "https://www.eqmagpro.com/fitch-assigns-renew-power-restricted-group-4s-proposed-notes-bb-exp/",
+  "publication_date": "2021-03-30 (committee date 2021-03-29)",
+  "data_collection_dates": "Portfolio operating data FY19-FY20",
+  "access_date": "2026-11-15",
+  "source_type": "rating_agency_rating_action (secondary reproduction)",
+  "access_status": "partial",
+  "underlying_evidence_group": "EG:fitch2021-renew-rg4-rating-action",
+  "funding_or_commercial_relationships": "Rating agency paid by issuer (issuer-pays model); reproduced by a trade-news site.",
+  "limitations": "Secondary reproduction read through a fetch tool limited to short quotes; the original Fitch page was not accessed; one issuer (Indian wind/solar portfolio). Related to, but a separate deal from, the Fitch criteria (2012) and Topaz (2024) items already in the register."
  }
 ]

@@ -640,5 +640,33 @@
   "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; a single IE P50 embeds assessor-specific judgment, which rationalises lender sensitivities and parallel views. The recommended remedy is assumption and modelling-chain visibility.",
   "analyst_inference": "This is the strongest source linking X4 (assumption visibility) to the ability to judge which assessment to trust. It shows a mechanism and a recommendation, not an effort or detection outcome.",
   "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3C-E23",
+  "source_id": "R3C-S16",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.4 adaptation to recipient's own criteria (rating agency); P1.3 discounting based on observed performance",
+  "work_type_tags": [
+   "W4",
+   "W3"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Fitch takes the third-party experts' energy yield forecast (P50/one-year P90 spread of 18%) as an input to its volume-risk assessment ('Weaker'). It then applies its own 7% production haircut in both base and rating cases, citing moderately volatile actual load factors in FY19-FY20. Base case is P50 generation with the 7% haircut; rating case is one-year P90 with the 7% haircut. Separately, it notes the operating cost forecast is not validated by an independent technical advisor and stresses it by 15% in the rating case.",
+  "relationship": "supports",
+  "evidence_type": "direct (rating-agency application of criteria to an IE/third-party forecast)",
+  "population_and_setting": "ReNew Power Restricted Group 4, Indian wind and solar portfolio; USD notes, 2021",
+  "study_or_observation_method": "Rating action commentary",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Agency base/rating case construction",
+  "quantitative_result": "Third-party P50/one-year P90 spread 18%; Fitch production haircut 7% (base and rating cases); 15% opex stress in rating case; refinancing rate 11% in base case",
+  "source_locator": "Key rating drivers / Fitch's key assumptions sections (as reproduced)",
+  "short_exact_excerpt": "Hence, we apply a lower haircut of 7% on the volume forecast in our base and rating cases.",
+  "underlying_evidence_group": "EG:fitch2021-renew-rg4-rating-action",
+  "limitations": "Secondary reproduction; one transaction; the reason the haircut is 'lower' (vs what reference) was not fully visible.",
+  "transferability_to_target_workflow": "Target workflow is renewable-energy investment/credit diligence; shows the W4 pattern at a rating agency: the IE forecast is accepted as the base input and then haircut by agency-specific rules informed by observed operations. Where an independent advisor has not validated an input, the agency stresses it.",
+  "analyst_inference": "The agency does not re-derive the EYA. It adapts it (haircuts, P-case choice) and applies heavier stress where independent validation is missing. That is consistent with 'review + adapt' rather than 're-run', at least at rating agencies.",
+  "access_status": "partial"
  }
 ]

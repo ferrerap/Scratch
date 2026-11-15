@@ -538,5 +538,34 @@
   "transferability_to_target_workflow": "Renewable-energy credit diligence relies heavily on derived metrics (DSCR, P50/P90 yields, degradation-adjusted cash flows); a source link to an input does not verify a derived figure, so traceability must extend to calculations.",
   "analyst_inference": "Traceability to sources (X3) helps for extracted facts but not for computed claims, which are where professional reviewers reportedly miss most.",
   "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3A-E19",
+  "source_id": "R3A-S14",
+  "research_question_ids": [
+   "RQ3",
+   "RQ2"
+  ],
+  "proposition_tested": "P3.2 Integration/AI assistance shifts review effort elsewhere rather than removing it",
+  "work_type_tags": [
+   "W5",
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Access to EHR-integrated GenAI-drafted replies for patient messages was associated with a 21.8% increase in physicians' message read time, no significant change in reply time, and 17.9% longer replies.",
+  "relationship": "supports",
+  "evidence_type": "direct evidence (randomized waiting-list field QI study, professionals, logged time)",
+  "population_and_setting": "52 primary care physicians (25 immediate, 27 delayed activation) plus 70 contemporary controls; academic health system (UC San Diego), June-August 2023",
+  "study_or_observation_method": "Randomized waiting-list design; mixed-effects models on EHR audit-log time",
+  "intervention_and_comparator": "Access to GenAI-drafted replies vs no access (delayed group waiting period and contemporary controls)",
+  "outcome_measured": "Time reading messages; time replying; reply length; likelihood to recommend",
+  "quantitative_result": "Read time +21.8% (95% CI 5.2% to 41.0%; P=.008); reply time -5.9% (95% CI -16.6% to 6.2%; P=.33); reply length +17.9% (95% CI 10.1% to 26.2%; P<.001); median read time immediate group 26 s baseline vs 31 s at 3 and 6 weeks",
+  "source_locator": "Abstract Results (Europe PMC PMID 38619840)",
+  "short_exact_excerpt": "The estimated association of GenAI was a 21.8% increase in read time (95% CI, 5.2% to 41.0%; P = .008), a -5.9% change in reply time (95% CI, -16.6% to 6.2%; P = .33)",
+  "underlying_evidence_group": "EG:taiseale2024-ucsd-genai-draft-replies",
+  "limitations": "No measure of draft accuracy or whether physicians caught errors; QI design; early tool version; abstract only.",
+  "transferability_to_target_workflow": "Integrated drafts moved professional effort from writing to reading/reviewing without net time saving; a diligence analogue would be advisor content dropped into an IC memo template that the accountable reviewer must still read and check.",
+  "analyst_inference": "Field evidence that integration can add review time rather than remove it; pairs with R3A-E01 (low detection) to show neither time nor detection automatically improves when drafts are integrated.",
+  "access_status": "abstract_only"
  }
 ]

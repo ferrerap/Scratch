@@ -1,0 +1,776 @@
+[
+ {
+  "evidence_id": "WS8-E01",
+  "source_id": "WS8-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (coverage/structure visibility improves recipient use) and P2.3 (format raises acceptance without decision benefit)",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Referring clinicians and radiologists rated structured body-CT reports higher than conventional reports for content and clarity; ratings of the report's effectiveness in advancing the patient's position on the clinical spectrum (POCS grade) did not differ significantly.",
+  "relationship": "qualifies",
+  "evidence_type": "direct evidence (medical analogy); stated preference/ratings, not observed behavior",
+  "population_and_setting": "11 physicians (3 radiologists, 3 fellows, 3 surgeons, 2 medical oncologists) at a US tertiary cancer center; 330 body CT reports",
+  "study_or_observation_method": "Quality-improvement comparison; each rater read 15 conventional and 15 structured reports; mixed-effects models",
+  "intervention_and_comparator": "Structured (template) reports (Jun-Sep 2009) vs conventional free-form reports (Jan-Jun 2009), different patients",
+  "outcome_measured": "Satisfaction with content and clarity (1-10); POCS grade (I-IV coded 1-5)",
+  "quantitative_result": "Content: 7.61 (95% CI 7.12-8.16) conventional vs 8.33 (95% CI 7.82-8.86) structured, P<.0001. Clarity: 7.45 (6.89-8.02) vs 8.25 (7.68-8.82), P<.0001. POCS grade: 4.11 (3.67-4.54) vs 4.27 (3.82-4.70), P=.146 (n.s.).",
+  "source_locator": "Abstract (Results, Conclusion); Results sections 'Satisfaction with Content', 'Satisfaction with Clarity', 'Radiology Report Grading Scale'",
+  "short_exact_excerpt": "Referring clinicians and radiologists found that structured reports had better content and greater clarity than conventional reports.",
+  "underlying_evidence_group": "EG:schwartz2011-structured-ct-reports",
+  "limitations": "Ratings, not correctness or downstream decision quality; no measure of clarification calls, reading time or errors; producer time not measured; single center.",
+  "transferability_to_target_workflow": "Mechanism: a fixed, element-by-element diligence report layout may be rated clearer by IC members/lenders. Difference: satisfaction gains may not translate into better investment decisions (analogous to unchanged POCS grade). Verify: whether structured diligence reports change reviewer time, follow-up questions, or detection of issues, not just ratings.",
+  "analyst_inference": "Clean example of satisfaction/clarity gain without a measured decision-utility gain; supports separating perceived usefulness from appropriate reliance.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E02",
+  "source_id": "WS8-S01",
+  "research_question_ids": [
+   "RQ2",
+   "RQ4",
+   "RQ5"
+  ],
+  "proposition_tested": "P4.1/P5.1 (templates require recipient-specific design input; standardization has setup cost)",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Templates were built by a departmental committee with input from 16 multidisciplinary disease-management teams, covering 205 common examinations (43 CT protocols); authors consulted referring physicians and many attending radiologists and credit this involvement for user acceptance.",
+  "relationship": "contextual",
+  "evidence_type": "practitioner account within study (implementation description)",
+  "population_and_setting": "Memorial Sloan-Kettering radiology department",
+  "study_or_observation_method": "Description of template development in Methods/Discussion",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Number of templates; development process",
+  "quantitative_result": "205 templates; 43 CT protocols; 16 disease-management teams consulted",
+  "source_locator": "Materials and Methods ('Structured Reporting Method'); Discussion",
+  "short_exact_excerpt": "consulted with referring physicians to address their needs and concerns",
+  "underlying_evidence_group": "EG:schwartz2011-structured-ct-reports",
+  "limitations": "Process description; cost/effort of development not quantified.",
+  "transferability_to_target_workflow": "Mechanism: a coverage-map template for renewable diligence would need input from recipients (IC, lenders, tax equity) per asset class/stage, implying non-trivial setup and per-client variation. Verify: how many template variants a diligence provider needs across solar/wind/storage and client types.",
+  "analyst_inference": "Suggests 'standardized' templates are locally co-designed with recipients; repeatability comes after a substantial design investment.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E03",
+  "source_id": "WS8-S02",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (structured/explicit-coverage reporting improves report use) - strength of evidence",
+  "work_type_tags": [
+   "W2",
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "A PRISMA-based review of 63 structured-reporting studies in radiology found most report improvement, but only one study (two papers, Johnson 2009/2010) reached the highest evidence level and that study found no improvement; the remaining 61 were level B; heterogeneity precluded meta-analysis. Error outcomes were mixed (e.g., prepopulated templates did not affect error rate; checklist reduced some misses).",
+  "relationship": "qualifies",
+  "evidence_type": "systematic review (narrative synthesis) of observational and interventional studies",
+  "population_and_setting": "Radiology structured-reporting literature to Aug 2020 (PubMed, Embase, Cochrane)",
+  "study_or_observation_method": "Systematic search, evidence grading (Siwek A/B/C), thematic synthesis",
+  "intervention_and_comparator": "Structured reporting (layout: templates/checklists; content: point-and-click/decision trees) vs free text",
+  "outcome_measured": "Varied: completeness, accuracy, satisfaction, reporting time, billing",
+  "quantitative_result": "8,561 screened; 63 studies included; 2 papers (1 study) level A; 61 level B. No pooled effect estimate.",
+  "source_locator": "Abstract; Results; 'Level of evidence' section; Table 1",
+  "short_exact_excerpt": "The level of evidence for implementing SR in radiology is still low and outcomes should be interpreted with caution.",
+  "underlying_evidence_group": "EG:nobel2021-sr-radiology-systematic-review",
+  "limitations": "Narrative synthesis; outcome categories not tallied; publication bias likely.",
+  "transferability_to_target_workflow": "Mechanism transferring: structure is widely believed to help, but rigorous evidence is thin even in a field with decades of study. Verify in diligence: controlled comparisons (same deals, structured vs narrative reports) rather than adoption anecdotes.",
+  "analyst_inference": "The best-designed study in the field is negative; the positive literature is mostly before/after or rating studies. This is a meaningful caution for P2.4.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E04",
+  "source_id": "WS8-S02",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 (standardized formats improve repeatability) and P-NEW: structured format effects are confounded with content standardization",
+  "work_type_tags": [
+   "W5"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The reviewers note that many studies built templates through expert meetings or literature review (confounding format with content standardization) and question whether structured reporting improves reporting or is 'only a means in facilitating standardization'; reporting-time results were mixed (some shorter, some no effect).",
+  "relationship": "qualifies",
+  "evidence_type": "systematic review (authors' synthesis and interpretation)",
+  "population_and_setting": "Radiology SR literature",
+  "study_or_observation_method": "Thematic synthesis",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Reporting time; standardization",
+  "quantitative_result": "No pooled estimate; individual studies mixed on dictation/reporting time.",
+  "source_locator": "Discussion; Conclusion; Table 1 entries (Hawkins 2012; Hanna 2016; Kim 2020)",
+  "short_exact_excerpt": "questionable whether SR is the solution for improving reporting in radiology or only a means in facilitating standardization",
+  "underlying_evidence_group": "EG:nobel2021-sr-radiology-systematic-review",
+  "limitations": "Authors' interpretation; no causal decomposition.",
+  "transferability_to_target_workflow": "Mechanism: in diligence, gains attributed to a 'coverage map' format may really come from agreeing on what must be checked (scope standard). Verify: separate effects of an agreed checklist of diligence items from the presentation format.",
+  "analyst_inference": "Important for the thesis: the active ingredient may be the agreed list of required elements (scope definition), not the visible structure per se.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E05",
+  "source_id": "WS8-S03",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 / P2.2 (structured reporting improves completeness/accuracy) - counterevidence; cost of structure",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5",
+   "X4"
+  ],
+  "observed_finding": "Residents who switched to a structured reporting system (SRS) produced less accurate and less complete reports on re-reading the same cases, while control residents using free-text dictation improved; residents complained the SRS was overly constraining and time-consuming.",
+  "relationship": "challenges",
+  "evidence_type": "direct evidence (medical analogy); controlled cohort with criterion-standard grading",
+  "population_and_setting": "Radiology residents (16 control, 18 intervention); 25 brain MR cases (suspected stroke)",
+  "study_or_observation_method": "Two-phase cohort; phase 2 four months later; neuroradiologist grading against consensus and >=6-month follow-up criterion standard",
+  "intervention_and_comparator": "Point-and-click structured reporting system vs conventional free-text dictation",
+  "outcome_measured": "Report accuracy and completeness scores; resident opinions",
+  "quantitative_result": "Intervention group: accuracy 91.5 -> 88.7, completeness 68.7 -> 54.3; control group: accuracy 91.4 -> 92.4, completeness 67.8 -> 71.7 (all P<.001).",
+  "source_locator": "Abstract (Results, Conclusion)",
+  "short_exact_excerpt": "such changes cannot be assumed to improve report accuracy or completeness. Any SRS should be tested for effect on intrinsic report quality.",
+  "underlying_evidence_group": "EG:johnson2009-srs-cohort",
+  "limitations": "Abstract only; early SRS software; residents; small n; nonrandomized allocation.",
+  "transferability_to_target_workflow": "Mechanism: a rigid structured diligence template can crowd out salient narrative findings and cost producer time. Verify: whether rigid checklists in technical/IE diligence reduce reporting of non-template issues (e.g., site-specific geotech or interconnection quirks).",
+  "analyst_inference": "Strongest direct counterevidence in this workstream: structure that constrains the producer can lower completeness of what matters.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E06",
+  "source_id": "WS8-S04",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (explicit element lists improve report completeness, X5) - completeness vs clinical impact",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5",
+   "X4"
+  ],
+  "observed_finding": "Across 33 observational studies, synoptic pathology reporting was associated with higher overall completeness in 13 of 14 studies measuring it; gains concentrated in elements narrative reports often omitted (e.g., resection margins, lymphovascular/perineural invasion), whereas core elements like tumour type and nodal status were already adequately reported in narrative reports. Clinical impact had not been demonstrated.",
+  "relationship": "supports",
+  "evidence_type": "systematic review of observational studies",
+  "population_and_setting": "Cancer pathology reports (10 tumour types; mostly colorectal n=16, breast n=9)",
+  "study_or_observation_method": "Systematic review (PubMed, Embase, Cochrane to 2015-09-30), 2 reviewers",
+  "intervention_and_comparator": "Synoptic (checklist/template) reports vs narrative reports",
+  "outcome_measured": "Completeness of required parameters (>90% = sufficient)",
+  "quantitative_result": "Overall completeness up in 13/14 studies (exception: Hassell et al.). Example (Beattie, colorectal): resection margins 54% -> 100%; vascular invasion 68% -> 100%; perineural invasion 52% -> 98%; stage 39% -> 100%; nodal status 85% -> 99%.",
+  "source_locator": "Results ('Overall completeness', 'Parameter-specific completeness'); Fig. 2; Table 3; Abstract",
+  "short_exact_excerpt": "Demonstration of clinical impact of this improved method of pathology reporting is required",
+  "underlying_evidence_group": "EG:sluijter2016-synoptic-pathology-sr",
+  "limitations": "Observational designs; publication bias possible; completeness is a report property, not recipient decision quality.",
+  "transferability_to_target_workflow": "Mechanism: an explicit required-element list most helps for items producers otherwise skip (in diligence: e.g., stating that a title exception, curtailment risk or warranty gap was checked). Verify: which diligence items are routinely omitted in narrative reports; whether listing them changes lender/IC decisions.",
+  "analyst_inference": "Completeness (X5 of report) improves reliably; recipient benefit is inferred, not measured. Gains are item-specific, implying a targeted list may capture most value.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E07",
+  "source_id": "WS8-S04",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 (standardization) - producer burden and inflexibility",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "The review reports adoption barriers: pathologist preference for narrative flexibility, workflow disruption, EHR integration problems, and delays from changing criteria/interfaces; one included study found pathologists found synoptic reporting more difficult and inflexible with some parameters missed, and was the only study where synoptic reports were less complete.",
+  "relationship": "qualifies",
+  "evidence_type": "systematic review (discussion of included studies)",
+  "population_and_setting": "Pathology departments in included studies",
+  "study_or_observation_method": "Narrative discussion",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Adoption barriers; completeness",
+  "quantitative_result": "One study (Hassell et al.) with lower completeness under SR; progesterone receptor completeness decreased in another (McEvoy).",
+  "source_locator": "Discussion paragraph 4; Results ('Parameter-specific completeness'); Fig. 2",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:sluijter2016-synoptic-pathology-sr",
+  "limitations": "Qualitative; no time/cost measures.",
+  "transferability_to_target_workflow": "Mechanism: template rigidity and IT integration are recurring costs; in diligence, templates must integrate with data rooms/report tools. Verify: producer time and integration cost per deliverable.",
+  "analyst_inference": "Costs fall mainly on producers (and IT), not recipients.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E08",
+  "source_id": "WS8-S05",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P2.4/P5.1 (checklists listing required elements associate with complete reports)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5",
+   "X4"
+  ],
+  "observed_finding": "In 86 institutions, 68.8% of cancer reports contained all elements required by the ACS Commission on Cancer; institutions routinely using checklists had complete reports far more often (88%) than those not using them (34%); institutions with error-tracking systems also did better (88% vs 68%). Extent of invasion and margin status were the most commonly missing elements.",
+  "relationship": "supports",
+  "evidence_type": "multi-institution cross-sectional audit (correlational)",
+  "population_and_setting": "2125 breast, colon, rectum, prostate cancer reports from 86 Q-Probes institutions",
+  "study_or_observation_method": "Each institution reviewed 25 consecutive reports for missing required elements",
+  "intervention_and_comparator": "Routine checklist use vs no routine checklist use (institution-level)",
+  "outcome_measured": "Proportion of reports with all required elements",
+  "quantitative_result": "68.8% of 2125 reports complete; checklist institutions 88% vs non-checklist 34%; error-tracking 88% vs 68%.",
+  "source_locator": "Abstract (Results, Conclusions)",
+  "short_exact_excerpt": "Institutions in which checklists were routinely used reported all required elements at a higher rate than those that did not use checklists (88% versus 34%)",
+  "underlying_evidence_group": "EG:idowu2010-cap-qprobes-checklists",
+  "limitations": "Correlational; institution-level confounding (quality culture); self-audit.",
+  "transferability_to_target_workflow": "Mechanism: diligence providers that use an explicit required-item checklist may omit fewer required items. Verify: omission rates in actual diligence deliverables with vs without checklists; whether recipients' own checklists (lender requirements) already serve this role.",
+  "analyst_inference": "About 30% of narrative-era reports missed required elements - suggests recipients (oncologists) would otherwise need to chase missing items (W3), but the study does not measure follow-up queries.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E09",
+  "source_id": "WS8-S06",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (complete, structured reports improve recipient ability to use them)",
+  "work_type_tags": [
+   "W2",
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "Structured pancreatic CT reports contained more of 12 key staging/surgical-planning features; two of three surgeons found planning information easily accessible far more often with structured reports (third: no significant difference), all three judged information sufficient for surgical planning more often, and surgeons were more likely to convert 'unsure' resectability judgments into definitive answers.",
+  "relationship": "supports",
+  "evidence_type": "retrospective before/after with blinded recipient (surgeon) evaluation",
+  "population_and_setting": "Presurgical multiphasic pancreatic CT reports at one US institution; 48 structured, 72 nonstructured; 3 pancreatic surgeons",
+  "study_or_observation_method": "Report content audit for 12 features; surgeons rated reports alone and with images",
+  "intervention_and_comparator": "Disease-specific structured template (from Apr 2008) vs nonstructured reports",
+  "outcome_measured": "Key features present; ease of extracting; sufficiency for planning; resectability certainty",
+  "quantitative_result": "Features: 10.6 +/- 0.9 (structured) vs 7.3 +/- 2.1 (nonstructured), P<.001. Easily accessible: 94%/60%/98% vs 47%/54%/32% (P<.001, .79, <.001). Sufficient for planning: 96%/69%/98% vs 31%/43%/25% (P<.001, .009, <.001).",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": "Surgeons had sufficient information for surgical planning in 96%, 69%, and 98% of structured and 31%, 43%, and 25% of nonstructured reports",
+  "underlying_evidence_group": "EG:brook2015-pancreatic-ct-structured",
+  "limitations": "Abstract only; sufficiency is surgeon judgment; no measured decision accuracy, clarification calls, or patient outcomes; inter-surgeon variation large.",
+  "transferability_to_target_workflow": "Mechanism closest to the target: a recipient-specific template listing every decision-relevant element reduces gaps the decision-maker must fill (e.g., IC needing interconnection status, offtake terms, resource P50/P90). Verify: whether IC members/lenders report fewer information requests and more definitive go/no-go judgments with element-complete diligence reports.",
+  "analyst_inference": "Best direct evidence that recipient-defined element lists improve recipient usability; 'more definitive' is not 'more correct'.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E10",
+  "source_id": "WS8-S07",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.2 (structured checklists improve detection of omissions) - producer-side",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "A mandatory checklist-style template for resident cervical-spine CT reports was associated with fewer misses of non-fracture emergent findings (and lung findings) but not of fractures; the overall reduction was not statistically significant.",
+  "relationship": "qualifies",
+  "evidence_type": "retrospective pre/post cohort",
+  "population_and_setting": "Resident preliminary C-spine CT reports at a level-one trauma center; 2,913 reports",
+  "study_or_observation_method": "Pre/post comparison; misses confirmed by attending neuroradiologist",
+  "intervention_and_comparator": "Mandatory checklist template vs prior free-form preliminary reports",
+  "outcome_measured": "Missed emergent findings",
+  "quantitative_result": "All emergent: 25/142 (17.6%) vs 13/109 (11.9%), p=0.21; fractures: 8/82 (9.8%) vs 8/55 (14.5%), p=0.39; non-fracture: 17/60 (28.3%) vs 5/54 (9.3%), p=0.01; lung: 7/47 (14.9%) vs 0/27, p=0.04. Compliance >99% from Apr 2011.",
+  "source_locator": "Results; Table 1; Abstract",
+  "short_exact_excerpt": "Our findings suggest that the use of checklists in structured reporting may increase diagnostic accuracy.",
+  "underlying_evidence_group": "EG:lin2014-checklist-cspine-ct",
+  "limitations": "Single program; cohort changes; Hawthorne effect; underpowered.",
+  "transferability_to_target_workflow": "Mechanism: forcing producers to address each listed item (incl. 'no issue') reduces misses of peripheral items outside the main question (in diligence: secondary risks outside the headline scope). It did not help the primary search task (fractures). Verify: whether checklist-based diligence reduces missed secondary issues without degrading primary analysis.",
+  "analyst_inference": "Coverage checklists act on producer attention to 'satisfaction of search' items - benefit is to the recipient only indirectly via fewer omissions.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E11",
+  "source_id": "WS8-S08",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 qualified / P2.5 analog: prefilled 'normal'/'checked-no finding' text does not guarantee correctness",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "Prepopulated standard (normal) report templates did not change error rate or dictation time compared with a week without them; among errors, 39 of 2,012 (1.9%) were retained template statements contradicting dictated findings or impression.",
+  "relationship": "qualifies",
+  "evidence_type": "prospective two-week crossover field study",
+  "population_and_setting": "Pediatric radiology department (Cincinnati Children's); 12,387 reports, 1,173 randomly sampled",
+  "study_or_observation_method": "Week 1 prepopulated templates enabled vs week 2 disabled; 11 error types coded",
+  "intervention_and_comparator": "Prepopulated templates vs no prepopulation",
+  "outcome_measured": "Errors per report; dictation time",
+  "quantitative_result": "Errors/report 1.70 vs 1.73; reports with nongrammatical error 33% vs 36% (p=0.71 for nongrammatical rate); median dictation time 4 min (IQR 2-10) both weeks (p=0.92). Template-contradiction commission errors: 39 (1.9% of 2,012 errors; 0.03/report), pooled across weeks.",
+  "source_locator": "Abstract; Results; Table 1 (error types)",
+  "short_exact_excerpt": "Retained statement from a standardized template that contradicts the dictated findings or impression",
+  "underlying_evidence_group": "EG:hawkins2012-prepopulated-templates",
+  "limitations": "Two weeks only; pooled error categories; manual coding.",
+  "transferability_to_target_workflow": "Mechanism: default 'checked - no issue found' entries in a diligence coverage map can be left unedited and become false negatives. Verify: whether diligence templates have prefilled 'no exceptions' text and how often it contradicts body findings; require evidence links per 'no issue' entry.",
+  "analyst_inference": "A pertinent-negative entry is only as good as the check behind it; template defaults create a specific new error mode.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E12",
+  "source_id": "WS8-S09",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (explicit pertinent negatives valued by recipients) - stated preference",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "When an abnormality was identified, pertinent negatives were deemed useful by 89% of clinicians and 92% of radiologists; both groups preferred moderate/detailed reports over limited ones, while itemized vs prose format made no significant difference.",
+  "relationship": "supports",
+  "evidence_type": "survey with hypothetical reports (stated preference)",
+  "population_and_setting": "Clinicians (89/183, 49%) and radiologists (31/58, 53%) at London Health Sciences Centre, Ontario",
+  "study_or_observation_method": "Mailed survey, three lumbar spine CT/MR scenarios x six report variants (content level x format)",
+  "intervention_and_comparator": "Limited vs moderate vs detailed content; prose vs itemized",
+  "outcome_measured": "Satisfaction (1-5); opinions on report components",
+  "quantitative_result": "Pertinent negatives useful: clinicians 89%, radiologists 92% (when abnormality present). Case 1 clinician means ~2.1-2.2 (limited) vs 4.0-4.1 (detailed). Detail preferred over limited (P<.01). Format: no significant preference.",
+  "source_locator": "Results > Report Content > Radiologists versus Clinicians; Conclusions",
+  "short_exact_excerpt": "When an abnormality was identified, pertinent negatives were deemed useful by both clinicians (89%) and radiologists (92%).",
+  "underlying_evidence_group": "EG:eskander2010-lumbar-report-preferences",
+  "limitations": "Stated preference; hypothetical reports; single center.",
+  "transferability_to_target_workflow": "Mechanism: recipients say they value explicit 'checked and absent' statements next to positive findings. Verify in diligence: whether IC/lenders actually use 'no issue found' entries to skip re-checks (observed behavior), not just say they value them.",
+  "analyst_inference": "Content completeness (incl. pertinent negatives) mattered more to recipients than layout - aligns with WS8-E04 confounding point.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E13",
+  "source_id": "WS8-S10",
+  "research_question_ids": [
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 (standardized formats make delivery repeatable) - with customization burden",
+  "work_type_tags": [
+   "W5"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "A 36-radiologist pediatric department created 228 standardized structured reports over ~2 years, covering 94% of study volume; after implementation, audits showed 100% adherence to the standard format and 99% adherence to the normal report when studies were normal; each report was vetted by all radiologists who would use it.",
+  "relationship": "supports",
+  "evidence_type": "single-department implementation report (practitioner account)",
+  "population_and_setting": "Tertiary children's hospital radiology department (36 radiologists), Feb 2010 - Sep 2011",
+  "study_or_observation_method": "Work group, guidelines/checklists, subcommittee review, vetting by users, quarterly audits, survey",
+  "intervention_and_comparator": "Department-wide standardized structured reporting vs prior practice",
+  "outcome_measured": "Number of templates; volume coverage; adherence to format and normal report",
+  "quantitative_result": "228 templates; 199,000 of 212,000 studies (94%) by volume; 223/223 (100%) audited reports adhered to format; 80/81 (99%) adhered to normal report.",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": "A total of 228 standardized structured reports were created within 2 years after initiation of the project, corresponding to 199,000 (94%) of 212,000 departmental studies by volume.",
+  "underlying_evidence_group": "EG:larson2013-department-structured-reporting",
+  "limitations": "Abstract only; adherence measures format conformance, not accuracy or recipient benefit; enthusiastic single site.",
+  "transferability_to_target_workflow": "Mechanism: delivery can become highly repeatable once a template library exists, but building it required hundreds of templates and consensus vetting. Verify: number of template variants and time-to-library for a diligence provider; whether adherence translates into recipient time savings.",
+  "analyst_inference": "Repeatability achievable, but via substantial one-time internal standardization labor; relevant to P5.1 supplier economics only by analogy.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E14",
+  "source_id": "WS8-S11",
+  "research_question_ids": [
+   "RQ5",
+   "RQ4"
+  ],
+  "proposition_tested": "P5.1/P4.1 (standardization in practice remains adaptable/local)",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Among 265 responding academic radiologists, 51.3% were in groups with structured reports for at least half of reports; only 13% used rigid unmodifiable structures or checklists rather than adaptable outlines; 59.5% were satisfied with their structured reports; respondents also reported strong opinions about limitations.",
+  "relationship": "qualifies",
+  "evidence_type": "professional survey (self-report)",
+  "population_and_setting": "Association of University Radiologists members (North America), 265/910 responded (29.1%)",
+  "study_or_observation_method": "Online survey",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Prevalence and type of structured reporting; satisfaction",
+  "quantitative_result": "51.3% SR for >= half of reports; 10.9% none; 13% rigid/unmodifiable; 59.5% satisfied vs 13% dissatisfied.",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": "A significantly fewer 13% of respondents used rigid unmodifiable structures or checklists rather than adaptable outlines",
+  "underlying_evidence_group": "EG:powell2015-sr-survey",
+  "limitations": "Abstract only; low response; academic skew.",
+  "transferability_to_target_workflow": "Mechanism: even where 'structured reporting' is common, producers keep adaptable outlines - standardization is partial. Verify: whether diligence providers' 'standard' reports are in fact adaptable outlines with heavy per-deal narrative.",
+  "analyst_inference": "Supports view that delivery standardization plateaus at flexible outlines; rigid checklists are a minority.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E15",
+  "source_id": "WS8-S12",
+  "research_question_ids": [
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 (standard templates cover only part of real report content)",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Five RSNA reporting templates accounted for only 17-49% of the concepts that actually appeared in corresponding free-text reports from one academic center.",
+  "relationship": "qualifies",
+  "evidence_type": "content analysis (automated concept annotation)",
+  "population_and_setting": "8,275 consecutive de-identified radiology reports at one academic center; 5 RSNA templates",
+  "study_or_observation_method": "RadLex/SNOMED CT annotation and concept overlap",
+  "intervention_and_comparator": "Template concept set vs free-text report concepts",
+  "outcome_measured": "Share of report concepts covered by templates",
+  "quantitative_result": "17% to 49% of concepts covered, depending on template.",
+  "source_locator": "Abstract",
+  "short_exact_excerpt": "The reporting templates we examined accounted for 17 to 49 % of the concepts that actually appeared in a sample of corresponding radiology reports.",
+  "underlying_evidence_group": "EG:hong2013-radreport-template-coverage",
+  "limitations": "Abstract only; concept frequency is not clinical importance; authors read result as useful coverage.",
+  "transferability_to_target_workflow": "Mechanism: a published standard template covers a core but leaves much report content to local/free text - analogous to residual bespoke narrative in diligence. Verify: share of a diligence report that maps to a standard coverage list vs bespoke content.",
+  "analyst_inference": "Implies significant residual customization even with a professional-society template library.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E16",
+  "source_id": "WS8-S13",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P2.4/P5.1 (explicit element-response reporting incl. 'not applicable'; permitted local customization)",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "CAP accreditation requires all required data elements of applicable cancer protocols, with responses in synoptic element-response format, in at least 90% of definitive resection reports, with annual self-audit; core elements must be reported whether applicable or not and 'Cannot be determined' is an allowed response. Laboratories may alter wording and responses, list elements in any order, add items, and implement at institutional discretion; system use requires a license; new/revised protocols have an 8-month adoption window.",
+  "relationship": "contextual",
+  "evidence_type": "professional standard (accreditation requirement / FAQ)",
+  "population_and_setting": "CAP-accredited US laboratories",
+  "study_or_observation_method": "Document review",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required report content and permitted flexibility",
+  "quantitative_result": "Threshold: >=90% of definitive resection reports; 8-month adoption window.",
+  "source_locator": "FAQ items: 'What are the CAP accreditation program requirements...', 'What is a synoptic report?', 'Do I need to list the data elements and responses exactly...', 'When new or revised cancer protocols are released...'",
+  "short_exact_excerpt": "All core elements must be reported whether applicable or not.",
+  "underlying_evidence_group": "EG:cap-cancer-protocol-faqs",
+  "limitations": "Shows obligation and allowed flexibility, not compliance or recipient effects.",
+  "transferability_to_target_workflow": "Mechanism: a binding element list with mandatory explicit responses (including not applicable / cannot be determined) is the medical equivalent of a diligence coverage map with 'checked - not applicable/insufficient data' entries. Difference: CAP leverage comes from accreditation; diligence has no equivalent mandatory standard. Verify: whether lenders' or IE scopes impose element lists; who would enforce them.",
+  "analyst_inference": "Standardization is enforced on content (elements) while format/wording remain locally customizable - a model for 'standard core + local wrapper'.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E17",
+  "source_id": "WS8-S14",
+  "research_question_ids": [
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 (standards do not guarantee uniform delivery)",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "In a random sample of 1,618 VA pathology reports (2019-2021) for four cancers, 48% used synoptic format: 77% of resections but 19% of biopsies (range 97% colorectal resections to 0.5% colon biopsies); several core elements remained underdocumented.",
+  "relationship": "qualifies",
+  "evidence_type": "observational audit (random sample across a national system)",
+  "population_and_setting": "US Department of Veterans Affairs pathology reports: melanoma, colon, bladder, kidney cancer",
+  "study_or_observation_method": "Random sampling of >=200 biopsy and >=200 resection reports per cancer",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Synoptic format use; core element documentation",
+  "quantitative_result": "778/1618 (48%; 95% CI 46-50%) synoptic; resections 621/811 (77%; 74-79%); biopsies 157/807 (19%; 17-22%); colorectal resections 200/206 (97%); colon biopsies 1/200 (0.5%).",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": "Synoptic reporting was used about three-quarters of the time for resections and about 1 in 5 times for biopsies.",
+  "underlying_evidence_group": "EG:ouldismail2025-va-synoptic-adherence",
+  "limitations": "Abstract only; one system; does not measure consequences.",
+  "transferability_to_target_workflow": "Mechanism: uptake of standard formats concentrates where an external requirement applies (resections) and lags elsewhere. Verify: in diligence, whether standard coverage formats appear only where lenders/rating agencies require them.",
+  "analyst_inference": "Analyst inference: accreditation requirements (CAP/CoC) apply to definitive resections, which plausibly explains the resection/biopsy gap - the abstract does not test this.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E18",
+  "source_id": "WS8-S15",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (review persists via institutional policy) and P1.3 (rework from inaccurate outside output)",
+  "work_type_tags": [
+   "W1",
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Johns Hopkins requires second-opinion review of outside surgical pathology before treating referred patients; over 21 months, 86 of 6,171 reviewed cases (1.4%) had a changed diagnosis causing major modification in therapy or prognosis, with higher rates for serosal surfaces (9.5%) and female reproductive tract (5.1%). The authors note the practice was threatened by managed-care cost containment and recommend review before major therapy.",
+  "relationship": "supports",
+  "evidence_type": "prospective case series at a referral center",
+  "population_and_setting": "Outside surgical pathology referred to Johns Hopkins Hospital, Apr 1995 - Dec 1996",
+  "study_or_observation_method": "Prospective collection; changed diagnosis = discordance with major therapy/prognosis modification (grade/stage changes excluded)",
+  "intervention_and_comparator": "Mandatory second review of outside slides (no comparator)",
+  "outcome_measured": "Changed diagnoses",
+  "quantitative_result": "86/6171 (1.4%) changed diagnoses; serosal surfaces 9.5% (P<0.0001), female reproductive tract 5.1% (P<0.0001); breast 1.4%; GI 1.2%; lung 0.6%.",
+  "source_locator": "Abstract (Background, Methods, Results, Conclusions)",
+  "short_exact_excerpt": "Of 6171 cases reviewed, second opinion surgical pathology resulted in 86 changed diagnoses (1.4%).",
+  "underlying_evidence_group": "EG:kronz1999-hopkins-second-opinion",
+  "limitations": "Abstract only; narrow definition excludes grade/stage changes; single center; old data.",
+  "transferability_to_target_workflow": "Mechanism: recipients with treatment authority re-review the underlying evidence (slides), not just the report, as a blanket policy, because rare errors are costly. In diligence, lenders' independent engineers re-reviewing sponsor reports may be similar. Verify: discrepancy rates found by IE/lender re-reviews and whether review is policy-blanket or risk-targeted.",
+  "analyst_inference": "Low yield (1.4%) with blanket policy, but high consequence; review is justified by error cost, not report format. Re-review uses original evidence (slides) - traceability to raw evidence is what makes re-review possible.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E19",
+  "source_id": "WS8-S16",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (policy-mandated review) and P1.3 (rework from inaccurate output)",
+  "work_type_tags": [
+   "W1",
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "University of Iowa requires second opinion of outside surgical pathology slides before definitive treatment; of 5,629 cases, 132 (2.3%) had major and 507 (9.0%) minor diagnostic disagreements; 68 (1.2% of all cases) led to changes in clinical management on follow-up.",
+  "relationship": "supports",
+  "evidence_type": "retrospective case series with clinical/pathologic follow-up",
+  "population_and_setting": "Second-opinion surgical pathology cases at University of Iowa Hospitals and Clinics",
+  "study_or_observation_method": "Classification by second-opinion pathologist; follow-up for clinical significance",
+  "intervention_and_comparator": "Mandatory second review (local standard of practice), no comparator",
+  "outcome_measured": "Major/minor disagreements; management changes",
+  "quantitative_result": "Major 132/5629 (2.3%); minor 507 (9.0%); management changed 68 (1.2% of total). Most major disagreements: female reproductive tract (32), GI tract (27), skin (24).",
+  "source_locator": "Abstract",
+  "short_exact_excerpt": "Of the 132 major diagnostic disagreements, 68 (1.2% of total cases reviewed) prompted changes in the clinical management as a result of the second opinion interpretation.",
+  "underlying_evidence_group": "EG:manion2008-iowa-second-opinion",
+  "limitations": "Abstract only; second-opinion pathologist judged disagreements; no cost or time data.",
+  "transferability_to_target_workflow": "Mechanism: blanket re-review policy whose yield is ~1% management-changing discrepancies. In diligence, analogous to lender re-review of advisor reports; verify actual yield and whether risk-targeting could cut work without missing material issues.",
+  "analyst_inference": "Second, independent site with similar ~1.2-1.4% material-change rate; supports P1.1 and shows rework yield is low per case but persistent.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E20",
+  "source_id": "WS8-S17",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 (quality-driven rework) alongside P1.1 (routine policy re-read)",
+  "work_type_tags": [
+   "W1",
+   "W3",
+   "W2"
+  ],
+  "concept_tags": [
+   "X5",
+   "X4"
+  ],
+  "observed_finding": "At a Canadian tertiary center where all outside head and neck imaging is routinely re-read by a neuroradiologist before tumor board, second-opinion reports differed in stage from original reports in 56.4% of cases (90.6% of these were up-staging) and would change surgeon management recommendations in 38.3%; in 30 surgical cases, second-opinion stage agreed with pathology far more often than the original report.",
+  "relationship": "supports",
+  "evidence_type": "retrospective, non-blinded comparison",
+  "population_and_setting": "94 consecutive head and neck cancer patients with outside CT/MR (2010), Calgary",
+  "study_or_observation_method": "Three reviewers coded T/N/stage from each report; surgeon management recommendation per report; pathology as standard in surgical subgroup",
+  "intervention_and_comparator": "Subspecialist second-opinion report vs original outside report",
+  "outcome_measured": "Stage discrepancy; management discrepancy; agreement with pathologic stage",
+  "quantitative_result": "Stage discrepancy 53/94 (56.4%; 95% CI 46.3-65.9%); management discrepancy 36/94 (38.3%; 29.1-48.4%); surgical subgroup stage agreement 40.0% (original) vs 93.3% (second opinion), P<.001; management agreement 33.3% vs 60.0%, P=.069.",
+  "source_locator": "Results; Tables 2, 4, 5; Conclusion",
+  "short_exact_excerpt": "subspecialty radiologist interpretation of imaging studies has a positive impact on patient care.",
+  "underlying_evidence_group": "EG:lysack2013-hn-neuroradiology-second-opinion",
+  "limitations": "Small; non-blinded; second readers had more clinical information; no gold standard for non-surgical cases; costs not measured.",
+  "transferability_to_target_workflow": "Mechanism: when original reports are written for a general purpose and lack decision-specific elements (staging), recipients re-do the work. Diligence analog: generic third-party reports (e.g., a sponsor-commissioned study) re-scoped by a lender's adviser. Verify: share of lender re-work attributable to missing decision-specific elements vs disagreement on judgment.",
+  "analyst_inference": "Analyst inference: high discrepancy here likely mixes missing staging elements (the second read was purpose-built for staging) with expertise differences; the authors do not separate them or mention structured reporting.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E21",
+  "source_id": "WS8-S18",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.2 (avoidable reconstruction from missing evidence) and P2.1 (access to original evidence reduces redo)",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "Before chemoembolization, patients whose outside CT/MR images were unavailable or available only on CD/film (not imported) had much higher repeat-imaging rates than those whose images were imported into the local PACS; imported-image patients' repeat rate was similar to patients imaged only locally.",
+  "relationship": "supports",
+  "evidence_type": "retrospective observational cohort with adjusted odds ratios",
+  "population_and_setting": "267 patients with abdominal CT/MRI within 4 months before transarterial chemoembolization at one US academic center",
+  "study_or_observation_method": "Comparison of four groups by outside-image availability; multivariable adjustment (age, sex, referring institution, lesion size/number)",
+  "intervention_and_comparator": "Outside images imported to PACS vs not available vs available but not imported vs all-local imaging",
+  "outcome_measured": "Repeat imaging rate",
+  "quantitative_result": "Repeat imaging: not available 13/18 (72%); available not imported 14/27 (52%); imported 9/79 (11%); local only 18/143 (13%). Adjusted OR vs imported: 31 (not available), 9.0 (not imported), both p<0.001; imported vs local OR 0.71, p=0.51.",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": "When outside images were not available, 72% (13/18) of patients underwent repeat imaging; when outside images were available but not imported, 52% (14/27); when outside images were imported to PACS, 11% (9/79)",
+  "underlying_evidence_group": "EG:lu2012-outside-image-import",
+  "limitations": "Abstract only; observational; small groups; residual confounding.",
+  "transferability_to_target_workflow": "Mechanism strongly relevant: recipients redo work when the underlying evidence is not accessible in their own system, even if a report exists; integration into the recipient's workflow (PACS) - not just availability (CD) - cut redo to baseline. Diligence analog: providing source files/models in the client's tools vs PDFs. Verify: whether lenders re-run energy yield or financial models less often when native files are delivered and loaded into their systems.",
+  "analyst_inference": "Distinguishes access (CD) from integration (PACS import): availability alone left 52% redo - supports RQ3-style integration value and P1.2. Note: re-imaging can also reflect clinical need for updated images.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E22",
+  "source_id": "WS8-S18",
+  "research_question_ids": [
+   "RQ3"
+  ],
+  "proposition_tested": "P3.1 (integration into recipient's system reduces recipient work end-to-end)",
+  "work_type_tags": [
+   "W2",
+   "W5"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "Images that were physically available but not imported into the recipient institution's PACS were associated with a 52% repeat-imaging rate, versus 11% when imported.",
+  "relationship": "supports",
+  "evidence_type": "retrospective observational cohort",
+  "population_and_setting": "Same as WS8-E21 (267 patients, one center)",
+  "study_or_observation_method": "Group comparison with adjustment",
+  "intervention_and_comparator": "Imported to PACS vs available on CD/film but not imported",
+  "outcome_measured": "Repeat imaging",
+  "quantitative_result": "14/27 (52%) vs 9/79 (11%); adjusted OR 9.0 (p<0.001).",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:lu2012-outside-image-import",
+  "limitations": "Same as above; the decision to import may correlate with other workflow factors.",
+  "transferability_to_target_workflow": "Mechanism: delivering an advisor's evidence in a form that loads into the recipient's own decision system may matter as much as delivering it at all. Verify: in diligence, compare re-work when deliverables are integrated into the client's data room/model templates vs delivered as standalone files.",
+  "analyst_inference": "One of the few observed-behavior (not stated-preference) items here bearing on integration value; analogy only.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E23",
+  "source_id": "WS8-S19",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 (explicit disclosure of data gaps/omissions) - regulatory requirement in a non-medical diligence report",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The federal All Appropriate Inquiries rule requires the environmental professional's written report to include an opinion on conditions indicative of releases and an identification of data gaps that affect that ability; persons conducting the inquiry should identify data gaps, the sources consulted to address them, and comment on their significance; sampling may be conducted to address data gaps.",
+  "relationship": "contextual",
+  "evidence_type": "regulation (obligation, not effect)",
+  "population_and_setting": "US property acquirers seeking CERCLA landowner liability protections; environmental professionals",
+  "study_or_observation_method": "Document review of 40 CFR 312.10, 312.20(g), 312.21(c)",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required report content",
+  "quantitative_result": null,
+  "source_locator": "40 CFR 312.10 (definition 'Data gap'); 312.20(g); 312.21(c)(1)-(2) (7-1-20 edition, GovInfo PDF)",
+  "short_exact_excerpt": "should identify such data gaps, identify the sources of information consulted to address such data gaps, and comment upon the significance of such data gaps",
+  "underlying_evidence_group": "EG:epa-aai-40cfr312",
+  "limitations": "Shows a disclosure obligation only; no evidence on how users act on data-gap disclosures. ASTM E1527-21 text not accessed.",
+  "transferability_to_target_workflow": "Mechanism: a legally recognized diligence report with mandatory 'what we could not check and why it matters' disclosure exists in property transactions and is commonly part of renewable-project site diligence (Phase I ESAs). Verify: whether lenders/IC members actually read and act on data-gap sections, and whether similar disclosure is used in technical/IE reports.",
+  "analyst_inference": "Closest non-medical precedent for coverage/omission visibility (X4) being codified; relevant as design precedent, not effect evidence.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E24",
+  "source_id": "WS8-S19",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 (recipient retains independent obligations regardless of advisor report quality)",
+  "work_type_tags": [
+   "W1",
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Under the AAI rule, the user (the acquiring party) must itself conduct certain inquiries - environmental cleanup liens (if not otherwise obtained), its own specialized knowledge or experience, the relationship of purchase price to fair market value, and commonly known or reasonably ascertainable information - and may provide that information to the environmental professional.",
+  "relationship": "supports",
+  "evidence_type": "regulation (obligation)",
+  "population_and_setting": "Same as above",
+  "study_or_observation_method": "Document review of 40 CFR 312.22",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Allocation of inquiry duties between user and professional",
+  "quantitative_result": null,
+  "source_locator": "40 CFR 312.22(a)(1)-(4); 312.21(b)",
+  "short_exact_excerpt": "Persons identified under § 312.1(b) must conduct the inquiries listed in paragraphs (a)(1) through (a)(4) below",
+  "underlying_evidence_group": "EG:epa-aai-40cfr312",
+  "limitations": "Obligation, not observed practice.",
+  "transferability_to_target_workflow": "Mechanism: some diligence work is structurally assigned to the recipient (user-specific knowledge, price relationship), so it persists however good the advisor's report is. Verify: equivalent recipient-retained duties in renewable lending (e.g., credit policy checks, KYC, sponsor knowledge).",
+  "analyst_inference": "Formal allocation of retained work (W1/W4) that an advisor product cannot remove; supports P1.1.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS8-E25",
+  "source_id": "WS8-S20",
+  "research_question_ids": [
+   "RQ5",
+   "RQ2"
+  ],
+  "proposition_tested": "P5.1 (standardized lexicon/format makes outputs repeatable) - counterevidence on judgment variability",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "With the standardized BI-RADS lexicon and assessment categories, five breast radiologists showed only fair agreement on final assessment category (kappa 0.28) and slight agreement on mammographic mass density (kappa 0.18), though some ultrasound descriptors had substantial agreement (kappa 0.61-0.69).",
+  "relationship": "challenges",
+  "evidence_type": "retrospective interobserver study",
+  "population_and_setting": "94 biopsied breast lesions in 91 women; 5 radiologists; one US center",
+  "study_or_observation_method": "Independent re-description and categorization; Cohen kappa; PPV against pathology",
+  "intervention_and_comparator": "Standardized BI-RADS terminology (no comparator)",
+  "outcome_measured": "Interobserver agreement; PPV of categories",
+  "quantitative_result": "Final assessment kappa 0.28; mass density 0.18; calcification description 0.32; mass shape/margin 0.48; US orientation/shape/boundary 0.61/0.66/0.69. PPV: 4a 6/102 (6%), 4b 17/110 (15%), 4c 48/91 (53%), 5 71/78 (91%).",
+  "source_locator": "Abstract (Results)",
+  "short_exact_excerpt": "Fair agreement was obtained for final assessment category (kappa = 0.28).",
+  "underlying_evidence_group": "EG:lazarus2006-birads-interobserver",
+  "limitations": "Abstract only; enriched biopsy sample; older BI-RADS edition; authors characterize agreement as 'good'.",
+  "transferability_to_target_workflow": "Mechanism: standardizing the vocabulary and categories of a report does not standardize the judgment behind them; in diligence, a standard risk-rating scale may still yield inconsistent ratings across analysts. Verify: inter-analyst agreement on diligence risk ratings under a common template.",
+  "analyst_inference": "Format repeatability (P5.1) is distinct from judgment repeatability; standard categories do make disagreement visible and comparable.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS8-E26",
+  "source_id": "WS8-S21",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 (standard templates adapted locally) and P2.2 (structured checklist reduces producer-side rework/omissions)",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "A head and neck CTA template built from RSNA informatics (RadReport) templates plus locally chosen critical findings to assess on all CTAs was associated with fewer attending revisions of residents' after-hours reports; authors attribute the reduction largely to typographical errors.",
+  "relationship": "qualifies",
+  "evidence_type": "small pre/post quality-improvement comparison",
+  "population_and_setting": "Resident after-hours head and neck CTA reports at one academic center",
+  "study_or_observation_method": "Baseline revision rate vs 2-month template availability period",
+  "intervention_and_comparator": "Structured template (RSNA-based + local critical-findings list) vs unstructured dictation",
+  "outcome_measured": "Proportion of resident reports revised by attending",
+  "quantitative_result": "10/41 (24%) unstructured vs 2/17 (12%) structured reports revised (~50% relative reduction); no p-value or CI reported in abstract.",
+  "source_locator": "Abstract (Methods, Results, Conclusions)",
+  "short_exact_excerpt": "The structured template was found to reduce revision rates by approximately 50% with 10/41 unstructured reports revised and 2/17 structured reports revised.",
+  "underlying_evidence_group": "EG:johnsontf2019-cta-template-revisions",
+  "limitations": "Tiny sample; no significance testing reported; revisions mostly immaterial (typographical); producer-side rework, not recipient clarification.",
+  "transferability_to_target_workflow": "Mechanism: a published standard template is adopted only after local adaptation (adding institution-specific must-check items). Diligence analog: a standard coverage list plus client/asset-specific must-check items. Verify: proportion of template content that is local vs standard in diligence deliverables.",
+  "analyst_inference": "Illustrates the 'standard core + local additions' customization pattern for RadReport; the rework effect is weak evidence. No direct study of recipient clarification calls was found (see search_log).",
+  "access_status": "abstract_only"
+ }
+]

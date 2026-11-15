@@ -1,0 +1,958 @@
+[
+ {
+  "evidence_id": "WS1-E01",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Retained review driven by formal obligations irrespective of transparency",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "PCAOB amendments make the auditor's work effort to evaluate a specialist's work risk-based and scalable: commensurate with the risk of material misstatement (RMM) and the significance of the specialist's work. For a company's specialist, four factors set required persuasiveness: significance of the work, RMM, the company's ability to affect the specialist's judgments, and the specialist's knowledge, skill and ability. Effort is greatest when RMM is high, work is critical, competence is lower and company influence is high.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "US public-company audits under PCAOB standards; FY ending on/after 2020-12-15",
+  "study_or_observation_method": "Regulatory text / rule filing description",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required extent of auditor evaluation of specialists' work",
+  "quantitative_result": "null (qualitative scaling factors)",
+  "source_locator": "84 FR 13442 (Summary); 84 FR 13458-13459 (four factors, Figure 4)",
+  "short_exact_excerpt": "the auditor should obtain more persuasive evidence as the significance of the specialist's work, the risk of material misstatement, or the ability of the company to affect the specialist's judgments increases",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "Obligation, not observed effort. The listed scaling factors do not include the transparency or documentation quality of the specialist's report; transparency enters only indirectly via what procedures are feasible.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "The mandated floor (W1) scales with stakes, competence and objectivity of the producer, not with how well the producer documents. Better documentation can change HOW the receiver satisfies the duty (see WS1-E03) but not WHETHER it must be satisfied.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E02",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.1 obligations; P2.1 provenance relevant to verification",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X3",
+   "X5"
+  ],
+  "observed_finding": "New AS 1105 Appendix A requires the auditor, when using a company specialist's work as evidence, to understand the specialist's work and report(s) and related company processes/controls, assess knowledge, skill, ability and relationship to the company, and evaluate (i) the data, significant assumptions and methods (including models) used, and (ii) the relevance and reliability of the work and its relationship to the assertion. AS 1210 (auditor-engaged) and AS 1201 App. C (auditor-employed) require evaluating whether findings and conclusions are consistent with the work performed.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "US PCAOB audits",
+  "study_or_observation_method": "Regulatory text / rule filing description",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Elements the receiver must evaluate",
+  "quantitative_result": "null",
+  "source_locator": "84 FR 13442-13443 (bulleted summary of Appendix A, Appendix C, AS 1210)",
+  "short_exact_excerpt": "Performing procedures to evaluate the work of a company's specialist, including evaluating: (i) The data, significant assumptions, and methods (which may include models) used by the specialist",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "Describes required evaluation objects, not how much time each takes.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. The objects named (data, assumptions, methods, consistency of conclusions with work performed) map directly onto what an evidence-traceable advisor product would expose.",
+  "analyst_inference": "The checklist of evaluation objects is exactly the information an inspectable advisor output would need to surface; the standard thus defines the receiver's demand for X3 (data provenance) and method/assumption disclosure.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E03",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 Access to documentation/provenance reduces verification effort; P1.2 avoidable reconstruction",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X2",
+   "X3"
+  ],
+  "observed_finding": "The amendments do not require access to a specialist's proprietary model; the auditor must obtain information to assess whether the model conforms to the reporting framework. Depending on factors, this may involve understanding the model, reviewing descriptions of the model in the specialist's report, testing controls over the company's evaluation of the specialist, or assessing inputs and outputs (if necessary using an alternative model). For auditor-engaged specialists, the necessary access to a model depends on significance, RMM, and the specialist's competence.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (permitted procedures)",
+  "population_and_setting": "US PCAOB audits; specialists with proprietary models (e.g., pricing/valuation)",
+  "study_or_observation_method": "Regulatory text and Board response to commenters",
+  "intervention_and_comparator": "Documentation-based route (model description in report) vs alternative-model / input-output testing route",
+  "outcome_measured": "Permissible means of satisfying evaluation duty",
+  "quantitative_result": "null",
+  "source_locator": "84 FR 13457-13458 (company's specialist models); 84 FR 13467 (auditor-engaged, AS 1210.10); excerpt spans the page break between 84 FR 13457 and 13458",
+  "short_exact_excerpt": "reviewing descriptions of the model in the specialist's report or equivalent communication, testing controls over the company's evaluation of the specialist's work, or assessing the inputs to and output from the model (if necessary, using an alternative model for comparison)",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "Lists alternatives without ranking their cost; does not show that documentation route is cheaper in practice.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Direct analog: advisor's proprietary models/tools; a clear model description may substitute for rebuilding.",
+  "analyst_inference": "Standard-level recognition that producer documentation of method can substitute for receiver reconstruction (alternative model) — the closest public-standard analog to P1.2/P2.1. When descriptions are absent, the fallback is building an alternative model: W2 reconstruction caused by opacity.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E04",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 Visibility into scope, limitations and omissions affects appropriate reliance",
+  "work_type_tags": [
+   "W2",
+   "W3"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "AS 1105.A10 requires additional procedures as necessary if the specialist's findings appear to contradict the assertion or the work does not provide sufficient evidence; additional procedures are ordinarily necessary when the specialist's report contains restrictions, disclaimers or limitations regarding the auditor's use, or a conflict of interest is identified. Example: a report stating values are not an indication of fair value generally would not provide sufficient evidence for fair value.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "US PCAOB audits",
+  "study_or_observation_method": "Regulatory text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Trigger for additional receiver procedures",
+  "quantitative_result": "null",
+  "source_locator": "84 FR 13460 (AS 1105.A9-.A10 discussion, incl. fn 89)",
+  "short_exact_excerpt": "A specialist's report may contain restrictions, disclaimers, or limitations that cast doubt on the relevance and reliability of the information contained in the specialist's report",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "Obligation; frequency in practice unknown.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Advisor reports with heavy disclaimers/reliance limitations would, by analogy, push extra work back to the IC/lender.",
+  "analyst_inference": "Explicit scope/limitation statements are treated as decision-relevant information that redirects receiver work; producer boilerplate limitations are not costless to the receiver.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E05",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.6 Review persists beyond rational need (tested inversely: is under-review the observed failure?)",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "PCAOB inspection observations (pre-2020) included auditors using a company specialist's work without: evaluating reasonableness of assumptions; understanding methods or assumptions; testing accuracy/completeness of company data used by the specialist; or evaluating qualifications. For auditors' own specialists (more common findings), auditors did not reach an understanding of responsibilities, adequately evaluate the specialist's work, or consider contradictory evidence/resolve discrepancies the specialist identified. SEC/PCAOB enforcement cases alleged similar failures.",
+  "relationship": "challenges",
+  "evidence_type": "regulator_inspection_report (summarized in rule filing)",
+  "population_and_setting": "PCAOB-inspected US audits, several years before 2018",
+  "study_or_observation_method": "Regulator summary of inspection findings and enforcement",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Types of deficiency",
+  "quantitative_result": "not reported (no counts given)",
+  "source_locator": "84 FR 13447-13448 ('Observations From Audit Inspections and Enforcement Cases')",
+  "short_exact_excerpt": "consider contradictory evidence identified by the specialist or resolve discrepancies or other concerns that the specialist identified",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "No frequencies; risk-based inspection selection; describes failures, not average practice.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "The regulator's documented failure mode is too LITTLE receiver evaluation (over-reliance), including ignoring problems the producer itself flagged. This challenges a framing in which receiver review is mainly excess ritual, and shows that surfacing an issue in the producer's output does not guarantee the receiver acts on it.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E06",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ2",
+   "RQ3"
+  ],
+  "proposition_tested": "P-NEW: Earlier and more frequent producer-receiver coordination reduces evaluation deficiencies",
+  "work_type_tags": [],
+  "concept_tags": [],
+  "observed_finding": "Some firms remediated specialist-related findings mostly by enhancing methodologies to improve coordination between auditor and auditor's specialist through earlier and more frequent communications; the PCAOB says these may have contributed, at least in part, to a decline in findings for auditor's specialists. No similar change was seen in findings on company specialists (whom the auditor does not direct).",
+  "relationship": "supports",
+  "evidence_type": "regulator_inspection_report (summarized)",
+  "population_and_setting": "PCAOB-inspected firms, pre-2018",
+  "study_or_observation_method": "Regulator observation of remedial actions and finding trends",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Frequency of inspection findings",
+  "quantitative_result": "not reported",
+  "source_locator": "84 FR 13447",
+  "short_exact_excerpt": "In most cases, such actions included enhancements to firm methodologies to improve coordination between the auditor and the auditor's specialist through earlier and more frequent communications.",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "Correlational; 'may have contributed, at least in part'; no counts.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Suggests scoping/integration upstream (agreeing what the advisor will check and deliver) may matter as much as output format.",
+  "analyst_inference": "Process integration (early agreement on scope and communication), rather than output transparency alone, is the regulator's reported lever for fewer receiver failures; relevant to RQ3 but not a test of output-level traceability.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E07",
+  "source_id": "WS1-S01",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.2 Opacity causes avoidable reconstruction (qualified: opacity may instead cause shallower review)",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X2",
+   "X3"
+  ],
+  "observed_finding": "PCAOB economic analysis: specialists' work is highly technical and often not entirely transparent to the auditor, who may lack complete access or comparable expertise; because evaluating/supervising specialists is relatively costly, auditors may have incentives to forgo procedures. Evaluating a company's specialist (no contractual relationship, proprietary data, less familiarity) requires greater effort than evaluating the auditor's own specialist.",
+  "relationship": "qualifies",
+  "evidence_type": "professional_standard (regulator economic analysis)",
+  "population_and_setting": "US PCAOB audits",
+  "study_or_observation_method": "Regulator economic reasoning citing literature and comments",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Cost and incentives of evaluating specialists",
+  "quantitative_result": "null",
+  "source_locator": "84 FR 13474 (incl. fn 159-160)",
+  "short_exact_excerpt": "the specialist's work is highly technical in nature and often is not entirely transparent to the auditor, who may not have complete access to the specialist's work",
+  "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
+  "limitations": "Theoretical/economic reasoning, not measurement.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Opacity raises evaluation cost, but the regulator predicts the response is under-performance of procedures, not necessarily reconstruction. So opacity may show up as risk (W1 shortfall) rather than as visible extra work (W2) — important for measuring 'avoidable reconstruction'.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E08",
+  "source_id": "WS1-S02",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Obligations drive retained work (magnitude of incremental mandated effort)",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "After the strengthened estimates/specialists requirements took effect, about one-third of surveyed firms reported improved practices; others reported limited effects because methodologies were already aligned. The majority of interviewed engagement partners estimated additional time at less than 1% of total audit hours; none reported raising fees. Most commonly reported specialist-related effects: improved coordination/communication with auditors' specialists and enhanced documentation of the work performed by specialists.",
+  "relationship": "qualifies",
+  "evidence_type": "regulator_inspection_report (post-implementation review)",
+  "population_and_setting": "17 US audit firms (9 annually inspected, 8 triennially inspected); 31 engagement partners; 12 audit committee chairs and 9 preparers; 14 comment letters",
+  "study_or_observation_method": "Survey, interviews, comment letters (targeted non-random sample)",
+  "intervention_and_comparator": "Pre vs post implementation of new requirements (FY ending on/after 2020-12-15)",
+  "outcome_measured": "Self-reported audit hours, fees, practice changes",
+  "quantitative_result": "Majority of 31 partners: additional time <1% of total audit hours; 0 partners reported fee increases; ~1/3 of 17 firms reported improved practices",
+  "source_locator": "PCAOB Release 2022-008, pp. 3-4 (Key Findings), p. 6 (Engagement Partner Interviews) (two-column PDF layout; excerpt read across column line breaks)",
+  "short_exact_excerpt": "The majority of engagement partners interviewed estimated that the additional time spent was less than 1% of total audit hours.",
+  "underlying_evidence_group": "EG:pcaob-specialists-pir-2022",
+  "limitations": "Self-reported; targeted 'upper bound' sample; regulator evaluating own rule; estimates and specialists rules not separable.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Tightening the mandated floor produced small measured effort changes, mainly documentation and coordination. This suggests W1 effort in audit is largely institutionalized already; it does not tell us how much of existing effort is W2.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E09",
+  "source_id": "WS1-S02",
+  "research_question_ids": [
+   "RQ2",
+   "RQ6"
+  ],
+  "proposition_tested": "P-NEW: Receiver documentation demands induce producers to supply richer supporting evidence (producer-side response)",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "In the public comment input, some commenters reported increased auditor effort to understand and document assumptions underlying estimates, and a valuation service provider stated that its staff provided more robust pricing information to address auditors' demands for more extensive documentation.",
+  "relationship": "supports",
+  "evidence_type": "regulator_inspection_report (summary of comment letters)",
+  "population_and_setting": "14 comment letters (audit firms, academics, industry associations, financial service providers)",
+  "study_or_observation_method": "Public request for comment",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Reported changes in practice",
+  "quantitative_result": "null (single commenter)",
+  "source_locator": "PCAOB Release 2022-008, p. 8 (Public Request for Comment) (two-column PDF layout; excerpt read across column line breaks)",
+  "short_exact_excerpt": "A valuation service provider stated that their staff provided more robust pricing information to address demands from auditors for more extensive documentation.",
+  "underlying_evidence_group": "EG:pcaob-specialists-pir-2022",
+  "limitations": "Single anecdotal commenter; no data on cost, pricing, or effect on auditor effort.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Analogous to lenders/ICs demanding evidence packages from advisors; suggests regulation of the receiver can create demand for producer transparency.",
+  "analyst_inference": "Producer transparency here was pulled by receiver obligations rather than offered as a differentiator. Commercial value (RQ6) not shown.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E10",
+  "source_id": "WS1-S02",
+  "research_question_ids": [
+   "RQ3"
+  ],
+  "proposition_tested": "P3.2 Integration/new requirements shift effort rather than remove it",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Large-sample analysis of inspections data (descriptive, not causal): probability an engagement used one or more auditor-employed specialists rose by a statistically significant 4.8 percentage points post-implementation, and probability of using company specialists' work rose 10.5 pp, both driven by smaller firms. Among engagements using auditor-employed specialists, hours per engagement did not change significantly, but the share of their hours in the preliminary (planning) phase rose 2.3 pp.",
+  "relationship": "qualifies",
+  "evidence_type": "regulator_inspection_report (statistical analysis)",
+  "population_and_setting": "PCAOB inspections data, pre vs post FY2020",
+  "study_or_observation_method": "Descriptive pre/post comparison; no control group",
+  "intervention_and_comparator": "Post- vs pre-implementation",
+  "outcome_measured": "Specialist usage, specialist hours, phase allocation",
+  "quantitative_result": "+4.8 pp (auditor-employed specialist use); +10.5 pp (company specialist use); no significant change in specialist hours per engagement; +2.3 pp share of specialist hours in preliminary phase",
+  "source_locator": "PCAOB Release 2022-008, pp. 7-8 (Large-Sample Statistical Analysis; fn 12) (two-column PDF layout; excerpt read across column line breaks)",
+  "short_exact_excerpt": "the proportion of auditor-employed specialist hours allocated to the preliminary phase of the audit increased by 2.3 percentage points",
+  "underlying_evidence_group": "EG:pcaob-specialists-pir-2022",
+  "limitations": "Confounded by COVID and other rule changes (staff explicitly say not causal).",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Requirements moved specialist effort earlier (planning/scoping) without raising total specialist hours — consistent with effort being re-sequenced rather than eliminated.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E11",
+  "source_id": "WS1-S03",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Non-delegable responsibility persists irrespective of producer transparency",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "ISA 620: the auditor has sole responsibility for the audit opinion, not reduced by using an auditor's expert; the auditor shall not refer to the expert's work in an unmodified report unless law requires, and if required must state the reference does not reduce the auditor's responsibility.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits under ISAs (UK-conformed text)",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Allocation of responsibility",
+  "quantitative_result": "null",
+  "source_locator": "ISA (UK) 620 paras 3 and 14 (PDF pp. 5, 7)",
+  "short_exact_excerpt": "The auditor has sole responsibility for the audit opinion expressed, and that responsibility is not reduced by the auditor's use of the work of an auditor's expert.",
+  "underlying_evidence_group": "EG:isa620",
+  "limitations": "Obligation only.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Clean statement of W1: accountability cannot be transferred to the producer regardless of output quality.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E12",
+  "source_id": "WS1-S03",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 Receiver work scales with producer track record and quality control (P-NEW: familiarity reduces required work)",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "ISA 620 para 8: nature, timing and extent of procedures vary with circumstances, considering (a) nature of the matter, (b) RMM, (c) significance of the expert's work, (d) the auditor's knowledge of and experience with previous work performed by that expert, and (e) whether the expert is subject to the auditor's firm's quality control policies and procedures.",
+  "relationship": "qualifies",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits under ISAs",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Determinants of extent of receiver procedures",
+  "quantitative_result": "null",
+  "source_locator": "ISA (UK) 620 para 8 (PDF p. 6)",
+  "short_exact_excerpt": "The auditor's knowledge of and experience with previous work performed by that expert",
+  "underlying_evidence_group": "EG:isa620",
+  "limitations": "Factors are to be 'considered'; no weights.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Repeat advisor relationships and advisor QC systems could legitimately reduce IC review, if policies allow.",
+  "analyst_inference": "Unlike the PCAOB factors, ISA 620 explicitly lets prior experience with the producer's work and the producer's quality-control environment modulate receiver effort — a channel through which a consistent, inspectable advisor product could earn reduced (but non-zero) review over time.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E13",
+  "source_id": "WS1-S03",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1/P2.4 Producer disclosure of scope, standards, errors encountered and tests performed reduces/redirects receiver work",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X3",
+   "X4"
+  ],
+  "observed_finding": "ISA 620 para 12 requires evaluating relevance/reasonableness of findings and consistency with other evidence, assumptions and methods, and relevance/completeness/accuracy of significant source data. A33 lists procedures: inquiries, reviewing the expert's working papers and reports, corroborative procedures (incl. reperforming calculations). A34 relevant factors include whether findings are clearly expressed with reference to agreed objectives, scope of work performed and standards applied; subject to reservations/limitations; based on appropriate consideration of errors or deviations encountered. A39: where the expert has tested source data, inquiry of the expert or supervision/review of the expert's tests may be an appropriate way to evaluate the data.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (application guidance)",
+  "population_and_setting": "Audits under ISAs",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Means of evaluating expert work",
+  "quantitative_result": "null",
+  "source_locator": "ISA (UK) 620 para 12; A33-A34 (PDF p. 16); A38-A39 (PDF p. 17)",
+  "short_exact_excerpt": "If the auditor's expert has tested the source data, inquiry of that expert by the auditor, or supervision or review of that expert's tests may be an appropriate way for the auditor to evaluate that data's relevance, completeness, and accuracy.",
+  "underlying_evidence_group": "EG:isa620",
+  "limitations": "Guidance ('may'); does not quantify savings.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "A39 is the clearest standard-level statement that documented producer testing can substitute for receiver re-testing of data; A34 treats explicit scope, standards applied, and errors/deviations encountered (X4) as quality signals.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E14",
+  "source_id": "WS1-S03",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 Rework from inadequate producer output",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "If the expert's work is not adequate, the auditor shall agree further work with the expert or perform additional audit procedures; if unresolved (possibly after further work by both, or engaging another expert), a modified opinion may be necessary.",
+  "relationship": "contextual",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits under ISAs",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required response to inadequate producer work",
+  "quantitative_result": "null",
+  "source_locator": "ISA (UK) 620 para 13; A40 (PDF pp. 7, 17)",
+  "short_exact_excerpt": "Agree with that expert on the nature and extent of further work to be performed by that expert; or",
+  "underlying_evidence_group": "EG:isa620",
+  "limitations": "Defines the response, not the frequency of inadequate work.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "W3 is formally distinct in the standard: it is triggered by an adequacy finding, after the W1 evaluation. No public data located on how often it occurs.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E15",
+  "source_id": "WS1-S04",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Governance gates on producer competence/objectivity precede any content evaluation",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "IAASB 2026 narrow-scope amendments (from IESBA's external-expert ethics project) add ISA 620 para 8(f) to consider relevant ethical requirements when determining procedures, and application material making explicit the presumption that an auditor's expert's work cannot be used if the expert lacks the necessary competence, capabilities and objectivity (CCO); para 12 adequacy evaluation presumes CCO has been established. Some respondents (incl. the Monitoring Group member) sought more explicit requirements, and some wanted written information from external experts on objectivity.",
+  "relationship": "contextual",
+  "evidence_type": "professional_standard (standard-setter basis)",
+  "population_and_setting": "IAASB standards; 50 ED responses",
+  "study_or_observation_method": "Standard-setter basis for conclusions",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Content of amendments; respondent views",
+  "quantitative_result": "50 ED responses (no breakdown recorded)",
+  "source_locator": "IAASB Basis for Conclusions (Jan 2026), paras 12-17 (pp. 7-8)",
+  "short_exact_excerpt": "the implicit presumption in ISA 620 that the work of an auditor's expert cannot be used if the auditor concludes that the expert does not have the necessary CCO for the auditor's purposes",
+  "underlying_evidence_group": "EG:iaasb-experts-nsa-2026",
+  "limitations": "Partial read; staff document.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. IC analogs: advisor independence/conflict checks are required regardless of report quality.",
+  "analyst_inference": "Part of W1 concerns the producer (competence/objectivity), not the output; transparency of the output cannot satisfy it.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E16",
+  "source_id": "WS1-S05",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Obligations for evaluating management-side (counterparty) experts",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "ISA 500 para 8: if information used as audit evidence was prepared using the work of a management's expert, the auditor shall, to the extent necessary having regard to the significance of that expert's work, evaluate the expert's competence, capabilities and objectivity; obtain an understanding of the expert's work; and evaluate the appropriateness of the work as audit evidence.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits under ISAs (Australian conformed text)",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required receiver evaluation",
+  "quantitative_result": "null",
+  "source_locator": "ASA 500 para 8 (PDF p. 11)",
+  "short_exact_excerpt": "Evaluate the appropriateness of that expert's work as audit evidence for the relevant assertion.",
+  "underlying_evidence_group": "EG:isa500",
+  "limitations": "Only para 8 read.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Closest IC analog: sponsor/developer-commissioned reports (e.g., developer's energy yield study) evaluated by the lender's team.",
+  "analyst_inference": "Even work produced for the counterparty must be understood and evaluated, scaled by significance.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E17",
+  "source_id": "WS1-S06",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Mandated retained work irrespective of producer documentation (re-performance floor)",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "ISA 610: the external auditor shall make all significant judgements and plan to use less internal-audit work and perform more directly the more judgement is involved, the higher the assessed risk, the less objectivity is supported, and the lower the competence; must evaluate whether, in aggregate, it remains sufficiently involved given sole responsibility; and the auditor's procedures on internal audit work used shall include re-performance of some of the work.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits under ISAs (Australian conformed ISA 610 (Revised 2013))",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required receiver involvement and re-performance",
+  "quantitative_result": "null",
+  "source_locator": "ASA 610 paras 18-19 (PDF p. 11), para 24 (PDF p. 12)",
+  "short_exact_excerpt": "and shall include re-performance of some of the work.",
+  "underlying_evidence_group": "EG:isa610",
+  "limitations": "Obligation; 'some' is not quantified.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Strongest W1 evidence found: re-performance of a sample is mandatory however well the producer documents. Judgement-heavy areas are explicitly reserved for the receiver, independent of output quality.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E18",
+  "source_id": "WS1-S06",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.2/P2.4 Producer process and documentation quality as precondition and driver of receiver reliance",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The external auditor shall not use internal audit work if the function lacks objectivity support, competence, or a systematic and disciplined approach including quality control. It shall read internal audit reports to understand the nature and extent of procedures performed and related findings, and evaluate whether the work was properly planned, performed, supervised, reviewed and documented, whether sufficient evidence supports reasonable conclusions, and whether reports are consistent with results of work performed.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits under ISAs",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Conditions for and extent of reliance",
+  "quantitative_result": "null",
+  "source_locator": "ASA 610 paras 15-16 (PDF p. 11), paras 22-23 (PDF p. 12)",
+  "short_exact_excerpt": "The work of the function had been properly planned, performed, supervised, reviewed and documented;",
+  "underlying_evidence_group": "EG:isa610",
+  "limitations": "Obligation; extent of savings when documentation is good not quantified.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Documentation of procedures and findings is a gating condition for any reliance: without it the receiver must do the work itself (W2). With it, the receiver still evaluates and re-performs some (W1). The standard thus separates W1 and W2 cleanly.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E19",
+  "source_id": "WS1-S07",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 Disclosure of tests performed and results (incl. no-exception results) supports reliance; P1.1 receiver evaluation persists",
+  "work_type_tags": [
+   "W1",
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "A type 2 service-organisation report comprises management's system description and a service auditor's report including an opinion and a description of the service auditor's tests of controls and the results. To use it, the user auditor shall be satisfied about service auditor competence/independence and adequacy of standards; evaluate whether the period is appropriate; determine whether complementary user entity controls (CUECs) are relevant and, if so, understand and test them; evaluate time period covered and elapsed; and evaluate whether the tests and results described are relevant to the user entity's assertions and sufficient. The user auditor shall not refer to the service auditor in an unmodified report.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (obligation)",
+  "population_and_setting": "Audits of entities using service organisations (Australian conformed ISA 402)",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required user-auditor evaluation of a third-party assurance report",
+  "quantitative_result": "null",
+  "source_locator": "ASA 402 para 8(c) definitions (PDF p. 10); paras 13-17, 21 (PDF pp. 12-13)",
+  "short_exact_excerpt": "Evaluating whether the tests of controls performed by the service auditor and the results thereof, as described in the service auditor's report, are relevant to the assertions",
+  "underlying_evidence_group": "EG:isa402",
+  "limitations": "Obligation; no data on user-auditor time.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Strong structural analog for an advisor deliverable listing checks performed and results; CUECs resemble client-side conditions the advisor assumes.",
+  "analyst_inference": "The service-auditor report institutionalizes 'show what was checked and the result' (X4), yet the receiver still owes relevance, period, and CUEC evaluation (W1/W4). Transparency changes the receiver's task from re-testing to evaluating fit.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E20",
+  "source_id": "WS1-S07",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P1.2 Missing description of checks causes extra receiver work",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "If the service auditor's report may not provide sufficient evidence, for example if it does not contain a description of the service auditor's tests of controls and results, the user auditor may seek a discussion with the service auditor (through the user entity) about scope and results, request the service auditor perform procedures, or perform procedures itself (or via another auditor).",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (application guidance)",
+  "population_and_setting": "Audits under ISAs",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Receiver response to missing test description",
+  "quantitative_result": "null",
+  "source_locator": "ASA 402 para A37 (PDF p. 23)",
+  "short_exact_excerpt": "if a service auditor's report does not contain a description of the service auditor's tests of controls and results thereon, the user auditor may supplement the understanding of the service auditor's procedures and conclusions",
+  "underlying_evidence_group": "EG:isa402",
+  "limitations": "Guidance ('may'); no cost data.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Direct standard-level link: absence of a description of checks performed (X4) forces additional receiver work — the cleanest public example of W2 caused by missing coverage information.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E21",
+  "source_id": "WS1-S07",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.4 / P4.1 Receiver-specific adaptation persists because producer output is built for many users",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "A type 2 report may be intended for several user auditors, so tests and results described may not be relevant to assertions significant to a given user entity. Shorter test periods and longer elapsed time reduce evidence; little overlap with the user's period reduces evidence; testing period entirely outside the user's period cannot be relied on without other procedures; changes outside the period may require additional evidence (e.g., extending tests or testing the user entity's monitoring). Exceptions or a modified opinion do not automatically make the report unusable; they are considered in the user auditor's assessment.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (application guidance)",
+  "population_and_setting": "Audits under ISAs",
+  "study_or_observation_method": "Standard text",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Fit of producer output to receiver needs",
+  "quantitative_result": "null",
+  "source_locator": "ASA 402 paras A31-A35, A38 (PDF pp. 22-23)",
+  "short_exact_excerpt": "tests of controls and results described in the service auditor's report may not be relevant to assertions that are significant in the user entity's financial report",
+  "underlying_evidence_group": "EG:isa402",
+  "limitations": "Guidance; frequency of gaps unknown.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. A standardized advisor product serving many clients will face the same fit gap with each client's criteria and timing.",
+  "analyst_inference": "Even perfect transparency of a multi-user product leaves W4 (relevance/period/bridge evaluation) for each receiver; standardization (P5.1) and receiver-specific adaptation (P4.1) trade off.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E22",
+  "source_id": "WS1-S08",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P2.4 Visibility of checks performed incl. no-findings; P5.1/P6.1 disclosure cost trade-off",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "IAASB retained the requirement for Type 2 (Type B) reports to include details of tests performed, because user auditors need the nature of tests to link to their own work and have confidence under ISA 402. It decided sample sizes and sample-size judgments need not be disclosed when no deviation is found, since user auditors may then base procedures on the premise that controls operated effectively; detailing such judgments meaningfully would be burdensome and increase engagement cost. Sample size and number of deviations are needed when deviations are found (rate of deviation informs risk assessment). A significant minority of ED respondents disagreed with differentiating found/not-found cases.",
+  "relationship": "qualifies",
+  "evidence_type": "professional_standard (standard-setter basis)",
+  "population_and_setting": "ISAE 3402 service-organisation assurance; ED respondents (counts not given)",
+  "study_or_observation_method": "Standard-setter deliberation and comment analysis",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required content of producer report",
+  "quantitative_result": "null (respondent counts not reported)",
+  "source_locator": "IAASB Basis for Conclusions ISAE 3402 (Dec 2009), paras 41-46 (pp. 11-12)",
+  "short_exact_excerpt": "user auditors need to have information about the nature of the tests of controls the service auditor has performed to be able to make appropriate linkages with their own work",
+  "underlying_evidence_group": "EG:isae3402",
+  "limitations": "Reasoned judgment by standard setter, not empirical test.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Directly informs what an advisor should disclose about checks with no findings: the nature of checks, not necessarily full sampling detail.",
+  "analyst_inference": "The standard setter explicitly decided that 'checks performed' must be visible even when nothing was found, but chose a minimal-disclosure point for no-finding checks on cost grounds — evidence that more disclosure is not judged automatically worth its producer cost.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E23",
+  "source_id": "WS1-S08",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.4 Transparency of who performed which checks substitutes for prescriptive limits",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X3",
+   "X4"
+  ],
+  "observed_finding": "On service auditors using internal audit work, the IAASB concluded it is not acceptable for a service auditor to appear to represent it performed tests when it did not; the factual description of tests of controls in a separate part of Type B reports, plus clear report wording, should prevent readers thinking responsibility is divided, and this transparency makes it unnecessary for the ISAE to set limits on the extent of use of internal audit work.",
+  "relationship": "supports",
+  "evidence_type": "professional_standard (standard-setter basis)",
+  "population_and_setting": "ISAE 3402",
+  "study_or_observation_method": "Standard-setter deliberation",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Required attribution of tests",
+  "quantitative_result": "null",
+  "source_locator": "IAASB Basis for Conclusions ISAE 3402, paras 65-66 (pp. 16-17)",
+  "short_exact_excerpt": "this level of transparency makes it is unnecessary for the ISAE to set limits on the extent to which a service auditor can use the work of the internal audit function",
+  "underlying_evidence_group": "EG:isae3402",
+  "limitations": "Standard-setter reasoning; no empirical test of reader understanding.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Provenance of checks (who did what) is treated as a substitute for rules restricting delegation — a governance use of X3/X4 rather than a time-saving one.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "WS1-E24",
+  "source_id": "WS1-S09",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Conditions under which responsibility CAN be formally divided",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "PCAOB 2022 amendments apply a risk-based supervisory approach to other auditors whose work the lead auditor assumes responsibility for: the lead auditor must inform other auditors of scope and identified risks, obtain written affirmations (independence, competence, compliance with instructions), direct them to provide certain documentation, and make determinations based on review of that documentation. In infrequent cases (new AS 1206) the lead auditor may divide responsibility with another accounting firm, does not supervise it, refers to it in the audit report, and discloses the magnitude of the portion audited by the referred-to auditor.",
+  "relationship": "qualifies",
+  "evidence_type": "regulation_or_guidance",
+  "population_and_setting": "US PCAOB audits involving other auditors",
+  "study_or_observation_method": "SEC approval order summarizing PCAOB rules",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Allocation of responsibility and supervision duties",
+  "quantitative_result": "null",
+  "source_locator": "SEC Release 34-95488, pp. 2-5 (incl. fn 6 citing AS 1201.13)",
+  "short_exact_excerpt": "the lead auditor divides responsibility for a portion of the audit with the referred-to auditor and therefore does not supervise the work performed by that firm",
+  "underlying_evidence_group": "EG:pcaob-other-auditors-2022",
+  "limitations": "Summary only; adopting release not read.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. IC analogs: formally relying on a regulated third-party opinion (e.g., rating, fairness opinion) with disclosed attribution.",
+  "analyst_inference": "Responsibility can be shared only with a peer producer subject to the same professional regime and with public disclosure of reliance; otherwise review is supervisory and documentation-based. Suggests reduction of receiver work through reliance needs institutional backing, not only output transparency.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E25",
+  "source_id": "WS1-S10",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.6 Review shaped by institutional pressures (verification ritual) rather than optimal analysis",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Interview study (24 experienced auditors per abstract summary): auditors predominantly audit details of management's estimate rather than other allowable approaches; step-by-step verification leads to overreliance on management's process, failure to notice inconsistencies with other data, and heavy reliance on specialists to challenge critical assumptions. Root causes identified via institutional theory: standards' and firm policies' emphasis on verifying management's model, and firms' division of knowledge between auditors and specialists; inspections reinforce conventions.",
+  "relationship": "supports",
+  "evidence_type": "peer_reviewed field study (interviews)",
+  "population_and_setting": "Experienced auditors of complex estimates (pre-2020 US standards)",
+  "study_or_observation_method": "Semi-structured interviews; institutional theory",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Approach used to audit complex estimates; problems",
+  "quantitative_result": "24 auditors interviewed (per abstract summary; verbatim not seen)",
+  "source_locator": "Abstract (IDEAS record)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:griffith-hammersley-kadous-2015",
+  "limitations": "Abstract only via fetch-tool rendering; pre-amendment practice.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Risk that IC review becomes verification of the advisor's model line by line rather than critical assessment.",
+  "analyst_inference": "Retained review can be institutionally shaped toward checking the producer's process (which transparency makes easier) rather than independent challenge — transparency could reinforce this mode.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS1-E26",
+  "source_id": "WS1-S11",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.6 Receivers use producer work for comfort/legitimacy rather than insight",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Interviews with 28 auditors and 14 valuation specialists: pressures in the fair value environment affect auditors and specialists unequally, producing one-sided competition and incomplete acceptance of specialists' work; auditors shape specialists' work to fit their views and use specialists for comfort rather than insight (per abstract). Working-paper passage quoted by PCAOB: many auditors review specialists' work for general understanding and sufficiency rather than in detail, because they cannot fully understand it.",
+  "relationship": "supports",
+  "evidence_type": "peer_reviewed field study (interviews)",
+  "population_and_setting": "Audit partners/managers and valuation specialists, large firms (pre-2020)",
+  "study_or_observation_method": "Semi-structured interviews; expert systems and professional competition theories",
+  "intervention_and_comparator": null,
+  "outcome_measured": "How auditors use and review specialists' work",
+  "quantitative_result": "28 auditors; 14 valuation specialists",
+  "source_locator": "Abstract (IDEAS); working paper p. 23 as quoted in 84 FR 13474 fn 160",
+  "short_exact_excerpt": "many auditors review specialists' work for general understanding and sufficiency of the work performed, rather than reviewing in detail as they would in other areas of the audit",
+  "underlying_evidence_group": "EG:griffith-2020-jurisdiction",
+  "limitations": "Excerpt is the PCAOB's quotation of the working paper (secondary); published text not reviewed.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "When the receiver cannot fully understand the producer's work, review collapses to a sufficiency/comfort check rather than reconstruction. This is evidence for P1.6 and against assuming opacity mostly produces visible rework.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS1-E27",
+  "source_id": "WS1-S11",
+  "research_question_ids": [
+   "RQ1",
+   "RQ3"
+  ],
+  "proposition_tested": "P-NEW: Receivers edit/restrict producer output to fit their documentation (adaptation that degrades information)",
+  "work_type_tags": [
+   "W5",
+   "W4"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Working-paper passages quoted by the PCAOB: audit teams delete extraneous information in specialists' memos when it contradicts what the audit team documented elsewhere; auditors described defensive behaviors restricting specialists' access to information, which can influence what work specialists do and what conclusions they reach.",
+  "relationship": "supports",
+  "evidence_type": "peer_reviewed field study (interviews)",
+  "population_and_setting": "Auditors and valuation specialists (pre-2020)",
+  "study_or_observation_method": "Interviews",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Receiver handling of producer output",
+  "quantitative_result": "null",
+  "source_locator": "Working paper pp. 32-33 as quoted in 84 FR 13472 fn 143",
+  "short_exact_excerpt": "[A]udit teams delete extraneous information in specialists' memos when that information contradicts what the audit team has documented in other audit work papers",
+  "underlying_evidence_group": "EG:griffith-2020-jurisdiction",
+  "limitations": "Secondary quotation via PCAOB; frequency unknown.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Integration of advisor output into decision memos can strip contrary findings; integration tooling would need to preserve them.",
+  "analyst_inference": "Integration/adaptation into the receiver's record can remove disconfirming content — a risk for P3.1 (integration value) and an argument for preserving the producer's full findings (incl. contrary ones) alongside the integrated version.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS1-E28",
+  "source_id": "WS1-S12",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.2 Structured cues in producer output improve detection only when receiver is motivated",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Two experiments: a relational cue in a specialist's work highlighting aggressive assumptions improved auditors' problem representations and subsequent judgments about a biased estimate, but only when a situational factor (e.g., risk, client source credibility, engagement risk) increased auditors' epistemic motivation to incorporate the cue; auditors do not always respond to cues in specialists' work.",
+  "relationship": "qualifies",
+  "evidence_type": "peer_reviewed_experiment",
+  "population_and_setting": "Auditors (participant numbers not seen)",
+  "study_or_observation_method": "Two experiments",
+  "intervention_and_comparator": "Specialist work with vs without relational cue; crossed with risk/credibility manipulations",
+  "outcome_measured": "Problem representation; judgments about estimate",
+  "quantitative_result": "not seen",
+  "source_locator": "Abstract excerpts (search) and University of Wisconsin news article",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:griffith-2018-relational-cue",
+  "limitations": "Abstract-level only; effect sizes not seen.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. An advisor that synthesizes patterns across assumptions may improve IC detection, but uptake depends on reviewer motivation/risk salience.",
+  "analyst_inference": "Better producer presentation (synthesized, pattern-level flags) can improve error detection, not just trust — but the effect is conditional on the receiver's motivation, so presentation alone is insufficient.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS1-E29",
+  "source_id": "WS1-S13",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P-NEW: Receivers constrain producer scope for budget/schedule/client reasons",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Interviews with 34 practitioners (12 auditors; 22 tax, IT, valuation, forensic specialists) from six firms: regulatory pressure pushes auditors to use specialists, yet auditors often seek to limit specialist involvement, citing budget overruns, delays and harm to client relationships from (overly) meticulous specialists; specialists are concerned that limiting their scope hurts audit quality.",
+  "relationship": "contextual",
+  "evidence_type": "peer_reviewed field study (interviews)",
+  "population_and_setting": "Auditors and specialists in six accounting firms",
+  "study_or_observation_method": "Interviews",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Views on specialist use",
+  "quantitative_result": "34 interviewees (12 auditors, 22 specialists)",
+  "source_locator": "Abstract (catalog summaries via search)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:boritz-2020-specialists-views",
+  "limitations": "Abstract not directly viewed; summaries only.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Receiver-side cost pressure acts against fuller producer analysis; any product adding depth must fit the receiver's budget/time constraints. Stated views, not observed behavior.",
+  "access_status": "other"
+ },
+ {
+  "evidence_id": "WS1-E30",
+  "source_id": "WS1-S14",
+  "research_question_ids": [
+   "RQ1",
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 Producer-supplied provenance enables test-basis validation instead of re-derivation; P1.1 division of labor",
+  "work_type_tags": [
+   "W1",
+   "W2"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "Survey of 32 audit partners/senior managers (5 firms). Asked how the audit team tests data and assesses assumptions/methods in a valuation specialist's work (n=31; coded themes): obtain support for data used in model 30.2%; rely on firm's valuation specialist to evaluate assumptions 24.5%; gain understanding of key assumptions via specialists 15.1%; compare to company history 13.2%; test completeness/accuracy of management data 9.4%; follow firm/PCAOB practices 5.7%; search for contrary evidence 1.9%. Partners: valuation-specific inputs (e.g., WACC, discount rates) determined by the in-house specialist and not separately tested by the audit team, while company-operations assumptions are audited by the engagement team; specialists must provide support (articles, studies, Bloomberg output) in their documentation, validated by the audit team on a test basis, with two specialists signing the memo.",
+  "relationship": "supports",
+  "evidence_type": "peer_reviewed survey (practitioner self-report)",
+  "population_and_setting": "Audit partners with FVM expertise; 3 Big 4 and 2 international network firms; pre-2020",
+  "study_or_observation_method": "Survey with coded open-ended responses (avg Cohen's kappa 0.63)",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Self-reported procedures for evaluating specialist work",
+  "quantitative_result": "n=31 respondents for this question; theme frequencies as listed (percent of coded responses)",
+  "source_locator": "Glover, Taylor & Wu (2017) Table 6 Question 6 and text, pp. 74-76",
+  "short_exact_excerpt": "Our [in-house] valuation specialists are required to provide the support (articles, studies, output from Bloomberg, etc.) as part of their documentation. We will validate that information on a test basis.",
+  "underlying_evidence_group": "EG:glover-taylor-wu-2017",
+  "limitations": "Self-reported; small n; CAQ-funded; percentages are shares of coded themes (responses can map to multiple themes).",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Advisor deliverables with source support allow IC teams to spot-check rather than re-derive; entity-specific assumptions remain the client's to test.",
+  "analyst_inference": "Practitioner account consistent with P2.1: firm policy requires producers to attach source support, and receivers sample-check it. Also shows receivers retain the assumptions closest to their own knowledge (company operations) and defer on technical inputs — W1 allocation by comparative expertise. Note very low reported search for contrary evidence (1.9%).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "WS1-E31",
+  "source_id": "WS1-S15",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1/P1.6 What counts as sufficient review is contested between practitioners and inspectors",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Field-based study of audit experts: audit experts and inspectors differ in interpreting standards and evaluating audit evidence, producing a perceived gap in what each considers sufficient appropriate evidence for complex fair value measurements and differing views on what counts as a deficiency; factors beyond auditor underperformance contribute; partners offered recommendations to narrow the gap.",
+  "relationship": "qualifies",
+  "evidence_type": "peer_reviewed field study",
+  "population_and_setting": "Audit experts (counts not seen); PCAOB inspection context",
+  "study_or_observation_method": "Field-based data from audit experts",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Perceived sufficiency of evidence; sources of disagreement",
+  "quantitative_result": "not seen",
+  "source_locator": "Abstract (IDEAS)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:glover-et-al-2019-fvm-gap",
+  "limitations": "Abstract only.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. IC/credit review sufficiency is set by internal policy and credit committee norms; disagreement between reviewers and oversight functions likely also drives extra work.",
+  "analyst_inference": "Part of retained review is driven by uncertainty about what the overseer (inspector) will deem sufficient — a governance driver (W1/P1.6) that output transparency would not remove, though explicit coverage records might help demonstrate sufficiency.",
+  "access_status": "abstract_only"
+ },
+ {
+  "evidence_id": "WS1-E32",
+  "source_id": "WS1-S16",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.3 Producer (specialist) involvement and error detection",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Engagement-level field evidence on challenging fair value measurements: the decision to use a valuation specialist (associated with higher inherent risk and client specialist use) is key; procedures performed by specialists have the highest yield in identifying problems; booked audit adjustments are infrequent.",
+  "relationship": "contextual",
+  "evidence_type": "peer_reviewed field study",
+  "population_and_setting": "Audit engagements with challenging FVMs (counts not seen)",
+  "study_or_observation_method": "Engagement-level quantitative and qualitative data from auditors",
+  "intervention_and_comparator": null,
+  "outcome_measured": "Problems identified; adjustments booked",
+  "quantitative_result": "not seen",
+  "source_locator": "Abstract (search summaries)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:cannon-bedard-2017",
+  "limitations": "Abstract not directly viewed.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties.",
+  "analyst_inference": "Specialists here act as reviewers of management's numbers; their work finds the most problems, which supports the value of specialized producer analysis but says nothing about receiver review time.",
+  "access_status": "other"
+ },
+ {
+  "evidence_id": "WS1-E33",
+  "source_id": "WS1-S17",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 (challenged) More specific producer explanation increases elaboration/time; P2.3/P2.4 specificity changes reliance pattern",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X2",
+   "X4"
+  ],
+  "observed_finding": "2x2 between-subjects experiment with 98 audit managers (avg 6.94 years experience): source of specialist evidence (human firm specialist vs firm's proprietary AI system) x specificity of the specialist memo's discussion of methodology and assumptions (brief outline vs more thorough discussion with an added section on specific factors). With a less specific memo, auditors relied less on the system than the human (algorithm aversion); with a more specific memo the source difference disappeared, reliance on the human specialist directionally fell and on the system rose. Participants given the more specific memo took longer (marginal). Assumptions were rated more subjective when a human (vs system) gave the more specific explanation.",
+  "relationship": "qualifies",
+  "evidence_type": "peer_reviewed_experiment (working paper)",
+  "population_and_setting": "98 audit managers; hypothetical insurance claim reserve case with contradictory specialist evidence",
+  "study_or_observation_method": "Randomized 2x2 experiment",
+  "intervention_and_comparator": "Human vs AI-system specialist; less vs more specific methodology/assumption explanation",
+  "outcome_measured": "Proposed audit adjustment (reliance proxy); time on case",
+  "quantitative_result": "Planned contrast F(1,94)=4.19, p=0.04; ANOVA interaction F(1,94)=2.90, p=0.05 (one-tailed); specialist-type simple effect in Less Specific t(94)=2.06, p=0.02 vs More Specific t(94)=0.31, p=0.76 (two-tailed); Human condition adjustments reported as '19.20 versus 15.74' (ordering ambiguous in text; units not located); time longer in More Specific t(94)=1.33, p=0.09 one-tailed; subjectivity rating Human 5.63 vs System 4.29, t(94)=3.29, p<0.01",
+  "source_locator": "Commerford & Holman (2022) pp. 5, 16-22 (design, Table 2 discussion, fn 7)",
+  "short_exact_excerpt": "we find that a less specific explanation constrains auditors' elaboration, resulting in judgments indicative of algorithm aversion",
+  "underlying_evidence_group": "EG:commerford-holman-2022",
+  "limitations": "No ground truth for correct adjustment, so effects are on reliance, not accuracy; single case; working paper; CAQ funded.",
+  "transferability_to_target_workflow": "Mechanism: a regulated receiver (auditor) must evaluate outside analysis it uses; analog to IC/credit team relying on advisor/consultant reports (e.g., independent engineer, energy yield, model audit). Similarity: producer->accountable receiver->opinion/decision. Differences: audit duties are legally mandated and inspected; investment committees' review duties come from internal policy, fiduciary duty and lender requirements, so the mandated floor may be lower or differently shaped. Needs verification: whether IC/credit policies impose comparable non-delegable evaluation duties. Directly relevant to AI-generated advisor analysis reviewed by IC members: explanation detail changes how source cues (AI vs human) drive reliance.",
+  "analyst_inference": "More specific explanations increased reviewer processing time (contrary to a simple time-saving P2.1) and shifted reliance from source heuristics toward content. This is evidence about appropriate-reliance mechanisms, not about reduced effort or improved detection.",
+  "access_status": "full_text"
+ }
+]

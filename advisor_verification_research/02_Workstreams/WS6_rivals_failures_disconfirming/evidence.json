@@ -1,0 +1,731 @@
+[
+  {
+    "evidence_id": "WS6-E01",
+    "source_id": "WS6-S01",
+    "research_question_ids": [
+      "RQ3",
+      "RQ2"
+    ],
+    "proposition_tested": "P3.2 Integration/AI assistance shifts review effort elsewhere rather than removing it",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Allowing early-2025 AI tools increased task completion time by 19% on average for experienced developers working in their own mature repositories; nearly all quantiles of implementation time were longer when AI was allowed.",
+    "relationship": "supports",
+    "evidence_type": "causal estimate (randomized at task level); observed behavior",
+    "population_and_setting": "16 experienced open-source developers (avg. 5 years on their repository), 246 real issues in mature projects",
+    "study_or_observation_method": "Randomized controlled trial; each issue randomly assigned AI-allowed vs AI-disallowed; screen recordings for a subset",
+    "intervention_and_comparator": "AI tools allowed (mainly Cursor Pro with Claude 3.5/3.7 Sonnet) vs AI disallowed",
+    "outcome_measured": "Issue implementation time (self-reported, validated against screen recordings)",
+    "quantitative_result": "+19% implementation time with AI allowed (136 AI-allowed vs 110 AI-disallowed issues); 95% CI shown in Figure 1 / Appendix D, not extracted from text",
+    "source_locator": "Abstract (p.1); Section 3 Results; Figure 1",
+    "short_exact_excerpt": "Surprisingly, we find that allowing AI actually increases completion time by 19%—AI tooling slowed developers down.",
+    "underlying_evidence_group": "EG:metr2025-oss-dev-rct",
+    "limitations": "Developers act as both producer and reviewer of AI output; small N; high-quality-standard repositories with extensive implicit context; tools of early 2025.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Mechanism that transfers: when the reviewer has deep implicit context and high quality standards, time spent prompting, waiting, reviewing and repairing AI output can exceed time saved. Similar to a credit team with deep project knowledge reviewing AI-assisted advisor output. Differences: code is executable/testable; diligence conclusions are not. Needs verification: whether experienced deal teams show the same net slowdown when AI-generated analysis is in the loop.",
+    "analyst_inference": "Strong disconfirming evidence for the naive claim that AI assistance reduces expert effort. It concerns AI assistance generally, not traceability; it does not show that traceability would fail, but it shows that review/repair of imperfect output can dominate.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E02",
+    "source_id": "WS6-S01",
+    "research_question_ids": [
+      "RQ2",
+      "RQ6"
+    ],
+    "proposition_tested": "P-NEW: Users' self-reported time savings from AI assistance are unreliable indicators of actual effort reduction",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "Before tasks, developers forecast AI would cut completion time by 24%; after the study they estimated it had cut time by 20%, while measured time rose 19%. Economics and ML experts forecast 39% and 38% reductions.",
+    "relationship": "supports",
+    "evidence_type": "observed behavior vs stated belief (within RCT)",
+    "population_and_setting": "Same as WS6-E01, plus expert forecasters in economics and ML",
+    "study_or_observation_method": "Pre-task forecasts, post-study estimates, incentivized expert forecasts compared with RCT estimate",
+    "intervention_and_comparator": "Perceived/forecast speedup vs measured effect",
+    "outcome_measured": "Forecast and perceived change in completion time vs measured change",
+    "quantitative_result": "Forecast -24%; post-hoc estimate -20%; measured +19%; expert forecasts -39% (economics) and -38% (ML)",
+    "source_locator": "Abstract (p.1); Section 3.1 Forecasts; Figure 1",
+    "short_exact_excerpt": "Before starting tasks, developers forecast that allowing AI will reduce completion time by 24%. After completing the study, developers estimate that allowing AI reduced completion time by 20%.",
+    "underlying_evidence_group": "EG:metr2025-oss-dev-rct",
+    "limitations": "One setting; perception gap may differ for non-coding analytical tasks.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Directly relevant to how evidence of reduced recipient work is gathered: buyer testimonials or surveys saying 'it saves us time' may not match measured review time. Needs verification with time-and-motion or log data in diligence teams.",
+    "analyst_inference": "Any claim that traceability reduces recipient work should be tested with measured effort, not satisfaction or self-report; this weakens vendor case studies and buyer surveys as evidence for P2.1/P6.1.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E03",
+    "source_id": "WS6-S01",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.3 Rework due to inaccurate/incomplete output is a major driver of review",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Developers accepted fewer than 44% of AI generations; they spent time reviewing, testing or modifying code before rejecting it; 75% reported reading every line of AI-generated code, 56% often needed major changes; about 9% of AI-allowed time was spent reviewing and cleaning AI output.",
+    "relationship": "supports",
+    "evidence_type": "observed behavior (screen recordings) plus self-report",
+    "population_and_setting": "Same as WS6-E01; 44 issues with valid labeled screen recordings for the time breakdown",
+    "study_or_observation_method": "Screen-recording labeling; exit surveys and developer comments",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Acceptance rate of AI generations; share of time reviewing/cleaning; self-reported review behavior",
+    "quantitative_result": "<44% of generations accepted; ~9% of time reviewing/cleaning AI outputs (44 issues); 75% read every line; 56% often make major changes; 100% report needing to modify AI code",
+    "source_locator": "Appendix C.1.4 'Low AI reliability' (p.20); factor table (p.11)",
+    "short_exact_excerpt": "75% report that they read every line of AI generated code, and 56% of developers report that they often need to make major changes to clean up AI code",
+    "underlying_evidence_group": "EG:metr2025-oss-dev-rct",
+    "limitations": "Time breakdown based on a 44-issue subset; self-reports for review behavior.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Transfers as a mechanism: where output reliability is low, line-by-line review is rational and persists regardless of how well output is presented. A credit analyst who must check every number in an AI-assisted model faces the same economics. Needs verification: actual error rates in AI-assisted advisor deliverables.",
+    "analyst_inference": "Supports the W3 rival: review intensity tracks the reviewer's estimate of error rate. Traceability would only help if it makes each check cheaper; it does not reduce the number of checks while reliability is low.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E04",
+    "source_id": "WS6-S02",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3"
+    ],
+    "proposition_tested": "P1.3 Rework/verification driven by inaccurate advisor output; P-NEW: AI-assisted advisory work can reduce producer time while lowering correctness on tasks outside the AI frontier",
+    "work_type_tags": [
+      "W3",
+      "W1"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "On a business-case task designed to be outside the AI frontier, consultants with GPT-4 were less often correct (control ~84.5% correct vs 60% and 70% in AI conditions) while spending less time; those with negative performance tended to adopt AI output blindly and interrogate it less.",
+    "relationship": "supports",
+    "evidence_type": "causal estimate (randomized field experiment)",
+    "population_and_setting": "BCG consultants (758 knowledge workers in the overall experiment); outside-frontier task subsample",
+    "study_or_observation_method": "Preregistered randomized experiment with three arms",
+    "intervention_and_comparator": "GPT-4 only, or GPT-4 plus prompt-engineering overview, vs no AI",
+    "outcome_measured": "Binary correctness of recommendation; time spent",
+    "quantitative_result": "Correctness: control ~84.5%, AI arms 60% and 70% (average -19 percentage points); regression: -24 pp (GPT + Overview), -13 pp (GPT only). Time: >11 minutes less (-30% vs control mean) for GPT + Overview; >6 minutes less (-18%) for GPT only",
+    "source_locator": "Abstract; Section 3.2 'Quality Disruptor - Outside the frontier' (pp.14-15); Table 4, Table 5; Section 3.3 (p.17)",
+    "short_exact_excerpt": "Professionals who had a negative performance when using AI tended to blindly adopt its output and interrogate it less",
+    "underlying_evidence_group": "EG:dellacqua2023-bcg-jagged-frontier",
+    "limitations": "Single designed outside-frontier task with a known right answer; producers, not recipients, were studied.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Consultants are the advisor side. Transfers: an advisor using AI may deliver faster but wrong conclusions on non-standard questions (e.g., unusual offtake terms, novel interconnection risk). The recipient cannot tell from the deliverable which tasks were outside the frontier. Needs verification: whether such errors survive the advisor's QA and reach clients.",
+    "analyst_inference": "Rival for the advisor-AI pathway: AI-assisted advisory output can raise W3 for the client. Traceability might help the client find these errors only if the wrong reasoning is visible in the cited evidence; it would not help if the error is an omission.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E05",
+    "source_id": "WS6-S02",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations/citations (here: AI-polished output) increase perceived quality/acceptance without improving correctness",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X1",
+      "X5"
+    ],
+    "observed_finding": "On the outside-frontier task, AI users' recommendations received higher quality scores from graders than controls' did, including among participants whose answers were incorrect.",
+    "relationship": "supports",
+    "evidence_type": "causal estimate (randomized field experiment); graded quality",
+    "population_and_setting": "BCG consultants, outside-frontier task; graders were BCG consultants not in the experiment and business-school students",
+    "study_or_observation_method": "Randomized experiment; rubric-based grading (1-10) by two grader sets",
+    "intervention_and_comparator": "GPT-4 arms vs no AI",
+    "outcome_measured": "Recommendation quality score (1-10), split by correct/incorrect answer",
+    "quantitative_result": "GPT + Overview +1.47 points (+25.1% over control mean); GPT only +1.05 (+17.9%); positive effects in both incorrect-answer and correct-answer subsets",
+    "source_locator": "Section 3.2, Table 6, Figure 8 (p.15)",
+    "short_exact_excerpt": "the quality of the recommendation about a business problem-solving case increased, regardless of whether the underlying recommendation was correct or not.",
+    "underlying_evidence_group": "EG:dellacqua2023-bcg-jagged-frontier",
+    "limitations": "Graders are a proxy for clients; quality rubric may reward presentation; not a test of explanations or citations specifically.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Direct concern for investment-committee materials: polished AI-assisted analysis may read as higher quality even when the conclusion is wrong, which raises the bar for client review. Needs verification: whether IC reviewers' quality ratings track correctness.",
+    "analyst_inference": "Strong evidence for the persuasion rival (X1 vs X5): surface quality and correctness can come apart. A product that adds well-formatted rationale without making errors detectable could make review harder, not easier.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E06",
+    "source_id": "WS6-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations increase trust/acceptance without improving error detection",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "With an AI of accuracy comparable to humans, AI assistance produced complementary improvements, but explanations did not increase them; explanations increased the chance that people accepted the AI's recommendation whether it was correct or not.",
+    "relationship": "supports",
+    "evidence_type": "causal estimate (randomized lab/online experiments)",
+    "population_and_setting": "Crowdworkers on sentiment classification (Beer, Amazon) and LSAT reasoning questions",
+    "study_or_observation_method": "Mixed-method user studies with multiple explanation conditions (Explain-Top-1, Explain-Top-2, Adaptive)",
+    "intervention_and_comparator": "AI recommendation with explanations vs AI recommendation with confidence only",
+    "outcome_measured": "Team accuracy; agreement with AI when AI correct vs incorrect",
+    "quantitative_result": "Not extracted in numeric form; qualitative result stated in abstract and Section 5 (explanations improved accuracy when AI correct and decreased it when AI incorrect)",
+    "source_locator": "Abstract (p.1); Section 5 results and Figure 4",
+    "short_exact_excerpt": "they were not increased by explanations. Rather, explanations increased the chance that humans will accept the AI's recommendation, regardless of its correctness.",
+    "underlying_evidence_group": "EG:bansal2021-explanations-complementarity",
+    "limitations": "Lay tasks; explanations are model-reasoning highlights, not source citations; no accountability.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Mechanism transfers to AI-generated rationales in advisor memos (X1/X2): rationale can raise acceptance of wrong conclusions. Does NOT directly transfer to X3 citations, which can be checked against an original source. Needs verification: whether citation-linked rationale behaves differently from free-text rationale with professional reviewers.",
+    "analyst_inference": "The thesis must separate checkable traceability from explanatory narrative; evidence that narrative explanations increase overreliance is a real threat if a product leans on generated rationale.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E07",
+    "source_id": "WS6-S04",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4/P2.2 Explanations that lower verification cost improve appropriate reliance (conditional form of thesis)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X2",
+      "X3"
+    ],
+    "observed_finding": "Overreliance was lower when explanations were easy to check (path highlights) than when they were hard to parse (written step lists); the authors argue that null effects in prior literature may arise because explanations did not sufficiently reduce the cost of verifying the AI's prediction.",
+    "relationship": "qualifies",
+    "evidence_type": "causal estimate (randomized online experiments)",
+    "population_and_setting": "Online participants (5 studies, N=731; Study 2 N=340) solving mazes with a simulated AI",
+    "study_or_observation_method": "Randomized manipulation of task difficulty, explanation difficulty, and rewards; Bayesian regression",
+    "intervention_and_comparator": "Highlight (easy-to-verify) explanation vs written (hard-to-verify) explanation vs prediction only",
+    "outcome_measured": "Overreliance (agreeing with AI when AI is incorrect)",
+    "quantitative_result": "Study 2: Highlight - Written, medium task: mean -1.63 (95% CI -2.78 to -0.559); hard task: -1.632 (95% CI -2.570 to -0.694) (model-scale estimates; units per authors' model specification)",
+    "source_locator": "Abstract; Section 6, Table 3, Figure 9 (p.129:18)",
+    "short_exact_excerpt": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
+    "underlying_evidence_group": "EG:vasconcelos2023-explanations-cost-benefit",
+    "limitations": "Toy task with perfectly verifiable answers; simulated AI; no professional stakes.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Mechanism transfers: traceability helps only if checking a claim against its cited evidence is cheaper than redoing the analysis. A source link that lands on the exact clause of a PPA or the exact line of a production estimate resembles a 'highlight'; a 200-page appendix resembles a 'written' explanation. Needs verification: measured per-claim checking time with and without pinpoint links in diligence documents.",
+    "analyst_inference": "This is the clearest support for a conditional thesis and also its main boundary: traceability is valuable when it lowers per-check cost; volume of explanation does not help. It predicts that unpinpointed citations or long rationales will not reduce work.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E08",
+    "source_id": "WS6-S04",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations increase trust/acceptance without improving detection",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "Exploratory analyses found no difference in overreliance between prediction-only and hard-to-understand written explanations across task difficulty conditions; the authors note these explanations did not act as an additional trust signal.",
+    "relationship": "challenges",
+    "evidence_type": "exploratory analysis within randomized experiment",
+    "population_and_setting": "Same as WS6-E07",
+    "study_or_observation_method": "Exploratory comparison",
+    "intervention_and_comparator": "Hard written explanation vs prediction only",
+    "outcome_measured": "Overreliance",
+    "quantitative_result": "No difference reported (statistics not extracted)",
+    "source_locator": "Section 6.6 Summary (p.129:18)",
+    "short_exact_excerpt": "there was no difference between the prediction only case and the hard-to-understand, written explanation case.",
+    "underlying_evidence_group": "EG:vasconcelos2023-explanations-cost-benefit",
+    "limitations": "Exploratory; contrasts with Bansal et al. where explanations increased acceptance.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Suggests that in some settings, hard-to-use explanations are simply ignored rather than persuasive: no added harm, but no benefit either.",
+    "analyst_inference": "P2.3 is not universal: whether explanations persuade or are ignored appears task-dependent. Both outcomes are bad for the thesis if explanations are hard to check.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E09",
+    "source_id": "WS6-S05",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 + P-NEW: Interventions that improve appropriate reliance tend to raise effort and lower user preference (effort-accuracy trade-off)",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X2"
+    ],
+    "observed_finding": "Simple explainable-AI designs did not prevent overreliance; cognitive forcing designs (on demand, update [decide first, then see AI suggestion], wait) reduced overreliance significantly, but participants gave the least favorable subjective ratings to the designs that reduced overreliance most. Benefits were larger for people higher in Need for Cognition.",
+    "relationship": "qualifies",
+    "evidence_type": "causal estimate (randomized online experiment)",
+    "population_and_setting": "N=199 lay participants, nutrition (carbohydrate substitution) task with simulated AI",
+    "study_or_observation_method": "Between-subjects experiment: three cognitive-forcing designs vs two simple XAI designs vs no-AI baseline",
+    "intervention_and_comparator": "Cognitive forcing functions vs simple explanation displays",
+    "outcome_measured": "Overreliance; subjective ratings (preference, trust, mental demand)",
+    "quantitative_result": "Overreliance reduction significant (statistics not extracted); mental demand: {SXAI, CFF} < {no AI}, F(2,183.4)=11.70, p<<.0001",
+    "source_locator": "Abstract (p.1); results table (p.12)",
+    "short_exact_excerpt": "cognitive forcing significantly reduced overreliance compared to the simple explainable AI approaches. However, there was a trade-off: people assigned the least favorable subjective ratings to the designs that reduced the overreliance the most.",
+    "underlying_evidence_group": "EG:bucinca2021-cognitive-forcing",
+    "limitations": "Lay participants and low stakes; only abstract and summary table reviewed closely.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Suggests a design tension: workflows that preserve independent judgment (e.g., analyst forms a view before reading the advisor's conclusion) may feel more burdensome and be less popular, even if they improve error detection. Needs verification with professional reviewers whose accountability raises motivation.",
+    "analyst_inference": "Rival to 'less work AND better judgment': the evidence suggests the levers that improve detection often add effort. The thesis needs designs where verification is cheap (WS6-E07), not just more information.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E10",
+    "source_id": "WS6-S06",
+    "research_question_ids": [
+      "RQ1",
+      "RQ4"
+    ],
+    "proposition_tested": "P1.2 A material share of recipient review is avoidable reconstruction caused by opaque reasoning",
+    "work_type_tags": [
+      "W2",
+      "W1"
+    ],
+    "concept_tags": [
+      "X2",
+      "X4"
+    ],
+    "observed_finding": "In all three radiology departments, AI tools gave results without underlying reasoning; when results diverged from radiologists' initial judgments, opacity increased uncertainty and frustration. In two of three departments radiologists mostly ignored the AI results; only lung-cancer radiologists regularly incorporated them.",
+    "relationship": "supports",
+    "evidence_type": "qualitative field observation (ethnography)",
+    "population_and_setting": "Diagnostic radiologists at a major US hospital ('Urbanside'): breast cancer, lung cancer, bone age departments",
+    "study_or_observation_method": "Ten months (over 500 hours) of ethnographic observation; 33 semi-structured interviews",
+    "intervention_and_comparator": "Comparison across three departments using opaque AI tools",
+    "outcome_measured": "Whether and how AI results influenced final judgments",
+    "quantitative_result": null,
+    "source_locator": "Abstract (p.1); Findings overview (p.6)",
+    "short_exact_excerpt": "this opacity resulted in professionals experiencing increased uncertainty because AI tool results often diverged from their initial judgment without providing underlying reasoning.",
+    "underlying_evidence_group": "EG:lebovitz2022-radiology-ai-opacity",
+    "limitations": "Single site; qualitative; does not test whether adding reasoning or evidence would change uptake.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Close analogy for accountable professionals receiving a conclusion without evidence: they either discard it or spend time reconstructing. Differences: radiologists have independent access to the same image; a credit team may not have the advisor's data. Needs verification: whether outside-advisor findings without traceable evidence are discarded or re-derived in diligence.",
+    "analyst_inference": "Supports the W2 part of the thesis and documents de facto rejection of tools by professionals. It does not show that traceability fixes the problem.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E11",
+    "source_id": "WS6-S06",
+    "research_question_ids": [
+      "RQ2",
+      "RQ3"
+    ],
+    "proposition_tested": "P3.2 AI assistance shifts review effort rather than removing it; challenges an efficiency reading of P2.1",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X2"
+    ],
+    "observed_finding": "In all three cases, experts using AI tools spent additional time, even on simple cases. In the one department that integrated AI ('engaged augmentation'), radiologists invested additional time in 'AI interrogation practices' to relate their own knowledge claims to the AI's; the authors question the assumption of increased efficiency and warn that efficiency pressure may push experts toward unengaged use.",
+    "relationship": "supports",
+    "evidence_type": "qualitative field observation (ethnography)",
+    "population_and_setting": "Same as WS6-E10",
+    "study_or_observation_method": "Ethnography and interviews",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Time and practices in using AI results",
+    "quantitative_result": null,
+    "source_locator": "Discussion (p.17)",
+    "short_exact_excerpt": "experts using AI tools spent additional time even on “simple” cases as they experienced opacity and additional uncertainty.",
+    "underlying_evidence_group": "EG:lebovitz2022-radiology-ai-opacity",
+    "limitations": "Time was not measured quantitatively.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Suggests that appropriate integration of outside analysis can cost more reviewer time, not less, and that managers who expect savings may induce rubber-stamping. Needs verification: time data in diligence teams adopting AI-assisted advisor outputs.",
+    "analyst_inference": "Key counterpoint: even 'good' integration took more time. A thesis about reduced recipient work must show that traceability lowers the cost of these interrogation practices, not just that it enables them.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E12",
+    "source_id": "WS6-S07",
+    "research_question_ids": [
+      "RQ3",
+      "RQ4"
+    ],
+    "proposition_tested": "P3.4 Ability to adapt/modify outside analysis increases its uptake (and P-NEW rival: uptake driven by sense of control, not evidence quality)",
+    "work_type_tags": [
+      "W4"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Participants were much more likely to use an imperfect algorithm's forecasts when allowed to modify them, even when modifications were tightly restricted; use was insensitive to how much modification was allowed. Being able to modify also raised satisfaction and tolerance of errors.",
+    "relationship": "supports",
+    "evidence_type": "causal estimate (randomized incentivized experiments)",
+    "population_and_setting": "Study 1: 288 university behavioral-lab participants (mean age 22); Study 2+: MTurk participants; forecasting student test percentiles",
+    "study_or_observation_method": "Randomized incentivized forecasting experiments",
+    "intervention_and_comparator": "Can modify model forecasts (by up to 10 percentiles, or change 10 of 20 forecasts) vs cannot modify",
+    "outcome_measured": "Choice to use model forecasts; accuracy; satisfaction",
+    "quantitative_result": "Study 1: 32% chose model in can't-change vs 73% (change-10; chi2(1,N=145)=24.19, p<.001) and 76% (adjust-by-10; chi2(1,N=146)=28.40, p<.001); Study 2 (MTurk): 47% vs 77% (change-10; chi2(1,N=542)=49.37, p<.001) and 75% (adjust-by-5)",
+    "source_locator": "Abstract (p.2); Study 1 Results (p.9); Study 2 results",
+    "short_exact_excerpt": "people's decision to use an algorithm is insensitive to the magnitude of the modifications they are able to make.",
+    "underlying_evidence_group": "EG:dietvorst2018-modify-algorithms",
+    "limitations": "Lab/online forecasting, not professional advice; manuscript version.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Supports value of delivering advisor analysis in a form the client can adjust (e.g., editable model, swappable assumptions). But the effect appears to come from control and ownership rather than better verification. Needs verification: whether IC teams' uptake depends on editability independent of traceability.",
+    "analyst_inference": "Cuts both ways: supports W4/integration value (P3.4), but implies some 'adaptation' work is ownership-seeking rather than rational correction, so it will persist even with perfect traceability.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E13",
+    "source_id": "WS6-S08",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.2 Recipient discounting/reconstruction stems from lack of access to the advisor's evidence (mechanism hypothesis)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "In judge-advisor experiments judges discount advice in favor of their own opinion; Yaniv's proposed explanation is that judges have access to their own reasons but less access to evidence supporting the advisor's view.",
+    "relationship": "supports",
+    "evidence_type": "theoretical mechanism summarized from prior lab studies (not isolated experimentally in this paper)",
+    "population_and_setting": "Lab participants in decide-advice-revise estimation tasks",
+    "study_or_observation_method": "Literature summary and interpretation within an experimental paper",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Weight placed on advice",
+    "quantitative_result": "Cited prior work: respondents shifted estimates about 20-30% toward advisors' estimates (Harvey & Fischer 1997, as cited)",
+    "source_locator": "Introduction 'Egocentric judgment' (p.3); General Discussion (p.16)",
+    "short_exact_excerpt": "People naturally have more access to the reasons underlying their personal opinion than to those underlying the advisors' opinions.",
+    "underlying_evidence_group": "EG:yaniv-egocentric-discounting",
+    "limitations": "Mechanism proposed, not tested by supplying advisor reasons; lab estimation tasks.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: If the mechanism holds, supplying the advisor's evidence should reduce unwarranted discounting and re-derivation. Needs verification: experiments where advice with vs without evidence is given to professionals.",
+    "analyst_inference": "A theoretical point in favor of the thesis from the advice-taking literature, but I found no direct test within the time available.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E14",
+    "source_id": "WS6-S08",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.6 Review/discounting persists beyond rational verification needs (egocentric trimming)",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Judges given multiple opinions egocentrically trimmed the opinion sets, heavily discounting opinions distant from their own; they gained from advice but not optimally because of this self-centered use. Prior work shows a distance effect: less weight to advice further from one's initial opinion.",
+    "relationship": "supports",
+    "evidence_type": "lab experiment (descriptive and normative analyses)",
+    "population_and_setting": "Lab participants given 2, 4, or 8 advisory estimates",
+    "study_or_observation_method": "Decide-advice-revise experiments",
+    "intervention_and_comparator": "Number and distance of advisory opinions",
+    "outcome_measured": "Revision weights; accuracy gains",
+    "quantitative_result": "Not extracted",
+    "source_locator": "Abstract (p.1); Introduction (p.3)",
+    "short_exact_excerpt": "they egocentrically trimmed the opinion sets such that opinions distant from their own were greatly discounted.",
+    "underlying_evidence_group": "EG:yaniv-egocentric-discounting",
+    "limitations": "Quantitative estimation tasks; no evidence shown with advice.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Predicts that an advisor conclusion that diverges from the deal team's prior will be discounted or re-worked regardless of how it is documented. Needs verification: whether traceability reduces the distance effect.",
+    "analyst_inference": "Rival: some reconstruction is driven by disagreement with priors, not missing evidence. Traceability may not reduce work in exactly the cases where the advisor adds most value (surprising findings).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E15",
+    "source_id": "WS6-S09",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Transparency/disclosure about the advisor can worsen recipient outcomes (strategic advisor response and insufficient recipient discounting)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "In coin-jar estimation experiments, advisors exaggerated more when their conflict of interest was disclosed and recipients did not discount enough to compensate, so advisors earned more and recipients less with disclosure; a house-price study produced parallel results. Disclosure can also increase trust if read as a sign of honesty.",
+    "relationship": "supports",
+    "evidence_type": "summary of randomized incentivized experiments by original authors",
+    "population_and_setting": "Lab participants as 'estimators' and 'advisors' (coin jars; Pittsburgh house prices)",
+    "study_or_observation_method": "Incentivized experiments (Cain, Loewenstein & Moore 2005, 2011) summarized in review",
+    "intervention_and_comparator": "Conflict disclosed vs conflict undisclosed vs no conflict",
+    "outcome_measured": "Advisor exaggeration; estimator accuracy and payoffs",
+    "quantitative_result": "Not reported numerically in the review",
+    "source_locator": "Section I-II (pp.424-425)",
+    "short_exact_excerpt": "advisors exaggerated more when the misalignment of incentives was disclosed, and estimators did not discount sufficiently to compensate for this greater exaggeration.",
+    "underlying_evidence_group": "EG:cain2005-disclosure-coi",
+    "limitations": "Conflict-of-interest disclosure is not evidence traceability; original 2005 article not accessed.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Analogy only: making something 'visible' does not ensure recipients adjust correctly, and producers may change behavior once disclosure is standard (e.g., boilerplate scope caveats, voluminous citations). Needs verification: whether scope/coverage disclosures (X4) in diligence reports change how carefully clients review.",
+    "analyst_inference": "Weakens any assumption that more transparency is monotonically good; relevant to X4 scope/uncertainty disclosures, which could become defensive boilerplate.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E16",
+    "source_id": "WS6-S10",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.6 Review persists due to accountability pressure beyond rational verification needs",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "The review frames accountability effects as conditional: it asks under what conditions accountability attenuates, has no effect on, or amplifies cognitive biases, and whether accountability alters how people think or merely what they say they think.",
+    "relationship": "contextual",
+    "evidence_type": "literature review (abstract only)",
+    "population_and_setting": "Accountability research literature (social judgment and choice)",
+    "study_or_observation_method": "Narrative review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Effects of accountability ground rules on judgment",
+    "quantitative_result": null,
+    "source_locator": "Abstract (PubMed PMID 10087938)",
+    "short_exact_excerpt": "Under what conditions will accountability attenuate, have no effect on, or amplify cognitive biases?",
+    "underlying_evidence_group": "EG:lerner-tetlock1999-accountability",
+    "limitations": "Abstract only; detailed findings not reviewed and must not be inferred from this record.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Credit committees are accountability structures; the review is relevant to whether accountability makes review more thorough or more defensive, but specifics need the full text.",
+    "analyst_inference": "Placeholder pointing to an important rival (accountability-driven review); needs full-text retrieval by another workstream or later pass.",
+    "access_status": "abstract_only"
+  },
+  {
+    "evidence_id": "WS6-E17",
+    "source_id": "WS6-S11",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.6 Review persists due to comfort/legitimacy ('ritual')",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "As summarized by a secondary source, Pentland's audit fieldwork treats audit activities (signing off, cross-referencing, footing, ticking) as rituals that produce 'comfort' for successive levels of the audit team, arguing that emotion rather than rational calculation is how social order is constructed.",
+    "relationship": "supports",
+    "evidence_type": "secondary summary of ethnographic field study",
+    "population_and_setting": "Audit engagement teams (original study); details not verified",
+    "study_or_observation_method": "Ethnographic fieldwork (original), read only via secondary summary",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Meaning and function of audit review activities",
+    "quantitative_result": null,
+    "source_locator": "Secondary chapter page; cites Pentland 1993 pp.606-608 (unverified)",
+    "short_exact_excerpt": "To summarize Pentland, audit rituals, performed by the right people, are what create comfort",
+    "underlying_evidence_group": "EG:pentland1993-audit-comfort",
+    "limitations": "Secondary summary only; excerpt is the secondary author's words, not Pentland's.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: If IC/credit review is partly comfort production, traceability may change what is reviewed but not reduce the number of sign-off layers. Needs verification: observation of what IC members actually check vs sign off.",
+    "analyst_inference": "Represents the 'ritual' rival; evidence base here is weak (secondary) and should be upgraded with the original or Power (1997).",
+    "access_status": "other"
+  },
+  {
+    "evidence_id": "WS6-E18",
+    "source_id": "WS6-S12",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review is driven by formal obligations that persist regardless of tool transparency",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "The court stated that using a reliable AI tool is not inherently improper, but existing rules (Rule 11) give attorneys a gatekeeping role to ensure filings are accurate; it sanctioned lawyers who submitted non-existent opinions created by ChatGPT and then stood by them after court orders questioned them.",
+    "relationship": "supports",
+    "evidence_type": "court decision (legal obligation and sanction)",
+    "population_and_setting": "US federal civil litigation (S.D.N.Y.)",
+    "study_or_observation_method": "Judicial opinion",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Sanctions under Rule 11",
+    "quantitative_result": "$5,000 penalty imposed jointly and severally",
+    "source_locator": "ECF No. 54, pp.1-2 (introduction); p.33 (penalty)",
+    "short_exact_excerpt": "existing rules impose a gatekeeping role on attorneys to ensure the accuracy of their filings.",
+    "underlying_evidence_group": "EG:mata-v-avianca-2023",
+    "limitations": "Extreme case with bad-faith findings; legal duty differs from investment governance.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Analogy: lenders and investors carry fiduciary/credit-policy duties that cannot be delegated to an advisor or tool. Review required by such duties (W1) is not reducible by traceability, though traceability may make discharging it cheaper.",
+    "analyst_inference": "Supports the obligation rival but also shows the duty is to ensure accuracy, which traceability can serve; the duty fixes who is responsible, not how much effort is needed.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E19",
+    "source_id": "WS6-S12",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations/traceability do not guarantee correctness",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "The submitted brief contained citations and quotations to judicial opinions that did not exist; the court lists harms including that the opposing party wastes time and money exposing the deception and the court's time is diverted.",
+    "relationship": "supports",
+    "evidence_type": "court decision",
+    "population_and_setting": "Same as WS6-E18",
+    "study_or_observation_method": "Judicial opinion",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Harms from fabricated citations",
+    "quantitative_result": null,
+    "source_locator": "ECF No. 54, p.1",
+    "short_exact_excerpt": "The opposing party wastes time and money in exposing the deception.",
+    "underlying_evidence_group": "EG:mata-v-avianca-2023",
+    "limitations": "Shows cost of failure, not cost of routine verification.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Citation format is not evidence; a client must still confirm that cited sources exist and say what is claimed. Value of traceability depends on resolvable links to original documents (data room, executed contracts).",
+    "analyst_inference": "Fabricated citations convert traceability from a time saver into an extra verification task. The relevant design property is resolvability to the original, not citation presence.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E20",
+    "source_id": "WS6-S13",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations do not guarantee correctness; P1.3 inaccurate output drives verification needs",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "A public database lists court and tribunal decisions in which a party was found (or implied) to have relied on hallucinated content, including hundreds involving lawyers; the maintainer states it does not track the wider universe of fake citations.",
+    "relationship": "supports",
+    "evidence_type": "public tracker (counts of decisions)",
+    "population_and_setting": "Court/tribunal decisions worldwide, mostly US",
+    "study_or_observation_method": "Curated database of decisions",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Number of decisions addressing hallucinated content, by party type and country",
+    "quantitative_result": "2,293 cases as of page update 2026-11-14: pro se litigants 1,315; lawyers 913; judges 34; experts 18; others small. By country: USA 1,554; Canada 245; Australia 112; UK 91",
+    "source_locator": "Database landing page, filter counts",
+    "short_exact_excerpt": "does not track the (necessarily wider) universe of all fake citations or use of AI in court filings.",
+    "underlying_evidence_group": "EG:charlotin-hallucination-db",
+    "limitations": "Detected and adjudicated cases only; no denominator of AI-assisted filings; counts read via fetch tool.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Shows that unverified reliance on AI-generated references recurs among professionals (lawyers, experts) despite known risks; no denominator, so no rate.",
+    "analyst_inference": "Supports the W3 rival: as long as AI-assisted outputs can contain fabricated references, recipients rationally verify citations, which limits time savings from traceability unless links are machine-resolvable.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E21",
+    "source_id": "WS6-S14",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations/traceability do not guarantee correctness; P1.3 rework from inaccurate advisor output",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "A consulting report delivered to DEWR contained 14 fabricated references (12 to a non-existent report attributed to a University of Sydney law professor, 2 to a non-existent report by a Swedish professor), an incorrect reference to a court decision and a made-up quote. A revised report corrected citations, added disclosure of generative AI use, and stated the updates did not affect findings or recommendations; Deloitte agreed to repay the final contract instalment.",
+    "relationship": "supports",
+    "evidence_type": "news report of a documented advisor-client failure",
+    "population_and_setting": "Australian federal department (DEWR) and Deloitte; contract just under A$440,000",
+    "study_or_observation_method": "Journalistic report quoting department and revised report",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Errors found; corrections; refund",
+    "quantitative_result": "14 fabricated references; contract value just under A$440,000; refund amount not disclosed in this article (see WS6-E22)",
+    "source_locator": "Article body (ACS Information Age, 2025-10-07)",
+    "short_exact_excerpt": "The updates made in no way impact or affect the substantive content, findings and recommendations in the report.",
+    "underlying_evidence_group": "EG:deloitte-dewr-2025",
+    "limitations": "Secondary report; primary DEWR documents not accessible; the claim that findings were unaffected is the supplier's/department's assertion.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Direct advisor -> accountable client case: the client published the report before fabricated references were flagged externally (by an academic per other coverage), so the client's review did not catch citation errors. Transfers to advisor diligence reports for lenders.",
+    "analyst_inference": "Shows citation presence created false assurance; also shows the client relied on the advisor for citation accuracy. Supports both W3 and the idea that clients do not routinely verify references, which challenges a premise that clients currently spend much time on X3 checks.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E22",
+    "source_id": "WS6-S15",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1/P1.3 Who owns verification of advisor citations; P-NEW: recipients expect advisors to bear W3 and do not plan to verify sources",
+    "work_type_tags": [
+      "W3",
+      "W1"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "At Senate Estimates, the DEWR Secretary said the department should not receive work with glaring errors in footnotes and sources and that her staff should not be double-checking a third-party provider's footnotes; the Minister said departmental processes are expected to ensure consultants' work is high quality. Officials reported recovering $97,587 of the fee.",
+    "relationship": "qualifies",
+    "evidence_type": "news report of parliamentary testimony",
+    "population_and_setting": "Australian Senate Estimates hearing, 9 October 2025",
+    "study_or_observation_method": "Journalistic report of testimony",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Stated expectations about verification; amount repaid",
+    "quantitative_result": "$97,587 repaid (of a fee reported as $440,000)",
+    "source_locator": "Article body (Region Canberra, 2025-10-11)",
+    "short_exact_excerpt": "My people should not be double-checking a third-party provider's footnotes.",
+    "underlying_evidence_group": "EG:deloitte-dewr-2025",
+    "limitations": "Hansard not verified; statements are positions taken under political scrutiny.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Buyer-side statement that citation checking is the supplier's job. If diligence clients share this view, the thesis's value may come less from reducing clients' current checking and more from reducing the risk of unverified errors; a different value proposition.",
+    "analyst_inference": "Two readings conflict: the minister expects departmental QA (W1 persists), while the secretary rejects citation checking (W3 should be the supplier's). This suggests traceability's value may be risk transfer and auditability after the fact rather than reduced routine review.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E23",
+    "source_id": "WS6-S16",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations do not guarantee correctness; P1.1 failures prompt new governance review",
+    "work_type_tags": [
+      "W3",
+      "W1"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "A C$1.6 million Deloitte health human resources report for Newfoundland and Labrador contained citations to research articles that do not exist, in at least two cases naming real researchers who did not write them; problems were reported by a newspaper and a professional society. Deloitte said AI was selectively used to support a small number of citations, that corrections would not affect findings, and it stood behind the recommendations. The Premier's office asked for a review of guidelines to prevent recurrence.",
+    "relationship": "supports",
+    "evidence_type": "news report of a documented advisor-client failure",
+    "population_and_setting": "Provincial government (Newfoundland and Labrador) and Deloitte Canada",
+    "study_or_observation_method": "Investigative journalism",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Fabricated citations; supplier and government responses",
+    "quantitative_result": "Report cost C$1.6 million; at least two fabricated citations naming real researchers; total count not given",
+    "source_locator": "Article body (The Independent, 2025-11-25)",
+    "short_exact_excerpt": "revising the report to make a small number of citation corrections, which do not impact the report findings.",
+    "underlying_evidence_group": "EG:deloitte-nl-hhr-2025",
+    "limitations": "News source; government primary statements not retrieved.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Second independent case where an accountable client's review did not catch fabricated references before publication; a third party did. Failures led to calls for stricter rules on all consultant AI use (more review, not less).",
+    "analyst_inference": "Two separate cases show that fabricated references can pass client review. The governance response is to add review layers, which predicts that, after failures, review grows irrespective of traceability features.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E24",
+    "source_id": "WS6-S17",
+    "research_question_ids": [
+      "RQ3",
+      "RQ1"
+    ],
+    "proposition_tested": "P3.2 AI assistance shifts work to recipients rather than removing it",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X1"
+    ],
+    "observed_finding": "In an online survey of US desk workers, 40% believed they received AI-generated 'workslop' (content that looks polished but is unhelpful or off the mark) in the last month; they estimated 15.4% of received work is workslop and reported spending 1 hour 51 minutes per instance dealing with it.",
+    "relationship": "supports",
+    "evidence_type": "industry survey (self-report)",
+    "population_and_setting": "Full-time US desk workers, September 2025 (N reported as 1,004 or 1,150)",
+    "study_or_observation_method": "Online survey",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Self-reported receipt of low-quality AI output and time spent per incident",
+    "quantitative_result": "40% received workslop in last month; 15.4% of received work estimated to be workslop; 1 h 51 min per instance (self-estimate)",
+    "source_locator": "Blog post body and infographic footnote",
+    "short_exact_excerpt": "Workslop is AI-generated content that looks polished and complete",
+    "underlying_evidence_group": "EG:betterup-stanford-workslop-2025",
+    "limitations": "Vendor-hosted; self-report; inconsistent N; no method details; not advisor-client.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Weak but direct signal that recipients of AI-assisted work report new review/repair burden. Needs verification in advisor-to-lender relationships with measured time.",
+    "analyst_inference": "Consistent with METR and BCG: polished AI output can transfer effort to recipients. Weak evidence on its own.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS6-E25",
+    "source_id": "WS6-S18",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.6 Review persists due to accountability pressure beyond rational verification needs",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Tetlock states that most forms of accountability do not improve judgment; only accountability to a respected audience with unknown views, before a decision, tends to produce pre-emptive self-criticism. Other forms produce conformity to the audience or, after a decision is made, effort spent generating reasons why one is right (bolstering), which makes people more extreme and rigid; overly pluralistic accountability can induce analysis paralysis.",
+    "relationship": "supports",
+    "evidence_type": "researcher's summary of experimental literature (interview)",
+    "population_and_setting": "Accountability research (lab experiments) as summarized by its lead researcher",
+    "study_or_observation_method": "Interview",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Effects of accountability types on judgment",
+    "quantitative_result": null,
+    "source_locator": "Interview text (GovExec republication, 2017-01-12)",
+    "short_exact_excerpt": "most forms of accountability do not have beneficial effects on judgment and choice.",
+    "underlying_evidence_group": "EG:lerner-tetlock1999-accountability",
+    "limitations": "Secondary/interview; lab-derived findings; not specific to professional review of advisor work.",
+    "transferability_to_target_workflow": "Renewable-energy investment/credit diligence: Credit committees review advisor findings after a deal team has often committed to a recommendation (post-decisional for the team), a condition associated with bolstering rather than open evaluation. If so, review may serve justification and traceability may be used selectively to defend positions. Needs verification: observation of how deal teams use advisor evidence in IC memos (confirming vs disconfirming citations).",
+    "analyst_inference": "Supports the accountability rival: review effort may be driven by the accountability structure (who, when, known views) rather than by evidence quality. It also suggests traceability could be used to bolster rather than to check.",
+    "access_status": "full_text"
+  }
+]

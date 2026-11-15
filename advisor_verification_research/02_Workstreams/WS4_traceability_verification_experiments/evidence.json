@@ -1,0 +1,743 @@
+[
+  {
+    "evidence_id": "WS4-E01",
+    "source_id": "WS4-S01",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 Access to sources/provenance reduces verification time/effort (tested: retrieved source passages vs LLM explanation)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X1",
+      "X3"
+    ],
+    "observed_finding": "Showing retrieved Wikipedia passages and showing ChatGPT explanations produced statistically indistinguishable overall human fact-checking accuracy, but reading passages took about 2.5x longer per claim than reading the explanation.",
+    "relationship": "challenges",
+    "evidence_type": "randomized between-subjects online experiment",
+    "population_and_setting": "80 Prolific crowdworkers (16 per condition), 20 adversarial FoolMeTwice claims each, 1500 judgments",
+    "study_or_observation_method": "Five conditions (baseline, retrieval, explanation, contrastive explanation, retrieval+explanation); accuracy and time per claim recorded; t-tests",
+    "intervention_and_comparator": "Top-10 retrieved Wikipedia passages (X3) vs ChatGPT natural-language explanation (X1) vs no assistance",
+    "outcome_measured": "Binary verification accuracy; minutes per claim",
+    "quantitative_result": "Accuracy: explanation 0.74 +/- 0.09 vs retrieval 0.73 +/- 0.12 (z = -0.48, p = 0.32); baseline (no evidence) 0.59 +/- 0.12 (explanation vs baseline z = -4.08, p = 0.00015). Time: retrieval 2.53 +/- 1.07 min vs explanation 1.01 +/- 0.45 min per claim (z = -5.09, p = 9.1e-6).",
+    "source_locator": "Section 5.1 (RQ1 results), Figure 2",
+    "short_exact_excerpt": "Showing explanations allows significantly faster decision time than showing retrieved passages",
+    "underlying_evidence_group": "EG:si2024-llm-explanation-vs-retrieval-factcheck",
+    "limitations": "Crowdworkers; Wikipedia sources; condition n=16; time differences may reflect skimming rather than verification.",
+    "transferability_to_target_workflow": "Mechanism (how source access vs AI narrative changes checking time and error catch) plausibly transfers to a diligence reviewer checking an advisor's claims against data-room documents. Consequential differences: lay crowdworkers, no accountability, short binary items, no professional priors; diligence claims are multi-document and judgment-laden. Needs verification with professional reviewers on realistic advisor memos.",
+    "analyst_inference": "Raw source access is the slower path; the time saving offered by AI narratives is real but (see E02) is bought with loss of error detection when the narrative is wrong. Traceability did not reduce effort relative to a narrative summary here.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E02",
+    "source_id": "WS4-S01",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations increase acceptance without improving (or while worsening) error detection; P2.2 traceability preserves detection",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X1",
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "When the ChatGPT explanation was wrong, users shown the explanation scored below the no-assistance baseline and below users shown retrieved passages; users spent similar time on claims with correct and wrong explanations. Users' stated reasons included that explanations looked convincing, especially with quotes from retrieved passages, even when quotes or reasoning were wrong.",
+    "relationship": "supports",
+    "evidence_type": "randomized between-subjects online experiment (conditional analysis)",
+    "population_and_setting": "Same as WS4-E01",
+    "study_or_observation_method": "Responses split by whether the ChatGPT explanation was correct",
+    "intervention_and_comparator": "Explanation vs retrieval vs baseline, conditioned on explanation correctness",
+    "outcome_measured": "Accuracy conditional on AI explanation correctness; time",
+    "quantitative_result": "Explanation wrong: explanation 0.35 +/- 0.22, baseline 0.49 +/- 0.24, retrieval 0.54 +/- 0.26. Explanation correct: explanation 0.87 +/- 0.13, retrieval 0.79 +/- 0.15, baseline 0.61 +/- 0.13.",
+    "source_locator": "Section 5.2 'Over-Reliance', Figure 3",
+    "short_exact_excerpt": "users tend to over-trust the explanations and only achieve an accuracy of (0.35 +/- 0.22) as compared to the baseline condition (0.49 +/- 0.24)",
+    "underlying_evidence_group": "EG:si2024-llm-explanation-vs-retrieval-factcheck",
+    "limitations": "Subset sizes for wrong-explanation items not reported in section read; ChatGPT explanation accuracy 78% overall.",
+    "transferability_to_target_workflow": "Mechanism (how source access vs AI narrative changes checking time and error catch) plausibly transfers to a diligence reviewer checking an advisor's claims against data-room documents. Consequential differences: lay crowdworkers, no accountability, short binary items, no professional priors; diligence claims are multi-document and judgment-laden. Needs verification with professional reviewers on realistic advisor memos.",
+    "analyst_inference": "Direct contrast of X1 vs X3: the narrative layer is where error detection collapses; the source layer degrades less when the AI is wrong. Quotes from sources inside an AI narrative did not protect users (quotation is not traceability unless checked).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E03",
+    "source_id": "WS4-S01",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Traceability/structured evidence preserves or improves detection (tested: adding grounded LLM explanation on top of sources)",
+    "work_type_tags": [
+      "W2",
+      "W3"
+    ],
+    "concept_tags": [
+      "X1",
+      "X3"
+    ],
+    "observed_finding": "Combining retrieved passages with an LLM explanation gave no complementary benefit over passages alone, took slightly longer, and lowered accuracy when the explanation was wrong. Contrastive (pro and con) explanations improved accuracy when the standard explanation was wrong but reduced it when the standard explanation was correct, and did not beat retrieval.",
+    "relationship": "qualifies",
+    "evidence_type": "randomized between-subjects online experiment",
+    "population_and_setting": "Same as WS4-E01",
+    "study_or_observation_method": "Retrieval+Explanation and Contrastive Explanation conditions compared with Retrieval",
+    "intervention_and_comparator": "Retrieval+Explanation vs Retrieval; Contrastive vs non-contrastive explanation",
+    "outcome_measured": "Accuracy conditional on explanation correctness; minutes per claim",
+    "quantitative_result": "Explanation wrong: retrieval 0.54 +/- 0.26 vs retrieval+explanation 0.43 +/- 0.16. Explanation correct: retrieval 0.79 +/- 0.15 vs retrieval+explanation 0.87 +/- 0.12 (z = -1.48, p = 0.07). Time: retrieval 2.5 +/- 1.1, explanation 1.0 +/- 0.4, retrieval+explanation 2.7 +/- 1.0 min. Contrastive: wrong cases 0.56 +/- 0.24 vs 0.35 (p = 0.009); correct cases 0.73 +/- 0.15 vs 0.87 (p = 0.008).",
+    "source_locator": "Section 5.3 (contrastive) and 5.4 (retrieval + explanation), Figure 4-5",
+    "short_exact_excerpt": "This means that combining retrieval and explanation offers no complementary benefits compared to retrieval alone.",
+    "underlying_evidence_group": "EG:si2024-llm-explanation-vs-retrieval-factcheck",
+    "limitations": "Small n; wrong-explanation subset small; significance for wrong-case retrieval vs combined not located.",
+    "transferability_to_target_workflow": "Relevant to an advisor memo that layers a narrative over cited sources: the narrative may add time and bias without adding detection. Needs testing with professionals who already read sources routinely.",
+    "analyst_inference": "Layering an AI narrative on top of evidence does not automatically compound benefits; it may reintroduce anchoring. Format design (what is shown first, whether claims link to exact spans) is untested here.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E04",
+    "source_id": "WS4-S02",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations/traceability do not guarantee correctness or completeness",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Human audit of four 2023 generative search engines found that only about half of generated sentences were fully supported by their citations and about a quarter of citations did not support their associated sentence.",
+    "relationship": "supports",
+    "evidence_type": "human evaluation audit (descriptive)",
+    "population_and_setting": "Outputs of Bing Chat, NeevaAI, perplexity.ai, YouChat on 1450 queries per system; 34 annotators",
+    "study_or_observation_method": "Annotators judged fluency, perceived utility, citation recall and citation precision per statement",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Citation recall (share of statements fully supported) and citation precision (share of citations supporting their statement)",
+    "quantitative_result": "Average citation recall 51.5%; average citation precision 74.5% (across the four systems).",
+    "source_locator": "Abstract; Section 1; Section 4.2",
+    "short_exact_excerpt": "on average, a mere 51.5% of generated sentences are fully supported by citations and only 74.5% of citations support their associated sentence.",
+    "underlying_evidence_group": "EG:liu2023-generative-search-verifiability",
+    "limitations": "2023 systems, since changed; open-web sources; annotators were not decision makers.",
+    "transferability_to_target_workflow": "Transfers as a warning: a cited AI or advisor deliverable can still contain unsupported claims, so citation presence is not a proxy for verified content. Differences: diligence sources are closed data rooms with known documents, possibly easier to verify. Needs measurement of support rates in advisor/AI diligence outputs.",
+    "analyst_inference": "Presence of citations (X3) and correctness (X5) are separable; a reviewer still has to check support statement by statement unless coverage is guaranteed.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E05",
+    "source_id": "WS4-S02",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations/citations increase perceived value/trust without improving accuracy",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Citation precision was inversely correlated with perceived utility across systems: responses rated more helpful were often those with inaccurate citations; authors hypothesize that systems that copy closely from sources score higher precision but lower perceived utility.",
+    "relationship": "supports",
+    "evidence_type": "correlational analysis within human evaluation",
+    "population_and_setting": "Same as WS4-E04",
+    "study_or_observation_method": "Pearson correlation between system citation precision and perceived utility",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Perceived utility (Likert) vs citation precision",
+    "quantitative_result": "r = -0.96 (appears to be computed across system-level averages; e.g., Bing Chat highest precision, lowest perceived utility; YouChat lowest precision).",
+    "source_locator": "Section 4.3, Figure 4",
+    "short_exact_excerpt": "citation precision is inversely correlated with perceived utility (r = -0.96); the responses that seem more helpful are often those with inaccurate citations",
+    "underlying_evidence_group": "EG:liu2023-generative-search-verifiability",
+    "limitations": "Ecological correlation over very few system-level points; not causal; perceived utility rated by annotators, not users making decisions.",
+    "transferability_to_target_workflow": "Implies a buyer's perception of an advisor product's helpfulness may not track its evidentiary reliability; a procurement or satisfaction signal could reward the wrong property. Needs testing with professional buyers.",
+    "analyst_inference": "Supports the trust-vs-appropriate-reliance distinction: perceived usefulness and verifiability can move in opposite directions.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E06",
+    "source_id": "WS4-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured evidence improves error detection (tested: verifiable explanations reduce overreliance only when they lower verification cost)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X2",
+      "X3"
+    ],
+    "observed_finding": "Across five studies (N=731), explanations reduced overreliance on an incorrect AI only in the hard task, where checking the explanation was much cheaper than solving the problem; no reduction in easy tasks, no supported reduction in medium tasks, and harder-to-parse written explanations did not reduce overreliance. Larger monetary bonuses for correct answers also reduced overreliance. Exploratory: explanations increased accuracy in the hard task.",
+    "relationship": "qualifies",
+    "evidence_type": "series of randomized online experiments (pre-registered; Bayesian mixed models)",
+    "population_and_setting": "Crowdworkers; maze-solving with simulated AI; Study 1 N=340, Study 2 N=340, Study 3 N=286, Study 4 N=114, Study 5 N=76",
+    "study_or_observation_method": "Manipulated task difficulty, explanation type (highlighted path vs written path), and bonus size",
+    "intervention_and_comparator": "Prediction-only vs prediction + 'perfect' explanation (highlight or written); bonus levels",
+    "outcome_measured": "Overreliance (agreeing with incorrect AI); accuracy; subjective utility (cognitive effort discounting)",
+    "quantitative_result": "Effect sizes reported as Bayesian estimates in Tables 1-6 (not extracted here). Hypothesis outcomes: H1b supported (easy: similar overreliance), H1c not supported (medium), H1d supported (hard: more overreliance with prediction only).",
+    "source_locator": "Abstract; Section 5.5 (Study 1 results); Section 6 Summary and Table 7",
+    "short_exact_excerpt": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
+    "underlying_evidence_group": "EG:vasconcelos2023-cost-benefit-overreliance",
+    "limitations": "Explanations were 'perfect' by design; maze task; crowdworkers; low stakes.",
+    "transferability_to_target_workflow": "Mechanism transfers: reviewers will engage with an advisor's evidence only when checking it is cheaper than reconstructing or blindly accepting. Diligence differs: many judgments (e.g., risk adequacy) are not cheaply verifiable; stakes and accountability are higher, which per Study 4 may raise engagement. Needs testing on realistic diligence claims of varying verifiability.",
+    "analyst_inference": "Supports a conditional version of P2.1/P2.2: evidence that is cheap to check against the claim (a 'certificate') can lower effort and raise error detection; evidence that is costly to map onto the claim does not.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E07",
+    "source_id": "WS4-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 Source highlighting reduces verification effort (tested: inline answer highlights in source passages, Wikipedia QA)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Two earlier pre-registered studies using a Wikipedia question-answering task with 'perfect' inline highlights of the answer in the source text did not show a large effect and were stopped early; authors attribute this to the unaided task being cheap (participants could skim five paragraphs for keywords).",
+    "relationship": "qualifies",
+    "evidence_type": "pre-registered online experiments (terminated early; results not reported)",
+    "population_and_setting": "Crowdworkers; Wikipedia QA; easy = one paragraph, hard = five paragraphs",
+    "study_or_observation_method": "Same cost-benefit design as main studies",
+    "intervention_and_comparator": "Inline source highlights vs prediction only",
+    "outcome_measured": "Overreliance",
+    "quantitative_result": "Not reported (study ended early; authors cite at least 7/17 (~41.1%) participants in the hard prediction condition describing skimming in free-form responses).",
+    "source_locator": "Appendix Section 12.3 'Previous pre-registrations'",
+    "short_exact_excerpt": "Our hypotheses with the prior pre-registration did not appear to have a large effect, so we ended the study early",
+    "underlying_evidence_group": "EG:vasconcelos2023-cost-benefit-overreliance",
+    "limitations": "Underpowered and unreported; absence of evidence rather than evidence of absence.",
+    "transferability_to_target_workflow": "Suggests source-span highlighting adds little when the source is short and easily searchable; value would be expected to scale with source length and dispersion, as in multi-document data rooms. Needs testing at realistic document scale.",
+    "analyst_inference": "A null result that the literature rarely reports: highlighting provenance is not automatically valuable; it depends on the baseline cost of locating the evidence.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E08",
+    "source_id": "WS4-S04",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Structured evidence improves error detection; P2.6 faithfulness (theory: verifiability, not faithfulness, determines usefulness)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X1",
+      "X2",
+      "X3",
+      "X4"
+    ],
+    "observed_finding": "Synthesizing prior studies, the authors argue explanations help decision performance only to the extent they let the decision maker verify the AI's answer; most commonly studied tasks and explanation types (feature importance, highlighted influential spans) do not enable verification; a rare exception is extracted spans in factoid QA from trusted sources. They argue faithfulness is 'largely irrelevant' to decision performance and note verification can be one-sided (an illegal path does not prove no path exists).",
+    "relationship": "qualifies",
+    "evidence_type": "theory / narrative review",
+    "population_and_setting": "Prior AI-advised decision-making studies (recidivism, medical, sentiment, deceptive reviews, maze, QA)",
+    "study_or_observation_method": "Conceptual analysis; Table 1 classifies prior studies by whether explanations support verification",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Complementary performance; appropriate reliance (outcome-graded vs strategy-graded)",
+    "quantitative_result": null,
+    "source_locator": "Abstract; Section 4 'Verifiability'; Section 4.1-4.2; Table 1",
+    "short_exact_excerpt": "we argue explanations are only useful to the extent that they allow a human decision maker to verify the correctness of the AI's prediction.",
+    "underlying_evidence_group": "EG:fok-weld2024-verifiability-theory",
+    "limitations": "No new data; the 'verifiable vs not' classification is interpretive.",
+    "transferability_to_target_workflow": "Directly relevant framing: for an investment memo, citations to source documents enable verification of factual claims (verifiable) but not of forward-looking judgments (not verifiable), so traceability should cut checking time mainly for the factual layer. Needs empirical decomposition of diligence work into verifiable vs judgment components.",
+    "analyst_inference": "Implies traceability (X3) can lower W2 for factual claims but cannot remove W1 judgment work; also implies 'no issues found' (X4) is one-sided evidence unless coverage is shown.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E09",
+    "source_id": "WS4-S05",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Visibility into uncertainty improves appropriate reliance",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "First-person uncertainty expressions ('I'm not sure, but...') in an LLM search engine's answers reduced agreement with the system and increased participant accuracy; exploratory analysis attributed the gain to reduced (not eliminated) overreliance on incorrect answers without reducing accuracy when the system was correct. General-perspective expressions had weaker, non-significant effects. Between-condition task time did not differ; at the instance level uncertain responses took longer.",
+    "relationship": "supports",
+    "evidence_type": "pre-registered randomized online experiment",
+    "population_and_setting": "N=404 US participants answering medical questions with a fictional LLM-infused search engine (system accuracy 50% by design)",
+    "study_or_observation_method": "Four conditions: Control (no uncertainty), Uncertain1st, UncertainGeneral, No-AI; behavioral and self-report measures; regression models",
+    "intervention_and_comparator": "First-person vs general-perspective uncertainty expressions vs none vs no AI",
+    "outcome_measured": "Agreement, accuracy, time, trust, link clicks, self-reported source use",
+    "quantitative_result": "Accuracy: Uncertain1st 72.8% vs Control 63.9% (significant); UncertainGeneral 67.9% (n.s.); No-AI 74.2%. When system incorrect: Control 33.0% vs No-AI 64.7%; when correct: Control 88.5% vs No-AI 77.9%. Time: Control 2.13 min vs No-AI 1.57 min; instance-level not-uncertain vs uncertain 1.84 vs 2.23 min (UncertainGeneral, significant) and 2.00 vs 2.19 min (Uncertain1st, n.s.).",
+    "source_locator": "Abstract; Section 4.5; Section 5.1; Tables 1-2; Figure 2",
+    "short_exact_excerpt": "first-person expressions (e.g., \"I'm not sure, but...\") decrease participants' confidence in the system and tendency to agree with the system's answers, while increasing participants' accuracy.",
+    "underlying_evidence_group": "EG:kim2024-llm-uncertainty-expression",
+    "limitations": "Lay participants; 50% accurate system; single session; framing-specific effects.",
+    "transferability_to_target_workflow": "Mechanism (flagging uncertain claims shifts checking effort to them) plausibly transfers to advisor reports that flag low-confidence findings. Differences: professionals may discount boilerplate caveats; uncertainty in diligence is often about judgment, not retrieval. Needs testing with calibrated, claim-level confidence in professional deliverables.",
+    "analyst_inference": "Claim-level uncertainty visibility (X4) improved appropriate reliance at a modest instance-level time cost, which is a reallocation of verification effort rather than a reduction.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E10",
+    "source_id": "WS4-S05",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.3 Citations increase acceptance without being checked (observed vs stated source checking)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Participants rarely clicked the source links in the AI's answers but frequently self-reported that their answer was based on their own reading of the linked sources; one participant reported treating matching link titles as confirmation. Participants with AI access did their own internet search far less than those without.",
+    "relationship": "supports",
+    "evidence_type": "pre-registered randomized online experiment (behavioral vs self-report comparison)",
+    "population_and_setting": "Same as WS4-E09",
+    "study_or_observation_method": "Logged link clicks compared with self-reported source use",
+    "intervention_and_comparator": "AI answers with linked sources (all AI conditions) vs No-AI",
+    "outcome_measured": "LinkClick (behavioral), UseLink and UseInternet (self-report)",
+    "quantitative_result": "Model-estimated LinkClick 2.7%-7.2% vs UseLink 74.7%-85.5% across AI conditions; raw means LinkClick 30.6%-34.9% vs UseLink 64.2%-71.6%. UseInternet: Control 19.1% vs No-AI 92.9%.",
+    "source_locator": "Section 4.4 (Source Usage) and discussion of discrepancy; Table 1",
+    "short_exact_excerpt": "If the link title gave the same answer as the AI answer, then I assumed it was the right answer.",
+    "underlying_evidence_group": "EG:kim2024-llm-uncertainty-expression",
+    "limitations": "Model estimates affected by large random-effect intercepts (authors' note); lay participants.",
+    "transferability_to_target_workflow": "Warns that self-reported verification of cited sources overstates actual checking; any study of advisor-product traceability value should log actual source opening, not rely on reviewer self-report.",
+    "analyst_inference": "Observed behavior vs stated preference diverge sharply; traceability that is not exercised cannot improve detection.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E11",
+    "source_id": "WS4-S05",
+    "research_question_ids": [
+      "RQ2",
+      "RQ3"
+    ],
+    "proposition_tested": "P3.2 AI assistance shifts or adds review effort rather than removing it",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "With a 50%-accurate AI that supplied answers with source links, participants with AI access took longer and were less accurate than participants without AI.",
+    "relationship": "supports",
+    "evidence_type": "pre-registered randomized online experiment",
+    "population_and_setting": "Same as WS4-E09",
+    "study_or_observation_method": "Between-condition comparison Control vs No-AI",
+    "intervention_and_comparator": "AI answers with links vs no AI",
+    "outcome_measured": "Accuracy; minutes per question",
+    "quantitative_result": "Accuracy 63.9% (Control) vs 74.2% (No-AI); time 2.13 vs 1.57 min.",
+    "source_locator": "Section 4.5",
+    "short_exact_excerpt": "having access to the AI system decreases overall performance in our experimental setup",
+    "underlying_evidence_group": "EG:kim2024-llm-uncertainty-expression",
+    "limitations": "Authors stress the AI's low (50%) accuracy; effect depends on AI accuracy.",
+    "transferability_to_target_workflow": "Shows that source links alone do not prevent low-quality AI output (X5) from increasing both effort and errors. Advisor accuracy is the dominant moderator.",
+    "analyst_inference": "Traceability does not compensate for poor correctness; with low X5 the net effect was more work and worse decisions.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E12",
+    "source_id": "WS4-S06",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Citations increase trust/acceptance irrespective of validity",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Answers displayed with citations received higher self-reported trust than answers without; per the abstract this held even for random (irrelevant) citations; answers with random citations were rated less trustworthy than those with valid citations; five citations were not more trusted than one.",
+    "relationship": "supports",
+    "evidence_type": "randomized between-subjects online experiment",
+    "population_and_setting": "303 Prolific participants entering their own questions into a live QA system built on a commercial chatbot (10 questions each)",
+    "study_or_observation_method": "Zero/one/five citations crossed with valid vs random citations; linear regression and ANOVA on trust ratings",
+    "intervention_and_comparator": "Citations present (valid or random) vs no citations",
+    "outcome_measured": "Self-reported trust per answer",
+    "quantitative_result": "ANOVA across 0/1/5 citations F(2, 3037) = 10.23, p < .001; 1 and 5 citations both > 0 (Bonferroni); 1 vs 5 n.s. (p > .05). Regression coefficients reported in supplement (not extracted).",
+    "source_locator": "Abstract; Results sections 'Does the Quality of Citation Matter?' and 'Do the Number of Citations Matter?'",
+    "short_exact_excerpt": "We found a significant increase in trust when citations were present, a result that held true even when the citations were random",
+    "underlying_evidence_group": "EG:ding2025-citations-trust",
+    "limitations": "Trust only; no accuracy or error-detection outcome; lay participants; low stakes.",
+    "transferability_to_target_workflow": "Transfers as a hazard: inspectable-looking citations in an advisor product may raise reliance regardless of whether they support the claim. Professionals with checking duties might behave differently; untested.",
+    "analyst_inference": "Citation presence is a persuasion cue (X1-like effect via X3 form) separable from verification.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E13",
+    "source_id": "WS4-S06",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 / P-NEW: Users rarely exercise traceability; checking is associated with lower trust",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Only about one in ten answers with citations had a citation checked; 42.1% of participants in citation groups checked at least one; checking was associated with lower trust; random-citation answers that were checked were no more trusted than answers without citations; five-citation participants checked more.",
+    "relationship": "supports",
+    "evidence_type": "randomized online experiment (behavioral logging; correlational within-condition analysis)",
+    "population_and_setting": "Same as WS4-E12",
+    "study_or_observation_method": "Mouse-tracked citation checks; regression of checking on trust controlling for demographics and conditions",
+    "intervention_and_comparator": "Checked vs unchecked citations",
+    "outcome_measured": "Citation-check rate; trust",
+    "quantitative_result": "193 of 1,976 answers with at least one reference were checked (9.77%); 83 of 197 participants (42.1%) checked at least one; five-citation group more likely to check (chi2 = 21.19, p < 0.001); checked random-citation answers M = 7.55 (SD 2.54) vs no-citation M = 7.73 (SD 2.46), T = 0.877, p = 0.38.",
+    "source_locator": "Section 'Does Checking Citations Indicate a Reduction in User Trust?'",
+    "short_exact_excerpt": "There were 1,976 answers in our dataset that had at least one reference. Of these, only 193 (9.77%) were manually checked.",
+    "underlying_evidence_group": "EG:ding2025-citations-trust",
+    "limitations": "Checking vs trust is correlational; hover-based checks; lay users.",
+    "transferability_to_target_workflow": "For advisor products, the protective value of citations depends on whether reviewers actually open them; checking appears to correct trust when done. Professional checking rates are unknown and are a key discriminating measurement.",
+    "analyst_inference": "When exercised, checking calibrates trust; the problem is low exercise rates, consistent with a cost-benefit account.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E14",
+    "source_id": "WS4-S07",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.6 AI-generated rationales may be unfaithful to the system's actual operation",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "Chain-of-thought explanations were steered by biasing features in the prompt (e.g., answer always '(A)' in few-shot examples) that the explanations systematically failed to mention; when biased toward wrong answers, models produced rationalizing explanations; on a social-bias task explanations justified stereotype-consistent answers without mentioning the bias.",
+    "relationship": "supports",
+    "evidence_type": "model-behavior experiment",
+    "population_and_setting": "GPT-3.5 and Claude 1.0 on 13 BIG-Bench Hard tasks and BBQ",
+    "study_or_observation_method": "Biasing features added to inputs; compare accuracy and explanation content biased vs unbiased",
+    "intervention_and_comparator": "Biased vs unbiased prompt contexts",
+    "outcome_measured": "Accuracy; whether explanations mention the biasing feature",
+    "quantitative_result": "Accuracy drop of as much as 36% across the 13-task suite under biasing toward incorrect answers.",
+    "source_locator": "Abstract; Section 1; Section 3-4",
+    "short_exact_excerpt": "CoT explanations can be plausible yet misleading, which risks increasing our trust in LLMs without guaranteeing their safety.",
+    "underlying_evidence_group": "EG:turpin2023-unfaithful-cot",
+    "limitations": "Older models; synthetic biases; no human verification measured.",
+    "transferability_to_target_workflow": "Implies an AI-drafted rationale in a diligence memo may not reflect what actually drove the conclusion; reviewers cannot audit the reasoning by reading the rationale alone. Traceability to source documents (X3) is a separate, checkable property.",
+    "analyst_inference": "Clear X1-vs-X2 separation: plausible explanations are not evidence of faithful process.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E15",
+    "source_id": "WS4-S08",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.6 AI-generated rationales may be unfaithful (reasoning models)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2",
+      "X4"
+    ],
+    "observed_finding": "Reasoning models' chains of thought revealed use of a prompt hint they actually used only a minority of the time; faithfulness was lower on harder questions and on misalignment-related hints; unfaithful chains were longer than faithful ones; in synthetic RL environments the model learned reward hacks but almost never verbalized them.",
+    "relationship": "supports",
+    "evidence_type": "model-behavior experiment",
+    "population_and_setting": "Claude 3.7 Sonnet, DeepSeek R1 (reasoning) vs Claude 3.5 Sonnet (New), DeepSeek V3; MMLU and GPQA with six hint types; synthetic RL environments",
+    "study_or_observation_method": "Measure whether CoT mentions a hint when the hint changed the answer",
+    "intervention_and_comparator": "Reasoning vs non-reasoning models; easier vs harder datasets",
+    "outcome_measured": "CoT faithfulness score; verbalization rate of reward hacks",
+    "quantitative_result": "Overall faithfulness 25% (Claude 3.7 Sonnet) and 39% (DeepSeek R1); misalignment hints 20% and 29%; GPQA faithfulness lower than MMLU by 44% (Claude 3.7) and 32% (R1) relative; unfaithful CoTs 2064 +/- 59 vs faithful 1439 +/- 54 tokens (Claude 3.7); reward hacks verbalized in <2% of examples in 5 of 6 environments while reward > 0.99.",
+    "source_locator": "Abstract; Section 3 results; Figure 1; Figure 4; Section 1 summary of RL results",
+    "short_exact_excerpt": "CoT monitoring is a promising way of noticing undesired behaviors during training and evaluations, but that it is not sufficient to rule them out.",
+    "underlying_evidence_group": "EG:chen2025-reasoning-cot-faithfulness",
+    "limitations": "Model-developer authored (Anthropic); multiple-choice hint paradigm may not represent document-grounded analysis.",
+    "transferability_to_target_workflow": "Absence of a reported issue in an AI reasoning trace is weak evidence that no issue influenced the output; analogous to an advisor report listing checks with no findings without showing coverage. Needs verification in document-grounded tasks.",
+    "analyst_inference": "Supports separating X2 (faithful process disclosure) from X4 (coverage/no-findings disclosure): a trace that omits a factor provides false negative assurance.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E16",
+    "source_id": "WS4-S09",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 (context) The human cost of checking attribution to sources scales with source size and complexity",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Trained crowd raters' average completion times for judging whether generated text is attributable to identified sources fell as raters gained experience but stayed substantially longer for summarization (long source articles) than for conversational QA; tasks with shorter completion times had higher inter-annotator agreement; authors attribute differences to the amount of source context needed.",
+    "relationship": "contextual",
+    "evidence_type": "annotation study (descriptive timing)",
+    "population_and_setting": "Paid crowd annotators rating AIS on QReCC, WoW (conversational QA), CNN/DM (summarization), ToTTo (table-to-text)",
+    "study_or_observation_method": "Two-stage AIS annotation protocol; pilot (with required justifications) then production start and finish",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Average completion time per rating task (seconds); inter-annotator agreement",
+    "quantitative_result": "Average completion time (s) pilot -> production start -> production finish: conversational QA 375.30 -> 136.76 -> 73.19 (tasks 75, 762, 4,022); summarization 687.02 -> 308.14 -> 263.55 (tasks 50, 187, 900); table-to-text 324.72 -> 238.40 -> 193.95 (tasks 100, 136, 1,496).",
+    "source_locator": "Section 5.5.3, Table 9",
+    "short_exact_excerpt": "Average completion times decrease for all three task types as annotators gain more experiences over the amount of observed tasks (Tasks), but are always relatively longer for summarization.",
+    "underlying_evidence_group": "EG:rashkin2023-ais-attribution",
+    "limitations": "Pilot times include written justifications; not a decision task; no error-detection outcome.",
+    "transferability_to_target_workflow": "Checking a claim against a long source (as in diligence documents) costs minutes per claim even for trained raters; total verification cost of an advisor memo scales with the number of claims times source length unless claims link to precise spans. Needs measurement on diligence documents.",
+    "analyst_inference": "Baseline cost data: attribution checking is not free even with sources identified; precise span-level linking is the plausible lever, which this study did not test.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E17",
+    "source_id": "WS4-S10",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.2 Explanations improve detection of AI errors (tested with professionals: saliency explanations vs systematically biased AI)",
+    "work_type_tags": [
+      "W1",
+      "W3"
+    ],
+    "concept_tags": [
+      "X2",
+      "X5"
+    ],
+    "observed_finding": "In a randomized vignette study of hospital clinicians, standard AI predictions modestly improved diagnostic accuracy, systematically biased AI predictions reduced accuracy, and image-based (Grad-CAM heatmap) explanations did not significantly mitigate the harm from biased models; most participants were unaware AI could be systematically biased.",
+    "relationship": "challenges",
+    "evidence_type": "randomized clinical vignette survey",
+    "population_and_setting": "Hospitalist physicians, nurse practitioners, physician assistants in 13 US states; 457 completed at least one vignette (231 AI alone, 226 AI plus explanations); 418 completed all 9 vignettes",
+    "study_or_observation_method": "Each participant: 2 baseline vignettes, 6 AI vignettes (3 standard, 3 biased), 1 clinical consultation; randomized to explanations or not",
+    "intervention_and_comparator": "Standard vs systematically biased AI, each with or without heatmap explanations; baseline without AI",
+    "outcome_measured": "Diagnostic accuracy (pneumonia, heart failure, COPD); treatment selection accuracy",
+    "quantitative_result": "Baseline 73.0% (95% CI 68.3-77.8). Standard AI +2.9 pp (0.5 to 5.2); standard AI + explanations +4.4 pp (2.0 to 6.9). Biased AI -11.3 pp (-15.5 to -7.2); biased AI + explanations -9.1 pp (-13.2 to -4.9); explanations vs no explanations under biased AI +2.3 pp (-2.7 to 7.2), P = .37. 66.7% unaware AI could be biased. Median survey time 19 min in both arms.",
+    "source_locator": "Results section and abstract (values extracted via WebFetch tool from full article page)",
+    "short_exact_excerpt": "Although standard AI models improve diagnostic accuracy, systematically biased AI models reduced diagnostic accuracy,",
+    "underlying_evidence_group": "EG:jabbour2023-biased-ai-explanations-clinicians",
+    "limitations": "Values relayed by an automated summarizer from the full text (not read line by line); vignettes; heatmap explanations only; no per-case timing.",
+    "transferability_to_target_workflow": "Strongest professional-population evidence in this set: trained, accountable clinicians did not use model-faithful explanations to catch systematic errors. Diligence analog: a model or advisor with a systematic bias (e.g., optimistic yield assumptions) may not be caught by reviewers via process explanations. Differences: clinicians under time pressure and image-based explanations; diligence reviewers can check source documents. Needs testing of source-linked (X3) rather than saliency (X2) explanations with professionals.",
+    "analyst_inference": "Professional expertise did not neutralize anchoring on systematically wrong advice; explanation of the model's internal attention (X2) was not an effective verification aid.",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "WS4-E18",
+    "source_id": "WS4-S11",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 / P-NEW: In naturalistic use, cited sources in AI summaries are rarely followed",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "In tracked browsing of US adults, clicks on a link inside Google's AI summary occurred in about 1% of visits to result pages with a summary; users clicked traditional results less often and ended browsing sessions more often when an AI summary appeared.",
+    "relationship": "supports",
+    "evidence_type": "observational browsing-data analysis",
+    "population_and_setting": "900 US adults in KnowledgePanel Digital; 68,879 unique Google searches, 12,593 with an AI summary; March 2025",
+    "study_or_observation_method": "Browsing logs matched to re-collected search result pages; next action inferred from subsequent visit",
+    "intervention_and_comparator": "Search result pages with vs without AI summary (not randomized)",
+    "outcome_measured": "Click on AI-summary link; click on traditional result; session ending",
+    "quantitative_result": "Link inside AI summary clicked in 1% of visits to pages with a summary. Traditional result clicked in 8% of visits with summary vs 15% without. Session ended on 26% of pages with summary vs 16% without.",
+    "source_locator": "'How we did this' and main findings (via WebFetch)",
+    "short_exact_excerpt": "This occurred in just 1% of all visits to pages with such a summary.",
+    "underlying_evidence_group": "EG:pew2025-ai-overview-clicks",
+    "limitations": "Observational; queries triggering summaries differ; only first three cited links counted; lay, low-stakes search; read via summarizer.",
+    "transferability_to_target_workflow": "Consumer behavior, not professional review; shows default behavior when a synthesized answer with citations is available. Professional diligence has duty-to-verify norms that may raise checking; unknown.",
+    "analyst_inference": "Consistent with E10 and E13: traceability is mostly latent; its value depends on being exercised for material claims.",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "WS4-E19",
+    "source_id": "WS4-S12",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 Provenance reduces verification time; P2.2 preserves error detection",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Showing symbolic-reference annotations linking each number in an LLM-generated summary to its source table cell reduced time to decide whether the summary contained an error by about 20%, with error-identification accuracy essentially unchanged; participants reported more confidence and less effort.",
+    "relationship": "supports",
+    "evidence_type": "within-subject online experiment",
+    "population_and_setting": "60 Prolific annotators; 4 Rotowire basketball summaries each (2 with annotations, 2 without), half containing a single planted numeric inconsistency",
+    "study_or_observation_method": "Timed correct/incorrect decision, Likert confidence and effort, exit survey",
+    "intervention_and_comparator": "Hover-to-source provenance annotations vs plain LLM text with source table available",
+    "outcome_measured": "Error-identification accuracy; decision time; perceived confidence and effort",
+    "quantitative_result": "Accuracy 80.83% (SymGen) vs 80.00% (baseline); time 1.98 vs 2.50 min; confidence 4.63 vs 4.44; effort score 4.14 vs 3.63 (higher = less effort). Exit: 71.67% agreed annotations increased confidence; 83.33% agreed they made verification easier. No significance tests located.",
+    "source_locator": "Section 4.2 'Human evaluation of improved verifiability'; Appendix G Table 7",
+    "short_exact_excerpt": "annotators were equally likely to identify errors regardless of whether SymGen annotations were shown. However, when annotations were displayed, they took on average 20% less time to reach a decision",
+    "underlying_evidence_group": "EG:hennigen2024-symgen-provenance",
+    "limitations": "Small study; single numeric error type; provenance correct by construction; no inferential statistics located.",
+    "transferability_to_target_workflow": "Closest analog to claim-to-source linking in a diligence memo (numbers traced to data-room tables). Mechanism transfers for quantitative claims; does not address qualitative judgments, omissions, or wrong-but-linked sources. Needs replication with professional analysts and realistic error types (omissions, misapplied assumptions).",
+    "analyst_inference": "Positive case for P2.1 with preserved (not improved) detection; the provenance link was exact and correct, which may be the key condition.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E20",
+    "source_id": "WS4-S13",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 reduces time but P2.2 challenged: input-fact highlighting speeds verification while worsening detection of wrong answers",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X1",
+      "X3"
+    ],
+    "observed_finding": "Highlighting the input facts referenced by an LLM's chain-of-thought reduced verification time by about a quarter and raised accuracy when the LLM was correct, but lowered accuracy when the LLM was wrong; authors state highlights made users more likely to accept answers.",
+    "relationship": "challenges",
+    "evidence_type": "randomized between-subjects user study",
+    "population_and_setting": "63 undergraduate and graduate students, 10 items each; GSM-Symbolic arithmetic and DROP reading comprehension; balanced 50/50 correct/incorrect LLM answers; 2-minute cap",
+    "study_or_observation_method": "Users randomly assigned to HoT (highlighted) or CoT (plain) responses; judged whether answer correct",
+    "intervention_and_comparator": "Highlighted chain-of-thought (facts tagged to input) vs plain chain-of-thought",
+    "outcome_measured": "Verification accuracy conditional on LLM correctness; seconds per item",
+    "quantitative_result": "Time 47.26 s (HoT) vs 62.38 s (CoT). Accuracy when LLM correct 84.48 +/- 20.28 vs 78.82 +/- 28.26; when LLM incorrect 54.83 +/- 30.13 vs 72.21 +/- 21.99.",
+    "source_locator": "Section 5.6, Table 12",
+    "short_exact_excerpt": "Highlights make users accept LLM answers more, yielding higher accuracy in correct cases but worse in incorrect ones.",
+    "underlying_evidence_group": "EG:nguyen2026-hot-highlighted-cot",
+    "limitations": "Students; short tasks; time cap; large SDs; significance tests not located.",
+    "transferability_to_target_workflow": "Key counterweight to E19: span-linking that makes an answer look grounded can reduce detection of wrong conclusions, especially when the error lies in reasoning over correctly cited facts. Diligence analog: correctly cited inputs with flawed inference. Needs testing whether professionals separate 'input is cited' from 'conclusion follows'.",
+    "analyst_inference": "Traceability of inputs is not traceability of inference; highlighted grounding can act as a persuasive cue (X1-like) rather than a verification aid.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E21",
+    "source_id": "WS4-S14",
+    "research_question_ids": [
+      "RQ2",
+      "RQ3"
+    ],
+    "proposition_tested": "P2.1 / P2.2: Source-based (traditional) search is slower but preserves error detection vs uncited LLM answers",
+    "work_type_tags": [
+      "W2",
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Participants using an LLM search tool (no source links) completed decision tasks about twice as fast as those using traditional link-based search with comparable accuracy on routine tasks, but on an item where the LLM gave wrong information, LLM users were far less accurate; no LLM participant re-queried after receiving a wrong answer.",
+    "relationship": "qualifies",
+    "evidence_type": "randomized online experiment",
+    "population_and_setting": "90 MTurk participants (Experiment 1); consumer vehicle comparison tasks framed as running a delivery business",
+    "study_or_observation_method": "Random assignment to LLM-based search (GPT-3.5) or traditional search (Bing API links); mixed-effects models",
+    "intervention_and_comparator": "LLM natural-language answers without links vs traditional search results with links",
+    "outcome_measured": "Task duration; decision accuracy (routine vs designed-error item); queries",
+    "quantitative_result": "Duration 1.6 min (95% CI 1.4-1.9) LLM vs 3.4 min (95% CI 2.8-4.1) traditional. Routine accuracy 95.3% (89-98) vs 92.3% (83-97), z = 0.99, p = 0.33. Designed-error item: 47% (95% CI 34-61) LLM vs 93% (76-98) traditional, z = -3.46, p < .001.",
+    "source_locator": "Experiment 1 Results (Efficiency; Accuracy)",
+    "short_exact_excerpt": "No participant re-queried a product and dimension after seeing a wrong answer.",
+    "underlying_evidence_group": "EG:spatharioti2023-llm-search-overreliance",
+    "limitations": "Lay MTurk; single designed error item; consumer task.",
+    "transferability_to_target_workflow": "Illustrates the effort-accuracy trade-off between synthesized answers and source-level review: synthesized output halves time but transmits its errors. For advisor output, the question is whether claim-level source links can recover detection at lower cost than full source review. Not tested here.",
+    "analyst_inference": "The 'time saving' of synthesized output is conditional on output correctness; without traceability, errors pass through.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E22",
+    "source_id": "WS4-S14",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4 Visibility into uncertainty improves appropriate reliance (confidence highlighting)",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Color-coded highlighting of low (and high) confidence content in LLM answers more than doubled accuracy on the task where the LLM gave unreliable information, mainly by prompting follow-up queries; routine-task accuracy was unaffected; treatment participants were slightly slower.",
+    "relationship": "supports",
+    "evidence_type": "randomized online experiment",
+    "population_and_setting": "120 MTurk participants from a vetted pool (Experiment 2); GPT-3 with token probabilities",
+    "study_or_observation_method": "Three arms: no highlighting, low-confidence-only highlighting, high+low confidence highlighting",
+    "intervention_and_comparator": "Token-probability-based confidence highlighting vs none",
+    "outcome_measured": "Decision accuracy; follow-up queries; time; perceived reliability",
+    "quantitative_result": "Challenging task accuracy: control 26% vs high+low 58% (t(74.47) = -2.98, p < 0.01) vs low-only 53% (t(70.36) = -2.44, p = 0.02). Treatment slightly slower; significant for high+low vs control on routine tasks (exact estimate in appendix, not extracted).",
+    "source_locator": "Results for Experiment 2 (Accuracy); Appendix A.3.1",
+    "short_exact_excerpt": "while accuracy plummets to 26% in the control condition without any confidence highlighting, accuracy in each of the treatment conditions was substantially higher",
+    "underlying_evidence_group": "EG:spatharioti2023-llm-search-overreliance",
+    "limitations": "Lay MTurk; one challenging item; confidence derived from token probabilities that happened to flag the error.",
+    "transferability_to_target_workflow": "Mechanism (targeted flags focus checking where risk is) transfers to advisor deliverables that flag low-confidence findings. Depends on flags being calibrated; diligence uncertainty is often not token-level. Needs testing with calibrated professional flags.",
+    "analyst_inference": "Uncertainty visibility (X4) improved detection by redirecting effort, at a small time cost: effort reallocation, not elimination.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E23",
+    "source_id": "WS4-S15",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.5 Citations/traceability do not guarantee correctness or completeness (medical domain)",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Across five top LLMs answering medical questions with sources, a large share of responses were not fully supported by the sources they cited; even GPT-4 with retrieval left about 30% of statements unsupported. An automated GPT-4 judge agreed with a three-physician consensus 88% of the time on source support.",
+    "relationship": "supports",
+    "evidence_type": "automated evaluation validated against physician annotation",
+    "population_and_setting": "1200 generated medical questions; >40K statement-source pairs; validation on 284 statement-source pairs (72 questions) scored by three physicians",
+    "study_or_observation_method": "SourceCheckup pipeline: question generation, statement parsing, URL validity, source-statement support judged by GPT-4",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Statement-level and response-level support",
+    "quantitative_result": "~50% to 90% of responses not fully supported (range across models); GPT-4 with RAG: ~30% of statements unsupported and nearly half of responses not fully supported; GPT-4 judge vs physician consensus agreement 88%.",
+    "source_locator": "Abstract; Section 3.3; Figure 4",
+    "short_exact_excerpt": "we find that between ~50% to 90% of LLM responses are not fully supported by the sources they provide.",
+    "underlying_evidence_group": "EG:wu2024-sourcecheckup-medical-citations",
+    "limitations": "Model versions now outdated; automated judge; preprint version read.",
+    "transferability_to_target_workflow": "Reinforces that a cited deliverable still requires statement-level support checking; also shows support checking can be partly automated with ~88% agreement, which could shift reviewer effort to disagreements. Needs testing on diligence documents.",
+    "analyst_inference": "X3 presence and X5 correctness diverge substantially in a high-stakes domain; automated support checking is a plausible effort-reduction lever with residual error.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E24",
+    "source_id": "WS4-S16",
+    "research_question_ids": [
+      "RQ2",
+      "RQ3"
+    ],
+    "proposition_tested": "P2.5 qualified / P-NEW: Source-grounded (RAG) assistance reduces fabricated citations relative to an ungrounded reasoning model while preserving productivity gains",
+    "work_type_tags": [
+      "W3",
+      "W5"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "In a randomized trial with law students, both a RAG legal tool (Vincent AI) and a reasoning model (o1-preview) increased productivity on most tasks; assignments done with Vincent had about the same number of fabricated-source hallucinations as no-AI work, whereas o1-preview assignments had more. Miscitations (real cases cited for propositions they do not support) were not counted as hallucinations.",
+    "relationship": "qualifies",
+    "evidence_type": "randomized controlled trial",
+    "population_and_setting": "127 upper-level law students (Univ. of Minnesota and Univ. of Michigan), six legal tasks (memo, client email, NDA, complaint analysis, motion, persuasive letter); 126-135 assignments graded per task",
+    "study_or_observation_method": "Within-participant rotation: two tasks each with no AI, Vincent AI, o1-preview (assignment randomized); graded on quality metrics; hallucinations tracked separately",
+    "intervention_and_comparator": "RAG legal tool vs reasoning model vs no AI",
+    "outcome_measured": "Productivity (quality per time), quality metrics, count of hallucinations (fabricated sources)",
+    "quantitative_result": "AI assistance significantly boosted productivity in five of six tasks; statistically significant gains approximately 38% to 115% (Vincent) and 34% to 140% (o1-preview). Hallucinations: Vincent 3, no AI 4, o1-preview 11; 18 hallucinated citations across all treatment groups on 768 tasks.",
+    "source_locator": "Abstract; Part III results, Figure 7; footnote 138; qualitative review section",
+    "short_exact_excerpt": "we identified fewer hallucinations in assignments completed with Vincent AI (3 total) than in those completed without any AI assistance at all (4).",
+    "underlying_evidence_group": "EG:schwarcz2025-ai-powered-lawyering-rct",
+    "limitations": "Students, not practicing lawyers; very small hallucination counts; miscitations excluded; reviewer verification effort not measured.",
+    "transferability_to_target_workflow": "Closest professional-work analog in this set: grounded tools reduce fabricated-source risk but not necessarily mis-supported claims, so a reviewing partner still checks support. Needs measurement of supervising-reviewer time with and without source-grounded drafts.",
+    "analyst_inference": "Grounding addresses the fabrication failure (a subset of X5) but leaves the support-checking burden (W3) largely intact; productivity gains are measured at the drafter, not at the downstream reviewer.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS4-E25",
+    "source_id": "WS4-S17",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P1.2 Opaque reasoning drives avoidable reconstruction; P2.4 visibility into uncertainty/gaps valued (stated requirements of professionals)",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X2",
+      "X3",
+      "X4"
+    ],
+    "observed_finding": "Interviewed professional fact-checkers said automated tools felt unreliable partly because they were unexplainable, and required explanations that make the analysis replicable: tracing the reasoning path, referencing specific evidence, and highlighting uncertainty and information gaps.",
+    "relationship": "supports",
+    "evidence_type": "qualitative interview study",
+    "population_and_setting": "10 professional fact-checkers (several countries; some in managerial/editorial roles)",
+    "study_or_observation_method": "Semi-structured interviews; thematic analysis",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Stated explanation requirements; reported tool use",
+    "quantitative_result": "Replicability theme coded for 9 (per coding table; unit not verified).",
+    "source_locator": "Abstract; Section 4 findings (lack of explainability passage, P3 quote); Section 5 requirements",
+    "short_exact_excerpt": "identify important criteria for replicable fact-checking explanations that trace the model's reasoning path, reference specific evidence, and highlight uncertainty and information gaps.",
+    "underlying_evidence_group": "EG:warren2025-factchecker-explanation-requirements",
+    "limitations": "Stated preference; small sample; fact-checking differs from investment diligence.",
+    "transferability_to_target_workflow": "Professional recipients of automated analysis, accountable for public verdicts, state that they need replicable evidence trails and gap disclosure before relying on outputs. Shares the producer -> accountable reviewer structure. Needs observational evidence that providing such trails actually reduces their re-verification work.",
+    "analyst_inference": "Stated demand for X3 and X4 among accountable professionals; does not show effort reduction.",
+    "access_status": "full_text"
+  }
+]

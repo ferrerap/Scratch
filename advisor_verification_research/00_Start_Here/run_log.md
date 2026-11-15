@@ -26,7 +26,17 @@ Concise, auditable record of execution, decisions, deviations and storage. Times
 | WS6 | Rival explanations, failures, disconfirming cases | 1 | 18:35 |
 | WS7 | Methods, initial-lead full-text audit, transferability rubric | 1 | 18:35 |
 | WS8 | Structured/synoptic reporting & coverage visibility (medicine consult analog; Phase I ESA) | 1 (added) | 18:41 |
-| COORD | Coordinator: evidence register merge, IDs, disputes, packaging (main session) | all | 18:31 |
+| R2A | Reviewer A — strongest defensible case for the thesis | 2 | 18:55 |
+| R2B | Reviewer B — strongest defensible alternative/limitation | 2 | 18:55 |
+| R2C | Reviewer C — audit (fidelity, causal claims, duplicates, transfer, denominators, selective reporting) | 2 | 18:56 (first launch denied; relaunched, see D09) |
+| R3A | Professional reviewers: traceability, effort and detection | 3a | 18:58 |
+| R3B | Legal boundary: reliance vs required investigation | 3a | 18:58 |
+| R3C | Renewable project finance: IE scopes, yield bias, rating use | 3a | 18:58 |
+| R3D | Integration of outside evidence and duplicated work at scale | 3a | 18:58 |
+| R3E | Checklists / coverage lists: help or narrow judgment | 3b | 19:01 |
+| R3F | Mortgage appraisal review: standardized, machine-checkable outside analysis | 3b | 19:01 |
+| FC | Final synthesis-vs-register fidelity check | final QA | 19:18 |
+| COORD | Coordinator: evidence register merge, IDs, disputes, synthesis, packaging (main session) | all | 18:31 |
 
 ## Consequential decisions
 - D01 (18:33) Workers develop findings independently in Round 1 (no shared synthesis visible) per brief; overlap reduced by explicit hand-offs (WS7 owns full-text stats for Bansal/Buçinca/Choi/AS 1210; WS4 told not to duplicate).
@@ -49,3 +59,50 @@ Concise, auditable record of execution, decisions, deviations and storage. Times
 - 19:07 Drive checkpoint R2 uploaded (zip + R2A/R2B/R2C narratives + dispute register); sizes verified.
 - 19:07–19:10 Wave 3a complete: R3D (≈9.9 min), R3B (≈10.3 min), R3A (≈10.6 min), R3C (≈10.9 min). Reports extracted verbatim. Registers merged (R3C held in `pending_dirs` until complete, so partial files were never merged). EAIF Homa Bay RfP cited by both R3B and R3C → deduplicated to SRC151.
 - D13 (19:10) Merge script fixed: the R3 folder glob previously matched only `R3_*`; it now includes all `R3*` folders except those listed in `pending_dirs`. Coordinator corrections folder merged last.
+- 19:14 Wave 3b complete: R3E (≈12.1 min), R3F (≈12.2 min). All registers merged: 211 sources, 341 evidence items, 202 evidence groups; validator 0 errors. One cross-round duplicate merged (40 CFR 312: WS8 and R3F).
+- D14 (19:15) Dispute statuses assigned (`03_Challenge_and_Followup/dispute_register.json` → `disputes_and_followups.md`): DIS001 and DIS003 unresolved with public evidence; DIS002 dependent on context; DIS004, DIS005, DIS006, DIS008 partly resolved; DIS007 resolved at the level framed. No majority vote. Reviewer positions preserved verbatim alongside follow-up findings.
+- D15 (19:16) Synthesis written by the coordinator from the registers and reports. Every substantive claim in the brief cites EVR IDs. Empirical findings and analyst inference are marked separately. P1.1 is split into "obligation exists" vs "dominant driver" per R2C-23. Renewable figures flagged as unverified (EVR046/EVR047) are not used as headline numbers.
+- D16 (19:18) Final QA assignment (FC) launched: an independent agent checks synthesis claims against the cited register records (numbers, support, overclaiming, evidence-kind labels, duplicates, revision-candidate direction). Corrections applied before packaging.
+
+## Resource usage (observable)
+Subagent token and tool counts are from completion notifications. Coordinator usage is not observable from inside the session.
+
+| Round | Agents | Subagent tokens (approx.) | Tool calls | Wall time per agent |
+|---|---|---|---|---|
+| 1 (discovery) | 8 (WS1–WS8) | ≈1.71M (174k–226k each) | 590 | 11–18 min |
+| 2 (adversarial review) | 3 (R2A, R2B, R2C) + 1 denied launch | ≈0.48M | 82 | 5–9 min |
+| 3 (targeted resolution) | 6 (R3A–R3F) | ≈1.09M | 341 | 10–12 min |
+| Final QA | 1 (FC) | see completion note | — | — |
+| **Total** | **18 research/review assignments** (ceiling 24); max 8 concurrent (ceiling 12) | **≈3.3M+** | **1,013+** | — |
+
+## Research rounds (summary)
+- **Round 1 — independent discovery (18:35–18:53):** 8 parallel workstreams; no shared synthesis visible to workers. 126 sources and 217 evidence items after merge.
+- **Round 2 — adversarial review (18:55–19:04):** A and B on the identical frozen bundle; C audit. 8 proposition-level disputes; 25 audit issues; 23 statistics verified against originals.
+- **Round 3 — targeted resolution (18:58–19:14):** wave 3a (R3A–R3D) on Round-1-flagged gaps; wave 3b (R3E, R3F) on Round-2 disputes. 85 sources and 124 evidence items added.
+- **Final QA (19:18–):** synthesis fidelity check, validation and packaging.
+
+## Deviations from the brief
+1. **Round 3 timing (D10).** Round 3 began as two waves, and wave 3a overlapped Round 2. Its questions came from gaps flagged by Round 1 workers rather than from Round 2 disputes; wave 3b addressed Round 2 disputes. Round 2 reviewers worked on a frozen bundle, so their independence was unaffected.
+2. **Report files (D08/D09).** The harness does not let subagents write report `.md` files. Narratives were returned as text and extracted verbatim by script with provenance headers. An early instruction to place narrative in JSON fields was withdrawn after the classifier denied one launch (D09).
+3. **Wall-clock time.** The budget was ~2–3 hours; the run used ~1 h 15 min of wall-clock time to reach the stopping condition. Parallel agents finished well within their timeboxes, and the stopping rule (sufficient coverage plus specific unresolved gaps that public evidence cannot settle) was met. The final portion was spent on audit, fidelity checking, deduplication and packaging, as the brief requires.
+4. **Register size.** 211 sources exceeds the 20–35 working target. This reflects 14 independent research assignments, not padding. Both source and evidence-group counts are reported, and weight is read from evidence groups and evidence kind.
+5. **Archived documents.** Copyrighted full texts were not archived (D03). The archive holds URLs, locators and short excerpts. Downloads stayed in the session scratch area and are not in git, the ZIP or Drive.
+
+## Stopping reason
+The three core questions have coverage sufficient to state defensible conclusions and specific unresolved gaps. Wave 3b (two targeted searches on Round 2 disputes) added material independent evidence but did not resolve the two central empirical gaps (the W2 share of recipient effort; a professional seeded-error traceability study). Search logs across R3A, R3C, R3E and R3F indicate these cannot be resolved from public information. A further round would most likely add analogies, not discriminating observations.
+
+## Known gaps
+- No public time-use data split recipient effort into W1–W5 in any advisor–client setting.
+- No professional seeded-error experiment isolates traceability or coverage disclosure.
+- No test compares "checked, no findings" with silence on recipients' detection.
+- No end-to-end measurement of IC, credit or board-pack workflow time; there is essentially no academic literature on investment memos.
+- Target-domain evidence is thin. Solar/wind DFI and green-bank IE scopes were blocked or absent. Rating methodologies (S&P, Moody's, KBRA, DBRS) are gated. The Fitch Topaz and kWh Analytics figures are unverified secondary numbers.
+- Some primary texts were not reviewed in full: pcaobus.org standards pages (partly blocked), ABA Op. 512 (secondary quotations), Choi et al. (abstract), Schwarcz et al. (one workstream abstract-only; another read full text), several accounting experiments (abstract-only), Fannie Mae and GAO appraisal documents (blocked).
+- Commercial questions (RQ6) are essentially untested with public evidence.
+
+## Validation performed
+- Every workstream JSON validated with `json.load` by its worker; merged registers validated by `scripts/validate_handoff.py`. That script checks required fields, ID uniqueness, that every evidence→source link resolves, relationship and access enums, research-question IDs, non-empty locators, excerpt length, revision-candidate schema and anchors, that cross-references in the markdown deliverables resolve, and long brief paragraphs that cite no evidence.
+- The Round 2 auditor re-checked 23 consequential statistics and quotations against original documents; all matched. Unreachable items were recorded (BCG, Fitch Topaz, kWh Analytics, ACS) and later partly resolved (the BCG paper was retrieved and verified by the coordinator).
+- Deduplication: URL/title union-find plus manual overrides; evidence-group aliases recorded; duplicate evidence items flagged rather than deleted.
+- Final synthesis-vs-register fidelity check (FC); see the results below.
+- Checked that no user conviction or canonical claim was changed: `revision_candidates.json` contains proposals only, and the validator fails on any field containing "conviction".

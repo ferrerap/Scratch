@@ -16,7 +16,7 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 1. **Review persists mainly because the recipient's duty cannot be delegated.** Across audit, banking, law, engineering and medicine, the recipient must still decide, still evaluate the producer, still judge whether the work is sufficient, and still follow up red flags. But in most regimes the duty is to *evaluate* outside work, not to *re-perform* it (EVR001, EVR011, EVR039, EVR166, EVR240, EVR246). Re-derivation is deliberately required only in specific regimes (EVR017, EVR081, EVR083). How much review is required scales with risk, significance and producer competence and independence. How well the producer documents its work is not one of the scaling factors (EVR001, EVR167, EVR170).
 2. **Avoidable reconstruction (W2) is a real mechanism, but its share is unmeasured.** Standards prescribe extra procedures when producer documentation is missing (EVR003, EVR013, EVR020, EVR245). Observed behaviour in medicine shows outside evidence is regenerated far less often once it is in the recipient's system (EVR212, EVR259, EVR265, EVR266). No public source splits recipient time into W1–W5, in any domain. In renewable project finance, the lender work described publicly is mostly W4 (own cases and haircuts) driven by measured W3 bias in yield forecasts (EVR275, EVR276, EVR277, EVR285, EVR297).
 3. **Traceability (X3) protects error detection better than persuasive explanation (X1), but it is not correctness and does not reliably save time.** Citations are often wrong or unsupported (EVR062, EVR094, EVR113, EVR236). They raise trust whether or not they are checked (EVR102, EVR103, EVR108). Precise claim-level linking saved ~20–25% of time in two lay studies. In one, detection held (EVR109); in the other, detection of wrong answers fell (EVR110). No published study gives accountable professionals output with versus without source links and measures both effort and detection of seeded errors (R3A search log; EVR228 is the closest).
-4. **Coverage visibility (X4) improves the completeness of reports and is how professional systems allocate reliance. Evidence that it improves recipients' decisions is thin.** Assurance standards require test-and-result descriptions so recipients can rely (EVR019, EVR022, EVR250). Courts accept validated coverage evidence in place of item-by-item review in e-discovery (EVR069, EVR071, EVR073). But procedure lists do not move the recipient's legal duty (EVR245, EVR249). Sophisticated recipients reportedly want an accountable conclusion as well as a list of checks (EVR252). Rigid or prefilled templates can backfire (EVR196, EVR202).
+4. **Coverage visibility (X4) improves the completeness of reports and is how professional systems allocate reliance. Evidence that it improves recipients' decisions is thin, and its effect depends on design and timing.** Assurance standards require test-and-result descriptions so recipients can rely (EVR019, EVR022, EVR250). Courts accept validated coverage evidence in place of item-by-item review in e-discovery (EVR069, EVR071, EVR073). But procedure lists do not move the recipient's legal duty (EVR245, EVR249). Sophisticated recipients reportedly want an accountable conclusion as well as a list of checks (EVR252). Generic checklists used as the method of review narrowed professionals' attention and lowered fraud or abnormality detection (EVR298, EVR303, EVR309). Specific documentation, lists consulted after the reviewer's own read, and prompts toward how assumptions were derived helped (EVR300, EVR313, EVR304). No study tests "checked, no findings" against silence on recipients' detection.
 5. **Integration reduces duplicated work when outside evidence lands inside the recipient's working system. The effect is moderate, it relocates some work, and it can reduce scrutiny.** Medical image and record sharing replicates a 16–67% relative reduction in repeat testing (EVR259, EVR265, EVR266, EVR263), with offsets and a national null (EVR260, EVR264, EVR268). Consumer-mortgage process integration is associated with ~20% faster end-to-end processing and no default penalty (EVR270). AI drafting generally moves effort into review (EVR119, EVR122, EVR229, EVR237). Recipients scrutinize inherited analysis less (EVR272, EVR223, EVR219).
 6. **The commercial extensions are not supported by public evidence.** No source links reduced verification effort to willingness to pay, renewal, pricing or supplier margins (EVR126, EVR129, EVR139). Customer-specific adaptation is pervasive (EVR055, EVR137, EVR206).
 
@@ -79,6 +79,9 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
   - Interviews show auditors seek "comfort, not insight" from specialists, limit specialist scope for budget reasons, and delete contrary content (EVR026, EVR027, EVR029).
   - This competes with the idea that recipients over-review because of opacity (DIS005).
 - **The incremental effort of tighter review rules was small** (self-reported): most of 31 audit partners put the added time from the new specialist requirements below 1% of audit hours (EVR008). The planning-phase shift is not attributable to the rule (EVR010).
+- **Where recipient review visibly fell in credit, the mechanism was risk transfer, not cheaper verification (appraisal case).**
+  - Lenders must review each appraisal's methods, assumptions and data, and cannot shift responsibility to third-party reviewers. Automated or sampled review is allowed only for lower-risk, homogeneous residential loans (EVR324, EVR325).
+  - The observable reduction in lender review came when the government-sponsored enterprises (GSEs) offered representation-and-warranty relief for low automated risk scores, and appraisal waivers. In both cases the consequence-bearer took the risk (EVR329, EVR326).
 
 ### What can reasonably be concluded
 
@@ -158,6 +161,18 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
   - The only top-level structured-reporting study found worse completeness and accuracy (EVR196, EVR194). Prefilled "normal" text produced contradictions without benefit (EVR202).
   - Structured reports were rated clearer with no difference in decision usefulness (EVR192).
   - Omissions were the most common error in ambient scribes, and links from statements cannot reveal them (EVR232).
+- **Explicit lists can narrow attention (experiments with professionals, mostly abstract-level access).**
+  - 69 auditors given a standard fraud-risk checklist assessed lower fraud risk on a known-fraud case. A standard audit program produced a less effective fraud plan than an expert benchmark (EVR298, EVR299).
+  - The decomposition recommended in auditing standards made 101 experienced auditors less concerned about high-risk schemes (EVR303).
+  - A checklist imposed during reading lowered radiologists' detection accuracy (EVR309). A salient finding still suppressed reporting of other abnormalities (EVR310).
+  - Highlighted audit matters drew readers' attention away from the rest of the statements (students; attention, not detection) (EVR305).
+  - Readers of computer-aided detection over-trusted unflagged areas (EVR314).
+  - Training for complete coverage did not increase findings (EVR312). Coverage (X4) is not correctness (X5).
+- **Machine-checkable structure raises detection capacity but does not by itself produce verification (appraisal case).**
+  - The GSEs bought >85,000 loans in 2013 despite automated portal warnings. Flags were set to auto-override because false-positive rates were unmeasured and they did not want to burden lenders (EVR320, EVR321).
+  - A logic error left ~$88B of loans without a working appraiser-licence check (EVR322).
+  - Cross-report attribute inconsistencies persisted under the standardized format and were detectable only with pooled data (EVR331).
+- **Disclosure incentives can produce boilerplate.** Disclosing any matter, even an unrelated one, reduced mock jurors' assessment of auditor liability. Disclosing uncertainty lowered the auditor's perceived responsibility for a later misstatement (EVR307, EVR308).
 - **Generated rationales can be unfaithful (X1 ≠ X2).** Models' reasoning traces mentioned hints they used in only 25–39% of cases (EVR105). Biasing features drove answers without being mentioned (EVR104). A system-generated "what was checked" log could share this weakness (Analyst inference; DIS004).
 
 ### What can reasonably be concluded
@@ -166,12 +181,16 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 - *Empirical (one lay study each):* claim-level provenance can cut time with detection preserved when the error sits in the linked fact (EVR109). When the error is in the reasoning, linking makes wrong answers look grounded and detection falls (EVR110). The distinction between error in the cited fact and error in the inference is analyst synthesis from these two studies.
 - *Empirical (professional settings):* lighter review of AI drafts goes with more surviving errors (EVR223, EVR219). Field trials show professional time savings without detectable quality loss but did not test detection (EVR227, EVR231). Professional baseline detection of plausible errors without traceability is poor.
 - *Empirical (obligation and courts):* coverage information supports reliance when it can be independently verified (sampling, recomputation, adversarial access). It does not move the recipient's duty to judge sufficiency.
-- *Analyst inference:* the thesis is best supported in a narrowed form. Claim- and calculation-level traceability, plus coverage records that can be verified (including checks without findings, at the level of the nature and scope of each test), should lower the cost of evaluation that obligations already require. The benefit is conditional on accuracy and granularity, and must be judged on detection, never on satisfaction or trust.
+- *Empirical (behavioural, mixed access):* coverage effects depend on design and timing.
+  - Hurt detection: generic lists imposed as the review method (EVR298, EVR303, EVR309).
+  - Helped: specific documentation (EVR300), lists consulted after an independent first read (EVR313), prompts toward how assumptions were derived (EVR304), and procedure descriptions for flagged matters (EVR319, calibration rather than accuracy).
+  - Changed recipients' reactions: statements that a flagged matter was examined and resolved (EVR318). Whether that reassurance was justified was not tested.
+- *Analyst inference:* the thesis is best supported in a narrowed form. Claim- and calculation-level traceability, plus coverage records that can be verified, should lower the cost of evaluation that obligations already require. Coverage records should be deal-specific, show checks without findings at the level of the nature and scope of each test, state exclusions, and focus on how key assumptions were derived. The benefit is conditional on accuracy, granularity and when the record is consulted. It must be judged on detection, never on satisfaction or trust.
 
 ### What remains unknown
 
 - Whether source links *themselves* reduce professional review time and preserve detection of seeded factual, reasoning, omission and calculation errors. No such professional study was found after targeted searches (R3A search log); see DIS003.
-- Whether disclosing "checks with no findings" changes what recipients re-check or improves detection of omissions (DIS004). No experiment found.
+- Whether disclosing "checks with no findings" changes what recipients re-check, or improves detection of omissions, compared with silence or "not checked" (DIS004). No experiment found (R3E search log). Nor whether a material issue planted outside the listed coverage is detected less often (narrowing) or more often (declared gaps cue attention).
 - Whether recipients use traceability to check claims or to bolster positions already held (DIS005).
 
 ### Limits of transfer to renewable-energy investment workflows
@@ -228,6 +247,7 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
   - Auditors who inherit analysis show less skepticism; a development memo only partly restores it (26% → 34% vs 54%; EVR272, EVR273).
   - Memos written by external consultants were flagged as a governance concern (EVR056).
 - **Governance holds reviewer diligence constant.** PCAOB outreach firms apply "the same level of diligence" to GenAI-assisted work (EVR130). A&O kept lawyer review after a firm-wide rollout (EVR134).
+- **Automated checks can push rework back to the producer.** An appraisal-management executive reported that revision requests to appraisers rose after automated collateral scoring launched (anecdotal; EVR338). Freddie Mac later barred revision requests based on the score alone (EVR328).
 
 ### What can reasonably be concluded
 
@@ -268,13 +288,19 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
   - Adoption followed accreditation: 77% for resections vs 19% for biopsies (EVR208).
   - A shared lexicon still gave only fair agreement on the final judgment (kappa 0.28; EVR216).
   - In PV and wind yield assessment, calls for standardized uncertainty reporting come mainly from suppliers (EVR279, EVR288, EVR294).
-  - *Analyst inference:* the core content of a deliverable can be standardized, with local additions on top. Judgment stays variable.
+  - Credit-domain case (US appraisal):
+    - The standardized data format plus automated scoring made routine appraisals repeatable enough to be intermediated, with fee clustering and appraisers raising workloads (EVR336, EVR335), and partly replaced by waivers (EVR326, EVR327).
+    - Complex, dissimilar or data-thin properties, and local knowledge, still require bespoke work (EVR327, EVR333, EVR325).
+    - The standard itself had to be redesigned to absorb diversity (EVR339).
+    - Lender-specific acceptance rules limit report portability (EVR341; practitioner).
+  - *Analyst inference:* the core content of a deliverable can be standardized, with local additions on top. Judgment stays variable. Low-volume, heterogeneous renewable diligence resembles the complex-commercial tier more than the homogeneous residential tier.
 - **RQ6 — buying, renewal, pricing, supplier economics.**
   - No evidence links reduced verification effort to purchase or price.
   - 72% satisfaction coexisted with no productivity evidence (EVR126).
   - A purchase was justified on a ~13-minutes-a-week break-even (EVR129).
   - Firms in a consulting RCT bought more consulting later, but for operational gains (EVR139).
   - One RFP weighted technical capability at 40% vs cost at 20% (EVR050).
+  - In the one credit-domain case where an outside deliverable became standardized and machine-checkable (appraisal), gains accrued to borrowers, lenders and the GSE through waivers and lower costs. The appraiser side saw fee pressure, intermediation and substitution (EVR334, EVR336, EVR335; interested-party and survey evidence).
   - Absence of evidence here reflects public data limits. It is not evidence of absence.
 
 ---
@@ -290,6 +316,8 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 | Structured reporting raises completeness; rigid or prefilled templates backfire | Pathology and radiology | Producer report to decision-maker | Accreditation enforcement; high volume; narrow tasks | Follow-up question counts and omission detection with vs without coverage maps |
 | Rational discounting of forecasts | Wind/PV yield back-tests; rating actions | Same domain | Mostly wind; solar evidence partly unverified | Lender haircuts by IE provider track record |
 | Inherited analysis lowers scrutiny | Audit experiment; clinician drafting | Recipient adopts another's analysis | Hypothetical cases; press-release figures | Replication with investment analysts, with provenance and checks-performed documentation |
+| Generic lists narrow attention; specific or after-read coverage helps | Audit fraud experiments; radiology; ECG | Reviewer receives structured scope | Mostly abstract-level access; detection in single cases | Coverage table before vs after an independent read; planted issue inside vs outside listed scope |
+| Machine-checkable standardization enables triage; review falls via risk transfer | US appraisal (UAD, Collateral Underwriter, waivers) | Producer → accountable lender → consequence-bearer | Dominant consequence-bearer, millions of homogeneous units, central repository | Whether any lender or investor reduces review for structured, traceable reports *without* liability relief |
 
 ## Evidence base
 

@@ -1,13 +1,29 @@
 {
   "_doc": "Coordinator overrides applied by merge_registers.py. Every override is recorded here (never silent).",
   "source_merge": [
-    ["WS7-S03", "WS6-S03"],
-    ["WS7-S04", "WS6-S05"]
+    [
+      "WS7-S03",
+      "WS6-S03"
+    ],
+    [
+      "WS7-S04",
+      "WS6-S05"
+    ]
   ],
   "source_no_merge": [],
-  "eg_alias": {},
+  "eg_alias": {
+    "EG:pcaob2018-specialists-AS1210": "EG:pcaob-specialists-2018-rulemaking",
+    "EG:niederhoffer2025-workslop": "EG:betterup-stanford-workslop-2025"
+  },
   "drop_sources": [],
   "drop_evidence": [],
   "source_patch": {},
-  "evidence_patch": {}
+  "evidence_patch": {},
+  "_eg_alias_rationale": {
+    "EG:pcaob2018-specialists-AS1210": "PCAOB Release 2018-006 and the 84 FR 13442 notice are the same rulemaking (one underlying standard-setting event)",
+    "EG:niederhoffer2025-workslop": "HBR article and BetterUp/Stanford blog report the same survey (WS5 flagged)"
+  },
+  "_flagged_for_audit": [
+    "SRC017 vs SRC105: two Commerford-led 2022 audit experiments (evidence specificity vs AI attribution) kept as separate groups pending verification that they are distinct studies"
+  ]
 }

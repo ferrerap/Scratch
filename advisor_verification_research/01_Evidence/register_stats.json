@@ -1,9 +1,11 @@
 {
   "n_sources": 126,
   "n_evidence": 217,
-  "n_underlying_evidence_groups": 121,
+  "n_underlying_evidence_groups": 119,
   "multi_document_groups": {
+    "EG:pcaob-specialists-2018-rulemaking": 2,
     "EG:occ-939a-investment-securities-2012": 2,
+    "EG:betterup-stanford-workslop-2025": 2,
     "EG:lerner-tetlock1999-accountability": 2,
     "EG:deloitte-dewr-2025": 2,
     "EG:choi2024-lawyering-gpt4-rct": 3

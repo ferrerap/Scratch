@@ -1495,7 +1495,7 @@
     "access_date": "2026-11-15",
     "source_type": "news_report",
     "access_status": "partial",
-    "underlying_evidence_group": "EG:niederhoffer2025-workslop",
+    "underlying_evidence_group": "EG:betterup-stanford-workslop-2025",
     "funding_or_commercial_relationships": "Authors affiliated with BetterUp Labs and Stanford Social Media Lab",
     "archived_file_path": null,
     "limitations": "Only the header and summary were retrievable (paywall); no evidence items drawn directly from this source; listed to anchor the evidence group. Same underlying survey as WS5-S03.",
@@ -2026,7 +2026,7 @@
     "access_date": "2026-11-15",
     "source_type": "professional_standard",
     "access_status": "full_text",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "funding_or_commercial_relationships": null,
     "archived_file_path": null,
     "limitations": "Access route: pcaobus.org standard page returned HTTP 403 to both curl and WebFetch; the 149-page adopting release PDF was retrieved from the alternate PCAOB domain pcaob.org (Docket 044). Rule text is as ADOPTED on 2018-12-20 (SEC-approved 2019-07-01, Release 34-86270; effective for audits of fiscal years ending on or after 2020-12-15). The PCAOB lists later conforming amendments to AS 1210 (e.g., PCAOB Release 2022-002), which were not checked; current codified text may differ in minor wording. A standard shows an obligation, not compliance, cost, or demand. Inspection statistics come from risk-selected (non-random) engagements, as the release itself notes.",
@@ -2038,7 +2038,7 @@
     ]
   },
   {
-    "source_id": "SRC099",
+    "source_id": "SRC097",
     "title": "Lawyering in the Age of Artificial Intelligence (109 Minn. L. Rev. 147 (2024)) - repository landing page and abstract",
     "authors_or_organization": "Jonathan H. Choi, Amy B. Monahan, Daniel Schwarcz",
     "url": "https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/",
@@ -2059,7 +2059,7 @@
     ]
   },
   {
-    "source_id": "SRC100",
+    "source_id": "SRC098",
     "title": "Lawyering in the Age of Artificial Intelligence - SSRN abstract as reproduced on TaxProf Blog (2023-11-16)",
     "authors_or_organization": "TaxProf Blog (AALS) reproducing abstract by Choi, Monahan & Schwarcz",
     "url": "https://taxprofblog.aals.org/2023/11/16/lawyering-in-the-age-of-artificial-intelligence/",
@@ -2080,7 +2080,7 @@
     ]
   },
   {
-    "source_id": "SRC101",
+    "source_id": "SRC099",
     "title": "AI helps lawyers complete work quicker, study finds (Legal Futures)",
     "authors_or_organization": "Legal Futures (news)",
     "url": "https://www.legalfutures.co.uk/latest-news/ai-helps-lawyers-complete-work-quicker-study-finds/print/",
@@ -2101,7 +2101,7 @@
     ]
   },
   {
-    "source_id": "SRC102",
+    "source_id": "SRC100",
     "title": "Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies (arXiv:2112.11471v1; later published as 'Towards a Science of Human-AI Decision Making: An Overview of Design Space in Empirical Human-Subject Studies', FAccT 2023)",
     "authors_or_organization": "Vivian Lai, Chacha Chen, Q. Vera Liao, Alison Smith-Renner, Chenhao Tan",
     "url": "https://arxiv.org/pdf/2112.11471",
@@ -2122,7 +2122,7 @@
     ]
   },
   {
-    "source_id": "SRC103",
+    "source_id": "SRC101",
     "title": "Appropriate Reliance on AI Advice: Conceptualization and the Effect of Explanations (IUI '23; arXiv:2302.02187v3)",
     "authors_or_organization": "Max Schemmer, Niklas Kühl, Carina Benz, Andrea Bartos, Gerhard Satzger (Karlsruhe Institute of Technology)",
     "url": "https://arxiv.org/pdf/2302.02187",
@@ -2143,7 +2143,7 @@
     ]
   },
   {
-    "source_id": "SRC104",
+    "source_id": "SRC102",
     "title": "Automation bias: a systematic review of frequency, effect mediators, and mitigators (J Am Med Inform Assoc 2012;19(1):121-127)",
     "authors_or_organization": "Kate Goddard, Abdul Roudsari, Jeremy C. Wyatt",
     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3240751/",
@@ -2164,7 +2164,7 @@
     ]
   },
   {
-    "source_id": "SRC105",
+    "source_id": "SRC103",
     "title": "Proxy Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable AI Systems (IUI '20; arXiv:2001.08298)",
     "authors_or_organization": "Zana Buçinca, Phoebe Lin, Krzysztof Z. Gajos, Elena L. Glassman (Harvard University)",
     "url": "https://arxiv.org/pdf/2001.08298",
@@ -2185,7 +2185,7 @@
     ]
   },
   {
-    "source_id": "SRC106",
+    "source_id": "SRC104",
     "title": "RSNA press release: AI Bias May Impair Radiologist Accuracy on Mammogram (on Dratsch et al., 'Automation Bias in Mammography: The Impact of Artificial Intelligence BI-RADS Suggestions on Reader Performance', Radiology 2023, doi:10.1148/radiol.222176)",
     "authors_or_organization": "Radiological Society of North America (press release on study by Thomas Dratsch et al.)",
     "url": "https://www.rsna.org/media/press/i/2432",
@@ -2206,7 +2206,7 @@
     ]
   },
   {
-    "source_id": "SRC107",
+    "source_id": "SRC105",
     "title": "Man Versus Machine: Complex Estimates and Auditor Reliance on Artificial Intelligence (Journal of Accounting Research 60(1):171-201) - repository abstract",
     "authors_or_organization": "Benjamin P. Commerford, Sean A. Dennis, Jennifer R. Joe, Jenny W. Ulla",
     "url": "https://digitalscholarship.unlv.edu/acct_fac_articles/51",
@@ -2227,7 +2227,7 @@
     ]
   },
   {
-    "source_id": "SRC108",
+    "source_id": "SRC106",
     "title": "Improving communication of diagnostic radiology findings through structured reporting",
     "authors_or_organization": "Schwartz LH, Panicek DM, Berk AR, Li Y, Hricak H (Memorial Sloan-Kettering Cancer Center)",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3121011/ (Radiology 2011;260(1):174-181; PMID 21518775)",
@@ -2248,7 +2248,7 @@
     ]
   },
   {
-    "source_id": "SRC109",
+    "source_id": "SRC107",
     "title": "Structured reporting in radiology: a systematic review to explore its potential",
     "authors_or_organization": "Nobel JM, van Geel K, Robben SGF (Maastricht UMC+)",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8921035/ (Eur Radiol 2022;32(4):2837-2854; doi 10.1007/s00330-021-08327-5)",
@@ -2269,7 +2269,7 @@
     ]
   },
   {
-    "source_id": "SRC110",
+    "source_id": "SRC108",
     "title": "Cohort study of structured reporting compared with conventional dictation",
     "authors_or_organization": "Johnson AJ, Chen MY, Swan JS, Applegate KE, Littenberg B",
     "url": "https://doi.org/10.1148/radiol.2531090138 (Radiology 2009;253(1):74-80; PMID 19709993)",
@@ -2290,7 +2290,7 @@
     ]
   },
   {
-    "source_id": "SRC111",
+    "source_id": "SRC109",
     "title": "The effects of implementing synoptic pathology reporting in cancer diagnosis: a systematic review",
     "authors_or_organization": "Sluijter CE, van Lonkhuijzen LRCW, van Slooten HJ, Nagtegaal ID, Overbeek LIH",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887530/ (Virchows Arch 2016;468:639-649; doi 10.1007/s00428-016-1935-8)",
@@ -2311,7 +2311,7 @@
     ]
   },
   {
-    "source_id": "SRC112",
+    "source_id": "SRC110",
     "title": "Adequacy of surgical pathology reporting of cancer: a College of American Pathologists Q-Probes study of 86 institutions",
     "authors_or_organization": "Idowu MO, Bekeris LG, Raab S, Ruby SG, Nakhleh RE (College of American Pathologists)",
     "url": "https://doi.org/10.5858/2009-0412-cp.1 (Arch Pathol Lab Med 2010;134:969-974; PMID 20586623)",
@@ -2332,7 +2332,7 @@
     ]
   },
   {
-    "source_id": "SRC113",
+    "source_id": "SRC111",
     "title": "Structured reporting of multiphasic CT for pancreatic cancer: potential effect on staging and surgical planning",
     "authors_or_organization": "Brook OR, Brook A, Vollmer CM, Kent TS, Sanchez N, Pedrosa I",
     "url": "https://doi.org/10.1148/radiol.14140206 (Radiology 2015;274:464-472; PMID 25286323)",
@@ -2353,7 +2353,7 @@
     ]
   },
   {
-    "source_id": "SRC114",
+    "source_id": "SRC112",
     "title": "Efficacy of a checklist-style structured radiology reporting template in reducing resident misses on cervical spine computed tomography examinations",
     "authors_or_organization": "Lin E, Powell DK, Kagetsu NJ",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4171436/ (J Digit Imaging 2014;27(5):588-593)",
@@ -2374,7 +2374,7 @@
     ]
   },
   {
-    "source_id": "SRC115",
+    "source_id": "SRC113",
     "title": "Prepopulated radiology report templates: a prospective analysis of error rate and turnaround time",
     "authors_or_organization": "Hawkins CM, Hall S, Hardin J, Salisbury S, Towbin AJ (Cincinnati Children's Hospital)",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3389086/ (J Digit Imaging 2012;25:504-511)",
@@ -2395,7 +2395,7 @@
     ]
   },
   {
-    "source_id": "SRC116",
+    "source_id": "SRC114",
     "title": "Style and content of CT and MR imaging lumbar spine reports: radiologist and clinician preferences",
     "authors_or_organization": "Eskander MG, Leung A, Lee D (London Health Sciences Centre, Ontario)",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7964006/ (AJNR Am J Neuroradiol 2010;31(10):1842-1847; doi 10.3174/ajnr.A2218)",
@@ -2416,7 +2416,7 @@
     ]
   },
   {
-    "source_id": "SRC117",
+    "source_id": "SRC115",
     "title": "Improving consistency in radiology reporting through the use of department-wide standardized structured reporting",
     "authors_or_organization": "Larson DB, Towbin AJ, Pryor RM, Donnelly LF (Cincinnati Children's Hospital)",
     "url": "https://doi.org/10.1148/radiol.12121502 (Radiology 2013;267:240-250; PMID 23329657)",
@@ -2437,7 +2437,7 @@
     ]
   },
   {
-    "source_id": "SRC118",
+    "source_id": "SRC116",
     "title": "State of structured reporting in radiology, a survey",
     "authors_or_organization": "Powell DK, Silberzweig JE",
     "url": "https://doi.org/10.1016/j.acra.2014.08.014 (Acad Radiol 2015;22:226-233; PMID 25442793)",
@@ -2458,7 +2458,7 @@
     ]
   },
   {
-    "source_id": "SRC119",
+    "source_id": "SRC117",
     "title": "Content analysis of reporting templates and free-text radiology reports",
     "authors_or_organization": "Hong Y, Kahn CE Jr",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3782601/ (J Digit Imaging 2013;26:843-849)",
@@ -2479,7 +2479,7 @@
     ]
   },
   {
-    "source_id": "SRC120",
+    "source_id": "SRC118",
     "title": "Cancer Protocol FAQs (CAP Cancer Protocol Templates)",
     "authors_or_organization": "College of American Pathologists",
     "url": "https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates/cancer-protocol-faqs",
@@ -2500,7 +2500,7 @@
     ]
   },
   {
-    "source_id": "SRC121",
+    "source_id": "SRC119",
     "title": "Adherence to synoptic cancer pathology reporting among pathologists in the National Department of Veterans Affairs Health Care System",
     "authors_or_organization": "Ould Ismail AA, Kale S, McGonagle K, Hill B, Pettus JR, DuVall SL, Ferraro JP, Schroeck FR",
     "url": "https://doi.org/10.5858/arpa.2024-0229-oa (Arch Pathol Lab Med 2025;149:727-733; PMC12182258)",
@@ -2521,7 +2521,7 @@
     ]
   },
   {
-    "source_id": "SRC122",
+    "source_id": "SRC120",
     "title": "Mandatory second opinion surgical pathology at a large referral hospital",
     "authors_or_organization": "Kronz JD, Westra WH, Epstein JI (Johns Hopkins)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/10590387/ (Cancer 1999;86(11):2426-2435); abstract read via Europe PMC REST API",
@@ -2542,7 +2542,7 @@
     ]
   },
   {
-    "source_id": "SRC123",
+    "source_id": "SRC121",
     "title": "Mandatory second opinion in surgical pathology referral material: clinical consequences of major disagreements",
     "authors_or_organization": "Manion E, Cohen MB, Weydert J (University of Iowa)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/18360282/ (Am J Surg Pathol 2008;32:732-737); abstract read via Europe PMC REST API",
@@ -2563,7 +2563,7 @@
     ]
   },
   {
-    "source_id": "SRC124",
+    "source_id": "SRC122",
     "title": "Impact of neuroradiologist second opinion on staging and management of head and neck cancer",
     "authors_or_organization": "Lysack JT, Hoy M, Hudon ME, Nakoneshny SC, Chandarana SP, Matthews TW, Dort JC",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3680178/ (J Otolaryngol Head Neck Surg 2013;42:39)",
@@ -2584,7 +2584,7 @@
     ]
   },
   {
-    "source_id": "SRC125",
+    "source_id": "SRC123",
     "title": "Reducing the rate of repeat imaging: import of outside images to PACS",
     "authors_or_organization": "Lu MT, Tellis WM, Fidelman N, Qayyum A, Avrin DE (UCSF)",
     "url": "https://doi.org/10.2214/ajr.11.6890 (AJR 2012;198:628-634; PMID 22358003)",
@@ -2605,7 +2605,7 @@
     ]
   },
   {
-    "source_id": "SRC126",
+    "source_id": "SRC124",
     "title": "40 CFR Part 312 - Innocent Landowners, Standards for Conducting All Appropriate Inquiries (7-1-20 edition)",
     "authors_or_organization": "U.S. Environmental Protection Agency (Code of Federal Regulations, via GovInfo)",
     "url": "https://www.govinfo.gov/content/pkg/CFR-2020-title40-vol30/pdf/CFR-2020-title40-vol30-part312.pdf",
@@ -2626,7 +2626,7 @@
     ]
   },
   {
-    "source_id": "SRC127",
+    "source_id": "SRC125",
     "title": "BI-RADS lexicon for US and mammography: interobserver variability and positive predictive value",
     "authors_or_organization": "Lazarus E, Mainiero MB, Schepps B, Koelliker SL, Livingston LS",
     "url": "https://doi.org/10.1148/radiol.2392042127 (Radiology 2006;239:385-391; PMID 16569780)",
@@ -2647,7 +2647,7 @@
     ]
   },
   {
-    "source_id": "SRC128",
+    "source_id": "SRC126",
     "title": "Structured Head and Neck CT Angiography Reporting Reduces Resident Revision Rates",
     "authors_or_organization": "Johnson TF, Brinjikji W, Doolittle DA, Nagelschneider AA, Welch BT, Kotsenas AL (Mayo Clinic)",
     "url": "https://doi.org/10.1067/j.cpradiol.2018.04.003 (Curr Probl Diagn Radiol 2019;48:114-116; PMID 29753407)",

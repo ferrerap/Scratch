@@ -1,11 +1,62 @@
 {
-  "run_folder": {"title": "Advisor Verification Research — 2026-11-15", "id": "1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk", "url": "https://drive.google.com/drive/folders/1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk", "permissions_checked": "owner only (verified 2026-11-15T18:36Z)"},
-  "subfolders": {
-    "00_Start_Here": {"id": "17yMHXNOxLEjpiY_RDZRYaF7_1kMdiJGP", "url": "https://drive.google.com/drive/folders/17yMHXNOxLEjpiY_RDZRYaF7_1kMdiJGP"},
-    "01_Evidence": {"id": "1rsJSfGoqp2cnvq5ATFXurgoQqc_HMiVc", "url": "https://drive.google.com/drive/folders/1rsJSfGoqp2cnvq5ATFXurgoQqc_HMiVc"},
-    "02_Workstreams": {"id": "17dsHbDJqgxbqg0WAi7aIy9stnKgbIJqX", "url": "https://drive.google.com/drive/folders/17dsHbDJqgxbqg0WAi7aIy9stnKgbIJqX"},
-    "03_Challenge_and_Followup": {"id": "1EMC3Js5-VsgSCMtOVFQpriKOeWddjIjG", "url": "https://drive.google.com/drive/folders/1EMC3Js5-VsgSCMtOVFQpriKOeWddjIjG"},
-    "04_Final_Handoff": {"id": "1By9GhfKWfC1KJsFy256kViNSg5B1hgX3", "url": "https://drive.google.com/drive/folders/1By9GhfKWfC1KJsFy256kViNSg5B1hgX3"}
+  "run_folder": {
+    "title": "Advisor Verification Research \u2014 2026-11-15",
+    "id": "1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk",
+    "url": "https://drive.google.com/drive/folders/1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk",
+    "permissions_checked": "owner only (verified 2026-11-15T18:36Z)"
   },
-  "uploads": []
+  "subfolders": {
+    "00_Start_Here": {
+      "id": "17yMHXNOxLEjpiY_RDZRYaF7_1kMdiJGP",
+      "url": "https://drive.google.com/drive/folders/17yMHXNOxLEjpiY_RDZRYaF7_1kMdiJGP"
+    },
+    "01_Evidence": {
+      "id": "1rsJSfGoqp2cnvq5ATFXurgoQqc_HMiVc",
+      "url": "https://drive.google.com/drive/folders/1rsJSfGoqp2cnvq5ATFXurgoQqc_HMiVc"
+    },
+    "02_Workstreams": {
+      "id": "17dsHbDJqgxbqg0WAi7aIy9stnKgbIJqX",
+      "url": "https://drive.google.com/drive/folders/17dsHbDJqgxbqg0WAi7aIy9stnKgbIJqX"
+    },
+    "03_Challenge_and_Followup": {
+      "id": "1EMC3Js5-VsgSCMtOVFQpriKOeWddjIjG",
+      "url": "https://drive.google.com/drive/folders/1EMC3Js5-VsgSCMtOVFQpriKOeWddjIjG"
+    },
+    "04_Final_Handoff": {
+      "id": "1By9GhfKWfC1KJsFy256kViNSg5B1hgX3",
+      "url": "https://drive.google.com/drive/folders/1By9GhfKWfC1KJsFy256kViNSg5B1hgX3"
+    }
+  },
+  "uploads": [
+    {
+      "file": "00_Start_Here/research_instructions.md",
+      "drive_folder": "00_Start_Here",
+      "id": "1p8vIW5nPSxZJeZe4rAuaD3vacXWNhVoP",
+      "url": "https://drive.google.com/file/d/1p8vIW5nPSxZJeZe4rAuaD3vacXWNhVoP/view",
+      "bytes_local": 12018,
+      "bytes_drive": 12018,
+      "verified": true,
+      "time": "18:37Z"
+    },
+    {
+      "file": "04_Final_Handoff/checkpoints/checkpoint_R1_2026-11-15T1855Z.zip",
+      "drive_folder": "02_Workstreams",
+      "id": "1a_HQkhK9Vg7H7pM4vSaxoR2pezwwwE1q",
+      "url": "https://drive.google.com/file/d/1a_HQkhK9Vg7H7pM4vSaxoR2pezwwwE1q/view",
+      "bytes_local": 541620,
+      "bytes_drive": 541620,
+      "verified": true,
+      "time": "18:55Z"
+    },
+    {
+      "file": "01_Evidence/evidence_digest_by_proposition.md (R1)",
+      "drive_folder": "01_Evidence",
+      "id": "11tg0PtCYgjx3wEIOdbTu5yD0rpZLw79C",
+      "url": "https://drive.google.com/file/d/11tg0PtCYgjx3wEIOdbTu5yD0rpZLw79C/view",
+      "bytes_local": 169592,
+      "bytes_drive": 169592,
+      "verified": true,
+      "time": "18:55Z"
+    }
+  ]
 }

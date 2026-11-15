@@ -1023,6 +1023,858 @@
   },
   {
     "evidence_id": "EVR034",
+    "source_id": "SRC018",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review driven by formal obligations; also P1.2 (missing evidence from vendor)",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Revised interagency MRM guidance states that vendor/third-party products (data, parameter values, complete models) remain subject to model risk management principles even though banks may not receive the vendor's code, data or methodology; sound practice includes validating vendor products (internally or by outside parties) and understanding conceptual soundness, design, development data and performance.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "US banking organizations supervised by FRB, FDIC, OCC; models including vendor products",
+    "study_or_observation_method": "Primary supervisory guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Supervisory expectation for treatment of vendor models",
+    "quantitative_result": null,
+    "source_locator": "SR 26-2 Attachment, Section VII 'Vendor and Other Third-Party Products', printed pp. 11-12",
+    "short_exact_excerpt": "because certain components may be proprietary, banking organizations may not receive from the vendor the underlying code, data, or methodology that they would have if a model were developed internally. Nevertheless, the principles of model risk management remain applicable.",
+    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
+    "limitations": "Guidance, not a rule; scope is models, not advisory reports; tailoring to risk/size is explicitly permitted.",
+    "transferability_to_target_workflow": "Mechanism transfers by analogy: a bank lender receiving an IE energy-yield model or a sponsor financial model faces the same 'opaque vendor product' problem. Difference: IE reports are typically not classified as bank 'models' under MRM; credit policy rather than MRM governs them. Verify whether lenders' MRM or credit policies treat third-party yield/financial models as in-scope.",
+    "analyst_inference": "The guidance treats opacity (missing code/data/methodology) as a known condition that does NOT relieve the obligation; it implies compensating work (benchmarking, outcome analysis) rises when evidence is missing. This is consistent with both P1.1 (obligation persists regardless) and P1.2 (missing evidence shapes how much compensating work is needed). It does not quantify either.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E01"
+  },
+  {
+    "evidence_id": "EVR035",
+    "source_id": "SRC018",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review driven by formal obligations (effective challenge)",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Guidance defines 'effective challenge' as critical analysis by objective experts with appropriate expertise, sufficient independence, and organizational standing and influence to effect change, throughout the model lifecycle.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "US banking organizations",
+    "study_or_observation_method": "Primary supervisory guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Definition of required independent challenge",
+    "quantitative_result": null,
+    "source_locator": "SR 26-2 Attachment, Section III 'Overview of Model Risk and Model Risk Management', printed p. 5",
+    "short_exact_excerpt": "“effective challenge,” which refers to the critical analysis conducted by objective experts who evaluate model risk and effect appropriate changes throughout the model lifecycle",
+    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
+    "limitations": "Defines a role, not the amount of work it entails.",
+    "transferability_to_target_workflow": "Credit committees and second-line risk functions in bank project-finance lending play an analogous challenge role. The requirement is about who challenges (independence, standing), which better evidence packaging cannot substitute for.",
+    "analyst_inference": "Challenge is defined by the challenger's independence and authority, not by the quality of the output under review; this is the clearest statement in my set that some review is structurally non-removable (W1).",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E02"
+  },
+  {
+    "evidence_id": "EVR036",
+    "source_id": "SRC018",
+    "research_question_ids": [
+      "RQ1",
+      "RQ4"
+    ],
+    "proposition_tested": "P1.4 Adaptation to recipient-specific policies/criteria; P4.1 heterogeneous customer-specific needs",
+    "work_type_tags": [
+      "W4"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Guidance anticipates that banks apply overlays or adjustments to vendor model output and customize vendor models to their specific business needs, and expects such adjustments to be documented, justified and evaluated as part of validation; ongoing monitoring/outcome analysis supports any overlay.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "US banking organizations using vendor models",
+    "study_or_observation_method": "Primary supervisory guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Expected treatment of overlays/customizations",
+    "quantitative_result": null,
+    "source_locator": "SR 26-2 Attachment, Section VII, printed p. 12",
+    "short_exact_excerpt": "Such analysis can also be used to support any overlay or adjustment to model output. In cases where vendor models are customized to fit a banking organization’s specific business needs, sound practice also involves appropriately documenting, justifying, and evaluating adjustments",
+    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
+    "limitations": "Does not indicate how common overlays are.",
+    "transferability_to_target_workflow": "Analogous to lenders converting an IE P50 into a lender/agency base or rating case (see WS2-E12, WS2-E14). The adaptation itself generates documentation work.",
+    "analyst_inference": "Adaptation (W4) is treated as normal and itself creates a documentation/validation burden, so W4 work is partly regulatory, not just preference.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E03"
+  },
+  {
+    "evidence_id": "EVR037",
+    "source_id": "SRC018",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Supervisory treatment of generative/agentic-AI-produced analysis is currently unsettled, so AI-based advisor outputs fall back on general risk governance rather than specific validation standards",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "Footnote states that generative AI and agentic AI models are not within the scope of the revised guidance, while the banking organization's risk management and governance practices should guide controls for tools not covered; principles apply to traditional and non-generative, non-agentic AI models.",
+    "relationship": "contextual",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "US banking organizations",
+    "study_or_observation_method": "Primary supervisory guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Scope of guidance",
+    "quantitative_result": null,
+    "source_locator": "SR 26-2 Attachment, footnote 3, printed p. 3",
+    "short_exact_excerpt": "Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance.",
+    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
+    "limitations": "Exclusion from scope is not a statement about required review intensity.",
+    "transferability_to_target_workflow": "An AI-generated diligence product delivered to a bank lender would not have a specific MRM validation standard under SR 26-2; banks would apply general governance. Verify how bank credit/model-risk teams actually classify LLM-generated diligence outputs.",
+    "analyst_inference": "Creates uncertainty about what evidence an AI-enabled advisor would need to supply to satisfy bank reviewers; may increase bespoke (customer-specific) review requirements.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E04"
+  },
+  {
+    "evidence_id": "EVR038",
+    "source_id": "SRC019",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P1.2 Avoidable reconstruction from missing evidence (qualifies); P2.4 visibility into limitations/assumptions",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "FDIC examiner procedures say institution standards for selecting vendor models may require vendor-supplied developmental evidence (components, design, intended use), testing results, clearly documented limitations and assumptions, and ongoing performance monitoring, AND institution validation of its use of the model including sensitivity analysis and benchmarking, plus internal outcomes analysis using the institution's own outcomes.",
+    "relationship": "qualifies",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "FDIC-supervised institutions with significant model use; examiners",
+    "study_or_observation_method": "Primary examination-procedure text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Examiner checks of vendor-model documentation and ongoing practices",
+    "quantitative_result": null,
+    "source_locator": "FDIC Model Risk Management Core Analysis Procedures, Page 2 of 11 (policy standards for selecting vendor models) and Page 3 of 11, Procedures 6-7 'Vendor Models'",
+    "short_exact_excerpt": "Developmental evidence from the vendor explaining the product components, design, and intended use to determine whether the model is appropriate for the institution",
+    "underlying_evidence_group": "EG:fdic-mrm-exam-module-2025",
+    "limitations": "Examiners need not perform every procedure; not evidence of practice. References SR 11-7, since superseded.",
+    "transferability_to_target_workflow": "Close analogue for an advisor-evidence standard: the supervisor lists the kinds of supplier evidence (design, testing, limitations, assumptions) that make a third-party product reviewable. Difference: an IE/advisor report is not usually a 'model' under MRM; the receiving lender's validation still includes its own sensitivity/benchmarking.",
+    "analyst_inference": "Regulators expect supplier transparency to ENABLE recipient review, not to REPLACE it: both vendor evidence and institution validation are listed. Supports a version of the thesis where traceability changes the type of review (assessment vs reconstruction) rather than eliminating it.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E05"
+  },
+  {
+    "evidence_id": "EVR039",
+    "source_id": "SRC020",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review driven by formal obligations; qualifies P1.2 (analysis itself may be delegated)",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "OCC guidance implementing Dodd-Frank s.939A says institutions may rely on third parties for much of the analytical work in credit due diligence on investment securities, but management may not delegate its decision-making responsibility and should ensure third parties are independent, reliable and qualified; depth of due diligence scales with credit quality, structural complexity and size.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "National banks and federal savings associations purchasing investment securities",
+    "study_or_observation_method": "Primary guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Supervisory expectation for pre-purchase due diligence",
+    "quantitative_result": null,
+    "source_locator": "77 FR 35261 (Text of Final Supervisory Guidance, pre-purchase due diligence)",
+    "short_exact_excerpt": "While analytical support may be delegated to third parties, management may not delegate its responsibility for decision-making and should ensure that prospective third parties are independent, reliable, and qualified.",
+    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
+    "limitations": "Securities context; does not say how much review of third-party analysis is needed.",
+    "transferability_to_target_workflow": "Directly transferable principle for lenders using IE/market/insurance advisors: analysis may be outsourced; the decision and the vetting of the advisor's independence/qualifications may not.",
+    "analyst_inference": "Important discrimination: the regulator does NOT require reconstruction of outside analysis; the non-delegable core is the decision plus advisor vetting. Retained work is therefore partly 'decision ownership' (W1) and partly 'advisor qualification' review, not necessarily re-performance.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E06"
+  },
+  {
+    "evidence_id": "EVR040",
+    "source_id": "SRC020",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.2 Missing evidence increases review (weak support)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Guidance on ongoing portfolio reviews says third-party vendors may provide risk analysis and benchmarks, and that holdings where current financial information or key analytical data is unavailable should warrant more frequent analysis; material positions/concentrations warrant deeper assessment.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "National banks/FSAs, ongoing investment portfolio reviews",
+    "study_or_observation_method": "Primary guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Expected review frequency/intensity",
+    "quantitative_result": null,
+    "source_locator": "77 FR 35262 (ongoing reviews section)",
+    "short_exact_excerpt": "Holdings where current financial information or other key analytical data is unavailable should warrant more frequent analysis.",
+    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
+    "limitations": "Normative statement; no measurement.",
+    "transferability_to_target_workflow": "Suggests that in credit monitoring, data gaps (not advisor quality per se) are what regulators tie to extra review. Transfers to operating-asset monitoring of renewable portfolios.",
+    "analyst_inference": "Ties review intensity to information availability and materiality, not to trust in the provider. Weak support for P1.2 as an expectation, not as observed behavior.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E07"
+  },
+  {
+    "evidence_id": "EVR041",
+    "source_id": "SRC021",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review driven by formal obligations regardless of outside-analysis quality",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Post-939A OCC regulation defines 'investment grade' by the issuer's adequate capacity to meet commitments (low default risk, full and timely repayment expected) rather than by a credit rating, requires the bank to determine there is adequate evidence of the obligor's capacity to pay, and to maintain records adequate to demonstrate it meets the requirements.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "National banks (12 CFR Part 1)",
+    "study_or_observation_method": "Primary regulatory text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Legal requirement for bank's own creditworthiness determination and records",
+    "quantitative_result": null,
+    "source_locator": "12 CFR 1.2(d); 12 CFR 1.5(b)-(c)",
+    "short_exact_excerpt": "the bank shall determine that there is adequate evidence that an obligor possesses resources sufficient to provide for all required payments on its obligations",
+    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
+    "limitations": "Same regulatory package as WS2-S03; the 2026 amendment to 1.5 not examined.",
+    "transferability_to_target_workflow": "Example where law mandates the recipient's own determination and documentation even when high-quality outside analysis (a rating) exists. Similar documentation duties apply in bank credit files for project loans via safety-and-soundness standards.",
+    "analyst_inference": "The records requirement means some recipient work (documenting the basis for the determination in the bank's own file) persists regardless of advisor transparency; traceable advisor evidence could make that documentation cheaper but cannot remove the duty.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E08"
+  },
+  {
+    "evidence_id": "EVR042",
+    "source_id": "SRC022",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Accountability for outsourced work cannot be transferred",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Interagency guidance states that a banking organization's use of third parties does not diminish its responsibility to meet legal/regulatory requirements to the same extent as if the activities were performed in-house, and that use of third parties does not remove the need for sound risk management.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "All banking organizations supervised by FRB, FDIC, OCC",
+    "study_or_observation_method": "Primary guidance text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Supervisory principle on accountability for third-party relationships",
+    "quantitative_result": null,
+    "source_locator": "88 FR 37920 et seq., guidance Section I/II introduction (exact page not pinned)",
+    "short_exact_excerpt": "use of third parties does not diminish its responsibility to meet these requirements to the same extent as if its activities were performed by the banking organization in-house.",
+    "underlying_evidence_group": "EG:interagency-tprm-2023",
+    "limitations": "Concerns outsourced activities generally; analogy for purchased analysis.",
+    "transferability_to_target_workflow": "Transfers as a general accountability principle to lenders relying on IEs and other advisors; does not specify how to evaluate an advisor's report.",
+    "analyst_inference": "Reinforces that accountability, not analytic capacity, anchors retained review. Analogy only.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E09"
+  },
+  {
+    "evidence_id": "EVR043",
+    "source_id": "SRC023",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Formal obligations require both outside expert verification and lender's own assessment",
+    "work_type_tags": [
+      "W1",
+      "W3"
+    ],
+    "concept_tags": [],
+    "observed_finding": "EBA guidelines on project finance require institutions to assess the project's cash flows as the primary repayment source themselves, establish that the borrower's development costs were verified by an independent expert, ensure borrower-provided cost calculations include contingencies, and assess equity investors.",
+    "relationship": "supports",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "EU credit institutions; project finance lending (Section 5.2.11)",
+    "study_or_observation_method": "Primary guidelines text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Required elements of creditworthiness assessment",
+    "quantitative_result": null,
+    "source_locator": "EBA/GL/2020/06, Section 5.2.11 'Project finance', paras 187-192, pp. 48-49",
+    "short_exact_excerpt": "has a plausible business plan, including a rationale for the development and a projection of all costs associated with the development verified by an independent expert;",
+    "underlying_evidence_group": "EG:eba-lom-2020",
+    "limitations": "Guideline text; does not specify how institutions should use the independent expert's report.",
+    "transferability_to_target_workflow": "Directly relevant to renewable project lenders in the EU: regulation simultaneously mandates outside expert verification and the lender's own cash-flow assessment, creating a layered structure (sponsor analysis -> independent expert -> lender assessment -> credit committee).",
+    "analyst_inference": "The regulatory design presumes outside expert work is an input to, not a substitute for, the lender's assessment; so at least part of retained lender work is W1 by design. It also implicitly assumes borrower-provided figures can be incomplete (contingencies), i.e., W3 risk.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E10"
+  },
+  {
+    "evidence_id": "EVR044",
+    "source_id": "SRC023",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 / contextual: outside analysis admissible as input within lender's own assessment",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Guidelines allow institutions to use information from third parties such as tax advisors, auditors and other experts, together with borrower information, when assessing borrowers likely to face financial difficulties.",
+    "relationship": "contextual",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "EU credit institutions",
+    "study_or_observation_method": "Primary guidelines text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Admissible information sources",
+    "quantitative_result": null,
+    "source_locator": "EBA/GL/2020/06, para. 91, p. 34",
+    "short_exact_excerpt": "both information from third parties, such as tax advisors, auditors and other experts, and information from borrowers may be used.",
+    "underlying_evidence_group": "EG:eba-lom-2020",
+    "limitations": "Narrow context (borrowers likely to face difficulties).",
+    "transferability_to_target_workflow": "Shows regulators frame outside expert work as evidence the lender weighs, not as a conclusion it adopts.",
+    "analyst_inference": "Contextual; consistent with E10.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E11"
+  },
+  {
+    "evidence_id": "EVR045",
+    "source_id": "SRC024",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3"
+    ],
+    "proposition_tested": "P1.4 Adaptation to receiver's own criteria is a major driver of retained work",
+    "work_type_tags": [
+      "W4"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Fitch's 2012 renewable criteria (as presented) placed considerable emphasis on resource assessments and independent engineer reports, then applied its own Base Case (energy production subject to a 0%-10% adjustment; availability and O&M adjustments) and a Rating Case (one-year P90 energy production with other potential production adjustments, availability decreases, O&M increases), with indicative 'BBB' DSCR thresholds by technology (e.g., wind base >=1.60x, rating case >=1.30x).",
+    "relationship": "supports",
+    "evidence_type": "rating agency methodology description (practitioner presentation of criteria)",
+    "population_and_setting": "Fitch-rated renewable project debt (>US$44bn loan issuances/requests; >25 GW) as of 2012",
+    "study_or_observation_method": "Presentation of rating criteria",
+    "intervention_and_comparator": null,
+    "outcome_measured": "How the agency converts third-party production forecasts into its own cases",
+    "quantitative_result": "Base case energy adjustment 0%-10%; rating case one-year P90; indicative BBB DSCR (base/rating): PV >=1.40x/>=1.30x; CSP >=1.50x/>=1.40x; wind >=1.60x/>=1.30x; biomass/geothermal >=1.60x/>=1.40x",
+    "source_locator": "Slides 2 ('Rating Approach'), 6 ('Technology Risk Comparison'), 7 ('Financial Analysis'), 8 ('Indicative BBB Category Coverage Ratios')",
+    "short_exact_excerpt": "One-year P90 energy production with other potential production adjustments",
+    "underlying_evidence_group": "EG:fitch-renewable-criteria-2012-presentation",
+    "limitations": "2012 criteria; current criteria may differ. Slides, not the criteria document.",
+    "transferability_to_target_workflow": "Core mechanism transfers directly: credit receivers re-cut IE output into their own cases rather than adopting the IE's base case. What transfers to an advisor product is the need to supply exceedance distributions (P50/P90/P99, one-year vs ten-year) and adjustable inputs so the receiver can apply its own criteria without reconstruction.",
+    "analyst_inference": "This is W4 rather than W2/W3: the agency uses the IE's distribution as given and applies house haircuts. An advisor output that exposes uncertainty (X4) in the receiver's required format could reduce reconstruction but the adaptation step itself is policy and persists.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E12"
+  },
+  {
+    "evidence_id": "EVR046",
+    "source_id": "SRC025",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.4 Adaptation to receiver criteria (supports); P1.3 rework due to inaccurate advisor output (qualifies)",
+    "work_type_tags": [
+      "W4"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Fitch's rating case for a single-site solar project uses a one-year P90 generation estimate, keeps a 2% production haircut 'in line with peer projects', tests a one-year P99 scenario, and adds O&M cost stresses; the release also reports that actual generation outperformed Fitch's base case in each of the last seven years (average ~7% annual overperformance, per the fetched text).",
+    "relationship": "qualifies",
+    "evidence_type": "rating action commentary (receiver's applied criteria on one asset)",
+    "population_and_setting": "Topaz Solar Farms LLC senior notes (single US solar project)",
+    "study_or_observation_method": "Published rating action commentary",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Rating-case assumptions; actual vs Fitch base case generation",
+    "quantitative_result": "Base case DSCR avg 2.21x (min 1.92x) 2023-2039; rating case avg 1.96x (min 1.70x); production haircut 2%; actual generation above Fitch base case in each of last 7 years, average overperformance 7% (as returned by fetch tool)",
+    "source_locator": "Rating action text (paragraphs on rating case and performance); exact paragraph not pinned",
+    "short_exact_excerpt": "Fitch has maintained the production haircut at 2% given that this is a single-site project, in line with peer projects.",
+    "underlying_evidence_group": "EG:fitch-topaz-rac-2024",
+    "limitations": "Single asset; read via fetch tool with truncated quotes; no mention of the independent engineer.",
+    "transferability_to_target_workflow": "Shows house haircuts are peer-calibrated criteria applied uniformly, not responses to a specific IE error. In the target workflow, lender haircuts on IE P50/P90 would similarly persist even with a perfect, fully traceable IE report.",
+    "analyst_inference": "Counterweight to reading haircuts as evidence of advisor inaccuracy (W3): here the receiver's adjusted case was conservative relative to outcomes. Receiver adaptation (W4) is criteria-driven and would not be removed by traceability.",
+    "access_status": "partial",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E13"
+  },
+  {
+    "evidence_id": "EVR047",
+    "source_id": "SRC026",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.3 Rework/discounting due to inaccurate outside forecasts",
+    "work_type_tags": [
+      "W3",
+      "W4"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "News report of the kWh Analytics 2021 Solar Generation Index: across more than 350 operational US solar assets (>10 GW, owned by 15 of the 20 largest owners), operational systems underperformed P50 estimates by 5-13% between 2011 and 2020, with performance notably worsening since 2016; variance of P50 estimates decreased.",
+    "relationship": "supports",
+    "evidence_type": "observational industry dataset (secondary report)",
+    "population_and_setting": ">350 US operational solar assets, >10 GW, 2011-2020",
+    "study_or_observation_method": "Comparison of weather-adjusted actual generation with pre-construction P50 estimates (method as reported)",
+    "intervention_and_comparator": "Actual vs P50 estimate",
+    "outcome_measured": "Weather-adjusted production relative to P50",
+    "quantitative_result": "Underperformance vs P50 of 5-13% (range by year), 2011-2020; >350 assets; no CI reported",
+    "source_locator": "PV Tech article body (not paginated)",
+    "short_exact_excerpt": "operational solar systems underperformed P50 estimates by between 5 – 13%",
+    "underlying_evidence_group": "EG:kwh-analytics-sgi-2021",
+    "limitations": "Secondary report, read via fetch tool; does not identify whether P50s came from lender IEs or sponsor consultants; vendor-produced dataset.",
+    "transferability_to_target_workflow": "Highly relevant to renewable credit: a documented systematic bias in outside energy forecasts gives lenders a rational (not ritual) reason to discount or re-check yield reports. Needs verification against the original kWh report and whether bias persisted after 2021.",
+    "analyst_inference": "Supports P1.3 as a reason review persists in this specific domain, and shows X5 (correctness) is distinct from X3/X4: a perfectly traceable P50 can still be biased. Traceability would help detect method choices behind bias, but only outcome data revealed the bias.",
+    "access_status": "partial",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E14"
+  },
+  {
+    "evidence_id": "EVR048",
+    "source_id": "SRC027",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.3 Inaccurate outside forecasts drive receiver discounting (lead only)",
+    "work_type_tags": [
+      "W3",
+      "W4"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Search-result summaries of KBRA's July 2022 research describe its portfolio of 70 rated renewable transactions as having generation rarely in line with P50 levels, with solar projects performing most closely to P90 forecasts relative to other sectors.",
+    "relationship": "supports",
+    "evidence_type": "rating agency portfolio analysis (seen only via search summaries)",
+    "population_and_setting": "70 KBRA-rated renewable transactions (as summarized)",
+    "study_or_observation_method": "Portfolio performance review (as summarized)",
+    "intervention_and_comparator": "Actual vs P50/P90",
+    "outcome_measured": "Generation relative to forecast exceedance levels",
+    "quantitative_result": "70 transactions (as summarized); no effect sizes seen",
+    "source_locator": "not located (full report login-gated)",
+    "short_exact_excerpt": null,
+    "underlying_evidence_group": "EG:kbra-renewable-portfolio-2022",
+    "limitations": "Unverified; only search-engine paraphrases seen. Do not weight heavily.",
+    "transferability_to_target_workflow": "If confirmed, it corroborates WS2-E14 from an independent receiver (rating agency) and explains why agencies anchor on P90 rather than IE P50.",
+    "analyst_inference": "Independent-group corroboration of forecast bias would strengthen P1.3 for renewables, but access limits mean this is a lead for the coordinator to verify.",
+    "access_status": "other",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E15"
+  },
+  {
+    "evidence_id": "EVR049",
+    "source_id": "SRC028",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3"
+    ],
+    "proposition_tested": "P1.1 / P1.3: lenders procure their own technical reviewer to validate sponsor-supplied studies and models",
+    "work_type_tags": [
+      "W1",
+      "W2",
+      "W3"
+    ],
+    "concept_tags": [],
+    "observed_finding": "A CDFI lender's RFP seeks engineering partners to support underwriting by evaluating sites, solar resource outputs and developer-submitted technical studies, and to provide technical validation of project financial models, ensuring assumptions are realistic and within market ranges; plus construction draw approvals and ongoing performance monitoring.",
+    "relationship": "supports",
+    "evidence_type": "procurement document (actual scope of work)",
+    "population_and_setting": "Hope Enterprise Corporation commercial/community/multifamily solar lending in Arkansas and Mississippi (EPA Solar for All grantee)",
+    "study_or_observation_method": "Review of RFP scope of work",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Advertised engineering scope for lender underwriting",
+    "quantitative_result": null,
+    "source_locator": "RFP p. 3, 'Scope of Work' item 1 'Technical Assessment of Projects During the Underwriting Phase (Front-End Due Diligence)'",
+    "short_exact_excerpt": "Provide technical validation for project financial models, ensuring assumptions are realistic and within current market ranges.",
+    "underlying_evidence_group": "EG:hope-sfa-engineering-rfp-2025",
+    "limitations": "One lender; advertised scope not actual practice; no reliance language.",
+    "transferability_to_target_workflow": "Directly in the target domain: the lender adds its own outside reviewer as a layer to check sponsor-supplied analysis (resource outputs, models). Shows that recipient review of outside analysis is itself partly outsourced, so 'recipient work' includes procuring and reading a second advisor's review.",
+    "analyst_inference": "Layered verification (sponsor study -> lender's engineer -> lender credit) suggests reviewer work is distributed across parties. Whether the layer exists because sponsor studies lack evidence (W2), are biased (W3), or because policy requires independence (W1) is not stated; the phrase 'realistic and within current market ranges' points to benchmarking against the lender's own reference ranges (W4).",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E16"
+  },
+  {
+    "evidence_id": "EVR050",
+    "source_id": "SRC028",
+    "research_question_ids": [
+      "RQ6",
+      "RQ5"
+    ],
+    "proposition_tested": "P6.1 / P5.1 (contextual): buyer pricing structure for verification services",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "The RFP requests per-project pricing for underwriting support, construction support and monitoring, and weights evaluation as Technical Approach & Expertise 40%, Past Experience 20%, Capacity & Capability 20%, Cost Proposal 20% (with preference for per-project payment structures).",
+    "relationship": "contextual",
+    "evidence_type": "procurement document (buyer evaluation criteria)",
+    "population_and_setting": "Hope Enterprise Corporation",
+    "study_or_observation_method": "Review of RFP evaluation criteria",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Buyer evaluation weights and pricing format",
+    "quantitative_result": "Technical 40%; experience 20%; capacity 20%; cost 20%",
+    "source_locator": "RFP p. 4 ('Cost Proposal') and p. 5 ('Evaluation Criteria')",
+    "short_exact_excerpt": "Cost Proposal (20%) – Competitive pricing with preference for per-project payment structure",
+    "underlying_evidence_group": "EG:hope-sfa-engineering-rfp-2025",
+    "limitations": "One buyer; stated weights, not purchase outcome.",
+    "transferability_to_target_workflow": "Indicates at least one renewable lender buys technical verification per project, with expertise weighted above price; bears on how a more traceable advisor product might be priced, but says nothing about willingness to pay for traceability.",
+    "analyst_inference": "Contextual only; no evidence that reduced recipient effort affects price.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E17"
+  },
+  {
+    "evidence_id": "EVR051",
+    "source_id": "SRC029",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 (qualifies): law protects good-faith reliance on selected experts rather than requiring re-performance; P1.6",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Delaware law provides that directors are fully protected in relying in good faith on reports or opinions presented by any person as to matters the director reasonably believes are within that person's professional or expert competence and who was selected with reasonable care.",
+    "relationship": "qualifies",
+    "evidence_type": "statute (legal standard)",
+    "population_and_setting": "Directors of Delaware corporations",
+    "study_or_observation_method": "Statutory text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Legal protection for reliance",
+    "quantitative_result": null,
+    "source_locator": "8 Del. C. s.141(e)",
+    "short_exact_excerpt": "by any other person as to matters the member reasonably believes are within such other person’s professional or expert competence and who has been selected with reasonable care by or on behalf of the corporation.",
+    "underlying_evidence_group": "EG:dgcl-141e",
+    "limitations": "Case law on limits (good faith, obvious red flags, being informed) not retrieved.",
+    "transferability_to_target_workflow": "Corporate-board analogue for an IC: legal accountability is satisfied by careful selection, competence assessment and good faith, not by redoing expert work. Lender credit committees operate under different (regulatory) standards (WS2-E06, E10).",
+    "analyst_inference": "Legal frameworks reward documented, good-faith reliance; this points to retained work centered on selecting/vetting the expert and understanding the report, which is the part traceability and scope disclosure could plausibly support. Excess re-performance beyond this may reflect P1.6 (comfort) or rational risk aversion; not tested here.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E18"
+  },
+  {
+    "evidence_id": "EVR052",
+    "source_id": "SRC030",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3"
+    ],
+    "proposition_tested": "P1.2 (qualifies): receiving an outside report converts de novo work into confirmatory work",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Practitioner argues that buyers' initial diligence would be accelerated by a vendor due diligence report and that it is generally much easier and cheaper to confirm a VDD report than to prepare one de novo; buyers' advisors can focus on major issues.",
+    "relationship": "qualifies",
+    "evidence_type": "practitioner account (opinion, no data)",
+    "population_and_setting": "US private equity M&A (sell-side vendor due diligence)",
+    "study_or_observation_method": "Practitioner article",
+    "intervention_and_comparator": "Vendor DD report vs buyer's de novo diligence",
+    "outcome_measured": "Asserted effort/cost of buyer diligence",
+    "quantitative_result": null,
+    "source_locator": "Article sections 'Benefits' and 'Professional Liability Issue' (web page, not paginated)",
+    "short_exact_excerpt": "it is generally much easier and cheaper to confirm a VDDR report than to prepare one de novo.",
+    "underlying_evidence_group": "EG:rosen-2018-vddr",
+    "limitations": "One practitioner's view; no measurement.",
+    "transferability_to_target_workflow": "Analogous to equity investors receiving a sponsor-commissioned IE report in renewable M&A: confirmation rather than re-performance. The size of the saving depends on what the report exposes (scope, data) - not addressed.",
+    "analyst_inference": "Suggests the relevant comparison for value is confirmatory vs de novo effort; traceability would matter by lowering confirmation cost. Not evidence of magnitude.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E19"
+  },
+  {
+    "evidence_id": "EVR053",
+    "source_id": "SRC030",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.4 Recipient-specific materiality/criteria; P1.1/P1.6 reliance and accountability limits",
+    "work_type_tags": [
+      "W1",
+      "W4"
+    ],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "Practitioner describes US non-reliance letters for vendor DD reports: preparers did not consult recipients on scope, recipients may have different interests and views of materiality, recipients use the report at their own risk and waive claims; US advisors cannot or will not create a client relationship with unknown third parties (unlike European practice of granting reliance with liability caps).",
+    "relationship": "supports",
+    "evidence_type": "practitioner account (describes contract practice)",
+    "population_and_setting": "US vs European M&A vendor due diligence",
+    "study_or_observation_method": "Practitioner article",
+    "intervention_and_comparator": "US non-reliance vs European reliance practice",
+    "outcome_measured": "Reliance terms",
+    "quantitative_result": null,
+    "source_locator": "Article section 'Professional Liability Issue' (web page, not paginated)",
+    "short_exact_excerpt": "it is possible that the recipient may have different interests and views of materiality from those expressed by the preparer of the report.",
+    "underlying_evidence_group": "EG:rosen-2018-vddr",
+    "limitations": "Opinion piece; contract terms described generically.",
+    "transferability_to_target_workflow": "In renewable M&A and financing, reliance letters from IEs to lenders are a negotiated item; where reliance is unavailable, recipients rationally commission their own work. Scope set without the recipient is a structural cause of W4 (materiality mismatch) and of uncertainty about coverage (X4).",
+    "analyst_inference": "Two drivers of retained work that traceability alone cannot fix: (1) legal reliance/liability allocation; (2) scope and materiality chosen by someone else. Visibility into scope (X4) would help the recipient know what to redo but not change the reliance position.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E20"
+  },
+  {
+    "evidence_id": "EVR054",
+    "source_id": "SRC031",
+    "research_question_ids": [
+      "RQ3",
+      "RQ2"
+    ],
+    "proposition_tested": "P3.2 Integration/AI shifts review effort (supports); P3.3 drafting separable from judgment (supports, vendor claim)",
+    "work_type_tags": [
+      "W5",
+      "W1"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Vendor describes AI drafting IC memos in the firm's own template with datapoint-level citations that click through to source records/data-room documents and automated tie-out checks; it states the associate's job shifts from assembling to editing (checking judgment calls, thesis, risks), with partner/IC review retained, and elapsed time to an IC-ready draft compressing from days to hours.",
+    "relationship": "supports",
+    "evidence_type": "vendor case study / product description",
+    "population_and_setting": "Private equity deal teams (vendor-named customers)",
+    "study_or_observation_method": "Vendor web page",
+    "intervention_and_comparator": "AI-drafted memo vs manual assembly (implied)",
+    "outcome_measured": "Elapsed time to IC-ready draft; role change",
+    "quantitative_result": "Qualitative only: 'days to hours'; no denominators, method, or error outcomes",
+    "source_locator": "Web page section 'What changes for the deal team'",
+    "short_exact_excerpt": "The associate's job shifts from assembling the memo to editing it: checking judgment calls, sharpening the investment thesis, and pressure-testing risks, with the mechanical layer (structure, sourcing, tie-outs, formatting) already done.",
+    "underlying_evidence_group": "EG:modelml-ic-memo-2026",
+    "limitations": "Vendor marketing; no measurement; no evidence on error detection.",
+    "transferability_to_target_workflow": "The claimed mechanism (template-conforming drafting + click-through citations) is the integration hypothesis in vendor form. In renewable IC/credit memos the same split applies, but technical judgment on IE findings remains with the reviewer.",
+    "analyst_inference": "Even the vendor frames integration as relocating effort to editing/verification rather than removing review. 'Click-through to source' is X3, not evidence of X5. Time claim concerns drafting (W5) only.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E21"
+  },
+  {
+    "evidence_id": "EVR055",
+    "source_id": "SRC032",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3",
+      "RQ4"
+    ],
+    "proposition_tested": "P1.5 Reformatting/integration is material; P4.1 heterogeneous house formats",
+    "work_type_tags": [
+      "W5",
+      "W4"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Survey of 54 investment organizations (June 2022): 97% use investment memos for decisions; of those, 78% require memo completion and review before investing; 86% use standard templates, and the template is practically never the same for any two investors; on average a team takes two months to complete memo writing and review (range two weeks to a year).",
+    "relationship": "supports",
+    "evidence_type": "industry survey plus case studies (self-report)",
+    "population_and_setting": "54 professional investment organizations (survey); 4 pension funds, 1 endowment, 1 multi-family office (case studies)",
+    "study_or_observation_method": "Online survey with Stanford Initiative in Long-Term Investing; six 60-minute interviews",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Memo prevalence, templates, time to complete",
+    "quantitative_result": "97% use memos (n=54 orgs); 78% of those require memo completion/review; 86% standard templates; average ~2 months writing+review (interview-reported); no CIs",
+    "source_locator": "Section 6 'Findings', p. 6 and footnote 3; 'Writing' paragraph, p. 7",
+    "short_exact_excerpt": "The majority of firms (86%) also stated that they use standard templates for memos.",
+    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
+    "limitations": "Convenience sample incl. vendor clients; asset owners rather than lenders; two-month figure is an interview impression; memo time includes analysis, not just formatting.",
+    "transferability_to_target_workflow": "Transfers as evidence that IC materials are firm-specific; an outside advisor's output must be mapped into a template unique to each recipient. Renewable lenders/investors not specifically sampled.",
+    "analyst_inference": "Firm-specific templates make W5 integration a customer-specific implementation problem (P4.1) and limit repeatable delivery (P5.1). The two-month figure cannot be split into W1 vs W5.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E22"
+  },
+  {
+    "evidence_id": "EVR056",
+    "source_id": "SRC032",
+    "research_question_ids": [
+      "RQ3",
+      "RQ1"
+    ],
+    "proposition_tested": "P3.3 Drafting separable from judgment (stated preference); P1.1 governance concern about outsourced memos",
+    "work_type_tags": [
+      "W5",
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Respondents cited the 'pain' (time and resources) of writing an approvable memo and suggested automating memo writing by populating fields from other systems, possibly with generative AI, leaving writers only higher-order analysis and recommendations; authors flag as a possible governance failure a case where memos were written by external consultants for non-expert trustees whose work could not be independently validated.",
+    "relationship": "supports",
+    "evidence_type": "industry survey/case studies (stated preferences and observations)",
+    "population_and_setting": "Same as WS2-E22",
+    "study_or_observation_method": "Survey open responses and case interviews",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Desired improvements; governance observations",
+    "quantitative_result": null,
+    "source_locator": "Section 6 'Improving' and governance paragraph, p. 7",
+    "short_exact_excerpt": "in one case we found investment memos were written by external consultants for non-expert trustees — a process that could represent a failure of governance should consultants not be properly credentialed or their work couldn’t be independently validated.",
+    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
+    "limitations": "Stated preference, not observed effect; single governance anecdote.",
+    "transferability_to_target_workflow": "Suggests IC users themselves separate mechanical memo assembly (automatable) from analysis/recommendation (retained), and that fully outsourcing the memo to an outside party raises governance concerns - relevant to how far an advisor should go in writing the client's IC memo.",
+    "analyst_inference": "Supports P3.3 as a perception; also a boundary condition: integration that substitutes for the client's own analysis could weaken governance rather than reduce legitimate work.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E23"
+  },
+  {
+    "evidence_id": "EVR057",
+    "source_id": "SRC032",
+    "research_question_ids": [
+      "RQ3"
+    ],
+    "proposition_tested": "P3.1 Integration reduces end-to-end work (absence of evidence)",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "Authors state there is practically no published academic or industry research on crafting or using investment memos, and report zero peer-reviewed journal articles on investment memos in Google Scholar as of March 2023.",
+    "relationship": "contextual",
+    "evidence_type": "author literature check",
+    "population_and_setting": "Published literature on investment memos",
+    "study_or_observation_method": "Authors' Google Scholar check",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Count of peer-reviewed articles",
+    "quantitative_result": "0 peer-reviewed articles found (authors' check, March 2023)",
+    "source_locator": "Section 1 'Welcome', p. 1, footnote 1",
+    "short_exact_excerpt": "Google Scholar has zero peer-reviewed journal articles on investment memos as of March 2023.",
+    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
+    "limitations": "Informal check; may miss adjacent literatures (credit committee decision-making, group decision research).",
+    "transferability_to_target_workflow": "Signals that evidence on whether advisor-to-IC-memo integration reduces end-to-end work is unlikely to exist in public research; field observation would be needed.",
+    "analyst_inference": "Absence of evidence, not evidence of absence, for P3.1.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E24"
+  },
+  {
+    "evidence_id": "EVR058",
+    "source_id": "SRC033",
+    "research_question_ids": [
+      "RQ2",
+      "RQ3"
+    ],
+    "proposition_tested": "P2.4 Scope/assurance-level visibility supports reliance (practitioner assertion); P3.2 AI adds review need",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "Model-audit provider states AI is entering both spreadsheet development and review, that large language models can produce plausible yet unreliable outputs on complex spreadsheet logic, that the 'model auditor' title is unregulated, and that a standards-based (ISAE 3000 + ISQM 1) model audit clarifies scope and level of assurance and provides evidence of work performed.",
+    "relationship": "supports",
+    "evidence_type": "practitioner account (service provider assertion, no data)",
+    "population_and_setting": "Project finance financial model audit market (UK)",
+    "study_or_observation_method": "Thought-leadership web page",
+    "intervention_and_comparator": "Standards-based model audit vs unregulated model review (asserted)",
+    "outcome_measured": "Credibility/bankability of model audit opinions (asserted)",
+    "quantitative_result": null,
+    "source_locator": "Web page, paragraphs under 'Artificial intelligence (AI) is changing the workflow' and standards paragraph",
+    "short_exact_excerpt": "It clarifies the scope and level of assurance, provides evidence of work performed, embeds quality controls and supports opinions that are both durable and bankable.",
+    "underlying_evidence_group": "EG:forvismazars-model-audit-ai-2025",
+    "limitations": "Self-interested assertion; no evidence of effect on lender review effort or error detection.",
+    "transferability_to_target_workflow": "In renewable project finance, lenders typically rely on model audits of sponsor models; the claim that explicit scope and assurance level is what makes a third-party opinion 'bankable' maps directly onto X4. Needs lender-side confirmation.",
+    "analyst_inference": "Practitioner framing aligns with X4 (scope/assurance visibility) as the reliance enabler, separate from X1 persuasive explanation. Also notes AI-generated logic may increase, not decrease, need for independent review (P3.2).",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E25"
+  },
+  {
+    "evidence_id": "EVR059",
+    "source_id": "SRC034",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P-NEW: Public lenders may rely heavily on borrower-paid third-party advisors with limited visibility into advisor provenance/conflicts, so the gap is under-verification of the advisor rather than over-review of the analysis",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X3",
+      "X4"
+    ],
+    "observed_finding": "DOE OIG found the Loan Programs Office contracts third-party advisors for financial/credit, engineering/technical and market reports and relies on their work as essential components of the loan application process while prospective borrowers pay; a limited pool of qualified firms means some advisors also work for applicants; for 18 projects reviewed, LPO could identify the engineering advisors for only 3 and the marketing/financial advisors for none; reliance on advisors' self-identification of conflicts 'creates a blind spot'.",
+    "relationship": "challenges",
+    "evidence_type": "regulator inspection report (audit with judgmental sample)",
+    "population_and_setting": "US DOE Loan Programs Office loan application processing (18 projects; 12 of 66 advisor agreements sampled)",
+    "study_or_observation_method": "Audit: interviews, document review, judgmental sampling",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Tracking of advisors; conflict-of-interest controls",
+    "quantitative_result": "Engineering advisors identifiable for 3 of 18 projects; marketing/financial advisors for 0 of 18; >300 contractor/subcontractor employees supporting loan processing (sixfold increase since Sept 2020)",
+    "source_locator": "DOE-OIG-25-32, p. 1 (limited pool; contractor counts), p. 3 (third-party advisor reliance and borrower payment), p. 4 ('Tracking of Third-Party Advisors'), p. 6 (causes)",
+    "short_exact_excerpt": "Although these third-party advisors contract with the LPO, which relies upon their work as essential components of the loan application process, the prospective borrowers pay for the third-party advisors’ services.",
+    "underlying_evidence_group": "EG:doe-oig-25-32-lpo-coi",
+    "limitations": "Judgmental sample; about conflicts management, not report quality or reviewer effort.",
+    "transferability_to_target_workflow": "Directly relevant to renewable/clean-energy project lending: a major public lender relies on borrower-paid IE/market/financial advisors drawn from a small pool. Provenance of WHO produced the analysis (and their other engagements) was not visible to the receiver.",
+    "analyst_inference": "Challenges a blanket assumption that recipients over-review outside analysis: here the observed failure mode is insufficient verification of advisor independence. Traceability that includes advisor identity/engagement provenance (a form of X3/X4 about the producer) could matter as much as traceability of the analysis itself.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E26"
+  },
+  {
+    "evidence_id": "EVR060",
+    "source_id": "SRC035",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Visibility into scope/criteria of outside due diligence (mandated disclosure; contextual)",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X4"
+    ],
+    "observed_finding": "SEC rule requires issuers/underwriters of rated ABS to furnish the findings and conclusions of any third-party due diligence report, including the criteria against which loans were evaluated and how loans compared to those criteria; due diligence providers must certify to NRSROs on Form ABS Due Diligence-15E.",
+    "relationship": "contextual",
+    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
+    "population_and_setting": "Issuers/underwriters of NRSRO-rated asset-backed securities; third-party due diligence providers",
+    "study_or_observation_method": "Primary regulatory text review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Disclosure requirement",
+    "quantitative_result": null,
+    "source_locator": "17 CFR 240.15Ga-2(a) and Instruction to paragraph (a); 17 CFR 240.17g-10(a)",
+    "short_exact_excerpt": "Disclosure of the findings and conclusions includes, but is not limited to, disclosure of the criteria against which the loans were evaluated, and how the evaluated loans compared to those criteria",
+    "underlying_evidence_group": "EG:sec-abs-due-diligence-disclosure",
+    "limitations": "Mandate only; no evidence on whether it changed rating-agency or investor review effort or accuracy.",
+    "transferability_to_target_workflow": "Precedent for requiring that outside diligence be delivered with explicit criteria and coverage to downstream credit users; could inform what scope/coverage disclosures a renewable IE or AI diligence product supplies. Effect on recipient work untested here.",
+    "analyst_inference": "Regulators chose scope/criteria disclosure (X4), not just conclusions, as the mechanism for downstream reliance in post-crisis ABS - consistent with the thesis's emphasis on coverage visibility, but no outcome evidence.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E27"
+  },
+  {
+    "evidence_id": "EVR061",
+    "source_id": "SRC036",
+    "research_question_ids": [
+      "RQ3"
+    ],
+    "proposition_tested": "P1.5 Reformatting/integration into decision materials is part of retained work (advertised responsibility)",
+    "work_type_tags": [
+      "W5"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Clean-energy equity investor's associate role lists building financial models, conducting due diligence, liaising with consultants/advisors and investment committees, and assisting in drafting investment committee memorandums used in making investment decisions.",
+    "relationship": "contextual",
+    "evidence_type": "job posting",
+    "population_and_setting": "Capital Dynamics Clean Energy team (direct equity in renewable generation, London)",
+    "study_or_observation_method": "Job posting review",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Advertised responsibilities",
+    "quantitative_result": null,
+    "source_locator": "Posting p. 1 ('The Role') and p. 2 ('Key role responsibilities')",
+    "short_exact_excerpt": "Assist in the drafting of investment committee memorandums which will be used in making investment decisions;",
+    "underlying_evidence_group": "EG:capdyn-job-2023",
+    "limitations": "Single posting; no time allocation.",
+    "transferability_to_target_workflow": "In the target domain, junior staff sit between outside advisors and the IC, so W5 integration and W1 analysis are bundled in the same role.",
+    "analyst_inference": "Shows the integration step exists as advertised work, not its size or whether it is reducible.",
+    "access_status": "full_text",
+    "workstream": "WS2_investment_credit_IC",
+    "temp_id": "WS2-E28"
+  },
+  {
+    "evidence_id": "EVR062",
     "source_id": "SRC037",
     "research_question_ids": [
       "RQ2"
@@ -1054,7 +1906,7 @@
     "temp_id": "WS3-E01"
   },
   {
-    "evidence_id": "EVR035",
+    "evidence_id": "EVR063",
     "source_id": "SRC037",
     "research_question_ids": [
       "RQ2"
@@ -1087,7 +1939,7 @@
     "temp_id": "WS3-E02"
   },
   {
-    "evidence_id": "EVR036",
+    "evidence_id": "EVR064",
     "source_id": "SRC037",
     "research_question_ids": [
       "RQ1",
@@ -1120,7 +1972,7 @@
     "temp_id": "WS3-E03"
   },
   {
-    "evidence_id": "EVR037",
+    "evidence_id": "EVR065",
     "source_id": "SRC038",
     "research_question_ids": [
       "RQ2"
@@ -1152,7 +2004,7 @@
     "temp_id": "WS3-E04"
   },
   {
-    "evidence_id": "EVR038",
+    "evidence_id": "EVR066",
     "source_id": "SRC039",
     "research_question_ids": [
       "RQ1"
@@ -1181,7 +2033,7 @@
     "temp_id": "WS3-E05"
   },
   {
-    "evidence_id": "EVR039",
+    "evidence_id": "EVR067",
     "source_id": "SRC039",
     "research_question_ids": [
       "RQ2"
@@ -1213,7 +2065,7 @@
     "temp_id": "WS3-E06"
   },
   {
-    "evidence_id": "EVR040",
+    "evidence_id": "EVR068",
     "source_id": "SRC040",
     "research_question_ids": [
       "RQ2"
@@ -1246,7 +2098,7 @@
     "temp_id": "WS3-E07"
   },
   {
-    "evidence_id": "EVR041",
+    "evidence_id": "EVR069",
     "source_id": "SRC041",
     "research_question_ids": [
       "RQ2",
@@ -1278,7 +2130,7 @@
     "temp_id": "WS3-E08"
   },
   {
-    "evidence_id": "EVR042",
+    "evidence_id": "EVR070",
     "source_id": "SRC041",
     "research_question_ids": [
       "RQ2"
@@ -1309,7 +2161,7 @@
     "temp_id": "WS3-E09"
   },
   {
-    "evidence_id": "EVR043",
+    "evidence_id": "EVR071",
     "source_id": "SRC042",
     "research_question_ids": [
       "RQ2"
@@ -1341,7 +2193,7 @@
     "temp_id": "WS3-E10"
   },
   {
-    "evidence_id": "EVR044",
+    "evidence_id": "EVR072",
     "source_id": "SRC042",
     "research_question_ids": [
       "RQ2"
@@ -1370,7 +2222,7 @@
     "temp_id": "WS3-E11"
   },
   {
-    "evidence_id": "EVR045",
+    "evidence_id": "EVR073",
     "source_id": "SRC043",
     "research_question_ids": [
       "RQ2",
@@ -1402,7 +2254,7 @@
     "temp_id": "WS3-E12"
   },
   {
-    "evidence_id": "EVR046",
+    "evidence_id": "EVR074",
     "source_id": "SRC043",
     "research_question_ids": [
       "RQ1"
@@ -1433,7 +2285,7 @@
     "temp_id": "WS3-E13"
   },
   {
-    "evidence_id": "EVR047",
+    "evidence_id": "EVR075",
     "source_id": "SRC044",
     "research_question_ids": [
       "RQ1",
@@ -1465,7 +2317,7 @@
     "temp_id": "WS3-E14"
   },
   {
-    "evidence_id": "EVR048",
+    "evidence_id": "EVR076",
     "source_id": "SRC044",
     "research_question_ids": [
       "RQ2"
@@ -1497,7 +2349,7 @@
     "temp_id": "WS3-E15"
   },
   {
-    "evidence_id": "EVR049",
+    "evidence_id": "EVR077",
     "source_id": "SRC044",
     "research_question_ids": [
       "RQ2",
@@ -1531,7 +2383,7 @@
     "temp_id": "WS3-E16"
   },
   {
-    "evidence_id": "EVR050",
+    "evidence_id": "EVR078",
     "source_id": "SRC045",
     "research_question_ids": [
       "RQ1"
@@ -1563,7 +2415,7 @@
     "temp_id": "WS3-E17"
   },
   {
-    "evidence_id": "EVR051",
+    "evidence_id": "EVR079",
     "source_id": "SRC045",
     "research_question_ids": [
       "RQ1"
@@ -1592,7 +2444,7 @@
     "temp_id": "WS3-E18"
   },
   {
-    "evidence_id": "EVR052",
+    "evidence_id": "EVR080",
     "source_id": "SRC046",
     "research_question_ids": [
       "RQ1",
@@ -1625,7 +2477,7 @@
     "temp_id": "WS3-E19"
   },
   {
-    "evidence_id": "EVR053",
+    "evidence_id": "EVR081",
     "source_id": "SRC047",
     "research_question_ids": [
       "RQ1",
@@ -1657,7 +2509,7 @@
     "temp_id": "WS3-E20"
   },
   {
-    "evidence_id": "EVR054",
+    "evidence_id": "EVR082",
     "source_id": "SRC047",
     "research_question_ids": [
       "RQ1"
@@ -1686,7 +2538,7 @@
     "temp_id": "WS3-E21"
   },
   {
-    "evidence_id": "EVR055",
+    "evidence_id": "EVR083",
     "source_id": "SRC048",
     "research_question_ids": [
       "RQ1"
@@ -1715,7 +2567,7 @@
     "temp_id": "WS3-E22"
   },
   {
-    "evidence_id": "EVR056",
+    "evidence_id": "EVR084",
     "source_id": "SRC048",
     "research_question_ids": [
       "RQ2",
@@ -1748,7 +2600,7 @@
     "temp_id": "WS3-E23"
   },
   {
-    "evidence_id": "EVR057",
+    "evidence_id": "EVR085",
     "source_id": "SRC049",
     "research_question_ids": [
       "RQ1"
@@ -1777,7 +2629,7 @@
     "temp_id": "WS3-E24"
   },
   {
-    "evidence_id": "EVR058",
+    "evidence_id": "EVR086",
     "source_id": "SRC049",
     "research_question_ids": [
       "RQ2"
@@ -1809,7 +2661,7 @@
     "temp_id": "WS3-E25"
   },
   {
-    "evidence_id": "EVR059",
+    "evidence_id": "EVR087",
     "source_id": "SRC050",
     "research_question_ids": [
       "RQ1",
@@ -1841,7 +2693,7 @@
     "temp_id": "WS3-E26"
   },
   {
-    "evidence_id": "EVR060",
+    "evidence_id": "EVR088",
     "source_id": "SRC050",
     "research_question_ids": [
       "RQ1"
@@ -1870,7 +2722,7 @@
     "temp_id": "WS3-E27"
   },
   {
-    "evidence_id": "EVR061",
+    "evidence_id": "EVR089",
     "source_id": "SRC051",
     "research_question_ids": [
       "RQ2",
@@ -1903,7 +2755,7 @@
     "temp_id": "WS3-E28"
   },
   {
-    "evidence_id": "EVR062",
+    "evidence_id": "EVR090",
     "source_id": "SRC051",
     "research_question_ids": [
       "RQ1"
@@ -1932,7 +2784,7 @@
     "temp_id": "WS3-E29"
   },
   {
-    "evidence_id": "EVR063",
+    "evidence_id": "EVR091",
     "source_id": "SRC052",
     "research_question_ids": [
       "RQ2"
@@ -1964,7 +2816,7 @@
     "temp_id": "WS4-E01"
   },
   {
-    "evidence_id": "EVR064",
+    "evidence_id": "EVR092",
     "source_id": "SRC052",
     "research_question_ids": [
       "RQ2"
@@ -1997,7 +2849,7 @@
     "temp_id": "WS4-E02"
   },
   {
-    "evidence_id": "EVR065",
+    "evidence_id": "EVR093",
     "source_id": "SRC052",
     "research_question_ids": [
       "RQ2"
@@ -2030,7 +2882,7 @@
     "temp_id": "WS4-E03"
   },
   {
-    "evidence_id": "EVR066",
+    "evidence_id": "EVR094",
     "source_id": "SRC053",
     "research_question_ids": [
       "RQ2"
@@ -2062,7 +2914,7 @@
     "temp_id": "WS4-E04"
   },
   {
-    "evidence_id": "EVR067",
+    "evidence_id": "EVR095",
     "source_id": "SRC053",
     "research_question_ids": [
       "RQ2"
@@ -2092,7 +2944,7 @@
     "temp_id": "WS4-E05"
   },
   {
-    "evidence_id": "EVR068",
+    "evidence_id": "EVR096",
     "source_id": "SRC054",
     "research_question_ids": [
       "RQ2"
@@ -2124,7 +2976,7 @@
     "temp_id": "WS4-E06"
   },
   {
-    "evidence_id": "EVR069",
+    "evidence_id": "EVR097",
     "source_id": "SRC054",
     "research_question_ids": [
       "RQ2"
@@ -2153,7 +3005,7 @@
     "temp_id": "WS4-E07"
   },
   {
-    "evidence_id": "EVR070",
+    "evidence_id": "EVR098",
     "source_id": "SRC055",
     "research_question_ids": [
       "RQ2"
@@ -2187,7 +3039,7 @@
     "temp_id": "WS4-E08"
   },
   {
-    "evidence_id": "EVR071",
+    "evidence_id": "EVR099",
     "source_id": "SRC056",
     "research_question_ids": [
       "RQ2"
@@ -2218,7 +3070,7 @@
     "temp_id": "WS4-E09"
   },
   {
-    "evidence_id": "EVR072",
+    "evidence_id": "EVR100",
     "source_id": "SRC056",
     "research_question_ids": [
       "RQ2",
@@ -2248,7 +3100,7 @@
     "temp_id": "WS4-E10"
   },
   {
-    "evidence_id": "EVR073",
+    "evidence_id": "EVR101",
     "source_id": "SRC056",
     "research_question_ids": [
       "RQ2",
@@ -2281,7 +3133,7 @@
     "temp_id": "WS4-E11"
   },
   {
-    "evidence_id": "EVR074",
+    "evidence_id": "EVR102",
     "source_id": "SRC057",
     "research_question_ids": [
       "RQ2"
@@ -2311,7 +3163,7 @@
     "temp_id": "WS4-E12"
   },
   {
-    "evidence_id": "EVR075",
+    "evidence_id": "EVR103",
     "source_id": "SRC057",
     "research_question_ids": [
       "RQ2"
@@ -2340,7 +3192,7 @@
     "temp_id": "WS4-E13"
   },
   {
-    "evidence_id": "EVR076",
+    "evidence_id": "EVR104",
     "source_id": "SRC058",
     "research_question_ids": [
       "RQ2"
@@ -2370,7 +3222,7 @@
     "temp_id": "WS4-E14"
   },
   {
-    "evidence_id": "EVR077",
+    "evidence_id": "EVR105",
     "source_id": "SRC059",
     "research_question_ids": [
       "RQ2"
@@ -2401,7 +3253,7 @@
     "temp_id": "WS4-E15"
   },
   {
-    "evidence_id": "EVR078",
+    "evidence_id": "EVR106",
     "source_id": "SRC060",
     "research_question_ids": [
       "RQ2"
@@ -2432,7 +3284,7 @@
     "temp_id": "WS4-E16"
   },
   {
-    "evidence_id": "EVR079",
+    "evidence_id": "EVR107",
     "source_id": "SRC061",
     "research_question_ids": [
       "RQ2"
@@ -2465,7 +3317,7 @@
     "temp_id": "WS4-E17"
   },
   {
-    "evidence_id": "EVR080",
+    "evidence_id": "EVR108",
     "source_id": "SRC062",
     "research_question_ids": [
       "RQ2"
@@ -2494,7 +3346,7 @@
     "temp_id": "WS4-E18"
   },
   {
-    "evidence_id": "EVR081",
+    "evidence_id": "EVR109",
     "source_id": "SRC063",
     "research_question_ids": [
       "RQ2"
@@ -2525,7 +3377,7 @@
     "temp_id": "WS4-E19"
   },
   {
-    "evidence_id": "EVR082",
+    "evidence_id": "EVR110",
     "source_id": "SRC064",
     "research_question_ids": [
       "RQ2"
@@ -2557,7 +3409,7 @@
     "temp_id": "WS4-E20"
   },
   {
-    "evidence_id": "EVR083",
+    "evidence_id": "EVR111",
     "source_id": "SRC065",
     "research_question_ids": [
       "RQ2",
@@ -2591,7 +3443,7 @@
     "temp_id": "WS4-E21"
   },
   {
-    "evidence_id": "EVR084",
+    "evidence_id": "EVR112",
     "source_id": "SRC065",
     "research_question_ids": [
       "RQ2"
@@ -2622,7 +3474,7 @@
     "temp_id": "WS4-E22"
   },
   {
-    "evidence_id": "EVR085",
+    "evidence_id": "EVR113",
     "source_id": "SRC066",
     "research_question_ids": [
       "RQ2"
@@ -2654,7 +3506,7 @@
     "temp_id": "WS4-E23"
   },
   {
-    "evidence_id": "EVR086",
+    "evidence_id": "EVR114",
     "source_id": "SRC038",
     "research_question_ids": [
       "RQ2",
@@ -2688,7 +3540,7 @@
     "temp_id": "WS4-E24"
   },
   {
-    "evidence_id": "EVR087",
+    "evidence_id": "EVR115",
     "source_id": "SRC067",
     "research_question_ids": [
       "RQ1",
@@ -2723,7 +3575,7 @@
     "temp_id": "WS4-E25"
   },
   {
-    "evidence_id": "EVR088",
+    "evidence_id": "EVR116",
     "source_id": "SRC068",
     "research_question_ids": [
       "RQ3"
@@ -2753,7 +3605,7 @@
     "temp_id": "WS5-E01"
   },
   {
-    "evidence_id": "EVR089",
+    "evidence_id": "EVR117",
     "source_id": "SRC068",
     "research_question_ids": [
       "RQ3"
@@ -2780,7 +3632,7 @@
     "temp_id": "WS5-E02"
   },
   {
-    "evidence_id": "EVR090",
+    "evidence_id": "EVR118",
     "source_id": "SRC068",
     "research_question_ids": [
       "RQ3",
@@ -2813,7 +3665,7 @@
     "temp_id": "WS5-E03"
   },
   {
-    "evidence_id": "EVR091",
+    "evidence_id": "EVR119",
     "source_id": "SRC069",
     "research_question_ids": [
       "RQ3"
@@ -2846,7 +3698,7 @@
     "temp_id": "WS5-E04"
   },
   {
-    "evidence_id": "EVR092",
+    "evidence_id": "EVR120",
     "source_id": "SRC069",
     "research_question_ids": [
       "RQ3",
@@ -2877,7 +3729,7 @@
     "temp_id": "WS5-E05"
   },
   {
-    "evidence_id": "EVR093",
+    "evidence_id": "EVR121",
     "source_id": "SRC069",
     "research_question_ids": [
       "RQ3",
@@ -2909,7 +3761,7 @@
     "temp_id": "WS5-E06"
   },
   {
-    "evidence_id": "EVR094",
+    "evidence_id": "EVR122",
     "source_id": "SRC070",
     "research_question_ids": [
       "RQ3",
@@ -2942,7 +3794,7 @@
     "temp_id": "WS5-E07"
   },
   {
-    "evidence_id": "EVR095",
+    "evidence_id": "EVR123",
     "source_id": "SRC072",
     "research_question_ids": [
       "RQ3",
@@ -2973,7 +3825,7 @@
     "temp_id": "WS5-E08"
   },
   {
-    "evidence_id": "EVR096",
+    "evidence_id": "EVR124",
     "source_id": "SRC072",
     "research_question_ids": [
       "RQ3"
@@ -3005,7 +3857,7 @@
     "temp_id": "WS5-E09"
   },
   {
-    "evidence_id": "EVR097",
+    "evidence_id": "EVR125",
     "source_id": "SRC072",
     "research_question_ids": [
       "RQ3",
@@ -3038,7 +3890,7 @@
     "temp_id": "WS5-E10"
   },
   {
-    "evidence_id": "EVR098",
+    "evidence_id": "EVR126",
     "source_id": "SRC072",
     "research_question_ids": [
       "RQ6"
@@ -3065,7 +3917,7 @@
     "temp_id": "WS5-E11"
   },
   {
-    "evidence_id": "EVR099",
+    "evidence_id": "EVR127",
     "source_id": "SRC073",
     "research_question_ids": [
       "RQ3"
@@ -3097,7 +3949,7 @@
     "temp_id": "WS5-E12"
   },
   {
-    "evidence_id": "EVR100",
+    "evidence_id": "EVR128",
     "source_id": "SRC073",
     "research_question_ids": [
       "RQ3"
@@ -3127,7 +3979,7 @@
     "temp_id": "WS5-E13"
   },
   {
-    "evidence_id": "EVR101",
+    "evidence_id": "EVR129",
     "source_id": "SRC073",
     "research_question_ids": [
       "RQ6"
@@ -3154,7 +4006,7 @@
     "temp_id": "WS5-E14"
   },
   {
-    "evidence_id": "EVR102",
+    "evidence_id": "EVR130",
     "source_id": "SRC074",
     "research_question_ids": [
       "RQ1",
@@ -3184,7 +4036,7 @@
     "temp_id": "WS5-E15"
   },
   {
-    "evidence_id": "EVR103",
+    "evidence_id": "EVR131",
     "source_id": "SRC074",
     "research_question_ids": [
       "RQ2",
@@ -3216,7 +4068,7 @@
     "temp_id": "WS5-E16"
   },
   {
-    "evidence_id": "EVR104",
+    "evidence_id": "EVR132",
     "source_id": "SRC075",
     "research_question_ids": [
       "RQ3"
@@ -3245,7 +4097,7 @@
     "temp_id": "WS5-E17"
   },
   {
-    "evidence_id": "EVR105",
+    "evidence_id": "EVR133",
     "source_id": "SRC076",
     "research_question_ids": [
       "RQ3",
@@ -3276,7 +4128,7 @@
     "temp_id": "WS5-E18"
   },
   {
-    "evidence_id": "EVR106",
+    "evidence_id": "EVR134",
     "source_id": "SRC077",
     "research_question_ids": [
       "RQ6",
@@ -3306,7 +4158,7 @@
     "temp_id": "WS5-E19"
   },
   {
-    "evidence_id": "EVR107",
+    "evidence_id": "EVR135",
     "source_id": "SRC078",
     "research_question_ids": [
       "RQ3"
@@ -3336,7 +4188,7 @@
     "temp_id": "WS5-E20"
   },
   {
-    "evidence_id": "EVR108",
+    "evidence_id": "EVR136",
     "source_id": "SRC079",
     "research_question_ids": [
       "RQ3"
@@ -3367,7 +4219,7 @@
     "temp_id": "WS5-E21"
   },
   {
-    "evidence_id": "EVR109",
+    "evidence_id": "EVR137",
     "source_id": "SRC080",
     "research_question_ids": [
       "RQ4",
@@ -3400,7 +4252,7 @@
     "temp_id": "WS5-E22"
   },
   {
-    "evidence_id": "EVR110",
+    "evidence_id": "EVR138",
     "source_id": "SRC081",
     "research_question_ids": [
       "RQ3",
@@ -3430,7 +4282,7 @@
     "temp_id": "WS5-E23"
   },
   {
-    "evidence_id": "EVR111",
+    "evidence_id": "EVR139",
     "source_id": "SRC081",
     "research_question_ids": [
       "RQ6"
@@ -3457,7 +4309,7 @@
     "temp_id": "WS5-E24"
   },
   {
-    "evidence_id": "EVR112",
+    "evidence_id": "EVR140",
     "source_id": "SRC082",
     "research_question_ids": [
       "RQ3"
@@ -3486,7 +4338,7 @@
     "temp_id": "WS5-E25"
   },
   {
-    "evidence_id": "EVR113",
+    "evidence_id": "EVR141",
     "source_id": "SRC083",
     "research_question_ids": [
       "RQ3",
@@ -3518,7 +4370,7 @@
     "temp_id": "WS6-E01"
   },
   {
-    "evidence_id": "EVR114",
+    "evidence_id": "EVR142",
     "source_id": "SRC083",
     "research_question_ids": [
       "RQ2",
@@ -3546,7 +4398,7 @@
     "temp_id": "WS6-E02"
   },
   {
-    "evidence_id": "EVR115",
+    "evidence_id": "EVR143",
     "source_id": "SRC083",
     "research_question_ids": [
       "RQ1"
@@ -3577,7 +4429,7 @@
     "temp_id": "WS6-E03"
   },
   {
-    "evidence_id": "EVR116",
+    "evidence_id": "EVR144",
     "source_id": "SRC084",
     "research_question_ids": [
       "RQ1",
@@ -3610,7 +4462,7 @@
     "temp_id": "WS6-E04"
   },
   {
-    "evidence_id": "EVR117",
+    "evidence_id": "EVR145",
     "source_id": "SRC084",
     "research_question_ids": [
       "RQ2"
@@ -3642,7 +4494,7 @@
     "temp_id": "WS6-E05"
   },
   {
-    "evidence_id": "EVR118",
+    "evidence_id": "EVR146",
     "source_id": "SRC085",
     "research_question_ids": [
       "RQ2"
@@ -3672,7 +4524,7 @@
     "temp_id": "WS6-E06"
   },
   {
-    "evidence_id": "EVR119",
+    "evidence_id": "EVR147",
     "source_id": "SRC054",
     "research_question_ids": [
       "RQ2"
@@ -3704,7 +4556,7 @@
     "temp_id": "WS6-E07"
   },
   {
-    "evidence_id": "EVR120",
+    "evidence_id": "EVR148",
     "source_id": "SRC054",
     "research_question_ids": [
       "RQ2"
@@ -3734,7 +4586,7 @@
     "temp_id": "WS6-E08"
   },
   {
-    "evidence_id": "EVR121",
+    "evidence_id": "EVR149",
     "source_id": "SRC086",
     "research_question_ids": [
       "RQ2"
@@ -3765,7 +4617,7 @@
     "temp_id": "WS6-E09"
   },
   {
-    "evidence_id": "EVR122",
+    "evidence_id": "EVR150",
     "source_id": "SRC087",
     "research_question_ids": [
       "RQ1",
@@ -3799,7 +4651,7 @@
     "temp_id": "WS6-E10"
   },
   {
-    "evidence_id": "EVR123",
+    "evidence_id": "EVR151",
     "source_id": "SRC087",
     "research_question_ids": [
       "RQ2",
@@ -3832,7 +4684,7 @@
     "temp_id": "WS6-E11"
   },
   {
-    "evidence_id": "EVR124",
+    "evidence_id": "EVR152",
     "source_id": "SRC082",
     "research_question_ids": [
       "RQ3",
@@ -3862,7 +4714,7 @@
     "temp_id": "WS6-E12"
   },
   {
-    "evidence_id": "EVR125",
+    "evidence_id": "EVR153",
     "source_id": "SRC088",
     "research_question_ids": [
       "RQ1"
@@ -3893,7 +4745,7 @@
     "temp_id": "WS6-E13"
   },
   {
-    "evidence_id": "EVR126",
+    "evidence_id": "EVR154",
     "source_id": "SRC088",
     "research_question_ids": [
       "RQ1"
@@ -3922,7 +4774,7 @@
     "temp_id": "WS6-E14"
   },
   {
-    "evidence_id": "EVR127",
+    "evidence_id": "EVR155",
     "source_id": "SRC089",
     "research_question_ids": [
       "RQ2"
@@ -3951,7 +4803,7 @@
     "temp_id": "WS6-E15"
   },
   {
-    "evidence_id": "EVR128",
+    "evidence_id": "EVR156",
     "source_id": "SRC090",
     "research_question_ids": [
       "RQ1"
@@ -3980,7 +4832,7 @@
     "temp_id": "WS6-E16"
   },
   {
-    "evidence_id": "EVR129",
+    "evidence_id": "EVR157",
     "source_id": "SRC091",
     "research_question_ids": [
       "RQ1"
@@ -4009,7 +4861,7 @@
     "temp_id": "WS6-E17"
   },
   {
-    "evidence_id": "EVR130",
+    "evidence_id": "EVR158",
     "source_id": "SRC045",
     "research_question_ids": [
       "RQ1"
@@ -4040,7 +4892,7 @@
     "temp_id": "WS6-E18"
   },
   {
-    "evidence_id": "EVR131",
+    "evidence_id": "EVR159",
     "source_id": "SRC045",
     "research_question_ids": [
       "RQ2"
@@ -4072,7 +4924,7 @@
     "temp_id": "WS6-E19"
   },
   {
-    "evidence_id": "EVR132",
+    "evidence_id": "EVR160",
     "source_id": "SRC046",
     "research_question_ids": [
       "RQ1",
@@ -4105,7 +4957,7 @@
     "temp_id": "WS6-E20"
   },
   {
-    "evidence_id": "EVR133",
+    "evidence_id": "EVR161",
     "source_id": "SRC092",
     "research_question_ids": [
       "RQ1",
@@ -4138,7 +4990,7 @@
     "temp_id": "WS6-E21"
   },
   {
-    "evidence_id": "EVR134",
+    "evidence_id": "EVR162",
     "source_id": "SRC093",
     "research_question_ids": [
       "RQ1"
@@ -4170,7 +5022,7 @@
     "temp_id": "WS6-E22"
   },
   {
-    "evidence_id": "EVR135",
+    "evidence_id": "EVR163",
     "source_id": "SRC094",
     "research_question_ids": [
       "RQ1",
@@ -4204,7 +5056,7 @@
     "temp_id": "WS6-E23"
   },
   {
-    "evidence_id": "EVR136",
+    "evidence_id": "EVR164",
     "source_id": "SRC070",
     "research_question_ids": [
       "RQ3",
@@ -4236,7 +5088,7 @@
     "temp_id": "WS6-E24"
   },
   {
-    "evidence_id": "EVR137",
+    "evidence_id": "EVR165",
     "source_id": "SRC095",
     "research_question_ids": [
       "RQ1"
@@ -4265,7 +5117,7 @@
     "temp_id": "WS6-E25"
   },
   {
-    "evidence_id": "EVR138",
+    "evidence_id": "EVR166",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ1"
@@ -4287,7 +5139,7 @@
     "quantitative_result": null,
     "source_locator": "PCAOB Release No. 2018-006, Appendix 1, pp. A1-10 to A1-14: AS 1210.02 (objective), AS 1210.09(a)-(b) (evaluation).",
     "short_exact_excerpt": "The objective of the auditor is to determine whether the work of the auditor-engaged specialist is suitable for the auditor's purposes and supports the auditor's conclusion regarding the relevant assertion.",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Shows an obligation, not how much time it takes, how it is performed, or whether it is complied with. Applies to auditors (who have a statutory opinion), not to investment committees.",
     "transferability_to_target_workflow": "Mechanism that transfers: the recipient (auditor) cannot outsource its conclusion; the outside expert's work is evidence evaluated against the recipient's own understanding and other evidence. Similar in renewable-energy diligence where an investment committee/credit officer relies on independent engineer (IE), market, or legal reports but owns the decision. Consequential differences: no single statutory standard governs lender/investor reliance on IEs; obligations come from internal credit policy, fiduciary duty, and contracts. Needs verification: whether credit/investment policies contain analogous 'evaluate consistency with other evidence' requirements.",
     "analyst_inference": "AS 1210.09(b) defines a minimum irreducible review (consistency checking against the recipient's own knowledge) that traceability can make cheaper but cannot eliminate; it is W1, not W2.",
@@ -4296,7 +5148,7 @@
     "temp_id": "WS7-E01"
   },
   {
-    "evidence_id": "EVR139",
+    "evidence_id": "EVR167",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ1",
@@ -4321,7 +5173,7 @@
     "quantitative_result": null,
     "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1210.10 (p. A1-14); AS 1105.A5 (p. A1-4), AS 1105.A7 and Note (pp. A1-4 to A1-5). Board summary at 84 FR 13442 (WS7-S02).",
     "short_exact_excerpt": "The necessary extent of the review depends on: (1) the significance of the specialist's work ... (2) the risk of material misstatement ... and (3) the knowledge, skill, and ability of the specialist.",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Notably, the listed scaling factors do NOT include the format, traceability, or documentation quality of the specialist's output; those enter only indirectly (e.g., via .06d report content, .12 restrictions/limitations). Standard does not quantify effort.",
     "transferability_to_target_workflow": "Transfers as a design principle: review effort legitimately proportional to materiality, risk, and the advisor's demonstrated competence/objectivity. In renewable diligence this maps to scaling IE/report review by project size, technology novelty, and reliance on the item (e.g., energy yield P50/P90 drives debt sizing). Need to verify whether lenders formally tier review by risk and whether advisor track record reduces review in practice.",
     "analyst_inference": "If review scales with perceived competence and risk, then evidence that improves the recipient's ability to assess competence and locate high-risk assumptions could reduce effort on low-risk items without reducing scrutiny of high-risk ones. This is a hypothesis; the standard does not test it.",
@@ -4330,7 +5182,7 @@
     "temp_id": "WS7-E02"
   },
   {
-    "evidence_id": "EVR140",
+    "evidence_id": "EVR168",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ2",
@@ -4355,7 +5207,7 @@
     "quantitative_result": null,
     "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1210.06(a)-(d) (pp. A1-12 to A1-13); AS 1210.12 and Note (pp. A1-14 to A1-15).",
     "short_exact_excerpt": "the specialist's report, or equivalent documentation, contains restrictions, disclaimers, or limitations that affect the auditor's use of the report or work",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "A requirement, not evidence that such documentation reduces review time or improves detection.",
     "transferability_to_target_workflow": "Directly analogous to IE/advisor reports in project finance: scope letters, reliance language, and limitation/disclaimer sections determine what the lender can rely on; limitations trigger additional work. Suggests that explicit scope, responsibility allocation, and limitation disclosure (X4) are treated by a mature standard as preconditions to reliance, not optional features. Verify with lender reliance letters and IE scopes of work (other workstreams).",
     "analyst_inference": "In the standard's logic, opaque scope or broad disclaimers increase recipient work (additional procedures) - consistent with P1.2 - but the standard frames this as legitimate verification, not avoidable reconstruction.",
@@ -4364,7 +5216,7 @@
     "temp_id": "WS7-E03"
   },
   {
-    "evidence_id": "EVR141",
+    "evidence_id": "EVR169",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ1"
@@ -4388,7 +5240,7 @@
     "quantitative_result": null,
     "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1105.A6-.A10 (pp. A1-4 to A1-7).",
     "short_exact_excerpt": "Test the accuracy and completeness of company-produced data used by the specialist, and evaluate the relevance and reliability of data from sources external to the company that are used by the specialist; [footnote markers omitted]",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Obligation, not observed behavior. Scale of testing is risk-based (A7).",
     "transferability_to_target_workflow": "Closest analogue: a sponsor-commissioned report (e.g., sponsor's energy-yield or market study) relied on by a lender/investor. Mechanism: where the advisor is paid by or aligned with the counterparty, the recipient re-tests inputs. Traceable data lineage and explicit assumptions (X3) would be the object of this testing, potentially making it cheaper, but would not remove it.",
     "analyst_inference": "Distinguishes 'reconstruction' (W2) from mandated substantive re-testing (W1). Products that expose data lineage and assumptions could reduce the cost of A8-type procedures; whether they reduce their required extent is not addressed by the standard.",
@@ -4397,7 +5249,7 @@
     "temp_id": "WS7-E04"
   },
   {
-    "evidence_id": "EVR142",
+    "evidence_id": "EVR170",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ1"
@@ -4417,7 +5269,7 @@
     "quantitative_result": null,
     "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1210.05 and Notes (pp. A1-11 to A1-12); AS 1210.11 (p. A1-14).",
     "short_exact_excerpt": "As the degree of objectivity increases, the evidence needed from additional procedures decreases. If the specialist has a low degree of objectivity, the auditor should apply the procedures for evaluating the work of a company's specialist.",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Obligation only.",
     "transferability_to_target_workflow": "Maps to 'who pays the advisor' in renewable diligence: lender's IE (engaged by lenders, often paid by borrower) vs sponsor's advisor. Suggests verification burden depends on engagement structure as much as on output format; any traceability benefit should be estimated separately for independent vs counterparty-aligned advisors.",
     "analyst_inference": "Implies a confound for RQ2 field evidence: reductions in review might reflect perceived independence rather than traceability.",
@@ -4426,7 +5278,7 @@
     "temp_id": "WS7-E05"
   },
   {
-    "evidence_id": "EVR143",
+    "evidence_id": "EVR171",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ1"
@@ -4446,7 +5298,7 @@
     "quantitative_result": "Not quantified in the passage (no deficiency counts or rates given).",
     "source_locator": "PCAOB Release No. 2018-006, Section II.B.2 'Observations from Audit Inspections and Enforcement Cases', pp. 16-17.",
     "short_exact_excerpt": "The observations included instances in which auditors did not: (1) reach an understanding with the specialist regarding his or her responsibilities; (2) adequately evaluate the work performed by the specialist; or (3) consider contradictory evidence identified by the specialist",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Inspection samples are risk-selected; no rates; deficiencies may reflect documentation failures rather than absent review.",
     "transferability_to_target_workflow": "Cautions that in professional reliance on outside experts, the observed failure mode includes insufficient review and failure to act on contradictory evidence, not only excessive review. A product that lowers review cost must be evaluated for whether it also lowers detection of contradictions.",
     "analyst_inference": "Counterweight to the thesis's framing of review as partly avoidable: the regulator's concern was too little scrutiny. Coordination improvements (communication) were associated with fewer findings - weak, uncontrolled evidence that integration/clarity of the engagement can improve review quality.",
@@ -4455,7 +5307,7 @@
     "temp_id": "WS7-E06"
   },
   {
-    "evidence_id": "EVR144",
+    "evidence_id": "EVR172",
     "source_id": "SRC096",
     "research_question_ids": [
       "RQ1"
@@ -4473,7 +5325,7 @@
     "quantitative_result": "Larger firms: ~85% of 274 audits used >=1 auditor-employed specialist; avg 4-5 specialists per such audit. Smaller firms (n=361): 36 (~10%) company specialist only; 24 (~7%) auditor's specialist only; 30 (~8%) both; 271 (~75%) neither.",
     "source_locator": "PCAOB Release No. 2018-006, Section IV.A.1.a 'Evidence from PCAOB Inspections Data', pp. 30-31 and footnotes 53-56.",
     "short_exact_excerpt": "auditors used the work of at least one auditor-employed specialist in about 85 percent of those audits",
-    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "underlying_evidence_group": "EG:pcaob-specialists-2018-rulemaking",
     "limitations": "Risk-selected sample overrepresents complex audits (stated in fn 53); data did not indicate frequency of auditor-engaged (external) specialists (fn 55).",
     "transferability_to_target_workflow": "Contextual only: analogous to multi-advisor diligence (IE, insurance, market, legal, tax, environmental) in project finance; shows that reviewing several experts' work per engagement is normal in a regulated setting.",
     "analyst_inference": "Not evidence on review effort or traceability.",
@@ -4482,7 +5334,7 @@
     "temp_id": "WS7-E07"
   },
   {
-    "evidence_id": "EVR145",
+    "evidence_id": "EVR173",
     "source_id": "SRC085",
     "research_question_ids": [
       "RQ2"
@@ -4512,7 +5364,7 @@
     "temp_id": "WS7-E08"
   },
   {
-    "evidence_id": "EVR146",
+    "evidence_id": "EVR174",
     "source_id": "SRC085",
     "research_question_ids": [
       "RQ2"
@@ -4543,7 +5395,7 @@
     "temp_id": "WS7-E09"
   },
   {
-    "evidence_id": "EVR147",
+    "evidence_id": "EVR175",
     "source_id": "SRC085",
     "research_question_ids": [
       "RQ2"
@@ -4575,7 +5427,7 @@
     "temp_id": "WS7-E10"
   },
   {
-    "evidence_id": "EVR148",
+    "evidence_id": "EVR176",
     "source_id": "SRC085",
     "research_question_ids": [
       "RQ2"
@@ -4602,7 +5454,7 @@
     "temp_id": "WS7-E11"
   },
   {
-    "evidence_id": "EVR149",
+    "evidence_id": "EVR177",
     "source_id": "SRC086",
     "research_question_ids": [
       "RQ2"
@@ -4634,7 +5486,7 @@
     "temp_id": "WS7-E12"
   },
   {
-    "evidence_id": "EVR150",
+    "evidence_id": "EVR178",
     "source_id": "SRC086",
     "research_question_ids": [
       "RQ2",
@@ -4664,8 +5516,8 @@
     "temp_id": "WS7-E13"
   },
   {
-    "evidence_id": "EVR151",
-    "source_id": "SRC099",
+    "evidence_id": "EVR179",
+    "source_id": "SRC097",
     "research_question_ids": [
       "RQ3",
       "RQ2"
@@ -4694,8 +5546,8 @@
     "temp_id": "WS7-E14"
   },
   {
-    "evidence_id": "EVR152",
-    "source_id": "SRC102",
+    "evidence_id": "EVR180",
+    "source_id": "SRC100",
     "research_question_ids": [
       "RQ2"
     ],
@@ -4721,8 +5573,8 @@
     "temp_id": "WS7-E15"
   },
   {
-    "evidence_id": "EVR153",
-    "source_id": "SRC102",
+    "evidence_id": "EVR181",
+    "source_id": "SRC100",
     "research_question_ids": [
       "RQ2"
     ],
@@ -4748,8 +5600,8 @@
     "temp_id": "WS7-E16"
   },
   {
-    "evidence_id": "EVR154",
-    "source_id": "SRC103",
+    "evidence_id": "EVR182",
+    "source_id": "SRC101",
     "research_question_ids": [
       "RQ2"
     ],
@@ -4778,8 +5630,8 @@
     "temp_id": "WS7-E17"
   },
   {
-    "evidence_id": "EVR155",
-    "source_id": "SRC104",
+    "evidence_id": "EVR183",
+    "source_id": "SRC102",
     "research_question_ids": [
       "RQ2"
     ],
@@ -4809,8 +5661,8 @@
     "temp_id": "WS7-E18"
   },
   {
-    "evidence_id": "EVR156",
-    "source_id": "SRC104",
+    "evidence_id": "EVR184",
+    "source_id": "SRC102",
     "research_question_ids": [
       "RQ1",
       "RQ2"
@@ -4839,8 +5691,8 @@
     "temp_id": "WS7-E19"
   },
   {
-    "evidence_id": "EVR157",
-    "source_id": "SRC104",
+    "evidence_id": "EVR185",
+    "source_id": "SRC102",
     "research_question_ids": [
       "RQ2"
     ],
@@ -4866,7 +5718,7 @@
     "temp_id": "WS7-E20"
   },
   {
-    "evidence_id": "EVR158",
+    "evidence_id": "EVR186",
     "source_id": "SRC054",
     "research_question_ids": [
       "RQ2"
@@ -4898,7 +5750,7 @@
     "temp_id": "WS7-E21"
   },
   {
-    "evidence_id": "EVR159",
+    "evidence_id": "EVR187",
     "source_id": "SRC054",
     "research_question_ids": [
       "RQ2"
@@ -4927,7 +5779,7 @@
     "temp_id": "WS7-E22"
   },
   {
-    "evidence_id": "EVR160",
+    "evidence_id": "EVR188",
     "source_id": "SRC055",
     "research_question_ids": [
       "RQ2"
@@ -4958,8 +5810,8 @@
     "temp_id": "WS7-E23"
   },
   {
-    "evidence_id": "EVR161",
-    "source_id": "SRC106",
+    "evidence_id": "EVR189",
+    "source_id": "SRC104",
     "research_question_ids": [
       "RQ2"
     ],
@@ -4989,8 +5841,8 @@
     "temp_id": "WS7-E24"
   },
   {
-    "evidence_id": "EVR162",
-    "source_id": "SRC105",
+    "evidence_id": "EVR190",
+    "source_id": "SRC103",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5018,8 +5870,8 @@
     "temp_id": "WS7-E25"
   },
   {
-    "evidence_id": "EVR163",
-    "source_id": "SRC107",
+    "evidence_id": "EVR191",
+    "source_id": "SRC105",
     "research_question_ids": [
       "RQ2",
       "RQ1"
@@ -5050,8 +5902,8 @@
     "temp_id": "WS7-E26"
   },
   {
-    "evidence_id": "EVR164",
-    "source_id": "SRC108",
+    "evidence_id": "EVR192",
+    "source_id": "SRC106",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5081,8 +5933,8 @@
     "temp_id": "WS8-E01"
   },
   {
-    "evidence_id": "EVR165",
-    "source_id": "SRC108",
+    "evidence_id": "EVR193",
+    "source_id": "SRC106",
     "research_question_ids": [
       "RQ2",
       "RQ4",
@@ -5112,8 +5964,8 @@
     "temp_id": "WS8-E02"
   },
   {
-    "evidence_id": "EVR166",
-    "source_id": "SRC109",
+    "evidence_id": "EVR194",
+    "source_id": "SRC107",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5145,8 +5997,8 @@
     "temp_id": "WS8-E03"
   },
   {
-    "evidence_id": "EVR167",
-    "source_id": "SRC109",
+    "evidence_id": "EVR195",
+    "source_id": "SRC107",
     "research_question_ids": [
       "RQ2",
       "RQ5"
@@ -5177,8 +6029,8 @@
     "temp_id": "WS8-E04"
   },
   {
-    "evidence_id": "EVR168",
-    "source_id": "SRC110",
+    "evidence_id": "EVR196",
+    "source_id": "SRC108",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5209,8 +6061,8 @@
     "temp_id": "WS8-E05"
   },
   {
-    "evidence_id": "EVR169",
-    "source_id": "SRC111",
+    "evidence_id": "EVR197",
+    "source_id": "SRC109",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5241,8 +6093,8 @@
     "temp_id": "WS8-E06"
   },
   {
-    "evidence_id": "EVR170",
-    "source_id": "SRC111",
+    "evidence_id": "EVR198",
+    "source_id": "SRC109",
     "research_question_ids": [
       "RQ2",
       "RQ5"
@@ -5271,8 +6123,8 @@
     "temp_id": "WS8-E07"
   },
   {
-    "evidence_id": "EVR171",
-    "source_id": "SRC112",
+    "evidence_id": "EVR199",
+    "source_id": "SRC110",
     "research_question_ids": [
       "RQ2",
       "RQ5"
@@ -5304,8 +6156,8 @@
     "temp_id": "WS8-E08"
   },
   {
-    "evidence_id": "EVR172",
-    "source_id": "SRC113",
+    "evidence_id": "EVR200",
+    "source_id": "SRC111",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5337,8 +6189,8 @@
     "temp_id": "WS8-E09"
   },
   {
-    "evidence_id": "EVR173",
-    "source_id": "SRC114",
+    "evidence_id": "EVR201",
+    "source_id": "SRC112",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5369,8 +6221,8 @@
     "temp_id": "WS8-E10"
   },
   {
-    "evidence_id": "EVR174",
-    "source_id": "SRC115",
+    "evidence_id": "EVR202",
+    "source_id": "SRC113",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5401,8 +6253,8 @@
     "temp_id": "WS8-E11"
   },
   {
-    "evidence_id": "EVR175",
-    "source_id": "SRC116",
+    "evidence_id": "EVR203",
+    "source_id": "SRC114",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5432,8 +6284,8 @@
     "temp_id": "WS8-E12"
   },
   {
-    "evidence_id": "EVR176",
-    "source_id": "SRC117",
+    "evidence_id": "EVR204",
+    "source_id": "SRC115",
     "research_question_ids": [
       "RQ5"
     ],
@@ -5463,8 +6315,8 @@
     "temp_id": "WS8-E13"
   },
   {
-    "evidence_id": "EVR177",
-    "source_id": "SRC118",
+    "evidence_id": "EVR205",
+    "source_id": "SRC116",
     "research_question_ids": [
       "RQ5",
       "RQ4"
@@ -5495,8 +6347,8 @@
     "temp_id": "WS8-E14"
   },
   {
-    "evidence_id": "EVR178",
-    "source_id": "SRC119",
+    "evidence_id": "EVR206",
+    "source_id": "SRC117",
     "research_question_ids": [
       "RQ5"
     ],
@@ -5526,8 +6378,8 @@
     "temp_id": "WS8-E15"
   },
   {
-    "evidence_id": "EVR179",
-    "source_id": "SRC120",
+    "evidence_id": "EVR207",
+    "source_id": "SRC118",
     "research_question_ids": [
       "RQ2",
       "RQ5"
@@ -5558,8 +6410,8 @@
     "temp_id": "WS8-E16"
   },
   {
-    "evidence_id": "EVR180",
-    "source_id": "SRC121",
+    "evidence_id": "EVR208",
+    "source_id": "SRC119",
     "research_question_ids": [
       "RQ5"
     ],
@@ -5588,8 +6440,8 @@
     "temp_id": "WS8-E17"
   },
   {
-    "evidence_id": "EVR181",
-    "source_id": "SRC122",
+    "evidence_id": "EVR209",
+    "source_id": "SRC120",
     "research_question_ids": [
       "RQ1"
     ],
@@ -5620,8 +6472,8 @@
     "temp_id": "WS8-E18"
   },
   {
-    "evidence_id": "EVR182",
-    "source_id": "SRC123",
+    "evidence_id": "EVR210",
+    "source_id": "SRC121",
     "research_question_ids": [
       "RQ1"
     ],
@@ -5652,8 +6504,8 @@
     "temp_id": "WS8-E19"
   },
   {
-    "evidence_id": "EVR183",
-    "source_id": "SRC124",
+    "evidence_id": "EVR211",
+    "source_id": "SRC122",
     "research_question_ids": [
       "RQ1"
     ],
@@ -5686,8 +6538,8 @@
     "temp_id": "WS8-E20"
   },
   {
-    "evidence_id": "EVR184",
-    "source_id": "SRC125",
+    "evidence_id": "EVR212",
+    "source_id": "SRC123",
     "research_question_ids": [
       "RQ1",
       "RQ2"
@@ -5718,8 +6570,8 @@
     "temp_id": "WS8-E21"
   },
   {
-    "evidence_id": "EVR185",
-    "source_id": "SRC125",
+    "evidence_id": "EVR213",
+    "source_id": "SRC123",
     "research_question_ids": [
       "RQ3"
     ],
@@ -5750,8 +6602,8 @@
     "temp_id": "WS8-E22"
   },
   {
-    "evidence_id": "EVR186",
-    "source_id": "SRC126",
+    "evidence_id": "EVR214",
+    "source_id": "SRC124",
     "research_question_ids": [
       "RQ2"
     ],
@@ -5781,8 +6633,8 @@
     "temp_id": "WS8-E23"
   },
   {
-    "evidence_id": "EVR187",
-    "source_id": "SRC126",
+    "evidence_id": "EVR215",
+    "source_id": "SRC124",
     "research_question_ids": [
       "RQ1"
     ],
@@ -5811,8 +6663,8 @@
     "temp_id": "WS8-E24"
   },
   {
-    "evidence_id": "EVR188",
-    "source_id": "SRC127",
+    "evidence_id": "EVR216",
+    "source_id": "SRC125",
     "research_question_ids": [
       "RQ5",
       "RQ2"
@@ -5843,8 +6695,8 @@
     "temp_id": "WS8-E25"
   },
   {
-    "evidence_id": "EVR189",
-    "source_id": "SRC128",
+    "evidence_id": "EVR217",
+    "source_id": "SRC126",
     "research_question_ids": [
       "RQ2",
       "RQ5"
@@ -5874,857 +6726,5 @@
     "access_status": "abstract_only",
     "workstream": "WS8_structured_reporting_coverage",
     "temp_id": "WS8-E26"
-  },
-  {
-    "evidence_id": "EVR190",
-    "source_id": "SRC018",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 Retained review driven by formal obligations; also P1.2 (missing evidence from vendor)",
-    "work_type_tags": [
-      "W1",
-      "W2"
-    ],
-    "concept_tags": [
-      "X4"
-    ],
-    "observed_finding": "Revised interagency MRM guidance states that vendor/third-party products (data, parameter values, complete models) remain subject to model risk management principles even though banks may not receive the vendor's code, data or methodology; sound practice includes validating vendor products (internally or by outside parties) and understanding conceptual soundness, design, development data and performance.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "US banking organizations supervised by FRB, FDIC, OCC; models including vendor products",
-    "study_or_observation_method": "Primary supervisory guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Supervisory expectation for treatment of vendor models",
-    "quantitative_result": null,
-    "source_locator": "SR 26-2 Attachment, Section VII 'Vendor and Other Third-Party Products', printed pp. 11-12",
-    "short_exact_excerpt": "because certain components may be proprietary, banking organizations may not receive from the vendor the underlying code, data, or methodology that they would have if a model were developed internally. Nevertheless, the principles of model risk management remain applicable.",
-    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
-    "limitations": "Guidance, not a rule; scope is models, not advisory reports; tailoring to risk/size is explicitly permitted.",
-    "transferability_to_target_workflow": "Mechanism transfers by analogy: a bank lender receiving an IE energy-yield model or a sponsor financial model faces the same 'opaque vendor product' problem. Difference: IE reports are typically not classified as bank 'models' under MRM; credit policy rather than MRM governs them. Verify whether lenders' MRM or credit policies treat third-party yield/financial models as in-scope.",
-    "analyst_inference": "The guidance treats opacity (missing code/data/methodology) as a known condition that does NOT relieve the obligation; it implies compensating work (benchmarking, outcome analysis) rises when evidence is missing. This is consistent with both P1.1 (obligation persists regardless) and P1.2 (missing evidence shapes how much compensating work is needed). It does not quantify either.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E01"
-  },
-  {
-    "evidence_id": "EVR191",
-    "source_id": "SRC018",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 Retained review driven by formal obligations (effective challenge)",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Guidance defines 'effective challenge' as critical analysis by objective experts with appropriate expertise, sufficient independence, and organizational standing and influence to effect change, throughout the model lifecycle.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "US banking organizations",
-    "study_or_observation_method": "Primary supervisory guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Definition of required independent challenge",
-    "quantitative_result": null,
-    "source_locator": "SR 26-2 Attachment, Section III 'Overview of Model Risk and Model Risk Management', printed p. 5",
-    "short_exact_excerpt": "“effective challenge,” which refers to the critical analysis conducted by objective experts who evaluate model risk and effect appropriate changes throughout the model lifecycle",
-    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
-    "limitations": "Defines a role, not the amount of work it entails.",
-    "transferability_to_target_workflow": "Credit committees and second-line risk functions in bank project-finance lending play an analogous challenge role. The requirement is about who challenges (independence, standing), which better evidence packaging cannot substitute for.",
-    "analyst_inference": "Challenge is defined by the challenger's independence and authority, not by the quality of the output under review; this is the clearest statement in my set that some review is structurally non-removable (W1).",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E02"
-  },
-  {
-    "evidence_id": "EVR192",
-    "source_id": "SRC018",
-    "research_question_ids": [
-      "RQ1",
-      "RQ4"
-    ],
-    "proposition_tested": "P1.4 Adaptation to recipient-specific policies/criteria; P4.1 heterogeneous customer-specific needs",
-    "work_type_tags": [
-      "W4"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Guidance anticipates that banks apply overlays or adjustments to vendor model output and customize vendor models to their specific business needs, and expects such adjustments to be documented, justified and evaluated as part of validation; ongoing monitoring/outcome analysis supports any overlay.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "US banking organizations using vendor models",
-    "study_or_observation_method": "Primary supervisory guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Expected treatment of overlays/customizations",
-    "quantitative_result": null,
-    "source_locator": "SR 26-2 Attachment, Section VII, printed p. 12",
-    "short_exact_excerpt": "Such analysis can also be used to support any overlay or adjustment to model output. In cases where vendor models are customized to fit a banking organization’s specific business needs, sound practice also involves appropriately documenting, justifying, and evaluating adjustments",
-    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
-    "limitations": "Does not indicate how common overlays are.",
-    "transferability_to_target_workflow": "Analogous to lenders converting an IE P50 into a lender/agency base or rating case (see WS2-E12, WS2-E14). The adaptation itself generates documentation work.",
-    "analyst_inference": "Adaptation (W4) is treated as normal and itself creates a documentation/validation burden, so W4 work is partly regulatory, not just preference.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E03"
-  },
-  {
-    "evidence_id": "EVR193",
-    "source_id": "SRC018",
-    "research_question_ids": [
-      "RQ1",
-      "RQ2"
-    ],
-    "proposition_tested": "P-NEW: Supervisory treatment of generative/agentic-AI-produced analysis is currently unsettled, so AI-based advisor outputs fall back on general risk governance rather than specific validation standards",
-    "work_type_tags": [],
-    "concept_tags": [],
-    "observed_finding": "Footnote states that generative AI and agentic AI models are not within the scope of the revised guidance, while the banking organization's risk management and governance practices should guide controls for tools not covered; principles apply to traditional and non-generative, non-agentic AI models.",
-    "relationship": "contextual",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "US banking organizations",
-    "study_or_observation_method": "Primary supervisory guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Scope of guidance",
-    "quantitative_result": null,
-    "source_locator": "SR 26-2 Attachment, footnote 3, printed p. 3",
-    "short_exact_excerpt": "Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance.",
-    "underlying_evidence_group": "EG:sr26-2-mrm-2026",
-    "limitations": "Exclusion from scope is not a statement about required review intensity.",
-    "transferability_to_target_workflow": "An AI-generated diligence product delivered to a bank lender would not have a specific MRM validation standard under SR 26-2; banks would apply general governance. Verify how bank credit/model-risk teams actually classify LLM-generated diligence outputs.",
-    "analyst_inference": "Creates uncertainty about what evidence an AI-enabled advisor would need to supply to satisfy bank reviewers; may increase bespoke (customer-specific) review requirements.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E04"
-  },
-  {
-    "evidence_id": "EVR194",
-    "source_id": "SRC019",
-    "research_question_ids": [
-      "RQ1",
-      "RQ2"
-    ],
-    "proposition_tested": "P1.2 Avoidable reconstruction from missing evidence (qualifies); P2.4 visibility into limitations/assumptions",
-    "work_type_tags": [
-      "W1",
-      "W2"
-    ],
-    "concept_tags": [
-      "X4"
-    ],
-    "observed_finding": "FDIC examiner procedures say institution standards for selecting vendor models may require vendor-supplied developmental evidence (components, design, intended use), testing results, clearly documented limitations and assumptions, and ongoing performance monitoring, AND institution validation of its use of the model including sensitivity analysis and benchmarking, plus internal outcomes analysis using the institution's own outcomes.",
-    "relationship": "qualifies",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "FDIC-supervised institutions with significant model use; examiners",
-    "study_or_observation_method": "Primary examination-procedure text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Examiner checks of vendor-model documentation and ongoing practices",
-    "quantitative_result": null,
-    "source_locator": "FDIC Model Risk Management Core Analysis Procedures, Page 2 of 11 (policy standards for selecting vendor models) and Page 3 of 11, Procedures 6-7 'Vendor Models'",
-    "short_exact_excerpt": "Developmental evidence from the vendor explaining the product components, design, and intended use to determine whether the model is appropriate for the institution",
-    "underlying_evidence_group": "EG:fdic-mrm-exam-module-2025",
-    "limitations": "Examiners need not perform every procedure; not evidence of practice. References SR 11-7, since superseded.",
-    "transferability_to_target_workflow": "Close analogue for an advisor-evidence standard: the supervisor lists the kinds of supplier evidence (design, testing, limitations, assumptions) that make a third-party product reviewable. Difference: an IE/advisor report is not usually a 'model' under MRM; the receiving lender's validation still includes its own sensitivity/benchmarking.",
-    "analyst_inference": "Regulators expect supplier transparency to ENABLE recipient review, not to REPLACE it: both vendor evidence and institution validation are listed. Supports a version of the thesis where traceability changes the type of review (assessment vs reconstruction) rather than eliminating it.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E05"
-  },
-  {
-    "evidence_id": "EVR195",
-    "source_id": "SRC020",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 Retained review driven by formal obligations; qualifies P1.2 (analysis itself may be delegated)",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "OCC guidance implementing Dodd-Frank s.939A says institutions may rely on third parties for much of the analytical work in credit due diligence on investment securities, but management may not delegate its decision-making responsibility and should ensure third parties are independent, reliable and qualified; depth of due diligence scales with credit quality, structural complexity and size.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "National banks and federal savings associations purchasing investment securities",
-    "study_or_observation_method": "Primary guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Supervisory expectation for pre-purchase due diligence",
-    "quantitative_result": null,
-    "source_locator": "77 FR 35261 (Text of Final Supervisory Guidance, pre-purchase due diligence)",
-    "short_exact_excerpt": "While analytical support may be delegated to third parties, management may not delegate its responsibility for decision-making and should ensure that prospective third parties are independent, reliable, and qualified.",
-    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
-    "limitations": "Securities context; does not say how much review of third-party analysis is needed.",
-    "transferability_to_target_workflow": "Directly transferable principle for lenders using IE/market/insurance advisors: analysis may be outsourced; the decision and the vetting of the advisor's independence/qualifications may not.",
-    "analyst_inference": "Important discrimination: the regulator does NOT require reconstruction of outside analysis; the non-delegable core is the decision plus advisor vetting. Retained work is therefore partly 'decision ownership' (W1) and partly 'advisor qualification' review, not necessarily re-performance.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E06"
-  },
-  {
-    "evidence_id": "EVR196",
-    "source_id": "SRC020",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.2 Missing evidence increases review (weak support)",
-    "work_type_tags": [
-      "W2"
-    ],
-    "concept_tags": [
-      "X4"
-    ],
-    "observed_finding": "Guidance on ongoing portfolio reviews says third-party vendors may provide risk analysis and benchmarks, and that holdings where current financial information or key analytical data is unavailable should warrant more frequent analysis; material positions/concentrations warrant deeper assessment.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "National banks/FSAs, ongoing investment portfolio reviews",
-    "study_or_observation_method": "Primary guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Expected review frequency/intensity",
-    "quantitative_result": null,
-    "source_locator": "77 FR 35262 (ongoing reviews section)",
-    "short_exact_excerpt": "Holdings where current financial information or other key analytical data is unavailable should warrant more frequent analysis.",
-    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
-    "limitations": "Normative statement; no measurement.",
-    "transferability_to_target_workflow": "Suggests that in credit monitoring, data gaps (not advisor quality per se) are what regulators tie to extra review. Transfers to operating-asset monitoring of renewable portfolios.",
-    "analyst_inference": "Ties review intensity to information availability and materiality, not to trust in the provider. Weak support for P1.2 as an expectation, not as observed behavior.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E07"
-  },
-  {
-    "evidence_id": "EVR197",
-    "source_id": "SRC021",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 Retained review driven by formal obligations regardless of outside-analysis quality",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Post-939A OCC regulation defines 'investment grade' by the issuer's adequate capacity to meet commitments (low default risk, full and timely repayment expected) rather than by a credit rating, requires the bank to determine there is adequate evidence of the obligor's capacity to pay, and to maintain records adequate to demonstrate it meets the requirements.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "National banks (12 CFR Part 1)",
-    "study_or_observation_method": "Primary regulatory text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Legal requirement for bank's own creditworthiness determination and records",
-    "quantitative_result": null,
-    "source_locator": "12 CFR 1.2(d); 12 CFR 1.5(b)-(c)",
-    "short_exact_excerpt": "the bank shall determine that there is adequate evidence that an obligor possesses resources sufficient to provide for all required payments on its obligations",
-    "underlying_evidence_group": "EG:occ-939a-investment-securities-2012",
-    "limitations": "Same regulatory package as WS2-S03; the 2026 amendment to 1.5 not examined.",
-    "transferability_to_target_workflow": "Example where law mandates the recipient's own determination and documentation even when high-quality outside analysis (a rating) exists. Similar documentation duties apply in bank credit files for project loans via safety-and-soundness standards.",
-    "analyst_inference": "The records requirement means some recipient work (documenting the basis for the determination in the bank's own file) persists regardless of advisor transparency; traceable advisor evidence could make that documentation cheaper but cannot remove the duty.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E08"
-  },
-  {
-    "evidence_id": "EVR198",
-    "source_id": "SRC022",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 Accountability for outsourced work cannot be transferred",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Interagency guidance states that a banking organization's use of third parties does not diminish its responsibility to meet legal/regulatory requirements to the same extent as if the activities were performed in-house, and that use of third parties does not remove the need for sound risk management.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "All banking organizations supervised by FRB, FDIC, OCC",
-    "study_or_observation_method": "Primary guidance text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Supervisory principle on accountability for third-party relationships",
-    "quantitative_result": null,
-    "source_locator": "88 FR 37920 et seq., guidance Section I/II introduction (exact page not pinned)",
-    "short_exact_excerpt": "use of third parties does not diminish its responsibility to meet these requirements to the same extent as if its activities were performed by the banking organization in-house.",
-    "underlying_evidence_group": "EG:interagency-tprm-2023",
-    "limitations": "Concerns outsourced activities generally; analogy for purchased analysis.",
-    "transferability_to_target_workflow": "Transfers as a general accountability principle to lenders relying on IEs and other advisors; does not specify how to evaluate an advisor's report.",
-    "analyst_inference": "Reinforces that accountability, not analytic capacity, anchors retained review. Analogy only.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E09"
-  },
-  {
-    "evidence_id": "EVR199",
-    "source_id": "SRC023",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 Formal obligations require both outside expert verification and lender's own assessment",
-    "work_type_tags": [
-      "W1",
-      "W3"
-    ],
-    "concept_tags": [],
-    "observed_finding": "EBA guidelines on project finance require institutions to assess the project's cash flows as the primary repayment source themselves, establish that the borrower's development costs were verified by an independent expert, ensure borrower-provided cost calculations include contingencies, and assess equity investors.",
-    "relationship": "supports",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "EU credit institutions; project finance lending (Section 5.2.11)",
-    "study_or_observation_method": "Primary guidelines text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Required elements of creditworthiness assessment",
-    "quantitative_result": null,
-    "source_locator": "EBA/GL/2020/06, Section 5.2.11 'Project finance', paras 187-192, pp. 48-49",
-    "short_exact_excerpt": "has a plausible business plan, including a rationale for the development and a projection of all costs associated with the development verified by an independent expert;",
-    "underlying_evidence_group": "EG:eba-lom-2020",
-    "limitations": "Guideline text; does not specify how institutions should use the independent expert's report.",
-    "transferability_to_target_workflow": "Directly relevant to renewable project lenders in the EU: regulation simultaneously mandates outside expert verification and the lender's own cash-flow assessment, creating a layered structure (sponsor analysis -> independent expert -> lender assessment -> credit committee).",
-    "analyst_inference": "The regulatory design presumes outside expert work is an input to, not a substitute for, the lender's assessment; so at least part of retained lender work is W1 by design. It also implicitly assumes borrower-provided figures can be incomplete (contingencies), i.e., W3 risk.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E10"
-  },
-  {
-    "evidence_id": "EVR200",
-    "source_id": "SRC023",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 / contextual: outside analysis admissible as input within lender's own assessment",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Guidelines allow institutions to use information from third parties such as tax advisors, auditors and other experts, together with borrower information, when assessing borrowers likely to face financial difficulties.",
-    "relationship": "contextual",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "EU credit institutions",
-    "study_or_observation_method": "Primary guidelines text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Admissible information sources",
-    "quantitative_result": null,
-    "source_locator": "EBA/GL/2020/06, para. 91, p. 34",
-    "short_exact_excerpt": "both information from third parties, such as tax advisors, auditors and other experts, and information from borrowers may be used.",
-    "underlying_evidence_group": "EG:eba-lom-2020",
-    "limitations": "Narrow context (borrowers likely to face difficulties).",
-    "transferability_to_target_workflow": "Shows regulators frame outside expert work as evidence the lender weighs, not as a conclusion it adopts.",
-    "analyst_inference": "Contextual; consistent with E10.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E11"
-  },
-  {
-    "evidence_id": "EVR201",
-    "source_id": "SRC024",
-    "research_question_ids": [
-      "RQ1",
-      "RQ3"
-    ],
-    "proposition_tested": "P1.4 Adaptation to receiver's own criteria is a major driver of retained work",
-    "work_type_tags": [
-      "W4"
-    ],
-    "concept_tags": [
-      "X4"
-    ],
-    "observed_finding": "Fitch's 2012 renewable criteria (as presented) placed considerable emphasis on resource assessments and independent engineer reports, then applied its own Base Case (energy production subject to a 0%-10% adjustment; availability and O&M adjustments) and a Rating Case (one-year P90 energy production with other potential production adjustments, availability decreases, O&M increases), with indicative 'BBB' DSCR thresholds by technology (e.g., wind base >=1.60x, rating case >=1.30x).",
-    "relationship": "supports",
-    "evidence_type": "rating agency methodology description (practitioner presentation of criteria)",
-    "population_and_setting": "Fitch-rated renewable project debt (>US$44bn loan issuances/requests; >25 GW) as of 2012",
-    "study_or_observation_method": "Presentation of rating criteria",
-    "intervention_and_comparator": null,
-    "outcome_measured": "How the agency converts third-party production forecasts into its own cases",
-    "quantitative_result": "Base case energy adjustment 0%-10%; rating case one-year P90; indicative BBB DSCR (base/rating): PV >=1.40x/>=1.30x; CSP >=1.50x/>=1.40x; wind >=1.60x/>=1.30x; biomass/geothermal >=1.60x/>=1.40x",
-    "source_locator": "Slides 2 ('Rating Approach'), 6 ('Technology Risk Comparison'), 7 ('Financial Analysis'), 8 ('Indicative BBB Category Coverage Ratios')",
-    "short_exact_excerpt": "One-year P90 energy production with other potential production adjustments",
-    "underlying_evidence_group": "EG:fitch-renewable-criteria-2012-presentation",
-    "limitations": "2012 criteria; current criteria may differ. Slides, not the criteria document.",
-    "transferability_to_target_workflow": "Core mechanism transfers directly: credit receivers re-cut IE output into their own cases rather than adopting the IE's base case. What transfers to an advisor product is the need to supply exceedance distributions (P50/P90/P99, one-year vs ten-year) and adjustable inputs so the receiver can apply its own criteria without reconstruction.",
-    "analyst_inference": "This is W4 rather than W2/W3: the agency uses the IE's distribution as given and applies house haircuts. An advisor output that exposes uncertainty (X4) in the receiver's required format could reduce reconstruction but the adaptation step itself is policy and persists.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E12"
-  },
-  {
-    "evidence_id": "EVR202",
-    "source_id": "SRC025",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.4 Adaptation to receiver criteria (supports); P1.3 rework due to inaccurate advisor output (qualifies)",
-    "work_type_tags": [
-      "W4"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Fitch's rating case for a single-site solar project uses a one-year P90 generation estimate, keeps a 2% production haircut 'in line with peer projects', tests a one-year P99 scenario, and adds O&M cost stresses; the release also reports that actual generation outperformed Fitch's base case in each of the last seven years (average ~7% annual overperformance, per the fetched text).",
-    "relationship": "qualifies",
-    "evidence_type": "rating action commentary (receiver's applied criteria on one asset)",
-    "population_and_setting": "Topaz Solar Farms LLC senior notes (single US solar project)",
-    "study_or_observation_method": "Published rating action commentary",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Rating-case assumptions; actual vs Fitch base case generation",
-    "quantitative_result": "Base case DSCR avg 2.21x (min 1.92x) 2023-2039; rating case avg 1.96x (min 1.70x); production haircut 2%; actual generation above Fitch base case in each of last 7 years, average overperformance 7% (as returned by fetch tool)",
-    "source_locator": "Rating action text (paragraphs on rating case and performance); exact paragraph not pinned",
-    "short_exact_excerpt": "Fitch has maintained the production haircut at 2% given that this is a single-site project, in line with peer projects.",
-    "underlying_evidence_group": "EG:fitch-topaz-rac-2024",
-    "limitations": "Single asset; read via fetch tool with truncated quotes; no mention of the independent engineer.",
-    "transferability_to_target_workflow": "Shows house haircuts are peer-calibrated criteria applied uniformly, not responses to a specific IE error. In the target workflow, lender haircuts on IE P50/P90 would similarly persist even with a perfect, fully traceable IE report.",
-    "analyst_inference": "Counterweight to reading haircuts as evidence of advisor inaccuracy (W3): here the receiver's adjusted case was conservative relative to outcomes. Receiver adaptation (W4) is criteria-driven and would not be removed by traceability.",
-    "access_status": "partial",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E13"
-  },
-  {
-    "evidence_id": "EVR203",
-    "source_id": "SRC026",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.3 Rework/discounting due to inaccurate outside forecasts",
-    "work_type_tags": [
-      "W3",
-      "W4"
-    ],
-    "concept_tags": [
-      "X5"
-    ],
-    "observed_finding": "News report of the kWh Analytics 2021 Solar Generation Index: across more than 350 operational US solar assets (>10 GW, owned by 15 of the 20 largest owners), operational systems underperformed P50 estimates by 5-13% between 2011 and 2020, with performance notably worsening since 2016; variance of P50 estimates decreased.",
-    "relationship": "supports",
-    "evidence_type": "observational industry dataset (secondary report)",
-    "population_and_setting": ">350 US operational solar assets, >10 GW, 2011-2020",
-    "study_or_observation_method": "Comparison of weather-adjusted actual generation with pre-construction P50 estimates (method as reported)",
-    "intervention_and_comparator": "Actual vs P50 estimate",
-    "outcome_measured": "Weather-adjusted production relative to P50",
-    "quantitative_result": "Underperformance vs P50 of 5-13% (range by year), 2011-2020; >350 assets; no CI reported",
-    "source_locator": "PV Tech article body (not paginated)",
-    "short_exact_excerpt": "operational solar systems underperformed P50 estimates by between 5 – 13%",
-    "underlying_evidence_group": "EG:kwh-analytics-sgi-2021",
-    "limitations": "Secondary report, read via fetch tool; does not identify whether P50s came from lender IEs or sponsor consultants; vendor-produced dataset.",
-    "transferability_to_target_workflow": "Highly relevant to renewable credit: a documented systematic bias in outside energy forecasts gives lenders a rational (not ritual) reason to discount or re-check yield reports. Needs verification against the original kWh report and whether bias persisted after 2021.",
-    "analyst_inference": "Supports P1.3 as a reason review persists in this specific domain, and shows X5 (correctness) is distinct from X3/X4: a perfectly traceable P50 can still be biased. Traceability would help detect method choices behind bias, but only outcome data revealed the bias.",
-    "access_status": "partial",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E14"
-  },
-  {
-    "evidence_id": "EVR204",
-    "source_id": "SRC027",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.3 Inaccurate outside forecasts drive receiver discounting (lead only)",
-    "work_type_tags": [
-      "W3",
-      "W4"
-    ],
-    "concept_tags": [
-      "X5"
-    ],
-    "observed_finding": "Search-result summaries of KBRA's July 2022 research describe its portfolio of 70 rated renewable transactions as having generation rarely in line with P50 levels, with solar projects performing most closely to P90 forecasts relative to other sectors.",
-    "relationship": "supports",
-    "evidence_type": "rating agency portfolio analysis (seen only via search summaries)",
-    "population_and_setting": "70 KBRA-rated renewable transactions (as summarized)",
-    "study_or_observation_method": "Portfolio performance review (as summarized)",
-    "intervention_and_comparator": "Actual vs P50/P90",
-    "outcome_measured": "Generation relative to forecast exceedance levels",
-    "quantitative_result": "70 transactions (as summarized); no effect sizes seen",
-    "source_locator": "not located (full report login-gated)",
-    "short_exact_excerpt": null,
-    "underlying_evidence_group": "EG:kbra-renewable-portfolio-2022",
-    "limitations": "Unverified; only search-engine paraphrases seen. Do not weight heavily.",
-    "transferability_to_target_workflow": "If confirmed, it corroborates WS2-E14 from an independent receiver (rating agency) and explains why agencies anchor on P90 rather than IE P50.",
-    "analyst_inference": "Independent-group corroboration of forecast bias would strengthen P1.3 for renewables, but access limits mean this is a lead for the coordinator to verify.",
-    "access_status": "other",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E15"
-  },
-  {
-    "evidence_id": "EVR205",
-    "source_id": "SRC028",
-    "research_question_ids": [
-      "RQ1",
-      "RQ3"
-    ],
-    "proposition_tested": "P1.1 / P1.3: lenders procure their own technical reviewer to validate sponsor-supplied studies and models",
-    "work_type_tags": [
-      "W1",
-      "W2",
-      "W3"
-    ],
-    "concept_tags": [],
-    "observed_finding": "A CDFI lender's RFP seeks engineering partners to support underwriting by evaluating sites, solar resource outputs and developer-submitted technical studies, and to provide technical validation of project financial models, ensuring assumptions are realistic and within market ranges; plus construction draw approvals and ongoing performance monitoring.",
-    "relationship": "supports",
-    "evidence_type": "procurement document (actual scope of work)",
-    "population_and_setting": "Hope Enterprise Corporation commercial/community/multifamily solar lending in Arkansas and Mississippi (EPA Solar for All grantee)",
-    "study_or_observation_method": "Review of RFP scope of work",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Advertised engineering scope for lender underwriting",
-    "quantitative_result": null,
-    "source_locator": "RFP p. 3, 'Scope of Work' item 1 'Technical Assessment of Projects During the Underwriting Phase (Front-End Due Diligence)'",
-    "short_exact_excerpt": "Provide technical validation for project financial models, ensuring assumptions are realistic and within current market ranges.",
-    "underlying_evidence_group": "EG:hope-sfa-engineering-rfp-2025",
-    "limitations": "One lender; advertised scope not actual practice; no reliance language.",
-    "transferability_to_target_workflow": "Directly in the target domain: the lender adds its own outside reviewer as a layer to check sponsor-supplied analysis (resource outputs, models). Shows that recipient review of outside analysis is itself partly outsourced, so 'recipient work' includes procuring and reading a second advisor's review.",
-    "analyst_inference": "Layered verification (sponsor study -> lender's engineer -> lender credit) suggests reviewer work is distributed across parties. Whether the layer exists because sponsor studies lack evidence (W2), are biased (W3), or because policy requires independence (W1) is not stated; the phrase 'realistic and within current market ranges' points to benchmarking against the lender's own reference ranges (W4).",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E16"
-  },
-  {
-    "evidence_id": "EVR206",
-    "source_id": "SRC028",
-    "research_question_ids": [
-      "RQ6",
-      "RQ5"
-    ],
-    "proposition_tested": "P6.1 / P5.1 (contextual): buyer pricing structure for verification services",
-    "work_type_tags": [],
-    "concept_tags": [],
-    "observed_finding": "The RFP requests per-project pricing for underwriting support, construction support and monitoring, and weights evaluation as Technical Approach & Expertise 40%, Past Experience 20%, Capacity & Capability 20%, Cost Proposal 20% (with preference for per-project payment structures).",
-    "relationship": "contextual",
-    "evidence_type": "procurement document (buyer evaluation criteria)",
-    "population_and_setting": "Hope Enterprise Corporation",
-    "study_or_observation_method": "Review of RFP evaluation criteria",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Buyer evaluation weights and pricing format",
-    "quantitative_result": "Technical 40%; experience 20%; capacity 20%; cost 20%",
-    "source_locator": "RFP p. 4 ('Cost Proposal') and p. 5 ('Evaluation Criteria')",
-    "short_exact_excerpt": "Cost Proposal (20%) – Competitive pricing with preference for per-project payment structure",
-    "underlying_evidence_group": "EG:hope-sfa-engineering-rfp-2025",
-    "limitations": "One buyer; stated weights, not purchase outcome.",
-    "transferability_to_target_workflow": "Indicates at least one renewable lender buys technical verification per project, with expertise weighted above price; bears on how a more traceable advisor product might be priced, but says nothing about willingness to pay for traceability.",
-    "analyst_inference": "Contextual only; no evidence that reduced recipient effort affects price.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E17"
-  },
-  {
-    "evidence_id": "EVR207",
-    "source_id": "SRC029",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.1 (qualifies): law protects good-faith reliance on selected experts rather than requiring re-performance; P1.6",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Delaware law provides that directors are fully protected in relying in good faith on reports or opinions presented by any person as to matters the director reasonably believes are within that person's professional or expert competence and who was selected with reasonable care.",
-    "relationship": "qualifies",
-    "evidence_type": "statute (legal standard)",
-    "population_and_setting": "Directors of Delaware corporations",
-    "study_or_observation_method": "Statutory text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Legal protection for reliance",
-    "quantitative_result": null,
-    "source_locator": "8 Del. C. s.141(e)",
-    "short_exact_excerpt": "by any other person as to matters the member reasonably believes are within such other person’s professional or expert competence and who has been selected with reasonable care by or on behalf of the corporation.",
-    "underlying_evidence_group": "EG:dgcl-141e",
-    "limitations": "Case law on limits (good faith, obvious red flags, being informed) not retrieved.",
-    "transferability_to_target_workflow": "Corporate-board analogue for an IC: legal accountability is satisfied by careful selection, competence assessment and good faith, not by redoing expert work. Lender credit committees operate under different (regulatory) standards (WS2-E06, E10).",
-    "analyst_inference": "Legal frameworks reward documented, good-faith reliance; this points to retained work centered on selecting/vetting the expert and understanding the report, which is the part traceability and scope disclosure could plausibly support. Excess re-performance beyond this may reflect P1.6 (comfort) or rational risk aversion; not tested here.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E18"
-  },
-  {
-    "evidence_id": "EVR208",
-    "source_id": "SRC030",
-    "research_question_ids": [
-      "RQ1",
-      "RQ3"
-    ],
-    "proposition_tested": "P1.2 (qualifies): receiving an outside report converts de novo work into confirmatory work",
-    "work_type_tags": [
-      "W2"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Practitioner argues that buyers' initial diligence would be accelerated by a vendor due diligence report and that it is generally much easier and cheaper to confirm a VDD report than to prepare one de novo; buyers' advisors can focus on major issues.",
-    "relationship": "qualifies",
-    "evidence_type": "practitioner account (opinion, no data)",
-    "population_and_setting": "US private equity M&A (sell-side vendor due diligence)",
-    "study_or_observation_method": "Practitioner article",
-    "intervention_and_comparator": "Vendor DD report vs buyer's de novo diligence",
-    "outcome_measured": "Asserted effort/cost of buyer diligence",
-    "quantitative_result": null,
-    "source_locator": "Article sections 'Benefits' and 'Professional Liability Issue' (web page, not paginated)",
-    "short_exact_excerpt": "it is generally much easier and cheaper to confirm a VDDR report than to prepare one de novo.",
-    "underlying_evidence_group": "EG:rosen-2018-vddr",
-    "limitations": "One practitioner's view; no measurement.",
-    "transferability_to_target_workflow": "Analogous to equity investors receiving a sponsor-commissioned IE report in renewable M&A: confirmation rather than re-performance. The size of the saving depends on what the report exposes (scope, data) - not addressed.",
-    "analyst_inference": "Suggests the relevant comparison for value is confirmatory vs de novo effort; traceability would matter by lowering confirmation cost. Not evidence of magnitude.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E19"
-  },
-  {
-    "evidence_id": "EVR209",
-    "source_id": "SRC030",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P1.4 Recipient-specific materiality/criteria; P1.1/P1.6 reliance and accountability limits",
-    "work_type_tags": [
-      "W1",
-      "W4"
-    ],
-    "concept_tags": [
-      "X4"
-    ],
-    "observed_finding": "Practitioner describes US non-reliance letters for vendor DD reports: preparers did not consult recipients on scope, recipients may have different interests and views of materiality, recipients use the report at their own risk and waive claims; US advisors cannot or will not create a client relationship with unknown third parties (unlike European practice of granting reliance with liability caps).",
-    "relationship": "supports",
-    "evidence_type": "practitioner account (describes contract practice)",
-    "population_and_setting": "US vs European M&A vendor due diligence",
-    "study_or_observation_method": "Practitioner article",
-    "intervention_and_comparator": "US non-reliance vs European reliance practice",
-    "outcome_measured": "Reliance terms",
-    "quantitative_result": null,
-    "source_locator": "Article section 'Professional Liability Issue' (web page, not paginated)",
-    "short_exact_excerpt": "it is possible that the recipient may have different interests and views of materiality from those expressed by the preparer of the report.",
-    "underlying_evidence_group": "EG:rosen-2018-vddr",
-    "limitations": "Opinion piece; contract terms described generically.",
-    "transferability_to_target_workflow": "In renewable M&A and financing, reliance letters from IEs to lenders are a negotiated item; where reliance is unavailable, recipients rationally commission their own work. Scope set without the recipient is a structural cause of W4 (materiality mismatch) and of uncertainty about coverage (X4).",
-    "analyst_inference": "Two drivers of retained work that traceability alone cannot fix: (1) legal reliance/liability allocation; (2) scope and materiality chosen by someone else. Visibility into scope (X4) would help the recipient know what to redo but not change the reliance position.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E20"
-  },
-  {
-    "evidence_id": "EVR210",
-    "source_id": "SRC031",
-    "research_question_ids": [
-      "RQ3",
-      "RQ2"
-    ],
-    "proposition_tested": "P3.2 Integration/AI shifts review effort (supports); P3.3 drafting separable from judgment (supports, vendor claim)",
-    "work_type_tags": [
-      "W5",
-      "W1"
-    ],
-    "concept_tags": [
-      "X3"
-    ],
-    "observed_finding": "Vendor describes AI drafting IC memos in the firm's own template with datapoint-level citations that click through to source records/data-room documents and automated tie-out checks; it states the associate's job shifts from assembling to editing (checking judgment calls, thesis, risks), with partner/IC review retained, and elapsed time to an IC-ready draft compressing from days to hours.",
-    "relationship": "supports",
-    "evidence_type": "vendor case study / product description",
-    "population_and_setting": "Private equity deal teams (vendor-named customers)",
-    "study_or_observation_method": "Vendor web page",
-    "intervention_and_comparator": "AI-drafted memo vs manual assembly (implied)",
-    "outcome_measured": "Elapsed time to IC-ready draft; role change",
-    "quantitative_result": "Qualitative only: 'days to hours'; no denominators, method, or error outcomes",
-    "source_locator": "Web page section 'What changes for the deal team'",
-    "short_exact_excerpt": "The associate's job shifts from assembling the memo to editing it: checking judgment calls, sharpening the investment thesis, and pressure-testing risks, with the mechanical layer (structure, sourcing, tie-outs, formatting) already done.",
-    "underlying_evidence_group": "EG:modelml-ic-memo-2026",
-    "limitations": "Vendor marketing; no measurement; no evidence on error detection.",
-    "transferability_to_target_workflow": "The claimed mechanism (template-conforming drafting + click-through citations) is the integration hypothesis in vendor form. In renewable IC/credit memos the same split applies, but technical judgment on IE findings remains with the reviewer.",
-    "analyst_inference": "Even the vendor frames integration as relocating effort to editing/verification rather than removing review. 'Click-through to source' is X3, not evidence of X5. Time claim concerns drafting (W5) only.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E21"
-  },
-  {
-    "evidence_id": "EVR211",
-    "source_id": "SRC032",
-    "research_question_ids": [
-      "RQ1",
-      "RQ3",
-      "RQ4"
-    ],
-    "proposition_tested": "P1.5 Reformatting/integration is material; P4.1 heterogeneous house formats",
-    "work_type_tags": [
-      "W5",
-      "W4"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Survey of 54 investment organizations (June 2022): 97% use investment memos for decisions; of those, 78% require memo completion and review before investing; 86% use standard templates, and the template is practically never the same for any two investors; on average a team takes two months to complete memo writing and review (range two weeks to a year).",
-    "relationship": "supports",
-    "evidence_type": "industry survey plus case studies (self-report)",
-    "population_and_setting": "54 professional investment organizations (survey); 4 pension funds, 1 endowment, 1 multi-family office (case studies)",
-    "study_or_observation_method": "Online survey with Stanford Initiative in Long-Term Investing; six 60-minute interviews",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Memo prevalence, templates, time to complete",
-    "quantitative_result": "97% use memos (n=54 orgs); 78% of those require memo completion/review; 86% standard templates; average ~2 months writing+review (interview-reported); no CIs",
-    "source_locator": "Section 6 'Findings', p. 6 and footnote 3; 'Writing' paragraph, p. 7",
-    "short_exact_excerpt": "The majority of firms (86%) also stated that they use standard templates for memos.",
-    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
-    "limitations": "Convenience sample incl. vendor clients; asset owners rather than lenders; two-month figure is an interview impression; memo time includes analysis, not just formatting.",
-    "transferability_to_target_workflow": "Transfers as evidence that IC materials are firm-specific; an outside advisor's output must be mapped into a template unique to each recipient. Renewable lenders/investors not specifically sampled.",
-    "analyst_inference": "Firm-specific templates make W5 integration a customer-specific implementation problem (P4.1) and limit repeatable delivery (P5.1). The two-month figure cannot be split into W1 vs W5.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E22"
-  },
-  {
-    "evidence_id": "EVR212",
-    "source_id": "SRC032",
-    "research_question_ids": [
-      "RQ3",
-      "RQ1"
-    ],
-    "proposition_tested": "P3.3 Drafting separable from judgment (stated preference); P1.1 governance concern about outsourced memos",
-    "work_type_tags": [
-      "W5",
-      "W1"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Respondents cited the 'pain' (time and resources) of writing an approvable memo and suggested automating memo writing by populating fields from other systems, possibly with generative AI, leaving writers only higher-order analysis and recommendations; authors flag as a possible governance failure a case where memos were written by external consultants for non-expert trustees whose work could not be independently validated.",
-    "relationship": "supports",
-    "evidence_type": "industry survey/case studies (stated preferences and observations)",
-    "population_and_setting": "Same as WS2-E22",
-    "study_or_observation_method": "Survey open responses and case interviews",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Desired improvements; governance observations",
-    "quantitative_result": null,
-    "source_locator": "Section 6 'Improving' and governance paragraph, p. 7",
-    "short_exact_excerpt": "in one case we found investment memos were written by external consultants for non-expert trustees — a process that could represent a failure of governance should consultants not be properly credentialed or their work couldn’t be independently validated.",
-    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
-    "limitations": "Stated preference, not observed effect; single governance anecdote.",
-    "transferability_to_target_workflow": "Suggests IC users themselves separate mechanical memo assembly (automatable) from analysis/recommendation (retained), and that fully outsourcing the memo to an outside party raises governance concerns - relevant to how far an advisor should go in writing the client's IC memo.",
-    "analyst_inference": "Supports P3.3 as a perception; also a boundary condition: integration that substitutes for the client's own analysis could weaken governance rather than reduce legitimate work.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E23"
-  },
-  {
-    "evidence_id": "EVR213",
-    "source_id": "SRC032",
-    "research_question_ids": [
-      "RQ3"
-    ],
-    "proposition_tested": "P3.1 Integration reduces end-to-end work (absence of evidence)",
-    "work_type_tags": [],
-    "concept_tags": [],
-    "observed_finding": "Authors state there is practically no published academic or industry research on crafting or using investment memos, and report zero peer-reviewed journal articles on investment memos in Google Scholar as of March 2023.",
-    "relationship": "contextual",
-    "evidence_type": "author literature check",
-    "population_and_setting": "Published literature on investment memos",
-    "study_or_observation_method": "Authors' Google Scholar check",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Count of peer-reviewed articles",
-    "quantitative_result": "0 peer-reviewed articles found (authors' check, March 2023)",
-    "source_locator": "Section 1 'Welcome', p. 1, footnote 1",
-    "short_exact_excerpt": "Google Scholar has zero peer-reviewed journal articles on investment memos as of March 2023.",
-    "underlying_evidence_group": "EG:addepar-stanford-memo-survey-2022",
-    "limitations": "Informal check; may miss adjacent literatures (credit committee decision-making, group decision research).",
-    "transferability_to_target_workflow": "Signals that evidence on whether advisor-to-IC-memo integration reduces end-to-end work is unlikely to exist in public research; field observation would be needed.",
-    "analyst_inference": "Absence of evidence, not evidence of absence, for P3.1.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E24"
-  },
-  {
-    "evidence_id": "EVR214",
-    "source_id": "SRC033",
-    "research_question_ids": [
-      "RQ2",
-      "RQ3"
-    ],
-    "proposition_tested": "P2.4 Scope/assurance-level visibility supports reliance (practitioner assertion); P3.2 AI adds review need",
-    "work_type_tags": [
-      "W3"
-    ],
-    "concept_tags": [
-      "X4",
-      "X5"
-    ],
-    "observed_finding": "Model-audit provider states AI is entering both spreadsheet development and review, that large language models can produce plausible yet unreliable outputs on complex spreadsheet logic, that the 'model auditor' title is unregulated, and that a standards-based (ISAE 3000 + ISQM 1) model audit clarifies scope and level of assurance and provides evidence of work performed.",
-    "relationship": "supports",
-    "evidence_type": "practitioner account (service provider assertion, no data)",
-    "population_and_setting": "Project finance financial model audit market (UK)",
-    "study_or_observation_method": "Thought-leadership web page",
-    "intervention_and_comparator": "Standards-based model audit vs unregulated model review (asserted)",
-    "outcome_measured": "Credibility/bankability of model audit opinions (asserted)",
-    "quantitative_result": null,
-    "source_locator": "Web page, paragraphs under 'Artificial intelligence (AI) is changing the workflow' and standards paragraph",
-    "short_exact_excerpt": "It clarifies the scope and level of assurance, provides evidence of work performed, embeds quality controls and supports opinions that are both durable and bankable.",
-    "underlying_evidence_group": "EG:forvismazars-model-audit-ai-2025",
-    "limitations": "Self-interested assertion; no evidence of effect on lender review effort or error detection.",
-    "transferability_to_target_workflow": "In renewable project finance, lenders typically rely on model audits of sponsor models; the claim that explicit scope and assurance level is what makes a third-party opinion 'bankable' maps directly onto X4. Needs lender-side confirmation.",
-    "analyst_inference": "Practitioner framing aligns with X4 (scope/assurance visibility) as the reliance enabler, separate from X1 persuasive explanation. Also notes AI-generated logic may increase, not decrease, need for independent review (P3.2).",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E25"
-  },
-  {
-    "evidence_id": "EVR215",
-    "source_id": "SRC034",
-    "research_question_ids": [
-      "RQ1"
-    ],
-    "proposition_tested": "P-NEW: Public lenders may rely heavily on borrower-paid third-party advisors with limited visibility into advisor provenance/conflicts, so the gap is under-verification of the advisor rather than over-review of the analysis",
-    "work_type_tags": [
-      "W1"
-    ],
-    "concept_tags": [
-      "X3",
-      "X4"
-    ],
-    "observed_finding": "DOE OIG found the Loan Programs Office contracts third-party advisors for financial/credit, engineering/technical and market reports and relies on their work as essential components of the loan application process while prospective borrowers pay; a limited pool of qualified firms means some advisors also work for applicants; for 18 projects reviewed, LPO could identify the engineering advisors for only 3 and the marketing/financial advisors for none; reliance on advisors' self-identification of conflicts 'creates a blind spot'.",
-    "relationship": "challenges",
-    "evidence_type": "regulator inspection report (audit with judgmental sample)",
-    "population_and_setting": "US DOE Loan Programs Office loan application processing (18 projects; 12 of 66 advisor agreements sampled)",
-    "study_or_observation_method": "Audit: interviews, document review, judgmental sampling",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Tracking of advisors; conflict-of-interest controls",
-    "quantitative_result": "Engineering advisors identifiable for 3 of 18 projects; marketing/financial advisors for 0 of 18; >300 contractor/subcontractor employees supporting loan processing (sixfold increase since Sept 2020)",
-    "source_locator": "DOE-OIG-25-32, pp. 1-2 (background), p. 4 ('Tracking of Third-Party Advisors'), p. 6 (causes)",
-    "short_exact_excerpt": "Although these third-party advisors contract with the LPO, which relies upon their work as essential components of the loan application process, the prospective borrowers pay for the third-party advisors’ services.",
-    "underlying_evidence_group": "EG:doe-oig-25-32-lpo-coi",
-    "limitations": "Judgmental sample; about conflicts management, not report quality or reviewer effort.",
-    "transferability_to_target_workflow": "Directly relevant to renewable/clean-energy project lending: a major public lender relies on borrower-paid IE/market/financial advisors drawn from a small pool. Provenance of WHO produced the analysis (and their other engagements) was not visible to the receiver.",
-    "analyst_inference": "Challenges a blanket assumption that recipients over-review outside analysis: here the observed failure mode is insufficient verification of advisor independence. Traceability that includes advisor identity/engagement provenance (a form of X3/X4 about the producer) could matter as much as traceability of the analysis itself.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E26"
-  },
-  {
-    "evidence_id": "EVR216",
-    "source_id": "SRC035",
-    "research_question_ids": [
-      "RQ2",
-      "RQ1"
-    ],
-    "proposition_tested": "P2.4 Visibility into scope/criteria of outside due diligence (mandated disclosure; contextual)",
-    "work_type_tags": [],
-    "concept_tags": [
-      "X4"
-    ],
-    "observed_finding": "SEC rule requires issuers/underwriters of rated ABS to furnish the findings and conclusions of any third-party due diligence report, including the criteria against which loans were evaluated and how loans compared to those criteria; due diligence providers must certify to NRSROs on Form ABS Due Diligence-15E.",
-    "relationship": "contextual",
-    "evidence_type": "regulatory obligation (direct evidence of a formal requirement; not of compliance, cost, or effect)",
-    "population_and_setting": "Issuers/underwriters of NRSRO-rated asset-backed securities; third-party due diligence providers",
-    "study_or_observation_method": "Primary regulatory text review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Disclosure requirement",
-    "quantitative_result": null,
-    "source_locator": "17 CFR 240.15Ga-2(a) and Instruction to paragraph (a); 17 CFR 240.17g-10(a)",
-    "short_exact_excerpt": "Disclosure of the findings and conclusions includes, but is not limited to, disclosure of the criteria against which the loans were evaluated, and how the evaluated loans compared to those criteria",
-    "underlying_evidence_group": "EG:sec-abs-due-diligence-disclosure",
-    "limitations": "Mandate only; no evidence on whether it changed rating-agency or investor review effort or accuracy.",
-    "transferability_to_target_workflow": "Precedent for requiring that outside diligence be delivered with explicit criteria and coverage to downstream credit users; could inform what scope/coverage disclosures a renewable IE or AI diligence product supplies. Effect on recipient work untested here.",
-    "analyst_inference": "Regulators chose scope/criteria disclosure (X4), not just conclusions, as the mechanism for downstream reliance in post-crisis ABS - consistent with the thesis's emphasis on coverage visibility, but no outcome evidence.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E27"
-  },
-  {
-    "evidence_id": "EVR217",
-    "source_id": "SRC036",
-    "research_question_ids": [
-      "RQ3"
-    ],
-    "proposition_tested": "P1.5 Reformatting/integration into decision materials is part of retained work (advertised responsibility)",
-    "work_type_tags": [
-      "W5"
-    ],
-    "concept_tags": [],
-    "observed_finding": "Clean-energy equity investor's associate role lists building financial models, conducting due diligence, liaising with consultants/advisors and investment committees, and assisting in drafting investment committee memorandums used in making investment decisions.",
-    "relationship": "contextual",
-    "evidence_type": "job posting",
-    "population_and_setting": "Capital Dynamics Clean Energy team (direct equity in renewable generation, London)",
-    "study_or_observation_method": "Job posting review",
-    "intervention_and_comparator": null,
-    "outcome_measured": "Advertised responsibilities",
-    "quantitative_result": null,
-    "source_locator": "Posting p. 1 ('The Role') and p. 2 ('Key role responsibilities')",
-    "short_exact_excerpt": "Assist in the drafting of investment committee memorandums which will be used in making investment decisions;",
-    "underlying_evidence_group": "EG:capdyn-job-2023",
-    "limitations": "Single posting; no time allocation.",
-    "transferability_to_target_workflow": "In the target domain, junior staff sit between outside advisors and the IC, so W5 integration and W1 analysis are bundled in the same role.",
-    "analyst_inference": "Shows the integration step exists as advertised work, not its size or whether it is reducible.",
-    "access_status": "full_text",
-    "workstream": "WS2_investment_credit_IC",
-    "temp_id": "WS2-E28"
   }
 ]

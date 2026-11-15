@@ -18,6 +18,7 @@ For the same propositions: the strongest rival account (e.g., review persists be
 Audit the register and worker reports for: factual fidelity (re-check consequential statistics and quotations against originals where retrievable), causal claims stronger than design allows, duplicate underlying evidence counted as independent, cross-domain transfers lacking limitation statements, missing denominators/controls, selective reporting, conclusions stronger than evidence. Produce issue-level findings with EVR/SRC IDs and recommended corrections.
 
 ## Outputs
+(Amended 18:56 — see run_log D09: narrative reviews are returned as text in each reviewer's final reply and saved verbatim by the coordinator as R2x_*.md; reviewers write only structured JSON: `R2A_positions.json`, `R2B_positions.json`, `R2C_audit_findings.json`.)
 - `03_Challenge_and_Followup/R2A_case_for_thesis.md` + `R2A_positions.json`
 - `03_Challenge_and_Followup/R2B_alternative_case.md` + `R2B_positions.json`
 - `03_Challenge_and_Followup/R2C_audit.md` + `R2C_audit_findings.json`

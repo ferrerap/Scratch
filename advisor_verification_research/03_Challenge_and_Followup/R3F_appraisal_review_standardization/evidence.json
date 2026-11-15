@@ -1,0 +1,643 @@
+[
+ {
+  "evidence_id": "R3F-E01",
+  "source_id": "R3F-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.2 Traceability/structured evidence preserves or improves detection of material errors/omissions (here: standardized appraisal data plus automated portal checks).",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "After appraisal data were standardized and run through automated portal checks, the checks flagged tens of thousands of appraisals, but the Enterprises bought the loans anyway because the warnings were configured as 'automatic overrides' that lenders could ignore; Fannie Mae relied instead on post-purchase sampling.",
+  "relationship": "qualifies",
+  "evidence_type": "regulator audit (administrative data analysis)",
+  "population_and_setting": "Fannie Mae and Freddie Mac single-family loan purchases using the Uniform Collateral Data Portal, 2013",
+  "study_or_observation_method": "OIG analysis of portal warning messages matched to Enterprise purchases",
+  "intervention_and_comparator": "Standardized appraisal data + automated warning messages vs. (implicitly) acting on them before purchase",
+  "outcome_measured": "Loans purchased despite portal warnings",
+  "quantitative_result": "Fannie Mae: >56,000 loans, $13 billion, Jan-Jun 2013, triggered at least one of 25 warning messages (>4,500 with more than one, up to 9). Freddie Mac: >29,000 loans, $6.7 billion, Jun-Sep 2013, despite warnings that no value could be provided or value was in question. Fannie Mae post-purchase manual review ~3%-5% of purchases (2013 redesign).",
+  "source_locator": "Synopsis (front matter); Finding 1, pp. 15-16",
+  "short_exact_excerpt": "The Enterprises had set such warning messages as automatic overrides allowing lenders to disregard the problems signalled by the portal before selling the associated loans to the Enterprises.",
+  "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+  "limitations": "Warnings are potential, not confirmed, violations; false-positive rate unknown. Early implementation period (pre-Collateral Underwriter).",
+  "transferability_to_target_workflow": "Mechanism (machine checks on standardized fields flag issues; someone must resolve flags) transfers to diligence platforms that run automated checks on structured advisor outputs. Differences: GSE portal screens millions of homogeneous loans with a central data store; renewable-energy credit diligence has few, heterogeneous deals and no central repository. Needs verification: false-positive rates and resolution cost of automated diligence flags.",
+  "analyst_inference": "Standardization made detection cheap at portfolio level, but detection did not become verification: resolving flags had a cost, and the consequence-bearer chose throughput. Evidence that machine-checkable structure creates detection capacity, not that it improves recipient verification by itself.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E02",
+  "source_id": "R3F-S01",
+  "research_question_ids": [
+   "RQ2",
+   "RQ1"
+  ],
+  "proposition_tested": "P2.1 Access to structured evidence reduces verification time/effort (via cost of acting on automated flags).",
+  "work_type_tags": [
+   "W1",
+   "W3"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The Enterprises set warnings as automatic overrides partly because they needed more time to fine-tune messages (false positives not yet measured) and because they did not want to burden lenders with responding; OIG judged that after ~4 years of development and >23,500 rule tests they should require lender responses.",
+  "relationship": "qualifies",
+  "evidence_type": "regulator audit (interviews and document review)",
+  "population_and_setting": "Fannie Mae/Freddie Mac portal implementation, 2010-2013",
+  "study_or_observation_method": "Interviews with Enterprise officials; review of testing records",
+  "intervention_and_comparator": "Requiring lender resolution of warnings vs. automatic override",
+  "outcome_measured": "Rationale for not requiring action on flags",
+  "quantitative_result": "Fannie Mae performed over 23,500 tests before 2013 deployment and a 6-month pilot with 3 lenders (from June 2012); joint five-year portal contract valued at $52 million.",
+  "source_locator": "Synopsis; Finding 1, pp. 15-16",
+  "short_exact_excerpt": "Both Enterprises also expressed concern that they did not want to burden lenders with having to respond to messages.",
+  "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+  "limitations": "Stated rationales from interested officials; no measurement of lender response cost.",
+  "transferability_to_target_workflow": "Mechanism (machine checks on standardized fields flag issues; someone must resolve flags) transfers to diligence platforms that run automated checks on structured advisor outputs. Differences: GSE portal screens millions of homogeneous loans with a central data store; renewable-energy credit diligence has few, heterogeneous deals and no central repository. Needs verification: false-positive rates and resolution cost of automated diligence flags.",
+  "analyst_inference": "Direct institutional evidence that the recipient-side cost of clearing automated findings (including false positives) was treated as a binding constraint. Structured checks can add review work rather than remove it unless precision is high.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E03",
+  "source_id": "R3F-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.5 Citations/traceability (here: structured, machine-checked data) do not guarantee correctness or completeness.",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "System logic errors in the portal prevented the Enterprises from determining whether appraisers were properly licensed; the portal flagged some suspended appraisers but messages were auto-overridden.",
+  "relationship": "supports",
+  "evidence_type": "regulator audit",
+  "population_and_setting": "Enterprise loan purchases through the portal",
+  "study_or_observation_method": "OIG data analysis",
+  "intervention_and_comparator": "Automated license-status check vs. working check",
+  "outcome_measured": "Loans bought without valid license verification",
+  "quantitative_result": "Nearly $88 billion in loans bought when logic errors prevented license determination; 23 loans valued at $3.4 million may be repurchased due to suspended appraiser status.",
+  "source_locator": "Synopsis (front matter)",
+  "short_exact_excerpt": "the Enterprises bought nearly $88 billion in loans when system logic errors in the portal did not allow them to determine if the appraiser was properly licensed",
+  "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+  "limitations": "Dollar figure is exposure to a broken check, not confirmed defects.",
+  "transferability_to_target_workflow": "Mechanism (machine checks on standardized fields flag issues; someone must resolve flags) transfers to diligence platforms that run automated checks on structured advisor outputs. Differences: GSE portal screens millions of homogeneous loans with a central data store; renewable-energy credit diligence has few, heterogeneous deals and no central repository. Needs verification: false-positive rates and resolution cost of automated diligence flags.",
+  "analyst_inference": "Automated verification of standardized fields can fail silently; recipients relying on it inherit its errors.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E04",
+  "source_id": "R3F-S01",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.1 Structured evidence reduces verification effort (official purpose statement only).",
+  "work_type_tags": [
+   "W2",
+   "W5"
+  ],
+  "concept_tags": [],
+  "observed_finding": "Among the stated purposes of standardizing appraisal data was to create efficiency and consistency in appraisal reviews and to give lenders greater confidence in loan quality.",
+  "relationship": "contextual",
+  "evidence_type": "official purpose statement (as relayed in audit)",
+  "population_and_setting": "Uniform Mortgage Data Program / UAD design, 2010-2012",
+  "study_or_observation_method": "Document review",
+  "intervention_and_comparator": "n/a",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "Background, 'Developing the Uniform Collateral Data Portal', p. 11",
+  "short_exact_excerpt": "Create efficiency and consistency in appraisal reviews by offering appraisers and lenders an improved view and understanding of Enterprise appraisal data requirements.",
+  "underlying_evidence_group": "EG:fhfaoig2014-ucdp-audit",
+  "limitations": "Purpose statement, not a measured effect. Note 'greater confidence' (trust) is listed separately from 'efficiency'.",
+  "transferability_to_target_workflow": "Shows the intended theory of change matches the thesis; does not test it.",
+  "analyst_inference": "A purpose statement; useful only to show that efficiency of review was an explicit design goal, so absence of published effect measurement is notable.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E05",
+  "source_id": "R3F-S02",
+  "research_question_ids": [
+   "RQ1"
+  ],
+  "proposition_tested": "P1.1 Retained review is driven by formal obligations that persist regardless of advisor transparency.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Before a final credit decision, institutions should review appraisals for regulatory/policy compliance and sufficiency, assess reasonableness of methods, assumptions, and data sources; reviewers cannot change the appraiser's value; deficient appraisals that cannot be resolved must be replaced before the credit decision; using a third-party reviewer does not shift responsibility.",
+  "relationship": "supports",
+  "evidence_type": "regulatory guidance",
+  "population_and_setting": "U.S. federally regulated depository institutions, real-estate-secured lending",
+  "study_or_observation_method": "Guidance text",
+  "intervention_and_comparator": "n/a",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "75 FR 77462, Section XV (intro) and XV.A",
+  "short_exact_excerpt": "Through the review process, the institution should be able to assess the reasonableness of the appraisal or evaluation, including whether the valuation methods, assumptions, and data sources are appropriate and well-supported.",
+  "underlying_evidence_group": "EG:interagency-2010-appraisal-evaluation-guidelines",
+  "limitations": "Guidance states expectations; says nothing about effort or actual practice.",
+  "transferability_to_target_workflow": "Close analogy: lender (accountable recipient) must review an outside producer's analysis before relying on it; review of 'methods, assumptions, and data sources' is the same object an IE report or diligence memo presents. Difference: appraisal review is supervised by bank regulators with specific guidance; renewable-energy credit diligence review is governed mostly by internal credit policy and lender/investor practice.",
+  "analyst_inference": "Strong evidence that a core of review is obligatory and focused on assumptions/data sources, i.e., exactly what traceability exposes. Transparency can make this obligatory review cheaper but cannot remove it.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E06",
+  "source_id": "R3F-S02",
+  "research_question_ids": [
+   "RQ2",
+   "RQ5"
+  ],
+  "proposition_tested": "P2.1 Structured evidence/automation reduces verification effort; P5.1 repeatability rises with standardization and falls with bespoke judgment.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Review depth must be risk-focused: more comprehensive, technical review for large-dollar, complex/specialized, or out-of-market commercial properties; for lower-risk 1-4 family residential, institutions may (with prior regulator approval) use automated tools or sampling for prefunding review, while maintaining screening parameters, periodic review of all appraisers, and criteria for expanding review depth.",
+  "relationship": "qualifies",
+  "evidence_type": "regulatory guidance",
+  "population_and_setting": "U.S. federally regulated lenders",
+  "study_or_observation_method": "Guidance text",
+  "intervention_and_comparator": "Automated tools/sampling (lower-risk residential) vs. comprehensive review (complex/high-risk CRE)",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "75 FR 77462, Section XV.B 'Depth of Review'",
+  "short_exact_excerpt": "With prior approval from its primary Federal regulator, an institution may employ various techniques, such as automated tools or sampling methods, for performing prefunding reviews of appraisals or evaluations supporting lower risk residential mortgages.",
+  "underlying_evidence_group": "EG:interagency-2010-appraisal-evaluation-guidelines",
+  "limitations": "Permission, not evidence of effectiveness.",
+  "transferability_to_target_workflow": "Utility-scale renewable projects map onto the 'complex or specialized properties / large-dollar credits' tier, where guidance expects deeper technical review, not automated triage. Automated/standardized review is sanctioned for the homogeneous low-risk tier (closer to small distributed-generation or residential solar portfolios).",
+  "analyst_inference": "Regulators accept that standardization-enabled automation can substitute for full human review only where assets are homogeneous and stakes per unit are low, with safeguards. That supports the thesis in a bounded domain and challenges it for complex single-asset credits.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E07",
+  "source_id": "R3F-S03",
+  "research_question_ids": [
+   "RQ6",
+   "RQ5"
+  ],
+  "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics; P-NEW: standardized, machine-readable producer output can be reused to substitute for the producer.",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Fannie Mae's appraisal waiver decision searches the >29 million appraisals previously submitted through the collateral data portal, scores a prior appraisal (120 days to 6 years old) with Collateral Underwriter analytics, and, if the waiver is accepted, accepts the lender's value estimate and relieves the lender of representation-and-warranty enforcement on value, condition and marketability.",
+  "relationship": "challenges",
+  "evidence_type": "regulator white paper (program description)",
+  "population_and_setting": "Fannie Mae and Freddie Mac waiver programs, 2016-2018",
+  "study_or_observation_method": "Document review and interviews",
+  "intervention_and_comparator": "Appraisal waiver (no new appraisal) vs. traditional appraisal",
+  "outcome_measured": "Program mechanics",
+  "quantitative_result": "Over 29 million appraisal reports submitted through the portal (2018).",
+  "source_locator": "pp. 8-9 'How Fannie Mae Appraisal Waivers Work'",
+  "short_exact_excerpt": "If an appraisal waiver is accepted, Fannie Mae accepts the lender’s property value estimate as the market value of the property and provides relief from enforcement of representation and warranty of value, condition, and marketability of the property.",
+  "underlying_evidence_group": "EG:fhfaoig2018-appraisal-waivers",
+  "limitations": "Describes mechanism; no data on appraiser revenue effects.",
+  "transferability_to_target_workflow": "If renewable-energy diligence outputs become standardized and pooled (e.g., by a platform or a large lender), the pooled data could underwrite automated substitutes for some repeat deliverables. Requires a large homogeneous population, which utility-scale project diligence rarely has.",
+  "analyst_inference": "For the challenged proposition: the efficiency gain from standardization was captured by the consequence-bearer and lender (fewer appraisals, faster closings) and partly took business away from the producer, rather than raising the producer's pricing power.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E08",
+  "source_id": "R3F-S03",
+  "research_question_ids": [
+   "RQ5",
+   "RQ4"
+  ],
+  "proposition_tested": "P5.1 Repeatability rises with standardization and falls with bespoke judgment; P4.1 heterogeneity drives specific work.",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X4",
+   "X5"
+  ],
+  "observed_finding": "Waiver programs were limited to one-unit properties under $1 million with LTV caps; AVMs may be less reliable where properties are dissimilar or data are thin (e.g., rural); take-up was low because lenders/borrowers often obtained appraisals anyway; Enterprises report waiver loans performed as well as appraised loans; OIG judged risks small given modest size and stringent eligibility.",
+  "relationship": "supports",
+  "evidence_type": "regulator white paper",
+  "population_and_setting": "Fannie Mae and Freddie Mac waiver programs, 2017-2018",
+  "study_or_observation_method": "Program data reported to OIG; interviews",
+  "intervention_and_comparator": "Waiver vs. appraisal",
+  "outcome_measured": "Offer and take-up rates; stated benefits and limitations",
+  "quantitative_result": "Fannie Mae offered waivers on ~10% of purchase submissions (March 2018); lenders exercised ~7% of those offers; >90% of offers not accepted because lender obtained an appraisal. Freddie ACE: ~3.7% of LPA submissions eligible (Jan 2018), accepted ~25% of the time. Freddie projected closings 7-10 days faster and borrower savings $300-$700 per waived appraisal (Enterprise projections).",
+  "source_locator": "pp. 9-13 (Results; Benefits; Limitations and Risks)",
+  "short_exact_excerpt": "AVMs may be less reliable in areas where properties do not share similar characteristics, such as age and size.",
+  "underlying_evidence_group": "EG:fhfaoig2018-appraisal-waivers",
+  "limitations": "Early-program snapshot; take-up later rose sharply (see R3F-E15). Performance claim is Enterprise-reported.",
+  "transferability_to_target_workflow": "Heterogeneous, data-thin assets resist automated substitution; renewable projects (site-specific resource, interconnection, contracts) sit at the heterogeneous end.",
+  "analyst_inference": "Supports a bounded version of P5.1: standardization yields repeatable (even automatable) delivery only for homogeneous, data-rich segments. Low take-up also shows recipients sometimes retain the human product even when a standardized/automated alternative carries liability relief (consistent with P1.6 or borrower preference; cause not established).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E09",
+  "source_id": "R3F-S04",
+  "research_question_ids": [
+   "RQ2",
+   "RQ1"
+  ],
+  "proposition_tested": "P2.4 Visibility into scope/checks/uncertainty improves appropriate reliance; P1.1 obligations persist.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Freddie Mac says Loan Collateral Advisor analyzes appraisal reports and provides a view of valuation risk, that feedback helps lenders determine the level of review required, that results are to be used in conjunction with human due diligence, and that lenders may not ask appraisers to revise reports based solely on the score or forward system messages directly to appraisers.",
+  "relationship": "qualifies",
+  "evidence_type": "official tool guidance",
+  "population_and_setting": "Lenders selling to Freddie Mac",
+  "study_or_observation_method": "Policy/FAQ text",
+  "intervention_and_comparator": "Automated risk score as triage input vs. full manual review",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "LCA FAQ (sections on purpose, usage, revision requests)",
+  "short_exact_excerpt": "The results are to be used in conjunction with human due diligence.",
+  "underlying_evidence_group": "EG:freddiemac-lca-policy",
+  "limitations": "Intended-use statement from the tool owner; read via extraction tool; not evidence of how lenders actually use it.",
+  "transferability_to_target_workflow": "A diligence platform's automated checks would similarly be positioned as triage for human review; the restriction on forwarding raw machine messages to the producer is a design lesson (prevents shifting unvetted machine output onto the advisor).",
+  "analyst_inference": "Official design: scores allocate review depth (supports risk-based triage) but explicitly do not replace human judgment. The ban on score-only revision requests implies the owner saw a risk of machine flags generating low-value rework for producers.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3F-E10",
+  "source_id": "R3F-S05",
+  "research_question_ids": [
+   "RQ2",
+   "RQ6"
+  ],
+  "proposition_tested": "P2.1 Structured evidence reduces verification effort; P-NEW: recipient review effort falls mainly because liability is transferred, not because verification improves.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "Freddie Mac's Guide ties collateral representation-and-warranty relief to an appraisal with an LCA risk score of 2.5 or lower (subject to conditions such as LTV limits), under which Freddie Mac will not exercise remedies including repurchase requests, while the seller remains responsible for certain requirements.",
+  "relationship": "qualifies",
+  "evidence_type": "contractual policy (secondary reproduction)",
+  "population_and_setting": "Freddie Mac sellers",
+  "study_or_observation_method": "Guide text",
+  "intervention_and_comparator": "Score at or below 2.5 (relief) vs. above (no relief)",
+  "outcome_measured": "n/a",
+  "quantitative_result": "Threshold: risk score 2.5 or lower; FAQ adds LTV/TLTV/HTLTV must be 95% or less for relief (R3F-S04).",
+  "source_locator": "Guide 5602.2 as reproduced on homebuyer.com",
+  "short_exact_excerpt": "representation and warranty relief eligibility corresponds to an appraisal with a risk score of 2.5 or lower.",
+  "underlying_evidence_group": "EG:freddiemac-lca-policy",
+  "limitations": "Secondary reproduction; no data on how relief changed lender review behavior.",
+  "transferability_to_target_workflow": "Analogous lever in renewable-energy finance would be a party that bears consequences (e.g., an insurer, guarantor, or tax-equity investor) accepting standardized diligence and releasing others from re-review; absent such a party, standardization alone does not remove the recipient's incentive to review.",
+  "analyst_inference": "Key mechanism for the dispute: in appraisal, the main route by which standardized, scored outside analysis reduced lender review is risk transfer to the ultimate consequence-bearer, who verifies statistically at portfolio level. That is not evidence that the lender's verification became cheaper at equal quality.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3F-E11",
+  "source_id": "R3F-S06",
+  "research_question_ids": [
+   "RQ2",
+   "RQ6"
+  ],
+  "proposition_tested": "P2.1 Structured evidence reduces verification effort (GSE claim; unverified).",
+  "work_type_tags": [
+   "W1",
+   "W3"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "UNVERIFIED (page blocked; search-engine summaries only): Fannie Mae's Day 1 Certainty (effective for submissions from Dec 10, 2016) reportedly offers value rep-and-warrant relief for appraisals with a CU risk score of 2.5 or lower; Fannie Mae reportedly expected ~60% of appraisals to qualify and claimed lenders could focus attention on high-risk appraisals and appraisers would get fewer correction requests.",
+  "relationship": "contextual",
+  "evidence_type": "company announcement (not read)",
+  "population_and_setting": "Fannie Mae sellers, 2016-2017",
+  "study_or_observation_method": "n/a",
+  "intervention_and_comparator": "CU score <=2.5 vs >2.5",
+  "outcome_measured": "n/a",
+  "quantitative_result": "Reported (unverified): ~60% expected eligibility at launch; a 2017 Fannie appraiser update reportedly said ~64% eligible.",
+  "source_locator": "not located (page blocked)",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:fanniemae-day1certainty-cu",
+  "limitations": "Not read; numbers unverified; interested party; claims are expectations, not measurements.",
+  "transferability_to_target_workflow": "Same as R3F-E10.",
+  "analyst_inference": "Included only as a pointer: if verified, it is a GSE claim that triage shifts lender attention to high-risk files; no outcome measurement of review effort or missed defects was found.",
+  "access_status": "blocked"
+ },
+ {
+  "evidence_id": "R3F-E12",
+  "source_id": "R3F-S07",
+  "research_question_ids": [
+   "RQ2"
+  ],
+  "proposition_tested": "P2.2 Structured evidence preserves or improves detection of material errors/omissions; P2.5 structure does not guarantee correctness.",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X3",
+   "X5"
+  ],
+  "observed_finding": "Using appraiser-reported structured attributes for 3.5 million loan applications (2013-2017), the authors found pervasive inconsistent reporting of the same property's attributes across appraisals, consistent with systematic misreporting to inflate values; strongest evidence where the same appraiser reported the same comparable differently in different appraisals; inconsistent reporting predicted serious delinquency for highly leveraged borrowers.",
+  "relationship": "qualifies",
+  "evidence_type": "observational econometric study",
+  "population_and_setting": "Conforming purchase-loan appraisals held by a secondary-market institution, U.S., 2013-2017",
+  "study_or_observation_method": "Cross-appraisal panel of attribute reports; regressions with lender and time fixed effects",
+  "intervention_and_comparator": "Appraisals with inconsistently reported comparable attributes vs. consistent",
+  "outcome_measured": "Attribute consistency; serious delinquency",
+  "quantitative_result": "98% of properties had at least one of seven attributes inconsistently reported; highly leveraged borrowers with inconsistently reported attributes were 6%-15% more likely to become seriously delinquent (preliminary version; published version reportedly 9.8%, unverified).",
+  "source_locator": "Abstract; Section 4 (p. 12 ff.)",
+  "short_exact_excerpt": "We find that 98% of properties had at least one-of-seven attributes inconsistently reported, and that errors were consistent with systematic misreporting to inflate valuations.",
+  "underlying_evidence_group": "EG:eriksen-kuang-zhu-attribute-misreporting",
+  "limitations": "Some inconsistency reflects measurement/interpretation differences (authors acknowledge); one data provider; observational.",
+  "transferability_to_target_workflow": "Mechanism transfers: structured fields allow cross-report consistency checks (same parcel, same lease, same equipment reported across deals/reports) that single-report human review cannot do. Requires a pooled dataset across reports, which a single recipient of renewable-energy diligence usually lacks.",
+  "analyst_inference": "Two-sided: standardization made misreporting detectable by an analyst with cross-report data (detection capacity rises), yet misreporting persisted within the standardized, CU-era regime, i.e., the standard format did not itself ensure correctness, and per-file review did not catch it.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E13",
+  "source_id": "R3F-S07",
+  "research_question_ids": [
+   "RQ5",
+   "RQ6"
+  ],
+  "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics (producer-side pressure).",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Authors note some misreporting is likely accidental by appraisers asked to do more with fewer resources, that appraisers are scrutinized when their estimates differ from others', and recommend a national auditable database of verified property attributes to enforce uniform definitions.",
+  "relationship": "contextual",
+  "evidence_type": "authors' discussion",
+  "population_and_setting": "U.S. residential appraisal",
+  "study_or_observation_method": "Discussion section",
+  "intervention_and_comparator": "n/a",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "Conclusion, pp. 37-38",
+  "short_exact_excerpt": "at least some of this misreporting is accidental by appraisers faced with the impossible task of doing more with increasingly limited resources.",
+  "underlying_evidence_group": "EG:eriksen-kuang-zhu-attribute-misreporting",
+  "limitations": "Authors' interpretation, not measured.",
+  "transferability_to_target_workflow": "Suggests that verified shared reference data (not just a standard format) is what makes outputs cheaply checkable; in renewable energy, analogous shared references (parcel records, interconnection queues, resource data) matter more than report templates.",
+  "analyst_inference": "Points to a distinction the thesis needs: standardizing the format of outside analysis differs from giving the recipient verified reference data to check it against.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E14",
+  "source_id": "R3F-S08",
+  "research_question_ids": [
+   "RQ4",
+   "RQ5",
+   "RQ2"
+  ],
+  "proposition_tested": "P4.1 Customer/asset-specific needs driven by heterogeneity; P5.1 repeatability falls with bespoke judgment.",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Controlling for appraisal inputs and appraiser fixed effects in the standardized UAD, low appraisals (below contract price) were more likely in majority African American neighborhoods, but the effect dissipated when appraisers had prior experience in the neighborhood or many recent appraisals existed there, consistent with an information-based mechanism; the authors credit UAD's detail (including non-originated appraisals) for enabling the analysis.",
+  "relationship": "qualifies",
+  "evidence_type": "observational econometric study (with IV)",
+  "population_and_setting": "UAD purchase appraisals, 1-unit single-family, U.S.",
+  "study_or_observation_method": "Regression with appraiser fixed effects; IV using historical shares",
+  "intervention_and_comparator": "Neighborhood African American share; appraiser local experience",
+  "outcome_measured": "Probability of appraisal below contract price",
+  "quantitative_result": "At least 23% more likely in majority African American vs. similar neighborhoods with none; IV at least 13%; raising share from 0 to 50% -> 13.3% increase in likelihood of low appraisal.",
+  "source_locator": "Abstract; Section 3 Data; Section 5 Conclusion (approx. p. 34)",
+  "short_exact_excerpt": "However, this effect dissipates when an appraiser works in neighborhoods in which they have appraised before or in which many appraisals were recently completed, facts consistent with an information based mechanism.",
+  "underlying_evidence_group": "EG:grodzicki2024-fhfa-wp2406",
+  "limitations": "Topic is bias, not review cost; mechanism interpretation is the authors'.",
+  "transferability_to_target_workflow": "Even with a rigid national form, output quality depended on the producer's local/contextual information. Renewable diligence quality likely depends even more on context-specific knowledge (grid region, permitting jurisdiction, offtaker), limiting what a standard format can make repeatable.",
+  "analyst_inference": "Standardization of format did not remove dependence on context-specific knowledge; it did make the dependence measurable at portfolio level. Supports P4.1/qualifies AS06 (repeatability limited by local information requirements).",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E15",
+  "source_id": "R3F-S09",
+  "research_question_ids": [
+   "RQ6",
+   "RQ2"
+  ],
+  "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics; P2.2 (outcome quality preserved when review is automated).",
+  "work_type_tags": [],
+  "concept_tags": [
+   "X5"
+  ],
+  "observed_finding": "Freddie Mac's own analysis found loans originated with ACE appraisal waivers had lower 90+ day delinquency than otherwise similar eligible loans originated with appraisals; ACE share of Freddie Mac fundings peaked near 40% (Q3 2020) and fell to 8.4% (Q2 2023); ACE generated about $1.63 billion in borrower appraisal-fee savings; the authors flag selection bias and an imprecise IV estimate.",
+  "relationship": "qualifies",
+  "evidence_type": "observational analysis by interested party",
+  "population_and_setting": "Freddie Mac 1-unit single-family loans, May 2017-June 2023 (5,540,307 loans: 3,261,955 ACE; 2,278,352 eligible non-ACE)",
+  "study_or_observation_method": "Logistic regression with controls and quarter/state fixed effects; IV robustness",
+  "intervention_and_comparator": "ACE waiver (no appraisal) vs. eligible loans originated with appraisal",
+  "outcome_measured": "D90+ delinquency through Dec 2023",
+  "quantitative_result": "ACE ~8.9% lower delinquency rate (no COVID adjustment); 13.9% lower excluding COVID-forbearance delinquencies; raw D90+ 1.09% vs 1.66% (0.55% vs 0.86% excl. forbearance); IV estimate 63% lower (57% excl. forbearance) than OLS and not statistically different from zero or OLS.",
+  "source_locator": "Key Findings p. 1-2; footnote 1 p. 2; Data and Summary Statistics pp. 4-5",
+  "short_exact_excerpt": "There is a potential for selection bias in this analysis as loans that meet the ACE’s credit eligibility requirements are evaluated and selected into the program based on additional unpublished criteria.",
+  "underlying_evidence_group": "EG:freddiemac-ace-karamon-mcmanus",
+  "limitations": "Interested party; selection on unpublished criteria; benign credit period; 87% of ACE loans were refinances vs 55% of controls.",
+  "transferability_to_target_workflow": "Shows the end state of standardization in a homogeneous market: the consequence-bearer automates away the outside product for a large share of low-risk volume. Utility-scale renewable diligence lacks the volume and homogeneity; distributed portfolios might partially resemble it.",
+  "analyst_inference": "Reduced recipient effort here came from eliminating the producer for a segment, with (GSE-reported) no performance deterioration; benefits accrued to borrowers, lenders and the GSE, not appraisers. Challenges any assumption that standardization lifts producer economics.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E16",
+  "source_id": "R3F-S10",
+  "research_question_ids": [
+   "RQ5",
+   "RQ6",
+   "RQ1"
+  ],
+  "proposition_tested": "P6.1 Reduced recipient effort translates into supplier economics; P1.1 accountability persists.",
+  "work_type_tags": [
+   "W1"
+  ],
+  "concept_tags": [],
+  "observed_finding": "GAO reported that greater use of appraisal management companies raised oversight and quality questions; some appraisers were concerned AMC fees were too low; some participants worried some AMCs prioritize low cost and speed over quality; regulators and Enterprises hold lenders responsible for AMC practices including appraiser selection, appraisal review, and reviewer qualifications, but generally do not examine AMCs directly.",
+  "relationship": "challenges",
+  "evidence_type": "government audit report (summary only)",
+  "population_and_setting": "U.S. residential appraisal industry, 2010-2011",
+  "study_or_observation_method": "GAO interviews, document and data review (per GAO; not read in full)",
+  "intervention_and_comparator": "Lender use of AMCs vs. direct engagement",
+  "outcome_measured": "Reported concerns on fees, quality, oversight",
+  "quantitative_result": null,
+  "source_locator": "GAO product page 'What GAO Found' summary",
+  "short_exact_excerpt": "some AMCs may prioritize low costs and speed over quality and competence",
+  "underlying_evidence_group": "EG:gao2011-residential-appraisal-oversight",
+  "limitations": "Only the summary was read; concerns are participant-reported, not measured effects.",
+  "transferability_to_target_workflow": "If a standardized diligence deliverable is procured through intermediaries/platforms, price and turnaround competition may squeeze producer fees and quality while the recipient keeps review responsibility.",
+  "analyst_inference": "In appraisal, standardization coincided with intermediation that pushed producer fees down; recipient responsibility for review was explicitly not transferred to the intermediary.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3F-E17",
+  "source_id": "R3F-S11",
+  "research_question_ids": [
+   "RQ5",
+   "RQ6",
+   "RQ4"
+  ],
+  "proposition_tested": "P5.1 Repeatability rises with standardization and falls with bespoke judgment; P6.1 supplier economics.",
+  "work_type_tags": [],
+  "concept_tags": [],
+  "observed_finding": "AMC-paid residential appraisal fees clustered at $300-$450 vs $350-$450 from lenders/individuals; AMCs and appraisers said property complexity, size, rural location and travel raise fees; most appraisers had turned down low-fee jobs; 40% said they increased workloads to make up for lower fees, and 27% said increased workload hurt quality.",
+  "relationship": "supports",
+  "evidence_type": "industry survey (state-commissioned)",
+  "population_and_setting": "Texas appraisers (n~1,584) and AMCs (n=55), August 2012",
+  "study_or_observation_method": "Survey; appraiser response rate 26%, AMC 54%",
+  "intervention_and_comparator": "AMC vs non-AMC clients; property characteristics",
+  "outcome_measured": "Self-reported fees, fee drivers, workload, perceived quality",
+  "quantitative_result": "98% of AMCs said complexity increases fee; 85% cited rural location and large size. Appraisers: complex property 85%, travel 80%, large 75%, rural 63% would increase fee. 78% turned down an appraisal because fee too low; 40% (N=1569) increased workload to offset lower fees; 27% said this hurt quality (48% said not; ~25% no answer).",
+  "source_locator": "Executive Summary pp. 1-2; Figures 25-28 pp. 30-32",
+  "short_exact_excerpt": "Ninety-eight percent of Appraisal Management Companies noted that the complexity of the property would cause an increase in the fee",
+  "underlying_evidence_group": "EG:texas2012-appraiser-amc-survey",
+  "limitations": "Self-report; one state; 2012; low appraiser response rate.",
+  "transferability_to_target_workflow": "Bespoke complexity commands price; standardized routine work is price-competed. Renewable-energy diligence is mostly in the 'complex' tier, which may protect pricing but also limit repeatability.",
+  "analyst_inference": "Consistent with a two-tier market: standardized routine units become commodity-priced through intermediaries; complexity (heterogeneity) is where producers retain pricing. Supports P5.1 and qualifies any link from standardization to producer margins.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E18",
+  "source_id": "R3F-S11",
+  "research_question_ids": [
+   "RQ6"
+  ],
+  "proposition_tested": "P6.1 Supplier economics (added standardized requirements and compensation).",
+  "work_type_tags": [],
+  "concept_tags": [],
+  "observed_finding": "After the standardized Market Conditions Addendum was added to appraisal requirements, 40% of responding AMCs reported fees they pay increased because of it; 51% saw no change.",
+  "relationship": "contextual",
+  "evidence_type": "industry survey",
+  "population_and_setting": "Texas AMCs (N=55), 2012",
+  "study_or_observation_method": "Survey",
+  "intervention_and_comparator": "Addition of Market Conditions Addendum",
+  "outcome_measured": "AMC-reported fee change",
+  "quantitative_result": "40% increase; 51% no change; 5% don't know (N=55).",
+  "source_locator": "Figure 3, p. 11",
+  "short_exact_excerpt": null,
+  "underlying_evidence_group": "EG:texas2012-appraiser-amc-survey",
+  "limitations": "Small N; AMC self-report.",
+  "transferability_to_target_workflow": "Added standardized content requirements are not reliably compensated; a diligence provider adding structured traceability fields may not be paid for the extra work.",
+  "analyst_inference": "Weak but relevant: added structure is a producer cost; price response is mixed.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E19",
+  "source_id": "R3F-S12",
+  "research_question_ids": [
+   "RQ3",
+   "RQ2"
+  ],
+  "proposition_tested": "P3.2 Integration/automation shifts review effort elsewhere rather than removing it.",
+  "work_type_tags": [
+   "W3"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "An AMC executive reported that shortly after Collateral Underwriter launched, lender clients sent more revision requests to appraisers (e.g., on comparable quality ratings), while stating Fannie Mae does not use CU to deny appraisals or loans; he predicted better-supported reports would reduce revisions.",
+  "relationship": "supports",
+  "evidence_type": "practitioner account (anecdotal)",
+  "population_and_setting": "One AMC's lender clients, ~1 month after CU launch (early 2015)",
+  "study_or_observation_method": "Practitioner observation",
+  "intervention_and_comparator": "CU deployment vs. before",
+  "outcome_measured": "Revision requests",
+  "quantitative_result": null,
+  "source_locator": "Article body",
+  "short_exact_excerpt": "we are starting to see some of the effects through revision requests from our lender clients.",
+  "underlying_evidence_group": "EG:mureddu2015-cu-housingwire",
+  "limitations": "Anecdotal, early, interested party; no magnitudes.",
+  "transferability_to_target_workflow": "Automated checks on a recipient's side can convert into rework requests to the outside advisor; a diligence platform's flags may increase advisor revision cycles before they reduce them.",
+  "analyst_inference": "Weak evidence; consistent with E02 and E09 (Freddie later barred score-only revision requests).",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3F-E20",
+  "source_id": "R3F-S13",
+  "research_question_ids": [
+   "RQ4",
+   "RQ5"
+  ],
+  "proposition_tested": "P5.1 Repeatability rises with standardized evidence formats; P4.1 heterogeneity drives specific work.",
+  "work_type_tags": [
+   "W5"
+  ],
+  "concept_tags": [
+   "X3"
+  ],
+  "observed_finding": "The GSEs redesigned UAD/URAR to a data-driven, dynamic reporting structure covering all property and inspection types, replacing reliance on form types and free-form commentary addenda; standardized fields and enumerations describe the property; stated benefit is helping lenders and end users understand property characteristics (e.g., easier for reviewers to identify ADUs).",
+  "relationship": "qualifies",
+  "evidence_type": "official purpose statement",
+  "population_and_setting": "GSE-delivered residential appraisals, 2024-2027 rollout",
+  "study_or_observation_method": "FAQ text",
+  "intervention_and_comparator": "Dynamic data-driven URAR (UAD 3.6) vs legacy form-based UAD 2.6 with commentary addenda",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "UAD and Forms Redesign FAQ: 'What is UAD and why is it being updated?'; 'Are form numbers going away?'",
+  "short_exact_excerpt": "The data that describes the subject property drives the appraisal report, not a form type or number.",
+  "underlying_evidence_group": "EG:gse-uad36-redesign",
+  "limitations": "Purpose statements; no effect data. Read via extraction tool.",
+  "transferability_to_target_workflow": "Suggests a design path for renewable diligence standards: accommodate heterogeneity inside a structured schema (conditional sections) rather than free-text annexes.",
+  "analyst_inference": "A decade after UAD, the standard-setter concluded the first standard pushed heterogeneous information into free text; the response was a more flexible standard, not abandoning standardization. Qualifies both sides of AS06.",
+  "access_status": "partial"
+ },
+ {
+  "evidence_id": "R3F-E21",
+  "source_id": "R3F-S14",
+  "research_question_ids": [
+   "RQ2",
+   "RQ1"
+  ],
+  "proposition_tested": "P2.4 Visibility into scope, checks, omissions and uncertainty improves appropriate reliance (obligation only).",
+  "work_type_tags": [
+   "W2"
+  ],
+  "concept_tags": [
+   "X4"
+  ],
+  "observed_finding": "The federal All Appropriate Inquiries rule requires the environmental professional's report to include an opinion on indications of releases and an identification of data gaps that affect that ability, with comments on the significance of those gaps.",
+  "relationship": "contextual",
+  "evidence_type": "regulation",
+  "population_and_setting": "U.S. property transactions seeking CERCLA liability protections (Phase I ESAs under ASTM E1527)",
+  "study_or_observation_method": "Regulatory text",
+  "intervention_and_comparator": "n/a",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "40 CFR 312.21(c)(1)-(2)",
+  "short_exact_excerpt": "An identification of data gaps (as defined in § 312.10) in the information developed as part of the inquiry that affect the ability of the environmental professional to identify conditions indicative of releases or threatened releases of hazardous substances",
+  "underlying_evidence_group": "EG:epa-aai-40cfr312",
+  "limitations": "Shows required content only; no evidence on whether data-gap disclosure reduces user review or improves reliance.",
+  "transferability_to_target_workflow": "Direct precedent for mandated scope/omission disclosure (X4) in a diligence deliverable lenders use, including for renewable sites.",
+  "analyst_inference": "A regulator chose to standardize disclosure of omissions, not just findings; no effect evidence found.",
+  "access_status": "full_text"
+ },
+ {
+  "evidence_id": "R3F-E22",
+  "source_id": "R3F-S15",
+  "research_question_ids": [
+   "RQ4",
+   "RQ5"
+  ],
+  "proposition_tested": "P4.1 Customer-specific needs driven by heterogeneous policies; P5.1 standardization and repeatability.",
+  "work_type_tags": [
+   "W4"
+  ],
+  "concept_tags": [],
+  "observed_finding": "A Phase I consultant writes that lenders request quotes from consultants on their approved lists, that lender internal policies dictate which report is required, that report quality varies between companies, and that a prior Phase I from another consultant is typically not accepted by a new lender.",
+  "relationship": "supports",
+  "evidence_type": "practitioner account",
+  "population_and_setting": "New York commercial real estate lending, 2021",
+  "study_or_observation_method": "Practitioner description",
+  "intervention_and_comparator": "n/a",
+  "outcome_measured": "n/a",
+  "quantitative_result": null,
+  "source_locator": "Article body",
+  "short_exact_excerpt": "typically not accepted by the new lender",
+  "underlying_evidence_group": "EG:merritt2021-phase1-nyrej",
+  "limitations": "Single interested practitioner; no data.",
+  "transferability_to_target_workflow": "Even with a national practice standard (ASTM E1527) and regulation, lender-specific approved lists and reliance policies limit portability, so the same site may be re-studied for each lender. Renewable-energy lenders likewise use approved-consultant lists and reliance letters.",
+  "analyst_inference": "Recipient-specific acceptance policy, not the deliverable's format, drove repeated work here; standardization did not make the outside analysis reusable across recipients.",
+  "access_status": "partial"
+ }
+]

@@ -57,6 +57,57 @@
       "bytes_drive": 169592,
       "verified": true,
       "time": "18:55Z"
+    },
+    {
+      "file": "04_Final_Handoff/checkpoints/checkpoint_R2_2026-11-15T1907Z.zip",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "18zAU5OvTtWsC3nyr3l0TDJ_lrR_aYacU",
+      "url": "https://drive.google.com/file/d/18zAU5OvTtWsC3nyr3l0TDJ_lrR_aYacU/view",
+      "bytes_local": 382158,
+      "bytes_drive": 382158,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/R2A_case_for_thesis.md",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1RidpyfDV9FXc2bDqIVKp1lPjkW8ZvFBe",
+      "url": "https://drive.google.com/file/d/1RidpyfDV9FXc2bDqIVKp1lPjkW8ZvFBe/view",
+      "bytes_local": 13698,
+      "bytes_drive": 13698,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/R2B_alternative_case.md",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1X_RkAO2sqHhddKGoqgPa5kpPg6kt3O7D",
+      "url": "https://drive.google.com/file/d/1X_RkAO2sqHhddKGoqgPa5kpPg6kt3O7D/view",
+      "bytes_local": 15226,
+      "bytes_drive": 15226,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/R2C_audit.md",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1Fc4oT6IjIMNTlFUsCLrG6TY3Fzs6ncMb",
+      "url": "https://drive.google.com/file/d/1Fc4oT6IjIMNTlFUsCLrG6TY3Fzs6ncMb/view",
+      "bytes_local": 10708,
+      "bytes_drive": 10708,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/dispute_register.json (R2 state, as dispute_register_R2.json)",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1kI6Yr6X_r8pe9m6CqH5Et7_BBF50w0nX",
+      "url": "https://drive.google.com/file/d/1kI6Yr6X_r8pe9m6CqH5Et7_BBF50w0nX/view",
+      "bytes_local": 12786,
+      "bytes_drive": 12786,
+      "verified": true,
+      "time": "19:06Z"
     }
-  ]
+  ],
+  "latest_complete_checkpoint": "checkpoint_R2_2026-11-15T1907Z.zip (03_Challenge_and_Followup) + checkpoint_R1_2026-11-15T1855Z.zip (02_Workstreams)"
 }

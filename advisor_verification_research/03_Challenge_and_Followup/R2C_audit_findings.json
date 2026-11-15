@@ -1,0 +1,502 @@
+{
+ "reviewer": "R2C (auditor)",
+ "generated_utc": "2026-11-15",
+ "downloads_dir": "/tmp/claude-0/-home-user-Scratch/896551fc-74fd-5092-857d-f83fd4afd7e5/scratchpad/downloads/R2/",
+ "not_reverified_blocked": [
+  "SRC084 Dell'Acqua (HBS PDF returned HTML block page)",
+  "SRC025 Fitch Topaz via MarketScreener (Access Denied)",
+  "SRC026 PV Tech/kWh Analytics (HTTP 403)",
+  "SRC092 ACS Information Age (Cloudflare challenge)"
+ ],
+ "findings": [
+  {
+   "issue_id": "R2C-01",
+   "issue_type": "selective_reporting",
+   "ids_affected": [
+    "EVR144",
+    "EVR145",
+    "SRC084"
+   ],
+   "description": "Dell'Acqua et al. 2023 (BCG) is represented only by its outside-the-frontier arm (correctness fell) and by quality ratings. The register has no item for the paper's main inside-the-frontier results (more tasks completed, faster, higher-rated quality). A search of evidence.json for 'inside the frontier' and '12.2%' returns 0 hits. Citing only the unfavorable arm of a two-arm field experiment is selective reporting, and it biases P1.3/P3.2 toward the disconfirming reading.",
+   "verified_against": "evidence.json full-text search (0 hits for inside-frontier results). Could not re-retrieve the original: the HBS working-paper PDF URLs return an HTML block page and SSRN was not attempted. The EVR144/EVR145 figures (control ~84.5% vs 60%/70%; -19 pp; +25.1%/+17.9% quality) are therefore NOT re-verified.",
+   "recommended_correction": "Add an evidence item for the inside-frontier arm, with figures taken from the paper's abstract/Section 3.1 by someone who can read the full text, labelled 'challenges' for P3.2 and 'qualifies' for P1.3. In EVR144.limitations add: 'Outside-frontier task was deliberately designed so that GPT-4 would give a plausible but wrong answer; the inside-frontier arm of the same experiment showed gains (see new item).' Flag EVR144/EVR145 quantities as not re-verified in R2.",
+   "severity": "high"
+  },
+  {
+   "issue_id": "R2C-02",
+   "issue_type": "duplicate_evidence",
+   "ids_affected": [
+    "EVR147",
+    "EVR186",
+    "SRC054"
+   ],
+   "description": "The same Vasconcelos et al. 2023 Study 2 result (Highlight minus Written: medium -1.63 [-2.78, -0.559]; hard -1.632 [-2.570, -0.694]) appears twice, from WS6 and WS7. The two copies carry different relationship labels ('qualifies' in EVR147, 'supports' in EVR186). SRC054 contributes six items in all (EVR096, 097, 147, 148, 186, 187). The digest counts these items one by one under P2.1, P2.2 and P2.4.",
+   "verified_against": "Vasconcelos et al., CSCW 2023 (arXiv 2212.06823) Table 3, p.129:18. Values match exactly.",
+   "recommended_correction": "Keep EVR186 as the canonical item and mark EVR147 as a duplicate (drop it or add duplicate_of: EVR186). Harmonize the relationship to 'qualifies' for P2.1/P2.2: the effect depends on the condition, it comes from a maze task with simulated AI, and the participants are crowdworkers (N=340). In both items replace '95% CI' with '95% Bayesian credible interval'. Add 'Outcome = overreliance (model scale); Study 2 N=340 crowdworkers; maze-solving task'.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-03",
+   "issue_type": "duplicate_evidence",
+   "ids_affected": [
+    "EVR122",
+    "EVR164",
+    "SRC070",
+    "SRC071"
+   ],
+   "description": "The BetterUp/Stanford 'workslop' survey is entered twice (WS5 EVR122 and WS6 EVR164), with the same figures (40%, 15.4%, 1h51m), and both are counted as 'supports' under P3.2. That inflates P3.2 to 15 'supports' items when only 13 distinct evidence groups support it.",
+   "verified_against": "Register cross-check (same SRC070, same EG:betterup-stanford-workslop-2025).",
+   "recommended_correction": "Mark EVR164 as a duplicate of EVR122. The digest should report P3.2 as 'supports = 13 distinct EGs' (not 15). Both items should say 'self-reported estimates; convenience survey; vendor-affiliated research'.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-04",
+   "issue_type": "duplicate_evidence",
+   "ids_affected": [
+    "EVR140",
+    "EVR152",
+    "SRC082"
+   ],
+   "description": "Dietvorst et al. 2018 (modifiable algorithms) is entered twice (WS5 and WS6), and these are the ONLY two items under P3.4. The digest shows P3.4 n=2 'supports' when there is only one evidence group.",
+   "verified_against": "Register cross-check (same source, same proposition, same finding).",
+   "recommended_correction": "Report P3.4 as resting on 1 evidence group (lay forecasting task, MTurk-type participants). Mark EVR152 as a duplicate of EVR140.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-05",
+   "issue_type": "duplicate_evidence",
+   "ids_affected": [
+    "EVR065",
+    "EVR114",
+    "SRC038"
+   ],
+   "description": "Schwarcz et al. 2025 has two items that conflict. EVR065 (WS3, abstract_only) gives productivity gains as '~50% to 130%' and hallucination counts that it marks UNVERIFIED (taken from a search-engine summary of Law360 coverage). EVR114 (WS4, full_text) gives 38-115% (Vincent) and 34-140% (o1-preview) from the paper itself. The merged SRC038 is labelled full_text but still carries WS3's limitation text ('Only the repository abstract ... was seen').",
+   "verified_against": "Register comparison of EVR065 vs EVR114 and the WS3-S02/WS4-S16 source records.",
+   "recommended_correction": "Set EVR065.quantitative_result to 'Superseded by EVR114 (full text)', or drop EVR065 as a lower-fidelity duplicate. Replace the SRC038 limitations with the WS4-S16 text ('127 upper-level law students ... hallucination counts very small ...'). Keep EVR065.access_status = abstract_only.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-06",
+   "issue_type": "fidelity",
+   "ids_affected": [
+    "EVR059",
+    "SRC034"
+   ],
+   "description": "EVR059 says 'LPO could identify the engineering advisors for only 3 [of 18]'. The OIG passage is about third-party advisors WORKING FOR PROSPECTIVE BORROWERS (applicant-side), not about LPO's own contracted advisors. The point is conflicts tracking (whether an individual supporting LPO also works for a borrower), not whether LPO knew who its own advisors were. The relationship label 'challenges' is also wrong relative to the P-NEW it names: the source supports that P-NEW.",
+   "verified_against": "DOE-OIG-25-32 PDF (oversight.gov), 'Tracking of Third-Party Advisors': 'For the 18 projects we reviewed, the LPO was only able to identify the engineering third-party advisors for 3 of the projects and unable to identify marketing or financial third-party advisors for any projects.' The preceding sentence: 'did not track the names of third-party advisors working for prospective borrowers'. The >300 contractor and sixfold figures are verified.",
+   "recommended_correction": "Replace the clause with: 'for the 18 projects reviewed, LPO could identify the engineering third-party advisors working for prospective borrowers on only 3, and marketing/financial borrower-side advisors on none, so it could not check whether individuals supporting LPO also worked for applicants.' Change relationship to 'supports' (relative to the stated P-NEW).",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-07",
+   "issue_type": "overclaim",
+   "ids_affected": [
+    "EVR116",
+    "EVR118",
+    "SRC068"
+   ],
+   "description": "Humlum & Vestergaard: the 35% 'AI Quality Review + AI Ethics & Compliance' share is a share of free-text-coded NEW TASKS reported by chatbot users. It is not measured review time, and it includes items such as teachers 'detecting AI-generated homework' (policing others' AI use, not verifying AI-assisted output one receives). EVR116.analyst_inference ('Large-sample evidence that AI-generated output adds review/oversight and integration work for recipients') turns self-reported task creation by users into measured recipient workload. The large sample comes from the administrative-data part of the paper; the new-task figures come from the survey.",
+   "verified_against": "NBER WP 33777 (rev. Mar 2026), Section 2.3 pp.14-15: '35% of new AI-related work is dedicated to AI Quality Review and AI Ethics & Compliance ... a large share of teachers report new work related to \"detecting AI-generated homework.\"' The 12% (5 pp + 8 pp) and ~18% figures are verified verbatim. The abstract's bound is verified: 'ruling out effects larger than 2%'.",
+   "recommended_correction": "Rewrite EVR116.analyst_inference as: 'Survey self-reports from chatbot users (not recipients) indicate that new tasks include oversight/QA of AI output; the category also includes detecting others' AI use (e.g., teachers). Shows the existence and share of reported new tasks, not measured review hours or net workload.' Change EVR116 relationship for P3.2 from 'supports' to 'qualifies'. EVR118.transferability: replace 'Close task analog' with 'Single illustrative free-text category example; existence only.'",
+   "severity": "high"
+  },
+  {
+   "issue_id": "R2C-08",
+   "issue_type": "causal_overclaim",
+   "ids_affected": [
+    "EVR141",
+    "SRC083"
+   ],
+   "description": "METR 2025 (+19% completion time) is labelled 'supports' P3.2 (effort is shifted rather than removed). The RCT measures total implementation time when AI is allowed. It does not measure a shift of effort from production to review. The authors attribute the slowdown to several contributing factors (over-optimism, high developer familiarity, large and complex repos, low AI reliability, implicit context). Only the time-share analysis (~9% of time reviewing/cleaning AI output, on a subset) bears on reallocation. The 95% CI is not recorded, so the uncertainty around +19% is missing.",
+   "verified_against": "METR arXiv 2507.09089: abstract (+19%; forecasts -24% / -20%; experts -39% / -38%), Section 3 ('Developers complete 136 issues with AI-allowed and 110 issues with AI-disallowed'; 16 developers, 246 tasks). Verified.",
+   "recommended_correction": "Change EVR141 relationship to 'qualifies' for P3.2 and add 'challenges' for P3.1 if the coordinator wants to tag P3.1. Add to quantitative_result: '16 developers; 246 issues; CI per Figure 1 / Appendix D (insert values from the figure)'. Add to limitations: 'Producer-side AI use by experts in their own repos, not receipt of outside analysis; slowdown is multi-causal per authors.'",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-09",
+   "issue_type": "other",
+   "ids_affected": [
+    "EVR209",
+    "EVR210",
+    "SRC120",
+    "SRC121"
+   ],
+   "description": "Kronz 1999 (1.4% changed diagnoses) and Manion 2008 (2.3% major disagreements; 1.2% management change) are labelled 'supports' P1.3 ('rework due to inaccurate output is a MAJOR driver of review'). Low discrepancy yields under blanket mandatory review are equally consistent with review being policy- and consequence-driven (P1.1) while most reviews find nothing. They therefore do not support 'major driver' status for P1.3. The figures themselves are correct.",
+   "verified_against": "Europe PMC abstracts, PMID 10590387 ('Of 6171 cases reviewed ... 86 changed diagnoses (1.4%)'; serosal 9.5%, female reproductive 5.1%) and PMID 18360282 (132 = 2.3% major; 507 = 9.0% minor; 68 = 1.2% management change). Verified exactly.",
+   "recommended_correction": "Change the relationship for P1.3 to 'qualifies' in EVR209 and EVR210, and keep 'supports' for P1.1 (policy-mandated review persists despite low yield). Add 'yield denominator = all referred cases; low per-case yield, high per-error consequence' to the observed_finding.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-10",
+   "issue_type": "other",
+   "ids_affected": [
+    "EVR074",
+    "SRC043"
+   ],
+   "description": "Grossman & Cormack 2011 is labelled 'supports' P1.6 (review persists because of comfort/legitimacy). The source shows exhaustive manual review had lower recall/precision than two selected TAR efforts. It does not observe WHY manual review persisted. 'Defensibility' is the authors' rhetorical framing, and the register's own limitation already notes this.",
+   "verified_against": "Grossman & Cormack, Rich. J.L. & Tech. 17(3) (jolt.richmond.edu PDF). Table 7 averages verified: TAR recall 76.7% vs TREC manual 59.3%, precision 84.7% vs 31.7%, F1 80.0% vs 36.0%; '1.9% of the documents, a fifty-fold savings'.",
+   "recommended_correction": "Change the EVR074 relationship to 'qualifies' (or 'contextual') for P1.6. Keep EVR073 'supports' for P2.2 with the existing limitation that the two best-performing TAR teams were selected (not representative TAR).",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-11",
+   "issue_type": "other",
+   "ids_affected": [
+    "EVR123",
+    "SRC072"
+   ],
+   "description": "The UK DBT Copilot evaluation is labelled 'challenges' P3.1. The diary data (self-reported, no counterfactual, 32% response rate) show POSITIVE adjusted time savings for most tasks (e.g., drafting 1.3 h; meeting summaries 0.7 h) together with no evidence of productivity improvement. A design without a counterfactual cannot show that end-to-end work was not reduced. 'Qualifies' is the accurate label. The per-task Ns, which the report gives, are missing from the register. Several of the cited rows rest on very small n (reviewing code n=17, scheduling n=14, generating images n=22).",
+   "verified_against": "DBT M365 Copilot evaluation PDF (assets.publishing.service.gov.uk), Table 5 and the note below it ('Total N = 1,411'; N per task listed); Table 6 (observed tasks); 32% response rate; 72% satisfied; NPS 31. All values in EVR123/124/126 match.",
+   "recommended_correction": "Change the EVR123 relationship to 'qualifies'. Append to quantitative_result: 'Total N = 1,411 diary entries; N per task: e.g., drafting 114, data analysis 47, summarising research 45, presentations 78, generating images 22, reviewing code 17, scheduling 14.' Keep the note 'self-reported; no CIs'.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-12",
+   "issue_type": "denominator_control",
+   "ids_affected": [
+    "EVR095",
+    "SRC053"
+   ],
+   "description": "Liu et al. 2023: the r = -0.96 correlation between citation precision and perceived utility is across FOUR systems (Bing Chat, NeevaAI, perplexity.ai, YouChat). n=4 system-level points with no CI. It should not be read as an item-level relationship or as a robust tradeoff.",
+   "verified_against": "Liu, Zhang & Liang 2023 (arXiv 2304.09848), abstract and Section 4.3 / Figure 4. '51.5%' and '74.5%' verified verbatim. The four systems are named in Section 1.",
+   "recommended_correction": "Add to EVR095.quantitative_result: 'computed over 4 generative search engines (system-level means; no CI reported)'. Change the relationship for P2.3 to 'qualifies'. The direction is suggestive, but there is no inferential support.",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-13",
+   "issue_type": "denominator_control",
+   "ids_affected": [
+    "EVR091",
+    "EVR092",
+    "EVR093",
+    "SRC052"
+   ],
+   "description": "Si et al. 2024 numbers are accurate, but the register omits the sample: 80 Prolific crowdworkers, 16 per condition, non-expert fact-checking of Wikipedia claims. EVR091 labels the retrieval-vs-explanation time result 'challenges' P2.1. That contrast compares sources with LLM explanations, not sources with no aid: the baseline time is not reported, so the study does not show that sources increase verification time relative to having none.",
+   "verified_against": "Si et al. (arXiv 2310.12558) Section 5.1: 'accuracy ... (0.74 ± 0.09) ... (0.73 ± 0.12) ... not significant (z = -0.48, p = 0.32)'; time '(2.53±1.07) minutes' vs '(1.01 ± 0.45) minutes'; Section 5.2 '0.35 ± 0.22 ... 0.49 ± 0.24 ... 0.54 ± 0.26'; '80 crowdworkers'; 'We recruit 16' per condition.",
+   "recommended_correction": "Add to population_and_setting in EVR091-093: '80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims'. Change the EVR091 relationship to 'qualifies' for P2.1, with the note: 'comparison is retrieval vs explanation; no-evidence baseline time not reported.'",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-14",
+   "issue_type": "denominator_control",
+   "ids_affected": [
+    "EVR109",
+    "SRC063"
+   ],
+   "description": "SymGen: the human-evaluation figures are correct, but the register should state n=60 Prolific annotators. It should also note that the '20% less time' and 'equally likely to identify errors' claims carry no significance tests. The register already notes 'No significance tests located'. The 'supports' label for P2.2 rests on an untested equality (80.83% vs 80.00%).",
+   "verified_against": "Hennigen et al. (arXiv 2311.09188) Section 4.2: 'We recruited 60 annotators for the study via Prolific'; 'took on average 20% less time'; Appendix Table 7 (80.83 / 1.98 / 4.63 / 4.14 vs 80.00 / 2.50 / 4.44 / 3.63); 71.67% / 83.33% exit survey. Verified.",
+   "recommended_correction": "Add 'n=60 Prolific annotators; synthetic/structured-data summaries' to population. Change the relationship to 'supports' for P2.1 (weak, no tests) and 'qualifies' for P2.2 (no detected difference; equivalence not tested).",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-15",
+   "issue_type": "causal_overclaim",
+   "ids_affected": [
+    "EVR010",
+    "SRC002"
+   ],
+   "description": "In the PCAOB interim analysis, the +2.3 pp shift of specialist hours to the preliminary phase is used to qualify P3.2 (effort is shifted). The source adds that the shift is 'consistent with a broader shift in the allocation of total audit hours to earlier phases of the audit', i.e., a secular trend not attributable to the rule. The register mentions COVID and confounding but omits this specific caveat, which weakens the inference considerably.",
+   "verified_against": "PCAOB Release 2022-008 PDF (retrieved by curl from pcaobus.org on 2026-11-15; the claim that pcaobus.org always blocks scripted access did not hold for this file), key-findings column. Also verified: 'The majority of engagement partners interviewed estimated that the additional time spent was less than 1% of total audit hours. None of the partners reported increasing audit fees'; +4.8 pp and +10.5 pp driven by smaller firms.",
+   "recommended_correction": "Append to EVR010.limitations: 'Staff note that the +2.3 pp planning-phase shift is consistent with a broader shift of total audit hours to earlier phases, i.e., not attributable to the new requirements.' Optionally change the relationship to 'contextual'.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-16",
+   "issue_type": "transfer",
+   "ids_affected": [
+    "EVR039",
+    "EVR045",
+    "EVR069",
+    "EVR084",
+    "EVR086",
+    "EVR118",
+    "EVR134",
+    "EVR186"
+   ],
+   "description": "Transferability statements that are overconfident or lack the 'consequential differences / needs verification' component the instructions require. Examples: EVR039 'Directly transferable principle' (OCC bank-securities guidance applied to project-finance advisors); EVR045 'Core mechanism transfers directly' (2012 Fitch conference slides); EVR069 'Strong structural analog' and EVR084 'Closest regulatory analog' (nuclear QA, e-discovery); EVR086 'Directly supports curated evidence linkage' (a design guideline prescribes practice; it is not evidence of effect); EVR186 'Strongest mechanism-level support' (crowdworker maze task); EVR118 'Close task analog' (one free-text example); EVR134 (law-firm press release used as an adoption analog). A keyword scan finds 35 of 217 transferability fields with no stated difference, limitation or verification need.",
+   "verified_against": "Keyword scan of transferability_to_target_workflow (no 'differ|unlike|however|limit|verify|needs|not' terms) across evidence.json; manual read of the listed items.",
+   "recommended_correction": "For each listed item, append: 'Differences: [regulatory mandate / task type / participant expertise / consequence structure]. Needs verification: [specific observation in renewable-energy IC/credit diligence].' Replace 'directly transferable' and 'strongest support' wording with 'plausible mechanism analog'. EVR086 should read: 'Guideline prescribes curated linkage; it does not show that curation reduces reviewer effort.'",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-17",
+   "issue_type": "access_status",
+   "ids_affected": [
+    "SRC038",
+    "SRC046",
+    "SRC070",
+    "SRC055",
+    "EVR065",
+    "EVR080",
+    "EVR122",
+    "EVR188"
+   ],
+   "description": "Source-level access_status disagrees with item-level access_status after merging: SRC038 full_text vs EVR065 abstract_only; SRC046 full_text vs EVR080 partial; SRC070 full_text vs EVR122 partial; SRC055 full_text vs EVR188 partial. For SRC046 (Charlotin database), the merged source's own limitations say the counts were 'read via a fetch tool summarizing filter counts', which is not full-text review.",
+   "verified_against": "Programmatic comparison of evidence.access_status vs sources.access_status, plus the limitation text in sources.json.",
+   "recommended_correction": "Set SRC046.access_status = 'partial'. For SRC038/SRC070/SRC055, record the access per contributing workstream (e.g., access_status_by_ws) or set the source to the HIGHEST access achieved, keeping each item's own status. Do not let a full_text source label imply full-text review behind every item.",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-18",
+   "issue_type": "access_status",
+   "ids_affected": [
+    "SRC025",
+    "SRC026",
+    "EVR046",
+    "EVR047"
+   ],
+   "description": "The renewable-domain figures most likely to be cited (Fitch Topaz DSCRs, 2% haircut, ~7% overperformance; kWh Analytics 5-13% underperformance vs P50) rest on fetch-tool summaries of secondary republications (MarketScreener; PV Tech). The R2 re-check failed: MarketScreener returns 'Access Denied' and PV Tech returns HTTP 403 to curl. Both items are correctly marked 'partial', but '~7%' is explicitly 'as returned by fetch tool' and the Fitch excerpt is not verified verbatim.",
+   "verified_against": "curl to the SRC025 and SRC026 URLs on 2026-11-15 (blocked: 403 / Access Denied). Not bypassed.",
+   "recommended_correction": "In synthesis, treat EVR046/EVR047 quantities as unverified secondary figures. Add 'R2: not re-verifiable (blocked); figures from fetch-tool summary of a secondary republication' to both limitations. The kWh Analytics original SGI 2021 report should be sought before any figure is used in a headline.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-19",
+   "issue_type": "overclaim",
+   "ids_affected": [
+    "EVR212",
+    "EVR213",
+    "SRC123"
+   ],
+   "description": "Lu 2012 figures are accurate, but EVR213 tags 'supports' P3.1 (integration reduces recipient work END-TO-END). The study is a retrospective single-center observational study (n=267). It measures repeat-imaging rates, not total recipient work: the import effort and the reasons images were not imported (quality or protocol inadequacy) are unmeasured. The authors' conclusion ('Importing ... reduces the rate of repeat imaging') is causal wording for an observational design, and the register should not adopt it.",
+   "verified_against": "Europe PMC abstract, PMID 22358003: 72% (13/18), 52% (14/27), 11% (9/79), 13% (18/143); adjusted ORs 31 and 9.0 (p<0.001); OR 0.71, p=0.51. Verified exactly.",
+   "recommended_correction": "Change the EVR213 relationship to 'qualifies' for P3.1. Add: 'Outcome is repeat imaging, not end-to-end work; observational, confounding by indication possible (images not imported may have been inadequate); import effort not measured.'",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-20",
+   "issue_type": "fidelity",
+   "ids_affected": [
+    "EVR147",
+    "EVR186",
+    "EVR096"
+   ],
+   "description": "Vasconcelos intervals are Bayesian credible intervals from mixed-effects models, not frequentist CIs. EVR096 says effect sizes are 'not extracted', while EVR147/EVR186 extract them. The record is internally inconsistent across copies of the same source.",
+   "verified_against": "Vasconcelos et al. 2023, Section 6.5: 'two Bayesian linear mixed effects models ... notable if the 95% credible interval of the posterior distribution excludes 0'.",
+   "recommended_correction": "Use 'credible interval' in all SRC054 items and copy the Table 3 values into EVR096 or cross-reference EVR186.",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-21",
+   "issue_type": "fidelity",
+   "ids_affected": [
+    "EVR162",
+    "SRC093"
+   ],
+   "description": "The Deloitte/DEWR quotation is accurate and correctly attributed (DEWR Secretary Natalie James at Senate Estimates). The same article reports a consequential point the register omits: 'Finance Department officials have admitted the agency only discovered Deloitte's errors through media reporting.' The recipient's own review did not detect the fabricated references. This bears on P1.1/P2.5 (recipient non-verification) and is news-only (Hansard not verified).",
+   "verified_against": "Region Canberra article (region.com.au/.../911846/), retrieved by curl: '“We should not be receiving work that has glaring errors in footnotes and sources,” she said. “My people should not be double-checking a third-party provider’s footnotes.”'; '$97,587'; '$440,000'. The ACS Information Age article (SRC092) returned a Cloudflare challenge in R2 and was not re-verified.",
+   "recommended_correction": "Add to EVR162.observed_finding: 'Finance officials said the errors were discovered only through media reporting (as reported by Region Canberra; Hansard not verified).' Keep access as news-only.",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-22",
+   "issue_type": "other",
+   "ids_affected": [
+    "SRC017",
+    "SRC105",
+    "EVR033",
+    "EVR191"
+   ],
+   "description": "Duplicate check requested by the coordinator. SRC017 (Commerford & Holman, 2022 WP: 2x2 design, source x memo specificity, 98 audit managers) and SRC105 (Commerford, Dennis, Joe & Ulla, JAR 60(1):171-201, 2022: source x objectivity of management inputs) are DISTINCT experiments with different author teams, manipulations and samples. They are not duplicates. They do share a lead author and a paradigm (AI vs human specialist evidence), so they count as two studies from one research program, not independent replications of one effect.",
+   "verified_against": "UNLV repository abstract for SRC105 (digitalscholarship.unlv.edu/acct_fac_articles/51, retrieved by curl); SRC017 record in the register (98 audit managers; specificity manipulation).",
+   "recommended_correction": "Keep as separate EGs. Add to both records: 'same research program as [other ID]; distinct experiment.' Remove the _flagged_for_audit note in manual_overrides.json once recorded.",
+   "severity": "low"
+  },
+  {
+   "issue_id": "R2C-23",
+   "issue_type": "overclaim",
+   "ids_affected": [
+    "P1.1 digest",
+    "EVR001",
+    "EVR039",
+    "EVR041"
+   ],
+   "description": "P1.1 is the most heavily populated proposition (43 items; 34 'supports'; 27 distinct supporting EGs). Most of these are standards, regulations and guidance, which show an OBLIGATION to review, not that retained review effort is 'substantially driven' by obligations relative to other drivers. The digest's raw counts invite a weight-of-evidence reading that the evidence types cannot bear. The obligation items also do not show that the duty would 'persist regardless of advisor transparency' (several standards scale effort with evidence quality, e.g., EVR001/EVR012).",
+   "verified_against": "Computed from evidence.json: P1.1 items=43, distinct EGs=33; supports items=34, distinct EGs=27. Source types for P1.1 inspected via the digest.",
+   "recommended_correction": "Report digest counts by distinct underlying_evidence_group and by evidence class (obligation / observed behaviour / experiment / self-report). For P1.1, split into 'obligation exists (well supported)' and 'obligation is the dominant driver of effort (not directly tested)'.",
+   "severity": "medium"
+  },
+  {
+   "issue_id": "R2C-24",
+   "issue_type": "denominator_control",
+   "ids_affected": [
+    "digest-wide"
+   ],
+   "description": "The digest reports n per proposition as counts of evidence ITEMS, not of independent evidence groups. Inflation from multiple items per EG: P1.1 43 items vs 33 EGs; P2.2 19 vs 15; P2.3 19 vs 15 (supports 13 items vs 9 EGs); P3.2 16 vs 14; P3.4 2 vs 1; P2.1 21 vs 17; P2.5 11 vs 9.",
+   "verified_against": "Recomputed from evidence.json by parsing the proposition IDs in proposition_tested and grouping by underlying_evidence_group.",
+   "recommended_correction": "Add a 'distinct EGs' column to the digest header for each proposition (values above). Synthesis should cite EG counts, never item counts, as weight of evidence.",
+   "severity": "medium"
+  }
+ ],
+ "verified_ok": [
+  {
+   "ids": [
+    "EVR091",
+    "EVR092",
+    "EVR093",
+    "SRC052"
+   ],
+   "what_was_checked": "Si et al. 2024 accuracy (0.74/0.73, p=0.32), time (2.53 vs 1.01 min), over-reliance (0.35 vs 0.49 vs 0.54), retrieval+explanation 'no complementary benefits'",
+   "locator": "arXiv 2310.12558 Sections 5.1-5.4, Figs 2-5"
+  },
+  {
+   "ids": [
+    "EVR094"
+   ],
+   "what_was_checked": "Liu et al. 2023: 51.5% citation recall, 74.5% precision (verbatim)",
+   "locator": "arXiv 2304.09848 abstract; Section 4.2"
+  },
+  {
+   "ids": [
+    "EVR109"
+   ],
+   "what_was_checked": "SymGen: 20% less time, accuracy 80.83 vs 80.00, time 1.98 vs 2.50, 71.67% / 83.33% exit survey",
+   "locator": "arXiv 2311.09188 Section 4.2; Appendix Table 7"
+  },
+  {
+   "ids": [
+    "EVR110"
+   ],
+   "what_was_checked": "HoT: 47.26 s vs 62.38 s; correct 84.48 vs 78.82; incorrect 54.83 vs 72.21; n=63 students",
+   "locator": "HoT (TMLR 2026; arXiv 2503.02003) Section 5.6, Table 12"
+  },
+  {
+   "ids": [
+    "EVR147",
+    "EVR186"
+   ],
+   "what_was_checked": "Vasconcelos Study 2 Table 3 values (-1.63 [-2.78, -0.559]; -1.632 [-2.570, -0.694]); N=340",
+   "locator": "CSCW 2023, p.129:18 Table 3"
+  },
+  {
+   "ids": [
+    "EVR097"
+   ],
+   "what_was_checked": "7/17 (~41.1%) skimming statement and the early-ended prior pre-registration",
+   "locator": "Vasconcelos Appendix 12.3"
+  },
+  {
+   "ids": [
+    "EVR141",
+    "EVR142"
+   ],
+   "what_was_checked": "METR +19%; forecasts -24% / -20%; experts -39% / -38%; 136 vs 110 issues; 16 devs / 246 tasks",
+   "locator": "arXiv 2507.09089 abstract; Section 3"
+  },
+  {
+   "ids": [
+    "EVR062"
+   ],
+   "what_was_checked": "Magesh: 'hallucinate between 17% and 33% of the time' (abstract); 17% / 33% in Figure 4",
+   "locator": "arXiv 2405.20362v1 abstract; Fig. 4"
+  },
+  {
+   "ids": [
+    "EVR102",
+    "EVR103"
+   ],
+   "what_was_checked": "Ding 2025: F(2,3037)=10.23; 193/1,976 (9.77%) checked; 42.1% checked at least one",
+   "locator": "Ding et al. PDF Results sections"
+  },
+  {
+   "ids": [
+    "EVR113"
+   ],
+   "what_was_checked": "Wu 2024: ~50% to 90% of responses not fully supported; 88% agreement with physicians",
+   "locator": "Wu et al. abstract"
+  },
+  {
+   "ids": [
+    "EVR116",
+    "EVR117"
+   ],
+   "what_was_checked": "Humlum & Vestergaard: 2% bound on earnings/hours; 12% new workloads (5 pp + 8 pp); ~18% with initiatives; 35% QA+Ethics share; ~3% time savings",
+   "locator": "NBER WP 33777 rev. Mar 2026: abstract; Section 2.3 pp.14-15; fn 9; Section 3.4"
+  },
+  {
+   "ids": [
+    "EVR123",
+    "EVR124",
+    "EVR125",
+    "EVR126"
+   ],
+   "what_was_checked": "DBT Copilot Table 5 hours saved (all three columns), Table 6 observed tasks, 32% diary response rate, 72% satisfied, NPS 31, PowerPoint '7 minutes faster' quote",
+   "locator": "DBT evaluation PDF pp.4-5, 19-20, 28-31"
+  },
+  {
+   "ids": [
+    "EVR008",
+    "EVR009",
+    "EVR010"
+   ],
+   "what_was_checked": "PCAOB 2022-008: majority of 31 partners <1% of hours; no fee increases; +4.8 pp / +10.5 pp; +2.3 pp planning shift; valuation-provider comment",
+   "locator": "PCAOB Release 2022-008 key findings and statistical analysis columns"
+  },
+  {
+   "ids": [
+    "EVR073"
+   ],
+   "what_was_checked": "Grossman & Cormack Table 7 averages and 1.9% / fifty-fold statement",
+   "locator": "Rich. J.L. & Tech. 17(3), Table 7; para [61]"
+  },
+  {
+   "ids": [
+    "EVR055"
+   ],
+   "what_was_checked": "Addepar/Stanford: 54 responding orgs; 97% use memos; 78% OF THOSE require completion/review; 86% templates; 'On average, we heard ... two months' (case-study/interview-based)",
+   "locator": "Addepar memo PDF Section 6 Findings; Writing paragraph"
+  },
+  {
+   "ids": [
+    "EVR059"
+   ],
+   "what_was_checked": "DOE-OIG-25-32: 3 of 18 engineering (borrower-side) advisors; 0 marketing/financial; >300 contractor staff, sixfold since Sept 2020 (see R2C-06 for the framing correction)",
+   "locator": "DOE-OIG-25-32 p.1; 'Tracking of Third-Party Advisors'"
+  },
+  {
+   "ids": [
+    "EVR209",
+    "EVR210"
+   ],
+   "what_was_checked": "Kronz 86/6171 (1.4%), Manion 132/5629 (2.3%) major, 507 (9.0%) minor, 68 (1.2%) management change",
+   "locator": "Europe PMC abstracts PMID 10590387; 18360282"
+  },
+  {
+   "ids": [
+    "EVR212",
+    "EVR213"
+   ],
+   "what_was_checked": "Lu 2012 repeat-imaging rates 72% / 52% / 11% / 13% and adjusted ORs 31 / 9.0 / 0.71",
+   "locator": "Europe PMC abstract PMID 22358003"
+  },
+  {
+   "ids": [
+    "EVR107"
+   ],
+   "what_was_checked": "Jabbour 2023: baseline 73.0% (68.3-77.8); +2.9 / +4.4 pp; biased -11.3 / -9.1 pp; +2.3 pp (-2.7 to 7.2); n=457 randomized. Abstract confirms the summarizer-relayed values",
+   "locator": "Europe PMC abstract for doi 10.1001/jama.2023.22295"
+  },
+  {
+   "ids": [
+    "EVR108"
+   ],
+   "what_was_checked": "Pew 2025: 8% vs 15% traditional-link clicks; 1% clicks on links inside AI summary",
+   "locator": "pewresearch.org short read 2025-07-22, body text"
+  },
+  {
+   "ids": [
+    "EVR162"
+   ],
+   "what_was_checked": "DEWR Secretary quote 'My people should not be double-checking a third-party provider's footnotes'; $97,587 of $440,000",
+   "locator": "Region Canberra 2025-10-11 article body"
+  },
+  {
+   "ids": [
+    "SRC017",
+    "SRC105"
+   ],
+   "what_was_checked": "Distinct studies (different author teams, manipulations, samples); not duplicates",
+   "locator": "UNLV repository abstract (JAR 60(1):171-201); SRC017 register record"
+  }
+ ]
+}

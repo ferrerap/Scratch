@@ -1,0 +1,735 @@
+[
+  {
+    "evidence_id": "WS7-E01",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 Retained review is substantially driven by formal obligations/governance that would persist regardless of advisor transparency.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "AS 1210 sets the auditor's objective as determining whether the auditor-engaged specialist's work is suitable for the auditor's purposes and supports the auditor's own conclusion. The engagement partner/supervisors must review the specialist's report and evaluate whether the work provides sufficient appropriate evidence, specifically (a) whether the work and report accord with the auditor's understanding with the specialist and (b) whether findings and conclusions are consistent with the specialist's own work, other audit evidence, and the auditor's understanding of the company. Supervisory responsibility sits with the engagement partner (AS 1210.03-.12 all address 'the engagement partner and, as applicable, other engagement team members performing supervisory activities').",
+    "relationship": "supports",
+    "evidence_type": "primary professional standard (rule text)",
+    "population_and_setting": "Auditors of SEC issuers (PCAOB-registered firms) using specialists engaged by the audit firm (e.g., valuation specialists, actuaries, engineers).",
+    "study_or_observation_method": "Text of adopted standard (PCAOB Release 2018-006, Appendix 1, Section VI).",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Required auditor procedures when relying on an outside specialist's work.",
+    "quantitative_result": null,
+    "source_locator": "PCAOB Release No. 2018-006, Appendix 1, pp. A1-10 to A1-14: AS 1210.02 (objective), AS 1210.09(a)-(b) (evaluation).",
+    "short_exact_excerpt": "The objective of the auditor is to determine whether the work of the auditor-engaged specialist is suitable for the auditor's purposes and supports the auditor's conclusion regarding the relevant assertion.",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "Shows an obligation, not how much time it takes, how it is performed, or whether it is complied with. Applies to auditors (who have a statutory opinion), not to investment committees.",
+    "transferability_to_target_workflow": "Mechanism that transfers: the recipient (auditor) cannot outsource its conclusion; the outside expert's work is evidence evaluated against the recipient's own understanding and other evidence. Similar in renewable-energy diligence where an investment committee/credit officer relies on independent engineer (IE), market, or legal reports but owns the decision. Consequential differences: no single statutory standard governs lender/investor reliance on IEs; obligations come from internal credit policy, fiduciary duty, and contracts. Needs verification: whether credit/investment policies contain analogous 'evaluate consistency with other evidence' requirements.",
+    "analyst_inference": "AS 1210.09(b) defines a minimum irreducible review (consistency checking against the recipient's own knowledge) that traceability can make cheaper but cannot eliminate; it is W1, not W2.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E02",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P1.1 (formal obligation) qualified: the required extent of review scales with risk, significance, and the specialist's competence/objectivity rather than being fixed; P2.1 indirectly (factors that legitimately reduce review).",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "The extent of the auditor's review of an auditor-engaged specialist's work depends on (1) significance of the specialist's work to the auditor's conclusion, (2) risk of material misstatement, and (3) the specialist's knowledge, skill and ability (AS 1210.10). For a company's specialist, the persuasiveness of evidence required increases with significance, risk, and the company's ability to affect the specialist's judgments, and as the specialist's knowledge, skill and ability decreases (AS 1105.A5, .A7 and Note). The Board's summary describes the amendments as 'risk-based and scalable'.",
+    "relationship": "qualifies",
+    "evidence_type": "primary professional standard (rule text)",
+    "population_and_setting": "PCAOB-registered auditors of issuers.",
+    "study_or_observation_method": "Text of adopted standard.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Determinants of required review extent.",
+    "quantitative_result": null,
+    "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1210.10 (p. A1-14); AS 1105.A5 (p. A1-4), AS 1105.A7 and Note (pp. A1-4 to A1-5). Board summary at 84 FR 13442 (WS7-S02).",
+    "short_exact_excerpt": "The necessary extent of the review depends on: (1) the significance of the specialist's work ... (2) the risk of material misstatement ... and (3) the knowledge, skill, and ability of the specialist.",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "Notably, the listed scaling factors do NOT include the format, traceability, or documentation quality of the specialist's output; those enter only indirectly (e.g., via .06d report content, .12 restrictions/limitations). Standard does not quantify effort.",
+    "transferability_to_target_workflow": "Transfers as a design principle: review effort legitimately proportional to materiality, risk, and the advisor's demonstrated competence/objectivity. In renewable diligence this maps to scaling IE/report review by project size, technology novelty, and reliance on the item (e.g., energy yield P50/P90 drives debt sizing). Need to verify whether lenders formally tier review by risk and whether advisor track record reduces review in practice.",
+    "analyst_inference": "If review scales with perceived competence and risk, then evidence that improves the recipient's ability to assess competence and locate high-risk assumptions could reduce effort on low-risk items without reducing scrutiny of high-risk ones. This is a hypothesis; the standard does not test it.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E03",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P2.4 Visibility into scope, checks performed, omissions, and uncertainty improves appropriate reliance (here: is REQUIRED as an input to reliance).",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X4",
+      "X3"
+    ],
+    "observed_finding": "The auditor must establish and document an understanding with the specialist that includes the specialist's degree of responsibility for testing data, evaluating/developing assumptions, and evaluating/using methods, and the specialist's responsibility to provide a report describing the work performed, results, and findings or conclusions (AS 1210.06). Additional procedures are ordinarily necessary when, among other things, the report contains restrictions, disclaimers, or limitations affecting the auditor's use, findings are inconsistent with the work performed or other evidence, the specialist lacks a reasonable basis for data or significant assumptions, or methods were not appropriate (AS 1210.12 Note).",
+    "relationship": "supports",
+    "evidence_type": "primary professional standard (rule text)",
+    "population_and_setting": "PCAOB-registered auditors of issuers.",
+    "study_or_observation_method": "Text of adopted standard.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Required content of the specialist's deliverable and triggers for additional procedures.",
+    "quantitative_result": null,
+    "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1210.06(a)-(d) (pp. A1-12 to A1-13); AS 1210.12 and Note (pp. A1-14 to A1-15).",
+    "short_exact_excerpt": "the specialist's report, or equivalent documentation, contains restrictions, disclaimers, or limitations that affect the auditor's use of the report or work",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "A requirement, not evidence that such documentation reduces review time or improves detection.",
+    "transferability_to_target_workflow": "Directly analogous to IE/advisor reports in project finance: scope letters, reliance language, and limitation/disclaimer sections determine what the lender can rely on; limitations trigger additional work. Suggests that explicit scope, responsibility allocation, and limitation disclosure (X4) are treated by a mature standard as preconditions to reliance, not optional features. Verify with lender reliance letters and IE scopes of work (other workstreams).",
+    "analyst_inference": "In the standard's logic, opaque scope or broad disclaimers increase recipient work (additional procedures) - consistent with P1.2 - but the standard frames this as legitimate verification, not avoidable reconstruction.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E04",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.1 vs P1.2: when the specialist is the preparer's (company's) specialist, the recipient must substantively re-test data, assumptions, and methods - mandated re-performance, not avoidable reconstruction.",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "For a company's specialist, the auditor should test the accuracy and completeness of company-produced data used by the specialist and evaluate relevance and reliability of external data; evaluate whether significant assumptions are reasonable (considering consistency with, e.g., assumptions generally accepted in the field, industry/regulatory factors, market information, historical experience); and evaluate whether methods are appropriate (AS 1105.A8). The auditor must also evaluate restrictions/limitations and consistency with other evidence (A9) and perform additional procedures when findings contradict the assertion (A10).",
+    "relationship": "supports",
+    "evidence_type": "primary professional standard (rule text)",
+    "population_and_setting": "PCAOB-registered auditors using work of specialists employed or engaged by the audited company.",
+    "study_or_observation_method": "Text of adopted standard.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Required procedures on data, assumptions, methods.",
+    "quantitative_result": null,
+    "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1105.A6-.A10 (pp. A1-4 to A1-7).",
+    "short_exact_excerpt": "Test the accuracy and completeness of company-produced data used by the specialist, and evaluate the relevance and reliability of data from sources external to the company that are used by the specialist; [footnote markers omitted]",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "Obligation, not observed behavior. Scale of testing is risk-based (A7).",
+    "transferability_to_target_workflow": "Closest analogue: a sponsor-commissioned report (e.g., sponsor's energy-yield or market study) relied on by a lender/investor. Mechanism: where the advisor is paid by or aligned with the counterparty, the recipient re-tests inputs. Traceable data lineage and explicit assumptions (X3) would be the object of this testing, potentially making it cheaper, but would not remove it.",
+    "analyst_inference": "Distinguishes 'reconstruction' (W2) from mandated substantive re-testing (W1). Products that expose data lineage and assumptions could reduce the cost of A8-type procedures; whether they reduce their required extent is not addressed by the standard.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E05",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P-NEW: The advisor's objectivity/independence from the party whose assertions are being evaluated directly modulates the recipient's required verification effort.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Auditors must assess whether the auditor-engaged specialist has the objectivity to exercise impartial judgment, including relationships with the company (employment, financial, ownership, business, contractual, family). If a relationship affects objectivity, the auditor must perform additional procedures on the specialist's data, assumptions and methods or engage another specialist; required evidence decreases as objectivity increases; with low objectivity, the auditor applies the (more extensive) company's-specialist procedures.",
+    "relationship": "supports",
+    "evidence_type": "primary professional standard (rule text)",
+    "population_and_setting": "PCAOB-registered auditors.",
+    "study_or_observation_method": "Text of adopted standard.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Effect of specialist objectivity on required procedures.",
+    "quantitative_result": null,
+    "source_locator": "PCAOB Release No. 2018-006, Appendix 1: AS 1210.05 and Notes (pp. A1-11 to A1-12); AS 1210.11 (p. A1-14).",
+    "short_exact_excerpt": "As the degree of objectivity increases, the evidence needed from additional procedures decreases. If the specialist has a low degree of objectivity, the auditor should apply the procedures for evaluating the work of a company's specialist.",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "Obligation only.",
+    "transferability_to_target_workflow": "Maps to 'who pays the advisor' in renewable diligence: lender's IE (engaged by lenders, often paid by borrower) vs sponsor's advisor. Suggests verification burden depends on engagement structure as much as on output format; any traceability benefit should be estimated separately for independent vs counterparty-aligned advisors.",
+    "analyst_inference": "Implies a confound for RQ2 field evidence: reductions in review might reflect perceived independence rather than traceability.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E06",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P1.6 Review persists due to ritual/distrust beyond rational verification needs (challenged: regulator observed UNDER-review of specialists' work).",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "PCAOB inspections found auditors at times did not fulfil responsibilities when using an auditor's specialist: they did not reach an understanding of the specialist's responsibilities, did not adequately evaluate the specialist's work, or did not consider contradictory evidence the specialist identified. For company specialists, findings included not evaluating reasonableness of assumptions, not understanding methods/assumptions, not testing company data, not evaluating qualifications. Some firms' remediation (earlier/more frequent auditor-specialist communication) coincided with a decline in auditor's-specialist findings; no similar decline for company-specialist findings.",
+    "relationship": "challenges",
+    "evidence_type": "regulator inspection observations (summarized in rulemaking release)",
+    "population_and_setting": "PCAOB inspections of issuer audits over 'the past several years' before 2018.",
+    "study_or_observation_method": "Qualitative summary of inspection findings and enforcement actions.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Deficiencies in auditor review of specialists' work.",
+    "quantitative_result": "Not quantified in the passage (no deficiency counts or rates given).",
+    "source_locator": "PCAOB Release No. 2018-006, Section II.B.2 'Observations from Audit Inspections and Enforcement Cases', pp. 16-17.",
+    "short_exact_excerpt": "The observations included instances in which auditors did not: (1) reach an understanding with the specialist regarding his or her responsibilities; (2) adequately evaluate the work performed by the specialist; or (3) consider contradictory evidence identified by the specialist",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "Inspection samples are risk-selected; no rates; deficiencies may reflect documentation failures rather than absent review.",
+    "transferability_to_target_workflow": "Cautions that in professional reliance on outside experts, the observed failure mode includes insufficient review and failure to act on contradictory evidence, not only excessive review. A product that lowers review cost must be evaluated for whether it also lowers detection of contradictions.",
+    "analyst_inference": "Counterweight to the thesis's framing of review as partly avoidable: the regulator's concern was too little scrutiny. Coordination improvements (communication) were associated with fewer findings - weak, uncontrolled evidence that integration/clarity of the engagement can improve review quality.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E07",
+    "source_id": "WS7-S01",
+    "research_question_ids": [
+      "RQ1"
+    ],
+    "proposition_tested": "P-NEW: Reliance on multiple outside specialists is routine in complex professional engagements (context for how often recipient review of expert work occurs).",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "In 274 issuer audits by U.S. global-network-affiliated firms selected for 2015 inspection, auditors used at least one auditor-employed specialist in about 85% of audits, with an average of four to five specialists per such audit, in one to two fields. Among 361 audits by non-affiliated U.S. firms, about 10% used only a company's specialist, about 7% only an auditor's specialist, about 8% both, and about 75% neither.",
+    "relationship": "contextual",
+    "evidence_type": "regulator analysis of inspection data",
+    "population_and_setting": "Issuer audits selected for PCAOB inspection in 2015 (and 700 audits in 2017, 'broadly consistent').",
+    "study_or_observation_method": "PCAOB staff analysis of engagement-level inspection data.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Prevalence of specialist use.",
+    "quantitative_result": "Larger firms: ~85% of 274 audits used >=1 auditor-employed specialist; avg 4-5 specialists per such audit. Smaller firms (n=361): 36 (~10%) company specialist only; 24 (~7%) auditor's specialist only; 30 (~8%) both; 271 (~75%) neither.",
+    "source_locator": "PCAOB Release No. 2018-006, Section IV.A.1.a 'Evidence from PCAOB Inspections Data', pp. 30-31 and footnotes 53-56.",
+    "short_exact_excerpt": "auditors used the work of at least one auditor-employed specialist in about 85 percent of those audits",
+    "underlying_evidence_group": "EG:pcaob2018-specialists-AS1210",
+    "limitations": "Risk-selected sample overrepresents complex audits (stated in fn 53); data did not indicate frequency of auditor-engaged (external) specialists (fn 55).",
+    "transferability_to_target_workflow": "Contextual only: analogous to multi-advisor diligence (IE, insurance, market, legal, tax, environmental) in project finance; shows that reviewing several experts' work per engagement is normal in a regulated setting.",
+    "analyst_inference": "Not evidence on review effort or traceability.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E08",
+    "source_id": "WS7-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations increase trust/acceptance without improving (or while worsening) error detection.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "With AI accuracy matched to humans, showing AI recommendation plus confidence produced complementary team accuracy, but adding AI explanations (Explain-Top-1, Explain-Top-2, Adaptive; AI- or expert-generated) did not significantly improve team accuracy over the confidence-only baseline in any of three tasks.",
+    "relationship": "supports",
+    "evidence_type": "randomized between-subjects online experiment",
+    "population_and_setting": "US Amazon Mechanical Turk workers; sentiment classification of beer reviews (Beer) and book reviews (Amzbook), 50 items each; LSAT logical-reasoning questions, 20 items. 566 (Beer) and 552 (Amzbook) recruited, 84% passed screening; 508 recruited for LSAT, 35% passed; ~100 participants per condition.",
+    "study_or_observation_method": "Between-subjects conditions; Student's t-tests with Bonferroni correction; post-task Likert survey and coded free text.",
+    "intervention_and_comparator": "Team (Explain-Top-1/Top-2/Adaptive, AI- or Expert-generated explanations) vs Team (Conf: recommendation + confidence) vs Human alone; AI fixed at 84% (sentiment) and 65% (LSAT).",
+    "outcome_measured": "Final decision accuracy.",
+    "quantitative_result": "Beer: Human 0.82 +/- 0.09 (SD); AI 0.84; Team (Conf) 0.89 +/- 0.05; Team (Explain-Top-1, AI) 0.88 +/- 0.06; Conf vs Explain-Top-1 z=-1.18, p=.24. Amzbook z=1.23, p=.22; LSAT z=0.427, p=.64. Team (Conf) relative gains over unassisted: 2.2% (Amzbook), 20.1% (LSAT).",
+    "source_locator": "Section 5.1, p. 7 (pdf p.7); Figure 4A, p. 8.",
+    "short_exact_excerpt": "We did not observe significant improvements over the confidence baseline by displaying explanations.",
+    "underlying_evidence_group": "EG:bansal2021-explanations-complementarity",
+    "limitations": "Lay crowdworkers; low-stakes, quickly verifiable tasks; explanations are saliency/narrative justifications, not provenance to source documents; accuracy only.",
+    "transferability_to_target_workflow": "Transfers weakly: suggests that persuasive rationales (X1) are not a reliable lever for better reliance decisions; a simple calibrated confidence signal (X4-like) did as well. Diligence differs (expert recipients, multi-hour reviews, ambiguous ground truth). Needs testing with professional reviewers and source-linked evidence (X3).",
+    "analyst_inference": "Evidence about X1/X2 explanations; should not be read as evidence about citations/provenance (X3).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E09",
+    "source_id": "WS7-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Explanations increase acceptance regardless of correctness (blind trust) rather than appropriate reliance.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X1"
+    ],
+    "observed_finding": "Splitting accuracy by AI correctness, explaining the top prediction raised accuracy when the AI was correct but lowered it when the AI was wrong (Beer and LSAT); authors conclude explanations increased blind trust rather than appropriate reliance. 13% of coded participants said they would go with the AI when unsure.",
+    "relationship": "supports",
+    "evidence_type": "randomized online experiment (subgroup by AI correctness) + coded self-reports",
+    "population_and_setting": "As WS7-E08.",
+    "study_or_observation_method": "Accuracy split by AI-correct vs AI-incorrect items (Figure 4B); qualitative coding of 409 free-text strategy responses.",
+    "intervention_and_comparator": "Explain-Top-1 vs Conf vs other explanation conditions.",
+    "outcome_measured": "Accuracy on AI-correct vs AI-incorrect items; self-reported strategies.",
+    "quantitative_result": "Point estimates for split accuracies shown graphically only (Figure 4B, 95% CIs), not tabulated in text. Self-reports: 'Mostly Follow AI' 23 (6%); 'AI as Prior Guide' 190 (47%); 'AI as Post Check' 102 (25%); 'Mostly Ignore AI' 90 (22%); 'Fall Back to AI' 54 (13%) (Table 3).",
+    "source_locator": "Figure 4B caption, p. 8; Section 5.1, p. 8; Table 3, p. 11; Section 6.2, p. 12.",
+    "short_exact_excerpt": "One concerning observation was that explanations increased blind trust rather than appropriate reliance on AI.",
+    "underlying_evidence_group": "EG:bansal2021-explanations-complementarity",
+    "limitations": "Split-by-correctness results are presented graphically; not all splits significant; lay participants.",
+    "transferability_to_target_workflow": "The discriminating design (outcomes split by whether the advice was right or wrong) is directly reusable for evaluating advisor-output formats in diligence: seed known errors in advisor reports and measure detection, not overall agreement.",
+    "analyst_inference": "Shows why 'users accepted more' or 'agreed more' is not evidence of better verification.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E10",
+    "source_id": "WS7-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 Access to explanations/evidence reduces verification effort (qualified: depends on task-specific cost of verifying).",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "Among participants who mentioned using explanations, 27% (Beer) and 32% (Amzbook) said they used them to read faster; 17% (Beer/Amzbook) reported using explanations to validate AI decisions vs 2% in LSAT, which the authors attribute to LSAT being harder so that verifying explanations is costlier. Authors did not measure speed objectively.",
+    "relationship": "qualifies",
+    "evidence_type": "self-reported strategies from experiment exit survey",
+    "population_and_setting": "As WS7-E08.",
+    "study_or_observation_method": "Qualitative coding of free-text responses.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Self-reported use of explanations (speed reading, validation).",
+    "quantitative_result": "27% (Beer), 32% (Amzbook) of explanation-mentioning participants used explanations to read faster; 17% (Beer/Amzbook) vs 2% (LSAT) used them to validate the AI.",
+    "source_locator": "Section 5 qualitative-findings paragraph 'Explanations can help participants validate the AI's decisions...', p. 12; Section 6.1 Limitations, p. 12.",
+    "short_exact_excerpt": "This could be because LSAT is a harder task than sentiment analysis, and verifying AI’s explanations is costlier.",
+    "underlying_evidence_group": "EG:bansal2021-explanations-complementarity",
+    "limitations": "Stated behavior, not observed timing; denominators are subsets of coded responses.",
+    "transferability_to_target_workflow": "Mechanism: explanation benefit depends on whether checking the explanation is cheaper than redoing the task. In diligence, a source link to a contract clause or meter dataset may be cheap to check; a narrative rationale for a degradation assumption may not be.",
+    "analyst_inference": "Consistent with the verification-cost account later tested by Vasconcelos et al. (WS7-E21).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E11",
+    "source_id": "WS7-S03",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Lay-participant human-AI experiments have limited transferability to expert, high-stakes reliance.",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "Authors state they restricted themselves to crowdsourcable tasks, results may not generalize to high-stakes domains with expert users, and the effectiveness of explanations may depend on user expertise, which they did not explore. They also evaluated only accuracy, not speed or effort.",
+    "relationship": "supports",
+    "evidence_type": "author-stated limitation",
+    "population_and_setting": "As WS7-E08.",
+    "study_or_observation_method": "Limitations section.",
+    "intervention_and_comparator": null,
+    "outcome_measured": null,
+    "quantitative_result": null,
+    "source_locator": "Section 6.1 Limitations, p. 12.",
+    "short_exact_excerpt": "our results may not generalize to high-stakes domains with expert users such as medical diagnosis.",
+    "underlying_evidence_group": "EG:bansal2021-explanations-complementarity",
+    "limitations": null,
+    "transferability_to_target_workflow": "Lowers the evidentiary weight of this study for RQ2 in renewable diligence; use as mechanism hypothesis only.",
+    "analyst_inference": null,
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E12",
+    "source_id": "WS7-S04",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 Simple explanations do not prevent (and coexist with) overreliance; designs forcing engagement improve error detection.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "On items where the simulated AI was wrong, cognitive forcing designs (on-demand, update, wait) produced more correct decisions than simple explainable-AI designs (explanation, explanation+uncertainty), but participants in BOTH AI categories performed worse than unassisted participants on the same items. Across all items, both AI categories outperformed no-AI with no difference between them.",
+    "relationship": "supports",
+    "evidence_type": "randomized online experiment (mixed design)",
+    "population_and_setting": "US MTurk adults; N=199 analysed (260 recruited); nutrition task: replace the highest-carb ingredient in a meal photo with a low-carb, flavor-similar substitute; 26 questions in 2 blocks, 6 with incorrect AI.",
+    "study_or_observation_method": "Mixed-effects models (participant random effect), Holm-Bonferroni post-hoc t-tests; chi-square on decision distributions.",
+    "intervention_and_comparator": "Cognitive forcing functions (CFF) vs simple explainable AI (SXAI) vs no AI.",
+    "outcome_measured": "Overall correctness; carb-source detection; overreliance = % agreement with AI when AI incorrect.",
+    "quantitative_result": "Incorrect-AI items, marginal means (SE): overall correct - no AI 0.18 (0.02), SXAI 0.03 (0.02), CFF 0.09 (0.01), F(2,261.7)=12.59, p<<.0001, CFF vs SXAI d=.37. Carb-source detection - no AI 0.49 (0.04), SXAI 0.08 (0.03), CFF 0.27 (0.03), F(2,242.6)=35.59, d=.66. Overreliance on carb source: SXAI 0.64 (0.03) vs CFF 0.48 (0.03), F(1,145.8)=9.24, p=.003, d=.36; overall overreliance SXAI 0.30 vs CFF 0.26, n.s. All items, overall correct: no AI 0.17, SXAI 0.35, CFF 0.33 (CFF vs SXAI d=.03).",
+    "source_locator": "Section 3.5 Participants p. 8-9; Table 1 p. 10; Table 2 and Section 4.1 p. 11.",
+    "short_exact_excerpt": "cognitive forcing significantly reduced overreliance compared to the simple explainable AI approaches. However, there was a trade-off: people assigned the least favorable subjective ratings to the designs that reduced the overreliance the most.",
+    "underlying_evidence_group": "EG:bucinca2021-cognitive-forcing",
+    "limitations": "Lay participants, non-critical task, simulated AI with salient designed errors; no objective time/effort measure; AI error rate 25% of scored items.",
+    "transferability_to_target_workflow": "Mechanism: forcing independent judgment before or alongside advice (e.g., reviewer forms own view of key assumptions before reading advisor conclusion) improves error catching relative to passive acceptance. Diligence analogues: independent model checks, 'red-flag first' review. Difference: professional reviewers with accountability may already engage more; error base rates in advisor reports are unknown.",
+    "analyst_inference": "Key counterevidence for 'cheaper and no worse': even the best AI-assist designs underperformed the unassisted baseline on wrong-advice items, so overall gains depend on advisor error rates. Also implies that design choices that reduce effort may increase uncaught errors.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E13",
+    "source_id": "WS7-S04",
+    "research_question_ids": [
+      "RQ2",
+      "RQ6"
+    ],
+    "proposition_tested": "P2.3 Trust/preference diverge from (and here correlate negatively with) appropriate reliance.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1"
+    ],
+    "observed_finding": "Self-reported trust was higher (n.s.) and system complexity significantly lower for simple explainable AI than cognitive forcing; preference for AI-assisted designs over no AI was significant. Trust and preference were significantly negatively correlated with performance on incorrect AI predictions; trust was positively correlated with reliance on incorrect predictions for carb-source detection. Benefits of cognitive forcing were larger for participants high in Need for Cognition.",
+    "relationship": "supports",
+    "evidence_type": "randomized online experiment, subjective measures and correlations",
+    "population_and_setting": "As WS7-E12.",
+    "study_or_observation_method": "5-point Likert items; Pearson correlations with performance.",
+    "intervention_and_comparator": "CFF vs SXAI vs no AI.",
+    "outcome_measured": "Trust, preference, mental demand, complexity; correlation with performance.",
+    "quantitative_result": "Trust marginal means: SXAI 3.91 (0.09) vs CFF 3.72 (0.08), F(1,146.4)=2.84, n.s. Preference: no AI 3.13 < CFF 3.62, SXAI 3.78, F(2,169.5)=10.52, p<<.0001. System complexity: SXAI < CFF, no AI, F(2,172.2)=6.19, p=.002. Correlation coefficients for trust/preference vs performance reported in figures (e.g., r=-.24, p=.0003 for one NFC-related panel) - not all extracted.",
+    "source_locator": "Table 3 and Section 4.2, pp. 11-12; Section 5 (Need for Cognition) pp. 12-13; Limitations p. 17.",
+    "short_exact_excerpt": "Trust and preference were significantly negatively correlated with both overall performance and carb source detection performance for incorrect model predictions.",
+    "underlying_evidence_group": "EG:bucinca2021-cognitive-forcing",
+    "limitations": "Single-item subjective scales; lay task.",
+    "transferability_to_target_workflow": "Warns that buyer satisfaction with an advisor product that 'feels easier' is not evidence of better verification; designs that preserve scrutiny may be less liked, with adoption implications (RQ6). Needs testing with professional buyers whose incentives include accountability.",
+    "analyst_inference": "Measurement implication: satisfaction/NPS-type outcomes cannot discriminate cheaper-and-no-worse verification from increased trust.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E14",
+    "source_id": "WS7-S05",
+    "research_question_ids": [
+      "RQ3",
+      "RQ2"
+    ],
+    "proposition_tested": "P3.3 Drafting is separable from substantive judgment and most amenable to reduction (qualified: speed gains large, quality gains small/inconsistent).",
+    "work_type_tags": [
+      "W5"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Randomized controlled trial: law students were randomly assigned to complete realistic legal tasks with or without GPT-4 (after training), with time tracked and outputs blind-graded. GPT-4 access only slightly and inconsistently improved quality but produced large, consistent speed increases; where quality improved, lowest-skilled participants benefited most; time savings were roughly uniform across baseline speed; participants reported more satisfaction and correctly guessed which tasks GPT-4 helped most.",
+    "relationship": "qualifies",
+    "evidence_type": "randomized controlled trial (abstract only)",
+    "population_and_setting": "60 University of Minnesota Law School students (per SSRN abstract, WS7-S06); four tasks: drafting a complaint, a contract, a section of an employee handbook, and a client memo.",
+    "study_or_observation_method": "Randomized assignment with/without GPT-4 per task; blind grading; timing; follow-up surveys.",
+    "intervention_and_comparator": "GPT-4 access (with training) vs no AI.",
+    "outcome_measured": "Task completion time; blind-graded quality; self-reported satisfaction.",
+    "quantitative_result": "Not available from accessed material. A news report (WS7-S07) states time savings of 12%-32% depending on task; not verified against the paper.",
+    "source_locator": "Abstract on repository landing page (scholarship.law.umn.edu/minnlrev/vol109/iss1/3/); full text not accessed.",
+    "short_exact_excerpt": "We found that access to GPT-4 only slightly and inconsistently improved the quality of participants’ legal analysis but induced large and consistent increases in speed.",
+    "underlying_evidence_group": "EG:choi2024-lawyering-gpt4-rct",
+    "limitations": "Abstract only; students not practitioners; the AI was a drafting aid for the participant's own work product, not an outside advisor's analysis being reviewed; no measure of error detection in someone else's work; graders assessed quality of final product (errors introduced by AI and caught/missed not separately reported in abstract).",
+    "transferability_to_target_workflow": "Supports a narrow mechanism relevant to RQ3/W5: AI assistance in producing decision documents (e.g., IC memo drafting) can reduce time without degrading graded quality. Does NOT establish that recipients can verify an outside advisor's analysis faster without loss. Not an advisor-client structure.",
+    "analyst_inference": "Speed vs quality dissociation: time savings are not evidence of quality improvement; useful as an example of measuring both separately.",
+    "access_status": "abstract_only"
+  },
+  {
+    "evidence_id": "WS7-E15",
+    "source_id": "WS7-S08",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: The human-AI decision-making evidence base rarely studies domain experts, limiting transferability to professional reliance.",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "Survey of >100 empirical human-subject studies of AI-assisted decision making: although many decision tasks require domain expertise, experts are seldom the study subjects; many studies of expertise-requiring tasks use crowdworkers, and it is unclear whether results generalize to judges or doctors. Expertise required is often correlated with task risk; low-stakes tasks may not create the vulnerability needed to study trust.",
+    "relationship": "supports",
+    "evidence_type": "systematic/structured literature survey",
+    "population_and_setting": "Published empirical studies (CHI, CSCW, IUI, FAccT, ML venues etc.) through 2021.",
+    "study_or_observation_method": "Coding of design choices: decision tasks, AI assistance elements, evaluation metrics.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Distribution of study design choices.",
+    "quantitative_result": "Not extracted (passages are qualitative).",
+    "source_locator": "arXiv v1, Section 3 'Decision tasks', pdf pp. 8-9 (task risk/expertise paragraphs and summary of gaps).",
+    "short_exact_excerpt": "Although many decision tasks require domain expertise, experts are seldom the subjects of study.",
+    "underlying_evidence_group": "EG:lai2021-2023-human-ai-decision-survey",
+    "limitations": "arXiv precursor version, not the FAccT 2023 final; no counts of expert-participant studies extracted.",
+    "transferability_to_target_workflow": "Primary transferability caution for RQ2: most reliance/explanation findings come from lay participants on low-stakes tasks, unlike credit officers or IC members reviewing IE reports under accountability.",
+    "analyst_inference": "Absence of expert studies is a gap, not evidence that effects differ for experts; direction of bias is unknown (experts may detect more errors, but Dratsch WS7-E24 shows experts remain susceptible).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E16",
+    "source_id": "WS7-S08",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Human-AI decision studies emphasize accuracy and under-measure efficiency/effort, so evidence on 'verification got cheaper' is thin.",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "The survey identifies efficiency (speed) as a secondary metric; the most common objective efficiency metric is time on task; a stated gap is the focus on decision efficacy with less emphasis on efficiency and user satisfaction.",
+    "relationship": "supports",
+    "evidence_type": "structured literature survey",
+    "population_and_setting": "As WS7-E15.",
+    "study_or_observation_method": "Coding of evaluation metrics.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Metrics used in studies.",
+    "quantitative_result": null,
+    "source_locator": "arXiv v1, Section 5 'Evaluation metrics', 'Efficiency' paragraph, pdf p. 24; 'Gaps in current practices' item (1), pdf p. 28.",
+    "short_exact_excerpt": "A focus on decision efficacy (i.e., performance), and less emphasis on efficiency and user satisfaction.",
+    "underlying_evidence_group": "EG:lai2021-2023-human-ai-decision-survey",
+    "limitations": "As WS7-E15.",
+    "transferability_to_target_workflow": "RQ2 needs joint measurement of effort (time, actions, documents opened) and detection quality; the general literature rarely provides both, so target-domain studies must be designed to do so.",
+    "analyst_inference": null,
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E17",
+    "source_id": "WS7-S09",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.4/P2.3 measurement: a two-dimensional reliance metric can separate 'relying more' from 'relying appropriately'.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2"
+    ],
+    "observed_finding": "Proposes Appropriateness of Reliance (AoR) with two dimensions measured in a sequential design (human decides first, then sees advice): Relative AI Reliance (RAIR: share of initially-wrong cases where the person correctly switches to correct AI advice) and Relative Self-Reliance (RSR: share of initially-correct cases where the person correctly rejects wrong AI advice). Feature-importance explanations increased RAIR without significantly reducing RSR; however, human-AI team accuracy was not significantly different from human-alone accuracy.",
+    "relationship": "qualifies",
+    "evidence_type": "randomized online experiment",
+    "population_and_setting": "200 Prolific participants (1 excluded); deceptive vs genuine hotel review classification; 16 main items stratified 4 per confusion-matrix cell (AI accuracy 50% on main items).",
+    "study_or_observation_method": "Between-subjects (AI advice only vs AI advice + feature-importance explanation); t-tests; structural equation model.",
+    "intervention_and_comparator": "Explanations (feature-importance highlights) vs advice only.",
+    "outcome_measured": "RAIR, RSR, accuracy, confidence change, trust.",
+    "quantitative_result": "RAIR 29.59% (+/-3pp) control vs 38.87% (+/-3pp) XAI, t=-1.95, p=0.05; RSR 71.87% (+/-3pp) vs 69.45% (+/-3pp), t=0.61, p=0.54. Team performance not significantly different from human accuracy (complementary performance not reached).",
+    "source_locator": "Section 3 (AoR definition) pp. 6-7; Section 4 participants p. 12; Section 5 results p. 14 (Fig. 6) and p. 15.",
+    "short_exact_excerpt": "It is important to highlight that RAIR is not increased simply by relying more often on AI advice, as this would have also reduced the RSR significantly. [math-italic glyphs rendered as plain letters]",
+    "underlying_evidence_group": "EG:schemmer2023-appropriateness-of-reliance",
+    "limitations": "Lay participants; near-chance task; artificial 50% AI accuracy; p=0.05 borderline; no effort measure.",
+    "transferability_to_target_workflow": "The measurement design transfers: in diligence studies, have reviewers form an initial view on a set of advisor findings (some seeded wrong), then reveal advisor output in different formats; measure RAIR-like (correctly adopting correct findings) and RSR-like (correctly rejecting wrong findings) rates plus time.",
+    "analyst_inference": "Provides the core discriminating metric for 'trusted more' (RAIR up, RSR down) vs 'verified better' (RAIR up, RSR flat or up).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E18",
+    "source_id": "WS7-S10",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Receiving decision support raises the risk of adopting its errors (commission errors) relative to unaided decisions.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "Small indicative meta-analysis of four healthcare CDSS studies: erroneous advice was more likely to be followed in CDSS groups than in controls; when in error, CDSS increased the risk of an incorrect decision by 26%.",
+    "relationship": "supports",
+    "evidence_type": "systematic review with small meta-analysis",
+    "population_and_setting": "Healthcare clinical decision support users (4 pooled studies); review covers 74 studies across healthcare, aviation, generic settings, all expertise levels.",
+    "study_or_observation_method": "Mantel-Haenszel random-effects risk ratio (RevMan).",
+    "intervention_and_comparator": "CDSS with erroneous advice vs no-CDSS control.",
+    "outcome_measured": "Erroneous decisions following incorrect advice.",
+    "quantitative_result": "Risk ratio 1.26 (95% CI 1.11 to 1.44).",
+    "source_locator": "Results section, meta-analysis paragraph and Figure 2 (JAMIA 2012;19(1):121-127; PMC3240751).",
+    "short_exact_excerpt": "The risk ratio was 1.26 (95% CI 1.11 to 1.44); erroneous advice was more likely to be followed in the CDSS groups than in the control groups",
+    "underlying_evidence_group": "EG:goddard2012-automation-bias-review",
+    "limitations": "Four studies; 'small, indicative'; pre-generative-AI decision support; tools not outside advisors.",
+    "transferability_to_target_workflow": "Mechanism: any authoritative input (including an outside advisor's report) can anchor recipients and propagate its errors. In diligence, an advisor's traceable but wrong assumption could be adopted more readily if presented authoritatively. Needs testing with advisor reports rather than CDSS.",
+    "analyst_inference": "Supports the need to measure error-propagation (adopting advisor errors) separately from overall accuracy.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E19",
+    "source_id": "WS7-S10",
+    "research_question_ids": [
+      "RQ1",
+      "RQ2"
+    ],
+    "proposition_tested": "P1.6 (accountability) and expertise moderation: accountability and experience modulate over-reliance on decision support.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Mediators of automation bias included task-specific and DSS experience (8 papers), trust (increases reliance) and confidence (decreases reliance), workload, task complexity, and time pressure. Task inexperience may lead to automation-related errors, yet inexperienced users showed the greatest overall improvement from DSS. Accountability: two studies found external manipulation of accountability increased vigilance and reduced automation bias; another found external manipulation had no effect but users' internal perception of accountability did.",
+    "relationship": "qualifies",
+    "evidence_type": "systematic review (narrative synthesis of mediators)",
+    "population_and_setting": "74 studies; healthcare, aviation, generic tasks; mixed expertise.",
+    "study_or_observation_method": "Narrative synthesis/vote counting.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Automation bias errors by mediator.",
+    "quantitative_result": "Counts of studies only (e.g., experience in 8 papers; accountability: 2 studies positive for external manipulation, 1 null for external but positive for perceived accountability).",
+    "source_locator": "Discussion sections 'Experience', 'Confidence and trust', 'Task type', 'Implementation factors' (PMC3240751).",
+    "short_exact_excerpt": "people who perceived themselves to be accountable made less AB errors",
+    "underlying_evidence_group": "EG:goddard2012-automation-bias-review",
+    "limitations": "Accountability evidence comes from a handful of mostly aviation/laboratory studies (refs 45, 46, 65; e.g., Skitka, Mosier & Burdick 2000), not verified at primary-source level here.",
+    "transferability_to_target_workflow": "Accountable professionals (credit officers, IC members personally answerable for approvals) may verify more than lab participants, so lab overreliance rates likely overstate risk in the target setting - but time pressure and workload (deal cadence) push the other way. Both moderators must be measured in any target-domain study.",
+    "analyst_inference": "Suggests accountability is a lever that sustains review; a product that diffuses felt accountability (e.g., 'the system checked it') could increase automation bias. Hypothesis.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E20",
+    "source_id": "WS7-S10",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW (measurement): Decision switching from correct to incorrect after advice ('negative consultation') is the cleanest measure of over-reliance.",
+    "work_type_tags": [],
+    "concept_tags": [],
+    "observed_finding": "The review identifies outcome measures used: negative consultations (correct pre-advice decision changed to incorrect post-advice), percentage of erroneous advice followed, accuracy drops when DSS is inaccurate, and DSS-user accuracy correlation; it states negative consultations are the clearest measure because other measures can be conflated by users sharing the same incorrect pre-advice decision.",
+    "relationship": "contextual",
+    "evidence_type": "systematic review (methods synthesis)",
+    "population_and_setting": "As WS7-E18.",
+    "study_or_observation_method": "Methods synthesis.",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Measurement approaches.",
+    "quantitative_result": null,
+    "source_locator": "Results, 'Non-controlled effects - negative consultations' paragraph (PMC3240751).",
+    "short_exact_excerpt": "Negative consultations are the clearest measure of AB",
+    "underlying_evidence_group": "EG:goddard2012-automation-bias-review",
+    "limitations": null,
+    "transferability_to_target_workflow": "Requires capturing the reviewer's pre-advice judgment - feasible in diligence experiments (e.g., reviewer estimates key metric or flags issues before seeing advisor report).",
+    "analyst_inference": "Same logic as Schemmer's sequential design (WS7-E17).",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E21",
+    "source_id": "WS7-S11",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1/P2.2 Evidence presented in an easy-to-verify form reduces over-reliance (verification-cost mechanism).",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X2",
+      "X3"
+    ],
+    "observed_finding": "In a maze task with a simulated AI, explanations rendered as path highlights on the maze (easy to check) produced lower overreliance than the same content rendered as written step-by-step text (hard to check), in both medium and hard mazes; written explanations did not reduce overreliance relative to prediction-only. Authors argue null results in the literature may arise because explanations do not sufficiently reduce the cost of verifying the AI's prediction.",
+    "relationship": "supports",
+    "evidence_type": "randomized online experiments (5 studies)",
+    "population_and_setting": "Prolific crowdworkers; total N=731 across 5 studies; Study 2 N=340 (170 highlight from Study 1, 170 written).",
+    "study_or_observation_method": "Between-subjects; Bayesian regression models (specification in appendix).",
+    "intervention_and_comparator": "Highlight explanation vs written explanation (Study 2); explanation vs prediction-only across task difficulty (Study 1).",
+    "outcome_measured": "Overreliance (agreeing with AI when it is wrong); exploratory accuracy.",
+    "quantitative_result": "Study 2, Highlight minus Written: medium maze mean -1.63 (95% CI -2.78 to -0.559); hard maze -1.632 (95% CI -2.570 to -0.694) (model-scale estimates; units per appendix model, not extracted).",
+    "source_locator": "Abstract p. 1; Section 6 Study 2, Table 3 and Fig. 9, p. 18; Fig. 8 caption p. 16.",
+    "short_exact_excerpt": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI’s prediction.",
+    "underlying_evidence_group": "EG:vasconcelos2023-verification-cost-overreliance",
+    "limitations": "Artificial task with unambiguous, visually checkable ground truth; lay participants; units of effect on model scale.",
+    "transferability_to_target_workflow": "Strongest mechanism-level support found for P2.1/P2.2: what matters is whether the presentation makes checking cheaper than re-deriving. Diligence analogue: a pinpoint link from an advisor's claim to the exact contract clause/data series (cheap check) vs a narrative justification (costly check). Must be tested in realistic documents where checking a source still requires judgment.",
+    "analyst_inference": "Highlights here are closer to 'showing the evidence path' (X2/X3) than to persuasive rationale (X1); this is the most relevant experimental analogue to traceability, but still not source citation in the legal/financial sense.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E22",
+    "source_id": "WS7-S11",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1 qualified: explanation benefit appears only when the task is effortful enough that checking the explanation saves effort.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X2"
+    ],
+    "observed_finding": "Study 1 found explanations did not produce an observable reduction in overreliance in easy or medium mazes but did reduce overreliance in the hard maze; exploratory analysis found explanations increased accuracy in the hard task. Monetary incentives (Study 4) also affected overreliance.",
+    "relationship": "qualifies",
+    "evidence_type": "randomized online experiment",
+    "population_and_setting": "Prolific crowdworkers; Study 1 N=340.",
+    "study_or_observation_method": "Between-subjects, Bayesian models.",
+    "intervention_and_comparator": "Explanation vs prediction-only, crossed with maze difficulty.",
+    "outcome_measured": "Overreliance; accuracy (exploratory).",
+    "quantitative_result": "Not extracted numerically for Study 1 in this timebox.",
+    "source_locator": "Section 5 Study 1 results/summary, p. 16.",
+    "short_exact_excerpt": "In summary, explanations do not produce an observable reduction in overreliance in easy or medium tasks, but do reduce overreliance in the hard task.",
+    "underlying_evidence_group": "EG:vasconcelos2023-verification-cost-overreliance",
+    "limitations": "As WS7-E21.",
+    "transferability_to_target_workflow": "Diligence reviews are effortful (large reports, models), the condition under which verification aids helped here; but stakes and incentives also differ.",
+    "analyst_inference": null,
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "WS7-E23",
+    "source_id": "WS7-S12",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.1/P2.2 qualified; P2.3: explanations help only insofar as they enable verification, which many tasks do not permit.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1",
+      "X2",
+      "X3"
+    ],
+    "observed_finding": "Theory paper synthesizing prior experiments: explanations are useful only to the extent they allow the decision maker to verify the correctness of the AI's prediction; prior studies find explanations often do not facilitate verification; most tasks fundamentally do not allow easy verification regardless of explanation method. Distinguishes outcome-graded from strategy-graded reliance.",
+    "relationship": "qualifies",
+    "evidence_type": "conceptual synthesis",
+    "population_and_setting": "Literature on AI-advised decision making.",
+    "study_or_observation_method": "Theoretical argument with review of prior studies.",
+    "intervention_and_comparator": null,
+    "outcome_measured": null,
+    "quantitative_result": null,
+    "source_locator": "Abstract, p. 1 (arXiv v4).",
+    "short_exact_excerpt": "we argue explanations are only useful to the extent that they allow a human decision maker to verify the correctness of the AI’s prediction.",
+    "underlying_evidence_group": "EG:fokweld2024-verifiability",
+    "limitations": "Only abstract/introduction reviewed; theory, not new data.",
+    "transferability_to_target_workflow": "Frames the key question for the thesis: which diligence claims are verifiable by source lookup (contract terms, permits, interconnection agreements, historical data) vs inherently judgmental (degradation, merchant price forecasts, curtailment). Traceability can only lower cost for the former.",
+    "analyst_inference": "Predicts that traceability benefits will be concentrated in W2 for verifiable factual claims and small for forecast/judgment claims (W1).",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "WS7-E24",
+    "source_id": "WS7-S14",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P-NEW: Expertise reduces but does not eliminate adoption of incorrect advice.",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "In a prospective reader experiment, 27 radiologists assigned BI-RADS categories to mammograms with suggestions purportedly from AI; 12 of 40 test cases carried incorrect suggestions. Inexperienced radiologists were correct in almost 80% of cases with correct suggestions but under 20% with incorrect ones; experienced radiologists (more than 15 years on average) fell from 82% to 45.5%. The lead author recommended ensuring users feel accountable for their decisions as a mitigation.",
+    "relationship": "supports",
+    "evidence_type": "reader experiment (press release summary)",
+    "population_and_setting": "27 radiologists of varying experience (Germany/Netherlands), mammography BI-RADS assessment.",
+    "study_or_observation_method": "Prospective experiment; training set of 10 correct suggestions then 40 cases with 12 incorrect suggestions.",
+    "intervention_and_comparator": "Correct vs incorrect purported-AI BI-RADS suggestions, by reader experience.",
+    "outcome_measured": "Accuracy of BI-RADS assignment.",
+    "quantitative_result": "Inexperienced: ~80% correct with correct suggestion vs <20% with incorrect suggestion. Experienced (>15 yrs avg): 82% vs 45.5%. Moderately experienced group and statistics not reported in press release.",
+    "source_locator": "RSNA press release, 2023-05-02, paragraphs 3-5.",
+    "short_exact_excerpt": "Experienced radiologists—those with more than 15 years of experience on average—saw their accuracy fall from 82% to 45.5% when the purported AI suggested the incorrect category.",
+    "underlying_evidence_group": "EG:dratsch2023-mammography-automation-bias",
+    "limitations": "Press release only; simulated AI; error rate (30% of cases) far higher than typical deployments; no unaided-reader comparator for the same cases reported in release.",
+    "transferability_to_target_workflow": "Professional participants, high-stakes perceptual judgment. Transfers as: even senior reviewers anchor on authoritative input. In diligence, senior credit staff reviewing an advisor's conclusions may still adopt embedded errors; experience is partial protection.",
+    "analyst_inference": "Counters the assumption that lay-sample overreliance disappears with expert recipients.",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "WS7-E25",
+    "source_id": "WS7-S13",
+    "research_question_ids": [
+      "RQ2"
+    ],
+    "proposition_tested": "P2.3 (measurement): subjective trust/preference and proxy tasks do not predict actual decision performance.",
+    "work_type_tags": [],
+    "concept_tags": [
+      "X1"
+    ],
+    "observed_finding": "Two online experiments and one think-aloud study found that evaluations of explainable AI using proxy tasks (e.g., predicting the AI's decision from its explanation) did not predict results with actual decision-making tasks, and subjective trust/preference measures did not predict objective performance on the same tasks.",
+    "relationship": "supports",
+    "evidence_type": "online experiments + think-aloud (abstract reviewed)",
+    "population_and_setting": "Online lay participants and in-person think-aloud participants (details not extracted).",
+    "study_or_observation_method": "Comparison of evaluation methods.",
+    "intervention_and_comparator": "Proxy-task evaluation vs actual-task evaluation; subjective vs objective measures.",
+    "outcome_measured": "Concordance of evaluation methods.",
+    "quantitative_result": "Not extracted (abstract only reviewed).",
+    "source_locator": "Abstract, p. 1.",
+    "short_exact_excerpt": "the subjective measures on evaluations with actual decision-making tasks did not predict the objective performance on those same tasks.",
+    "underlying_evidence_group": "EG:bucinca2020-proxy-tasks-subjective-measures",
+    "limitations": "Abstract-level review only.",
+    "transferability_to_target_workflow": "User surveys of diligence professionals ('the traceable report saved me time / I trust it more') cannot substitute for objective error-detection measurement.",
+    "analyst_inference": "Combined with WS7-E13, a strong methodological caution against using stated preference as evidence for RQ2.",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "WS7-E26",
+    "source_id": "WS7-S15",
+    "research_question_ids": [
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P-NEW: Professional recipients' reliance on contradictory expert evidence depends on the perceived source (AI vs human specialist), not only on content - a source cue can produce under-reliance.",
+    "work_type_tags": [
+      "W1"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "In an experiment, auditors who received contradictory evidence about management's complex estimate from their firm's AI system, rather than from a human specialist (otherwise identical advice), proposed smaller adjustments to management's estimates, particularly when management's estimate used relatively objective inputs. Authors interpret this as algorithm aversion that could be costly.",
+    "relationship": "qualifies",
+    "evidence_type": "controlled experiment with auditor participants (abstract only)",
+    "population_and_setting": "Auditors (number and rank not reviewed) evaluating a complex accounting estimate.",
+    "study_or_observation_method": "Experiment manipulating evidence source (AI system vs human specialist) and objectivity of management's inputs.",
+    "intervention_and_comparator": "Contradictory evidence attributed to firm's AI system vs to a human specialist; objective vs subjective management inputs.",
+    "outcome_measured": "Proposed audit adjustment to management's estimate.",
+    "quantitative_result": "Not available from abstract.",
+    "source_locator": "Abstract (UNLV Digital Scholarship repository page).",
+    "short_exact_excerpt": "auditors receiving contradictory evidence from their firm's AI system (instead of a human specialist) propose smaller adjustments to management's complex estimates",
+    "underlying_evidence_group": "EG:commerford2022-auditor-algorithm-aversion",
+    "limitations": "Abstract only; no ground truth for 'correct' adjustment stated in abstract; hypothetical case.",
+    "transferability_to_target_workflow": "Professional participants in an advisor-like structure (specialist evidence -> auditor -> opinion). Transfers as: recipients weight outside evidence by perceived source legitimacy; an AI-produced or tool-produced diligence output may be discounted relative to a named human expert even if identical, so traceability products may need human attribution/accountability to be relied upon. Opposite failure mode to automation bias.",
+    "analyst_inference": "Important counterweight to lab overreliance findings (WS7-E08, E12): in professional settings, under-reliance on machine-produced evidence is also documented, so 'reduced review' cannot be assumed from better evidence; source identity and accountability matter.",
+    "access_status": "abstract_only"
+  }
+]

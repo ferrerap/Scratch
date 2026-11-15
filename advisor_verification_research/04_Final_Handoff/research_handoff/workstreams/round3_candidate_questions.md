@@ -1,0 +1,11 @@
+# Round 3 — candidate targeted questions (draft, written 18:58 before Round 2 results)
+
+Drafted from gaps that several Round 1 workers reported. Each will be finalized against the Round 2 proposition-level disagreements. Questions are phrased to find a discriminating observation, not to support a side.
+
+| Draft | Uncertainty | Discriminating observation sought | Gap reported by |
+|---|---|---|---|
+| Q-A | Does source-linked output change professional reviewers' time AND error detection, or only lay participants'? | Any study with professional reviewers (clinicians reviewing AI-drafted notes with/without transcript links; auditors; lawyers; analysts) measuring both review time and detection of seeded/real errors | WS4, WS6, WS7 (no professional study found) |
+| Q-B | Where does the law or contract let a recipient rely on an outside expert without re-performing the work, and what conditions (red flags, expertised vs non-expertised portions) define the boundary? | Securities-offering due diligence: Section 11 expertised-portion reliance; comfort letters / negative assurance (AS 6101); In re WorldCom (2004) on red flags; reliance letters in project finance | WS1 and WS2 (W1 vs W2 boundary unmeasured) |
+| Q-C | In renewable project finance, do lenders' independent engineers re-derive sponsor analysis (e.g., energy yield) or review it, and what drives the choice? | IE / lender's technical advisor scopes of work that say "independent assessment" vs "review"; DFI or green-bank IE terms of reference; rating criteria on use of IE vs sponsor reports | WS2, WS3 (target-domain W1/W2/W4 split) |
+| Q-D | Does integrating outside evidence into the recipient's own system reduce duplicated work at scale, or only in single-site studies? | Health information exchange / interoperability literature on duplicate imaging and testing (systematic reviews, multi-site); credit-memo / spreading automation studies with cycle-time and review measures | WS5, WS8 (Lu 2012 is single-site; end-to-end evidence absent) |
+| Q-E | Does standardizing a diligence deliverable make it repeatable, and what happens to price and differentiation? | Phase I ESA (ASTM E1527 / AAI) standardization history; wind/solar energy-yield assessment standards (e.g., IEC 61400-15, MEASNET) and lender acceptance | WS8, WS2 (RQ5/RQ6 thin) |

@@ -1,0 +1,429 @@
+{
+  "run_folder": {
+    "title": "Advisor Verification Research \u2014 2026-11-15",
+    "id": "1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk",
+    "url": "https://drive.google.com/drive/folders/1gJHmEIQfNAmcN1udfHZnXnYvQ9EKEeQk",
+    "permissions_checked": "owner only (verified 2026-11-15T18:36Z)"
+  },
+  "subfolders": {
+    "00_Start_Here": {
+      "id": "17yMHXNOxLEjpiY_RDZRYaF7_1kMdiJGP",
+      "url": "https://drive.google.com/drive/folders/17yMHXNOxLEjpiY_RDZRYaF7_1kMdiJGP"
+    },
+    "01_Evidence": {
+      "id": "1rsJSfGoqp2cnvq5ATFXurgoQqc_HMiVc",
+      "url": "https://drive.google.com/drive/folders/1rsJSfGoqp2cnvq5ATFXurgoQqc_HMiVc"
+    },
+    "02_Workstreams": {
+      "id": "17dsHbDJqgxbqg0WAi7aIy9stnKgbIJqX",
+      "url": "https://drive.google.com/drive/folders/17dsHbDJqgxbqg0WAi7aIy9stnKgbIJqX"
+    },
+    "03_Challenge_and_Followup": {
+      "id": "1EMC3Js5-VsgSCMtOVFQpriKOeWddjIjG",
+      "url": "https://drive.google.com/drive/folders/1EMC3Js5-VsgSCMtOVFQpriKOeWddjIjG"
+    },
+    "04_Final_Handoff": {
+      "id": "1By9GhfKWfC1KJsFy256kViNSg5B1hgX3",
+      "url": "https://drive.google.com/drive/folders/1By9GhfKWfC1KJsFy256kViNSg5B1hgX3"
+    },
+    "02_Workstreams/WS1_audit_specialists": {
+      "id": "1tlC-plF8-Ae5xgCMU3nGP_FWQXvCyNRr",
+      "url": "https://drive.google.com/drive/folders/1tlC-plF8-Ae5xgCMU3nGP_FWQXvCyNRr"
+    },
+    "02_Workstreams/WS2_investment_credit_IC": {
+      "id": "1EeBeQxMVKyV3vfkQubouYDsgcyolzt9H",
+      "url": "https://drive.google.com/drive/folders/1EeBeQxMVKyV3vfkQubouYDsgcyolzt9H"
+    },
+    "02_Workstreams/WS3_legal_engineering": {
+      "id": "18dfaJjVMTHXm74e8dqBk1GC7qthsALdR",
+      "url": "https://drive.google.com/drive/folders/18dfaJjVMTHXm74e8dqBk1GC7qthsALdR"
+    },
+    "02_Workstreams/WS4_traceability_verification_experiments": {
+      "id": "158tg8Ui4hDe4kC8F3erIlM1S8CnEy020",
+      "url": "https://drive.google.com/drive/folders/158tg8Ui4hDe4kC8F3erIlM1S8CnEy020"
+    },
+    "02_Workstreams/WS5_workflow_integration_adoption": {
+      "id": "1WGVHQGPjYBDkDAqwYyA-tmSMaZI072sM",
+      "url": "https://drive.google.com/drive/folders/1WGVHQGPjYBDkDAqwYyA-tmSMaZI072sM"
+    },
+    "02_Workstreams/WS6_rivals_failures_disconfirming": {
+      "id": "1NxSJLB2eDlQC77h0FH_yIeqmjpLmjh1L",
+      "url": "https://drive.google.com/drive/folders/1NxSJLB2eDlQC77h0FH_yIeqmjpLmjh1L"
+    },
+    "02_Workstreams/WS7_methods_transferability_audit": {
+      "id": "1Cy9mJ5EGfBveXC6do0rUlz40Jx21q6-6",
+      "url": "https://drive.google.com/drive/folders/1Cy9mJ5EGfBveXC6do0rUlz40Jx21q6-6"
+    },
+    "02_Workstreams/WS8_structured_reporting_coverage": {
+      "id": "1acc9siG8x9aB6SOfM7zhNtG4Al6a4VrQ",
+      "url": "https://drive.google.com/drive/folders/1acc9siG8x9aB6SOfM7zhNtG4Al6a4VrQ"
+    },
+    "03_Challenge_and_Followup/Round3_followups": {
+      "id": "16b-3s-746J-mIlFE6yMVo59zTKdu4gPD",
+      "url": "https://drive.google.com/drive/folders/16b-3s-746J-mIlFE6yMVo59zTKdu4gPD"
+    }
+  },
+  "uploads": [
+    {
+      "file": "00_Start_Here/research_instructions.md",
+      "drive_folder": "00_Start_Here",
+      "id": "1p8vIW5nPSxZJeZe4rAuaD3vacXWNhVoP",
+      "url": "https://drive.google.com/file/d/1p8vIW5nPSxZJeZe4rAuaD3vacXWNhVoP/view",
+      "bytes_local": 12018,
+      "bytes_drive": 12018,
+      "verified": true,
+      "time": "18:37Z"
+    },
+    {
+      "file": "04_Final_Handoff/checkpoints/checkpoint_R1_2026-11-15T1855Z.zip",
+      "drive_folder": "02_Workstreams",
+      "id": "1a_HQkhK9Vg7H7pM4vSaxoR2pezwwwE1q",
+      "url": "https://drive.google.com/file/d/1a_HQkhK9Vg7H7pM4vSaxoR2pezwwwE1q/view",
+      "bytes_local": 541620,
+      "bytes_drive": 541620,
+      "verified": true,
+      "time": "18:55Z"
+    },
+    {
+      "file": "01_Evidence/evidence_digest_by_proposition.md (R1)",
+      "drive_folder": "01_Evidence",
+      "id": "11tg0PtCYgjx3wEIOdbTu5yD0rpZLw79C",
+      "url": "https://drive.google.com/file/d/11tg0PtCYgjx3wEIOdbTu5yD0rpZLw79C/view",
+      "bytes_local": 169592,
+      "bytes_drive": 169592,
+      "verified": true,
+      "time": "18:55Z"
+    },
+    {
+      "file": "04_Final_Handoff/checkpoints/checkpoint_R2_2026-11-15T1907Z.zip",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "18zAU5OvTtWsC3nyr3l0TDJ_lrR_aYacU",
+      "url": "https://drive.google.com/file/d/18zAU5OvTtWsC3nyr3l0TDJ_lrR_aYacU/view",
+      "bytes_local": 382158,
+      "bytes_drive": 382158,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/R2A_case_for_thesis.md",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1RidpyfDV9FXc2bDqIVKp1lPjkW8ZvFBe",
+      "url": "https://drive.google.com/file/d/1RidpyfDV9FXc2bDqIVKp1lPjkW8ZvFBe/view",
+      "bytes_local": 13698,
+      "bytes_drive": 13698,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/R2B_alternative_case.md",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1X_RkAO2sqHhddKGoqgPa5kpPg6kt3O7D",
+      "url": "https://drive.google.com/file/d/1X_RkAO2sqHhddKGoqgPa5kpPg6kt3O7D/view",
+      "bytes_local": 15226,
+      "bytes_drive": 15226,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/R2C_audit.md",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1Fc4oT6IjIMNTlFUsCLrG6TY3Fzs6ncMb",
+      "url": "https://drive.google.com/file/d/1Fc4oT6IjIMNTlFUsCLrG6TY3Fzs6ncMb/view",
+      "bytes_local": 10708,
+      "bytes_drive": 10708,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "03_Challenge_and_Followup/dispute_register.json (R2 state, as dispute_register_R2.json)",
+      "drive_folder": "03_Challenge_and_Followup",
+      "id": "1kI6Yr6X_r8pe9m6CqH5Et7_BBF50w0nX",
+      "url": "https://drive.google.com/file/d/1kI6Yr6X_r8pe9m6CqH5Et7_BBF50w0nX/view",
+      "bytes_local": 12786,
+      "bytes_drive": 12786,
+      "verified": true,
+      "time": "19:06Z"
+    },
+    {
+      "file": "WS1 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1dUi1D7lU0h1RF02baikNcZ9vE7rJCmIB",
+      "url": "https://drive.google.com/file/d/1dUi1D7lU0h1RF02baikNcZ9vE7rJCmIB/view",
+      "bytes_local": 8629,
+      "bytes_drive": 8629,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS1 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1LJVXEkL1oaTnosUHVyGC-ma6GkMwtWdv",
+      "url": "https://drive.google.com/file/d/1LJVXEkL1oaTnosUHVyGC-ma6GkMwtWdv/view",
+      "bytes_local": 2510,
+      "bytes_drive": 2510,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS2 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1I_7Ray4OYi51kQ_-_oIxmv3QlXFPqjB0",
+      "url": "https://drive.google.com/file/d/1I_7Ray4OYi51kQ_-_oIxmv3QlXFPqjB0/view",
+      "bytes_local": 7505,
+      "bytes_drive": 7505,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS2 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1U3O9gkWYNyQA0gUkS1SxNSzfErs_TlV9",
+      "url": "https://drive.google.com/file/d/1U3O9gkWYNyQA0gUkS1SxNSzfErs_TlV9/view",
+      "bytes_local": 5982,
+      "bytes_drive": 5982,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS3 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1hpoQlhNktUIimMud8jDM70jtLr4gp_fd",
+      "url": "https://drive.google.com/file/d/1hpoQlhNktUIimMud8jDM70jtLr4gp_fd/view",
+      "bytes_local": 6953,
+      "bytes_drive": 6953,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS3 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1Asxg8rr8is7_2LKIb6_AsUeJvkKJt5qp",
+      "url": "https://drive.google.com/file/d/1Asxg8rr8is7_2LKIb6_AsUeJvkKJt5qp/view",
+      "bytes_local": 2097,
+      "bytes_drive": 2097,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS4 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "140NpSHZGI2Ms_jloB-3W6FHk_ASvHvEu",
+      "url": "https://drive.google.com/file/d/140NpSHZGI2Ms_jloB-3W6FHk_ASvHvEu/view",
+      "bytes_local": 5942,
+      "bytes_drive": 5942,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS4 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1kWM5JnnXkN6WK-I90dpnj9XR2aW1djK0",
+      "url": "https://drive.google.com/file/d/1kWM5JnnXkN6WK-I90dpnj9XR2aW1djK0/view",
+      "bytes_local": 1585,
+      "bytes_drive": 1585,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS5 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1SqBw2R9vRGLFcPd2Qv6h1p03T06FEhG6",
+      "url": "https://drive.google.com/file/d/1SqBw2R9vRGLFcPd2Qv6h1p03T06FEhG6/view",
+      "bytes_local": 5753,
+      "bytes_drive": 5753,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS5 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "11pp-S1gOCr9hq3Uz8_lOQ5G1YLEGwwLK",
+      "url": "https://drive.google.com/file/d/11pp-S1gOCr9hq3Uz8_lOQ5G1YLEGwwLK/view",
+      "bytes_local": 2597,
+      "bytes_drive": 2597,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS6 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1UyGTdxXuRkkeuEbCMkAH4cOtCPi9QlrB",
+      "url": "https://drive.google.com/file/d/1UyGTdxXuRkkeuEbCMkAH4cOtCPi9QlrB/view",
+      "bytes_local": 8475,
+      "bytes_drive": 8475,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS6 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1yaBPJWhLLaSwYx4oOfNvW7IskYHyCOji",
+      "url": "https://drive.google.com/file/d/1yaBPJWhLLaSwYx4oOfNvW7IskYHyCOji/view",
+      "bytes_local": 4630,
+      "bytes_drive": 4630,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS7 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "13rk8THJtK-ht5VJ-vNtxCEAcFjjVMEAF",
+      "url": "https://drive.google.com/file/d/13rk8THJtK-ht5VJ-vNtxCEAcFjjVMEAF/view",
+      "bytes_local": 8505,
+      "bytes_drive": 8505,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS7 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1PIo-AtlfAeb9fD6wUnsqMgu51dRQUzWM",
+      "url": "https://drive.google.com/file/d/1PIo-AtlfAeb9fD6wUnsqMgu51dRQUzWM/view",
+      "bytes_local": 2372,
+      "bytes_drive": 2372,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS8 report.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "1wfTGjiJ24ZyrRhVw_SO1vJ4hLuBXvPGb",
+      "url": "https://drive.google.com/file/d/1wfTGjiJ24ZyrRhVw_SO1vJ4hLuBXvPGb/view",
+      "bytes_local": 6598,
+      "bytes_drive": 6598,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "WS8 search_log.md",
+      "drive_folder": "02_Workstreams/<WS>",
+      "id": "12Z1OQU23eI5wGG4Fne2Hq2uYo4g7z8Ur",
+      "url": "https://drive.google.com/file/d/12Z1OQU23eI5wGG4Fne2Hq2uYo4g7z8Ur/view",
+      "bytes_local": 3683,
+      "bytes_drive": 3683,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3A report",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1hq09uQr_a_LFYAmIrQZO-fxt98qvQXWD",
+      "url": "https://drive.google.com/file/d/1hq09uQr_a_LFYAmIrQZO-fxt98qvQXWD/view",
+      "bytes_local": 8567,
+      "bytes_drive": 8567,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3A search_log",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1trmYB4Vuin7VFBdpA0uM1wcPN-Lgp6W8",
+      "url": "https://drive.google.com/file/d/1trmYB4Vuin7VFBdpA0uM1wcPN-Lgp6W8/view",
+      "bytes_local": 5012,
+      "bytes_drive": 5012,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3B report",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "11aeWDp11BGFU8TFNdrEa9ibWc8WIYOOR",
+      "url": "https://drive.google.com/file/d/11aeWDp11BGFU8TFNdrEa9ibWc8WIYOOR/view",
+      "bytes_local": 9211,
+      "bytes_drive": 9211,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3B search_log",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1z2MVCM5qMpgfjR58M7EG5P7agOYH1FbZ",
+      "url": "https://drive.google.com/file/d/1z2MVCM5qMpgfjR58M7EG5P7agOYH1FbZ/view",
+      "bytes_local": 3564,
+      "bytes_drive": 3564,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3C report",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "18mT-6V4UxJYjgeBxqJpXM1WK6PmUheQx",
+      "url": "https://drive.google.com/file/d/18mT-6V4UxJYjgeBxqJpXM1WK6PmUheQx/view",
+      "bytes_local": 7341,
+      "bytes_drive": 7341,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3C search_log",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1mcU-TMbIJIsqoXbMiHPLN_XEIDPN3qtQ",
+      "url": "https://drive.google.com/file/d/1mcU-TMbIJIsqoXbMiHPLN_XEIDPN3qtQ/view",
+      "bytes_local": 3427,
+      "bytes_drive": 3427,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3D report",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1HGBnsmRzFEOtnMLRrFTVztLhZ3KQgUPE",
+      "url": "https://drive.google.com/file/d/1HGBnsmRzFEOtnMLRrFTVztLhZ3KQgUPE/view",
+      "bytes_local": 8462,
+      "bytes_drive": 8462,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3D search_log",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "19ecSz-FnQTTER3OVh9EhzkaEb_o81VQ4",
+      "url": "https://drive.google.com/file/d/19ecSz-FnQTTER3OVh9EhzkaEb_o81VQ4/view",
+      "bytes_local": 3760,
+      "bytes_drive": 3760,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3E report",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "19oqZLpTeY6RQ1-qZ_Rm0OryRVNlhu97S",
+      "url": "https://drive.google.com/file/d/19oqZLpTeY6RQ1-qZ_Rm0OryRVNlhu97S/view",
+      "bytes_local": 8949,
+      "bytes_drive": 8949,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3E search_log",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1HQ5ot6QqeXiaZkTUZuSn50PzPTMBSFLJ",
+      "url": "https://drive.google.com/file/d/1HQ5ot6QqeXiaZkTUZuSn50PzPTMBSFLJ/view",
+      "bytes_local": 5052,
+      "bytes_drive": 5052,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3F report",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1ID7s7XLmW9hqszANR4ZLM3C96wyWLTUn",
+      "url": "https://drive.google.com/file/d/1ID7s7XLmW9hqszANR4ZLM3C96wyWLTUn/view",
+      "bytes_local": 12250,
+      "bytes_drive": 12250,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    },
+    {
+      "file": "R3F search_log",
+      "drive_folder": "03_Challenge_and_Followup/Round3_followups",
+      "id": "1YAunj7oPwbc1DMN8ZhqnYWyscniZ4AEF",
+      "url": "https://drive.google.com/file/d/1YAunj7oPwbc1DMN8ZhqnYWyscniZ4AEF/view",
+      "bytes_local": 4192,
+      "bytes_drive": 4192,
+      "verified": true,
+      "time": "19:19-19:21Z"
+    }
+  ],
+  "latest_complete_checkpoint": "checkpoint_R2_2026-11-15T1907Z.zip (03_Challenge_and_Followup) + checkpoint_R1_2026-11-15T1855Z.zip (02_Workstreams)"
+}

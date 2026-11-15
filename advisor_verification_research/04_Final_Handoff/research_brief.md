@@ -85,23 +85,23 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 
 ### What can reasonably be concluded
 
-- *Empirical:* recipient review rests on a non-delegable core (deciding, vetting the producer, judging sufficiency, following up red flags, building a record) that is well established as an obligation across domains. In most regimes that core does not require re-performance.
-- *Empirical:* where documentation is missing, standards prescribe more work. Where evidence is inaccessible, professionals regenerate it (medicine, observed).
-- *Analyst inference:* the reducible part of review is the gap between "evaluate the producer's work" and "re-derive it in order to evaluate it". That gap is largest when the recipient cannot see inputs, assumptions and checks. It is smallest where regimes mandate independent re-derivation.
+- *Empirical:* recipient review rests on a non-delegable core (deciding, vetting the producer, judging sufficiency, following up red flags, building a record) that is well established as an obligation across domains (EVR011, EVR039, EVR166, EVR244, EVR247, EVR249, EVR254). In most regimes that core does not require re-performance (EVR240, EVR246).
+- *Empirical:* where documentation is missing, standards prescribe more work (EVR003, EVR020). Where evidence is inaccessible, professionals regenerate it (medicine, observed; EVR212, EVR265).
+- *Analyst inference:* the reducible part of review is the gap between "evaluate the producer's work" and "re-derive it in order to evaluate it". That gap is largest when the recipient cannot see inputs, assumptions and checks. It is smallest where regimes mandate independent re-derivation (basis: EVR246, EVR020, EVR081).
 - *Empirical, target domain:* in renewable project finance the publicly described lender work is mostly own-case selection and haircuts (W4), justified by measured forecast bias (W3). Full parallel assessments happen only some of the time (EVR275–EVR277).
-- *Analyst inference:* a traceable advisor report would not remove those haircuts. Back-testing evidence would bear on them more directly than clearer reports.
+- *Analyst inference:* a traceable advisor report would not remove those haircuts. Back-testing evidence would bear on them more directly than clearer reports (basis: EVR275, EVR276, EVR285).
 - *Not established:* the share of recipient time that is W2. P1.1 should be split: "an obligation exists" is well supported; "obligation is the dominant driver of effort" is untested (R2C-23; REV001).
 
 ### What remains unknown
 
 - How recipient hours split across W1–W5 in any advisor–client setting (DIS001). No public time-use data were found (WS1, WS2, WS3, WS5 and R3C search logs).
 - What triggers lenders' parallel energy-yield assessments: unclear reports, disagreement between consultants, or policy (R3C).
-- Whether lenders' and ICs' credit policies distinguish expert-certified content (for example, an IE report with a reliance letter) from sponsor content the way Securities Act §11 does (R3B).
+- Whether lenders' and ICs' credit policies distinguish expert-certified content (for example, an IE report with a reliance letter) from sponsor content the way Securities Act §11 does (EVR238, EVR293; R3B).
 
 ### Limits of transfer to renewable-energy investment workflows
 
 - **Audit** has a closely matching producer → accountable recipient → opinion structure. But its duties are statutory and inspected, so W1 there is probably an upper bound for IC and lender practice, which is governed by credit policy, fiduciary duty and contract (EVR039, EVR043, EVR293).
-- **Securities-law doctrine** (§11, WorldCom) does not apply to private lenders or ICs. The expertised/non-expertised logic is an analogy whose applicability needs checking against actual credit policies.
+- **Securities-law doctrine** (§11, WorldCom) does not apply to private lenders or ICs (EVR238, EVR244). The expertised/non-expertised logic is an analogy whose applicability needs checking against actual credit policies.
 - **Medicine's "duplicate tests"** are discrete and countable; IC reconstruction is analytic and partly required.
 - **Target-domain evidence** comes from one lender presentation, one DFI terms of reference (biogas), one securitization report, IFC guidance, rating actions, and back-tests (EVR275–EVR297). It is too thin to generalize across US tax-equity, construction-debt and M&A diligence.
 
@@ -177,15 +177,15 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 
 ### What can reasonably be concluded
 
-- *Empirical (lay experiments, several groups):* checkable evidence (X3/X4) protects detection better than narrative explanation (X1) when the producer is wrong, but costs reading time unless it is fine-grained and correct.
+- *Empirical (lay experiments, several groups):* checkable evidence (X3/X4) protects detection better than narrative explanation (X1) when the producer is wrong, but costs reading time unless it is fine-grained and correct (EVR092, EVR186, EVR091, EVR109).
 - *Empirical (one lay study each):* claim-level provenance can cut time with detection preserved when the error sits in the linked fact (EVR109). When the error is in the reasoning, linking makes wrong answers look grounded and detection falls (EVR110). The distinction between error in the cited fact and error in the inference is analyst synthesis from these two studies.
 - *Empirical (professional settings):* lighter review of AI drafts goes with more surviving errors (EVR223, EVR219). Field trials show professional time savings without detectable quality loss but did not test detection (EVR227, EVR231). Professional baseline detection of plausible errors without traceability is poor.
-- *Empirical (obligation and courts):* coverage information supports reliance when it can be independently verified (sampling, recomputation, adversarial access). It does not move the recipient's duty to judge sufficiency.
+- *Empirical (obligation and courts):* coverage information supports reliance when it can be independently verified (sampling, recomputation, adversarial access). It does not move the recipient's duty to judge sufficiency (EVR069, EVR071, EVR077, EVR245, EVR249).
 - *Empirical (behavioural, mixed access):* coverage effects depend on design and timing.
   - Hurt detection: generic lists imposed as the review method (EVR298, EVR303, EVR309).
   - Helped: specific documentation (EVR300), lists consulted after an independent first read (EVR313), prompts toward how assumptions were derived (EVR304), and procedure descriptions for flagged matters (EVR319, calibration rather than accuracy).
   - Changed recipients' reactions: statements that a flagged matter was examined and resolved (EVR318). Whether that reassurance was justified was not tested.
-- *Analyst inference:* the thesis is best supported in a narrowed form. Claim- and calculation-level traceability, plus coverage records that can be verified, should lower the cost of evaluation that obligations already require. Coverage records should be deal-specific, show checks without findings at the level of the nature and scope of each test, state exclusions, and focus on how key assumptions were derived. The benefit is conditional on accuracy, granularity and when the record is consulted. It must be judged on detection, never on satisfaction or trust.
+- *Analyst inference:* the thesis is best supported in a narrowed form. Claim- and calculation-level traceability, plus coverage records that can be verified, should lower the cost of evaluation that obligations already require. Coverage records should be deal-specific, show checks without findings at the level of the nature and scope of each test, state exclusions, and focus on how key assumptions were derived. The benefit is conditional on accuracy, granularity and when the record is consulted. It must be judged on detection, never on satisfaction or trust (basis: EVR109, EVR110, EVR300, EVR313, EVR304, EVR102).
 
 ### What remains unknown
 
@@ -197,7 +197,7 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 
 - **Participants and tasks.** Most RQ2 experiments use crowdworkers or students on short tasks with one planted error (EVR176, EVR180). IC reviewers are senior, accountable, time-pressed and work on long multi-document reports.
 - **Where errors sit.** Diligence errors often sit in derived metrics (DSCR, P50/P90, degradation-adjusted cash flows). Citing the inputs does not verify a calculation (EVR236). Traceability would need to reach calculations and assumptions.
-- **Court acceptance of coverage validation** rests on high-volume statistical sampling and an adversary. Diligence is low-volume and bespoke, with no adversary.
+- **Court acceptance of coverage validation** rests on high-volume statistical sampling and an adversary (EVR071, EVR076). Diligence is low-volume and bespoke, with no adversary.
 - **Medicine's structured reporting** is enforced by accreditation and is high-volume. Diligence has no mandatory reporting standard. PV yield uncertainty reporting lacks a standardized framework (EVR294).
 
 ---
@@ -251,8 +251,8 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 
 ### What can reasonably be concluded
 
-- *Empirical (medicine, replicated; finance, one analog):* placing outside evidence inside the recipient's own working system at the point of use reduces regeneration of that evidence, by moderate amounts. Mere availability or a separate portal often does not.
-- *Empirical (several groups, mostly generic AI tools):* assistance that produces drafts for the recipient tends to move effort into verification. Net time effects range from negative to modest positive, and self-reported savings are unreliable.
+- *Empirical (medicine, replicated; finance, one analog):* placing outside evidence inside the recipient's own working system at the point of use reduces regeneration of that evidence, by moderate amounts (EVR259, EVR265, EVR266, EVR270). Mere availability or a separate portal often does not (EVR212, EVR264, EVR268).
+- *Empirical (several groups, mostly generic AI tools):* assistance that produces drafts for the recipient tends to move effort into verification. Net time effects range from negative to modest positive, and self-reported savings are unreliable (EVR119, EVR122, EVR237, EVR117, EVR123, EVR142).
 - *Empirical (two professional studies):* integration of others' analysis can import their judgments and reduce skepticism.
 - *Analyst inference:* integration value for an advisor product is most defensible for W5 (reformatting and assembly) and for W2 caused by inaccessible inputs. It is least defensible for substantive memo content, where it risks anchoring the IC on the advisor's judgment. Integration and traceability need to come together: integration without visible provenance risks the inherited-analysis effect (EVR272).
 - *Not established:* any end-to-end reduction in IC, credit or board workflow time. No academic study of investment memos exists (EVR057). Memo templates differ by firm, and writing plus review averages ~2 months (interview-based; EVR055).
@@ -266,7 +266,7 @@ Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.j
 ### Limits of transfer to renewable-energy investment workflows
 
 - Health-information-exchange "duplicates" are discrete orders; IC "reconstruction" is analytic and partly required (W1).
-- The mortgage analog is high-volume and standardized. Project-finance diligence is low-volume and heterogeneous, and quality outcomes (underperformance, default) are slow and rare, so "no quality loss" is hard to show.
+- The mortgage analog is high-volume and standardized. Project-finance diligence is low-volume and heterogeneous, and quality outcomes (underperformance, default) are slow and rare, so "no quality loss" is hard to show (EVR270, EVR271).
 - Most RQ3 evidence concerns generic AI assistants rather than outside advisors' deliverables.
 
 ---

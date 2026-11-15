@@ -1,0 +1,441 @@
+[
+ {
+  "proposition_id": "P1.1",
+  "position_summary": "Conceded as a floor, and narrowed rather than resisted: formal obligations make W1 non-delegable across audit, bank credit, project finance, law, engineering and medicine. The thesis-favourable reading is that these same obligations specify WHAT the receiver must evaluate (source data accuracy/completeness, significant assumptions, methods, relevance) and scale effort to risk and significance; they set an obligation, not a method or a cost. Traceability can therefore only target the cost of discharging W1, not W1 itself. Several regimes explicitly permit reliance on third-party analytical work while retaining the decision (OCC s.939A) or permit reduced item-level review after tool validation (ABA 512).",
+  "holds_under_conditions": "Holds where the obligation is to EVALUATE outside work (PCAOB AS 1105/1210, ISA 500/620, SR 26-2 effective challenge, OCC 939A, EBA LOM) rather than to RE-DERIVE it independently. Does not hold where independence of analysis is itself the control (UK CG 300 Category 2/3 checks, second-opinion re-reads in medicine).",
+  "supporting_evidence_ids": [
+   "EVR001",
+   "EVR002",
+   "EVR011",
+   "EVR013",
+   "EVR016",
+   "EVR039",
+   "EVR042",
+   "EVR043",
+   "EVR034",
+   "EVR035",
+   "EVR066",
+   "EVR067",
+   "EVR078",
+   "EVR167",
+   "EVR169",
+   "EVR012",
+   "EVR017"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR081",
+   "EVR209",
+   "EVR210",
+   "EVR211",
+   "EVR008",
+   "EVR215",
+   "EVR083",
+   "EVR085"
+  ],
+  "would_change_my_view_if": "IC/credit policies or lender requirements for renewable diligence were shown to require independent re-derivation (CG 300-style, no exchange of workings) rather than evaluation of the advisor's work; or time-use data showed W1 judgment consumes nearly all retained recipient time, leaving little W2 to reduce.",
+  "strength_of_evidence_note": "Strong and multi-domain for the existence of the obligation (roughly 18 independent groups: standards, regulations, court decisions). These are obligations, not observed effort; none measures how much time W1 takes or whether traceability changes it. The PCAOB post-implementation review (EVR008) reports partners' stated additional time under 1% of audit hours, which suggests effort is not very sensitive to rule text."
+ },
+ {
+  "proposition_id": "P1.2",
+  "position_summary": "Defensible as a MECHANISM claim, not as a 'material share' claim. Several independent sources show that missing evidence, opacity or missing scope description raises recipients' effort to understand or re-perform: the PCAOB describes specialists' work as often not transparent and costly to evaluate; ISA 402 directs extra procedures when a service auditor's report lacks a description of tests; code-review studies identify understanding context/rationale as the main cost; PEER guidelines direct designers to highlight assumptions to make peer review efficient; and the one observed-behaviour study found outside images unavailable or not imported were associated with much higher repeat imaging. No source measures what share of review time is avoidable.",
+  "holds_under_conditions": "Holds when the recipient is obliged or motivated to evaluate (so opacity converts into extra work rather than skipped work) and when the missing element is evidence/scope/assumptions the producer already holds. Weaker where opacity instead produces comfort-seeking or under-review.",
+  "supporting_evidence_ids": [
+   "EVR007",
+   "EVR020",
+   "EVR040",
+   "EVR086",
+   "EVR087",
+   "EVR115",
+   "EVR150",
+   "EVR153",
+   "EVR212",
+   "EVR052",
+   "EVR030",
+   "EVR003"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR005",
+   "EVR026",
+   "EVR027",
+   "EVR171",
+   "EVR151"
+  ],
+  "would_change_my_view_if": "Time-and-motion or log data from IC/credit teams showed that reconstruction of advisor evidence is a small fraction of retained effort; or that providing source-linked advisor packages did not change recipients' re-performance rates.",
+  "strength_of_evidence_note": "Moderate for the mechanism (about 10 independent groups across audit, engineering, software, medicine, fact-checking), mostly normative or qualitative; one observational quantitative study (EVR212: repeat imaging 52% not imported vs 11% imported, adjusted OR 9.0; abstract only, small groups). No direct measurement of the share. The adverse audit evidence shows opacity often leads to UNDER-review, which supports the error-detection half of the thesis more than the effort-reduction half."
+ },
+ {
+  "proposition_id": "P1.3",
+  "position_summary": "Conceded as a real, rational driver, and used to bound the thesis: advisor-output errors are frequent enough in several domains that independent checking is warranted (pathology/radiology second opinions; solar generation underperforming P50 estimates; fabricated citations in consulting reports and legal filings). The thesis-compatible reading is that W3 review should stay, but inspectable evidence can make locating errors cheaper and can expose misreporting, e.g., disclosed TAR validation samples let the receiving party detect that reported recall/precision were wrong.",
+  "holds_under_conditions": "Holds where errors are checkable against recorded sources or samples. Traceability does not reduce W3 that arises from judgement or modelling assumptions that are not visible in sources (e.g., P50 bias).",
+  "supporting_evidence_ids": [
+   "EVR209",
+   "EVR210",
+   "EVR211",
+   "EVR047",
+   "EVR048",
+   "EVR161",
+   "EVR163",
+   "EVR143",
+   "EVR144",
+   "EVR077",
+   "EVR162"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR032",
+   "EVR014",
+   "EVR045",
+   "EVR046"
+  ],
+  "would_change_my_view_if": "Evidence that renewable advisor outputs (IE, yield, model audit) have low material-error rates, making W3 small; or that disclosed source/validation data rarely led recipients to find errors.",
+  "strength_of_evidence_note": "Moderate. Medical second-opinion data are strong observational evidence (e.g., 1.4% of 6,171 and 2.3% of 5,629 major changes; 56.4% stage discrepancy in 94 cases) but are an analogy. Solar P50 evidence is a news report (EVR047) and search summaries (EVR048). AI-hallucination incidents show existence, not rates for professional advisors."
+ },
+ {
+  "proposition_id": "P1.4",
+  "position_summary": "Conceded as a legitimate rival driver that the thesis should not claim to remove: recipients apply overlays to vendor models, rating agencies apply their own haircuts to independent-engineer outputs, shared reports are not tailored to a given recipient's materiality, and memo templates differ between firms. The thesis-favourable reading is narrow: explicit assumptions make W4 applicable as a documented overlay rather than a reconstruction (SR 26-2 expects overlays to be documented and justified; Fitch's practice applies stated adjustments to stated IE estimates).",
+  "holds_under_conditions": "Holds only for the W2 portion embedded in adaptation (finding the assumption to adjust). The adaptation judgement itself remains W4/W1.",
+  "supporting_evidence_ids": [
+   "EVR036",
+   "EVR045",
+   "EVR046"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR021",
+   "EVR053",
+   "EVR055",
+   "EVR120"
+  ],
+  "would_change_my_view_if": "Evidence that adaptation work in renewable IC/credit diligence is dominated by policy application that could not be performed faster with explicit advisor assumptions.",
+  "strength_of_evidence_note": "Moderate for existence (about 6 groups); no measurement of time share. Supports ledger CL025: customer-specific requirements may explain continued diligence regardless of advisor transparency."
+ },
+ {
+  "proposition_id": "P1.5",
+  "position_summary": "Plausible but thinly evidenced: one 54-organisation survey reports near-universal memo use, required review, firm-specific templates and about two months average for memo writing and review (interview-reported); respondents describe memo writing as painful and suggest automating field population. Board-reporting surveys report long, weak packs. This indicates W5 exists, not its size relative to other work.",
+  "holds_under_conditions": "Holds as an indication of stated burden in investment organisations with templated memos; not as a measured share.",
+  "supporting_evidence_ids": [
+   "EVR055",
+   "EVR056",
+   "EVR061",
+   "EVR132",
+   "EVR133"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR057"
+  ],
+  "would_change_my_view_if": "Time-use data showing memo/reformatting is a small share of deal-team effort, or that templates are stable enough that reformatting is trivial.",
+  "strength_of_evidence_note": "Weak: stated preference/self-report, one small survey (EVR055, n=54), one job posting, two board-governance surveys from separate exercises. EVR057 notes almost no published research on memo crafting. Relevant to ledger K001 as signal of adjacent workflow pain, not demand."
+ },
+ {
+  "proposition_id": "P1.6",
+  "position_summary": "Partly supported and double-edged for the thesis. Evidence that review persists for comfort, norms, or egocentric discounting (audit comfort rituals; code review mostly yielding non-defect comments; judges discounting advice because they lack access to the advisor's reasons; 'myth' of exhaustive manual review) suggests some retained work is not error-driven. The thesis-favourable reading is that the part driven by lack of access to the advisor's reasons (Yaniv) is addressable by traceability, and that courts accepted validated coverage evidence in place of exhaustive manual review. The part driven by accountability or comfort is not informational and may not shrink.",
+  "holds_under_conditions": "Holds where comfort-seeking stems from unverifiability and where an authority accepts coverage evidence as sufficient (e-discovery validation). Does not hold where accountability itself requires visible re-performance.",
+  "supporting_evidence_ids": [
+   "EVR153",
+   "EVR154",
+   "EVR157",
+   "EVR088",
+   "EVR090",
+   "EVR074",
+   "EVR026",
+   "EVR027",
+   "EVR165",
+   "EVR069",
+   "EVR071"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR005",
+   "EVR171",
+   "EVR184",
+   "EVR156",
+   "EVR051"
+  ],
+  "would_change_my_view_if": "Evidence that recipients given full traceable evidence still re-perform at the same rate (comfort-driven), or conversely that the dominant failure in renewable diligence is under-review (as in PCAOB inspections), which would make 'avoidable review' the wrong target.",
+  "strength_of_evidence_note": "Moderate-to-weak: interview studies (some abstract-only), a secondary summary of Pentland, review articles, and code-review field studies. The strongest adverse evidence (PCAOB inspection findings) shows under-review, not excess review. Maps to ledger CL027: accountability and opacity may sustain repeated review, but may equally sustain shallow comfort-seeking."
+ },
+ {
+  "proposition_id": "P2.1",
+  "position_summary": "Supported only for fine-grained, claim-level provenance in checkable tasks. Linking each number in a generated summary to its source cell cut decision time about 20% with unchanged accuracy (small study, no inferential statistics located); highlighting referenced input facts cut verification time about a quarter; easy-to-check visual explanations reduced overreliance relative to written ones; imported outside images were associated with far less repeat imaging. Coarse evidence (whole retrieved passages, more thorough memos) INCREASED time.",
+  "holds_under_conditions": "Holds when provenance points at the exact supporting datum, the claim can be checked against it quickly, and the provenance is itself correct. Fails for coarse retrieval or long narrative discussion.",
+  "supporting_evidence_ids": [
+   "EVR109",
+   "EVR110",
+   "EVR186",
+   "EVR147",
+   "EVR212",
+   "EVR003"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR091",
+   "EVR033",
+   "EVR151",
+   "EVR106",
+   "EVR097",
+   "EVR103",
+   "EVR108"
+  ],
+  "would_change_my_view_if": "A well-powered experiment with professionals on advisor-style deliverables showing claim-level source links do not reduce verification time; or that time saved comes from skipping checks (as click-through data EVR103/EVR108 suggest for consumers).",
+  "strength_of_evidence_note": "Weak-to-moderate: about 4 independent supporting groups, lab tasks with lay or student participants, mostly simple numeric/factual errors; the provenance-correct-by-construction design (EVR109) flatters the effect. Adverse evidence (EVR091: passages took ~2.5x longer than explanations at equal accuracy) is of comparable quality."
+ },
+ {
+  "proposition_id": "P2.2",
+  "position_summary": "Supported conditionally: source evidence (X3) protects error detection better than generated rationales (X1). When an explanation was wrong, users given retrieved passages scored 0.54 vs 0.35 with the explanation (baseline 0.49); claim-level provenance preserved accuracy; easy-to-check explanations reduced overreliance; disclosed validation samples exposed misreported TAR metrics; a relational cue highlighting aggressive assumptions improved auditors' judgements (conditionally); checklist-style reporting reduced some omission errors. Mixing sources with persuasive rationale or highlights tied to model reasoning can hurt detection when the model is wrong.",
+  "holds_under_conditions": "Holds for X3 provenance and X4 checklists that make omissions visible, evaluated on detection of seeded or real errors; not for X1 explanations, and not when the format displaces the reviewer's own search (structured-report and prefilled-template failures).",
+  "supporting_evidence_ids": [
+   "EVR092",
+   "EVR109",
+   "EVR186",
+   "EVR147",
+   "EVR096",
+   "EVR077",
+   "EVR073",
+   "EVR028",
+   "EVR201",
+   "EVR197",
+   "EVR199",
+   "EVR217"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR110",
+   "EVR093",
+   "EVR107",
+   "EVR196",
+   "EVR202",
+   "EVR111",
+   "EVR149"
+  ],
+  "would_change_my_view_if": "Professional-population experiments with seeded material errors showing traceable advisor packages lower detection relative to control (as HoT did when the LLM was wrong, EVR110), or detection gains vanishing for omission-type errors.",
+  "strength_of_evidence_note": "Mixed and modest: supportive and adverse items are similar in number and quality. Most experiments use lay participants and simple tasks; the medical reporting evidence is observational (EVR197, EVR199) and the only high-level randomised-quality structured-reporting study is negative (EVR196, per EVR194)."
+ },
+ {
+  "proposition_id": "P2.3",
+  "position_summary": "Conceded as a design constraint rather than a refutation: citations and explanations raise trust and acceptance without improving, and sometimes while worsening, error detection (random citations raised trust; about 1 in 10 cited answers was checked; links clicked in ~1% of AI-summary visits; citation precision inversely related to perceived utility; explanations increased acceptance whether the AI was right or wrong; graders scored incorrect AI-assisted answers higher). The thesis must therefore be judged on detection and appropriate reliance, never on satisfaction or trust, and should favour designs that force or ease checking.",
+  "holds_under_conditions": "The concession applies to X1 and to the mere presence of citations. It is weaker for X4 uncertainty/coverage cues, which in two experiments reduced overreliance.",
+  "supporting_evidence_ids": [
+   "EVR102",
+   "EVR103",
+   "EVR100",
+   "EVR108",
+   "EVR095",
+   "EVR145",
+   "EVR146",
+   "EVR173",
+   "EVR174",
+   "EVR177",
+   "EVR178",
+   "EVR192"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR099",
+   "EVR112",
+   "EVR092"
+  ],
+  "would_change_my_view_if": "Evidence that professional recipients in high-accountability settings check citations at high rates, which would make the consumer findings less transferable.",
+  "strength_of_evidence_note": "Strong for the existence of the trust-acceptance gap (about 9 independent groups), but mostly consumer or crowd populations; professional-population evidence is limited (EVR033, EVR191 measure reliance shifts without ground truth)."
+ },
+ {
+  "proposition_id": "P2.4",
+  "position_summary": "The thesis's strongest ground, mostly normative and analogical. Standard-setters require service-organisation reports to describe tests performed and results because user auditors need them to link to their own work; missing test descriptions trigger extra procedures; the AAI rule requires identification of data gaps; courts accept validated coverage evidence (recall estimates, sampling of the null set, disclosed protocol, adversarial challenge) in place of exhaustive manual review. Experimentally, uncertainty expressions and low-confidence highlighting improved accuracy (72.8% vs 63.9%; 58% vs 26% on the unreliable task), and checklist/synoptic reporting improved completeness. Clinicians state that pertinent negatives are useful.",
+  "holds_under_conditions": "Holds when coverage disclosure states what was checked, how, and what was not checked; when null results are verifiable by sampling or challenge; and when an authority or policy treats such disclosure as sufficient. IAASB explicitly judged sample-level detail for no-deviation results unnecessary and costly, so 'checks without findings' should be disclosed at the level of test nature and scope.",
+  "supporting_evidence_ids": [
+   "EVR019",
+   "EVR020",
+   "EVR022",
+   "EVR023",
+   "EVR214",
+   "EVR060",
+   "EVR086",
+   "EVR168",
+   "EVR069",
+   "EVR071",
+   "EVR075",
+   "EVR076",
+   "EVR077",
+   "EVR099",
+   "EVR112",
+   "EVR201",
+   "EVR197",
+   "EVR199",
+   "EVR200",
+   "EVR203"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR196",
+   "EVR202",
+   "EVR192",
+   "EVR072",
+   "EVR068",
+   "EVR194",
+   "EVR033"
+  ],
+  "would_change_my_view_if": "Evidence that recipients given explicit coverage/no-findings statements do not change their procedures (re-perform anyway), or that such statements create false assurance that lowers detection of omissions outside the stated scope.",
+  "strength_of_evidence_note": "Moderate in breadth (standards in audit, environmental, securities, engineering; court practice; two independent experiments; medical reporting studies) but mostly obligation, judicial acceptance or stated preference; the medical structured-reporting base is weak at the highest evidence level. Maps to ledger CL026 (customers should see what was checked, including checks without findings)."
+ },
+ {
+  "proposition_id": "P2.5",
+  "position_summary": "Fully conceded and folded into the thesis: citation-providing tools still hallucinate or misground (17% to 33% of responses in commercial legal RAG tools; ~51.5% citation recall in generative search; fabricated citations in paid consulting reports). This supports keeping independent judgment and argues for claim-level links that make misgrounding cheap to detect, not for trusting citations.",
+  "holds_under_conditions": "Always holds; the thesis claim is about the cost of verification, not its elimination.",
+  "supporting_evidence_ids": [
+   "EVR062",
+   "EVR063",
+   "EVR094",
+   "EVR113",
+   "EVR161",
+   "EVR163",
+   "EVR080",
+   "EVR159"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR114",
+   "EVR065"
+  ],
+  "would_change_my_view_if": "No plausible observation would reverse this; only the error rates could change.",
+  "strength_of_evidence_note": "Strong (about 7 independent groups, including audited benchmark studies and documented incidents)."
+ },
+ {
+  "proposition_id": "P2.6",
+  "position_summary": "Conceded: generated rationales can be unfaithful to what drove the output. The thesis should rest on X3 source records and X4 coverage/test records whose correctness is checkable, not on X1/X2 narratives; courts already accept outcome and coverage validation without explanations of system internals.",
+  "holds_under_conditions": "Applies to AI-generated rationales; less to human-authored method descriptions, which were not tested here.",
+  "supporting_evidence_ids": [
+   "EVR104",
+   "EVR105",
+   "EVR098"
+  ],
+  "adverse_evidence_ids_acknowledged": [],
+  "would_change_my_view_if": "Evidence that rationale faithfulness is high in the deliverable types at issue.",
+  "strength_of_evidence_note": "Moderate: two experimental groups on LLM chain-of-thought plus one theory synthesis; directly relevant only to AI-generated explanations."
+ },
+ {
+  "proposition_id": "P3.1",
+  "position_summary": "Not established; the strongest defensible statement is a suggestive analogy. The one observed-behaviour item distinguishes integration from mere availability: outside images available but not imported into the recipient's system were associated with 52% repeat imaging vs 11% when imported (adjusted OR 9.0). Vendor and practitioner claims of large memo time savings exist but are unmeasured. Government Copilot evaluations found small or no measured productivity gains.",
+  "holds_under_conditions": "Would hold only if integration places the evidence inside the recipient's own system of record, in its format, such that re-acquisition is unnecessary. No end-to-end investment-workflow test exists.",
+  "supporting_evidence_ids": [
+   "EVR213",
+   "EVR212",
+   "EVR054",
+   "EVR136",
+   "EVR135"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR123",
+   "EVR117",
+   "EVR057",
+   "EVR142",
+   "EVR126"
+  ],
+  "would_change_my_view_if": "An end-to-end measurement in an investment or credit setting showing total team hours and error outcomes with and without integrated advisor output.",
+  "strength_of_evidence_note": "Weak: one small observational medical study (abstract only), vendor/practitioner claims with no method, and EVR142 (developers believed AI saved ~20% while measured time rose 19%) indicates self-reported savings are unreliable."
+ },
+ {
+  "proposition_id": "P3.2",
+  "position_summary": "Conceded as the default outcome when outputs are unreliable or unverifiable: AI assistance shifts effort from gathering to verification and integration, creates new workloads, and can lengthen tasks. The thesis-favourable reading is that this is exactly the work traceability targets: QA time fell for easily checked outputs (emails, summaries) and rose for complex ones, implying the shift's net sign depends on checkability.",
+  "holds_under_conditions": "Shift dominates when outputs are long, complex, or unreliable and checking is costly; net reduction is plausible where verification is cheap and outputs reliable.",
+  "supporting_evidence_ids": [
+   "EVR119",
+   "EVR125"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR116",
+   "EVR141",
+   "EVR151",
+   "EVR122",
+   "EVR127",
+   "EVR101",
+   "EVR010",
+   "EVR118",
+   "EVR130"
+  ],
+  "would_change_my_view_if": "Evidence that even with claim-level provenance, verification of AI-assisted advisor deliverables consumes as much time as the drafting it replaced.",
+  "strength_of_evidence_note": "Strong for the shift (about 9 independent groups including an RCT, EVR141, and a large survey, EVR116), mostly generic AI tools rather than advisor deliverables."
+ },
+ {
+  "proposition_id": "P3.3",
+  "position_summary": "Plausible for assembly and summarisation, not for analysis. Investment-memo survey respondents suggest automating field population and leaving higher-order analysis to writers; government trials found the clearest benefits in summarising and drafting; blind-scored sessions found faster and better summaries but slower, less accurate spreadsheet analysis. Vendor claims of memo time compression lack method.",
+  "holds_under_conditions": "Holds where the drafting step is assembly from already-verified facts into a known template; does not hold for analytic steps, which remain judgement.",
+  "supporting_evidence_ids": [
+   "EVR056",
+   "EVR128",
+   "EVR124",
+   "EVR179",
+   "EVR054",
+   "EVR135",
+   "EVR136"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR124",
+   "EVR120",
+   "EVR144",
+   "EVR119"
+  ],
+  "would_change_my_view_if": "Evidence that memo assembly in IC/credit practice is inseparable from analysis, or that automated assembly introduces errors that cost more to catch than drafting saved.",
+  "strength_of_evidence_note": "Weak-to-moderate: one blind-scored government evaluation (EVR124, listed on both sides because its results are mixed), one law-student RCT seen via news report for time (EVR179), the rest stated or vendor-reported."
+ },
+ {
+  "proposition_id": "P3.4",
+  "position_summary": "Supported by one experimental group: people were much more likely to use an imperfect algorithm when they could modify its output, even slightly (32% vs 73% to 76%). This suggests adaptable, editable advisor outputs increase uptake; it says nothing about whether uptake is appropriate. Radiologists' preference for non-rigid templates is consistent.",
+  "holds_under_conditions": "Holds for uptake in incentivised forecasting; transfer to professional reliance on advisor work is an analogy.",
+  "supporting_evidence_ids": [
+   "EVR140",
+   "EVR152",
+   "EVR205"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR198"
+  ],
+  "would_change_my_view_if": "Evidence that modifiability increases inappropriate reliance or that professional recipients do not value modifiability.",
+  "strength_of_evidence_note": "Weak: a single underlying evidence group (Dietvorst et al.) counted once, plus a survey analog."
+ },
+ {
+  "proposition_id": "P4.1",
+  "position_summary": "Supported: implementation needs are driven by heterogeneous templates, criteria and data requirements; national report templates covered only 17% to 49% of concepts in one centre's actual reports; templates were built with 16 local disease teams; offtaker RFPs require specific native model files; banks customise vendor models. A traceability/integration product therefore needs domain-aware configuration to each recipient's criteria.",
+  "holds_under_conditions": "Holds wherever recipients have their own templates and criteria (86% of surveyed investment organisations use standard templates that differ between investors).",
+  "supporting_evidence_ids": [
+   "EVR055",
+   "EVR036",
+   "EVR021",
+   "EVR137",
+   "EVR193",
+   "EVR206",
+   "EVR205"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR133"
+  ],
+  "would_change_my_view_if": "Evidence that recipient criteria in renewable IC/credit converge on a common standard.",
+  "strength_of_evidence_note": "Moderate for heterogeneity (about 6 groups), mostly analogical. Maps to ledger CL029."
+ },
+ {
+  "proposition_id": "P5.1",
+  "position_summary": "Partly supported for formats, not judgement: a department built 228 templates covering 94% of volume with 100% audited adherence; checklists associated with far higher completeness; accreditation mandates drive adoption. But a standard lexicon did not standardise judgement (BI-RADS kappa 0.28), adherence varied by case type (77% resections vs 19% biopsies), and national templates poorly matched local content.",
+  "holds_under_conditions": "Repeatability rises for structure and coverage records under mandate or institutional commitment; bespoke judgement remains labour-intensive.",
+  "supporting_evidence_ids": [
+   "EVR204",
+   "EVR199",
+   "EVR207",
+   "EVR022"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR216",
+   "EVR206",
+   "EVR208",
+   "EVR198",
+   "EVR195"
+  ],
+  "would_change_my_view_if": "Supplier-side data showing standardised evidence formats do not lower per-engagement delivery effort.",
+  "strength_of_evidence_note": "Weak for the proposition as stated (no supplier-economics data); evidence is about format repeatability within institutions. Relevant to AS06 only for assets, not economics."
+ },
+ {
+  "proposition_id": "P6.1",
+  "position_summary": "Not supported by the register. Satisfaction and NPS can be high without measured productivity gains; a purchase case was framed as a break-even of minutes per week, not measured; treated firms in a consulting RCT bought more consulting later, but the benefit was operational, not reduced review effort. Mechanism evidence does not establish commercial relevance.",
+  "holds_under_conditions": "None established.",
+  "supporting_evidence_ids": [
+   "EVR139"
+  ],
+  "adverse_evidence_ids_acknowledged": [
+   "EVR126",
+   "EVR129",
+   "EVR050",
+   "EVR022"
+  ],
+  "would_change_my_view_if": "Observed buying, renewal or pricing data for traceable advisor deliverables vs conventional ones.",
+  "strength_of_evidence_note": "Very weak/absent. Relevant ledger items CL007 and AS03 are unsupported by this bundle."
+ }
+]

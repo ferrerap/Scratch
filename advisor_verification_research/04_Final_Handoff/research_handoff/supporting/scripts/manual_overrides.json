@@ -1,0 +1,284 @@
+{
+  "_doc": "Coordinator overrides applied by merge_registers.py. Every override is recorded here (never silent).",
+  "source_merge": [
+    [
+      "WS7-S03",
+      "WS6-S03"
+    ],
+    [
+      "WS7-S04",
+      "WS6-S05"
+    ],
+    [
+      "WS8-S19",
+      "R3F-S14"
+    ]
+  ],
+  "source_no_merge": [],
+  "eg_alias": {
+    "EG:pcaob2018-specialists-AS1210": "EG:pcaob-specialists-2018-rulemaking",
+    "EG:niederhoffer2025-workslop": "EG:betterup-stanford-workslop-2025"
+  },
+  "drop_sources": [],
+  "drop_evidence": [],
+  "source_patch": {
+    "SRC046": {
+      "access_status": "partial",
+      "limitations": "Counts court/tribunal decisions addressing hallucinated content; maintainer states it does not track the wider universe of fake citations; inclusion involves judgment calls; counts read via a fetch tool summarizing filter counts and may lag. | Only the landing page and its filter counts were read; individual entries not audited. Compiler-curated (inclusion is a 'judgment call'); covers only decisions addressing hallucinations, not the universe of AI-assisted filings, so no rate/denominator. Counts change over time. [R2C-17] Counts read through a fetch tool; access set to partial."
+    },
+    "SRC038": {
+      "limitations": "127 upper-level law students; hallucination counts very small; WS4 read full text (law.berkeley.edu copy), WS3 abstract only (R2C-05/R2C-17)."
+    },
+    "SRC017": {
+      "limitations": "Working paper version (peer-review status of this version not established; source_type closest category). Single hypothetical case (insurance claim reserve); 98 audit managers; DV is proposed adjustment (reliance), no ground-truth accuracy measure; time-on-task result marginal (one-tailed p=0.09). [R2C-22] Same research program as SRC105; distinct experiment."
+    },
+    "SRC105": {
+      "limitations": "Abstract only (UNLV repository landing page); participant count, experience level, effect sizes and design details not reviewed. Experimental case, not field audits. [R2C-22] Same research program as SRC017; distinct experiment."
+    }
+  },
+  "evidence_patch": {
+    "EVR144": {
+      "limitations": "Single designed outside-frontier task with a known right answer; producers, not recipients, were studied. [R2C-01] Outside-frontier task was deliberately designed so that GPT-4 would give a plausible but wrong answer; the inside-frontier arm of the same experiment showed gains (see the coordinator-added item from the same source).",
+      "coordinator_corrections": [
+        "R2C-01: inside-frontier arm added as separate item"
+      ]
+    },
+    "EVR147": {
+      "duplicate_of": "EVR186",
+      "coordinator_corrections": [
+        "R2C duplicate: same finding as EVR186; do not count separately",
+        "R2C-20: intervals are Bayesian credible intervals"
+      ],
+      "quantitative_result": "Study 2: Highlight - Written, medium task: mean -1.63 (95% Bayesian credible interval -2.78 to -0.559); hard task: -1.632 (95% Bayesian credible interval -2.570 to -0.694) (model-scale estimates; units per authors' model specification)",
+      "relationship": "qualifies"
+    },
+    "EVR164": {
+      "duplicate_of": "EVR122",
+      "coordinator_corrections": [
+        "R2C duplicate: same finding as EVR122; do not count separately"
+      ]
+    },
+    "EVR152": {
+      "duplicate_of": "EVR140",
+      "coordinator_corrections": [
+        "R2C duplicate: same finding as EVR140; do not count separately"
+      ]
+    },
+    "EVR186": {
+      "quantitative_result": "Study 2, Highlight minus Written: medium maze mean -1.63 (95% Bayesian credible interval -2.78 to -0.559); hard maze -1.632 (95% Bayesian credible interval -2.570 to -0.694) (model-scale estimates; units per appendix model, not extracted).",
+      "coordinator_corrections": [
+        "R2C-20: intervals are Bayesian credible intervals",
+        "R2C-02: relationship harmonized to 'qualifies' (condition-dependent; maze task, simulated AI, N=340 crowdworkers)"
+      ],
+      "relationship": "qualifies",
+      "transferability_to_target_workflow": "Strongest mechanism-level support found for P2.1/P2.2: what matters is whether the presentation makes checking cheaper than re-deriving. Diligence analogue: a pinpoint link from an advisor's claim to the exact contract clause/data series (cheap check) vs a narrative justification (costly check). Must be tested in realistic documents where checking a source still requires judgment. [R2C-16] Plausible mechanism analog only (crowdworker maze task); needs verification with accountable professionals reviewing advisor reports."
+    },
+    "EVR096": {
+      "coordinator_corrections": [
+        "R2C-20: intervals are Bayesian credible intervals"
+      ]
+    },
+    "EVR122": {
+      "limitations": "Vendor-run survey summarized in a blog; inconsistent N; recall-based time estimates; counterfactual 'sender doing the work' is the recipient's guess; HBR article body not accessed. [R2C-03] Self-reported estimates; convenience survey; vendor-affiliated research."
+    },
+    "EVR065": {
+      "quantitative_result": "Superseded by EVR114 (full text read by WS4); figures in this abstract-level item were unverified.",
+      "coordinator_corrections": [
+        "R2C-05: superseded by EVR114"
+      ]
+    },
+    "EVR059": {
+      "relationship": "supports",
+      "observed_finding": "DOE OIG found the Loan Programs Office contracts third-party advisors for financial/credit, engineering/technical and market reports and relies on their work as essential components of the loan application process while prospective borrowers pay; a limited pool of qualified firms means some advisors also work for applicants; for 18 projects reviewed, LPO could identify the engineering advisors for only 3 and the marketing/financial advisors for none; reliance on advisors' self-identification of conflicts 'creates a blind spot'. [R2C-06 clarification] For the 18 projects reviewed, LPO could identify the engineering third-party advisors working for prospective borrowers on only 3, and marketing/financial borrower-side advisors on none, so it could not check whether individuals supporting LPO also worked for applicants.",
+      "coordinator_corrections": [
+        "R2C-06: relationship corrected to supports (relative to its P-NEW); borrower-side wording added"
+      ]
+    },
+    "EVR116": {
+      "relationship": "qualifies",
+      "analyst_inference": "[Rewritten per R2C-07] Survey self-reports from chatbot users (not recipients) indicate that new tasks include oversight/QA of AI output; the category also includes detecting others' AI use (e.g., teachers). Shows the existence and share of reported new tasks, not measured review hours or net workload.",
+      "coordinator_corrections": [
+        "R2C-07"
+      ]
+    },
+    "EVR118": {
+      "relationship": "qualifies",
+      "transferability_to_target_workflow": "Close task analog: financial outputs drafted by AI require accuracy/completeness review by the accountable professional, analogous to analysts reviewing AI-drafted model outputs or memo sections. [R2C-07/R2C-16] Self-reported new tasks among AI users; not measured review hours of recipients of outside analysis.",
+      "coordinator_corrections": [
+        "R2C-07"
+      ]
+    },
+    "EVR141": {
+      "relationship": "qualifies",
+      "limitations": "Developers act as both producer and reviewer of AI output; small N; high-quality-standard repositories with extensive implicit context; tools of early 2025. [R2C-08] Producer-side AI use by experts in their own repositories, not receipt of outside analysis; slowdown is multi-causal per the authors; CI shown in a figure, not extracted.",
+      "coordinator_corrections": [
+        "R2C-08"
+      ]
+    },
+    "EVR209": {
+      "relationship": "qualifies",
+      "observed_finding": "Johns Hopkins requires second-opinion review of outside surgical pathology before treating referred patients; over 21 months, 86 of 6,171 reviewed cases (1.4%) had a changed diagnosis causing major modification in therapy or prognosis, with higher rates for serosal surfaces (9.5%) and female reproductive tract (5.1%). The authors note the practice was threatened by managed-care cost containment and recommend review before major therapy. [R2C-09] Yield denominator = all referred cases; low per-case yield, high per-error consequence.",
+      "coordinator_corrections": [
+        "R2C-09: relabelled qualifies for P1.3 (continues to support P1.1 policy-driven review)"
+      ]
+    },
+    "EVR210": {
+      "relationship": "qualifies",
+      "observed_finding": "University of Iowa requires second opinion of outside surgical pathology slides before definitive treatment; of 5,629 cases, 132 (2.3%) had major and 507 (9.0%) minor diagnostic disagreements; 68 (1.2% of all cases) led to changes in clinical management on follow-up. [R2C-09] Yield denominator = all referred cases; low per-case yield, high per-error consequence.",
+      "coordinator_corrections": [
+        "R2C-09: relabelled qualifies for P1.3 (continues to support P1.1 policy-driven review)"
+      ]
+    },
+    "EVR074": {
+      "relationship": "qualifies",
+      "coordinator_corrections": [
+        "R2C-10: study does not observe why manual review persisted"
+      ]
+    },
+    "EVR123": {
+      "relationship": "qualifies",
+      "quantitative_result": "Table 5 mean hours saved per task (unadjusted / adjusted for unused outputs / adjusted for unused outputs and novel tasks): drafting written documents 1.5/1.4/1.3; summarising research 1.6/1.4/0.8; data analysis 2/1.7/0.6; editing written documents 1.7/1.6/0.4; reviewing code 1.6/1.6/0.3; writing an email 0.2/0.2/0.2; presentations 0.8/0.3/0; generating images 1.5/0.3/-0.5; scheduling 0/-0.5/-0.6. Raw box plots centred around 0 hours saved. No productivity improvement evidence. (Self-reported diary data; no CIs.) [R2C-11] Total N = 1,411 diary entries; N per task e.g. drafting 114, data analysis 47, summarising research 45, presentations 78, generating images 22, reviewing code 17, scheduling 14; self-reported; no CIs.",
+      "coordinator_corrections": [
+        "R2C-11"
+      ]
+    },
+    "EVR095": {
+      "relationship": "qualifies",
+      "quantitative_result": "r = -0.96 (appears to be computed across system-level averages; e.g., Bing Chat highest precision, lowest perceived utility; YouChat lowest precision). [R2C-12] Computed over 4 generative search engines (system-level means; no CI reported).",
+      "coordinator_corrections": [
+        "R2C-12"
+      ]
+    },
+    "EVR091": {
+      "population_and_setting": "80 Prolific crowdworkers (16 per condition), 20 adversarial FoolMeTwice claims each, 1500 judgments [R2C-13] 80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims.",
+      "relationship": "qualifies",
+      "limitations": "Crowdworkers; Wikipedia sources; condition n=16; time differences may reflect skimming rather than verification. [R2C-13] Comparison is retrieval vs explanation; no-evidence baseline time not reported.",
+      "coordinator_corrections": [
+        "R2C-13"
+      ]
+    },
+    "EVR092": {
+      "population_and_setting": "Same as WS4-E01 [R2C-13] 80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims."
+    },
+    "EVR093": {
+      "population_and_setting": "Same as WS4-E01 [R2C-13] 80 Prolific crowdworkers, 16 per condition (between-subjects), FoolMeTwice Wikipedia claims."
+    },
+    "EVR109": {
+      "population_and_setting": "60 Prolific annotators; 4 Rotowire basketball summaries each (2 with annotations, 2 without), half containing a single planted numeric inconsistency [R2C-14] n=60 Prolific annotators; synthetic/structured-data summaries; no significance tests reported; equivalence of accuracy not tested.",
+      "coordinator_corrections": [
+        "R2C-14"
+      ]
+    },
+    "EVR010": {
+      "limitations": "Confounded by COVID and other rule changes (staff explicitly say not causal). [R2C-15] Staff note that the +2.3 pp planning-phase shift is consistent with a broader shift of total audit hours to earlier phases, i.e., not attributable to the new requirements.",
+      "relationship": "contextual",
+      "coordinator_corrections": [
+        "R2C-15"
+      ]
+    },
+    "EVR039": {
+      "transferability_to_target_workflow": "Directly transferable principle for lenders using IE/market/insurance advisors: analysis may be outsourced; the decision and the vetting of the advisor's independence/qualifications may not. [R2C-16] Plausible mechanism analog, not 'directly transferable': US bank investment-securities rule; needs verification against renewable-energy lender/IC policies.",
+      "coordinator_corrections": [
+        "R2C-16"
+      ]
+    },
+    "EVR045": {
+      "transferability_to_target_workflow": "Core mechanism transfers directly: credit receivers re-cut IE output into their own cases rather than adopting the IE's base case. What transfers to an advisor product is the need to supply exceedance distributions (P50/P90/P99, one-year vs ten-year) and adjustable inputs so the receiver can apply its own criteria without reconstruction. [R2C-16] Rests on 2012 Fitch presentation slides; current criteria not retrieved; plausible mechanism analog requiring verification against current rating criteria and lender practice.",
+      "coordinator_corrections": [
+        "R2C-16"
+      ]
+    },
+    "EVR069": {
+      "transferability_to_target_workflow": "Strong structural analog: producer (responding party/vendor) -> receiving professional (opposing counsel/court) -> decision. Acceptance rests on disclosed process, sampling of what was excluded (checks with no findings), and opportunity to challenge. For diligence: disclose what was reviewed, how, and a sample of what was screened out. [R2C-16] Differences: high-volume document classification with statistical validation and an adversary; diligence judgments are low-volume and bespoke. Needs verification that recipients would accept coverage evidence in place of item review.",
+      "coordinator_corrections": [
+        "R2C-16"
+      ]
+    },
+    "EVR084": {
+      "transferability_to_target_workflow": "Closest regulatory analog to the thesis: the buyer accepts outside work using the supplier's documented evidence and periodic audits of the supplier's process, graded by importance. Diligence analog: lenders accepting IE work based on IE qualification and documented scope rather than redoing it. [R2C-16] Differences: nuclear QA regulation; needs verification of analogous grading in diligence.",
+      "coordinator_corrections": [
+        "R2C-16"
+      ]
+    },
+    "EVR086": {
+      "transferability_to_target_workflow": "Directly supports curated evidence linkage (key assumptions flagged, criteria agreed upfront, interpretive summaries with worked examples) over data dumps. Energy diligence analog: agreeing the IC's acceptance criteria (Basis of Design) with the advisor before work starts. [R2C-16] Guideline prescribes curated linkage; it does not show that curation reduces reviewer effort.",
+      "coordinator_corrections": [
+        "R2C-16"
+      ]
+    },
+    "EVR134": {
+      "transferability_to_target_workflow": "Accountable professional buyer adopted while explicitly retaining professional review; analogous to investors adopting diligence tools while retaining analyst/IC review. [R2C-16] Firm announcement; shows retained review policy, not effort.",
+      "coordinator_corrections": [
+        "R2C-16"
+      ]
+    },
+    "EVR046": {
+      "limitations": "Single asset; read via fetch tool with truncated quotes; no mention of the independent engineer. [R2C-18] Not re-verifiable in Round 2 (blocked); figures come from a fetch-tool summary of a secondary republication; treat as unverified secondary figures, not headline numbers.",
+      "coordinator_corrections": [
+        "R2C-18"
+      ]
+    },
+    "EVR047": {
+      "limitations": "Secondary report, read via fetch tool; does not identify whether P50s came from lender IEs or sponsor consultants; vendor-produced dataset. [R2C-18] Not re-verifiable in Round 2 (blocked); figures come from a fetch-tool summary of a secondary republication; treat as unverified secondary figures, not headline numbers.",
+      "coordinator_corrections": [
+        "R2C-18"
+      ]
+    },
+    "EVR213": {
+      "relationship": "qualifies",
+      "limitations": "Same as above; the decision to import may correlate with other workflow factors. [R2C-19] Outcome is repeat imaging, not end-to-end work; observational, confounding by indication possible (images not imported may have been inadequate); import effort not measured.",
+      "coordinator_corrections": [
+        "R2C-19"
+      ]
+    },
+    "EVR162": {
+      "observed_finding": "At Senate Estimates, the DEWR Secretary said the department should not receive work with glaring errors in footnotes and sources and that her staff should not be double-checking a third-party provider's footnotes; the Minister said departmental processes are expected to ensure consultants' work is high quality. Officials reported recovering $97,587 of the fee. [R2C-21] Finance officials said the errors were discovered only through media reporting (as reported by Region Canberra; Hansard not verified).",
+      "coordinator_corrections": [
+        "R2C-21"
+      ]
+    },
+    "EVR033": {
+      "limitations": "No ground truth for correct adjustment, so effects are on reliance, not accuracy; single case; working paper; CAQ funded. [R2C-22] Same research program as EVR191; distinct experiment.",
+      "coordinator_corrections": [
+        "R2C-22"
+      ]
+    },
+    "EVR191": {
+      "limitations": "Abstract only; no ground truth for 'correct' adjustment stated in abstract; hypothetical case. [R2C-22] Same research program as EVR033; distinct experiment.",
+      "coordinator_corrections": [
+        "R2C-22"
+      ]
+    },
+    "EVR020": {
+      "analyst_inference": "Direct standard-level link: absence of a description of checks performed (X4) forces additional receiver work \u2014 the cleanest public example of W2 caused by missing coverage information. [R2C-25] Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.",
+      "coordinator_corrections": [
+        "R2C-25"
+      ]
+    },
+    "EVR003": {
+      "analyst_inference": "Standard-level recognition that producer documentation of method can substitute for receiver reconstruction (alternative model) \u2014 the closest public-standard analog to P1.2/P2.1. When descriptions are absent, the fallback is building an alternative model: W2 reconstruction caused by opacity. [R2C-25] Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.",
+      "coordinator_corrections": [
+        "R2C-25"
+      ]
+    },
+    "EVR018": {
+      "analyst_inference": "Documentation of procedures and findings is a gating condition for any reliance: without it the receiver must do the work itself (W2). With it, the receiver still evaluates and re-performs some (W1). The standard thus separates W1 and W2 cleanly. [R2C-25] Standards require additional procedures when producer documentation is missing (obligation); whether this produces measurable extra work, or instead shallower review, is not observed in these sources.",
+      "coordinator_corrections": [
+        "R2C-25"
+      ]
+    }
+  },
+  "_eg_alias_rationale": {
+    "EG:pcaob2018-specialists-AS1210": "PCAOB Release 2018-006 and the 84 FR 13442 notice are the same rulemaking (one underlying standard-setting event)",
+    "EG:niederhoffer2025-workslop": "HBR article and BetterUp/Stanford blog report the same survey (WS5 flagged)"
+  },
+  "_audit_resolutions": {
+    "R2C-22": "SRC017 and SRC105 confirmed distinct experiments (same research program); kept as separate evidence groups.",
+    "R2C-01": "Coordinator verified inside-frontier figures from the MIT Sloan-hosted copy of HBS WP 24-013 and added item COORD-E01.",
+    "R2C-17": "Merged source records show the highest access achieved; each evidence item keeps its own access_status (item-level labels govern)."
+  },
+  "pending_dirs": [],
+  "_merge_rationale": {
+    "WS8-S19+R3F-S14": "Same regulation (40 CFR Part 312) retrieved via different URLs by WS8 and R3F"
+  }
+}

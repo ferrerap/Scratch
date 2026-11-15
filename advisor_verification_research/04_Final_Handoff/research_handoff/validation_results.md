@@ -1,0 +1,149 @@
+# Validation results
+
+- Sources: 211; evidence items: 341; underlying evidence groups: 202
+- Revision candidates: 12; disputes referenced in disputes file: 8
+- Errors: 0; warnings: 38
+
+## Errors
+- none
+
+## Warnings
+- EVR048: source_locator 'not located'
+- EVR065: source_locator 'not located'
+- EVR066: source_locator 'not located'
+- EVR067: source_locator 'not located'
+- EVR176: no analyst_inference
+- EVR181: no analyst_inference
+- EVR187: no analyst_inference
+- EVR233: source_locator 'not located'
+- EVR234: source_locator 'not located'
+- EVR289: source_locator 'not located'
+- EVR290: source_locator 'not located'
+- EVR330: source_locator 'not located'
+- SRC071: no evidence items reference this source
+- SRC098: no evidence items reference this source
+- SRC099: no evidence items reference this source
+- SRC173: no evidence items reference this source
+- research_brief.md: 21 long paragraphs without evidence IDs (review manually):
+-    - Run date: 2026-11-15. Evidence register: `sources.json` (SRC###) and `evidence.json` (EVR###). Disputes: `disp
+-    - - **Kinds of evidence.** Each finding names its kind: *obligation* (standard, regulation, doctrine), *observed
+-    - - **Counts.** Weight of evidence is counted in **independent evidence groups** (one study or event, however ma
+-    - - **Transfer.** Almost nothing here is direct evidence from renewable-energy investment committees (IC) or len
+-    - - **Work types.** W1 required independent judgment or governance; W2 avoidable reconstruction; W3 rework from 
+-    - - **Explanation/evidence types.** X1 persuasive explanation; X2 faithful explanation; X3 traceability to evide
+-    - - *Empirical:* recipient review rests on a non-delegable core (deciding, vetting the producer, judging suffici
+-    - - *Empirical:* where documentation is missing, standards prescribe more work. Where evidence is inaccessible, 
+-    - - *Analyst inference:* the reducible part of review is the gap between "evaluate the producer's work" and "re-
+-    - - *Analyst inference:* a traceable advisor report would not remove those haircuts. Back-testing evidence would
+-    - - Whether lenders' and ICs' credit policies distinguish expert-certified content (for example, an IE report wi
+-    - - **Securities-law doctrine** (§11, WorldCom) does not apply to private lenders or ICs. The expertised/non-exp
+-    - - *Empirical (lay experiments, several groups):* checkable evidence (X3/X4) protects detection better than nar
+-    - - *Empirical (obligation and courts):* coverage information supports reliance when it can be independently ver
+-    - - *Analyst inference:* the thesis is best supported in a narrowed form. Claim- and calculation-level traceabil
+-    - - **Court acceptance of coverage validation** rests on high-volume statistical sampling and an adversary. Dili
+-    - - *Empirical (medicine, replicated; finance, one analog):* placing outside evidence inside the recipient's own
+-    - - *Empirical (several groups, mostly generic AI tools):* assistance that produces drafts for the recipient ten
+-    - - The mortgage analog is high-volume and standardized. Project-finance diligence is low-volume and heterogeneo
+-    - - **Totals:** see `READ_FIRST.md` for final counts of sources, evidence items, independent evidence groups and
+-    - - **Corrections:** the Round-2 audit verified 23 consequential statistics against originals and led to recorde
+
+## Sources not reviewed in full text (access_status != full_text)
+- SRC004 (partial): Basis for Conclusions: Narrow-Scope Amendments to IAASB Standards Arising from t
+- SRC005 (partial): ASA 500 Audit Evidence (compiled, Dec 2022) - conforms with ISA 500
+- SRC006 (partial): ASA 610 Using the Work of Internal Auditors (compiled, Dec 2023) - conforms with
+- SRC007 (partial): ASA 402 Audit Considerations Relating to an Entity Using a Service Organisation 
+- SRC008 (partial): Basis for Conclusions: ISAE 3402, Assurance Reports on Controls at a Service Org
+- SRC010 (abstract_only): Audits of Complex Estimates as Verification of Management Numbers: How Instituti
+- SRC011 (abstract_only): Auditors, Specialists, and Professional Jurisdiction in Audits of Fair Values
+- SRC012 (abstract_only): When Do Auditors Use Specialists' Work to Improve Problem Representations of and
+- SRC013 (other): Auditors' and Specialists' Views About the Use of Specialists During an Audit
+- SRC015 (abstract_only): Mind the Gap: Why Do Experts Have Differences of Opinion Regarding the Sufficien
+- SRC016 (other): Auditing Challenging Fair Value Measurements: Evidence from the Field
+- SRC025 (partial): Fitch Revises Topaz Solar Farms LLC's Senior Notes Outlook to Positive; Affirms 
+- SRC026 (partial): US solar asset underperformance worsened over last decade, prompting P50 estimat
+- SRC027 (other): Trends in KBRA's Renewable Portfolio (research report; press release 'KBRA Relea
+- SRC039 (partial): ABA Formal Opinion 512: Generative Artificial Intelligence Tools
+- SRC046 (partial): AI Hallucination Cases Database
+- SRC061 (partial): Measuring the Impact of AI in the Diagnosis of Hospitalized Patients: A Randomiz
+- SRC062 (partial): Google users are less likely to click on links when an AI summary appears in the
+- SRC071 (partial): AI-Generated 'Workslop' Is Destroying Productivity (Harvard Business Review)
+- SRC075 (partial): The state of board reporting (Board Intelligence blog; with Chartered Governance
+- SRC076 (partial): Directors Want Less Volume, More Insight: Key Findings (Society for Corporate Go
+- SRC079 (partial): AI-Driven Investment Memo Acceleration for a PE Secondary Transaction (case stud
+- SRC090 (abstract_only): Accounting for the effects of accountability
+- SRC091 (other): Getting comfortable with the numbers: Auditing and the micro-production of macro
+- SRC097 (abstract_only): Lawyering in the Age of Artificial Intelligence (109 Minn. L. Rev. 147 (2024)) -
+- SRC098 (abstract_only): Lawyering in the Age of Artificial Intelligence - SSRN abstract as reproduced on
+- SRC099 (partial): AI helps lawyers complete work quicker, study finds (Legal Futures)
+- SRC103 (partial): Proxy Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable 
+- SRC104 (partial): RSNA press release: AI Bias May Impair Radiologist Accuracy on Mammogram (on Dra
+- SRC105 (abstract_only): Man Versus Machine: Complex Estimates and Auditor Reliance on Artificial Intelli
+- SRC108 (abstract_only): Cohort study of structured reporting compared with conventional dictation
+- SRC110 (abstract_only): Adequacy of surgical pathology reporting of cancer: a College of American Pathol
+- SRC111 (abstract_only): Structured reporting of multiphasic CT for pancreatic cancer: potential effect o
+- SRC115 (abstract_only): Improving consistency in radiology reporting through the use of department-wide 
+- SRC116 (abstract_only): State of structured reporting in radiology, a survey
+- SRC117 (abstract_only): Content analysis of reporting templates and free-text radiology reports
+- SRC119 (abstract_only): Adherence to synoptic cancer pathology reporting among pathologists in the Natio
+- SRC120 (abstract_only): Mandatory second opinion surgical pathology at a large referral hospital
+- SRC121 (abstract_only): Mandatory second opinion in surgical pathology referral material: clinical conse
+- SRC123 (abstract_only): Reducing the rate of repeat imaging: import of outside images to PACS
+- SRC125 (abstract_only): BI-RADS lexicon for US and mammography: interobserver variability and positive p
+- SRC126 (abstract_only): Structured Head and Neck CT Angiography Reporting Reduces Resident Revision Rate
+- SRC129 (partial): Evaluating Hospital Course Summarization by an Electronic Health Record-Based La
+- SRC130 (partial): Advancing Toward Clinical Deployment of AI-Generated Discharge Summaries: Beyond
+- SRC132 (abstract_only): Efficiency and Quality of Generative AI-Assisted Radiograph Reporting (JAMA Netw
+- SRC134 (abstract_only): Ambient AI Scribes in Clinical Practice: A Randomized Trial (NEJM AI 2025; doi:1
+- SRC135 (abstract_only): A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Im
+- SRC137 (other): Sentence-Level Provenance for AI Medical Record Summarization in a Click-to-Insp
+- SRC138 (blocked): Verify a Note With Linked Evidence (Abridge support article)
+- SRC140 (abstract_only): AI-Generated Draft Replies Integrated Into Health Records and Physicians' Electr
+- SRC155 (abstract_only): Usage and effect of health information exchange: a systematic review
+- SRC156 (abstract_only): Does health information exchange reduce redundant imaging? Evidence from emergen
+- SRC157 (abstract_only): Outside imaging in emergency department transfer patients: CD import reduces rat
+- SRC161 (partial): Inheriting Versus Developing Data Analytic Tests and Auditors' Professional Skep
+- SRC166 (partial): Solar Portfolio Securitization - Technical Due Diligence Report, dated November 
+- SRC168 (partial): Biases in preconstruction estimates of wind plant annual energy production (Wind
+- SRC169 (abstract_only): An independent analysis of bias sources and variability in wind plant pre-constr
+- SRC170 (abstract_only): Offshore energy assessment validation (DNV whitepaper; listing on OurEnergyPolic
+- SRC171 (partial): How standardisation reduces financing uncertainty in wind energy (blog)
+- SRC172 (other): How Bright Are Production Forecasts For Spanish Solar Plants? (S&P Global Rating
+- SRC173 (abstract_only): Terms of Reference: Technical Due Diligence Wind Power Project (sample ToR, IFC-
+- SRC174 (other): NY Green Bank RFP for technical and engineering advisor services (NYSERDA closed
+- SRC176 (partial): Executive Summary - Uncertainties in Yield Assessments and PV LCOE (Report IEA-P
+- SRC177 (partial): Fitch Assigns ReNew Power Restricted Group 4's Proposed Notes 'BB-(EXP)' (rating
+- SRC178 (abstract_only): The effectiveness of alternative risk assessment and program planning tools in a
+- SRC179 (abstract_only): The Influence of Documentation Specificity and Priming on Auditors' Fraud Risk A
+- SRC180 (abstract_only): Decomposition of Fraud-Risk Assessments and Auditors' Sensitivity to Fraud Cues
+- SRC181 (abstract_only): The Influence of Judgment Decomposition on Auditors' Fraud Risk Assessments: Som
+- SRC182 (abstract_only): Auditing Complex Estimates: How Do Construal Level and Evidence Formatting Impac
+- SRC183 (abstract_only): The Informational Value of Key Audit Matters in the Auditor's Report: Evidence f
+- SRC185 (abstract_only): Risk Disclosure Preceding Negative Outcomes: The Effects of Reporting Critical A
+- SRC186 (abstract_only): The Forewarning Effect of Critical Audit Matter Disclosures Involving Measuremen
+- SRC187 (abstract_only): Can a checklist reduce SOS errors in chest radiography?
+- SRC188 (abstract_only): The Influence of a Vocalized Checklist on Detection of Multiple Abnormalities in
+- SRC189 (abstract_only): The invisible gorilla strikes again: sustained inattentional blindness in expert
+- SRC191 (abstract_only): Checklists improve experts' diagnostic decisions
+- SRC192 (abstract_only): Effects of incorrect computer-aided detection (CAD) output on human decision-mak
+- SRC193 (abstract_only): Introduction of surgical safety checklists in Ontario, Canada
+- SRC194 (abstract_only): Causal Analysis of World Health Organization's Surgical Safety Checklist Impleme
+- SRC195 (abstract_only): Checklists to prevent diagnostic errors: a pilot randomized controlled trial
+- SRC196 (abstract_only): Do Critical Audit Matter Paragraphs in the Audit Report Change Nonprofessional I
+- SRC197 (abstract_only): Does Discussing Audit Procedures in Critical Audit Matter Calibrate Financial Re
+- SRC201 (partial): Loan Collateral Advisor FAQ
+- SRC202 (partial): Freddie Mac Seller/Servicer Guide Section 5602.2 (Loan Collateral Advisor), as r
+- SRC203 (blocked): Fannie Mae's 'Day 1 Certainty' Initiative Gives Lenders Greater Certainty and Ef
+- SRC207 (partial): Residential Appraisals: Opportunities to Enhance Oversight of an Evolving Indust
+- SRC209 (partial): The real impact of Fannie Mae's Collateral Underwriter
+- SRC210 (partial): UAD and Forms Redesign FAQs
+- SRC212 (partial): Phase I environmental site assessments: what lenders require (NYREJ Long Island 
+
+## Evidence groups with more than one document
+- EG:pcaob-specialists-2018-rulemaking: 2 documents
+- EG:occ-939a-investment-securities-2012: 2 documents
+- EG:betterup-stanford-workslop-2025: 2 documents
+- EG:lerner-tetlock1999-accountability: 2 documents
+- EG:deloitte-dewr-2025: 2 documents
+- EG:choi2024-lawyering-gpt4-rct: 3 documents
+- EG:small2025-nyu-hospital-course-llm: 2 documents
+- EG:freddiemac-lca-policy: 2 documents

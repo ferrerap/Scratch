@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_id": "COORD-E01",
+    "source_id": "WS6-S02",
+    "research_question_ids": [
+      "RQ1",
+      "RQ3"
+    ],
+    "proposition_tested": "P3.2 Integration/AI assistance shifts review effort elsewhere rather than removing it; P1.3 Rework due to inaccurate output is a major driver (inside-frontier arm of the same experiment)",
+    "work_type_tags": [
+      "W3"
+    ],
+    "concept_tags": [
+      "X5"
+    ],
+    "observed_finding": "In the pre-registered field experiment with 758 BCG consultants, for 18 realistic consulting tasks inside the AI capability frontier, consultants with GPT-4 access completed more tasks, faster, and with higher-rated quality than controls; below-average performers gained most. For one task deliberately designed to be outside the frontier, AI users were less likely to be correct.",
+    "relationship": "challenges",
+    "evidence_type": "field_experiment (pre-registered RCT)",
+    "population_and_setting": "758 BCG individual-contributor consultants (~7% of that level); realistic consulting tasks; producers of analysis, not recipients reviewing outside work",
+    "study_or_observation_method": "Randomized assignment to no AI / GPT-4 / GPT-4 + prompt-engineering overview after a baseline task",
+    "intervention_and_comparator": "GPT-4 access (with or without prompt overview) vs no AI access",
+    "outcome_measured": "Task completion, time, human-graded quality (inside frontier); binary correctness (outside frontier)",
+    "quantitative_result": "Inside frontier: 12.2% more tasks completed on average, 25.1% more quickly, >40% higher quality vs control; below-average performers +43%, above-average +17% vs own baseline. Outside frontier: correctness ~84.5% control vs 60% and 70% in AI conditions (average -19 percentage points).",
+    "source_locator": "Abstract (p.1); Section 3.1 'Quality and Productivity Booster - Inside the Frontier'; Section 3.2 'Quality Disruptor - Outside the frontier' (correctness paragraph, Figure 7, Table 4) \u2014 HBS Working Paper 24-013 as hosted at mitsloan.mit.edu",
+    "short_exact_excerpt": "consultants using AI were significantly more productive (they completed 12.2% more tasks on average, and completed tasks 25.1% more quickly), and produced significantly higher quality results",
+    "underlying_evidence_group": "EG:dellacqua2023-bcg-jagged-frontier",
+    "limitations": "Producer-side use of AI by consultants on their own tasks, not recipients reviewing outside analysis. Quality graded by humans; outside-frontier task deliberately designed so that GPT-4 would give a plausible but wrong answer (Section 3.2), so the -19 pp result is a constructed stress test, not a prevalence estimate. Working-paper version (2023); published version (Organization Science) not checked.",
+    "transferability_to_target_workflow": "Mechanism analog only: advisor-side AI can raise output volume/quality on in-frontier tasks while degrading correctness on tasks where the AI is plausibly wrong. For renewable-energy diligence, needs verification of which diligence tasks are inside vs outside the frontier and whether recipients can tell. Differences: consultants are producers; no client review step was measured.",
+    "analyst_inference": "Added by the coordinator to correct selective reporting flagged by R2C-01: the register previously contained only the outside-frontier arm. Read together, the two arms imply that rework risk (W3) is task-dependent and hard for producers to see, rather than uniformly high.",
+    "access_status": "full_text"
+  }
+]

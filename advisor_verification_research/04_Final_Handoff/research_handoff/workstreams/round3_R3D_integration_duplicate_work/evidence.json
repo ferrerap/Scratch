@@ -1,0 +1,480 @@
+[
+  {
+    "evidence_id": "R3D-E01",
+    "source_id": "R3D-S01",
+    "proposition_tested": "P3.1 Integrating outside evidence into the recipient's system reduces duplicated work end-to-end",
+    "work_type_tags": [
+      "W2",
+      "W5"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Across 17 articles (42 studies) on PACS, regional image exchange, interoperable EHRs, CD import tools and HIE, image sharing technology was associated with a significant decrease in repeat imaging; the decrease was larger in the most rigorous studies.",
+    "relationship": "supports",
+    "evidence_type": "systematic review and random-effects meta-analysis (mostly observational primary studies)",
+    "population_and_setting": "Published and grey English-language literature 2004-2014; 58.8% of articles set in emergency departments; mostly U.S.",
+    "study_or_observation_method": "Random-effects meta-analysis and meta-regression of standardized effect sizes; risk-of-bias rating on 7 safeguards",
+    "intervention_and_comparator": "Image sharing technology available vs not available (or before vs after)",
+    "outcome_measured": "Repeat (including unnecessary) imaging utilization",
+    "quantitative_result": "Repeat imaging pooled ES = -0.17 (95% CI -0.25 to -0.09; P < .001). Most rigorous studies (n = 25 studies with >=4 safeguards): repeat imaging ES = -0.27 (95% CI -0.33 to -0.21). Heterogeneity I^2 = 98%. 57% of all studies found some reduction.",
+    "source_locator": "Abstract (Results); Results section 'Estimated Effect of Image Sharing Technology on Imaging Utilization'; Appendix 1 secondary analysis",
+    "short_exact_excerpt": "Image sharing technology was associated with a significant decrease in repeat imaging (pooled effect size [ES] = -0.17; 95% confidence interval [CI] = [-0.25, -0.09]; P < .001).",
+    "underlying_evidence_group": "EG:vest2015-image-sharing-meta-analysis",
+    "limitations": "Standardized effect size not converted into natural units; most studies at moderate/high risk of bias; overlaps with primary studies in other reviews and with Lu 2012 (register SRC123); outcome is test utilization, not clinician effort.",
+    "transferability_to_target_workflow": "Mechanism that transfers: evidence already produced elsewhere is less likely to be regenerated when it is available inside the recipient's own system at the point of decision. Differences: a repeat scan is a discrete, countable duplicate with a clear definition; IC 'reconstruction' (re-running energy yield, re-checking interconnection or offtake assumptions) is analytic work, partly mandated (W1), with no standard duplicate definition. Needs verification: whether IC teams re-derive advisor numbers because the evidence is not in their model/data room (W2/W5) versus because policy requires independent derivation (W1).",
+    "analyst_inference": "Integration of outside evidence reliably reduces duplicate regeneration of that same evidence, but the authors themselves call the effect 'modest'; this replicates the direction of Lu 2012 at scale, not its magnitude (Lu's 72%->11% is a single-site extreme).",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E02",
+    "source_id": "R3D-S01",
+    "proposition_tested": "P3.2 Integration shifts effort/utilization elsewhere rather than removing it (offset)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "The same technologies were associated with a significant increase in any imaging utilization, and for all outcomes combined image sharing was not associated with utilization. Authors suggest easier access may also make ordering easier, particularly in EHRs.",
+    "relationship": "supports",
+    "evidence_type": "systematic review and meta-analysis",
+    "population_and_setting": "As R3D-E01",
+    "study_or_observation_method": "As R3D-E01",
+    "intervention_and_comparator": "Image sharing technology vs none",
+    "outcome_measured": "Any imaging utilization; all utilization outcomes combined",
+    "quantitative_result": "Any imaging pooled ES = 0.20 (95% CI 0.07 to 0.32; P = .002); most rigorous studies 0.17 (95% CI 0.04 to 0.30). All outcomes combined ES = 0.00 (95% CI -0.07 to 0.07; P = .991). Meta-regression repeat vs any imaging beta = -0.58 (95% CI -0.84 to -0.33).",
+    "source_locator": "Abstract (Results); Results tables; Discussion",
+    "short_exact_excerpt": "However, image sharing technology was associated with a significant increase in any imaging utilization (pooled ES = 0.20; 95% CI = [0.07, 0.32]; P = .002).",
+    "underlying_evidence_group": "EG:vest2015-image-sharing-meta-analysis",
+    "limitations": "'Any imaging' and 'repeat imaging' come largely from different studies, so the offset is not observed within the same populations; mechanism for the increase is the authors' conjecture.",
+    "transferability_to_target_workflow": "Mechanism that transfers: making more outside analysis easily available inside the recipient's system may expand the volume of analysis requested/consumed (more scenarios, more checks) even while removing duplication. Needs verification in IC settings: whether integrated advisor outputs reduce total diligence hours or just reallocate them.",
+    "analyst_inference": "This is the clearest quantitative sign that 'duplicate avoided' and 'total work reduced' are different outcomes; a vendor claiming reduced reconstruction should be asked for total-effort, not just duplicate-rate, metrics.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E03",
+    "source_id": "R3D-S01",
+    "research_question_ids": [
+      "RQ3",
+      "RQ2"
+    ],
+    "proposition_tested": "P3.1 / P3.2 — whether review effort added by integration has been measured",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [],
+    "observed_finding": "The review states it does not assess efficiency, satisfaction or cost; generalizability is limited because many studies used one organization or one technology; effects could not be stratified by modality, patient or condition.",
+    "relationship": "contextual",
+    "evidence_type": "systematic review limitation statement",
+    "population_and_setting": "As R3D-E01",
+    "study_or_observation_method": "Authors' stated limitations",
+    "intervention_and_comparator": null,
+    "outcome_measured": "Scope of outcomes covered by the literature",
+    "quantitative_result": null,
+    "source_locator": "Discussion — Limitations paragraph",
+    "short_exact_excerpt": null,
+    "underlying_evidence_group": "EG:vest2015-image-sharing-meta-analysis",
+    "limitations": "Statement about this review's scope, not proof that no efficiency studies exist.",
+    "transferability_to_target_workflow": "The imaging literature measures avoided duplicate production (scans), not the reviewing clinician's time to locate, open and interpret outside material — the quantity most analogous to IC-team review effort. Transfer to 'review time saved' is therefore an inference, not an observation.",
+    "analyst_inference": "Absence of evidence on review time: the medical analog cannot tell us whether integration adds reading/reconciliation work for the receiving professional.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "R3D-E04",
+    "source_id": "R3D-S02",
+    "proposition_tested": "P3.1 Integrating outside records reduces duplicated testing",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Of 34 HIE outcome studies, low-quality evidence generally finds HIE reduces duplicative laboratory and radiology testing. Laboratory testing: 4 ED studies reported reduced testing; of 2 ambulatory studies, one found increased testing and one a slowing of growth. Radiology: 7 ED studies reported reduced testing; of 2 ambulatory studies one reported a decrease and one no change.",
+    "relationship": "qualifies",
+    "evidence_type": "systematic review (AHRQ-funded, strength-of-evidence graded)",
+    "population_and_setting": "Studies of HIE in clinical or public health settings, any country, 1990-Feb 2015",
+    "study_or_observation_method": "Systematic review with dual extraction; strength of evidence rated",
+    "intervention_and_comparator": "HIE availability/use vs none",
+    "outcome_measured": "Duplicative laboratory and radiology testing, ED costs, admissions",
+    "quantitative_result": "34 studies included (2 RCTs, 32 observational/survey). Lab testing: 6 studies (4 ED reductions; ambulatory: 1 increase, 1 slowed growth). Radiology: 9 studies (7 ED reductions; ambulatory: 1 decrease, 1 no change). Strength of evidence: low.",
+    "source_locator": "Abstract (Results); Results, 'Improving Resource Use' and Table 2",
+    "short_exact_excerpt": "Low-quality evidence generally finds that HIE reduces duplicative laboratory and radiology testing, emergency department costs, hospital admissions (less so for readmissions)",
+    "underlying_evidence_group": "EG:hersh2015-ahrq-hie-outcomes-review",
+    "limitations": "Counts of studies, not pooled effects; retrospective designs; heterogeneous HIE types.",
+    "transferability_to_target_workflow": "Effects concentrate in high-tempo ED settings where the alternative to using outside evidence is fast regeneration; ambulatory (slower, more deliberative) settings are mixed — closer to the deliberative IC setting. Mechanism that transfers: evidence already produced elsewhere is less likely to be regenerated when it is available inside the recipient's own system at the point of decision. Differences: a repeat scan is a discrete, countable duplicate with a clear definition; IC 'reconstruction' (re-running energy yield, re-checking interconnection or offtake assumptions) is analytic work, partly mandated (W1), with no standard duplicate definition. Needs verification: whether IC teams re-derive advisor numbers because the evidence is not in their model/data room (W2/W5) versus because policy requires independent derivation (W1).",
+    "analyst_inference": "Setting moderates: the duplicate-avoidance benefit is strongest where regeneration is quick and the outside evidence is immediately decision-relevant; deliberative settings show mixed results.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E05",
+    "source_id": "R3D-S03",
+    "proposition_tested": "P3.1 Integrating outside records reduces duplicated procedures (rigorous designs)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "24 articles (63 analyses, 2014-2017): 7 studies with designs suitable for causal inference all reported some beneficial effect, none adverse; benefits include fewer duplicated procedures and reduced imaging. Community HIEs were more likely to report benefits than enterprise or vendor-mediated exchange.",
+    "relationship": "supports",
+    "evidence_type": "systematic review (vote count)",
+    "population_and_setting": "Mostly U.S. studies from 9 states; ~40% of analyses from a handful of New York HIEs",
+    "study_or_observation_method": "PRISMA systematic review of PubMed and Scopus; classification of analyses as beneficial/null/adverse",
+    "intervention_and_comparator": "HIE vs no HIE",
+    "outcome_measured": "Utilization, cost, quality, safety outcomes",
+    "quantitative_result": "All 63 analyses: 68.3% beneficial, 7.9% adverse, remainder no effect. Rigorous designs: 7 of 24 articles (13 of 63 analyses); 10 of 13 analyses beneficial, 3 no effect, 0 adverse. Study level: community HIEs 70.3% vs other types 54.2% reporting benefit (P = .04). One study (Eftekhari et al.) found reduced repetition of therapeutic but not diagnostic procedures; one Israeli cohort found HIE adversely related to number of imaging tests ordered.",
+    "source_locator": "Abstract; Results — 'Rigorous Studies', 'Healthcare Utilization', 'HIE Type'; Tables 1 and 3",
+    "short_exact_excerpt": "Seven of the 24 studies used designs suitable for causal inference and all reported some beneficial effect from HIE; none reported adverse effects.",
+    "underlying_evidence_group": "EG:menachemi2018-hie-updated-review",
+    "limitations": "Vote counting hides magnitudes; New York concentration; publication bias possible; percentages and derived counts partly from automated extraction of full text.",
+    "transferability_to_target_workflow": "Suggests shared, neutral, multi-party infrastructure (community HIE) outperforms enterprise/vendor-specific exchange — analogous to a common evidence format usable across advisors and investors vs bespoke supplier portals. Mechanism that transfers: evidence already produced elsewhere is less likely to be regenerated when it is available inside the recipient's own system at the point of decision. Differences: a repeat scan is a discrete, countable duplicate with a clear definition; IC 'reconstruction' (re-running energy yield, re-checking interconnection or offtake assumptions) is analytic work, partly mandated (W1), with no standard duplicate definition. Needs verification: whether IC teams re-derive advisor numbers because the evidence is not in their model/data room (W2/W5) versus because policy requires independent derivation (W1).",
+    "analyst_inference": "Better-designed studies point the same way as weaker ones, which strengthens the direction of effect; but 'some beneficial effect' is not 'large effect', and adverse/null analyses (~32%) persist.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E06",
+    "source_id": "R3D-S04",
+    "proposition_tested": "P3.1 qualified: availability of outside evidence vs actual use in workflow",
+    "work_type_tags": [
+      "W2",
+      "W5"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Low-quality evidence from 12 hypothesis-testing studies supports reduced ED use or costs; direct evidence from 21 studies (13 HIE organizations) generally showed provider usage in less than 10% of patient encounters; barriers include technical and workflow issues, costs and privacy.",
+    "relationship": "qualifies",
+    "evidence_type": "systematic review",
+    "population_and_setting": "English-language quantitative studies of exchange among unaffiliated organizations, 2003-May 2014",
+    "study_or_observation_method": "Systematic review, duplicate extraction (PROSPERO CRD42014007469)",
+    "intervention_and_comparator": "HIE availability/use",
+    "outcome_measured": "HIE usage rates; ED utilization/costs; barriers",
+    "quantitative_result": "12 hypothesis-testing studies (ED use/costs, low-quality); 21 usage studies from 13 HIE organizations (6 in New York): usage generally <10% of patient encounters; ~one quarter of HIE organizations financially stable (17 studies).",
+    "source_locator": "Abstract (Data Synthesis; Conclusion)",
+    "short_exact_excerpt": "Direct evidence that HIEs were used by providers was reported in 21 studies involving 13 distinct HIE organizations, 6 of which were located in New York, and generally showed usage in less than 10% of patient encounters.",
+    "underlying_evidence_group": "EG:rudin2014-hie-usage-review",
+    "limitations": "Abstract only; usage figures may be outdated (pre-2014) and vary by organization.",
+    "transferability_to_target_workflow": "Mechanism that transfers: an outside-evidence channel that sits outside the recipient's working tools is rarely opened, so its duplicate-avoidance potential is unrealized. For IC workflows: a separate advisor portal may see low use unless evidence lands inside the model, memo or data room the team already works in. Needs verification: actual usage logs of advisor deliverables by IC teams.",
+    "analyst_inference": "Low usage is a strong reason why 'integration into the recipient's own system' (Lu: imported to PACS; Sodickson: CD import) differs from mere 'access' — and why population-level effects are smaller than single-site import effects.",
+    "access_status": "abstract_only",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E07",
+    "source_id": "R3D-S05",
+    "proposition_tested": "P3.1 Integrating outside evidence reduces duplicated work at scale (multi-site)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Comparing 37 EDs that initiated HIE participation with 410 that did not (California and Florida, 2007-2010), HIE was associated with reduced probability of repeat imaging at unaffiliated EDs within 30 days for CT, ultrasound and chest x-ray.",
+    "relationship": "supports",
+    "evidence_type": "observational panel (difference-in-differences style with ED fixed effects and trends)",
+    "population_and_setting": "ED discharge data, State Emergency Department Databases, CA and FL, 2007-2010; 447 EDs",
+    "study_or_observation_method": "Regression with ED fixed effects and trends; HIE participation from HIMSS data",
+    "intervention_and_comparator": "EDs initiating HIE participation (n=37) vs non-participating EDs (n=410)",
+    "outcome_measured": "Probability of repeat CT, ultrasound, chest x-ray (same study, same body region, within 30 days at unaffiliated ED)",
+    "quantitative_result": "Baseline repeat rates: CT 14.7% (20,139 repeats), ultrasound 20.7% (13,060), chest x-ray 19.5% (29,703). HIE effect: CT -8.7 percentage points (95% CI -14.7 to -2.7); ultrasound -9.1 pp (95% CI -17.2 to -1.1); chest x-ray -13.0 pp (95% CI -18.3 to -7.7); 44%-67% relative to sample means.",
+    "source_locator": "Abstract (Results)",
+    "short_exact_excerpt": "HIE was associated with reduced probability of repeat ED imaging in all 3 modalities",
+    "underlying_evidence_group": "EG:lammers2014-hie-ed-repeat-imaging",
+    "limitations": "Abstract only; exposure is hospital participation not clinician use; wide CIs; early-adopter EDs may differ; only repeats across unaffiliated EDs counted.",
+    "transferability_to_target_workflow": "Mechanism that transfers: evidence already produced elsewhere is less likely to be regenerated when it is available inside the recipient's own system at the point of decision. Differences: a repeat scan is a discrete, countable duplicate with a clear definition; IC 'reconstruction' (re-running energy yield, re-checking interconnection or offtake assumptions) is analytic work, partly mandated (W1), with no standard duplicate definition. Needs verification: whether IC teams re-derive advisor numbers because the evidence is not in their model/data room (W2/W5) versus because policy requires independent derivation (W1).",
+    "analyst_inference": "A multi-site estimate with relative reductions (44-67%) comparable to single-site studies — the strongest pro-integration evidence found; however, it contrasts with the national 2018 null in R3D-E10, suggesting context or period dependence.",
+    "access_status": "abstract_only",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E08",
+    "source_id": "R3D-S06",
+    "proposition_tested": "P3.1 Importing outside evidence into the recipient's own system reduces duplicated work (replication of Lu 2012 at another site)",
+    "work_type_tags": [
+      "W2",
+      "W5"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "Among ED transfer patients, successful import of outside-hospital CDs into the receiving PACS was followed by fewer subsequent diagnostic exams and CTs within 24 hours than failed import, and fewer CTs than a pre-implementation historical control.",
+    "relationship": "supports",
+    "evidence_type": "retrospective cohort (successful vs failed import) plus historical control",
+    "population_and_setting": "1,487 consecutive ED transfer patients with outside CDs, Brigham and Women's Hospital, Feb-Aug 2009; historical control 254 patients Aug 2007-Jan 2008",
+    "study_or_observation_method": "Comparison of imaging counts within 24h after import attempt; Wilcoxon rank sum tests",
+    "intervention_and_comparator": "Successful CD import to PACS (78%, 1161/1487) vs failed import; and vs historical controls before import procedures",
+    "outcome_measured": "Mean diagnostic exams and CT scans per patient within 24 hours",
+    "quantitative_result": "All diagnostic imaging: 3.30 (failed) vs 2.74 (successful) exams/patient, 17% reduction (P < .001). CT: 1.41 vs 1.19 scans/patient, 16% reduction (P = .01). Versus historical control: CT 1.18 vs 0.84 scans/patient, 29% reduction (P < .001). Import failure rate 22%.",
+    "source_locator": "Abstract (Results)",
+    "short_exact_excerpt": "CD import of outside imaging from the sending institution into the receiving institution's PACS significantly decreased the rates of subsequent imaging utilization.",
+    "underlying_evidence_group": "EG:sodickson2011-cd-import-ed-transfers",
+    "limitations": "Single site; non-random import failure; abstract only; import itself requires staff processing (not quantified in abstract).",
+    "transferability_to_target_workflow": "Most direct analog to 'integrating advisor outputs into the client's own system': the same outside evidence, once in the native system, is regenerated less. Mechanism that transfers: evidence already produced elsewhere is less likely to be regenerated when it is available inside the recipient's own system at the point of decision. Differences: a repeat scan is a discrete, countable duplicate with a clear definition; IC 'reconstruction' (re-running energy yield, re-checking interconnection or offtake assumptions) is analytic work, partly mandated (W1), with no standard duplicate definition. Needs verification: whether IC teams re-derive advisor numbers because the evidence is not in their model/data room (W2/W5) versus because policy requires independent derivation (W1).",
+    "analyst_inference": "Replicates Lu 2012's direction at a second academic center but with a smaller effect (16-29% vs Lu's 52%->11% CD vs imported contrast), consistent with Lu being an upper-bound estimate.",
+    "access_status": "abstract_only",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E09",
+    "source_id": "R3D-S07",
+    "proposition_tested": "P3.1 Integrated outside records reduce duplicated tests; P3.2 the integration work is relocated to new staff",
+    "work_type_tags": [
+      "W2",
+      "W5"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "In one ED, patients whose care included an HIE query had fewer lab tests and radiology exams than controls; the queries were performed by medical liaisons hired to query the HIE and provide the history to ED clinicians.",
+    "relationship": "qualifies",
+    "evidence_type": "non-randomized field comparison",
+    "population_and_setting": "One suburban ED, Western New York (HEALTHeLINK HIE), March 27 - May 24, 2014; 698 treatment and 1,275 control patients",
+    "study_or_observation_method": "Negative binomial regression of test counts; controls were patients treated during shifts without liaisons",
+    "intervention_and_comparator": "HIE query by dedicated liaison for every encounter vs no HIE query",
+    "outcome_measured": "Number of laboratory tests and radiology examinations per patient",
+    "quantitative_result": "Laboratory tests: coefficient -0.72 (SE 0.13, p<.01), ~52% reduction in expected count. Radiology exams: coefficient -0.44 (SE 0.07, p<.01), ~36% reduction. No CIs reported.",
+    "source_locator": "Abstract (Methods, Results); Table 2",
+    "short_exact_excerpt": "A group of medical liaisons were hired to query the medical history of patients from an HIE and provide it to the ED clinicians.",
+    "underlying_evidence_group": "EG:yaraghi2015-hie-liaison-ed",
+    "limitations": "Non-random shift assignment; 2 months; one ED; effect is of a staffed intermediary service; no measure of clinician reading time. Liaison staffing cost/time not netted against savings in the analysis reviewed.",
+    "transferability_to_target_workflow": "Mechanism: the duplicate-avoidance benefit appeared when someone else did the retrieval/integration labor and delivered evidence to the decision-maker — analogous to an advisor or analyst pre-integrating evidence into the IC memo. Difference: the cost of that intermediary labor was not netted against savings, so end-to-end effort reduction is unknown.",
+    "analyst_inference": "Large effect, but it shows integration labor relocated to a dedicated role rather than eliminated; supports P3.1 for duplicated production and P3.2 for where the work went.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E10",
+    "source_id": "R3D-S08",
+    "proposition_tested": "P3.1 Integration reduces duplicated work at scale (national test)",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3"
+    ],
+    "observed_finding": "In 2018 national Medicare data, fragmented readmissions (to a different hospital) had higher odds of repeat same-body-system imaging, and this was not mitigated when both hospitals shared an HIE; the authors conclude HIEs as deployed are not associated with decreased repeat imaging in readmissions.",
+    "relationship": "challenges",
+    "evidence_type": "national retrospective cohort",
+    "population_and_setting": "275,860 admission-readmission pairs (269,348 patients, 3,436 hospitals), Medicare FFS 2018; 13.2% of pairs with Alzheimer disease",
+    "study_or_observation_method": "Unadjusted and adjusted logistic regression with readmission-hospital fixed effects; HIE exposure from AHA IT Supplement",
+    "intervention_and_comparator": "Fragmented readmission to hospital sharing same HIE (4.6% of pairs) vs non-fragmented same-hospital readmission (66.0%); also different-HIE, no-HIE, missing",
+    "outcome_measured": "Repeat imaging of same body system during 30-day readmission",
+    "quantitative_result": "14.3% of beneficiaries had repeat imaging. Fragmented vs non-fragmented: ~5% higher odds (no AD). Same-HIE fragmented readmissions: AOR 1.06 (95% CI 1.00-1.13). No difference for beneficiaries with AD.",
+    "source_locator": "Abstract (Results, Conclusions), p. 66; Results p. 67-68; Conclusions p. 69-70",
+    "short_exact_excerpt": "Despite substantial investment, HIEs as currently deployed and used are not associated with decreased odds of repeat imaging in readmissions.",
+    "underlying_evidence_group": "EG:turbow2024-medicare-hie-repeat-imaging",
+    "limitations": "Exposure is hospital-reported participation, not use; 16.3% missing HIE data; unknown whether images or only reports shared; inpatient readmission setting differs from ED studies.",
+    "transferability_to_target_workflow": "Mechanism that transfers: institutional membership in an evidence-sharing network does not by itself change recipients' regeneration behavior. For IC workflows: subscribing to/receiving a structured advisor product is not the same as integrating it into the team's working model and memo. Mechanism that transfers: evidence already produced elsewhere is less likely to be regenerated when it is available inside the recipient's own system at the point of decision. Differences: a repeat scan is a discrete, countable duplicate with a clear definition; IC 'reconstruction' (re-running energy yield, re-checking interconnection or offtake assumptions) is analytic work, partly mandated (W1), with no standard duplicate definition. Needs verification: whether IC teams re-derive advisor numbers because the evidence is not in their model/data room (W2/W5) versus because policy requires independent derivation (W1).",
+    "analyst_inference": "The strongest counterevidence found: at national scale and in a later period, 'integration' measured as network presence shows no reduction. Reconciles with E06/E08 if the active ingredient is point-of-care integration, not connectivity.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E11",
+    "source_id": "R3D-S08",
+    "research_question_ids": [
+      "RQ3",
+      "RQ1"
+    ],
+    "proposition_tested": "P1.6 / P3.2 Recipients regenerate evidence despite access because of search cost, missing content, or distrust of outside interpretation",
+    "work_type_tags": [
+      "W1",
+      "W2",
+      "W3"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "Authors offer (as possibilities, not tested) that it may be easier to order a test than search an HIE, that needed information may not be in the HIE, that HIE presence is not HIE use, and that a repeat test may be ordered because the provider does not trust another hospital's interpretation; they also note not all repeat imaging is wasteful.",
+    "relationship": "contextual",
+    "evidence_type": "author discussion/speculation",
+    "population_and_setting": "As R3D-E10",
+    "study_or_observation_method": "Discussion section reasoning, citing prior survey work on reasons for low HIE use",
+    "intervention_and_comparator": null,
+    "outcome_measured": null,
+    "quantitative_result": null,
+    "source_locator": "Discussion p. 69 ('Possible reasons for this association...'); Conclusions p. 70",
+    "short_exact_excerpt": "Possible reasons for this association could include that it is easier to order a test instead of searching through an HIE for past results",
+    "underlying_evidence_group": "EG:turbow2024-medicare-hie-repeat-imaging",
+    "limitations": "Untested hypotheses; no data on clinician reasoning in this study.",
+    "transferability_to_target_workflow": "Maps directly onto IC reconstruction drivers: search cost (W2/W5), incompleteness of outside evidence (W3), distrust of outside interpretation (P1.6), and legitimate re-analysis (W1). Needs verification by observing why IC analysts re-run advisor analyses.",
+    "analyst_inference": "Even in medicine, duplicate avoidance depends on whether the outside evidence is complete and trusted, not merely present — consistent with RQ1 findings that review persists for reasons beyond access.",
+    "access_status": "full_text"
+  },
+  {
+    "evidence_id": "R3D-E12",
+    "source_id": "R3D-S09",
+    "proposition_tested": "P3.1 Electronic integration of third-party data into credit decisions reduces end-to-end processing time without loss of quality",
+    "work_type_tags": [
+      "W2",
+      "W5"
+    ],
+    "concept_tags": [
+      "X3",
+      "X5"
+    ],
+    "observed_finding": "FinTech mortgage lenders (online applications, electronic collection and automated verification of borrower data against third-party databases, centralized partially automated underwriting) process applications faster than other lenders, with lower FHA default rates and no significant difference in interest rates.",
+    "relationship": "supports",
+    "evidence_type": "observational loan-level comparison with fixed effects (analog)",
+    "population_and_setting": "Near-universe of U.S. mortgage applications/originations 2010-2016 (HMDA and other loan-level data)",
+    "study_or_observation_method": "OLS of processing days on FinTech-lender indicator with loan/borrower controls and census tract-month fixed effects; FHA default regressions",
+    "intervention_and_comparator": "FinTech lenders vs other lenders (banks and non-banks)",
+    "outcome_measured": "Days from application to closing; ex-post default (FHA loans); interest rates",
+    "quantitative_result": "About 10 days faster, ~20% of average processing time; purchase loans 7.9 days (15% of 52-day mean) to ~18% with controls/FE; refinances 9.3-14.6 days faster (17%-29% of 51-day mean). FHA default rates on FinTech mortgages about 25% lower than traditional lenders with loan controls; no significant interest-rate difference.",
+    "source_locator": "Abstract; Introduction pp. 1-2; Section 'A. Processing time results' (Table 3) p. 12",
+    "short_exact_excerpt": "we find that FinTech lenders reduce processing time by about 10 days, or 20% of the average processing time.",
+    "underlying_evidence_group": "EG:fuster2019-fintech-mortgage-processing",
+    "limitations": "Lender-type comparison bundles many features; selection of borrowers partly addressed but not eliminated; mortgage underwriting is highly standardized; WP version.",
+    "transferability_to_target_workflow": "Mechanism: when third-party evidence arrives electronically and is checked automatically inside the lender's own system, end-to-end cycle time falls without measured quality loss. Differences: renewable project finance diligence is bespoke, low-volume, judgment-heavy, and relies on advisor reports (IE, energy yield, legal) rather than databases; quality outcome (project default) is rare and slow.",
+    "analyst_inference": "A credible end-to-end (not task-level) finance analog showing moderate (~20%) cycle-time gains — much smaller than task-level automation claims — with quality preserved. It does not isolate reviewer effort.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E13",
+    "source_id": "R3D-S09",
+    "proposition_tested": "P3.3 / P5.1 Standardized, automatable steps shrink while non-automated steps and human underwriting remain",
+    "work_type_tags": [
+      "W1",
+      "W5"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Authors state automation does not eliminate human underwriters but makes processing less labor-intensive and more standardized and repeatable; the larger refinance advantage may reflect that purchase loans always require a locally administered, not-yet-automated appraisal.",
+    "relationship": "supports",
+    "evidence_type": "institutional description and authors' interpretation",
+    "population_and_setting": "As R3D-E12",
+    "study_or_observation_method": "Institutional background (industry interviews) and interpretation of heterogeneous effects",
+    "intervention_and_comparator": "FinTech vs other lenders; refinance vs purchase",
+    "outcome_measured": "Processing time by loan type",
+    "quantitative_result": "Refinance advantage 9.3-14.6 days vs purchase 7.9 days (see R3D-E12).",
+    "source_locator": "Section on FinTech business model pp. 6-7; Section 'A. Processing time results' p. 12",
+    "short_exact_excerpt": "This approach does not eliminate the role of human underwriters, but does make mortgage processing less labor-intensive.",
+    "underlying_evidence_group": "EG:fuster2019-fintech-mortgage-processing",
+    "limitations": "Appraisal explanation is the authors' interpretation; human underwriting time not measured.",
+    "transferability_to_target_workflow": "Analog for IC workflows: the end-to-end gain is bounded by the slowest non-integrated, judgment- or site-specific step (here appraisal; in renewables e.g. IE site review, interconnection studies, legal title work).",
+    "analyst_inference": "End-to-end gains are capped by residual human/bespoke steps — consistent with P3.3 that drafting/assembly is the most reducible portion.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  },
+  {
+    "evidence_id": "R3D-E14",
+    "source_id": "R3D-S10",
+    "research_question_ids": [
+      "RQ3",
+      "RQ2",
+      "RQ1"
+    ],
+    "proposition_tested": "P-NEW: Integrating analysis developed by someone else reduces the recipient's follow-up work partly by reducing skeptical action on red flags (lower scrutiny, not just less duplication)",
+    "work_type_tags": [
+      "W1",
+      "W2"
+    ],
+    "concept_tags": [
+      "X4",
+      "X5"
+    ],
+    "observed_finding": "In an experiment with 173 audit practitioners in which a data analytic test flagged a potential fraud red flag, auditors who inherited the test (developed by someone else) were less likely to take skeptical actions than auditors who developed it; mediation analyses point to reduced psychological ownership.",
+    "relationship": "supports",
+    "evidence_type": "between-subjects experiment (hypothetical audit case)",
+    "population_and_setting": "173 audit practitioners (rank/experience not verified)",
+    "study_or_observation_method": "Three-condition experiment: developed ADA; inherited ADA; inherited ADA plus development memo",
+    "intervention_and_comparator": "Inherited (outside-developed) ADA vs self-developed ADA",
+    "outcome_measured": "Whether participants judged more work was needed and escalated (skeptical action); sales estimates",
+    "quantitative_result": "Per university press release: 54% (developed) vs 26% (inherited) said more work was needed and escalated. Cell sizes and test statistics not verified.",
+    "source_locator": "Abstract (VU research portal excerpt); NC State press release 2025-09 (percentages)",
+    "short_exact_excerpt": "auditors who inherited the ADA are less likely to exercise skeptical actions",
+    "underlying_evidence_group": "EG:li2026-inherited-ada-skepticism",
+    "limitations": "Full text blocked (403); percentages from press release; hypothetical setting; single red flag; one analytic type.",
+    "transferability_to_target_workflow": "Directly relevant to IC teams receiving an advisor's model or analysis: less follow-up on an inherited analysis may look like 'reduced reconstruction' but can be reduced scrutiny of genuine red flags. Needs verification: whether IC reviewers of advisor-built models follow up on anomalies less than on in-house models.",
+    "analyst_inference": "Key caution for RQ3: lower recipient work after integration is not automatically a benefit — part of it may be lost skepticism (P2.3-like effect on reliance). Effort reduction must be measured jointly with error/red-flag detection.",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "R3D-E15",
+    "source_id": "R3D-S10",
+    "research_question_ids": [
+      "RQ2",
+      "RQ3"
+    ],
+    "proposition_tested": "P2.4 Visibility into how the analysis was developed (scope, process) improves appropriate reliance",
+    "work_type_tags": [
+      "W2"
+    ],
+    "concept_tags": [
+      "X3",
+      "X4"
+    ],
+    "observed_finding": "Providing inheriting auditors with a brief memorandum documenting the test's development mitigated the negative effect of inheriting on skeptical actions, partially (not fully) closing the gap.",
+    "relationship": "supports",
+    "evidence_type": "between-subjects experiment",
+    "population_and_setting": "As R3D-E14",
+    "study_or_observation_method": "As R3D-E14",
+    "intervention_and_comparator": "Inherited ADA + development memo vs inherited ADA alone (and vs developed)",
+    "outcome_measured": "Skeptical action rate",
+    "quantitative_result": "Per press release: 34% (inherited + memo) vs 26% (inherited) vs 54% (developed). Statistical significance not verified.",
+    "source_locator": "Abstract (search excerpt); NC State press release",
+    "short_exact_excerpt": "a brief memorandum documenting the ADA's development",
+    "underlying_evidence_group": "EG:li2026-inherited-ada-skepticism",
+    "limitations": "As R3D-E14; memo effect size is modest and partial.",
+    "transferability_to_target_workflow": "Suggests that advisor deliverables documenting how analyses were built (assumptions, data, checks performed) can partly restore recipients' appropriate scrutiny — but only partly. Needs verification in investment settings.",
+    "analyst_inference": "Provenance/process documentation improves appropriate follow-up, not just trust — modest support for X3/X4-type features, with the caveat that the effect is partial.",
+    "access_status": "partial"
+  },
+  {
+    "evidence_id": "R3D-E16",
+    "source_id": "R3D-S11",
+    "proposition_tested": "P3.1 qualified / P3.2: task-level automation gains shrink end-to-end; analyst validation remains",
+    "work_type_tags": [
+      "W5",
+      "W1"
+    ],
+    "concept_tags": [],
+    "observed_finding": "Vendor reports that its automated financial spreading tool gave a top global bank's wholesale credit team a 70% acceleration in data extraction and 99.6% accuracy, but a 21% improvement in end-to-end processing time after integration with the bank's credit decisioning platform (Moody's CreditLens), plus an additional 9% from later AI features; analysts still conduct and validate spreads before submission.",
+    "relationship": "qualifies",
+    "evidence_type": "vendor case study (self-reported outcome)",
+    "population_and_setting": "Anonymous top global bank, wholesale credit and lending team; >120 users",
+    "study_or_observation_method": "Vendor narrative; method, baseline and period not reported",
+    "intervention_and_comparator": "Automated spreading + integration with credit decisioning platform vs prior manual spreading",
+    "outcome_measured": "Data extraction speed; accuracy; end-to-end spreading processing time",
+    "quantitative_result": "'70% acceleration in extracting data'; 'accuracy rate of 99.6%'; '21% improvement' in end-to-end processing time; 'additional 9%' efficiency from Phase 3. No baselines or denominators.",
+    "source_locator": "Case study page body (Results/Impact sections)",
+    "short_exact_excerpt": null,
+    "underlying_evidence_group": "EG:evalueserve-spreadsmart-global-bank",
+    "limitations": "Vendor marketing; anonymous client; no baseline, method or time period; headline stat blocks display '0 %'.",
+    "transferability_to_target_workflow": "Shows the pattern expected in IC workflows: big gains on the mechanical extraction/reformatting step (W5) become much smaller end-to-end because validation and judgment remain. Needs verification with bank-authored or independent data.",
+    "analyst_inference": "Even a favorable vendor source reports end-to-end gains (~21%) far below task-level gains (~70%); consistent with Fuster's ~20% end-to-end estimate. Treat as illustrative only.",
+    "access_status": "full_text",
+    "research_question_ids": [
+      "RQ3"
+    ]
+  }
+]

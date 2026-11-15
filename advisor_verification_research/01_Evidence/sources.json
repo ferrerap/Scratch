@@ -2666,5 +2666,1078 @@
     "temp_ids": [
       "WS8-S21"
     ]
+  },
+  {
+    "source_id": "SRC127",
+    "title": "Opportunities and risks of artificial intelligence in patient portal messaging in primary care (npj Digital Medicine 2025;8)",
+    "authors_or_organization": "Biro JM, Handley JL, Malcolm McCurry J, Visconti A, Weinfeld J, Trafton JG, Ratwani RM (MedStar Health National Center for Human Factors in Healthcare)",
+    "url": "https://doi.org/10.1038/s41746-025-01586-2 (full text read via Europe PMC PMC12022076)",
+    "publication_date": "2025-04-24",
+    "data_collection_dates": "October 2024 (recruitment); AI drafts generated April 2024",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:biro2025-portal-ai-draft-errors",
+    "funding_or_commercial_relationships": "AHRQ grant R03 HS030307 (per Europe PMC grant list); no vendor authorship identified",
+    "archived_file_path": null,
+    "limitations": "Cross-sectional simulation; 20 PCPs; 18 simulated messages, only 4 erroneous (errors identified post hoc by investigators, not deliberately engineered); single LLM (ChatGPT 4.0); no unassisted or traceability comparison arm; review time recorded only as total study time per participant; no patient chart context.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S01"
+    ]
+  },
+  {
+    "source_id": "SRC128",
+    "title": "The effect of using a large language model to respond to patient messages (Lancet Digital Health 2024, correspondence; page numbers not recorded)",
+    "authors_or_organization": "Chen S, Guevara M, Moningi S, Hoebers F, Elhalawani H, Kann BH, et al., Bitterman DS (Mass General Brigham / Dana-Farber)",
+    "url": "https://doi.org/10.1016/S2589-7500(24)00060-8 (author manuscript read via Europe PMC PMC11829255)",
+    "publication_date": "2024-04-24",
+    "data_collection_dates": "2023",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:chen2024-llm-patient-messages",
+    "funding_or_commercial_relationships": "not reviewed in detail (academic authors)",
+    "archived_file_path": null,
+    "limitations": "Two-stage observational proof-of-concept; 6 radiation oncologists; 100 GPT-4-generated simulated cancer patient scenarios; stage order fixed (manual first, then LLM-assisted); efficiency was subjective (physician-reported), not timed; harm judged by the same assessing physicians; appendix not reviewed.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S02"
+    ]
+  },
+  {
+    "source_id": "SRC129",
+    "title": "Evaluating Hospital Course Summarization by an Electronic Health Record-Based Large Language Model (JAMA Netw Open 2025;8(8):e2526339)",
+    "authors_or_organization": "Small WR, Austrian J, O'Donnell L, Burk-Rafel J, Hochman KA, et al. (NYU Langone Health)",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2025.26339",
+    "publication_date": "2025-08-13",
+    "data_collection_dates": "Admissions from December 2023",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:small2025-nyu-hospital-course-llm",
+    "funding_or_commercial_relationships": "not reviewed (EHR-embedded institutional LLM tool; health-system authors)",
+    "archived_file_path": null,
+    "limitations": "Quality-improvement study, convenience sample of 10 residents and 8 hospitalists, single site; artificial time limits (10 min record review, 3 min editing); confabulations rated comparatively on Likert scales after editing, not counted before/after; no CIs reported; no traceability/provenance manipulation. Read abstract plus WebFetch extraction of article page (first ~100k characters).",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S03"
+    ]
+  },
+  {
+    "source_id": "SRC130",
+    "title": "Advancing Toward Clinical Deployment of AI-Generated Discharge Summaries: Beyond the Bench (invited commentary, JAMA Netw Open 2025;8(8):e2526350)",
+    "authors_or_organization": "Raghu Subramanian C, Rosner BI (UCSF)",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837488",
+    "publication_date": "2025-08-13",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:small2025-nyu-hospital-course-llm",
+    "funding_or_commercial_relationships": "not reviewed",
+    "archived_file_path": null,
+    "limitations": "Commentary on R3A-S03 (same evidence group); interpretive, no new data. Read via WebFetch extraction only.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S04"
+    ]
+  },
+  {
+    "source_id": "SRC131",
+    "title": "The Impact of AI Assistance on Radiology Reporting: A Pilot Study Using Simulated AI Draft Reports (arXiv:2412.12042v1)",
+    "authors_or_organization": "Acosta JN, Dogra S, Adithan S, Wu K, Moritz M, Kwak S, Rajpurkar P (Harvard Medical School and collaborators)",
+    "url": "https://arxiv.org/abs/2412.12042",
+    "publication_date": "2024-12-16",
+    "data_collection_dates": "not reported",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:acosta2024-radiology-ai-draft-pilot",
+    "funding_or_commercial_relationships": "not reviewed",
+    "archived_file_path": null,
+    "limitations": "Pilot preprint (not peer reviewed); 3 readers (1 radiologist, 2 radiology residents); 20 chest CT cases; 59 signed reports; GPT-4-simulated drafts with 1-3 GPT-4-inserted errors in half the cases; underpowered for error outcomes; seeded-error catch rate not separately reported; one independent radiologist scored errors.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S05"
+    ]
+  },
+  {
+    "source_id": "SRC132",
+    "title": "Efficiency and Quality of Generative AI-Assisted Radiograph Reporting (JAMA Netw Open 2025; e2513921)",
+    "authors_or_organization": "Huang J, Wittbrodt MT, Teague CN, Karl E, Galal G, et al., Etemadi M (Northwestern Medicine)",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2025.13921 (abstract read via Europe PMC, PMC12142447)",
+    "publication_date": "2025-06-02",
+    "data_collection_dates": "2023-11-15 to 2024-04-24",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:huang2025-northwestern-genai-radiograph",
+    "funding_or_commercial_relationships": "In-house model; secondary coverage (search snippets) reports author patents and early commercialization - not verified in the paper itself",
+    "archived_file_path": null,
+    "limitations": "Prospective nonrandomized cohort with matched baseline set (not RCT); peer review of 800 studies is a sample audit of final reports, not seeded-error detection; developer-authored; abstract only.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S06"
+    ]
+  },
+  {
+    "source_id": "SRC133",
+    "title": "A Randomized Controlled Trial and Pilot of Scout: an LLM-Based EHR Search and Synthesis Platform (arXiv:2604.26953)",
+    "authors_or_organization": "Gao M, Balu S, Knechtle W, ... Vemulapalli S (Duke Institute for Health Innovation / Duke Health)",
+    "url": "https://arxiv.org/pdf/2604.26953 (linked from https://dihi.org/scout_preprint)",
+    "publication_date": "2026-04 (arXiv identifier; exact date not recorded)",
+    "data_collection_dates": "not recorded in extracted text",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:gao2026-duke-scout-rct",
+    "funding_or_commercial_relationships": "Developer-authored: the tool (Scout) was built by the authors' institution (Duke Health); funding/COI section not located in extracted text",
+    "archived_file_path": null,
+    "limitations": "Preprint; 20 participants (faculty physicians, trainees, APPs, others) across 7 use cases, 200 cases; comparator is EHR-only, so the effect of per-claim citations cannot be separated from LLM retrieval/synthesis; evaluator for each use case was the task author; no seeded errors; brief training.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S07"
+    ]
+  },
+  {
+    "source_id": "SRC134",
+    "title": "Ambient AI Scribes in Clinical Practice: A Randomized Trial (NEJM AI 2025; doi:10.1056/AIoa2501000)",
+    "authors_or_organization": "Lukac PJ, Turner W, Vangala S, Chin AT, Khalili J, Shih YT, Sarkisian C, Cheng EM, Mafi JN (UCLA)",
+    "url": "https://doi.org/10.1056/AIoa2501000 (abstract read via Europe PMC, PMID 41497288)",
+    "publication_date": "2025-11-26",
+    "data_collection_dates": "2024-11-04 to 2025-01-03",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:lukac2025-ucla-ambient-scribe-rct",
+    "funding_or_commercial_relationships": "Funded by UCLA Department of Medicine and others (NIH grants listed); products are commercial (Microsoft DAX Copilot, Nabla); Nabla issued a press release on the results",
+    "archived_file_path": null,
+    "limitations": "Pragmatic RCT, single academic center, ~2 months; accuracy measured only by clinician self-report Likert items; no audit of whether clinicians caught scribe errors; abstract only.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S08"
+    ]
+  },
+  {
+    "source_id": "SRC135",
+    "title": "A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being (NEJM AI 2025;2(12); doi:10.1056/AIoa2500945)",
+    "authors_or_organization": "Afshar M, Baumann MR, Resnik F, et al. (University of Wisconsin)",
+    "url": "https://doi.org/10.1056/AIoa2500945 (abstract read via Europe PMC, PMC12858090)",
+    "publication_date": "2025-11-26",
+    "data_collection_dates": "24-week trial (dates not recorded)",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:afshar2025-uw-ambient-ai-rct",
+    "funding_or_commercial_relationships": "Funded by UW Hospital and Clinics and NIH CTSA; ambient AI product not named in abstract (secondary source says an Abridge product - not verified)",
+    "archived_file_path": null,
+    "limitations": "Stepped-wedge pragmatic trial, 66 practitioners; time on notes and quality are secondary outcomes; PDSQI-9 quality is an instrument rating, not seeded-error detection or omission audit against the encounter; abstract only.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S09"
+    ]
+  },
+  {
+    "source_id": "SRC136",
+    "title": "Accuracy and Safety of AI-Enabled Scribe Technology: Instrument Validation Study (J Med Internet Res 2025;27:e64993)",
+    "authors_or_organization": "Biro J, Handley JL, Cobb NK, Kottamasu V, Collins J, Krevat S, Ratwani RM (MedStar Health)",
+    "url": "https://www.jmir.org/2025/1/e64993 (full text read via Europe PMC PMC11811668)",
+    "publication_date": "2025-01-27",
+    "data_collection_dates": "not recorded",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:biro2025-jmir-ambient-scribe-errors",
+    "funding_or_commercial_relationships": "not reviewed; two unnamed commercial ambient digital scribe products evaluated",
+    "archived_file_path": null,
+    "limitations": "Instrument validation (research letter); simulated encounters read by 2 researchers acting as patients; 44 draft notes; measures error prevalence, not clinician detection or review time.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S10"
+    ]
+  },
+  {
+    "source_id": "SRC137",
+    "title": "Sentence-Level Provenance for AI Medical Record Summarization in a Click-to-Inspect Interface: Formative Usability Evaluation (JMIR Human Factors 2026;13:e95644)",
+    "authors_or_organization": "Parambath, Pulpo, Hartman (per search-result metadata)",
+    "url": "https://humanfactors.jmir.org/2026/1/e95644",
+    "publication_date": "2026",
+    "data_collection_dates": "November 2023 - January 2024 (per search-result summary)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:parambath2026-sentence-provenance-ux",
+    "funding_or_commercial_relationships": "not reviewed",
+    "archived_file_path": null,
+    "limitations": "Seen only via search-engine summary of the abstract/preprint pages; the PDF fetch returned empty content. Formative qualitative usability study with a convenience sample of clinicians; no quantitative time or detection outcome reported in what was seen.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S11"
+    ]
+  },
+  {
+    "source_id": "SRC138",
+    "title": "Verify a Note With Linked Evidence (Abridge support article)",
+    "authors_or_organization": "Abridge (ambient AI scribe vendor)",
+    "url": "https://support.abridge.com/hc/en-us/articles/30235128433811-Verify-a-Note-With-Linked-Evidence",
+    "publication_date": "not reported",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "company_announcement",
+    "access_status": "blocked",
+    "underlying_evidence_group": "EG:abridge-linked-evidence-feature",
+    "funding_or_commercial_relationships": "Vendor-authored product documentation",
+    "archived_file_path": null,
+    "limitations": "Direct fetch returned HTTP 403; content known only from search-result summary. Shows a deployed statement-to-transcript linking feature exists; contains no outcome data in what was seen. Vendor white paper on confabulation (Aug 2025) mentioned in search results was not retrieved.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S12"
+    ]
+  },
+  {
+    "source_id": "SRC139",
+    "title": "FinGround: Detecting and Grounding Financial Hallucinations via Atomic Claim Verification (arXiv:2604.23588)",
+    "authors_or_organization": "Guo D, Wu J, Yiu SM (The University of Hong Kong; Stellaris AI Limited)",
+    "url": "https://arxiv.org/pdf/2604.23588",
+    "publication_date": "2026-04 (arXiv identifier)",
+    "data_collection_dates": "four-week pilot (dates not reported)",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:guo2026-finground",
+    "funding_or_commercial_relationships": "One author affiliated with Stellaris AI Limited (commercial); system developers ran the pilot",
+    "archived_file_path": null,
+    "limitations": "Primarily a technical benchmark paper; the analyst pilot is uncontrolled, single firm, 24 analysts, self-reported observations; authors call the results qualitative design signals, not population estimates; no comparison of citation granularity under controlled conditions.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S13"
+    ]
+  },
+  {
+    "source_id": "SRC140",
+    "title": "AI-Generated Draft Replies Integrated Into Health Records and Physicians' Electronic Communication (JAMA Netw Open 2024; doi:10.1001/jamanetworkopen.2024.6565)",
+    "authors_or_organization": "Tai-Seale M, Baxter SL, Vaida F, Walker A, Sitapati AM, et al. (UC San Diego Health)",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2024.6565 (abstract read via Europe PMC, PMC11019394)",
+    "publication_date": "2024-04",
+    "data_collection_dates": "June-August 2023 (analysis Aug-Nov 2023)",
+    "access_date": "2026-11-15",
+    "source_type": "field_experiment",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:taiseale2024-ucsd-genai-draft-replies",
+    "funding_or_commercial_relationships": "AHRQ P30 HS029770 (per Europe PMC); EHR-vendor-integrated GenAI drafting tool (vendor not named in abstract)",
+    "archived_file_path": null,
+    "limitations": "Randomized waiting-list QI study, 52 PCPs plus 70 contemporary controls; measures time and reply length, not reply accuracy or error detection; abstract only.",
+    "contributing_workstreams": [
+      "R3A_professional_review_experiments"
+    ],
+    "temp_ids": [
+      "R3A-S14"
+    ]
+  },
+  {
+    "source_id": "SRC141",
+    "title": "15 U.S.C. § 77k — Civil liabilities on account of false registration statement (Securities Act of 1933 § 11), subsections (b)(3) and (c)",
+    "authors_or_organization": "U.S. Congress (text via Legal Information Institute, Cornell Law School)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/77k",
+    "publication_date": "1933 (as amended; current U.S. Code text)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:securities-act-s11-statute",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Statutory text only: states the legal standard for the due diligence and reliance defenses; does not show how courts apply it, how much investigation is performed in practice, or what it costs. Secondary host (LII) rather than official U.S. Code site; text checked against quotations in R3B-S03 and R3B-S04.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S01"
+    ]
+  },
+  {
+    "source_id": "SRC142",
+    "title": "17 CFR § 230.176 — Circumstances affecting the determination of what constitutes reasonable investigation and reasonable grounds for belief under section 11 of the Securities Act",
+    "authors_or_organization": "U.S. Securities and Exchange Commission (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-17/section-230.176",
+    "publication_date": "1982-03-16 (47 FR 11433), as amended 2011-11-21 (76 FR 71876)",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:sec-rule-176",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Lists non-exclusive circumstances only; specifies no procedures, effort level, or safe harbor. The 1998 proposal to add specific practices (incl. comfort letters) was never finalized (per R3B-S04).",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S02"
+    ]
+  },
+  {
+    "source_id": "SRC143",
+    "title": "Escott v. BarChris Construction Corp., 283 F. Supp. 643 (S.D.N.Y. 1968)",
+    "authors_or_organization": "U.S. District Court, S.D.N.Y. (McLean, J.); text via Harvard Law School Caselaw Access Project",
+    "url": "https://static.case.law/f-supp/283/cases/0643-01.json",
+    "publication_date": "1968-03-29",
+    "data_collection_dates": "Facts concern the May 1961 debenture registration statement",
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:escott-barchris-1968",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Single trial-court decision on 1961 facts (findings after trial). Establishes what one court held sufficient/insufficient for named defendants; not a measure of general practice or of effort levels. CAP text lacks reporter page numbers in extracted form; locators use the opinion's own section headings.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S03"
+    ]
+  },
+  {
+    "source_id": "SRC144",
+    "title": "In re WorldCom, Inc. Securities Litigation, 346 F. Supp. 2d 628 (S.D.N.Y. 2004) — Opinion on underwriter defendants' and lead plaintiff's summary judgment motions",
+    "authors_or_organization": "U.S. District Court, S.D.N.Y. (Cote, J.); text via Harvard Law School Caselaw Access Project",
+    "url": "https://static.case.law/f-supp-2d/346/cases/0628-01.json",
+    "publication_date": "2004-12-15",
+    "data_collection_dates": "Facts concern WorldCom bond offerings of May 2000 and May 2001",
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:in-re-worldcom-2004-underwriters",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Summary-judgment ruling (no trial findings; underwriters later settled). Holdings are about what a jury could find; descriptions of underwriters' actual diligence are the parties' contentions. District-court decision, persuasive not binding outside S.D.N.Y. Locators use the opinion's section headings.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S04"
+    ]
+  },
+  {
+    "source_id": "SRC145",
+    "title": "AS 6101: Letters for Underwriters and Certain Other Requesting Parties (in PCAOB Auditing Standards, for fiscal years beginning on or after 12/15/2024, compiled PDF pp. 555ff.)",
+    "authors_or_organization": "Public Company Accounting Oversight Board (PCAOB)",
+    "url": "https://pcaobus.org/standards/auditing/documents/auditing_standards_audits_fybeginning_on_or_after_december_15_2024.pdf",
+    "publication_date": "Compiled edition effective for fiscal years beginning on or after 2024-12-15",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob-as6101",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Professional standard: shows obligations and the profession's stated rationale, not what underwriters actually do with comfort letters, how much they re-check, or compliance. Only the AS 6101 portion of the compiled PDF was reviewed (paras .01-.47 and parts of the appendix). Proposed 2026 amendments (R3B-S06) not reflected.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S05"
+    ]
+  },
+  {
+    "source_id": "SRC146",
+    "title": "PCAOB proposes to eliminate 135-day outside date for negative assurance in comfort letters (Client Update)",
+    "authors_or_organization": "Davis Polk & Wardwell LLP",
+    "url": "https://www.davispolk.com/insights/client-update/pcaob-proposes-eliminate-135-day-outside-date-negative-assurance-comfort",
+    "publication_date": "2026-11-05",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pcaob-as6101-2026-proposal",
+    "funding_or_commercial_relationships": "Law firm whose capital-markets practice advises underwriters and issuers; states it filed a comment letter on the related SEC semiannual reporting proposal and calls the PCAOB proposal 'a welcome change'.",
+    "archived_file_path": null,
+    "limitations": "Practitioner characterization of market practice ('usually unwilling') without data; the underlying PCAOB Release No. 2026-008 and docket (pcaobus.org) returned a bot-challenge page and were not reviewed directly. Proposal not adopted or SEC-approved as of access date.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S06"
+    ]
+  },
+  {
+    "source_id": "SRC147",
+    "title": "Basis for Conclusions: International Standard on Related Services 4400 (Revised), Agreed-Upon Procedures Engagements",
+    "authors_or_organization": "Staff of the International Auditing and Assurance Standards Board (IAASB/IFAC)",
+    "url": "https://www.ifac.org/system/files/publications/files/Basis-for-Conclusions-ISRS-4400-Revised-final.pdf",
+    "publication_date": "2020-02",
+    "data_collection_dates": "Exposure draft comment period 2018-2019 (per document)",
+    "access_date": "2026-11-15",
+    "source_type": "professional_standard",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:isrs4400-revised",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Basis for Conclusions summarizes respondents' comments and IAASB decisions; it is not the standard itself (the standard PDF at irba.co.za returned an HTML block page). Shows design rationale and stakeholder views, not measured user behavior or effort.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S07"
+    ]
+  },
+  {
+    "source_id": "SRC148",
+    "title": "Brehm v. Eisner, 746 A.2d 244 (Del. 2000)",
+    "authors_or_organization": "Delaware Supreme Court (Veasey, C.J.); text via Harvard Law School Caselaw Access Project",
+    "url": "https://static.case.law/a2d/746/cases/0244-01.json",
+    "publication_date": "2000-02-09",
+    "data_collection_dates": "Facts concern Disney board's 1995 approval of the Ovitz employment agreement",
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:brehm-v-eisner-2000",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Pleading-stage (Rule 23.1 demand futility) decision: sets out what a complaint must allege to rebut reliance; does not find facts about what the board did. Delaware fiduciary law (gross-negligence process standard) differs from negligence-based securities or lender standards. The §141(e) statutory text itself is already in the register.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S08"
+    ]
+  },
+  {
+    "source_id": "SRC149",
+    "title": "Smith v. Van Gorkom, 488 A.2d 858 (Del. 1985)",
+    "authors_or_organization": "Delaware Supreme Court (Horsey, J.); text via Harvard Law School Caselaw Access Project",
+    "url": "https://static.case.law/a2d/488/cases/0858-01.json",
+    "publication_date": "1985-01-29",
+    "data_collection_dates": "Facts concern Trans Union board meeting of 1980-09-20",
+    "access_date": "2026-11-15",
+    "source_type": "court_decision",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:smith-v-van-gorkom-1985",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "Single, much-criticized decision; Delaware later enacted §102(b)(7) exculpation (1986), limiting monetary liability for care breaches. Concerns reliance on an insider's oral presentation rather than an outside expert report; doctrine, not practice data.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S09"
+    ]
+  },
+  {
+    "source_id": "SRC150",
+    "title": "Borrower/vendor due diligence – when it is not due (or diligent)",
+    "authors_or_organization": "Clifford Chance LLP, Construction Insights blog (individual author not captured from page)",
+    "url": "https://cliffordchance.com/insights/resources/blogs/construction-insights/2020/06/borrower-vendor-due-diligence-when-it-is-not-due-or-diligent.html",
+    "publication_date": "2020-06-11",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:cliffordchance-2020-vendor-dd",
+    "funding_or_commercial_relationships": "Law firm that acts as lenders'/purchasers' counsel and markets specialist construction diligence services (the post acknowledges 'blow our own trumpet').",
+    "archived_file_path": null,
+    "limitations": "Anecdotal practitioner opinion ('increasingly coming across'); no counts, sample, or effort data; author's firm benefits from lenders engaging their own counsel.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary"
+    ],
+    "temp_ids": [
+      "R3B-S10"
+    ]
+  },
+  {
+    "source_id": "SRC151",
+    "title": "Homa Bay Biogas ONE Project, Kenya — Request for Proposal for a Lenders' Technical Advisor (Technical Due Diligence)",
+    "authors_or_organization": "Emerging Africa Infrastructure Fund (EAIF)",
+    "url": "https://eaif.com/wp-content/uploads/2021/03/2021-03-29-RfP-LTA-Homa-Bay_vf.pdf",
+    "publication_date": "2021-03",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "procurement_document",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:eaif-homabay-lta-rfp-2021",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "One lender's RfP for one renewable (biogas) project; shows an intended reliance allocation and scope, not what equity investors actually did with the report. Only the reliance clause and scope overview were reviewed (R3C covers IE scopes in depth). | Biogas/CHP with fertilizer production (12.7 MW), not solar or wind, so energy-yield inputs are feedstock rather than irradiance or wind; one procurement; an RfP states intended scope, not what was delivered or how lenders used it.",
+    "contributing_workstreams": [
+      "R3B_legal_reliance_boundary",
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3B-S11",
+      "R3C-S13"
+    ]
+  },
+  {
+    "source_id": "SRC152",
+    "title": "Image Sharing Technologies and Reduction of Imaging Utilization: A Systematic Review and Meta-analysis",
+    "authors_or_organization": "Vest JR, Jung HY, Ostrovsky A, Das LT, McGinty GB (Weill Cornell Medical College)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4730956 (J Am Coll Radiol 2015;12(12 Pt B):1371-1379.e3; doi 10.1016/j.jacr.2015.09.014; PMID 26614882)",
+    "publication_date": "2015-12",
+    "data_collection_dates": "Literature 2004-2014",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:vest2015-image-sharing-meta-analysis",
+    "funding_or_commercial_relationships": "Not reported in material reviewed; authors declare no conflicts related to the material",
+    "archived_file_path": null,
+    "limitations": "Meta-analysis of 17 articles/42 studies, mostly cohort or cross-sectional without true pre/post or comparison group; I^2=98%; 'standard effect size' metric not translated into natural units; likely includes Lu 2012 and other primary studies also in the register, so not independent of them; does not assess clinician time/efficiency, satisfaction or cost.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S01"
+    ]
+  },
+  {
+    "source_id": "SRC153",
+    "title": "Outcomes From Health Information Exchange: Systematic Review and Future Research Needs",
+    "authors_or_organization": "Hersh WR, Totten AM, Eden KB, Devine B, Gorman P, Kassakian SZ, Woods SS, Daeges M, Pappas M, McDonagh MS (Pacific Northwest Evidence-based Practice Center, OHSU)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4704923/ (JMIR Med Inform 2015;3(4):e39; doi 10.2196/medinform.5215; PMID 26678413)",
+    "publication_date": "2015-12-15",
+    "data_collection_dates": "Literature January 1990 - February 2015",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:hersh2015-ahrq-hie-outcomes-review",
+    "funding_or_commercial_relationships": "AHRQ contract 290-2012-00014-I; companion to AHRQ Evidence Report No. 220",
+    "archived_file_path": null,
+    "limitations": "Read via automated extraction of PMC full text (final ~4% of page not processed); evidence rated low strength; primary studies overlap with other HIE reviews; no outcome on clinician review time.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S02"
+    ]
+  },
+  {
+    "source_id": "SRC154",
+    "title": "The benefits of health information exchange: an updated systematic review",
+    "authors_or_organization": "Menachemi N, Rahurkar S, Harle CA, Vest JR (Indiana University / Regenstrief Institute)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7646861 (J Am Med Inform Assoc 2018;25(9):1259-1265; doi 10.1093/jamia/ocy035; PMID 29718258)",
+    "publication_date": "2018-09-01",
+    "data_collection_dates": "Literature 2014-2017 (combined with earlier Rahurkar et al. review for some analyses)",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:menachemi2018-hie-updated-review",
+    "funding_or_commercial_relationships": "Not reported in material reviewed",
+    "archived_file_path": null,
+    "limitations": "Vote-counting of analyses rather than pooled effect sizes; ~40% of analyses from a handful of New York HIEs; positive conclusions may reflect publication bias; outcomes are utilization/cost, not professional effort. Full text read via automated extraction; percentages partly derived by extraction tool.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S03"
+    ]
+  },
+  {
+    "source_id": "SRC155",
+    "title": "Usage and effect of health information exchange: a systematic review",
+    "authors_or_organization": "Rudin RS, Motala A, Goldzweig CL, Shekelle PG (RAND / VA)",
+    "url": "https://doi.org/10.7326/M14-0877 (Ann Intern Med 2014;161(11):803-811; PMID 25437408)",
+    "publication_date": "2014-12-02",
+    "data_collection_dates": "Literature 1 January 2003 - 31 May 2014",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:rudin2014-hie-usage-review",
+    "funding_or_commercial_relationships": "U.S. Department of Veterans Affairs",
+    "archived_file_path": null,
+    "limitations": "Only the PubMed abstract was reviewed (RAND page returned 403; journal full text not accessed). Usage data come from 13 HIE organizations, 6 in New York; evidence rated low quality.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S04"
+    ]
+  },
+  {
+    "source_id": "SRC156",
+    "title": "Does health information exchange reduce redundant imaging? Evidence from emergency departments",
+    "authors_or_organization": "Lammers EJ, Adler-Milstein J, Kocher KE (Mathematica Policy Research; University of Michigan)",
+    "url": "https://doi.org/10.1097/MLR.0000000000000067 (Med Care 2014;52(3):227-234; PMID 24374414)",
+    "publication_date": "2014-03",
+    "data_collection_dates": "2007-2010 (California and Florida State Emergency Department Databases)",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:lammers2014-hie-ed-repeat-imaging",
+    "funding_or_commercial_relationships": "Not reported in material reviewed",
+    "archived_file_path": null,
+    "limitations": "Observational panel (ED fixed effects and trends); only abstract reviewed. HIE exposure is hospital participation (HIMSS data), not clinician use; repeat defined only across unaffiliated EDs within 30 days; two states, early HIE period.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S05"
+    ]
+  },
+  {
+    "source_id": "SRC157",
+    "title": "Outside imaging in emergency department transfer patients: CD import reduces rates of subsequent imaging utilization",
+    "authors_or_organization": "Sodickson A, Opraseuth J, Ledbetter S (Brigham and Women's Hospital)",
+    "url": "https://doi.org/10.1148/radiol.11101956 (Radiology 2011;260(2):408-413; PMID 21507903)",
+    "publication_date": "2011-08 (epub 2011-04-19)",
+    "data_collection_dates": "Feb 1 - Aug 31, 2009; historical control Aug 2007 - Jan 2008",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:sodickson2011-cd-import-ed-transfers",
+    "funding_or_commercial_relationships": "Not reported in material reviewed",
+    "archived_file_path": null,
+    "limitations": "Single site; retrospective comparison of successful vs failed import (failure may correlate with patient/sending-hospital characteristics) plus historical control; only abstract reviewed; measures imaging counts within 24h, not clinician review time.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S06"
+    ]
+  },
+  {
+    "source_id": "SRC158",
+    "title": "An empirical analysis of the financial benefits of health information exchange in emergency departments",
+    "authors_or_organization": "Yaraghi N (Brookings Institution)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7784316 (J Am Med Inform Assoc 2015;22(6):1169-1172; doi 10.1093/jamia/ocv068; PMID 26117143)",
+    "publication_date": "2015-11 (epub 2015-06-27)",
+    "data_collection_dates": "March 27 - May 24, 2014",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_quasi_experiment",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:yaraghi2015-hie-liaison-ed",
+    "funding_or_commercial_relationships": "Not reported in material reviewed",
+    "archived_file_path": null,
+    "limitations": "Non-randomized shift-based assignment in one suburban ED over ~2 months; standard errors but no CIs; HIE queries performed by dedicated hired liaisons (so effect is of a staffed integration service, not routine clinician use); read via automated extraction of PMC text.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S07"
+    ]
+  },
+  {
+    "source_id": "SRC159",
+    "title": "Impact of Electronic Information Exchange on Repeat Imaging During 30-Day Readmissions Among Medicare Beneficiaries",
+    "authors_or_organization": "Turbow SD, Culler SD, Vaughan EC, Rask KJ, Perkins MM, Clevenger CK, Ali MK (Emory University)",
+    "url": "https://cdn.sanity.io/files/0vv8moc6/ajmc/0011a423039998b4efa13b2e45734517e905d9ee.pdf/AJMC_02_2024_Turbow_final.pdf (Am J Manag Care 2024;30(2):66-72; doi 10.37765/ajmc.2024.89493)",
+    "publication_date": "2024-02",
+    "data_collection_dates": "2018 Medicare MedPAR and Carrier files; AHA Annual Survey 2018 and IT Supplement 2017-2018",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:turbow2024-medicare-hie-repeat-imaging",
+    "funding_or_commercial_relationships": "Not reported in material reviewed",
+    "archived_file_path": null,
+    "limitations": "National cohort (observational). Exposure is hospital-reported HIE participation (AHA IT Supplement), not use at point of care; 16.3% of pairs missing HIE data; does not know whether images or only reports were shared; cannot separate appropriate from wasteful repeats.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S08"
+    ]
+  },
+  {
+    "source_id": "SRC160",
+    "title": "The Role of Technology in Mortgage Lending (NBER Working Paper 24500; published Review of Financial Studies 2019)",
+    "authors_or_organization": "Fuster A, Plosser M, Schnabl P, Vickery J (Federal Reserve Bank of New York; NYU Stern)",
+    "url": "https://www.nber.org/system/files/working_papers/w24500/w24500.pdf",
+    "publication_date": "2018-04 (WP); 2019 (RFS)",
+    "data_collection_dates": "U.S. loan-level mortgage data 2010-2016",
+    "access_date": "2026-11-15",
+    "source_type": "working_paper",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:fuster2019-fintech-mortgage-processing",
+    "funding_or_commercial_relationships": "Authors include Federal Reserve Bank of New York staff; views not those of the Fed",
+    "archived_file_path": null,
+    "limitations": "Observational lender-type comparison (FinTech vs other lenders), not an intervention on data integration per se; FinTech bundles online application, electronic data verification, centralization and automation; WP version reviewed, published version may differ; consumer mortgages are highly standardized relative to project finance.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S09"
+    ]
+  },
+  {
+    "source_id": "SRC161",
+    "title": "Inheriting Versus Developing Data Analytic Tests and Auditors' Professional Skepticism",
+    "authors_or_organization": "Li X, Brazel JF, Gold A, Leiby J",
+    "url": "https://doi.org/10.1111/1475-679X.70014 (Journal of Accounting Research 2026;64(2):885-922); press release https://news.ncsu.edu/2025/09/blind-spot-for-auditors/",
+    "publication_date": "2025-09-09 (online); 2026-05 (issue)",
+    "data_collection_dates": "Not reported in material reviewed",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_experiment",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:li2026-inherited-ada-skepticism",
+    "funding_or_commercial_relationships": "Not reported in material reviewed",
+    "archived_file_path": null,
+    "limitations": "Wiley full text returned 403; reviewed abstract excerpts (VU research portal, search snippets) and the NC State press release, which is the source of the percentage figures; cell sizes, test statistics and materials not verified. Hypothetical case experiment with 173 practitioners.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S10"
+    ]
+  },
+  {
+    "source_id": "SRC162",
+    "title": "AI-Powered Spreading Transforms Lending Operations at Leading Global Bank (Spreadsmart case study)",
+    "authors_or_organization": "Evalueserve (vendor)",
+    "url": "https://evalueserve.com/?p=23794",
+    "publication_date": "Not reported (page copyright 2026)",
+    "data_collection_dates": "Not reported",
+    "access_date": "2026-11-15",
+    "source_type": "vendor_case_study",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:evalueserve-spreadsmart-global-bank",
+    "funding_or_commercial_relationships": "Vendor-authored marketing case study about its own product",
+    "archived_file_path": null,
+    "limitations": "Vendor self-report; anonymous client; no baseline values, measurement method, time period or denominator; headline stat blocks rendered as '0 %' on page; selection and attribution limits.",
+    "contributing_workstreams": [
+      "R3D_integration_duplicate_work"
+    ],
+    "temp_ids": [
+      "R3D-S11"
+    ]
+  },
+  {
+    "source_id": "SRC163",
+    "title": "Financier's View on Solar Uncertainty Analysis (slides, Session 'P90 and the Financial Value of Accurate Modelling', 2024 PV Performance Modeling Collaborative Workshop, Salt Lake City)",
+    "authors_or_organization": "Ken Elser, Director, Technology and Technical Services, Wells Fargo Renewable Energy & Environmental Finance (REEF)",
+    "url": "https://www.sandia.gov/app/uploads/sites/243/dlm_uploads/2024/05/2-Ken-Elser.pdf",
+    "publication_date": "2024-05-08",
+    "data_collection_dates": "not reported (portfolio performance index of 32 projects; period not stated in extracted text)",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account (lender/tax-equity buyer-side conference presentation)",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pvpmc2024-elser-wellsfargo",
+    "funding_or_commercial_relationships": "Presenter employed by a major renewable-energy lender/tax-equity investor; slides carry a Wells Fargo disclaimer that views are those of the REEF team; workshop hosted by Sandia National Laboratories (PVPMC).",
+    "archived_file_path": null,
+    "limitations": "Slide deck only (no speaker transcript); charts (slides 4-7) could not be read numerically from text extraction except labels '~87%' and '~83-94% range'; one lender's view; portfolio sample selection and time period not stated; stated opinion about IE reports, not a measured study of lender work.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S01"
+    ]
+  },
+  {
+    "source_id": "SRC164",
+    "title": "P90 and the Financial Value of Accurate Modeling: Independent Engineer's Perspective (slides, 2024 PVPMC Workshop)",
+    "authors_or_organization": "Mark Reusser, Managing Director, Technical Advisory, ICF",
+    "url": "https://www.sandia.gov/app/uploads/sites/243/dlm_uploads/2024/05/1-Mark-Reusser.pdf",
+    "publication_date": "2024-05-08",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account (independent engineer / supplier-side conference presentation)",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pvpmc2024-reusser-icf",
+    "funding_or_commercial_relationships": "Presenter works for a firm that sells independent-engineering services (supplier perspective).",
+    "archived_file_path": null,
+    "limitations": "Slide deck (bulleted questions and claims, no data); supplier self-description; no transcript.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S02"
+    ]
+  },
+  {
+    "source_id": "SRC165",
+    "title": "Accurate Modeling Value to IPP (slides, 2024 PVPMC Workshop)",
+    "authors_or_organization": "Armando Solis, Vice President of Engineering, Americas, Lightsource bp",
+    "url": "https://www.sandia.gov/app/uploads/sites/243/dlm_uploads/2024/05/3-Armando-Solis.pdf",
+    "publication_date": "2024-05-08",
+    "data_collection_dates": "not reported (20 case-study projects)",
+    "access_date": "2026-11-15",
+    "source_type": "practitioner_account (developer/sponsor-side conference presentation)",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:pvpmc2024-solis-lightsourcebp",
+    "funding_or_commercial_relationships": "Sponsor/developer perspective; developer benefits from higher P90 values (debt sizing).",
+    "archived_file_path": null,
+    "limitations": "Self-reported internal case study of 20 projects; method for '$70,000 per 1%' not described; sponsor incentive to present resource campaigns favourably.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S03"
+    ]
+  },
+  {
+    "source_id": "SRC166",
+    "title": "Solar Portfolio Securitization - Technical Due Diligence Report, dated November 5, 2022 (Exhibit 99.2 to an SEC filing)",
+    "authors_or_organization": "Black & Veatch Management Consulting, LLC, prepared for Distributed Solar Development, LLC (DSD)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1952528/000153949722001778/exh99-2.htm",
+    "publication_date": "2022-11-05",
+    "data_collection_dates": "Operating data through 2021 referenced (Section 1.5.3/4.2)",
+    "access_date": "2026-11-15",
+    "source_type": "technical_due_diligence_report (actual IE deliverable filed in an SEC securitization filing)",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:bv-dsd-solar-securitization-tdd-2022",
+    "funding_or_commercial_relationships": "Engaged and paid by the sponsor (DSD); liability capped at compensation received.",
+    "archived_file_path": null,
+    "limitations": "Read via a summarizing fetch tool in two passes (chars 0-100000 and 100000-156734); quoted phrases were returned by that tool and should be spot-checked against the filing; one portfolio (43.5 MWdc distributed solar) and one IE; it is a sponsor-commissioned report, not a lender-commissioned one, so it cannot show what lenders retain.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S04"
+    ]
+  },
+  {
+    "source_id": "SRC167",
+    "title": "Utility-Scale Solar Photovoltaic Power Plants: A Project Developer's Guide",
+    "authors_or_organization": "International Finance Corporation (IFC), World Bank Group (prepared with SgurrEnergy)",
+    "url": "https://documents1.worldbank.org/curated/en/690161467992462412/pdf/99396-WP-Box393199B-PUBLIC-IFC-Solar-Report-Web-08-05.pdf",
+    "publication_date": "2015",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "regulation_or_guidance (DFI guidance for developers)",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:ifc-2015-utility-solar-developers-guide",
+    "funding_or_commercial_relationships": "IFC publication; co-authored with a technical advisory firm that sells EYA/LTA services.",
+    "archived_file_path": null,
+    "limitations": "Developer-oriented guidance, not a lender ToR; 2015 vintage; describes expected practice, not compliance or actual lender behaviour; page numbers inferred from pdftotext footers.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S05"
+    ]
+  },
+  {
+    "source_id": "SRC168",
+    "title": "Biases in preconstruction estimates of wind plant annual energy production (Wind Energy Science 11, 1251-1265)",
+    "authors_or_organization": "R. Hammond and E. Simley, National Wind Technology Center, National Laboratory of the Rockies (formerly NREL)",
+    "url": "https://wes.copernicus.org/articles/11/1251/2026/",
+    "publication_date": "2026-04-17",
+    "data_collection_dates": "Operational data for plants with CODs mostly 2012-2017 (some pre-2010); 707 complete plant-years",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study (back-test of pre-construction EYAs vs operations)",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:hammond-simley-2026-wind-aep-bias",
+    "funding_or_commercial_relationships": "US national laboratory research; EYAs supplied by six plant owners (data-sharing relationships not detailed in extracted text).",
+    "archived_file_path": null,
+    "limitations": "Read through a fetch tool extracting from the open-access HTML; numbers as returned by that tool; wind only, mostly US; owner-contributed sample may not be representative; definitions of operational vs EYA uncertainty differ (authors caution).",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S06"
+    ]
+  },
+  {
+    "source_id": "SRC169",
+    "title": "An independent analysis of bias sources and variability in wind plant pre-construction energy yield estimation methods (Wind Energy 25(10), 1775-1790; DOI 10.1002/we.2768)",
+    "authors_or_organization": "A.C. Todd, M. Optis, N. Bodini, M. Fields, J. Perr-Sauer, C. Lee, E. Simley, et al. (NREL, PNNL)",
+    "url": "https://www.pnnl.gov/publications/independent-analysis-bias-sources-and-variability-wind-plant-pre-construction-energy",
+    "publication_date": "2022-09-21",
+    "data_collection_dates": "not reported in abstract",
+    "access_date": "2026-11-15",
+    "source_type": "peer_reviewed_observational_study",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:todd2022-wind-eya-consultant-variability",
+    "funding_or_commercial_relationships": "US DOE national laboratories.",
+    "archived_file_path": null,
+    "limitations": "Abstract only (NREL author PDF download failed: proxy 502); small sample (10 plants, 8 consultancies); wind only.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S07"
+    ]
+  },
+  {
+    "source_id": "SRC170",
+    "title": "Offshore energy assessment validation (DNV whitepaper; listing on OurEnergyPolicy)",
+    "authors_or_organization": "DNV",
+    "url": "https://www.ourenergypolicy.org/resources/offshore-energy-assessment-validation/",
+    "publication_date": "2023-03-24",
+    "data_collection_dates": "not reported in listing",
+    "access_date": "2026-11-15",
+    "source_type": "vendor_validation_study (consultant back-test of own predictions)",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:dnv2023-offshore-eya-validation",
+    "funding_or_commercial_relationships": "DNV sells energy assessments; self-validation.",
+    "archived_file_path": null,
+    "limitations": "Only the listing summary was read; sample size and magnitudes not seen; offshore wind; self-assessment by the consultant.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S08"
+    ]
+  },
+  {
+    "source_id": "SRC171",
+    "title": "How standardisation reduces financing uncertainty in wind energy (blog)",
+    "authors_or_organization": "3E (author not named)",
+    "url": "https://www.3e.eu/resources/blogs/how-standardisation-reduces-financing-uncertainty-wind-energy",
+    "publication_date": "2026-02-16",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "vendor_blog",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:3e-2026-standardisation-blog (cites DTU Walney 3&4 proficiency test)",
+    "funding_or_commercial_relationships": "Vendor of accredited measurement and yield services; benefits from accreditation requirements.",
+    "archived_file_path": null,
+    "limitations": "Vendor marketing; DTU proficiency-test figures are second-hand (original not retrieved); read via fetch-tool summary.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S09"
+    ]
+  },
+  {
+    "source_id": "SRC172",
+    "title": "How Bright Are Production Forecasts For Spanish Solar Plants? (S&P Global Ratings research article)",
+    "authors_or_organization": "S&P Global Ratings",
+    "url": "https://spglobal.com/ratings/en/research/articles/240402-how-bright-are-production-forecasts-for-spanish-solar-plants-13041529",
+    "publication_date": "2024-04-02 (inferred from URL)",
+    "data_collection_dates": "not seen",
+    "access_date": "2026-11-15",
+    "source_type": "rating_agency_research",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:sp2024-spanish-solar-production-forecasts",
+    "funding_or_commercial_relationships": "Rating agency.",
+    "archived_file_path": null,
+    "limitations": "Search-engine summary only; direct fetch returned HTTP 403; sample, period and magnitudes not seen. Treat as a lead, not as verified content.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S10"
+    ]
+  },
+  {
+    "source_id": "SRC173",
+    "title": "Terms of Reference: Technical Due Diligence Wind Power Project (sample ToR, IFC-presented, PPP Knowledge Lab)",
+    "authors_or_organization": "World Bank PPP Legal Resource Center / IFC",
+    "url": "https://ppp.worldbank.org/ppp-overview/practical-tools/sample-ppp-terms-reference/tor-technical-due-diligence-wind-power",
+    "publication_date": "not seen",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "procurement_document (sample ToR)",
+    "access_status": "abstract_only",
+    "underlying_evidence_group": "EG:wb-ppp-sample-tor-wind-tdd",
+    "funding_or_commercial_relationships": null,
+    "archived_file_path": null,
+    "limitations": "ppp.worldbank.org returned HTTP 403 to WebFetch and curl. The energypedia mirror page (https://old.energypedia.info/wiki/Technical_Due_Diligence_Wind_Power_Project) gives only an abstract: a 65 MW wind farm (44 x 1.5 MW) in Uruguay; the consulting firm provides independent engineer due diligence services to lenders in Phase I (initial project review and technical due diligence before financial close) and Phase II (construction, performance-test and operations monitoring). The mirror's PDF link returned 404. A search-engine summary claimed the ToR asks for a wind assessment and energy yield calculation explaining loss factors and quantifying uncertainty; this was NOT verified. No evidence items extracted.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S11"
+    ]
+  },
+  {
+    "source_id": "SRC174",
+    "title": "NY Green Bank RFP for technical and engineering advisor services (NYSERDA closed opportunity, 2014, '02Summary.pdf')",
+    "authors_or_organization": "NYSERDA / NY Green Bank",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/FO/Closed-Opportunities/2014/02Summary.pdf",
+    "publication_date": "2014",
+    "data_collection_dates": null,
+    "access_date": "2026-11-15",
+    "source_type": "procurement_document",
+    "access_status": "other",
+    "underlying_evidence_group": "EG:nygb-2014-engineering-advisor-rfp",
+    "funding_or_commercial_relationships": "Public green bank.",
+    "archived_file_path": null,
+    "limitations": "curl returned HTTP 403; content known only from a search-engine summary; energy-yield scope, deliverables and reliance terms not seen.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S12"
+    ]
+  },
+  {
+    "source_id": "SRC175",
+    "title": "Uncertainties in PV System Yield Predictions and Assessments (Report IEA-PVPS T13-12:2018)",
+    "authors_or_organization": "IEA PVPS Task 13 (primary authors C. Reise, B. Müller et al.)",
+    "url": "https://iea-pvps.org/wp-content/uploads/2020/01/Uncertainties_in_PV_System_Yield_Predictions_and_Assessments_by_Task_13.pdf",
+    "publication_date": "2018-04",
+    "data_collection_dates": "not reported for the LTYP reporting questionnaire",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review (intergovernmental technical report)",
+    "access_status": "full_text",
+    "underlying_evidence_group": "EG:iea-pvps-t13-12-2018-yield-uncertainty",
+    "funding_or_commercial_relationships": "IEA technology collaboration programme; authors from research institutes and industry.",
+    "archived_file_path": null,
+    "limitations": "Technical framework report; statements about financiers' difficulty are the authors' assessment, not a measured study; 2018 vintage.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S14"
+    ]
+  },
+  {
+    "source_id": "SRC176",
+    "title": "Executive Summary - Uncertainties in Yield Assessments and PV LCOE (Report IEA-PVPS T13-18:2020)",
+    "authors_or_organization": "IEA PVPS Task 13 (D. Moser, S. Lindig, M. Richter, et al.; Eurac, 3E, IMEC, Fraunhofer ISE, TUV Rheinland, KU Leuven and others)",
+    "url": "https://iea-pvps.org/wp-content/uploads/2021/01/Executive-Summary-IEA-PVPS-T13-18_2020-Uncertainties-in-Yield-Assessments-and-PV-LCOE.pdf",
+    "publication_date": "2020-11",
+    "data_collection_dates": "Blind yield-assessment exercise, two sites (Bolzano, IT; Alice Springs, AU); operating data 2009/2010-2019",
+    "access_date": "2026-11-15",
+    "source_type": "book_or_review (intergovernmental technical report; contains a blind inter-assessor comparison)",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:iea-pvps-t13-18-2020-yield-lcoe",
+    "funding_or_commercial_relationships": "IEA technology collaboration programme; some assessors and authors are from consultancies (e.g., 3E, TUV Rheinland).",
+    "archived_file_path": null,
+    "limitations": "Executive summary only (full report not retrieved); seven assessors, two sites; the statement on typical investor practice is the authors' characterisation, not survey data.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S15"
+    ]
+  },
+  {
+    "source_id": "SRC177",
+    "title": "Fitch Assigns ReNew Power Restricted Group 4's Proposed Notes 'BB-(EXP)' (rating action commentary as reproduced by EQ Mag Pro; page cites Reuters)",
+    "authors_or_organization": "Fitch Ratings (reproduced by EQ Mag Pro / Reuters)",
+    "url": "https://www.eqmagpro.com/fitch-assigns-renew-power-restricted-group-4s-proposed-notes-bb-exp/",
+    "publication_date": "2021-03-30 (committee date 2021-03-29)",
+    "data_collection_dates": "Portfolio operating data FY19-FY20",
+    "access_date": "2026-11-15",
+    "source_type": "rating_agency_rating_action (secondary reproduction)",
+    "access_status": "partial",
+    "underlying_evidence_group": "EG:fitch2021-renew-rg4-rating-action",
+    "funding_or_commercial_relationships": "Rating agency paid by issuer (issuer-pays model); reproduced by a trade-news site.",
+    "archived_file_path": null,
+    "limitations": "Secondary reproduction read through a fetch tool limited to short quotes; the original Fitch page was not accessed; one issuer (Indian wind/solar portfolio). Related to, but a separate deal from, the Fitch criteria (2012) and Topaz (2024) items already in the register.",
+    "contributing_workstreams": [
+      "R3C_project_finance_IE_scopes"
+    ],
+    "temp_ids": [
+      "R3C-S16"
+    ]
   }
 ]

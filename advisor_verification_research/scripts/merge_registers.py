@@ -65,8 +65,12 @@ def main():
 
     prior = load_json(MAP_PATH) if os.path.exists(MAP_PATH) else {"sources": {}, "evidence": {}}
 
-    dirs = sorted(glob.glob(os.path.join(ROOT, "02_Workstreams", "*"))) + \
-           sorted(glob.glob(os.path.join(ROOT, "03_Challenge_and_Followup", "R3_*")))
+    pending = set(ovr.get("pending_dirs", []))
+    r3 = [d for d in sorted(glob.glob(os.path.join(ROOT, "03_Challenge_and_Followup", "R3*"))) if os.path.isdir(d)]
+    r3 = [d for d in r3 if os.path.basename(d) not in pending]
+    # coordinator corrections folder last so its temp IDs follow the follow-up workers
+    r3 = [d for d in r3 if not os.path.basename(d).startswith("R3_")] + [d for d in r3 if os.path.basename(d).startswith("R3_")]
+    dirs = sorted(glob.glob(os.path.join(ROOT, "02_Workstreams", "*"))) + r3
     all_src, all_ev = [], []
     for d in dirs:
         sp, ep = os.path.join(d, "sources.json"), os.path.join(d, "evidence.json")

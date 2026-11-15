@@ -272,5 +272,9 @@
     "R2C-22": "SRC017 and SRC105 confirmed distinct experiments (same research program); kept as separate evidence groups.",
     "R2C-01": "Coordinator verified inside-frontier figures from the MIT Sloan-hosted copy of HBS WP 24-013 and added item COORD-E01.",
     "R2C-17": "Merged source records show the highest access achieved; each evidence item keeps its own access_status (item-level labels govern)."
-  }
+  },
+  "pending_dirs": [
+    "R3E_checklists_coverage_judgment",
+    "R3F_appraisal_review_standardization"
+  ]
 }

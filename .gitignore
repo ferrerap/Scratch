@@ -1,0 +1,5 @@
+# no downloads, caches or secrets in the repo
+**/downloads/
+**/__pycache__/
+*.pyc
+.env

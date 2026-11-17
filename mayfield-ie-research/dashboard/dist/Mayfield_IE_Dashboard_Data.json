@@ -11,7 +11,8 @@
    "audit": 36,
    "sources": 98,
    "segments": 7,
-   "gaps": 10
+   "gaps": 10,
+   "excerpts": 32
   }
  },
  "classDefs": [
@@ -2616,6 +2617,360 @@
    "projectType": "DG / C&I / community-solar portfolio"
   }
  ],
+ "excerpts": {
+  "X01": {
+   "id": "X01",
+   "source": "S02",
+   "document": "Spruce Power residential-solar credit agreement (Barings, June 2024)",
+   "shows": "Names three default IEs, then lets the lenders approve any other qualified, independent firm.",
+   "quote": "“Independent Engineer” means (i) Leidos Engineering, LLC. (ii) DNV GL Energy USA, Inc., (iii) ICF Resources, LLC or (iv) any other reputable, qualified engineering firm with substantial experience in the residential solar industry that is not an Affiliate of the Borrower or the Sponsor and has been approved by the Majority Lenders.",
+   "start": "any other reputable, qualified engineering firm",
+   "end": "approved by the Majority Lenders",
+   "locator": "Definitions (Annex A), “Independent Engineer”",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X02": {
+   "id": "X02",
+   "source": "S01",
+   "document": "Energy Vault BESS financing agreement (S2G private-credit fund as agent, Sept 2026)",
+   "shows": "Lists four acceptable IEs – including specialist E3 – plus any firm the borrower and agent agree on.",
+   "quote": "“Independent Engineer” means Enertis, E3 Consulting, Sargent and Lundy, DNV or other independent engineering consulting company mutually agreed to between the Borrower and the Administrative Agent",
+   "start": "means Enertis, E3 Consulting, Sargent and Lundy",
+   "end": "mutually agreed to between the Borrower and the Administrative Agent",
+   "locator": "Article I definitions, “Independent Engineer”",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X03": {
+   "id": "X03",
+   "source": "S01",
+   "document": "Energy Vault BESS financing agreement (Sept 2026)",
+   "shows": "Lenders can remove and replace the IE.",
+   "quote": "The Administrative Agent and Required Lenders, in their reasonable discretion, may remove from time to time, any Independent Consultant and appoint a replacement reasonably acceptable to the Borrower.",
+   "start": "The Administrative Agent and Required Lenders, in their reasonable discretion",
+   "end": "replacement reasonably acceptable to the Borrower",
+   "locator": "Section 10.1 (Independent Consultants)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X04": {
+   "id": "X04",
+   "source": "S01",
+   "document": "Energy Vault BESS financing agreement (Sept 2026)",
+   "shows": "Funding requires an executed reliance letter on the IE's report.",
+   "quote": "Delivery of an executed reliance letter with respect to the report of the Independent Engineer, together with the final report of the Independent Engineer, with respect to the Acquired Project, in form and substance satisfactory to the Administrative Agent and the Lenders.",
+   "start": "Delivery of an executed reliance letter",
+   "end": "satisfactory to the Administrative Agent and the Lenders",
+   "locator": "Conditions to borrowing, “IE Report and Reliance Letter”",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X05": {
+   "id": "X05",
+   "source": "S08",
+   "document": "Angiola East solar + storage credit agreement (Bank of America as agent, May 2025)",
+   "shows": "Leidos is the IE, but the lenders can select another firm.",
+   "quote": "“Independent Engineer” means Leidos Engineering, LLC or another Person selected by the Required Lenders to perform independent engineering services in connection with the Project.",
+   "start": "Leidos Engineering, LLC or another Person selected by the Required Lenders",
+   "end": "",
+   "locator": "Section 1.01 definitions, “Independent Engineer”",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X06": {
+   "id": "X06",
+   "source": "S08",
+   "document": "Angiola East credit agreement – Exhibit A-3, Form of IE Drawdown Certificate",
+   "shows": "Leidos's drawdown certificate is addressed to Bank of America; Leidos is engaged by the borrower under a task authorization.",
+   "quote": "To: Bank of America, N.A., as Administrative Agent Re: Angiola East, LLC Ladies and Gentlemen: This IE Drawdown Certificate (this “Certificate”) is delivered to you pursuant to the scope of work in that certain Task Authorization, dated as of October 17, 2024 (issued under that certain Master Services Agreement, dated as of June 15, 2023 (the “MSA”), the “TA”), between Angiola East, LLC (the “Borrower”) and Leidos Engineering, LLC (the “Independent Engineer”)",
+   "start": "This IE Drawdown Certificate",
+   "end": "between Angiola East, LLC",
+   "locator": "Exhibit A-3",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X07": {
+   "id": "X07",
+   "source": "S07",
+   "document": "SE Titan solar financing agreement – Exhibit E-2, Form of IE Certificate (MUFG agent, ~270 MW Texas)",
+   "shows": "Leidos issues the IE certificate for each construction-loan borrowing.",
+   "quote": "This Independent Engineer’s Certificate (this “IE Certificate”) is being provided by Leidos Engineering, LLC (“Independent Engineer”), with respect to the approximately 270 megawat",
+   "start": "is being provided by Leidos Engineering, LLC",
+   "end": "",
+   "locator": "Exhibit E-2",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X08": {
+   "id": "X08",
+   "source": "S07",
+   "document": "SE Titan financing agreement – Exhibit E-2, Schedule 1 Addressees",
+   "shows": "The IE certificate is addressed to MUFG (administrative agent) and Deutsche Bank (collateral agent).",
+   "quote": "Schedule 1 Addressees MUFG Bank, Ltd. as Administrative Agent",
+   "start": "Addressees",
+   "end": "as Administrative Agent",
+   "locator": "Exhibit E-2, Schedule 1",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X09": {
+   "id": "X09",
+   "source": "S06",
+   "document": "Big Five Holdco 1 credit agreement (MUFG agent, Jan 2024)",
+   "shows": "Leidos is the IE, and lenders must receive a reliance letter entitling them to rely on its report.",
+   "quote": "the Independent Engineer’s Report in respect of each Project and (ii) a corresponding reliance letter (to the extent the report is not addressed to the Lenders or to the Administrative Agent on behalf of the Lenders) with respect to such Independent Engineer’s Report that shall entitle the Agents and the Lenders to rely upon such Independent Engineer’s Report",
+   "start": "Independent Engineer’s Report in respect of each Project",
+   "end": "entitle the Agents and the Lenders to rely",
+   "locator": "Conditions precedent",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X10": {
+   "id": "X10",
+   "source": "S10",
+   "document": "MN8 / GSRP warehouse – Amendment and Waiver (MUFG agent, May 2021)",
+   "shows": "For one project, lenders accepted Enertis as IE only together with an additional DNV report and reliance letter.",
+   "quote": "“Independent Engineer” shall mean Enertis Solar Inc., and (ii) the Borrower shall deliver to the Administrative Agent an additional report prepared by DNV Energy Insights USA Inc., together with a corresponding reliance letter",
+   "start": "shall mean Enertis Solar Inc.",
+   "end": "together with a corresponding reliance letter",
+   "locator": "Section 2 (waivers), HDSI, LLC project",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X11": {
+   "id": "X11",
+   "source": "S10",
+   "document": "MN8 / GSRP warehouse – Amendment and Waiver (May 2021)",
+   "shows": "An IE certificate is a condition to funding, normally due five business days before funding.",
+   "quote": "requires delivery of an Independent Engineer’s Certificate no less than five (5) Business Days prior to such Initial Project Funding Date",
+   "start": "no less than five (5) Business Days prior to such Initial Project Funding Date",
+   "end": "",
+   "locator": "Section 2 (waivers)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X12": {
+   "id": "X12",
+   "source": "S11",
+   "document": "MN8 / GSRP warehouse credit agreement (MUFG agent, Feb 2021)",
+   "shows": "Names Enertis, or another consultant the required lenders find satisfactory.",
+   "quote": "“Independent Engineer” means Enertis Solar Inc., or any other consultant reasonably satisfactory to the Required Lenders.",
+   "start": "means Enertis Solar Inc., or any other consultant",
+   "end": "",
+   "locator": "Section 1.01 definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X13": {
+   "id": "X13",
+   "source": "S17",
+   "document": "Greenbacker credit agreement (Fifth Third, Jan 2018)",
+   "shows": "The agent can approve engineers beyond the schedule at its sole discretion.",
+   "quote": "“Approved Engineer” means any independent engineer identified on Schedule 1.1(c) or otherwise approved by the Administrative Agent in writing in its sole discretion.",
+   "start": "means any independent engineer identified on Schedule",
+   "end": "in its sole discretion",
+   "locator": "Section 1.1 definitions, “Approved Engineer”",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X14": {
+   "id": "X14",
+   "source": "S17",
+   "document": "Greenbacker credit agreement (Fifth Third, Jan 2018) – Schedule 1.1(c) Approved Engineers",
+   "shows": "A DG/C&I-oriented facility approved ten engineering firms, including smaller specialists and a developer/EPC.",
+   "quote": "Approved Engineers 1. Enertis 2. Borrego Solar 3. DNV GL 4. Radian Generation 5. Natural Power 6. BEW Engineering 7. Luminate 8. Black and Veatch 9. Bay4 10. Clean Energy Associates",
+   "start": "Borrego Solar",
+   "end": "Clean Energy Associates",
+   "locator": "Schedule 1.1(c)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X15": {
+   "id": "X15",
+   "source": "S18",
+   "document": "Greenbacker amended & restated credit agreement (Fifth Third, June 2019) – Schedule 1.1(c)",
+   "shows": "Eighteen months later the list had grown by one firm: Leidos.",
+   "quote": "10. Clean Energy Associates 11. Leidos Engineering, LLC",
+   "start": "Clean Energy Associates",
+   "end": "Leidos Engineering, LLC",
+   "locator": "Schedule 1.1(c)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X16": {
+   "id": "X16",
+   "source": "S19",
+   "document": "Greenbacker credit agreement (Wells Fargo, Aug 2023)",
+   "shows": "A later facility for the same sponsor names only three IEs.",
+   "quote": "“Independent Engineer” means each of Enertis Solar, Inc., V-Bar Chinook Wind, LLC (doing business as ArcVera Renewables) and VDE Americas, Inc.",
+   "start": "means each of Enertis Solar",
+   "end": "VDE Americas, Inc",
+   "locator": "Section 1.1 definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X17": {
+   "id": "X17",
+   "source": "S20",
+   "document": "Altus Power APACF II credit agreement (Blackstone-represented lenders, Nov 2023)",
+   "shows": "The borrower selects the IE – any qualified consultant.",
+   "quote": "“Independent Engineer” means any qualified third-party engineering and technical consultant to be selected by the Borrower",
+   "start": "means any qualified third-party engineering and technical consultant",
+   "end": "selected by the Borrower",
+   "locator": "Section 1.1 definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X18": {
+   "id": "X18",
+   "source": "S20",
+   "document": "Altus Power APACF II credit agreement – Section 9.9",
+   "shows": "…but the agent, at the lenders' direction, can replace that IE; the borrower pays the IE's fees.",
+   "quote": "The Administrative Agent (at the direction of the Blackstone Representative) in its reasonable discretion, may remove from time to time, the Independent Engineer and appoint a replacement on behalf of the Lenders reasonably acceptable to the Borrower.",
+   "start": "Blackstone Representative) in its reasonable discretion",
+   "end": "replacement on behalf of the Lenders",
+   "locator": "Section 9.9 Independent Engineer",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X19": {
+   "id": "X19",
+   "source": "S15",
+   "document": "DNV IE summary report for GoodLeap residential ABS (filed Sept 2025)",
+   "shows": "Third-party reliance on DNV's IE work is capped at USD 300,000 under its standard terms.",
+   "quote": "such reliance is subject to DNV’s standard reliance letter terms, including without limitation, the limitation of liability, which limits DNV’s total liability to USD 300,000.",
+   "start": "standard reliance letter terms",
+   "end": "total liability to USD 300,000",
+   "locator": "Important notice, item 1",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X20": {
+   "id": "X20",
+   "source": "S15",
+   "document": "DNV IE summary report for GoodLeap residential ABS (filed Sept 2025)",
+   "shows": "DNV acted as IE for a residential solar and solar + storage portfolio.",
+   "quote": "in DNV’s capacity as Independent Engineer, for a contemplated portfolio of residential-scale solar only and solar + battery energy storage systems.",
+   "start": "capacity as Independent Engineer, for a contemplated portfolio",
+   "end": "battery energy storage systems",
+   "locator": "Section 1 (task and objective)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X21": {
+   "id": "X21",
+   "source": "S29",
+   "document": "Scale Microgrids – $225M debt facility announcement (Mar 2023)",
+   "shows": "On a distributed/microgrid portfolio financed by KeyBanc, the lenders used Black & Veatch.",
+   "quote": "Black & Veatch was an independent engineer to the lenders",
+   "start": "Black & Veatch was an independent engineer to the lenders",
+   "end": "",
+   "locator": "Announcement text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X22": {
+   "id": "X22",
+   "source": "S33",
+   "document": "Dimension Energy – $650M community-solar financing announcement (Mar 2026)",
+   "shows": "On a bank-led community-solar financing (MUFG, First Citizens, ING, National Bank of Canada), Enertis was the technical adviser.",
+   "quote": "Enertis Applus + acted as the independent technical advisor",
+   "start": "acted as the independent technical advisor",
+   "end": "",
+   "locator": "Announcement text",
+   "verification": "Not re-checked: page blocks automated retrieval; excerpt from first-stage research notes"
+  },
+  "X23": {
+   "id": "X23",
+   "source": "S38",
+   "document": "Luminate – company page",
+   "shows": "Luminate's own description of its origins.",
+   "quote": "Formed in 2006 by long time power project finance veterans, Luminate is a technically based management consultancy",
+   "start": "Formed in 2006 by long time power project finance veterans",
+   "end": "",
+   "locator": "Company page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X24": {
+   "id": "X24",
+   "source": "S40",
+   "document": "Luminate – Grape Solar + Storage announcement (June 2026)",
+   "shows": "A named recent IE assignment on a large construction financing (lenders not named).",
+   "quote": "Luminate is proud to have served as the Independent Engineer for CIM Group on the Grape Solar and Energy Storage Project, which recently secured approximately $600 million in construction financing.",
+   "start": "proud to have served as the Independent Engineer for CIM Group",
+   "end": "approximately $600 million in construction financing",
+   "locator": "Announcement text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X25": {
+   "id": "X25",
+   "source": "S41",
+   "document": "E3 Consulting – 20th anniversary history",
+   "shows": "E3 is a specialist, but has had a large corporate parent since 2014.",
+   "quote": "In 2014, E3 was acquired by NAES Corporation, a broad-based provider of services to the energy industry.",
+   "start": "In 2014, E3 was acquired by NAES Corporation",
+   "end": "provider of services to the energy industry",
+   "locator": "Company history",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X26": {
+   "id": "X26",
+   "source": "S43",
+   "document": "E3 Consulting – Cross Trails BESS announcement (July 2025)",
+   "shows": "A named IE assignment on a small private-credit BESS financing.",
+   "quote": "E3 Consulting Services is proud to have served as the Independent Engineer in support of Energy Vault ‘s successful $18 million project financing for its 57 MW, two-hour Cross Trails Battery Energy Storage System (BESS)",
+   "start": "is proud to have served as the Independent Engineer in support of",
+   "end": "Cross Trails Battery Energy Storage System",
+   "locator": "Announcement text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X27": {
+   "id": "X27",
+   "source": "S45",
+   "document": "Pulse 2.0 – Energy Vault Calistoga financing (Apr 2025)",
+   "shows": "Independent confirmation of the lender on the Calistoga financing for which E3 reports serving as IE (S44).",
+   "quote": "Eagle Point Credit Management announced that it has provided $28 million in project financing to Energy Vault",
+   "start": "Eagle Point Credit Management announced that it has provided",
+   "end": "project financing to Energy Vault",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X28": {
+   "id": "X28",
+   "source": "S67",
+   "document": "Foley & Lardner commentary on community-solar portfolio financing (PFI)",
+   "shows": "In portfolio financings the IE reviews a sample that lenders approve.",
+   "quote": "Sampled projects are usually identified by the independent engineer and approved by the lenders.",
+   "start": "Sampled projects are usually identified by the independent engineer",
+   "end": "approved by the lenders",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X29": {
+   "id": "X29",
+   "source": "S67",
+   "document": "Foley & Lardner commentary on community-solar portfolio financing (PFI)",
+   "shows": "Full diligence on every project in a large DG portfolio is not economic.",
+   "quote": "Full-scope diligence on every project in a portfolio comprised of 25 or more projects is neither economically feasible nor, arguably, necessary.",
+   "start": "Full-scope diligence on every project in a portfolio comprised of 25 or more projects",
+   "end": "neither economically feasible",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X30": {
+   "id": "X30",
+   "source": "S68",
+   "document": "ICF white paper – Distributed generation due diligence (2017)",
+   "shows": "Utility-scale diligence scopes are too costly for DG portfolios – an incumbent has published a DG-specific approach.",
+   "quote": "the traditional technical due diligence performed on utility scale assets is too expensive and impractical for distributed assets.",
+   "start": "",
+   "end": "",
+   "locator": "Page 1 (PDF – open and search for the quoted text)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X31": {
+   "id": "X31",
+   "source": "S69",
+   "document": "KeyBanc – Exploring debt tools (Jan 2025)",
+   "shows": "A DG lender notes that non-standard contracts in existing assets slow diligence.",
+   "quote": "“If they have existing assets that already have signed contracts, you’re stuck with it,” Nielsen explained. “There is no easy solution to get around this due diligence issue.”",
+   "start": "There is no easy solution to get around this due diligence issue",
+   "end": "",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  },
+  "X32": {
+   "id": "X32",
+   "source": "S77",
+   "document": "Mayfield Renewables – Engineering services page",
+   "shows": "Mayfield publicly lists an Independent Engineering service line.",
+   "quote": "Independent Engineering Desktop Report Review & Recommendations Pre-Finance Full Technical Due-Diligence Report Energy Yield Validation Modeling Technical Design Review",
+   "start": "Desktop Report Review",
+   "end": "Technical Design Review",
+   "locator": "Services list",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+  }
+ },
  "segments": [
   {
    "name": "Utility-scale solar & solar+storage project finance",
@@ -4396,6 +4751,46 @@
      "S17",
      "S18",
      "S20"
+    ],
+    "reasoning": [
+     "We read the definition of “Independent Engineer” in every SEC-filed financing agreement we could locate (credit facilities, warehouses, tax-equity and note documents).",
+     "None refers to an industry-wide approved list. Each names its own preferred firms, and almost all add a route for another firm, decided by the lenders or agent. One facility lets the borrower choose, subject to the agent's right to replace.",
+     "The same documents show friction: one lender's approved list grew by a single firm in 18 months, and MUFG-led lenders accepted Enertis on one project only with an extra DNV report.",
+     "The documents cannot show how often lenders actually approve a firm they don't know. That is the top question for lender interviews."
+    ],
+    "trail": [
+     {
+      "excerpt": "X01",
+      "why": "Typical structure: three named firms, plus any other qualified firm the lenders approve."
+     },
+     {
+      "excerpt": "X02",
+      "why": "Same pattern in a 2026 storage deal, here agreed between borrower and agent."
+     },
+     {
+      "excerpt": "X05",
+      "why": "Bank of America deal: lenders can select a different IE."
+     },
+     {
+      "excerpt": "X13",
+      "why": "Agent can approve engineers beyond the list at its sole discretion."
+     },
+     {
+      "excerpt": "X17",
+      "why": "Borrower-selected IE: the most open pattern found…"
+     },
+     {
+      "excerpt": "X18",
+      "why": "…but lenders can still replace the IE, and the borrower pays its fees."
+     },
+     {
+      "excerpt": "X15",
+      "why": "Lists change slowly: one addition (Leidos) in about 18 months."
+     },
+     {
+      "excerpt": "X10",
+      "why": "Lenders required a second incumbent report alongside Enertis."
+     }
     ]
    },
    {
@@ -4408,6 +4803,41 @@
      "S08",
      "S10",
      "S11"
+    ],
+    "reasoning": [
+     "Signed, SEC-filed agreements name Leidos, DNV or Enertis as IE and route IE certificates or reliance letters to named banks (MUFG, Bank of America, Deutsche Bank).",
+     "We class these as “confirmed financing reliance” (class 1) because the executed agreement grants lenders reliance. The signed reliance letters themselves were not available to us.",
+     "For many large engineering and testing firms (e.g., 1898 & Co., Tetra Tech, Stantec, Arup) we found service pages offering IE work but no named U.S. solar or storage lender assignment, so size alone did not show up as documented acceptance. Absence of public evidence is not proof of no experience."
+    ],
+    "trail": [
+     {
+      "excerpt": "X07",
+      "why": "Leidos issues the IE certificate on a ~270 MW MUFG-led Texas solar financing…"
+     },
+     {
+      "excerpt": "X08",
+      "why": "…addressed to MUFG as administrative agent (and Deutsche Bank as collateral agent)."
+     },
+     {
+      "excerpt": "X06",
+      "why": "Leidos drawdown certificate addressed to Bank of America; note Leidos is engaged by the borrower."
+     },
+     {
+      "excerpt": "X09",
+      "why": "Lenders must receive a reliance letter entitling them to rely on the IE report."
+     },
+     {
+      "excerpt": "X12",
+      "why": "Enertis named as IE in an MUFG-agented warehouse facility."
+     },
+     {
+      "excerpt": "X19",
+      "why": "Incumbents cap reliance liability contractually (DNV: USD 300,000 in this context)."
+     },
+     {
+      "excerpt": "X20",
+      "why": "DNV acting as IE on a residential solar + storage securitization."
+     }
     ]
    },
    {
@@ -4421,6 +4851,42 @@
      "S43",
      "S44",
      "S45"
+    ],
+    "reasoning": [
+     "E3 Consulting is named beside DNV, Enertis and Sargent & Lundy as an acceptable IE in a 2026 storage financing agreement. Luminate was on a lender's approved-engineer list in 2018.",
+     "Both firms publicize named financing assignments. Most are self-reported, but one lender (Eagle Point, on an E3 deal) is independently confirmed.",
+     "Neither firm is a multinational engineering company, though E3 has had a large corporate parent (NAES) since 2014.",
+     "Founding dates are documented, but no public source shows when or how either firm first won lender acceptance, so we draw no conclusion about how long it takes."
+    ],
+    "trail": [
+     {
+      "excerpt": "X02",
+      "why": "E3, a specialist, listed alongside three large incumbents."
+     },
+     {
+      "excerpt": "X14",
+      "why": "Luminate on a lender's approved-engineer schedule (2018)."
+     },
+     {
+      "excerpt": "X24",
+      "why": "Luminate named IE on a ~$600M solar + storage construction financing (lenders not named)."
+     },
+     {
+      "excerpt": "X26",
+      "why": "E3 named IE on an $18M storage financing (company-reported)."
+     },
+     {
+      "excerpt": "X27",
+      "why": "Independent confirmation of the lender (Eagle Point) on E3's Calistoga deal."
+     },
+     {
+      "excerpt": "X23",
+      "why": "Luminate's own description of its origins: the only public account found."
+     },
+     {
+      "excerpt": "X25",
+      "why": "E3's ownership: specialist firm, large parent."
+     }
     ]
    },
    {
@@ -4432,6 +4898,47 @@
      "S20",
      "S29",
      "S33"
+    ],
+    "reasoning": [
+     "The initial research assumed DG and community-solar financing would be easier for a new IE. We tested this by checking which IEs DG lenders actually used.",
+     "Of about 14 DG and community-solar financings reviewed, only 2 disclosed the IE or technical adviser. Both were incumbents, selected alongside the same large banks.",
+     "Counter-evidence: a DG-oriented 2018 credit facility approved ten engineering firms, including small specialists, and one C&I/community-solar facility lets the borrower choose the IE.",
+     "DG economics favor sampled, lighter reviews, but incumbents already offer those approaches.",
+     "Net result: public evidence does not settle the question. It needs lender and capital-markets interviews."
+    ],
+    "trail": [
+     {
+      "excerpt": "X21",
+      "why": "Microgrid/DG portfolio (KeyBanc): lenders used Black & Veatch."
+     },
+     {
+      "excerpt": "X22",
+      "why": "Community-solar portfolio (MUFG, First Citizens, ING, NBC): Enertis was the technical adviser."
+     },
+     {
+      "excerpt": "X14",
+      "why": "Counter-evidence: a broad DG-oriented approved list that included small firms."
+     },
+     {
+      "excerpt": "X17",
+      "why": "Counter-evidence: a borrower-selected IE in a C&I/community-solar facility."
+     },
+     {
+      "excerpt": "X28",
+      "why": "DG diligence relies on samples chosen by the IE and approved by lenders."
+     },
+     {
+      "excerpt": "X29",
+      "why": "Full diligence on every project isn't economic for large portfolios."
+     },
+     {
+      "excerpt": "X30",
+      "why": "An incumbent (ICF) already publishes a DG-specific diligence approach."
+     },
+     {
+      "excerpt": "X31",
+      "why": "A DG lender on what slows diligence: non-standard contracts in existing assets."
+     }
     ]
    },
    {
@@ -4440,6 +4947,21 @@
     "text": "Developers, owners and investors can generally commission it directly. Lender-facing IE remains possible through transaction-specific approval or specialist subcontracting. Commercial plausibility is not demonstrated demand: no public fee or willingness-to-pay evidence was found.",
     "sources": [
      "S77"
+    ],
+    "reasoning": [
+     "In the financing documents above, the lender or agent controls IE selection. Sponsor-side reviews carry no such gate, because developers, owners and investors commission them directly.",
+     "Mayfield already lists pre-finance due diligence and desktop IE review among its public services.",
+     "We found no public evidence on fees or willingness to pay, so this is commercially plausible but demand is not demonstrated. Mayfield's non-public engagement history could also change its readiness for lender-facing work."
+    ],
+    "trail": [
+     {
+      "excerpt": "X32",
+      "why": "Mayfield's publicly listed Independent Engineering services."
+     },
+     {
+      "excerpt": "X01",
+      "why": "Contrast: lender-facing IE work requires lender approval."
+     }
     ]
    }
   ],

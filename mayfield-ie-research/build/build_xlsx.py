@@ -39,7 +39,7 @@ readme = [
 ("Mayfield IE Competitive Landscape — Verified V2", ""),
 ("Prepared", "17 November 2026, for Mayfield Renewables leadership. Companion to the report 'U.S. Solar & Storage Independent Engineering: Competitive Landscape and Market Entry Considerations for Mayfield Renewables'."),
 ("What changed from V1", "V1 (mayfield_ie_competitive_landscape.xlsx, preserved unchanged in Drive and reproduced in the V1_ tabs) was reconstructed from the Deep Research narrative and had no URLs. V2 re-verifies the most consequential claims against primary sources (SEC-filed financing agreements and IE reports, lender and sponsor announcements, company service pages, public procurements), adds 6 firms (4 identified from SEC-filed approved-engineer schedules), and introduces a five-level evidence classification."),
-("Tabs", "1_Full_Landscape (40 firms: 34 from V1 + 6 added) · 2_Priority_Competitors (15 firms + Mayfield reference) · 3_Evidence_References (transaction-level evidence) · 4_Market_Segments · 5_Business_Models · 6_Evidence_Audit (36 audited claims) · 7_Source_Register (98 sources) · 8_Open_Gaps · V1_* (original workbook, unchanged)"),
+("Tabs", "1_Full_Landscape (40 firms: 34 from V1 + 6 added) · 2_Priority_Competitors (15 firms + Mayfield reference) · 3_Evidence_References (transaction-level evidence) · 4_Market_Segments · 5_Business_Models · 6_Evidence_Audit (36 audited claims) · 7_Source_Register (98 sources) · 8_Open_Gaps · 9_Key_Excerpts (verbatim passages behind the principal findings, with highlight phrases) · V1_* (original workbook, unchanged)"),
 ("Evidence classes", "Classes describe the public evidence of financing acceptance, NOT technical competence. A firm may hold several classes. Absence of public evidence is not evidence of no financing experience."),
 ] + [(f"Class {c[0]} – {c[1]}", c[2]) for c in CLASS_DEF] + [
 ("V2 evidence strength", "Strong = class 1 evidence in executed agreements and/or repeated class 2–3 in primary documents · Moderate = class 2/3 present but mainly company-reported or dated · Limited = class 4 or dated class 3 only · Thin = class 5 only · Not re-verified = not checked in V2"),
@@ -104,8 +104,18 @@ sheet("6_Evidence_Audit", ["Claim ID","Original claim (V1 report/workbook)","Ver
 rows = [(s[0], s[1], s[2], s[3], s[4], s[5], s[6], s[7]) for s in SOURCES]
 sheet("7_Source_Register", ["Source ID","Title","Publisher","Date","Source type","URL","Access status (2026-11-17)","Used for"], rows, [9,60,22,16,24,60,26,46])
 
+# 9 Key excerpts
+import json as _json, os as _os
+from excerpts import EXCERPTS
+_ver = _json.load(open(_os.path.join(sys.argv[1], "excerpt_verification.json")))
+rows9 = [(x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], _ver.get(x[0], "")) for x in EXCERPTS]
+# placed after Open Gaps (created below); stash
+_EXC_ROWS = rows9
+
 # 8 Gaps
 sheet("8_Open_Gaps", ["Gap ID","Unresolved question","Who can answer","Decision informed"], GAPS, [9,80,36,30])
+sheet("9_Key_Excerpts", ["Excerpt ID","Source ID","Document","What it shows","Verbatim excerpt","Highlight start","Highlight end","Location in document","Verification status"],
+ _EXC_ROWS, [9,9,40,44,70,30,30,24,30])
 
 # V1 copies
 for w in orig.worksheets:

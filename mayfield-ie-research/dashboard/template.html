@@ -58,6 +58,32 @@ h3{font-size:.98rem;color:var(--ink);margin:0 0 8px;font-weight:650}
 .finding h4{margin:2px 0 3px;font-size:.93rem}
 .finding p{margin:0;font-size:.88rem;color:var(--ink-2)}
 .srcs a{font-size:.76rem;margin-right:6px;text-decoration:none;border-bottom:1px dotted var(--accent)}
+/* evidence trail */
+.finding{border-left:3px solid var(--line-2);padding:6px 0 6px 14px;margin:0 0 16px}
+.finding .ftext{max-width:980px}
+details.trail{margin-top:8px}
+details.trail>summary{cursor:pointer;color:var(--accent);font-size:.86rem;font-weight:600;list-style:none;display:inline-flex;align-items:center;gap:6px}
+details.trail>summary::-webkit-details-marker{display:none}
+details.trail>summary::before{content:"▸";font-size:.8rem;transition:transform .12s}
+details.trail[open]>summary::before{transform:rotate(90deg)}
+.trailbody{margin-top:10px;display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:18px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+@media (max-width:900px){.trailbody{grid-template-columns:minmax(0,1fr)}}
+.trailbody h5{margin:0 0 6px;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.trailbody ol{margin:0;padding-left:18px} .trailbody ol li{font-size:.86rem;margin:0 0 7px}
+.xdoc{background:#fff;border:1px solid var(--line);border-radius:5px;padding:10px 12px;margin:0 0 10px}
+.xdoc .why{font-size:.86rem;font-weight:600;color:var(--ink);margin:0 0 4px}
+.xdoc .dname{font-size:.8rem;color:var(--muted);margin:0 0 6px}
+.xdoc blockquote{margin:0 0 8px;padding:6px 10px;border-left:3px solid #e6c55a;background:#fffbea;font-size:.84rem;font-family:Georgia,"Times New Roman",serif;color:#2b2b2b}
+.xdoc .acts{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:.8rem}
+.xdoc .acts a{font-weight:600}
+.vbadge{font-size:.72rem;color:var(--ok)} .vbadge.warn{color:var(--warn)}
+button.src{background:none;border:0;padding:0;margin-right:6px;color:var(--accent);font-size:.76rem;cursor:pointer;text-decoration:none;border-bottom:1px dotted var(--accent);font-family:inherit}
+button.src:hover{color:var(--navy)}
+/* source card */
+.srcdlg{position:fixed;inset:0;display:none;z-index:70;background:rgba(18,28,42,.35);align-items:flex-start;justify-content:center;padding:6vh 16px}
+.srcdlg.open{display:flex}
+.srccard{background:#fff;border-radius:8px;max-width:760px;width:100%;max-height:86vh;overflow:auto;box-shadow:0 10px 40px rgba(20,30,45,.25);padding:18px 20px;position:relative}
+.srccard h2{font-size:1.05rem;margin:0 60px 6px 0}
 /* matrix */
 .matrix{width:100%;border-collapse:separate;border-spacing:0;font-size:.82rem}
 .matrix th{font-weight:600;color:var(--ink-2);text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:bottom;font-size:.76rem}
@@ -144,17 +170,16 @@ footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);fon
  <h2 id="h-overview">Market overview</h2>
  <p class="lede">Who competes in U.S. solar and storage independent engineering, and which firms have <em>documented</em> financing acceptance. All counts are derived from the verified workbook.</p>
  <div class="stats" id="stats"></div>
- <div class="grid g-main">
-  <div class="card">
-   <h3>Competitive landscape by documented financing acceptance</h3>
-   <p class="small muted" style="margin:0 0 8px">Rows: strength of public evidence of financing acceptance (V2). Columns: market position. Outlined names are on the priority shortlist. Select a firm to open its profile. Evidence strength reflects the public record, not technical competence.</p>
-   <div class="scroll" id="matrix"></div>
-  </div>
-  <div class="card">
-   <h3>Principal findings</h3>
-   <div id="findings"></div>
-   <p class="small" style="margin:10px 0 0"><b>Bottom line.</b> <span id="bottomline"></span></p>
-  </div>
+ <div class="card" style="margin-bottom:16px">
+  <h3>Principal findings</h3>
+  <p class="small muted" style="margin:-4px 0 10px">Each finding shows how it was reached. Expand “How we concluded this” for the reasoning and the exact passages in the underlying documents, with links that open each document at the highlighted passage.</p>
+  <div id="findings"></div>
+  <p class="small" style="margin:12px 0 0"><b>Bottom line.</b> <span id="bottomline"></span></p>
+ </div>
+ <div class="card">
+  <h3>Competitive landscape by documented financing acceptance</h3>
+  <p class="small muted" style="margin:0 0 8px">Rows: strength of public evidence of financing acceptance (V2). Columns: market position. Outlined names are on the priority shortlist. Select a firm to open its profile. Evidence strength reflects the public record, not technical competence.</p>
+  <div class="scroll" id="matrix"></div>
  </div>
 </section>
 
@@ -261,6 +286,7 @@ footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);fon
  <div class="dbody" id="d-body"></div>
 </aside>
 
+<div class="srcdlg" id="srcdlg" role="dialog" aria-modal="true" aria-labelledby="s-title"><div class="srccard" id="srccard"></div></div>
 <script id="data" type="application/json">/*__DATA__*/null</script>
 <script>
 (function(){
@@ -285,8 +311,20 @@ const strengthBucket = s => { s = s || '';
   return 'Thin'; };
 const TAGS = {utility:'Utility-scale', bess:'BESS / storage', dg:'DG / community / residential', ci:'C&I / microgrids', sponsor:'Sponsor-side / M&A / OE'};
 const clsChip = n => `<span class="cls k${n}" title="${esc(CLS[n] ? 'Class '+n+' – '+CLS[n].name : 'Class '+n)}">${n}</span>`;
-const srcLink = id => { const s = D.sources[id]; if (!s) return esc(id);
-  return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" title="${esc(s.title)}">${esc(id)}</a>` : esc(id); };
+const srcLink = id => D.sources[id] ? `<button class="src" data-src="${esc(id)}" title="${esc(D.sources[id].title)}">${esc(id)}</button>` : esc(id);
+const encFrag = t => encodeURIComponent(t).replace(/-/g, '%2D');
+const hlUrl = x => { const s = D.sources[x.source]; if (!s || !s.url) return '';
+  return x.start ? s.url + '#:~:text=' + encFrag(x.start) + (x.end ? ',' + encFrag(x.end) : '') : s.url; };
+const isPdf = u => /\.pdf($|[?#])/i.test(u || '');
+function docCard(x, why, inCard){
+  const s = D.sources[x.source] || {}; const hl = hlUrl(x); const verified = /^Verified/.test(x.verification);
+  const open = x.start && !isPdf(s.url) ? `<a href="${esc(hl)}" target="_blank" rel="noopener noreferrer">Open at highlighted passage ↗</a>` : (s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open document ↗</a> <span class="muted">(PDF: search for the quoted text)</span>` : '');
+  return `<div class="xdoc">${why ? `<p class="why">${esc(why)}</p>` : ''}<p class="dname">${esc(x.document)} · ${esc(x.locator)}</p>
+    <blockquote>${esc(x.quote)}</blockquote>
+    <div class="acts">${open}${x.start && s.url && !isPdf(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="font-weight:400">Full document</a>` : ''}
+    ${inCard ? '' : `<button class="src" data-src="${esc(x.source)}">Source ${esc(x.source)} details</button>`}
+    <span class="vbadge${verified ? '' : ' warn'}">${verified ? '✓ Quote verified verbatim' : '⚠ ' + esc(x.verification)}</span></div></div>`;
+}
 const srcLinks = ids => (ids||[]).map(srcLink).join(' ');
 
 /* header */
@@ -304,6 +342,30 @@ function show(v){ if(!VIEWS.some(x=>x[0]===v)) v='overview';
 }
 $('#tabs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; location.hash = b.dataset.v; });
 window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+
+/* ---------- Source card ---------- */
+let srcLastFocus = null;
+function openSrc(id){
+  const s = D.sources[id]; if (!s) return; srcLastFocus = document.activeElement;
+  const xs = Object.values(D.excerpts).filter(x => x.source === id);
+  const evs = D.evidence.filter(e => e.sourceIds.includes(id));
+  const firms = FIRMS.filter(f => f.sourceIds.includes(id));
+  const fnd = D.narrative.findings.filter(f => (f.trail||[]).some(t => (D.excerpts[t.excerpt]||{}).source === id) || (f.sources||[]).includes(id));
+  $('#srccard').innerHTML = `<button class="dclose" id="s-close" aria-label="Close source">Close ✕</button>
+   <div class="small muted">Source ${esc(id)} · ${esc(s.type)}</div><h2 id="s-title">${esc(s.title)}</h2>
+   <dl class="kv"><dt>Publisher / date</dt><dd>${esc(s.publisher)} · ${esc(s.date)}</dd><dt>What we used it for</dt><dd>${esc(s.usedFor)}</dd><dt>Access status</dt><dd>${esc(s.access)}</dd>
+   ${fnd.length ? `<dt>Supports findings</dt><dd>${fnd.map(f => esc(f.title)).join('<br>')}</dd>` : ''}
+   ${firms.length ? `<dt>Cited for firms</dt><dd>${firms.map(f => `<button class="name" data-firm="${f.id}">${esc(f.name)}</button>`).join(', ')}</dd>` : ''}
+   ${evs.length ? `<dt>Evidence records</dt><dd>${evs.map(e => `${clsChip(e.class)}${esc(e.transaction)}`).join('<br>')}</dd>` : ''}</dl>
+   ${xs.length ? `<h3>Key passages</h3>${xs.map(x => docCard(x, x.shows, true)).join('')}` : `<p class="small muted">No verbatim passage has been extracted for this source yet; the summary above describes what it was used for.</p>`}
+   ${s.url ? `<p class="small"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open full document ↗</a></p>` : ''}`;
+  $('#srcdlg').classList.add('open'); $('#s-close').focus();
+  $('#s-close').addEventListener('click', closeSrc);
+}
+function closeSrc(){ $('#srcdlg').classList.remove('open'); if (srcLastFocus) srcLastFocus.focus(); }
+$('#srcdlg').addEventListener('click', e => { if (e.target.id === 'srcdlg') closeSrc(); });
+document.addEventListener('click', e => { const b = e.target.closest('button.src'); if (b) { e.stopPropagation(); openSrc(b.dataset.src); } }, true);
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('#srcdlg').classList.contains('open')) { e.stopImmediatePropagation(); closeSrc(); } }, true);
 
 /* ---------- Overview ---------- */
 const C = D.meta.counts;
@@ -323,7 +385,13 @@ $('#stats').innerHTML = [[C.firms,'Firms researched'],[C.priority,'Priority comp
   $('#matrix').innerHTML = h + '</tbody></table>';
 })();
 const typeCls = t => t === 'Documented' ? 'doc' : (t === 'Hypothesis' ? 'hyp' : 'unp');
-$('#findings').innerHTML = D.narrative.findings.map(f => `<div class="finding"><span class="tag ${typeCls(f.type)}">${esc(f.type)}</span><h4>${esc(f.title)}</h4><p>${esc(f.text)}</p><div class="srcs">${srcLinks(f.sources)}</div></div>`).join('');
+$('#findings').innerHTML = D.narrative.findings.map((f, i) => {
+  const tr = (f.trail || []).map(t => ({x: D.excerpts[t.excerpt], why: t.why})).filter(t => t.x);
+  const nDocs = new Set(tr.map(t => t.x.source)).size;
+  return `<div class="finding"><span class="tag ${typeCls(f.type)}">${esc(f.type)}</span><h4>${esc(f.title)}</h4><p class="ftext">${esc(f.text)}</p>
+   ${tr.length ? `<details class="trail" id="trail-${i}"><summary>How we concluded this · ${tr.length} passages from ${nDocs} documents</summary>
+     <div class="trailbody"><div><h5>Reasoning</h5><ol>${(f.reasoning||[]).map(r => `<li>${esc(r)}</li>`).join('')}</ol></div>
+     <div><h5>Documents and exact passages</h5>${tr.map(t => docCard(t.x, t.why)).join('')}</div></div></details>` : `<div class="srcs">${srcLinks(f.sources)}</div>`}</div>`; }).join('');
 $('#bottomline').textContent = D.narrative.bottomLine;
 
 /* ---------- Landscape explorer ---------- */
@@ -374,7 +442,7 @@ renderFirms();
 /* ---------- Profile drawer ---------- */
 let lastFocus = null;
 function openFirm(id){
-  const f = BYID[id]; if (!f) return; lastFocus = document.activeElement;
+  const f = BYID[id]; if (!f) return; if ($('#srcdlg').classList.contains('open')) $('#srcdlg').classList.remove('open'); lastFocus = document.activeElement;
   const d = f.detail || {};
   const evs = f.evidenceIds.map(i => EVBYID[i]);
   const grp = c => evs.filter(e => c.includes(e.class));

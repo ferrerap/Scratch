@@ -12,6 +12,46 @@
     "S17",
     "S18",
     "S20"
+   ],
+   "reasoning": [
+    "We read the definition of “Independent Engineer” in every SEC-filed financing agreement we could locate (credit facilities, warehouses, tax-equity and note documents).",
+    "None refers to an industry-wide approved list. Each names its own preferred firms, and almost all add a route for another firm, decided by the lenders or agent. One facility lets the borrower choose, subject to the agent's right to replace.",
+    "The same documents show friction: one lender's approved list grew by a single firm in 18 months, and MUFG-led lenders accepted Enertis on one project only with an extra DNV report.",
+    "The documents cannot show how often lenders actually approve a firm they don't know. That is the top question for lender interviews."
+   ],
+   "trail": [
+    {
+     "excerpt": "X01",
+     "why": "Typical structure: three named firms, plus any other qualified firm the lenders approve."
+    },
+    {
+     "excerpt": "X02",
+     "why": "Same pattern in a 2026 storage deal, here agreed between borrower and agent."
+    },
+    {
+     "excerpt": "X05",
+     "why": "Bank of America deal: lenders can select a different IE."
+    },
+    {
+     "excerpt": "X13",
+     "why": "Agent can approve engineers beyond the list at its sole discretion."
+    },
+    {
+     "excerpt": "X17",
+     "why": "Borrower-selected IE: the most open pattern found…"
+    },
+    {
+     "excerpt": "X18",
+     "why": "…but lenders can still replace the IE, and the borrower pays its fees."
+    },
+    {
+     "excerpt": "X15",
+     "why": "Lists change slowly: one addition (Leidos) in about 18 months."
+    },
+    {
+     "excerpt": "X10",
+     "why": "Lenders required a second incumbent report alongside Enertis."
+    }
    ]
   },
   {
@@ -24,6 +64,41 @@
     "S08",
     "S10",
     "S11"
+   ],
+   "reasoning": [
+    "Signed, SEC-filed agreements name Leidos, DNV or Enertis as IE and route IE certificates or reliance letters to named banks (MUFG, Bank of America, Deutsche Bank).",
+    "We class these as “confirmed financing reliance” (class 1) because the executed agreement grants lenders reliance. The signed reliance letters themselves were not available to us.",
+    "For many large engineering and testing firms (e.g., 1898 & Co., Tetra Tech, Stantec, Arup) we found service pages offering IE work but no named U.S. solar or storage lender assignment, so size alone did not show up as documented acceptance. Absence of public evidence is not proof of no experience."
+   ],
+   "trail": [
+    {
+     "excerpt": "X07",
+     "why": "Leidos issues the IE certificate on a ~270 MW MUFG-led Texas solar financing…"
+    },
+    {
+     "excerpt": "X08",
+     "why": "…addressed to MUFG as administrative agent (and Deutsche Bank as collateral agent)."
+    },
+    {
+     "excerpt": "X06",
+     "why": "Leidos drawdown certificate addressed to Bank of America; note Leidos is engaged by the borrower."
+    },
+    {
+     "excerpt": "X09",
+     "why": "Lenders must receive a reliance letter entitling them to rely on the IE report."
+    },
+    {
+     "excerpt": "X12",
+     "why": "Enertis named as IE in an MUFG-agented warehouse facility."
+    },
+    {
+     "excerpt": "X19",
+     "why": "Incumbents cap reliance liability contractually (DNV: USD 300,000 in this context)."
+    },
+    {
+     "excerpt": "X20",
+     "why": "DNV acting as IE on a residential solar + storage securitization."
+    }
    ]
   },
   {
@@ -37,6 +112,42 @@
     "S43",
     "S44",
     "S45"
+   ],
+   "reasoning": [
+    "E3 Consulting is named beside DNV, Enertis and Sargent & Lundy as an acceptable IE in a 2026 storage financing agreement. Luminate was on a lender's approved-engineer list in 2018.",
+    "Both firms publicize named financing assignments. Most are self-reported, but one lender (Eagle Point, on an E3 deal) is independently confirmed.",
+    "Neither firm is a multinational engineering company, though E3 has had a large corporate parent (NAES) since 2014.",
+    "Founding dates are documented, but no public source shows when or how either firm first won lender acceptance, so we draw no conclusion about how long it takes."
+   ],
+   "trail": [
+    {
+     "excerpt": "X02",
+     "why": "E3, a specialist, listed alongside three large incumbents."
+    },
+    {
+     "excerpt": "X14",
+     "why": "Luminate on a lender's approved-engineer schedule (2018)."
+    },
+    {
+     "excerpt": "X24",
+     "why": "Luminate named IE on a ~$600M solar + storage construction financing (lenders not named)."
+    },
+    {
+     "excerpt": "X26",
+     "why": "E3 named IE on an $18M storage financing (company-reported)."
+    },
+    {
+     "excerpt": "X27",
+     "why": "Independent confirmation of the lender (Eagle Point) on E3's Calistoga deal."
+    },
+    {
+     "excerpt": "X23",
+     "why": "Luminate's own description of its origins: the only public account found."
+    },
+    {
+     "excerpt": "X25",
+     "why": "E3's ownership: specialist firm, large parent."
+    }
    ]
   },
   {
@@ -48,6 +159,47 @@
     "S20",
     "S29",
     "S33"
+   ],
+   "reasoning": [
+    "The initial research assumed DG and community-solar financing would be easier for a new IE. We tested this by checking which IEs DG lenders actually used.",
+    "Of about 14 DG and community-solar financings reviewed, only 2 disclosed the IE or technical adviser. Both were incumbents, selected alongside the same large banks.",
+    "Counter-evidence: a DG-oriented 2018 credit facility approved ten engineering firms, including small specialists, and one C&I/community-solar facility lets the borrower choose the IE.",
+    "DG economics favor sampled, lighter reviews, but incumbents already offer those approaches.",
+    "Net result: public evidence does not settle the question. It needs lender and capital-markets interviews."
+   ],
+   "trail": [
+    {
+     "excerpt": "X21",
+     "why": "Microgrid/DG portfolio (KeyBanc): lenders used Black & Veatch."
+    },
+    {
+     "excerpt": "X22",
+     "why": "Community-solar portfolio (MUFG, First Citizens, ING, NBC): Enertis was the technical adviser."
+    },
+    {
+     "excerpt": "X14",
+     "why": "Counter-evidence: a broad DG-oriented approved list that included small firms."
+    },
+    {
+     "excerpt": "X17",
+     "why": "Counter-evidence: a borrower-selected IE in a C&I/community-solar facility."
+    },
+    {
+     "excerpt": "X28",
+     "why": "DG diligence relies on samples chosen by the IE and approved by lenders."
+    },
+    {
+     "excerpt": "X29",
+     "why": "Full diligence on every project isn't economic for large portfolios."
+    },
+    {
+     "excerpt": "X30",
+     "why": "An incumbent (ICF) already publishes a DG-specific diligence approach."
+    },
+    {
+     "excerpt": "X31",
+     "why": "A DG lender on what slows diligence: non-standard contracts in existing assets."
+    }
    ]
   },
   {
@@ -56,6 +208,21 @@
    "text": "Developers, owners and investors can generally commission it directly. Lender-facing IE remains possible through transaction-specific approval or specialist subcontracting. Commercial plausibility is not demonstrated demand: no public fee or willingness-to-pay evidence was found.",
    "sources": [
     "S77"
+   ],
+   "reasoning": [
+    "In the financing documents above, the lender or agent controls IE selection. Sponsor-side reviews carry no such gate, because developers, owners and investors commission them directly.",
+    "Mayfield already lists pre-finance due diligence and desktop IE review among its public services.",
+    "We found no public evidence on fees or willingness to pay, so this is commercially plausible but demand is not demonstrated. Mayfield's non-public engagement history could also change its readiness for lender-facing work."
+   ],
+   "trail": [
+    {
+     "excerpt": "X32",
+     "why": "Mayfield's publicly listed Independent Engineering services."
+    },
+    {
+     "excerpt": "X01",
+     "why": "Contrast: lender-facing IE work requires lender approval."
+    }
    ]
   }
  ],

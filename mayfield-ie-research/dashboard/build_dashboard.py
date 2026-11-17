@@ -165,6 +165,14 @@ def main():
     gaps = [{"id": r["Gap ID"], "question": r["Unresolved question"], "who": r["Who can answer"], "decision": r["Decision informed"]}
             for r in rows(sheet(wb, "8_"))]
 
+    excerpts = {}
+    xs = [ws for ws in wb.worksheets if ws.title.startswith("9_")]
+    if xs:
+        for r in rows(xs[0]):
+            excerpts[r["Excerpt ID"]] = {"id": r["Excerpt ID"], "source": r["Source ID"], "document": r["Document"],
+                "shows": r["What it shows"], "quote": r["Verbatim excerpt"], "start": r["Highlight start"],
+                "end": r["Highlight end"], "locator": r["Location in document"], "verification": r["Verification status"]}
+
     # integrity checks
     missing = sorted({s for f in firms for s in f["sourceIds"]} | {s for e in evidence for s in e["sourceIds"]} | {s for a in audit for s in a["sourceIds"]} - set(sources))
     missing = [m for m in missing if m not in sources]
@@ -172,13 +180,19 @@ def main():
         raise SystemExit(f"Source IDs referenced but missing from register: {missing}")
 
     narrative = json.load(open(os.path.join(HERE, "narrative.json")))
+    bad = [t["excerpt"] for f in narrative["findings"] for t in f.get("trail", []) if t["excerpt"] not in excerpts]
+    if bad:
+        raise SystemExit(f"Findings reference excerpts missing from the 9_Key_Excerpts tab: {bad}")
+    badsrc = [x["id"] for x in excerpts.values() if x["source"] not in sources]
+    if badsrc:
+        raise SystemExit(f"Excerpts reference unknown sources: {badsrc}")
     data = {"meta": {"title": "U.S. Solar & Storage IE Market Intelligence",
                      "subtitle": "Competitive Landscape & Market Entry | Mayfield Renewables | November 2026",
                      "workbook": os.path.basename(src), "generated": datetime.date.today().isoformat(),
                      "counts": {"firms": len(firms), "priority": len(priority), "evidence": len(evidence),
-                                "audit": len(audit), "sources": len(sources), "segments": len(segments), "gaps": len(gaps)}},
+                                "audit": len(audit), "sources": len(sources), "segments": len(segments), "gaps": len(gaps), "excerpts": len(excerpts)}},
             "classDefs": class_defs, "firms": firms, "priority": priority, "mayfield": mayfield, "evidence": evidence,
-            "segments": segments, "models": models, "audit": audit, "sources": sources, "gaps": gaps, "narrative": narrative}
+            "excerpts": excerpts, "segments": segments, "models": models, "audit": audit, "sources": sources, "gaps": gaps, "narrative": narrative}
 
     jpath = os.path.join(outdir, "Mayfield_IE_Dashboard_Data.json")
     json.dump(data, open(jpath, "w"), indent=1, ensure_ascii=False)

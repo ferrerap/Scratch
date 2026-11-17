@@ -1,0 +1,180 @@
+{
+ "_note": "Short narrative text drawn from the final report (sections 1, 4, 5, 7) and the primary research plan. Tabular research data comes only from the workbook.",
+ "findings": [
+  {
+   "type": "Documented",
+   "title": "Lenders grant acceptance deal by deal, not through an industry-wide list",
+   "text": "Filed financing agreements name preferred IEs but almost all allow an alternative approved by the agent or required lenders, or, in some DG facilities, chosen by the borrower. How often lenders use that pathway is not publicly documented, and the filed record shows friction.",
+   "sources": [
+    "S01",
+    "S02",
+    "S10",
+    "S17",
+    "S18",
+    "S20"
+   ]
+  },
+  {
+   "type": "Documented",
+   "title": "Demonstrated acceptance is concentrated and is not a function of size",
+   "text": "Leidos, DNV and Enertis Applus+ appear in executed agreements with reliance and funding-certificate mechanics. Several large engineering and testing firms market IE services but show little public U.S. solar/BESS lender evidence.",
+   "sources": [
+    "S06",
+    "S07",
+    "S08",
+    "S10",
+    "S11"
+   ]
+  },
+  {
+   "type": "Documented",
+   "title": "Specialists can achieve meaningful financing acceptance without multinational scale",
+   "text": "Luminate and E3 Consulting are named as acceptable IEs in financing documents and have named financing assignments. The public record does not show how quickly either achieved that acceptance, or which relationships, qualifications or transactions enabled their first lender engagements.",
+   "sources": [
+    "S01",
+    "S17",
+    "S40",
+    "S43",
+    "S44",
+    "S45"
+   ]
+  },
+  {
+   "type": "Unproven",
+   "title": "DG / community solar has not been shown to be an easier lender-facing market",
+   "text": "In the bank-led DG and microgrid financings that disclosed an adviser, lenders used Black & Veatch or Enertis. Counter-evidence exists (a broad 2018 DG approved-engineer list; one facility with borrower-selected IE), but the question cannot be settled from public sources.",
+   "sources": [
+    "S17",
+    "S20",
+    "S29",
+    "S33"
+   ]
+  },
+  {
+   "type": "Hypothesis",
+   "title": "Sponsor-side diligence appears most immediately accessible for Mayfield",
+   "text": "Developers, owners and investors can generally commission it directly. Lender-facing IE remains possible through transaction-specific approval or specialist subcontracting. Commercial plausibility is not demonstrated demand: no public fee or willingness-to-pay evidence was found.",
+   "sources": [
+    "S77"
+   ]
+  }
+ ],
+ "bottomLine": "A staged approach: confirm what Mayfield's existing engagements, client relationships and economics already show; build on sponsor-side work where that supports demand; test lender acceptance on specific transactions (directly or as a subcontractor to an established IE); and complete six to eight targeted interviews before committing significant resources.",
+ "establishes": [
+  "IE acceptance is controlled largely by lenders, deal by deal; contracts name preferred firms but provide a lender-controlled pathway for others.",
+  "Acceptance is concentrated among a small set of firms with documented reliance roles and, on the evidence reviewed, tracks transaction history rather than scale.",
+  "Specialists such as Luminate and E3 have achieved acceptance without multinational scale; the public record does not show how quickly or by what route.",
+  "Incumbents limit reliance exposure contractually (e.g., DNV's standard reliance terms cap liability at USD 300,000 in one ABS context).",
+  "Mayfield publicly lists an Independent Engineering line and has documented C&I, storage, microgrid, codes and commissioning depth; its capabilities align with buyers who choose their technical adviser directly."
+ ],
+ "uncertain": [
+  "What Mayfield's non-public engagement history and financing relationships already demonstrate.",
+  "How often lenders approve a new IE, and whether DG, private-credit or green-bank lenders are more open.",
+  "What sponsors pay, and whether they would pay for finance readiness or evidence standardization.",
+  "Which reliance and insurance terms are insurable for a firm of Mayfield's size.",
+  "How much of Mayfield's pipeline is conflicted by its design work."
+ ],
+ "nextSteps": [
+  {
+   "title": "Internal fact base (weeks 1–3)",
+   "text": "Inventory past work usable as financing references, design-client conflicts, professional-liability terms and capacity; agree go/no-go criteria."
+  },
+  {
+   "title": "Interviews (weeks 2–8)",
+   "text": "Six to eight interviews per the Primary Research Plan, prioritizing lenders that have approved new IEs in DG, C&I and private credit."
+  },
+  {
+   "title": "Counsel and broker review (weeks 3–6)",
+   "text": "Template reliance letter, limitation of liability and coverage."
+  },
+  {
+   "title": "Model B pilots (weeks 4–12)",
+   "text": "Informed by the internal review of current volume and pricing, two or three pilots with clients approaching financing."
+  },
+  {
+   "title": "Live lender test",
+   "text": "On one transaction, seek lender pre-approval under the alternative-IE clause and document the response."
+  },
+  {
+   "title": "Decision checkpoint (~day 90)",
+   "text": "Proceed, narrow or partner against agreed criteria."
+  }
+ ],
+ "interviews": [
+  {
+   "id": "I-1",
+   "who": "DG / C&I project-finance lender (bank)",
+   "hypothesis": "Will approve a non-listed IE on a transaction basis given experienced personnel, QA and insurable reliance terms."
+  },
+  {
+   "id": "I-2",
+   "who": "Private-credit or specialty lender",
+   "hypothesis": "Chooses IEs on expertise and turnaround more than incumbency."
+  },
+  {
+   "id": "I-3",
+   "who": "Green bank or mission lender",
+   "hypothesis": "Offers a qualification pathway for small firms into lender-side review."
+  },
+  {
+   "id": "I-4",
+   "who": "DG / community-solar capital-markets lead",
+   "hypothesis": "Sponsors influence IE choice and would pay for pre-finance readiness."
+  },
+  {
+   "id": "I-5",
+   "who": "C&I / microgrid developer or owner",
+   "hypothesis": "Technical-evidence gaps delay financing and clients will pay to close them."
+  },
+  {
+   "id": "I-6",
+   "who": "Boutique IE principal or former incumbent IE manager",
+   "hypothesis": "First acceptance came via founders' track records plus a vouching sponsor or lender; some disciplines can be subcontracted."
+  },
+  {
+   "id": "I-7",
+   "who": "Project-finance counsel and PI broker",
+   "hypothesis": "Lender-acceptable reliance terms are insurable at manageable cost."
+  },
+  {
+   "id": "I-8",
+   "who": "Tax-equity investor or M&A technical director (optional)",
+   "hypothesis": "Investors commission their own diligence and will use specialists."
+  }
+ ],
+ "methodology": "Desk research only. Initial discovery used ChatGPT Deep Research (34 firms). A targeted second stage, conducted with Claude and its web-search and document-retrieval tools, retrieved original SEC filings, financing agreements, IE reports, lender and sponsor announcements, company disclosures and public procurements; cross-checked 36 consequential claims; and recorded corrections, evidence classes and remaining uncertainty. These checks were AI-assisted rather than performed by an independent human reviewer. No interviews have been conducted.",
+ "limitations": [
+  "No lenders, sponsors or competitors have been interviewed.",
+  "Fees, lender approval frequency and demand are not publicly documented.",
+  "Signed reliance letters were not examined; class 1 rests on executed-agreement terms.",
+  "Absence of public evidence does not mean a firm (including Mayfield) lacks financing experience.",
+  "Segment filter tags in the landscape explorer are derived from workbook text fields (Technologies, Segment focus, Service orientation)."
+ ],
+ "documents": [
+  {
+   "title": "Final Market Landscape Report",
+   "url": "https://docs.google.com/document/d/1xPZlvAguilNHM2X1Fqb318nMqEBECpVb9DXHbv1Gmf4/edit"
+  },
+  {
+   "title": "Verified Competitive Landscape Workbook (source of truth)",
+   "url": "https://docs.google.com/spreadsheets/d/1BxWzNOjIBzpfIQ0r0Ld21_q1RFeqeNFFlMVRS1v2P_M/edit"
+  },
+  {
+   "title": "Primary Research and Validation Plan",
+   "url": "https://docs.google.com/document/d/15gJMyauLl2Y6E5FW9je-PkHx1PEmjffhX4shUDy5aCI/edit"
+  }
+ ],
+ "mayfieldGaps": [
+  "No named financing references are public (non-public history may differ).",
+  "No published energy-yield methodology (e.g., P50/P90 exceedance values).",
+  "Resource assessment, civil/geotechnical review, cost and schedule validation, contract review and construction monitoring not documented at IE scale.",
+  "Independence conflicts with design (engineer-of-record) clients unresolved.",
+  "Reliance contracting and professional-liability coverage unknown."
+ ],
+ "mayfieldOpportunities": [
+  "Sponsor-side pre-finance diligence and finance-readiness reviews (service already listed publicly).",
+  "Specialist workstreams (C&I, microgrid, controls, codes, storage safety) as a subcontractor to an accepted IE – incumbent appetite unverified.",
+  "Teaming with storage specialists (e.g., Fractal) or equipment-QA providers (e.g., Intertek CEA) where Mayfield lacks scope.",
+  "Transaction-specific lender approval on facilities with broad lists, borrower selection, or private-credit / green-bank lenders."
+ ]
+}

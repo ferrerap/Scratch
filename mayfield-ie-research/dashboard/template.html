@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>U.S. Solar &amp; Storage IE Market Intelligence — Mayfield Renewables</title>
+<style>
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --surface-2:#f1f3f6; --line:#dde2e8; --line-2:#c9d0d9;
+  --ink:#1b2430; --ink-2:#3a4656; --muted:#5f6b7a; --navy:#1f3864; --navy-2:#2c4f86; --accent:#2e6ab3;
+  --accent-soft:#e7eef8; --warn:#8a5a00; --warn-soft:#fbf3e2; --ok:#2f6b4f; --ok-soft:#e8f3ed;
+  --c1:#1f3864; --c2:#3f6aa8; --c3:#6f8fbd; --c4:#a3b4cc; --c5:#d3dbe6;
+  --radius:6px; --shadow:0 1px 2px rgba(20,30,45,.06),0 1px 1px rgba(20,30,45,.04);
+  font-size:15px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.45}
+a{color:var(--accent)} a:hover{color:var(--navy)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:8px 12px;z-index:100}
+.skip:focus{left:8px}
+header.top{background:var(--surface);border-bottom:1px solid var(--line)}
+.top-inner{max-width:1320px;margin:0 auto;padding:18px 24px 0}
+.brand h1{margin:0;font-size:1.32rem;font-weight:650;color:var(--navy);letter-spacing:-.005em}
+.brand p{margin:2px 0 0;color:var(--muted);font-size:.9rem}
+.stamp{float:right;color:var(--muted);font-size:.78rem;text-align:right;margin-top:4px}
+nav.tabs{display:flex;gap:2px;margin-top:14px;overflow-x:auto;scrollbar-width:thin}
+nav.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:9px 13px;color:var(--ink-2);cursor:pointer;white-space:nowrap;font-size:.92rem}
+nav.tabs button:hover{color:var(--navy)}
+nav.tabs button[aria-current="page"]{border-bottom-color:var(--navy);color:var(--navy);font-weight:600}
+main{max-width:1320px;margin:0 auto;padding:22px 24px 60px}
+section.view{display:none} section.view.active{display:block}
+h2{font-size:1.12rem;color:var(--navy);margin:0 0 4px;font-weight:650}
+h3{font-size:.98rem;color:var(--ink);margin:0 0 8px;font-weight:650}
+.lede{color:var(--muted);margin:0 0 16px;max-width:900px;font-size:.93rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:16px;align-items:start}
+.g2{grid-template-columns:1fr 1fr} .g3{grid-template-columns:repeat(3,1fr)}
+.g-main{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.g-seg{grid-template-columns:minmax(0,260px) minmax(0,1fr)}
+@media (max-width:1000px){.g2,.g3,.g-main,.g-seg{grid-template-columns:minmax(0,1fr)}}
+.grid>*{min-width:0}
+.stats{display:flex;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:18px}
+.stat{flex:1 1 140px;padding:12px 16px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-size:1.35rem;color:var(--navy);font-weight:650;line-height:1.2}
+.stat span{color:var(--muted);font-size:.8rem}
+.small{font-size:.82rem} .muted{color:var(--muted)}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;font-size:.74rem;background:var(--surface-2);border:1px solid var(--line);color:var(--ink-2);margin:1px 3px 1px 0;white-space:nowrap}
+.tag.doc{background:var(--ok-soft);border-color:#cfe3d7;color:var(--ok)}
+.tag.hyp{background:var(--accent-soft);border-color:#cbdaf0;color:var(--navy-2)}
+.tag.unp{background:var(--warn-soft);border-color:#efdcb5;color:var(--warn)}
+.tag.prio{background:var(--navy);color:#fff;border-color:var(--navy)}
+.cls{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;border-radius:4px;font-size:.74rem;font-weight:650;margin-right:3px;color:#fff}
+.cls.k1{background:var(--c1)} .cls.k2{background:var(--c2)} .cls.k3{background:var(--c3)} .cls.k4{background:var(--c4);color:var(--ink)} .cls.k5{background:var(--c5);color:var(--ink)}
+.finding{border-left:3px solid var(--line-2);padding:4px 0 4px 12px;margin:0 0 14px}
+.finding h4{margin:2px 0 3px;font-size:.93rem}
+.finding p{margin:0;font-size:.88rem;color:var(--ink-2)}
+.srcs a{font-size:.76rem;margin-right:6px;text-decoration:none;border-bottom:1px dotted var(--accent)}
+/* matrix */
+.matrix{width:100%;border-collapse:separate;border-spacing:0;font-size:.82rem}
+.matrix th{font-weight:600;color:var(--ink-2);text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:bottom;font-size:.76rem}
+.matrix td{padding:6px 6px;border-bottom:1px solid var(--line);vertical-align:top;border-right:1px dashed var(--line)}
+.matrix td:last-child{border-right:0}
+.matrix th.rowh{width:120px;vertical-align:top;border-right:1px solid var(--line)}
+.chip{display:inline-block;margin:2px 3px 2px 0;padding:2px 7px;border:1px solid var(--line-2);border-radius:4px;background:#fff;font-size:.76rem;cursor:pointer;text-align:left;line-height:1.3}
+.chip:hover{border-color:var(--navy);color:var(--navy)}
+.chip.p{border-color:var(--navy);font-weight:600;color:var(--navy)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+/* controls */
+.controls{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:flex-end;margin-bottom:12px}
+.ctl label,.ctl .lbl{display:block;font-size:.74rem;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+input[type=search],select{font:inherit;font-size:.88rem;padding:6px 9px;border:1px solid var(--line-2);border-radius:5px;background:#fff;min-width:200px;color:var(--ink)}
+.seg{display:inline-flex;border:1px solid var(--line-2);border-radius:5px;overflow:hidden}
+.seg button{border:0;background:#fff;padding:6px 11px;cursor:pointer;font-size:.85rem;border-right:1px solid var(--line-2)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.fchips{display:flex;flex-wrap:wrap;gap:4px}
+.fchip{border:1px solid var(--line-2);background:#fff;border-radius:14px;padding:3px 10px;font-size:.8rem;cursor:pointer}
+.fchip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--navy);font-weight:600}
+.linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;padding:4px 2px;font-size:.84rem;text-decoration:underline}
+.count{font-size:.85rem;color:var(--muted);margin:0 0 8px}
+/* tables */
+table.data{width:100%;border-collapse:collapse;background:#fff;font-size:.84rem}
+table.data th{background:var(--surface-2);text-align:left;font-weight:600;color:var(--ink-2);padding:8px 9px;border-bottom:1px solid var(--line-2);position:sticky;top:0;font-size:.78rem;vertical-align:bottom}
+table.data td{padding:8px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+table.data tbody tr.click{cursor:pointer}
+table.data tbody tr.click:hover{background:#f8fafc}
+th button.sort{background:none;border:0;padding:0;font-weight:600;cursor:pointer;color:inherit;text-align:left;font-size:inherit}
+th button.sort::after{content:" ↕";color:var(--line-2)}
+th[aria-sort=ascending] button.sort::after{content:" ↑";color:var(--navy)}
+th[aria-sort=descending] button.sort::after{content:" ↓";color:var(--navy)}
+.name{font-weight:600;color:var(--navy);background:none;border:0;padding:0;cursor:pointer;text-align:left}
+.name:hover{text-decoration:underline}
+.tablewrap{border:1px solid var(--line);border-radius:var(--radius);overflow:auto;max-height:70vh;background:#fff}
+.note{background:var(--warn-soft);border:1px solid #efdcb5;color:#5b4310;border-radius:var(--radius);padding:9px 12px;font-size:.84rem;margin:0 0 14px}
+.note.info{background:var(--accent-soft);border-color:#cbdaf0;color:#213a63}
+/* drawer */
+.backdrop{position:fixed;inset:0;background:rgba(18,28,42,.35);display:none;z-index:40}
+.backdrop.open{display:block}
+aside.drawer{position:fixed;top:0;right:0;height:100%;width:min(760px,100%);background:var(--surface);z-index:50;box-shadow:-6px 0 24px rgba(20,30,45,.18);transform:translateX(100%);transition:transform .18s ease;display:flex;box-shadow:none;flex-direction:column}
+aside.drawer.open{transform:none;visibility:visible;box-shadow:-6px 0 24px rgba(20,30,45,.18)}
+aside.drawer:not(.open){visibility:hidden;box-shadow:none;transition:transform .18s ease,visibility 0s linear .18s}
+.dhead{padding:16px 20px 12px;border-bottom:1px solid var(--line)}
+.dhead h2{font-size:1.2rem;margin:0 26px 4px 0}
+.dclose{position:absolute;top:12px;right:14px;border:1px solid var(--line-2);background:#fff;border-radius:5px;padding:3px 9px;cursor:pointer}
+.dbody{padding:14px 20px 40px;overflow:auto}
+dl.kv{display:grid;grid-template-columns:190px 1fr;gap:6px 14px;margin:0 0 14px;font-size:.86rem}
+dl.kv dt{color:var(--muted)} dl.kv dd{margin:0}
+@media (max-width:640px){dl.kv{grid-template-columns:minmax(0,1fr)} dl.kv dt{margin-top:6px} main,.top-inner{padding-left:14px;padding-right:14px} .stamp{float:none;text-align:left;margin-bottom:6px} input[type=search],select{min-width:0;width:100%} .ctl{width:100%}}
+dl.kv dd{min-width:0;overflow-wrap:anywhere}
+.dsec{margin:16px 0 0}
+.dsec h3{border-bottom:1px solid var(--line);padding-bottom:4px}
+.ne{color:var(--muted);font-style:italic}
+/* segments */
+.seglist{display:flex;flex-direction:column;gap:4px}
+.seglist button{text-align:left;border:1px solid var(--line);background:#fff;border-radius:5px;padding:8px 10px;cursor:pointer;font-size:.86rem}
+.seglist button[aria-pressed="true"]{border-color:var(--navy);background:var(--accent-soft);color:var(--navy);font-weight:600}
+.cmp th:first-child,.cmp td:first-child{position:sticky;left:0;background:var(--surface-2);z-index:1;min-width:150px}
+.cmp td:first-child{background:#fafbfc;font-weight:600;color:var(--ink-2)}
+.cmp td{min-width:220px}
+.cmp th.may{background:var(--navy);color:#fff}
+.cmp th .name{font-size:.82rem}
+ul.tight{margin:0;padding-left:18px} ul.tight li{margin:0 0 6px;font-size:.88rem}
+ol.steps{margin:0;padding-left:20px} ol.steps li{margin:0 0 8px;font-size:.88rem}
+.pickers{display:flex;flex-wrap:wrap;gap:4px 6px;margin:4px 0 12px}
+footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);font-size:.78rem}
+@media print{nav.tabs,.controls{display:none} section.view{display:block !important;page-break-after:always}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+ <div class="top-inner">
+  <div class="stamp" id="stamp"></div>
+  <div class="brand"><h1 id="title"></h1><p id="subtitle"></p></div>
+  <nav class="tabs" aria-label="Dashboard views" id="tabs"></nav>
+ </div>
+</header>
+<main id="main" tabindex="-1">
+
+<section class="view" id="v-overview" aria-labelledby="h-overview">
+ <h2 id="h-overview">Market overview</h2>
+ <p class="lede">Who competes in U.S. solar and storage independent engineering, and which firms have <em>documented</em> financing acceptance. All counts are derived from the verified workbook.</p>
+ <div class="stats" id="stats"></div>
+ <div class="grid g-main">
+  <div class="card">
+   <h3>Competitive landscape by documented financing acceptance</h3>
+   <p class="small muted" style="margin:0 0 8px">Rows: strength of public evidence of financing acceptance (V2). Columns: market position. Outlined names are on the priority shortlist. Select a firm to open its profile. Evidence strength reflects the public record, not technical competence.</p>
+   <div class="scroll" id="matrix"></div>
+  </div>
+  <div class="card">
+   <h3>Principal findings</h3>
+   <div id="findings"></div>
+   <p class="small" style="margin:10px 0 0"><b>Bottom line.</b> <span id="bottomline"></span></p>
+  </div>
+ </div>
+</section>
+
+<section class="view" id="v-landscape" aria-labelledby="h-landscape">
+ <h2 id="h-landscape">Competitive landscape explorer</h2>
+ <p class="lede">The full verified universe. Filters combine across groups (AND) and within a group (OR). Select a company to open its profile.</p>
+ <div class="controls">
+  <div class="ctl"><label for="q-firm">Search</label><input type="search" id="q-firm" placeholder="Company, reference, segment…"></div>
+  <div class="ctl"><span class="lbl" id="lbl-scope">Universe</span><div class="seg" role="group" aria-labelledby="lbl-scope" id="scope"></div></div>
+  <div class="ctl"><span class="lbl">Market position</span><div class="fchips" id="f-cat"></div></div>
+  <div class="ctl"><span class="lbl">Segment / service (derived tags)</span><div class="fchips" id="f-tag"></div></div>
+  <div class="ctl"><span class="lbl">Evidence class held</span><div class="fchips" id="f-cls"></div></div>
+  <div class="ctl"><button class="linkbtn" id="clear-firm">Clear filters</button></div>
+ </div>
+ <p class="count" id="firm-count" aria-live="polite"></p>
+ <div class="tablewrap"><table class="data" id="firm-table"></table></div>
+ <p class="small muted">Segment/service tags are derived from the workbook's Technologies, Segment focus and Service orientation fields. Evidence classes: <span id="cls-legend-inline"></span></p>
+</section>
+
+<section class="view" id="v-evidence" aria-labelledby="h-evidence">
+ <h2 id="h-evidence">Financing evidence explorer</h2>
+ <p class="lede">Transaction-level and contract-level evidence from the verified workbook. Each record keeps its evidence class, source ID and qualification. Contractual eligibility, named assignments and reliance mechanisms are distinct and are never merged.</p>
+ <div class="note info" id="cls-defs"></div>
+ <div class="controls">
+  <div class="ctl"><label for="q-ev">Search</label><input type="search" id="q-ev" placeholder="Transaction, counterparty, role, note…"></div>
+  <div class="ctl"><label for="f-evfirm">Engineering firm</label><select id="f-evfirm"></select></div>
+  <div class="ctl"><label for="f-evcp">Financing counterparty</label><select id="f-evcp"></select></div>
+  <div class="ctl"><label for="f-evtype">Project type</label><select id="f-evtype"></select></div>
+  <div class="ctl"><label for="f-evyear">Year (where documented)</label><select id="f-evyear"></select></div>
+  <div class="ctl"><span class="lbl">Evidence class</span><div class="fchips" id="f-evcls"></div></div>
+  <div class="ctl"><button class="linkbtn" id="clear-ev">Clear filters</button></div>
+ </div>
+ <p class="count" id="ev-count" aria-live="polite"></p>
+ <div class="tablewrap"><table class="data" id="ev-table"></table></div>
+</section>
+
+<section class="view" id="v-segments" aria-labelledby="h-segments">
+ <h2 id="h-segments">Market segments</h2>
+ <p class="lede">The seven segments examined. Assessments are qualitative; no market-size, revenue or share estimates are made because none are supported by public evidence.</p>
+ <div class="note">DG / community-solar portfolios have <b>not</b> been shown to be a substantially easier lender-facing market. In disclosed bank-led DG financings, lenders used incumbents; counter-evidence exists but is limited.</div>
+ <div class="tablewrap" style="max-height:none;margin-bottom:16px"><table class="data" id="seg-matrix"></table></div>
+ <div class="grid g-seg" id="seg-detail-wrap">
+  <div class="seglist" id="seg-list" role="group" aria-label="Select segment"></div>
+  <div class="card" id="seg-detail" aria-live="polite"></div>
+ </div>
+</section>
+
+<section class="view" id="v-mayfield" aria-labelledby="h-mayfield">
+ <h2 id="h-mayfield">Mayfield positioning</h2>
+ <p class="lede">Mayfield's publicly documented profile beside selected competitors. No numerical scores are assigned; evidence is qualitative. Public absence of financing references is not proof that Mayfield lacks them.</p>
+ <div class="card" style="margin-bottom:16px">
+  <h3>Compare with</h3>
+  <div class="controls" style="margin:0">
+   <div class="ctl"><label for="q-cmp">Find a firm</label><input type="search" id="q-cmp" placeholder="Filter list…"></div>
+   <div class="ctl"><span class="lbl" id="lbl-cmpscope">List</span><div class="seg" role="group" aria-labelledby="lbl-cmpscope" id="cmp-scope"></div></div>
+   <div class="ctl"><button class="linkbtn" id="cmp-clear">Clear selection</button></div>
+  </div>
+  <div class="pickers" id="cmp-pickers" role="group" aria-label="Competitors to compare"></div>
+  <div class="tablewrap" style="max-height:none"><table class="data cmp" id="cmp-table"></table></div>
+ </div>
+ <div class="grid g2" style="margin-bottom:16px">
+  <div class="card"><h3>Evidence gaps against a lender IE scope</h3><ul class="tight" id="may-gaps"></ul></div>
+  <div class="card"><h3>Potential routes and partnerships (unvalidated)</h3><ul class="tight" id="may-opps"></ul></div>
+ </div>
+ <div class="card"><h3>Three business models</h3><p class="small muted" style="margin:0 0 8px">From the workbook's Business Models tab. Commercial plausibility is not demonstrated demand; no public fee or willingness-to-pay evidence was found for any model.</p><div class="tablewrap" style="max-height:none"><table class="data" id="model-table"></table></div></div>
+</section>
+
+<section class="view" id="v-findings" aria-labelledby="h-findings">
+ <h2 id="h-findings">Research findings and open questions</h2>
+ <p class="lede" id="method"></p>
+ <div class="grid g3" style="margin-bottom:16px">
+  <div class="card"><h3>What the research establishes</h3><ul class="tight" id="f-est"></ul></div>
+  <div class="card"><h3>What remains uncertain</h3><ul class="tight" id="f-unc"></ul></div>
+  <div class="card"><h3>What to validate next</h3><ol class="steps" id="f-next"></ol></div>
+ </div>
+ <div class="grid g2" style="margin-bottom:16px">
+  <div class="card"><h3>Open questions (workbook: Open Gaps)</h3><div class="tablewrap" style="max-height:none"><table class="data" id="gap-table"></table></div></div>
+  <div class="card"><h3>Planned interview archetypes (not yet conducted)</h3><div class="tablewrap" style="max-height:none"><table class="data" id="int-table"></table></div></div>
+ </div>
+ <div class="card" style="margin-bottom:16px">
+  <h3>Evidence audit</h3>
+  <div class="controls"><div class="ctl"><label for="q-aud">Search claims</label><input type="search" id="q-aud"></div><div class="ctl"><span class="lbl">Result</span><div class="fchips" id="f-aud"></div></div></div>
+  <p class="count" id="aud-count" aria-live="polite"></p>
+  <div class="tablewrap"><table class="data" id="aud-table"></table></div>
+ </div>
+ <div class="card" style="margin-bottom:16px">
+  <h3>Source register</h3>
+  <div class="controls"><div class="ctl"><label for="q-src">Search sources</label><input type="search" id="q-src"></div></div>
+  <p class="count" id="src-count" aria-live="polite"></p>
+  <div class="tablewrap"><table class="data" id="src-table"></table></div>
+ </div>
+ <div class="grid g2">
+  <div class="card"><h3>Research documents</h3><ul class="tight" id="docs"></ul><p class="small muted">Google Drive links require access to the shared folder.</p></div>
+  <div class="card"><h3>Limitations</h3><ul class="tight" id="limits"></ul></div>
+ </div>
+</section>
+</main>
+<footer id="foot"></footer>
+
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" aria-hidden="true">
+ <button class="dclose" id="d-close" aria-label="Close profile">Close ✕</button>
+ <div class="dhead" id="d-head"></div>
+ <div class="dbody" id="d-body"></div>
+</aside>
+
+<script id="data" type="application/json">/*__DATA__*/null</script>
+<script>
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const NE = '<span class="ne">Not established in public research</span>';
+const val = v => (v && v !== '—' && v !== '-') ? esc(v) : NE;
+const FIRMS = D.firms, BYID = Object.fromEntries(FIRMS.map(f => [f.id, f]));
+const EVBYID = Object.fromEntries(D.evidence.map(e => [e.id, e]));
+const CLS = Object.fromEntries(D.classDefs.map(c => [c.id, c]));
+const CAT_SHORT = {A:'Institutional', B:'Bankable specialist', C:'Mid-market', D:'Multidisciplinary / adjacent', E:'Specialist / emerging', F:'Named in financing docs (other)'};
+const catKey = f => (f.category || '').charAt(0);
+const STRENGTH = ['Strong','Moderate–Strong','Moderate','Limited','Thin','Not re-verified'];
+const strengthBucket = s => { s = s || '';
+  if (/^Not re-verified/.test(s)) return 'Not re-verified';
+  if (/^Strong/.test(s)) return 'Strong';
+  if (/^Moderate–Strong/.test(s)) return 'Moderate–Strong';
+  if (/^Moderate/.test(s)) return 'Moderate';
+  if (/^Limited/.test(s)) return 'Limited';
+  return 'Thin'; };
+const TAGS = {utility:'Utility-scale', bess:'BESS / storage', dg:'DG / community / residential', ci:'C&I / microgrids', sponsor:'Sponsor-side / M&A / OE'};
+const clsChip = n => `<span class="cls k${n}" title="${esc(CLS[n] ? 'Class '+n+' – '+CLS[n].name : 'Class '+n)}">${n}</span>`;
+const srcLink = id => { const s = D.sources[id]; if (!s) return esc(id);
+  return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" title="${esc(s.title)}">${esc(id)}</a>` : esc(id); };
+const srcLinks = ids => (ids||[]).map(srcLink).join(' ');
+
+/* header */
+$('#title').textContent = D.meta.title;
+$('#subtitle').textContent = D.meta.subtitle;
+$('#stamp').innerHTML = `Data: ${esc(D.meta.workbook)}<br>Built ${esc(D.meta.generated)} · desk research; interviews not yet conducted`;
+$('#foot').innerHTML = `Source of truth: the verified Google Sheet “Mayfield IE Competitive Landscape — Verified V2”. Evidence strength describes the public record, not engineering competence. ${esc(D.narrative.methodology)}`;
+
+/* tabs / routing */
+const VIEWS = [['overview','Overview'],['landscape','Landscape explorer'],['evidence','Financing evidence'],['segments','Market segments'],['mayfield','Mayfield positioning'],['findings','Findings & open questions']];
+$('#tabs').innerHTML = VIEWS.map(([k,l]) => `<button data-v="${k}">${l}</button>`).join('');
+function show(v){ if(!VIEWS.some(x=>x[0]===v)) v='overview';
+  document.querySelectorAll('section.view').forEach(s => s.classList.toggle('active', s.id === 'v-'+v));
+  document.querySelectorAll('#tabs button').forEach(b => { if (b.dataset.v === v) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
+}
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; location.hash = b.dataset.v; });
+window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+
+/* ---------- Overview ---------- */
+const C = D.meta.counts;
+$('#stats').innerHTML = [[C.firms,'Firms researched'],[C.priority,'Priority competitors'],[C.evidence,'Financing evidence records'],[C.audit,'Audited claims'],[C.sources,'Sources registered'],[C.segments,'Market segments']]
+  .map(([n,l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+(function matrix(){
+  const cats = ['A','B','C','D','E','F'];
+  let h = '<table class="matrix"><thead><tr><th class="rowh">Evidence strength</th>' + cats.map(c => `<th scope="col">${c}. ${esc(CAT_SHORT[c])}</th>`).join('') + '</tr></thead><tbody>';
+  STRENGTH.forEach(st => {
+    h += `<tr><th scope="row" class="rowh">${esc(st)}</th>`;
+    cats.forEach(c => {
+      const fs = FIRMS.filter(f => catKey(f) === c && strengthBucket(f.strength) === st);
+      h += '<td>' + fs.map(f => `<button class="chip${f.priority?' p':''}" data-firm="${f.id}" title="${esc(f.strength)}${f.priority?' · priority shortlist':''}">${esc(f.name)}</button>`).join('') + '</td>';
+    });
+    h += '</tr>';
+  });
+  $('#matrix').innerHTML = h + '</tbody></table>';
+})();
+const typeCls = t => t === 'Documented' ? 'doc' : (t === 'Hypothesis' ? 'hyp' : 'unp');
+$('#findings').innerHTML = D.narrative.findings.map(f => `<div class="finding"><span class="tag ${typeCls(f.type)}">${esc(f.type)}</span><h4>${esc(f.title)}</h4><p>${esc(f.text)}</p><div class="srcs">${srcLinks(f.sources)}</div></div>`).join('');
+$('#bottomline').textContent = D.narrative.bottomLine;
+
+/* ---------- Landscape explorer ---------- */
+const FS = {q:'', scope:'all', cats:new Set(), tags:new Set(), cls:new Set(), sort:{k:'name', dir:1}};
+$('#scope').innerHTML = `<button data-s="all" aria-pressed="true">Full landscape (${FIRMS.length})</button><button data-s="priority" aria-pressed="false">Priority shortlist (${D.priority.length})</button>`;
+$('#f-cat').innerHTML = Object.entries(CAT_SHORT).map(([k,l]) => `<button class="fchip" data-k="${k}" aria-pressed="false">${k}. ${esc(l)}</button>`).join('');
+$('#f-tag').innerHTML = Object.entries(TAGS).map(([k,l]) => `<button class="fchip" data-k="${k}" aria-pressed="false">${esc(l)}</button>`).join('');
+$('#f-cls').innerHTML = [1,2,3,4,5].map(n => `<button class="fchip" data-k="${n}" aria-pressed="false" title="${esc(CLS[n].name)}">${n} · ${esc(CLS[n].name)}</button>`).join('');
+$('#cls-legend-inline').innerHTML = [1,2,3,4,5].map(n => `${clsChip(n)}${esc(CLS[n].name)}`).join(' &nbsp; ');
+function toggleSet(container, set, cb){ container.addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return;
+  const k = b.dataset.k; if (set.has(k)) set.delete(k); else set.add(k); b.setAttribute('aria-pressed', set.has(k)); cb(); }); }
+toggleSet($('#f-cat'), FS.cats, renderFirms); toggleSet($('#f-tag'), FS.tags, renderFirms); toggleSet($('#f-cls'), FS.cls, renderFirms);
+$('#scope').addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return; FS.scope = b.dataset.s;
+  $('#scope').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); renderFirms(); });
+$('#q-firm').addEventListener('input', e => { FS.q = e.target.value.trim().toLowerCase(); renderFirms(); });
+$('#clear-firm').addEventListener('click', () => { FS.q=''; $('#q-firm').value=''; [FS.cats,FS.tags,FS.cls].forEach(s=>s.clear());
+  document.querySelectorAll('#f-cat .fchip,#f-tag .fchip,#f-cls .fchip').forEach(b=>b.setAttribute('aria-pressed','false'));
+  FS.scope='all'; $('#scope').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed', x.dataset.s==='all')); renderFirms(); });
+const FCOLS = [
+  ['name','Company', f => `<button class="name" data-firm="${f.id}">${esc(f.name)}</button>${f.priority?' <span class="tag prio">Priority</span>':''}`],
+  ['category','Market position', f => esc(f.category.replace(/^[A-F]\.\s*/,''))],
+  ['scale','Organizational scale', f => val(f.scale)],
+  ['technologies','Solar / storage capabilities', f => val(f.technologies)],
+  ['segments','Primary segments', f => val(f.segments)],
+  ['classes','Evidence classes', f => f.classes.length ? f.classes.map(clsChip).join('') : NE],
+  ['strength','Evidence strength', f => esc(f.strength)],
+  ['relevance','Relevance to Mayfield', f => val(f.relevance)],
+];
+const sortVal = (f,k) => k === 'strength' ? STRENGTH.indexOf(strengthBucket(f.strength)) : k === 'classes' ? (f.classes.length ? Math.min(...f.classes) : 9) : String(f[k]||'').toLowerCase();
+function renderFirms(){
+  let fs = FIRMS.filter(f => {
+    if (FS.scope === 'priority' && !f.priority) return false;
+    if (FS.cats.size && !FS.cats.has(catKey(f))) return false;
+    if (FS.tags.size && ![...FS.tags].some(t => f.tags.includes(t))) return false;
+    if (FS.cls.size && ![...FS.cls].some(c => f.classes.includes(+c))) return false;
+    if (FS.q) { const hay = [f.name,f.category,f.scale,f.technologies,f.segments,f.orientation,f.references,f.relevance].join(' ').toLowerCase(); if (!hay.includes(FS.q)) return false; }
+    return true; });
+  const {k,dir} = FS.sort;
+  fs.sort((a,b) => { const x = sortVal(a,k), y = sortVal(b,k); return (x<y?-1:x>y?1:0)*dir || a.name.localeCompare(b.name); });
+  $('#firm-table').innerHTML = '<thead><tr>' + FCOLS.map(([key,l]) => `<th scope="col" aria-sort="${FS.sort.k===key?(FS.sort.dir>0?'ascending':'descending'):'none'}"><button class="sort" data-k="${key}">${l}</button></th>`).join('') + '</tr></thead><tbody>' +
+    (fs.length ? fs.map(f => `<tr class="click" data-firm="${f.id}">` + FCOLS.map(c => `<td>${c[2](f)}</td>`).join('') + '</tr>').join('') : `<tr><td colspan="${FCOLS.length}" class="muted">No firms match the current filters.</td></tr>`) + '</tbody>';
+  $('#firm-count').textContent = `${fs.length} of ${FS.scope==='priority'?D.priority.length:FIRMS.length} firms shown`;
+}
+$('#firm-table').addEventListener('click', e => { const s = e.target.closest('button.sort'); if (s) { const k = s.dataset.k;
+  FS.sort = {k, dir: FS.sort.k === k ? -FS.sort.dir : 1}; renderFirms(); return; } });
+renderFirms();
+
+/* ---------- Profile drawer ---------- */
+let lastFocus = null;
+function openFirm(id){
+  const f = BYID[id]; if (!f) return; lastFocus = document.activeElement;
+  const d = f.detail || {};
+  const evs = f.evidenceIds.map(i => EVBYID[i]);
+  const grp = c => evs.filter(e => c.includes(e.class));
+  const evRows = list => list.length ? `<div class="scroll"><table class="data"><thead><tr><th>Transaction / document</th><th>Counterparty</th><th>Class</th><th>Source</th><th>Qualification</th></tr></thead><tbody>` +
+    list.map(e => `<tr><td>${esc(e.transaction)}<div class="small muted">${esc(e.date)} · ${esc(e.role)}</div></td><td>${esc(e.counterparty)}</td><td>${clsChip(e.class)}</td><td>${e.sourceIds.map(s => srcLink(s) + `<div class="small muted">${esc((D.sources[s]||{}).type||'')}</div>`).join('')}</td><td class="small">${e.notes ? esc(e.notes) : '<span class="muted">—</span>'}${e.class === 1 ? '<div class="muted">Signed reliance letter not examined.</div>' : ''}</td></tr>`).join('') + '</tbody></table></div>' : NE;
+  $('#d-head').innerHTML = `<h2 id="d-title">${esc(f.name)}</h2><div>${f.priority?'<span class="tag prio">Priority shortlist</span>':''}<span class="tag">${esc(f.category)}</span><span class="tag">Evidence strength: ${esc(f.strength)}</span></div>`;
+  $('#d-body').innerHTML = `
+    <dl class="kv">
+      <dt>Ownership / organizational scale</dt><dd>${val(f.scale)}</dd>
+      <dt>Geographic footprint</dt><dd>${val(d.footprint)}</dd>
+      <dt>Technical capabilities</dt><dd>${val(d.solarStorage || f.technologies)}</dd>
+      <dt>Market segments</dt><dd>${val(d.segment || f.segments)}</dd>
+      <dt>Lender-facing vs sponsor-facing</dt><dd>${val(d.lenderVsSponsor || f.orientation)}</dd>
+      <dt>Technical differentiation</dt><dd>${val(d.differentiation)}</dd>
+      <dt>Delivery model</dt><dd>${val(d.delivery)}</dd>
+      <dt>Strategic relevance to Mayfield</dt><dd>${val(d.mayfieldRelevance || f.relevance)}</dd>
+    </dl>
+    <div class="dsec"><h3>Evidence classes held</h3>${f.classes.length ? f.classes.map(n => `<div class="small" style="margin:3px 0">${clsChip(n)}<b>${esc(CLS[n].name)}</b> — ${esc(CLS[n].definition)}</div>`).join('') : NE}
+      <p class="small muted" style="margin:6px 0 0">Workbook entry: “${esc(f.classesText)}”. Demonstrated acceptance: ${val(d.acceptance)}</p></div>
+    <div class="dsec"><h3>Documented in financing agreements and filed IE reports (classes 1 and 3)</h3>${evRows(grp([1,3]))}</div>
+    <div class="dsec"><h3>Named financing assignments (class 2)</h3><p class="small muted" style="margin:0 0 6px">Typically reported by the firm, sponsor or trade press; formal lender reliance not independently established. Source type shown under each source ID.</p>${evRows(grp([2]))}</div>
+    <div class="dsec"><h3>Workbook summary of key references</h3><p class="small">${val(f.references)}</p><p class="small muted">Summary combines verified and company-reported items; the classes above and the source types indicate which is which.</p></div>
+    <div class="dsec"><h3>Uncertainties and evidence limits</h3><dl class="kv">
+      <dt>Strength &amp; limits of public evidence</dt><dd>${val(d.evidenceNote)}</dd>
+      <dt>Change vs initial research</dt><dd>${val(f.change)}</dd>
+      <dt>Research status</dt><dd>${val(f.status)}</dd></dl></div>
+    <div class="dsec"><h3>Supporting sources</h3>${f.sourceIds.length ? '<ul class="tight">' + f.sourceIds.map(s => { const r = D.sources[s]; return r ? `<li>${srcLink(s)} — ${esc(r.title)} <span class="muted small">(${esc(r.publisher)}, ${esc(r.date)}; ${esc(r.type)}; ${esc(r.access)})</span></li>` : `<li>${esc(s)}</li>`; }).join('') + '</ul>' : NE}</div>
+    <div class="dsec"><button class="fchip" id="d-compare">Compare with Mayfield →</button></div>`;
+  $('#d-compare').addEventListener('click', () => { closeFirm(); CMP.sel.add(f.id); CMP.scope = f.priority ? CMP.scope : 'all'; renderCmp(); location.hash = 'mayfield'; });
+  $('#drawer').classList.add('open'); $('#drawer').setAttribute('aria-hidden','false'); $('#backdrop').classList.add('open');
+  $('#d-close').focus();
+}
+function closeFirm(){ $('#drawer').classList.remove('open'); $('#drawer').setAttribute('aria-hidden','true'); $('#backdrop').classList.remove('open'); if (lastFocus) lastFocus.focus(); }
+$('#d-close').addEventListener('click', closeFirm); $('#backdrop').addEventListener('click', closeFirm);
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('#drawer').classList.contains('open')) closeFirm();
+  if (e.key === 'Tab' && $('#drawer').classList.contains('open')) { const f = [...$('#drawer').querySelectorAll('a,button,input,select')]; if (!f.length) return;
+    if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length-1].focus(); } else if (!e.shiftKey && document.activeElement === f[f.length-1]) { e.preventDefault(); f[0].focus(); } } });
+document.addEventListener('click', e => { const b = e.target.closest('[data-firm]'); if (!b || e.target.closest('a')) return;
+  if (b.tagName === 'TR' && e.target.closest('button.sort')) return; openFirm(b.dataset.firm); });
+document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('tr[data-firm]')) openFirm(e.target.dataset.firm); });
+
+/* ---------- Evidence explorer ---------- */
+const ES = {q:'', firm:'', cp:'', type:'', year:'', cls:new Set(), sort:{k:'year', dir:-1}};
+$('#cls-defs').innerHTML = '<b>Evidence hierarchy.</b> ' + D.classDefs.map(c => `${clsChip(c.id)}<b>${esc(c.name)}</b> — ${esc(c.definition)}`).join('<br>');
+const evFirms = FIRMS.filter(f => f.evidenceIds.length).sort((a,b)=>a.name.localeCompare(b.name));
+$('#f-evfirm').innerHTML = '<option value="">All firms</option>' + evFirms.map(f => `<option value="${f.id}">${esc(f.name)} (${f.evidenceIds.length})</option>`).join('') + '<option value="__none">Market-structure record (no single firm)</option>';
+const CP_KEYS = ['MUFG','Bank of America','Deutsche Bank','CoBank','KeyBank','KeyBanc','Fifth Third','Wells Fargo','First Citizens','U.S. Bank','M&T','Barings','Eagle Point','S2G','Blackstone','ING','City National','ABS investors','Tax equity','Not named'];
+const cpMatch = (e,k) => k === 'Not named' ? /not named|not reviewed/i.test(e.counterparty) : k === 'Tax equity' ? /tax equity/i.test(e.counterparty) : e.counterparty.toLowerCase().includes(k.toLowerCase());
+$('#f-evcp').innerHTML = '<option value="">All counterparties</option>' + CP_KEYS.filter(k => D.evidence.some(e => cpMatch(e,k))).map(k => `<option>${esc(k)}</option>`).join('');
+const types = [...new Set(D.evidence.map(e => e.projectType))].sort();
+$('#f-evtype').innerHTML = '<option value="">All project types</option>' + types.map(t => `<option>${esc(t)}</option>`).join('');
+const years = [...new Set(D.evidence.map(e => e.year).filter(Boolean))].sort((a,b)=>b-a);
+$('#f-evyear').innerHTML = '<option value="">All years</option>' + years.map(y => `<option>${y}</option>`).join('') + '<option value="none">Undated</option>';
+const evClasses = [...new Set(D.evidence.map(e => e.class))].sort();
+$('#f-evcls').innerHTML = evClasses.map(n => `<button class="fchip" data-k="${n}" aria-pressed="false">${n} · ${esc(CLS[n].name)}</button>`).join('');
+toggleSet($('#f-evcls'), ES.cls, renderEv);
+[['#q-ev','q','input'],['#f-evfirm','firm','change'],['#f-evcp','cp','change'],['#f-evtype','type','change'],['#f-evyear','year','change']].forEach(([s,k,ev]) =>
+  $(s).addEventListener(ev, e => { ES[k] = e.target.value.trim(); renderEv(); }));
+$('#clear-ev').addEventListener('click', () => { Object.assign(ES,{q:'',firm:'',cp:'',type:'',year:''}); ES.cls.clear();
+  ['#q-ev','#f-evfirm','#f-evcp','#f-evtype','#f-evyear'].forEach(s => $(s).value=''); document.querySelectorAll('#f-evcls .fchip').forEach(b=>b.setAttribute('aria-pressed','false')); renderEv(); });
+const ECOLS = [
+  ['firmsText','Firm(s)', e => e.firmIds.length ? e.firmIds.map(id => `<button class="name" data-firm="${id}">${esc(BYID[id].name)}</button>`).join(', ') + (e.firmIds.length > 1 || /Any qualified/.test(e.firmsText) ? '' : '') : `<span class="muted">${esc(e.firmsText)}</span>`],
+  ['transaction','Transaction / document', e => `${esc(e.transaction)}<div class="small muted">${esc(e.projectType)}</div>`],
+  ['year','Date', e => esc(e.date)],
+  ['counterparty','Financing counterparty', e => esc(e.counterparty)],
+  ['role',"Firm's role / IE mechanics", e => esc(e.role)],
+  ['class','Class', e => `${clsChip(e.class)}<div class="small muted">${esc(CLS[e.class].name)}</div>`],
+  ['sourceIds','Source', e => e.sourceIds.map(s => `${srcLink(s)}<div class="small muted">${esc((D.sources[s]||{}).type||'')}</div>`).join('') + (e.url ? `<div class="small"><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">Open source ↗</a></div>` : '')],
+  ['notes','Qualification / limitation', e => {
+    const q = []; if (e.notes) q.push(esc(e.notes));
+    if (e.class === 1) q.push('Reliance mechanism is in the executed agreement; signed reliance letter not examined.');
+    return q.length ? q.join('<br>') : '<span class="muted">—</span>'; }],
+];
+function renderEv(){
+  let es = D.evidence.filter(e => {
+    if (ES.firm === '__none' && e.firmIds.length) return false;
+    if (ES.firm && ES.firm !== '__none' && !e.firmIds.includes(ES.firm)) return false;
+    if (ES.cp && !cpMatch(e, ES.cp)) return false;
+    if (ES.type && e.projectType !== ES.type) return false;
+    if (ES.year === 'none' && e.year) return false;
+    if (ES.year && ES.year !== 'none' && String(e.year) !== ES.year) return false;
+    if (ES.cls.size && !ES.cls.has(String(e.class))) return false;
+    if (ES.q) { const hay = [e.firmsText,e.transaction,e.counterparty,e.role,e.notes,e.date].join(' ').toLowerCase(); if (!hay.includes(ES.q.toLowerCase())) return false; }
+    return true; });
+  const {k,dir} = ES.sort;
+  es.sort((a,b) => { const x = k==='year' ? (a.year||0) : k==='class' ? a.class : String(a[k]||'').toLowerCase(), y = k==='year' ? (b.year||0) : k==='class' ? b.class : String(b[k]||'').toLowerCase();
+    return (x<y?-1:x>y?1:0)*dir || a.id.localeCompare(b.id); });
+  $('#ev-table').innerHTML = '<thead><tr>' + ECOLS.map(([key,l]) => `<th scope="col" aria-sort="${ES.sort.k===key?(ES.sort.dir>0?'ascending':'descending'):'none'}"><button class="sort" data-k="${key}">${l}</button></th>`).join('') + '</tr></thead><tbody>' +
+    (es.length ? es.map(e => '<tr>' + ECOLS.map(c => `<td>${c[2](e)}</td>`).join('') + '</tr>').join('') : `<tr><td colspan="${ECOLS.length}" class="muted">No evidence records match the current filters.</td></tr>`) + '</tbody>';
+  const byc = {}; es.forEach(e => byc[e.class] = (byc[e.class]||0)+1);
+  $('#ev-count').innerHTML = `${es.length} of ${D.evidence.length} records shown · ` + Object.keys(byc).sort().map(c => `${clsChip(+c)}${byc[c]}`).join(' &nbsp;');
+}
+$('#ev-table').addEventListener('click', e => { const s = e.target.closest('button.sort'); if (!s) return; const k = s.dataset.k; ES.sort = {k, dir: ES.sort.k===k ? -ES.sort.dir : 1}; renderEv(); });
+renderEv();
+
+/* ---------- Segments ---------- */
+const SG = D.segments; let segSel = 2;
+$('#seg-matrix').innerHTML = '<thead><tr><th scope="col">Segment</th><th scope="col">Who selects the IE</th><th scope="col">Competitive intensity</th><th scope="col">Mayfield documented alignment</th><th scope="col">Assessment (verified research)</th></tr></thead><tbody>' +
+  SG.map((s,i) => `<tr class="click" data-seg="${i}" tabindex="0"><td><b>${i+1}. ${esc(s.name)}</b></td><td>${esc(s.selector)}</td><td>${esc(s.competition)}</td><td>${esc(s.alignment)}</td><td>${esc(s.v2)}</td></tr>`).join('') + '</tbody>';
+$('#seg-list').innerHTML = SG.map((s,i) => `<button data-seg="${i}" aria-pressed="false">${i+1}. ${esc(s.name)}</button>`).join('');
+function renderSeg(){
+  const s = SG[segSel];
+  document.querySelectorAll('#seg-list button').forEach(b => b.setAttribute('aria-pressed', +b.dataset.seg === segSel));
+  const isDG = /community|\bDG\b/.test(s.name);
+  $('#seg-detail').innerHTML = `<h3>${segSel+1}. ${esc(s.name)}</h3>${isDG ? '<div class="note">Not proven to be a substantially easier lender-facing market; see evidence for and against in the final report and audit item A29.</div>' : ''}
+   <dl class="kv"><dt>Typical buyers</dt><dd>${esc(s.buyers)}</dd><dt>Selection / acceptance mechanism</dt><dd>${esc(s.selector)}</dd><dt>Reliance requirement</dt><dd>${esc(s.reliance)}</dd>
+   <dt>Major competitors</dt><dd>${esc(s.providers)}</dd><dt>Competitive intensity</dt><dd>${esc(s.competition)}</dd><dt>Technical complexity</dt><dd>${esc(s.complexity)}</dd>
+   <dt>Required disciplines</dt><dd>${esc(s.disciplines)}</dd><dt>Mayfield capability fit</dt><dd>${esc(s.alignment)}</dd><dt>Potential differentiation</dt><dd>${esc(s.differentiation)}</dd>
+   <dt>Obstacles / open commercial questions</dt><dd>${esc(s.uncertainties)}</dd><dt>Initial (V1) view</dt><dd class="muted">${esc(s.v1)}</dd><dt>Verified (V2) assessment</dt><dd><b>${esc(s.v2)}</b></dd></dl>`;
+}
+$('#seg-list').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; segSel = +b.dataset.seg; renderSeg(); });
+$('#seg-matrix').addEventListener('click', e => { const r = e.target.closest('tr[data-seg]'); if (!r) return; segSel = +r.dataset.seg; renderSeg(); $('#seg-detail').scrollIntoView({behavior:'smooth', block:'nearest'}); });
+$('#seg-matrix').addEventListener('keydown', e => { const r = e.target.closest('tr[data-seg]'); if (r && e.key === 'Enter') { segSel = +r.dataset.seg; renderSeg(); } });
+renderSeg();
+
+/* ---------- Mayfield positioning ---------- */
+const CMP = {sel:new Set(['luminate','e3-consulting','vde-americas','pure-power-engineering']), scope:'priority', q:''};
+$('#cmp-scope').innerHTML = `<button data-s="priority" aria-pressed="true">Priority (${D.priority.length})</button><button data-s="all" aria-pressed="false">All firms (${FIRMS.length})</button>`;
+$('#cmp-scope').addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return; CMP.scope = b.dataset.s; renderCmp(); });
+$('#q-cmp').addEventListener('input', e => { CMP.q = e.target.value.trim().toLowerCase(); renderCmp(); });
+$('#cmp-clear').addEventListener('click', () => { CMP.sel.clear(); renderCmp(); });
+$('#cmp-pickers').addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return; const id = b.dataset.id; CMP.sel.has(id) ? CMP.sel.delete(id) : CMP.sel.add(id); renderCmp(); });
+const M = D.mayfield;
+const CMPROWS = [
+  ['Market position', f => f ? esc(f.category) : esc(M.group)],
+  ['Ownership / scale', (f,d) => val(f ? f.scale : M.scale)],
+  ['Geographic footprint', (f,d) => val(f ? d.footprint : M.footprint)],
+  ['Solar / storage capabilities', (f,d) => val(f ? (d.solarStorage||f.technologies) : M.solarStorage)],
+  ['Relevant customer segments', (f,d) => val(f ? (d.segment||f.segments) : M.segment)],
+  ['Service breadth (lender vs sponsor)', (f,d) => val(f ? (d.lenderVsSponsor||f.orientation) : M.lenderVsSponsor)],
+  ['Evidence classes', (f,d) => { const c = f ? f.classes : M.classes; return c.length ? c.map(clsChip).join('') : NE; }],
+  ['Evidence strength (public record)', (f,d) => esc(f ? f.strength : M.strength)],
+  ['Documented financing references', (f,d) => val(f ? (d.acceptance || f.references) : M.acceptance)],
+  ['Technical differentiation', (f,d) => val(f ? d.differentiation : M.differentiation)],
+  ['Delivery model', (f,d) => val(f ? d.delivery : M.delivery)],
+  ['Evidence gaps / limits', (f,d) => val(f ? (d.evidenceNote || f.status) : M.evidenceNote)],
+  ['Competitor / partner relevance', (f,d) => f ? val(d.mayfieldRelevance || f.relevance) : '<span class="muted">—</span>'],
+];
+function renderCmp(){
+  $('#cmp-scope').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x.dataset.s === CMP.scope));
+  const pool = (CMP.scope === 'priority' ? D.priority.map(id => BYID[id]) : [...FIRMS].sort((a,b)=>a.name.localeCompare(b.name)))
+    .filter(f => !CMP.q || f.name.toLowerCase().includes(CMP.q) || CMP.sel.has(f.id));
+  $('#cmp-pickers').innerHTML = pool.map(f => `<button class="fchip" data-id="${f.id}" aria-pressed="${CMP.sel.has(f.id)}">${esc(f.name)}</button>`).join('');
+  const sel = [...CMP.sel].map(id => BYID[id]).filter(Boolean);
+  let h = '<thead><tr><th scope="col">Dimension</th><th scope="col" class="may">Mayfield Renewables</th>' + sel.map(f => `<th scope="col"><button class="name" data-firm="${f.id}">${esc(f.name)}</button></th>`).join('') + '</tr></thead><tbody>';
+  CMPROWS.forEach(([l,fn]) => { h += `<tr><td>${esc(l)}</td><td>${fn(null,{})}</td>` + sel.map(f => `<td>${fn(f, f.detail||{})}</td>`).join('') + '</tr>'; });
+  h += `<tr><td>Sources</td><td class="small">${srcLinks(M.sourceIds)}</td>` + sel.map(f => `<td class="small">${srcLinks(f.sourceIds)}</td>`).join('') + '</tr>';
+  $('#cmp-table').innerHTML = h + '</tbody>' + (sel.length ? '' : '<caption class="small muted" style="caption-side:bottom;text-align:left;padding:8px">Select one or more firms above to compare.</caption>');
+}
+renderCmp();
+$('#may-gaps').innerHTML = D.narrative.mayfieldGaps.map(x => `<li>${esc(x)}</li>`).join('');
+$('#may-opps').innerHTML = D.narrative.mayfieldOpportunities.map(x => `<li>${esc(x)}</li>`).join('');
+$('#model-table').innerHTML = '<thead><tr><th scope="col">Dimension</th>' + D.models.columns.map(c => `<th scope="col">${esc(c)}</th>`).join('') + '</tr></thead><tbody>' +
+  D.models.rows.map(r => `<tr><td><b>${esc(r.dimension)}</b></td>` + r.values.map(v => `<td>${esc(v)}</td>`).join('') + '</tr>').join('') + '</tbody>';
+
+/* ---------- Findings ---------- */
+const N = D.narrative;
+$('#method').textContent = N.methodology;
+$('#f-est').innerHTML = N.establishes.map(x => `<li>${esc(x)}</li>`).join('');
+$('#f-unc').innerHTML = N.uncertain.map(x => `<li>${esc(x)}</li>`).join('');
+$('#f-next').innerHTML = N.nextSteps.map(x => `<li><b>${esc(x.title)}.</b> ${esc(x.text)}</li>`).join('');
+$('#gap-table').innerHTML = '<thead><tr><th>ID</th><th>Question</th><th>Who can answer</th><th>Decision informed</th></tr></thead><tbody>' + D.gaps.map(g => `<tr><td>${esc(g.id)}</td><td>${esc(g.question)}</td><td>${esc(g.who)}</td><td>${esc(g.decision)}</td></tr>`).join('') + '</tbody>';
+$('#int-table').innerHTML = '<thead><tr><th>ID</th><th>Respondent</th><th>Hypothesis to test</th></tr></thead><tbody>' + N.interviews.map(i => `<tr><td>${esc(i.id)}</td><td>${esc(i.who)}</td><td>${esc(i.hypothesis)}</td></tr>`).join('') + '</tbody>';
+$('#docs').innerHTML = N.documents.map(d => `<li><a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">${esc(d.title)} ↗</a></li>`).join('');
+$('#limits').innerHTML = N.limitations.map(x => `<li>${esc(x)}</li>`).join('');
+const AUDRES = [['Confirmed', r => /^Confirmed/.test(r)], ['Partially / qualified', r => /^Partially|^Supported/.test(r)], ['Not found / not verified', r => /^Not /.test(r)], ['Weakened', r => /^Weakened/.test(r)]];
+const AS = {q:'', res:new Set()};
+$('#f-aud').innerHTML = AUDRES.map(([l]) => `<button class="fchip" data-k="${esc(l)}" aria-pressed="false">${esc(l)} (${D.audit.filter(a => AUDRES.find(x=>x[0]===l)[1](a.result)).length})</button>`).join('');
+toggleSet($('#f-aud'), AS.res, renderAud);
+$('#q-aud').addEventListener('input', e => { AS.q = e.target.value.trim().toLowerCase(); renderAud(); });
+function renderAud(){
+  const as = D.audit.filter(a => (!AS.res.size || [...AS.res].some(l => AUDRES.find(x=>x[0]===l)[1](a.result))) &&
+    (!AS.q || [a.id,a.claim,a.result,a.correction,a.limitation].join(' ').toLowerCase().includes(AS.q)));
+  $('#aud-table').innerHTML = '<thead><tr><th>ID</th><th>Original claim</th><th>Verification result</th><th>Class</th><th>Confidence</th><th>Corrections / qualifications</th><th>Unresolved limitations</th><th>Sources</th></tr></thead><tbody>' +
+    as.map(a => `<tr><td>${esc(a.id)}</td><td>${esc(a.claim)}</td><td><b>${esc(a.result)}</b></td><td>${esc(a.class)}</td><td>${esc(a.confidence)}</td><td class="small">${esc(a.correction)}</td><td class="small">${esc(a.limitation)}</td><td class="small">${srcLinks(a.sourceIds)}</td></tr>`).join('') + '</tbody>';
+  $('#aud-count').textContent = `${as.length} of ${D.audit.length} audited claims shown`;
+}
+renderAud();
+const SRCS = Object.values(D.sources);
+$('#q-src').addEventListener('input', e => renderSrc(e.target.value.trim().toLowerCase()));
+function renderSrc(q){
+  const ss = SRCS.filter(s => !q || [s.id,s.title,s.publisher,s.type,s.usedFor].join(' ').toLowerCase().includes(q));
+  $('#src-table').innerHTML = '<thead><tr><th>ID</th><th>Title</th><th>Publisher / date</th><th>Type</th><th>Access status</th><th>Used for</th></tr></thead><tbody>' +
+    ss.map(s => `<tr><td>${srcLink(s.id)}</td><td>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a>` : esc(s.title)}</td><td class="small">${esc(s.publisher)}<br>${esc(s.date)}</td><td class="small">${esc(s.type)}</td><td class="small">${esc(s.access)}</td><td class="small">${esc(s.usedFor)}</td></tr>`).join('') + '</tbody>';
+  $('#src-count').textContent = `${ss.length} of ${SRCS.length} sources shown`;
+}
+renderSrc('');
+
+show(location.hash.slice(1) || 'overview');
+})();
+</script>
+</body>
+</html>

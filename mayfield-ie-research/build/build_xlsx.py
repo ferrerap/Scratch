@@ -4,7 +4,7 @@ from openpyxl.utils import get_column_letter
 sys.path.insert(0, sys.argv[1])
 from sources import SOURCES, SRC
 from firms import FIRMS, PRIORITY, PRIORITY_ORDER
-from analysis import CLASS_DEF, EVIDENCE, AUDIT, SEGMENTS, MODELS, GAPS
+from analysis import CLASS_DEF, EVIDENCE, EVIDENCE_PTYPE, AUDIT, SEGMENTS, MODELS, GAPS
 
 orig = openpyxl.load_workbook(sys.argv[2])
 out = sys.argv[3]
@@ -80,9 +80,9 @@ sheet("2_Priority_Competitors", ["Firm","Group","Ownership / scale","Geographic 
  "Strength & limits of public evidence","Source IDs"], rows, [24,18,28,24,18,26,26,10,14,36,34,20,34,30,22])
 
 # 3 Evidence references
-rows = [(e[0], e[1], e[2], e[3], e[4], e[5], e[6], first_url(e[6]), e[7]) for e in EVIDENCE]
+rows = [(e[0], e[1], e[2], e[3], e[4], e[5], e[6], first_url(e[6]), e[7], EVIDENCE_PTYPE[i]) for i, e in enumerate(EVIDENCE)]
 sheet("3_Evidence_References", ["Firm(s)","Transaction / document","Date","Financing counterparty","Firm's role / IE mechanics","Evidence class",
- "Source ID(s)","Primary URL","Notes"], rows, [28,44,14,34,44,9,12,50,36])
+ "Source ID(s)","Primary URL","Notes","Project type"], rows, [28,44,14,34,44,9,12,50,36,24])
 
 # 4 Segments
 rows = [(s["seg"], s["buyers"], s["selector"], s["reliance"], s["competition"], s["complexity"], s["disciplines"], s["providers"],

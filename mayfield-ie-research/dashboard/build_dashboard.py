@@ -143,6 +143,7 @@ def main():
             "date": r["Date"], "year": int(yr[0]) if yr else None, "counterparty": r["Financing counterparty"],
             "role": r["Firm's role / IE mechanics"], "class": int(r["Evidence class"]) if r["Evidence class"].isdigit() else None,
             "sourceIds": ids(r["Source ID(s)"]), "url": r["Primary URL"], "notes": r["Notes"],
+            "excerptIds": [x.strip() for x in r.get("Excerpt IDs", "").split(",") if x.strip()],
             "projectType": r.get("Project type") or project_type(r["Transaction / document"] + " " + r["Firm's role / IE mechanics"])})
     for f in firms:
         f["evidenceIds"] = [e["id"] for e in evidence if f["id"] in e["firmIds"]]
@@ -171,7 +172,8 @@ def main():
         for r in rows(xs[0]):
             excerpts[r["Excerpt ID"]] = {"id": r["Excerpt ID"], "source": r["Source ID"], "document": r["Document"],
                 "shows": r["What it shows"], "quote": r["Verbatim excerpt"], "start": r["Highlight start"],
-                "end": r["Highlight end"], "locator": r["Location in document"], "verification": r["Verification status"]}
+                "end": r["Highlight end"], "locator": r["Location in document"], "verification": r["Verification status"],
+                "firms": [x.strip() for x in r.get("Profile fact for", "").split(";") if x.strip()]}
 
     # integrity checks
     missing = sorted({s for f in firms for s in f["sourceIds"]} | {s for e in evidence for s in e["sourceIds"]} | {s for a in audit for s in a["sourceIds"]} - set(sources))
@@ -180,6 +182,14 @@ def main():
         raise SystemExit(f"Source IDs referenced but missing from register: {missing}")
 
     narrative = json.load(open(os.path.join(HERE, "narrative.json")))
+    for f in firms:
+        f["factIds"] = [x["id"] for x in excerpts.values() if f["name"] in x["firms"]]
+    unknown = sorted({n for x in excerpts.values() for n in x["firms"]} - set(byname))
+    if unknown:
+        raise SystemExit(f"Excerpts tagged to firms not in the landscape: {unknown}")
+    badev = [(e["id"], x) for e in evidence for x in e["excerptIds"] if x not in excerpts]
+    if badev:
+        raise SystemExit(f"Evidence records reference unknown excerpts: {badev}")
     bad = [t["excerpt"] for f in narrative["findings"] for t in f.get("trail", []) if t["excerpt"] not in excerpts]
     if bad:
         raise SystemExit(f"Findings reference excerpts missing from the 9_Key_Excerpts tab: {bad}")

@@ -21,13 +21,22 @@ download the file first.
 2. **Landscape explorer**: all 40 firms; search, sort, combinable filters (market position,
    derived segment/service tags, evidence class), and a toggle between the full landscape and the
    priority shortlist (15). Selecting a firm opens its profile.
-3. **Company profiles** (side panel): scale, footprint, capabilities, segments, lender vs sponsor
-   services, evidence classes, linked evidence records split into contractual/filed (classes 1, 3)
-   and named assignments (class 2), source links with source type and access status,
-   uncertainties, and a "Compare with Mayfield" action.
+3. **Company profiles** (side panel):
+   - scale, footprint, capabilities, segments and lender vs sponsor services;
+   - **"Key facts — how we know"**: the exact passages behind the main profile claims (all 15
+     priority firms and 10 others);
+   - evidence classes;
+   - each linked evidence record as an expandable item showing why it has its class and the exact
+     supporting passage;
+   - sources, uncertainties and a "Compare with Mayfield" action.
 4. **Financing evidence**: 39 records filterable by firm, counterparty, project type, year and
-   evidence class, with source IDs, direct links and qualifications. Class 1 records always carry
-   the note that the signed reliance letter itself was not examined.
+   evidence class. Each record has a **"How we know"** toggle, and an "Expand all passages"
+   option opens them all. The toggle shows:
+   - a plain-language reason for the record's evidence class;
+   - any qualification;
+   - the exact passage(s), with highlighted-passage links.
+
+   Class 1 records always note that the signed reliance letter itself was not examined.
 5. **Market segments**: the seven segments, with buyers, selection mechanism, competitors,
    requirements, Mayfield fit, obstacles, and V1 vs V2 assessments.
 6. **Mayfield positioning**: Mayfield beside any selected firms, evidence gaps, unvalidated
@@ -49,10 +58,14 @@ text is shown in the dashboard and can be found with Ctrl/Cmd+F. PDFs open witho
   README, 1_Full_Landscape, 2_Priority_Competitors, 3_Evidence_References, 4_Market_Segments,
   5_Business_Models, 6_Evidence_Audit, 7_Source_Register and 8_Open_Gaps are read. The V1_ tabs
   are ignored.
-- Tab **9_Key_Excerpts** holds the verbatim passages: excerpt ID, source ID, document, what it
-  shows, quote, highlight start/end phrases, location and verification status. Every quote except
-  one was checked word for word against a retrieved copy of the source. The Dimension Energy
-  release (S33) blocks automated retrieval and is flagged as not re-checked.
+- Tab **9_Key_Excerpts** holds 82 verbatim passages: excerpt ID, source ID, document, what it
+  shows, quote, highlight start/end phrases, location, verification status, and "Profile fact
+  for" (the firm, if the passage supports a profile claim). The "Excerpt IDs" column in
+  3_Evidence_References links each record to its passages.
+- 81 of the 82 quotes were checked word for word against a retrieved copy of the source. The
+  Dimension Energy release (S33) blocks automated retrieval and is flagged as not re-checked.
+- Two passages sit in collapsed sections of their web pages (S36, S90). Those open without
+  highlighting, with a note to search for the quoted text.
 - `narrative.json` holds the short text drawn from the final report and research plan (findings,
   conclusions, next steps, interview archetypes). It contains no tabular research data.
 - Derived fields:
@@ -67,7 +80,7 @@ text is shown in the dashboard and can be found with Ctrl/Cmd+F. PDFs open witho
 2. Run `python3 build_dashboard.py "<downloaded file>.xlsx" <output folder>` (requires Python 3
    and `openpyxl`). The script checks that every referenced source ID exists in the Source
    Register, that every priority firm exists in the full landscape, and that every excerpt cited
-   by a finding exists in 9_Key_Excerpts.
+   by a finding or evidence record, and every firm named in "Profile fact for", exists.
 3. It writes `Mayfield_IE_Dashboard_Data.json` and a regenerated
    `Mayfield_IE_Market_Intelligence.html` (data embedded). `template.html` is the app shell.
 

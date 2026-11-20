@@ -79,6 +79,15 @@ details.trail[open]>summary::before{transform:rotate(90deg)}
 .vbadge{font-size:.72rem;color:var(--ok)} .vbadge.warn{color:var(--warn)}
 button.src{background:none;border:0;padding:0;margin-right:6px;color:var(--accent);font-size:.76rem;cursor:pointer;text-decoration:none;border-bottom:1px dotted var(--accent);font-family:inherit}
 button.src:hover{color:var(--navy)}
+tr.xrow>td{background:var(--surface-2);padding:12px 14px}
+button.xtog{background:#fff;border:1px solid var(--line-2);border-radius:4px;padding:3px 8px;font-size:.78rem;cursor:pointer;white-space:nowrap;color:var(--navy)}
+button.xtog[aria-expanded="true"]{background:var(--accent-soft);border-color:var(--accent)}
+details.rec{border:1px solid var(--line);border-radius:5px;background:#fff;margin:0 0 8px}
+details.rec>summary{cursor:pointer;padding:8px 10px;list-style:none;font-size:.86rem}
+details.rec>summary::-webkit-details-marker{display:none}
+details.rec>summary::before{content:"▸ ";color:var(--accent)}
+details.rec[open]>summary::before{content:"▾ "}
+details.rec>div{padding:0 10px 10px}
 /* source card */
 .srcdlg{position:fixed;inset:0;display:none;z-index:70;background:rgba(18,28,42,.35);align-items:flex-start;justify-content:center;padding:6vh 16px}
 .srcdlg.open{display:flex}
@@ -210,7 +219,7 @@ footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);fon
   <div class="ctl"><label for="f-evtype">Project type</label><select id="f-evtype"></select></div>
   <div class="ctl"><label for="f-evyear">Year (where documented)</label><select id="f-evyear"></select></div>
   <div class="ctl"><span class="lbl">Evidence class</span><div class="fchips" id="f-evcls"></div></div>
-  <div class="ctl"><button class="linkbtn" id="clear-ev">Clear filters</button></div>
+  <div class="ctl"><button class="linkbtn" id="clear-ev">Clear filters</button> <button class="linkbtn" id="exp-ev">Expand all passages</button></div>
  </div>
  <p class="count" id="ev-count" aria-live="polite"></p>
  <div class="tablewrap"><table class="data" id="ev-table"></table></div>
@@ -343,6 +352,20 @@ function show(v){ if(!VIEWS.some(x=>x[0]===v)) v='overview';
 $('#tabs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; location.hash = b.dataset.v; });
 window.addEventListener('hashchange', () => show(location.hash.slice(1)));
 
+function classWhy(e){
+  const st = (e.sourceIds.map(x => (D.sources[x]||{}).type).filter(Boolean)[0] || 'source').toLowerCase();
+  if (!e.firmIds.length) return 'Market-structure record: shows how this facility designates its IE; no specific firm is named, so it carries no firm-level evidence class.';
+  if (e.class === 1) return 'Class 1 (confirmed financing reliance): an executed financing document names the firm as IE and gives the named lenders or agent reliance, through a reliance letter, an addressed report or an IE certificate. The signed reliance letter itself was not examined.';
+  if (e.class === 2) return `Class 2 (named financing assignment): the ${esc(st)} names the firm as IE or adviser on this specific transaction. That shows the role, but not that the lenders formally relied on the firm's work.`;
+  if (e.class === 3) return 'Class 3 (contractual eligibility): the financing agreement expressly lists the firm as an acceptable or approved IE. Eligibility alone does not show the firm was engaged or relied upon on a given project.';
+  return esc(CLS[e.class] ? CLS[e.class].definition : '');
+}
+function recordTrail(e){
+  const xs = (e.excerptIds||[]).map(i => D.excerpts[i]).filter(Boolean);
+  return `<p class="small" style="margin:0 0 8px"><b>Why this classification.</b> ${classWhy(e)}</p>` +
+    (e.notes ? `<p class="small" style="margin:0 0 8px"><b>Qualification.</b> ${esc(e.notes)}</p>` : '') +
+    (xs.length ? xs.map(x => docCard(x, x.shows)).join('') : '<p class="small muted">No verbatim passage extracted for this record.</p>');
+}
 /* ---------- Source card ---------- */
 let srcLastFocus = null;
 function openSrc(id){
@@ -446,8 +469,9 @@ function openFirm(id){
   const d = f.detail || {};
   const evs = f.evidenceIds.map(i => EVBYID[i]);
   const grp = c => evs.filter(e => c.includes(e.class));
-  const evRows = list => list.length ? `<div class="scroll"><table class="data"><thead><tr><th>Transaction / document</th><th>Counterparty</th><th>Class</th><th>Source</th><th>Qualification</th></tr></thead><tbody>` +
-    list.map(e => `<tr><td>${esc(e.transaction)}<div class="small muted">${esc(e.date)} · ${esc(e.role)}</div></td><td>${esc(e.counterparty)}</td><td>${clsChip(e.class)}</td><td>${e.sourceIds.map(s => srcLink(s) + `<div class="small muted">${esc((D.sources[s]||{}).type||'')}</div>`).join('')}</td><td class="small">${e.notes ? esc(e.notes) : '<span class="muted">—</span>'}${e.class === 1 ? '<div class="muted">Signed reliance letter not examined.</div>' : ''}</td></tr>`).join('') + '</tbody></table></div>' : NE;
+  const evRows = list => list.length ? list.map(e => `<details class="rec"><summary>${clsChip(e.class)}<b>${esc(e.transaction)}</b> <span class="muted">· ${esc(e.date)} · ${esc(e.counterparty)}</span> <span class="small" style="color:var(--accent)">${(e.excerptIds||[]).length ? '· show passage' + ((e.excerptIds||[]).length > 1 ? 's' : '') : ''}</span></summary>
+    <div><p class="small muted" style="margin:0 0 8px">Role: ${esc(e.role)}</p>${recordTrail(e)}</div></details>`).join('') : NE;
+  const facts = (f.factIds||[]).map(i => D.excerpts[i]).filter(Boolean);
   $('#d-head').innerHTML = `<h2 id="d-title">${esc(f.name)}</h2><div>${f.priority?'<span class="tag prio">Priority shortlist</span>':''}<span class="tag">${esc(f.category)}</span><span class="tag">Evidence strength: ${esc(f.strength)}</span></div>`;
   $('#d-body').innerHTML = `
     <dl class="kv">
@@ -460,10 +484,11 @@ function openFirm(id){
       <dt>Delivery model</dt><dd>${val(d.delivery)}</dd>
       <dt>Strategic relevance to Mayfield</dt><dd>${val(d.mayfieldRelevance || f.relevance)}</dd>
     </dl>
+    <div class="dsec"><h3>Key facts — how we know</h3>${facts.length ? '<p class="small muted" style="margin:0 0 8px">Exact passages behind the main profile claims. Company pages are company-reported.</p>' + facts.map(x => docCard(x, x.shows)).join('') : '<p class="small muted">No verbatim passage has been extracted for this firm’s profile claims; see the sources listed below.</p>'}</div>
     <div class="dsec"><h3>Evidence classes held</h3>${f.classes.length ? f.classes.map(n => `<div class="small" style="margin:3px 0">${clsChip(n)}<b>${esc(CLS[n].name)}</b> — ${esc(CLS[n].definition)}</div>`).join('') : NE}
       <p class="small muted" style="margin:6px 0 0">Workbook entry: “${esc(f.classesText)}”. Demonstrated acceptance: ${val(d.acceptance)}</p></div>
-    <div class="dsec"><h3>Documented in financing agreements and filed IE reports (classes 1 and 3)</h3>${evRows(grp([1,3]))}</div>
-    <div class="dsec"><h3>Named financing assignments (class 2)</h3><p class="small muted" style="margin:0 0 6px">Typically reported by the firm, sponsor or trade press; formal lender reliance not independently established. Source type shown under each source ID.</p>${evRows(grp([2]))}</div>
+    <div class="dsec"><h3>Documented in financing agreements and filed IE reports (classes 1 and 3)</h3><p class="small muted" style="margin:0 0 6px">Expand a record to see why it is classed as it is and the exact passage.</p>${evRows(grp([1,3]))}</div>
+    <div class="dsec"><h3>Named financing assignments (class 2)</h3><p class="small muted" style="margin:0 0 6px">Typically reported by the firm, sponsor or trade press; formal lender reliance not independently established. Expand a record for the exact passage.</p>${evRows(grp([2]))}</div>
     <div class="dsec"><h3>Workbook summary of key references</h3><p class="small">${val(f.references)}</p><p class="small muted">Summary combines verified and company-reported items; the classes above and the source types indicate which is which.</p></div>
     <div class="dsec"><h3>Uncertainties and evidence limits</h3><dl class="kv">
       <dt>Strength &amp; limits of public evidence</dt><dd>${val(d.evidenceNote)}</dd>
@@ -485,7 +510,7 @@ document.addEventListener('click', e => { const b = e.target.closest('[data-firm
 document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('tr[data-firm]')) openFirm(e.target.dataset.firm); });
 
 /* ---------- Evidence explorer ---------- */
-const ES = {q:'', firm:'', cp:'', type:'', year:'', cls:new Set(), sort:{k:'year', dir:-1}};
+const ES = {q:'', firm:'', cp:'', type:'', year:'', cls:new Set(), sort:{k:'year', dir:-1}, open:new Set()};
 $('#cls-defs').innerHTML = '<b>Evidence hierarchy.</b> ' + D.classDefs.map(c => `${clsChip(c.id)}<b>${esc(c.name)}</b> — ${esc(c.definition)}`).join('<br>');
 const evFirms = FIRMS.filter(f => f.evidenceIds.length).sort((a,b)=>a.name.localeCompare(b.name));
 $('#f-evfirm').innerHTML = '<option value="">All firms</option>' + evFirms.map(f => `<option value="${f.id}">${esc(f.name)} (${f.evidenceIds.length})</option>`).join('') + '<option value="__none">Market-structure record (no single firm)</option>';
@@ -504,6 +529,7 @@ toggleSet($('#f-evcls'), ES.cls, renderEv);
 $('#clear-ev').addEventListener('click', () => { Object.assign(ES,{q:'',firm:'',cp:'',type:'',year:''}); ES.cls.clear();
   ['#q-ev','#f-evfirm','#f-evcp','#f-evtype','#f-evyear'].forEach(s => $(s).value=''); document.querySelectorAll('#f-evcls .fchip').forEach(b=>b.setAttribute('aria-pressed','false')); renderEv(); });
 const ECOLS = [
+  ['how','How we know', e => `<button class="xtog" data-ev="${e.id}" aria-expanded="${ES.open.has(e.id)}" aria-controls="xr-${e.id}">${ES.open.has(e.id) ? '▾' : '▸'} ${(e.excerptIds||[]).length ? 'Passage' + ((e.excerptIds||[]).length > 1 ? 's (' + e.excerptIds.length + ')' : '') : 'Why classed'}</button>`],
   ['firmsText','Firm(s)', e => e.firmIds.length ? e.firmIds.map(id => `<button class="name" data-firm="${id}">${esc(BYID[id].name)}</button>`).join(', ') + (e.firmIds.length > 1 || /Any qualified/.test(e.firmsText) ? '' : '') : `<span class="muted">${esc(e.firmsText)}</span>`],
   ['transaction','Transaction / document', e => `${esc(e.transaction)}<div class="small muted">${esc(e.projectType)}</div>`],
   ['year','Date', e => esc(e.date)],
@@ -530,13 +556,14 @@ function renderEv(){
   const {k,dir} = ES.sort;
   es.sort((a,b) => { const x = k==='year' ? (a.year||0) : k==='class' ? a.class : String(a[k]||'').toLowerCase(), y = k==='year' ? (b.year||0) : k==='class' ? b.class : String(b[k]||'').toLowerCase();
     return (x<y?-1:x>y?1:0)*dir || a.id.localeCompare(b.id); });
-  $('#ev-table').innerHTML = '<thead><tr>' + ECOLS.map(([key,l]) => `<th scope="col" aria-sort="${ES.sort.k===key?(ES.sort.dir>0?'ascending':'descending'):'none'}"><button class="sort" data-k="${key}">${l}</button></th>`).join('') + '</tr></thead><tbody>' +
-    (es.length ? es.map(e => '<tr>' + ECOLS.map(c => `<td>${c[2](e)}</td>`).join('') + '</tr>').join('') : `<tr><td colspan="${ECOLS.length}" class="muted">No evidence records match the current filters.</td></tr>`) + '</tbody>';
+  $('#ev-table').innerHTML = '<thead><tr>' + ECOLS.map(([key,l]) => key === 'how' ? `<th scope="col">${l}</th>` : `<th scope="col" aria-sort="${ES.sort.k===key?(ES.sort.dir>0?'ascending':'descending'):'none'}"><button class="sort" data-k="${key}">${l}</button></th>`).join('') + '</tr></thead><tbody>' +
+    (es.length ? es.map(e => '<tr>' + ECOLS.map(c => `<td>${c[2](e)}</td>`).join('') + '</tr>' + (ES.open.has(e.id) ? `<tr class="xrow" id="xr-${e.id}"><td colspan="${ECOLS.length}">${recordTrail(e)}</td></tr>` : '')).join('') : `<tr><td colspan="${ECOLS.length}" class="muted">No evidence records match the current filters.</td></tr>`) + '</tbody>';
   const byc = {}; es.forEach(e => byc[e.class] = (byc[e.class]||0)+1);
   $('#ev-count').innerHTML = `${es.length} of ${D.evidence.length} records shown · ` + Object.keys(byc).sort().map(c => `${clsChip(+c)}${byc[c]}`).join(' &nbsp;');
 }
-$('#ev-table').addEventListener('click', e => { const s = e.target.closest('button.sort'); if (!s) return; const k = s.dataset.k; ES.sort = {k, dir: ES.sort.k===k ? -ES.sort.dir : 1}; renderEv(); });
+$('#ev-table').addEventListener('click', e => { const t = e.target.closest('button.xtog'); if (t) { const id = t.dataset.ev; ES.open.has(id) ? ES.open.delete(id) : ES.open.add(id); renderEv(); const nb = $(`button.xtog[data-ev="${id}"]`); if (nb) nb.focus(); return; } const s = e.target.closest('button.sort'); if (!s) return; const k = s.dataset.k; ES.sort = {k, dir: ES.sort.k===k ? -ES.sort.dir : 1}; renderEv(); });
 renderEv();
+$('#exp-ev').addEventListener('click', () => { const all = ES.open.size < D.evidence.length; ES.open = new Set(all ? D.evidence.map(e => e.id) : []); $('#exp-ev').textContent = all ? 'Collapse all passages' : 'Expand all passages'; renderEv(); });
 
 /* ---------- Segments ---------- */
 const SG = D.segments; let segSel = 2;

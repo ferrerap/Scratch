@@ -4,7 +4,7 @@ from openpyxl.utils import get_column_letter
 sys.path.insert(0, sys.argv[1])
 from sources import SOURCES, SRC
 from firms import FIRMS, PRIORITY, PRIORITY_ORDER
-from analysis import CLASS_DEF, EVIDENCE, EVIDENCE_PTYPE, AUDIT, SEGMENTS, MODELS, GAPS
+from analysis import CLASS_DEF, EVIDENCE, EVIDENCE_PTYPE, EVIDENCE_EXCERPTS, AUDIT, SEGMENTS, MODELS, GAPS
 
 orig = openpyxl.load_workbook(sys.argv[2])
 out = sys.argv[3]
@@ -39,7 +39,7 @@ readme = [
 ("Mayfield IE Competitive Landscape — Verified V2", ""),
 ("Prepared", "17 November 2026, for Mayfield Renewables leadership. Companion to the report 'U.S. Solar & Storage Independent Engineering: Competitive Landscape and Market Entry Considerations for Mayfield Renewables'."),
 ("What changed from V1", "V1 (mayfield_ie_competitive_landscape.xlsx, preserved unchanged in Drive and reproduced in the V1_ tabs) was reconstructed from the Deep Research narrative and had no URLs. V2 re-verifies the most consequential claims against primary sources (SEC-filed financing agreements and IE reports, lender and sponsor announcements, company service pages, public procurements), adds 6 firms (4 identified from SEC-filed approved-engineer schedules), and introduces a five-level evidence classification."),
-("Tabs", "1_Full_Landscape (40 firms: 34 from V1 + 6 added) · 2_Priority_Competitors (15 firms + Mayfield reference) · 3_Evidence_References (transaction-level evidence) · 4_Market_Segments · 5_Business_Models · 6_Evidence_Audit (36 audited claims) · 7_Source_Register (98 sources) · 8_Open_Gaps · 9_Key_Excerpts (verbatim passages behind the principal findings, with highlight phrases) · V1_* (original workbook, unchanged)"),
+("Tabs", "1_Full_Landscape (40 firms: 34 from V1 + 6 added) · 2_Priority_Competitors (15 firms + Mayfield reference) · 3_Evidence_References (transaction-level evidence) · 4_Market_Segments · 5_Business_Models · 6_Evidence_Audit (36 audited claims) · 7_Source_Register (98 sources) · 8_Open_Gaps · 9_Key_Excerpts (verbatim passages behind the findings, evidence records and firm profiles, with highlight phrases) · V1_* (original workbook, unchanged)"),
 ("Evidence classes", "Classes describe the public evidence of financing acceptance, NOT technical competence. A firm may hold several classes. Absence of public evidence is not evidence of no financing experience."),
 ] + [(f"Class {c[0]} – {c[1]}", c[2]) for c in CLASS_DEF] + [
 ("V2 evidence strength", "Strong = class 1 evidence in executed agreements and/or repeated class 2–3 in primary documents · Moderate = class 2/3 present but mainly company-reported or dated · Limited = class 4 or dated class 3 only · Thin = class 5 only · Not re-verified = not checked in V2"),
@@ -80,9 +80,9 @@ sheet("2_Priority_Competitors", ["Firm","Group","Ownership / scale","Geographic 
  "Strength & limits of public evidence","Source IDs"], rows, [24,18,28,24,18,26,26,10,14,36,34,20,34,30,22])
 
 # 3 Evidence references
-rows = [(e[0], e[1], e[2], e[3], e[4], e[5], e[6], first_url(e[6]), e[7], EVIDENCE_PTYPE[i]) for i, e in enumerate(EVIDENCE)]
+rows = [(e[0], e[1], e[2], e[3], e[4], e[5], e[6], first_url(e[6]), e[7], EVIDENCE_PTYPE[i], ", ".join(EVIDENCE_EXCERPTS[i])) for i, e in enumerate(EVIDENCE)]
 sheet("3_Evidence_References", ["Firm(s)","Transaction / document","Date","Financing counterparty","Firm's role / IE mechanics","Evidence class",
- "Source ID(s)","Primary URL","Notes","Project type"], rows, [28,44,14,34,44,9,12,50,36,24])
+ "Source ID(s)","Primary URL","Notes","Project type","Excerpt IDs"], rows, [28,44,14,34,44,9,12,50,36,24,16])
 
 # 4 Segments
 rows = [(s["seg"], s["buyers"], s["selector"], s["reliance"], s["competition"], s["complexity"], s["disciplines"], s["providers"],
@@ -106,16 +106,16 @@ sheet("7_Source_Register", ["Source ID","Title","Publisher","Date","Source type"
 
 # 9 Key excerpts
 import json as _json, os as _os
-from excerpts import EXCERPTS
+from excerpts import EXCERPTS, PROFILE_FACTS
 _ver = _json.load(open(_os.path.join(sys.argv[1], "excerpt_verification.json")))
-rows9 = [(x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], _ver.get(x[0], "")) for x in EXCERPTS]
+rows9 = [(x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], _ver.get(x[0], ""), PROFILE_FACTS.get(x[0], "")) for x in EXCERPTS]
 # placed after Open Gaps (created below); stash
 _EXC_ROWS = rows9
 
 # 8 Gaps
 sheet("8_Open_Gaps", ["Gap ID","Unresolved question","Who can answer","Decision informed"], GAPS, [9,80,36,30])
-sheet("9_Key_Excerpts", ["Excerpt ID","Source ID","Document","What it shows","Verbatim excerpt","Highlight start","Highlight end","Location in document","Verification status"],
- _EXC_ROWS, [9,9,40,44,70,30,30,24,30])
+sheet("9_Key_Excerpts", ["Excerpt ID","Source ID","Document","What it shows","Verbatim excerpt","Highlight start","Highlight end","Location in document","Verification status","Profile fact for"],
+ _EXC_ROWS, [9,9,40,44,70,30,30,24,30,30])
 
 # V1 copies
 for w in orig.worksheets:

@@ -3,7 +3,7 @@
   "title": "U.S. Solar & Storage IE Market Intelligence",
   "subtitle": "Competitive Landscape & Market Entry | Mayfield Renewables | November 2026",
   "workbook": "Mayfield IE Competitive Landscape — Verified V2.xlsx",
-  "generated": "2026-11-17",
+  "generated": "2026-11-20",
   "counts": {
    "firms": 40,
    "priority": 15,
@@ -12,7 +12,7 @@
    "sources": 98,
    "segments": 7,
    "gaps": 10,
-   "excerpts": 32
+   "excerpts": 82
   }
  },
  "classDefs": [
@@ -119,6 +119,10 @@
     "E04",
     "E05",
     "E30"
+   ],
+   "factIds": [
+    "X62",
+    "X63"
    ]
   },
   {
@@ -214,6 +218,11 @@
     "E19",
     "E20",
     "E29"
+   ],
+   "factIds": [
+    "X19",
+    "X20",
+    "X64"
    ]
   },
   {
@@ -306,6 +315,10 @@
     "E15",
     "E28",
     "E29"
+   ],
+   "factIds": [
+    "X12",
+    "X42"
    ]
   },
   {
@@ -370,6 +383,9 @@
    "evidenceIds": [
     "E04",
     "E21"
+   ],
+   "factIds": [
+    "X30"
    ]
   },
   {
@@ -428,6 +444,9 @@
    "evidenceIds": [
     "E06",
     "E25"
+   ],
+   "factIds": [
+    "X51"
    ]
   },
   {
@@ -444,7 +463,7 @@
     2,
     3
    ],
-   "references": "'Independent engineer to the lenders' on Scale Microgrids $225M facility (KeyBanc, City National; 2023); IE & due diligence for $434M sPower California financing (undated; financiers unnamed); TDD for Osprey/DSD DG securitization (2022); Greenbacker/Fifth Third approved engineer (2018).",
+   "references": "'Independent engineer to the lenders' on Scale Microgrids $225M facility (KeyBanc, City National; 2023); IE & due diligence for sPower's lenders and tax-equity investors on a $434M California financing (undated; financiers not named individually); TDD for Osprey/DSD DG securitization (2022); Greenbacker/Fifth Third approved engineer (2018).",
    "v1Class": "Named transaction",
    "v1Confidence": "High",
    "strength": "Moderate–Strong",
@@ -494,6 +513,9 @@
     "E23",
     "E24",
     "E29"
+   ],
+   "factIds": [
+    "X49"
    ]
   },
   {
@@ -510,7 +532,7 @@
     2,
     4
    ],
-   "references": "Limited-review IE report for Luminace DG securitization (ABS-15G, Oct 2024); service page describes lender-ready IE reports, monitoring and drawdown verification. Only other named IE case found is in Chile.",
+   "references": "Limited-review IE report, engaged by the sponsor, for Luminace C&I solar securitization (ABS-15G, Oct 2024); service page describes lender-ready IE reports, monitoring and drawdown verification. Only other named IE case found is in Chile.",
    "v1Class": "Documented lender-facing services",
    "v1Confidence": "Medium",
    "strength": "Moderate",
@@ -552,6 +574,10 @@
    },
    "evidenceIds": [
     "E26"
+   ],
+   "factIds": [
+    "X66",
+    "X67"
    ]
   },
   {
@@ -583,7 +609,10 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X77"
+   ]
   },
   {
    "id": "natural-power",
@@ -600,7 +629,7 @@
     3,
     4
    ],
-   "references": "Greenbacker/Fifth Third approved engineer (2018, 2019); sponsor-engaged IE of record for Exus TAG $312M solar+BESS financing (2025); buy-side TDD for Igneo's acquisition of Soltage (DG/community solar); claims 1,700+ PV projects since 2020.",
+   "references": "Greenbacker/Fifth Third approved engineer (2018, 2019); sponsor-engaged IE of record for Exus TAG $312M solar+BESS financing (2025); buy-side TDD for Igneo's acquisition of Soltage (DG/community solar).",
    "v1Class": "Documented lender-facing services",
    "v1Confidence": "Medium",
    "strength": "Moderate",
@@ -636,7 +665,7 @@
     ],
     "strength": "Moderate",
     "acceptance": "Moderate: historical approved list; named sponsor-side deals",
-    "differentiation": "Volume claims (1,700+ PV projects since 2020)",
+    "differentiation": "Supports sponsors and investors on PV financing (company page)",
     "delivery": "In-house",
     "mayfieldRelevance": "Competitor in M&A/DG diligence",
     "evidenceNote": "Mixed primary/company sources",
@@ -652,6 +681,9 @@
     "E29",
     "E37",
     "E38"
+   ],
+   "factIds": [
+    "X68"
    ]
   },
   {
@@ -719,6 +751,10 @@
    "evidenceIds": [
     "E28",
     "E39"
+   ],
+   "factIds": [
+    "X69",
+    "X70"
    ]
   },
   {
@@ -779,6 +815,9 @@
    },
    "evidenceIds": [
     "E29"
+   ],
+   "factIds": [
+    "X71"
    ]
   },
   {
@@ -817,6 +856,9 @@
    "evidenceIds": [
     "E27",
     "E28"
+   ],
+   "factIds": [
+    "X53"
    ]
   },
   {
@@ -846,7 +888,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "rina",
@@ -875,7 +918,8 @@
     "sponsor"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "afry",
@@ -901,7 +945,8 @@
    "status": "Quick check only",
    "tags": [],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "mott-macdonald",
@@ -929,7 +974,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "arup",
@@ -957,7 +1003,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "stantec",
@@ -986,7 +1033,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "ramboll",
@@ -1014,7 +1062,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "erm",
@@ -1040,7 +1089,8 @@
    "status": "Not re-verified",
    "tags": [],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "trc",
@@ -1068,7 +1118,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "hdr",
@@ -1098,7 +1149,8 @@
     "sponsor"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "sgs",
@@ -1126,7 +1178,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "t-v-s-d",
@@ -1154,7 +1207,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "luminate",
@@ -1223,6 +1277,10 @@
     "E29",
     "E32",
     "E33"
+   ],
+   "factIds": [
+    "X23",
+    "X55"
    ]
   },
   {
@@ -1292,6 +1350,10 @@
     "E34",
     "E35",
     "E36"
+   ],
+   "factIds": [
+    "X25",
+    "X57"
    ]
   },
   {
@@ -1348,7 +1410,11 @@
      "S54"
     ]
    },
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X74",
+    "X75"
+   ]
   },
   {
    "id": "fractal-energy-storage-consultants",
@@ -1405,7 +1471,11 @@
      "S56"
     ]
    },
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X72",
+    "X73"
+   ]
   },
   {
    "id": "illumine-i",
@@ -1458,7 +1528,10 @@
      "S57"
     ]
    },
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X76"
+   ]
   },
   {
    "id": "rrc-companies",
@@ -1488,7 +1561,10 @@
     "utility"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X79"
+   ]
   },
   {
    "id": "revamp-engineering",
@@ -1517,7 +1593,8 @@
     "bess"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "solas-energy",
@@ -1549,7 +1626,10 @@
     "sponsor"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X80"
+   ]
   },
   {
    "id": "gds-associates",
@@ -1577,7 +1657,8 @@
     "utility"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "daymark-energy-advisors-xodus",
@@ -1605,7 +1686,10 @@
    "status": "Verified",
    "tags": [],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X81"
+   ]
   },
   {
    "id": "groundwork",
@@ -1638,7 +1722,10 @@
     "sponsor"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": [
+    "X78"
+   ]
   },
   {
    "id": "partner-engineering-and-science",
@@ -1670,7 +1757,8 @@
     "sponsor"
    ],
    "detail": null,
-   "evidenceIds": []
+   "evidenceIds": [],
+   "factIds": []
   },
   {
    "id": "radian-generation",
@@ -1704,6 +1792,9 @@
    "detail": null,
    "evidenceIds": [
     "E29"
+   ],
+   "factIds": [
+    "X14"
    ]
   },
   {
@@ -1738,6 +1829,9 @@
    "detail": null,
    "evidenceIds": [
     "E29"
+   ],
+   "factIds": [
+    "X14"
    ]
   },
   {
@@ -1769,6 +1863,9 @@
    "detail": null,
    "evidenceIds": [
     "E29"
+   ],
+   "factIds": [
+    "X14"
    ]
   },
   {
@@ -1804,6 +1901,9 @@
    "detail": null,
    "evidenceIds": [
     "E29"
+   ],
+   "factIds": [
+    "X14"
    ]
   }
  ],
@@ -1870,6 +1970,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1020-titanfinancing.htm",
    "notes": "Document elsewhere states 260 MWac",
+   "excerptIds": [
+    "X07",
+    "X08"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -1889,6 +1993,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1014-creditagreemen.htm",
    "notes": "IE = Leidos 'or another Person selected by the Required Lenders'",
+   "excerptIds": [
+    "X05",
+    "X06"
+   ],
    "projectType": "Solar + storage"
   },
   {
@@ -1908,6 +2016,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit103-creditagreement.htm",
    "notes": "",
+   "excerptIds": [
+    "X33",
+    "X09"
+   ],
    "projectType": "Not specified"
   },
   {
@@ -1930,6 +2042,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1772720/000162828024030550/ex101-spruxdebtfinancing.htm",
    "notes": "Exact wording: 'substantial experience in the residential solar industry'",
+   "excerptIds": [
+    "X01"
+   ],
    "projectType": "Residential solar portfolio / ABS"
   },
   {
@@ -1949,6 +2064,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1607716/000156459019030784/vslr-ex101_135.htm",
    "notes": "No lender-approval clause",
+   "excerptIds": [
+    "X34"
+   ],
    "projectType": "Residential solar portfolio / ABS"
   },
   {
@@ -1971,6 +2089,11 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1828536/000182853626000111/exhibit_101xprojectxgoshex.htm",
    "notes": "Agent and Required Lenders may remove/replace IE (§10.1)",
+   "excerptIds": [
+    "X02",
+    "X03",
+    "X04"
+   ],
    "projectType": "BESS"
   },
   {
@@ -1990,6 +2113,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1908233/000119312522242511/d285220dex108.htm",
    "notes": "",
+   "excerptIds": [
+    "X12"
+   ],
    "projectType": "Portfolio or warehouse credit facility"
   },
   {
@@ -2010,6 +2136,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1908233/000119312523091091/d366853dex1010.htm",
    "notes": "IE certificate normally due 5 business days before funding",
+   "excerptIds": [
+    "X10",
+    "X11"
+   ],
    "projectType": "Portfolio or warehouse credit facility"
   },
   {
@@ -2030,6 +2160,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1908233/000119312522242511/d285220dex44.htm",
    "notes": "",
+   "excerptIds": [
+    "X35",
+    "X36"
+   ],
    "projectType": "Solar + storage"
   },
   {
@@ -2050,6 +2184,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2136853/000162828026055300/exhibit1027-sx4.htm",
    "notes": "",
+   "excerptIds": [
+    "X37",
+    "X38"
+   ],
    "projectType": "Not specified"
   },
   {
@@ -2069,6 +2207,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2136853/000162828026055300/exhibit44-sx4.htm",
    "notes": "",
+   "excerptIds": [
+    "X39"
+   ],
    "projectType": "BESS"
   },
   {
@@ -2088,6 +2229,10 @@
    ],
    "url": "https://www.energyglobal.com/solar/04032026/enertis-applus-aids-greenbacker-in-closing-of-us440-million-tax-equity-commitment/",
    "notes": "",
+   "excerptIds": [
+    "X40",
+    "X82"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -2107,6 +2252,9 @@
    ],
    "url": "https://www.key.com/businesses-institutions/our-transactions/deals/lightshift-energy.html",
    "notes": "KeyBank page confirms facility, not IE; IE role from Enertis release (syndicated copy not opened)",
+   "excerptIds": [
+    "X41"
+   ],
    "projectType": "BESS"
   },
   {
@@ -2126,6 +2274,9 @@
    ],
    "url": "https://www.energyglobal.com/energy-storage/27062025/enertis-applus-delivers-independent-engineering-expertise-to-texas-bess-projects/",
    "notes": "",
+   "excerptIds": [
+    "X42"
+   ],
    "projectType": "BESS"
   },
   {
@@ -2145,6 +2296,9 @@
    ],
    "url": "https://www.stocktitan.net/news/ING/dimension-energy-closes-650-million-community-solar-project-5zduj25qgexc.html",
    "notes": "Shows incumbents active in community solar with same banks",
+   "excerptIds": [
+    "X22"
+   ],
    "projectType": "DG / C&I / community-solar portfolio"
   },
   {
@@ -2164,6 +2318,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2085658/000110465925090769/tm2526093d2_ex99-1.htm",
    "notes": "V1 dated this Sept 2026 – corrected",
+   "excerptIds": [
+    "X20",
+    "X19"
+   ],
    "projectType": "Residential solar portfolio / ABS"
   },
   {
@@ -2183,6 +2341,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2107307/000110465926012595/tm265011d2_ex99-1.htm",
    "notes": "",
+   "excerptIds": [
+    "X43"
+   ],
    "projectType": "Residential solar portfolio / ABS"
   },
   {
@@ -2203,6 +2364,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2110533/000119312526119959/d125726dex991.htm",
    "notes": "",
+   "excerptIds": [
+    "X44",
+    "X45"
+   ],
    "projectType": "Residential solar portfolio / ABS"
   },
   {
@@ -2222,6 +2387,9 @@
    ],
    "url": "https://www.dnv.com/news/2020/dnv-gl-serves-as-independent-engineer-for-spower-s-milestone-solar-transaction-177617/",
    "notes": "Dated; DNV GL name",
+   "excerptIds": [
+    "X46"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -2241,6 +2409,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1992243/000121390024113074/ea022566801ex10-9_freyrbat.htm",
    "notes": "Manufacturing, not generation – shows agent-appointment pattern",
+   "excerptIds": [
+    "X47"
+   ],
    "projectType": "Manufacturing"
   },
   {
@@ -2249,17 +2420,20 @@
    "firmIds": [
     "icf"
    ],
-   "transaction": "Pelicans Jaw Solar financing amendment (SB Energy)",
+   "transaction": "Pelicans Jaw Solar financing amendment and attached equity documents (SB Energy)",
    "date": "2025-05",
    "year": 2025,
-   "counterparty": "Lenders (SB Energy financing)",
-   "role": "Named IE",
+   "counterparty": "Lenders and equity (tax-equity) investors",
+   "role": "Named IE; alternative must be approved by the equity investors",
    "class": 3,
    "sourceIds": [
     "S09"
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit108-amendmentno1and.htm",
    "notes": "",
+   "excerptIds": [
+    "X48"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -2279,6 +2453,9 @@
    ],
    "url": "https://www.scalemicrogrids.com/blog/scale-microgrids-closes-225-million-in-first-of-its-kind-energy-transition-debt-facility",
    "notes": "Lender-side selection in microgrid/DG portfolio",
+   "excerptIds": [
+    "X21"
+   ],
    "projectType": "DG / C&I / community-solar portfolio"
   },
   {
@@ -2290,14 +2467,17 @@
    "transaction": "sPower 3-project California financing ($434M, 183 MWdc)",
    "date": "Undated",
    "year": null,
-   "counterparty": "Banks/tax equity not named",
-   "role": "IE & due diligence",
+   "counterparty": "sPower's lenders and tax-equity investors (not named individually)",
+   "role": "IE & due diligence services for the lenders and tax-equity investors",
    "class": 2,
    "sourceIds": [
     "S28"
    ],
    "url": "https://www.bv.com/projects/black-veatch-management-consulting-connects-capital-three-new-solar-projects-california/",
-   "notes": "Not Spotsylvania (V1 conflation)",
+   "notes": "Not Spotsylvania (V1 conflation); company-reported",
+   "excerptIds": [
+    "X49"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -2310,13 +2490,16 @@
    "date": "2022-11",
    "year": 2022,
    "counterparty": "ABS investors",
-   "role": "Technical due diligence",
+   "role": "Technical due diligence report",
    "class": 2,
    "sourceIds": [
     "S23"
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1952528/000153949722001778/exh99-2.htm",
-   "notes": "",
+   "notes": "Report states it was prepared for the sponsor (DSD) as client",
+   "excerptIds": [
+    "X50"
+   ],
    "projectType": "DG / C&I / community-solar portfolio"
   },
   {
@@ -2336,6 +2519,9 @@
    ],
    "url": "https://www.sargentlundy.com/projects/solar-pv-independent-engineering-support/",
    "notes": "Company-reported",
+   "excerptIds": [
+    "X51"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -2344,17 +2530,20 @@
    "firmIds": [
     "ul-solutions"
    ],
-   "transaction": "Luminace DG securitization – limited-review IE report",
+   "transaction": "Luminace C&I solar securitization – limited-review IE report",
    "date": "2024-10",
    "year": 2024,
    "counterparty": "ABS investors",
-   "role": "IE (limited review)",
+   "role": "Limited-review IE report",
    "class": 2,
    "sourceIds": [
     "S22"
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1917434/000119312524230768/d859406dex992.htm",
-   "notes": "",
+   "notes": "Engaged by the sponsor (Luminace), per the report",
+   "excerptIds": [
+    "X52"
+   ],
    "projectType": "DG / C&I / community-solar portfolio"
   },
   {
@@ -2374,6 +2563,9 @@
    ],
    "url": "https://www.energyglobal.com/solar/15032023/arcvera-provides-independent-engineering-in-support-of-onwards-12-gw-solar-portfolio-acquisition/",
    "notes": "",
+   "excerptIds": [
+    "X53"
+   ],
    "projectType": "Utility-scale solar"
   },
   {
@@ -2395,6 +2587,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1563922/000175392624000095/g083945_ex10-1.htm",
    "notes": "Narrower list than 2018–19 Fifth Third facility",
+   "excerptIds": [
+    "X16"
+   ],
    "projectType": "Portfolio or warehouse credit facility"
   },
   {
@@ -2423,6 +2618,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1563922/000161577418000237/s108683_ex10-1.htm",
    "notes": "DG/C&I-heavy borrower; list included smaller specialists and a developer/EPC",
+   "excerptIds": [
+    "X14",
+    "X13"
+   ],
    "projectType": "Portfolio or warehouse credit facility"
   },
   {
@@ -2442,6 +2641,9 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1563922/000121390019011416/f8k062019ex10-1_greenbacker.htm",
    "notes": "One addition in ~18 months",
+   "excerptIds": [
+    "X15"
+   ],
    "projectType": "Portfolio or warehouse credit facility"
   },
   {
@@ -2459,6 +2661,10 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1828723/000182872323000126/altus-creditagreementomnib.htm",
    "notes": "C&I/community-solar borrower selects IE",
+   "excerptIds": [
+    "X17",
+    "X18"
+   ],
    "projectType": "Portfolio or warehouse credit facility"
   },
   {
@@ -2478,6 +2684,9 @@
    ],
    "url": "https://www.luminatellc.com/luminate-serves-as-independent-engineer-for-grape-solar-storage-project/",
    "notes": "Company-reported",
+   "excerptIds": [
+    "X24"
+   ],
    "projectType": "Solar + storage"
   },
   {
@@ -2498,6 +2707,11 @@
    ],
    "url": "https://www.luminatellc.com/home/company/",
    "notes": "Company-reported; Terra-Gen testimonial covers debt and tax equity",
+   "excerptIds": [
+    "X54",
+    "X83",
+    "X55"
+   ],
    "projectType": "Solar + storage"
   },
   {
@@ -2518,6 +2732,10 @@
    ],
    "url": "https://www.e3co.com/e3-consulting-serves-as-independent-engineer-for-energy-vaults-successful-28million-project-financing/",
    "notes": "",
+   "excerptIds": [
+    "X56",
+    "X27"
+   ],
    "projectType": "BESS"
   },
   {
@@ -2537,6 +2755,9 @@
    ],
    "url": "https://www.e3co.com/e3-consulting-serves-as-the-independent-engineer-for-energy-vaults-18-million-project-financing-for-its-cross-trails-bess/",
    "notes": "V1 omitted deal size",
+   "excerptIds": [
+    "X26"
+   ],
    "projectType": "BESS"
   },
   {
@@ -2556,6 +2777,9 @@
    ],
    "url": "https://www.e3co.com/projects/",
    "notes": "",
+   "excerptIds": [
+    "X57"
+   ],
    "projectType": "Residential solar portfolio / ABS"
   },
   {
@@ -2575,6 +2799,9 @@
    ],
    "url": "https://naturalpower.com/uk/news/news-post/natural-power-validates-exus-renewables-north-americas-312m-tag-project-in-new-mexico",
    "notes": "",
+   "excerptIds": [
+    "X58"
+   ],
    "projectType": "Solar + storage"
   },
   {
@@ -2594,6 +2821,9 @@
    ],
    "url": "https://www.naturalpower.com/us/news/news-post/natural-power-supports-igneo-infrastructure-partners-acquisition-of-a-majority-equity-interest-in-soltage",
    "notes": "M&A diligence on DG/community-solar IPP",
+   "excerptIds": [
+    "X59"
+   ],
    "projectType": "DG / C&I / community-solar portfolio"
   },
   {
@@ -2614,6 +2844,10 @@
    ],
    "url": "https://www.vde.com/resource/blob/2379576/a2c3be4c1b2e59cf4b83effe31894111/statement-of-qualifications-data.pdf",
    "notes": "Company SOQ only",
+   "excerptIds": [
+    "X60",
+    "X61"
+   ],
    "projectType": "DG / C&I / community-solar portfolio"
   }
  ],
@@ -2627,7 +2861,8 @@
    "start": "any other reputable, qualified engineering firm",
    "end": "approved by the Majority Lenders",
    "locator": "Definitions (Annex A), “Independent Engineer”",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X02": {
    "id": "X02",
@@ -2638,7 +2873,8 @@
    "start": "means Enertis, E3 Consulting, Sargent and Lundy",
    "end": "mutually agreed to between the Borrower and the Administrative Agent",
    "locator": "Article I definitions, “Independent Engineer”",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X03": {
    "id": "X03",
@@ -2649,7 +2885,8 @@
    "start": "The Administrative Agent and Required Lenders, in their reasonable discretion",
    "end": "replacement reasonably acceptable to the Borrower",
    "locator": "Section 10.1 (Independent Consultants)",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X04": {
    "id": "X04",
@@ -2660,7 +2897,8 @@
    "start": "Delivery of an executed reliance letter",
    "end": "satisfactory to the Administrative Agent and the Lenders",
    "locator": "Conditions to borrowing, “IE Report and Reliance Letter”",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X05": {
    "id": "X05",
@@ -2671,7 +2909,8 @@
    "start": "Leidos Engineering, LLC or another Person selected by the Required Lenders",
    "end": "",
    "locator": "Section 1.01 definitions, “Independent Engineer”",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X06": {
    "id": "X06",
@@ -2682,7 +2921,8 @@
    "start": "This IE Drawdown Certificate",
    "end": "between Angiola East, LLC",
    "locator": "Exhibit A-3",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X07": {
    "id": "X07",
@@ -2693,7 +2933,8 @@
    "start": "is being provided by Leidos Engineering, LLC",
    "end": "",
    "locator": "Exhibit E-2",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X08": {
    "id": "X08",
@@ -2704,7 +2945,8 @@
    "start": "Addressees",
    "end": "as Administrative Agent",
    "locator": "Exhibit E-2, Schedule 1",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X09": {
    "id": "X09",
@@ -2715,7 +2957,8 @@
    "start": "Independent Engineer’s Report in respect of each Project",
    "end": "entitle the Agents and the Lenders to rely",
    "locator": "Conditions precedent",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X10": {
    "id": "X10",
@@ -2726,7 +2969,8 @@
    "start": "shall mean Enertis Solar Inc.",
    "end": "together with a corresponding reliance letter",
    "locator": "Section 2 (waivers), HDSI, LLC project",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X11": {
    "id": "X11",
@@ -2737,7 +2981,8 @@
    "start": "no less than five (5) Business Days prior to such Initial Project Funding Date",
    "end": "",
    "locator": "Section 2 (waivers)",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X12": {
    "id": "X12",
@@ -2748,7 +2993,10 @@
    "start": "means Enertis Solar Inc., or any other consultant",
    "end": "",
    "locator": "Section 1.01 definitions",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Enertis Applus+"
+   ]
   },
   "X13": {
    "id": "X13",
@@ -2759,7 +3007,8 @@
    "start": "means any independent engineer identified on Schedule",
    "end": "in its sole discretion",
    "locator": "Section 1.1 definitions, “Approved Engineer”",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X14": {
    "id": "X14",
@@ -2770,7 +3019,13 @@
    "start": "Borrego Solar",
    "end": "Clean Energy Associates",
    "locator": "Schedule 1.1(c)",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Radian Generation",
+    "Bay4 Energy",
+    "BEW Engineering",
+    "Borrego Solar"
+   ]
   },
   "X15": {
    "id": "X15",
@@ -2781,7 +3036,8 @@
    "start": "Clean Energy Associates",
    "end": "Leidos Engineering, LLC",
    "locator": "Schedule 1.1(c)",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X16": {
    "id": "X16",
@@ -2792,7 +3048,8 @@
    "start": "means each of Enertis Solar",
    "end": "VDE Americas, Inc",
    "locator": "Section 1.1 definitions",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X17": {
    "id": "X17",
@@ -2803,7 +3060,8 @@
    "start": "means any qualified third-party engineering and technical consultant",
    "end": "selected by the Borrower",
    "locator": "Section 1.1 definitions",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X18": {
    "id": "X18",
@@ -2814,7 +3072,8 @@
    "start": "Blackstone Representative) in its reasonable discretion",
    "end": "replacement on behalf of the Lenders",
    "locator": "Section 9.9 Independent Engineer",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X19": {
    "id": "X19",
@@ -2825,7 +3084,10 @@
    "start": "standard reliance letter terms",
    "end": "total liability to USD 300,000",
    "locator": "Important notice, item 1",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "DNV"
+   ]
   },
   "X20": {
    "id": "X20",
@@ -2836,7 +3098,10 @@
    "start": "capacity as Independent Engineer, for a contemplated portfolio",
    "end": "battery energy storage systems",
    "locator": "Section 1 (task and objective)",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "DNV"
+   ]
   },
   "X21": {
    "id": "X21",
@@ -2847,7 +3112,8 @@
    "start": "Black & Veatch was an independent engineer to the lenders",
    "end": "",
    "locator": "Announcement text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X22": {
    "id": "X22",
@@ -2858,7 +3124,8 @@
    "start": "acted as the independent technical advisor",
    "end": "",
    "locator": "Announcement text",
-   "verification": "Not re-checked: page blocks automated retrieval; excerpt from first-stage research notes"
+   "verification": "Not re-checked: page blocks automated retrieval; excerpt from first-stage research notes",
+   "firms": []
   },
   "X23": {
    "id": "X23",
@@ -2869,7 +3136,10 @@
    "start": "Formed in 2006 by long time power project finance veterans",
    "end": "",
    "locator": "Company page",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Luminate"
+   ]
   },
   "X24": {
    "id": "X24",
@@ -2880,7 +3150,8 @@
    "start": "proud to have served as the Independent Engineer for CIM Group",
    "end": "approximately $600 million in construction financing",
    "locator": "Announcement text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X25": {
    "id": "X25",
@@ -2891,7 +3162,10 @@
    "start": "In 2014, E3 was acquired by NAES Corporation",
    "end": "provider of services to the energy industry",
    "locator": "Company history",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "E3 Consulting"
+   ]
   },
   "X26": {
    "id": "X26",
@@ -2902,7 +3176,8 @@
    "start": "is proud to have served as the Independent Engineer in support of",
    "end": "Cross Trails Battery Energy Storage System",
    "locator": "Announcement text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X27": {
    "id": "X27",
@@ -2913,7 +3188,8 @@
    "start": "Eagle Point Credit Management announced that it has provided",
    "end": "project financing to Energy Vault",
    "locator": "Article text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X28": {
    "id": "X28",
@@ -2924,7 +3200,8 @@
    "start": "Sampled projects are usually identified by the independent engineer",
    "end": "approved by the lenders",
    "locator": "Article text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X29": {
    "id": "X29",
@@ -2935,7 +3212,8 @@
    "start": "Full-scope diligence on every project in a portfolio comprised of 25 or more projects",
    "end": "neither economically feasible",
    "locator": "Article text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X30": {
    "id": "X30",
@@ -2946,7 +3224,10 @@
    "start": "",
    "end": "",
    "locator": "Page 1 (PDF – open and search for the quoted text)",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "ICF"
+   ]
   },
   "X31": {
    "id": "X31",
@@ -2957,7 +3238,8 @@
    "start": "There is no easy solution to get around this due diligence issue",
    "end": "",
    "locator": "Article text",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
   },
   "X32": {
    "id": "X32",
@@ -2968,7 +3250,658 @@
    "start": "Desktop Report Review",
    "end": "Technical Design Review",
    "locator": "Services list",
-   "verification": "Verified verbatim against retrieved copy (2026-11-17)"
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X33": {
+   "id": "X33",
+   "source": "S06",
+   "document": "Big Five Holdco 1 credit agreement (MUFG agent, Jan 2024)",
+   "shows": "Leidos is the named IE; a successor needs agent approval at the lenders' direction.",
+   "quote": "“Independent Engineer” means Leidos Engineering, LLC or its successor approved by the Administrative Agent (acting at the direction of the Required Lenders, not to be unreasonably withheld, delayed or conditioned)",
+   "start": "Leidos Engineering, LLC or its successor approved by the Administrative Agent",
+   "end": "",
+   "locator": "Section 1.01 definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X34": {
+   "id": "X34",
+   "source": "S05",
+   "document": "Vivint Solar Project Galileo II loan agreement (May 2019)",
+   "shows": "Leidos or another reputable residential-solar firm; no lender-approval step in this version.",
+   "quote": "“Independent Engineer” means (a) Leidos Engineering, LLC or (b) any other reputable, qualified engineering firm with substantial experience in the residential solar industry that is not an Affiliate of the Borrower or the Sponsor.",
+   "start": "Leidos Engineering, LLC or (b) any other reputable, qualified engineering firm",
+   "end": "",
+   "locator": "Definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X35": {
+   "id": "X35",
+   "source": "S12",
+   "document": "MN8 / GSRP Stanton note purchase agreement (2021)",
+   "shows": "Enertis is the PV independent engineer for the noteholders.",
+   "quote": "“Independent Engineer (PV)” means Enertis Solar Inc. or such other Person as the Required Holders may engage on behalf of the holders of the Notes with the consent of the Company",
+   "start": "means Enertis Solar Inc. or such other Person as the Required Holders",
+   "end": "",
+   "locator": "Schedule A definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X36": {
+   "id": "X36",
+   "source": "S12",
+   "document": "MN8 / GSRP Stanton note purchase agreement (2021)",
+   "shows": "DNV is the separate BESS independent engineer.",
+   "quote": "“Independent Engineer (BESS)” means DNV Energy Insights USA Inc. or such other Person as the Required Holders may engage on behalf of the holders of the Notes with the consent of the Company",
+   "start": "means DNV Energy Insights USA Inc. or such other Person",
+   "end": "",
+   "locator": "Schedule A definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X37": {
+   "id": "X37",
+   "source": "S13",
+   "document": "MN8 tax-equity agreement (Nov 2025)",
+   "shows": "Enertis is the IE, or another firm acceptable to the tax-equity investor.",
+   "quote": "“Independent Engineer” means Enertis Solar Inc. or another independent engineering firm reasonably acceptable to the Investor.",
+   "start": "Enertis Solar Inc. or another independent engineering firm reasonably acceptable to the Investor",
+   "end": "",
+   "locator": "Definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X38": {
+   "id": "X38",
+   "source": "S13",
+   "document": "MN8 tax-equity agreement (Nov 2025)",
+   "shows": "DNV is the investor's own engineer.",
+   "quote": "“Investor’s Engineer” means DNV Energy USA Inc.",
+   "start": "means DNV Energy USA Inc",
+   "end": "",
+   "locator": "Definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X39": {
+   "id": "X39",
+   "source": "S14",
+   "document": "MN8 Mulberry BESS note purchase agreement (July 2025)",
+   "shows": "Enertis is the IE for the noteholders.",
+   "quote": "“Independent Engineer” means Enertis Applus+ or such other Person as the Required Holders may engage on behalf of the holders of the Notes with the consent of the Issuers",
+   "start": "means Enertis Applus+ or such other Person",
+   "end": "",
+   "locator": "Definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X40": {
+   "id": "X40",
+   "source": "S30",
+   "document": "Energy Global – Enertis / Greenbacker Cider Solar (Mar 2026)",
+   "shows": "Enertis served as IE for the sponsor, Greenbacker.",
+   "quote": "served as independent engineer for Greenbacker Renewable Energy Co. in the financing for the Cider solar project in New York State.",
+   "start": "served as independent engineer for Greenbacker",
+   "end": "Cider solar project in New York State",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X82": {
+   "id": "X82",
+   "source": "S30",
+   "document": "Energy Global – Enertis / Greenbacker Cider Solar (Mar 2026)",
+   "shows": "Enertis's technical due diligence report supported the tax-equity commitment.",
+   "quote": "As technical advisor on the Cider solar project, the Enertis Applus+ team conducted the technical due diligence (TDD) report that was essential in gaining the tax equity commitment by verifying the project’s technical and financial viability.",
+   "start": "As technical advisor on the Cider solar project",
+   "end": "gaining the tax equity commitment",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X41": {
+   "id": "X41",
+   "source": "S31",
+   "document": "KeyBank – Lightshift Energy deal page (Oct 2025)",
+   "shows": "Confirms the lender and facility. This page does not name the IE; Enertis's role comes from its own release.",
+   "quote": "On October 14, 2025, KeyBanc Capital Markets Inc. (KBCM) closed $75 million in Senior Secured Credit Facilities for Lightshift Energy’s battery energy storage systems (BESS) portfolio",
+   "start": "KeyBanc Capital Markets Inc. (KBCM) closed $75 million",
+   "end": "",
+   "locator": "Deal summary",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X42": {
+   "id": "X42",
+   "source": "S32",
+   "document": "Energy Global – Enertis / Lydian Texas BESS (June 2025)",
+   "shows": "Enertis acting as IE for the sponsor's three-project Texas BESS portfolio.",
+   "quote": "Enertis Applus+, a global consulting, engineering, and quality control firm with extended expertise in the renewable energy and storage sectors, is acting as an independent engineer for Lydian Energy, a portfolio company of Excelsior Energy Capital.",
+   "start": "is acting as an independent engineer for Lydian Energy",
+   "end": "",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Enertis Applus+"
+   ]
+  },
+  "X43": {
+   "id": "X43",
+   "source": "S16",
+   "document": "DNV IE summary report – GoodLeap ABS 1 2026 (filed Feb 2026)",
+   "shows": "Repeat DNV IE engagement for GoodLeap.",
+   "quote": "GoodLeap ABS 1 2026 Portfolio TDD FINAL (27 January 2026), in DNV’s capacity as Independent Engineer, for a contemplated portfolio of residential-scale solar only and solar + battery energy storage systems.",
+   "start": "GoodLeap ABS 1 2026 Portfolio TDD FINAL",
+   "end": "battery energy storage systems",
+   "locator": "Task and objective",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X44": {
+   "id": "X44",
+   "source": "S24",
+   "document": "DNV IE summary report – EnFin / ClearLight residential portfolio (Mar 2026)",
+   "shows": "DNV as IE on a further residential portfolio.",
+   "quote": "EnFin TPO Resi TDD (06 March 2026), in DNV’s capacity as Independent Engineer, for a portfolio of residential-scale solar only and solar + battery energy storage systems.",
+   "start": "EnFin TPO Resi TDD",
+   "end": "battery energy storage systems",
+   "locator": "Task and objective",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X45": {
+   "id": "X45",
+   "source": "S25",
+   "document": "DNV IE report – Palmetto residential portfolio (Aug 2026)",
+   "shows": "DNV as IE on a third-party-owned residential portfolio.",
+   "quote": "The Report describes DNV’s technical due diligence review, in its capacity as Independent Engineer, for a residential, third-party owned portfolio.",
+   "start": "in its capacity as Independent Engineer, for a residential",
+   "end": "",
+   "locator": "Task and objective",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X46": {
+   "id": "X46",
+   "source": "S26",
+   "document": "DNV press release – sPower Spotsylvania (June 2020)",
+   "shows": "The sponsor credits DNV as IE on the tax-equity transaction.",
+   "quote": "“DNV GL has long been a trusted partner for sPower in the solar project financing process and they played an important role as Independent Engineer on this transaction,” said Dylan Turner, Director, Structured Finance at sPower.",
+   "start": "played an important role as Independent Engineer on this transaction",
+   "end": "",
+   "locator": "Press release",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X47": {
+   "id": "X47",
+   "source": "S21",
+   "document": "Trina Solar US Manufacturing credit agreement (Dec 2024)",
+   "shows": "DNV is the IE, replaceable by a nationally recognized firm the agent appoints.",
+   "quote": "“Independent Engineer” means DNV Energy USA Inc., or any replacement thereof of nationally recognized standing appointed by the Administrative Agent (at the direction of the Required Lenders) with the Borrower’s consent",
+   "start": "means DNV Energy USA Inc., or any replacement thereof of nationally recognized standing",
+   "end": "",
+   "locator": "Section 1.01 definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X48": {
+   "id": "X48",
+   "source": "S09",
+   "document": "Pelicans Jaw Solar – Amendment No. 1 and Consent to Financing Agreement, with attached equity documents (May 2025)",
+   "shows": "ICF is the IE, or another firm the equity investors approve.",
+   "quote": "“Independent Engineer” means ICF Resources, LLC or such other Person as shall be approved by the Equity Investors.",
+   "start": "ICF Resources, LLC or such other Person as shall be approved by the Equity Investors",
+   "end": "",
+   "locator": "Attached equity agreement, definitions",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X49": {
+   "id": "X49",
+   "source": "S28",
+   "document": "Black & Veatch project page – sPower three-project California financing",
+   "shows": "B&V worked for sPower's lenders and tax-equity investors.",
+   "quote": "Black & Veatch Management Consulting, LLC, provided Independent Engineering and Due Diligence services for sPower’s lenders and tax equity investors.",
+   "start": "provided Independent Engineering and Due Diligence services for sPower",
+   "end": "",
+   "locator": "Project page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Black & Veatch"
+   ]
+  },
+  "X50": {
+   "id": "X50",
+   "source": "S23",
+   "document": "Black & Veatch technical due diligence report – DSD solar securitization (Nov 2022)",
+   "shows": "The securitization report was prepared for the sponsor (DSD).",
+   "quote": "(1) This report was prepared for Distributed Solar Development, LLC (“Client”)",
+   "start": "This report was prepared for Distributed Solar Development, LLC",
+   "end": "",
+   "locator": "Special Notice",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X51": {
+   "id": "X51",
+   "source": "S34",
+   "document": "Sargent & Lundy project page – Leeward Big Plain and Oak Trail",
+   "shows": "S&L performed IE due diligence for the financing.",
+   "quote": "Sargent & Lundy provided independent engineering (IE) due diligence services in support of financing for the Big Plain and Oak Trail Solar Photovoltaic (PV) projects.",
+   "start": "provided independent engineering (IE) due diligence services in support of financing",
+   "end": "",
+   "locator": "Project page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Sargent & Lundy"
+   ]
+  },
+  "X52": {
+   "id": "X52",
+   "source": "S22",
+   "document": "UL Solutions limited-review IE report – Luminace C&I solar securitization (Sept 2024)",
+   "shows": "UL was engaged by the sponsor (Luminace) to provide a limited-review IE report.",
+   "quote": "has been engaged by Luminace Holdings, LLC (“Luminace,” “Client,” or “Sponsor”) to perform Technical Due Diligence and provide a Limited-Review Independent Engineering Report (“IER”) for a portfolio of Commercial and Industrial (“C&I”) Solar Projects",
+   "start": "has been engaged by Luminace Holdings, LLC",
+   "end": "",
+   "locator": "Introduction",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X53": {
+   "id": "X53",
+   "source": "S36",
+   "document": "Energy Global – ArcVera / Onward Energy (Mar 2023)",
+   "shows": "ArcVera provided IE services for the acquisition and financing.",
+   "quote": "The ArcVera team provided technical advisory and IE services for Onward Energy’s acquisition and financing of the approximately 1.2 GW Global Atlantic solar photovoltaic (PV) portfolio.",
+   "start": "",
+   "end": "",
+   "locator": "Article text (passage sits in a collapsed/scripted section – search for the quoted text)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Bureau Veritas / ArcVera"
+   ]
+  },
+  "X54": {
+   "id": "X54",
+   "source": "S39",
+   "document": "Luminate – energy storage experience page",
+   "shows": "Luminate states it is IE for Terra-Gen's Edwards Sanborn financing.",
+   "quote": "Luminate serves as independent engineer for Terra-Gen’s financing of its Edwards Sanborn solar + storage project in Kern County, California.",
+   "start": "Luminate serves as independent engineer for",
+   "end": "Edwards Sanborn solar",
+   "locator": "Featured projects",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X83": {
+   "id": "X83",
+   "source": "S39",
+   "document": "Luminate – energy storage experience page",
+   "shows": "Luminate states it supported the financing of NextEra's Pinal project.",
+   "quote": "Luminate provided independent engineering and consulting services in support of the financing of NextEra’s Pinal solar + storage project in Arizona.",
+   "start": "Luminate provided independent engineering and consulting services in support of the financing",
+   "end": "",
+   "locator": "Featured projects",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X55": {
+   "id": "X55",
+   "source": "S38",
+   "document": "Luminate – company page (Terra-Gen testimonial)",
+   "shows": "A sponsor describes engaging Luminate as IE for debt and tax-equity financings.",
+   "quote": "“Over the past two years, Terra-Gen has engaged Luminate to serve as Independent Engineer in support of the tax equity and debt financing of several of our solar/storage and standalone storage projects.",
+   "start": "has engaged Luminate to serve as Independent Engineer",
+   "end": "standalone storage projects",
+   "locator": "Testimonials",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Luminate"
+   ]
+  },
+  "X56": {
+   "id": "X56",
+   "source": "S44",
+   "document": "E3 Consulting – Calistoga Resiliency Center announcement (Apr 2025)",
+   "shows": "E3 reports supporting the financing; the page title describes the role as Independent Engineer.",
+   "quote": "E3 Consulting was delighted to support the successful project financing of Energy Vault’s Calistoga Resiliency Center (CRC)",
+   "start": "E3 Consulting was delighted to support the successful project financing",
+   "end": "",
+   "locator": "Announcement text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X57": {
+   "id": "X57",
+   "source": "S42",
+   "document": "E3 Consulting – projects page (AES Distributed Generation / MySolar)",
+   "shows": "E3 was IE for the acquisition and financing of a residential lease portfolio, using statistical sampling.",
+   "quote": "E3 served as the Independent Engineer to support the acquisition and financing of a portfolio of residential photovoltaic (PV) solar leases for AES Distributed Generation, formerly Main Street Power, and their Joint Venture with Morgan Stanley, MySolar.",
+   "start": "E3 served as the Independent Engineer to support the acquisition and financing",
+   "end": "",
+   "locator": "Projects list",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "E3 Consulting"
+   ]
+  },
+  "X58": {
+   "id": "X58",
+   "source": "S47",
+   "document": "Natural Power – Exus TAG announcement (Feb 2025)",
+   "shows": "Natural Power was IE of record on behalf of the sponsor.",
+   "quote": "has served as Independent Engineer of Record on behalf of renewable asset management and development firm, Exus Renewables North America, for its TAG project",
+   "start": "has served as Independent Engineer of Record on behalf of",
+   "end": "",
+   "locator": "Announcement text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X59": {
+   "id": "X59",
+   "source": "S48",
+   "document": "Natural Power – Igneo / Soltage acquisition",
+   "shows": "Buy-side technical due diligence for the acquirer.",
+   "quote": "has provided technical due diligence support to Igneo, a global infrastructure investment manager, on their agreement to acquire a majority equity interest in Soltage, LLC",
+   "start": "has provided technical due diligence support to Igneo",
+   "end": "",
+   "locator": "Announcement text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X60": {
+   "id": "X60",
+   "source": "S92",
+   "document": "VDE Americas – Statement of Qualifications (project table)",
+   "shows": "VDE lists an IE role on a cooperative-utility DG portfolio (company-reported).",
+   "quote": "Dairyland Portfolio Throughout Wisconsin 23 2024 IE for portfolio of similarly designed solar projects serving rural cooperative utilities",
+   "start": "",
+   "end": "",
+   "locator": "Project table (PDF – search for “Dairyland”)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X61": {
+   "id": "X61",
+   "source": "S49",
+   "document": "VDE Americas – Statement of Qualifications (project table)",
+   "shows": "VDE lists a full-scope IE role on a 43 MW PJM portfolio (company-reported).",
+   "quote": "Mt. Laurel Portfolio Various locations 43 2024 Full Independent Engineer (IE) scope of work for three projects located in PJM territory",
+   "start": "",
+   "end": "",
+   "locator": "Project table (PDF – search for “Mt. Laurel”)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": []
+  },
+  "X62": {
+   "id": "X62",
+   "source": "S27",
+   "document": "Leidos – Energy: developers & financial institutions page",
+   "shows": "Leidos's own description of its IE service.",
+   "quote": "As independent engineer or technical advisor, we work alongside you to assess possible outcomes, weigh options, and determine the right path forward.",
+   "start": "As independent engineer or technical advisor",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Leidos"
+   ]
+  },
+  "X63": {
+   "id": "X63",
+   "source": "S90",
+   "document": "Leidos – Electrification page",
+   "shows": "Cumulative solar experience claim (not annual).",
+   "quote": "Leidos has analyzed the technical and market facets of more than 400 solar assets in North America and worldwide.",
+   "start": "",
+   "end": "",
+   "locator": "Solar potential section (collapsed on page – search for the quoted text)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Leidos"
+   ]
+  },
+  "X64": {
+   "id": "X64",
+   "source": "S89",
+   "document": "DNV – U.S. agrivoltaic projects article",
+   "shows": "DNV selected as IE on U.S. projects (parties unnamed).",
+   "quote": "They selected DNV as the Independent Engineer to provide the technical due diligence.",
+   "start": "They selected DNV as the Independent Engineer",
+   "end": "",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "DNV"
+   ]
+  },
+  "X66": {
+   "id": "X66",
+   "source": "S35",
+   "document": "UL Solutions – solar and wind project due diligence page",
+   "shows": "UL markets IE reviews for debt and equity.",
+   "quote": "As your independent engineer, we deliver IE reviews that identify and mitigate project risks for debt and equity stakeholders",
+   "start": "As your independent engineer, we deliver IE reviews",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "UL Solutions"
+   ]
+  },
+  "X67": {
+   "id": "X67",
+   "source": "S35",
+   "document": "UL Solutions – solar and wind project due diligence page",
+   "shows": "UL markets lender's-engineer monitoring and drawdown verification.",
+   "quote": "lender’s engineer monitoring and construction management, including milestone reviews, quality control oversight, performance test observation, drawdown verification and final close-out reporting",
+   "start": "including milestone reviews, quality control oversight",
+   "end": "final close-out reporting",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "UL Solutions"
+   ]
+  },
+  "X68": {
+   "id": "X68",
+   "source": "S46",
+   "document": "Natural Power – U.S. solar page",
+   "shows": "Natural Power's description of its sponsor and investor work.",
+   "quote": "We support project sponsors and investors alike in getting PV projects — regardless of scale — financed and built on time",
+   "start": "We support project sponsors and investors alike in getting PV projects",
+   "end": "",
+   "locator": "Sector page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Natural Power"
+   ]
+  },
+  "X69": {
+   "id": "X69",
+   "source": "S49",
+   "document": "VDE Americas – Statement of Qualifications",
+   "shows": "The “$15 billion” claim, verbatim (company-reported).",
+   "quote": "Our consulting and digital services have facilitated the financing of over $15 billion in operating renewable energy assets.",
+   "start": "",
+   "end": "",
+   "locator": "Introduction (PDF – search for “15 billion”)",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "VDE Americas"
+   ]
+  },
+  "X70": {
+   "id": "X70",
+   "source": "S50",
+   "document": "VDE Americas – Independent engineering page",
+   "shows": "VDE offers portfolio-level due diligence for C&I DG and community solar.",
+   "quote": "We also offer portfolio-level due diligence to support the deployment of commercial and industrial (C&I) distributed generation (DG) and community solar projects.",
+   "start": "We also offer portfolio-level due diligence",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "VDE Americas"
+   ]
+  },
+  "X71": {
+   "id": "X71",
+   "source": "S51",
+   "document": "Intertek CEA – Engineering overview page",
+   "shows": "Intertek CEA markets independent technical reviews for buying, selling or financing operating assets.",
+   "quote": "You are buying, selling, financing, or refinancing an operating asset and need an independent view of its technical condition and performance history.",
+   "start": "You are buying, selling, financing, or refinancing an operating asset",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Intertek CEA (Clean Energy Associates)"
+   ]
+  },
+  "X72": {
+   "id": "X72",
+   "source": "S55",
+   "document": "Fractal – Energy storage IE report page",
+   "shows": "Fractal's storage IE reports for debt, equity and M&A.",
+   "quote": "Detailed IE reports for developers, owners and financiers evaluating energy storage technologies and projects for debt, equity investment and M&A.",
+   "start": "Detailed IE reports for developers, owners and financiers",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Fractal Energy Storage Consultants"
+   ]
+  },
+  "X73": {
+   "id": "X73",
+   "source": "S56",
+   "document": "Fractal – About page",
+   "shows": "Fractal's engagement-count claim (company-reported).",
+   "quote": "Since 2013, we have completed approximately 1,500 utility-scale engagements for developers, utilities, lenders and investors.",
+   "start": "Since 2013, we have completed approximately",
+   "end": "",
+   "locator": "About page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Fractal Energy Storage Consultants"
+   ]
+  },
+  "X74": {
+   "id": "X74",
+   "source": "S53",
+   "document": "Pure Power Engineering – About page",
+   "shows": "Pure Power's team-size claim.",
+   "quote": "in-house team of over 130 engineers, including 20+ PEs and 20+ highly experienced project managers",
+   "start": "in-house team of over 130 engineers",
+   "end": "",
+   "locator": "About page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Pure Power Engineering"
+   ]
+  },
+  "X75": {
+   "id": "X75",
+   "source": "S54",
+   "document": "Pure Power Engineering – Owner's engineering page",
+   "shows": "Pure Power's OE work for investors, owners and financiers.",
+   "quote": "Owner's Engineering division offers specialized engineering assistance for stakeholders such as investors, owners, and financiers involved in commercial and utility-scale renewable energy projects.",
+   "start": "division offers specialized engineering assistance for stakeholders such as investors",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Pure Power Engineering"
+   ]
+  },
+  "X76": {
+   "id": "X76",
+   "source": "S57",
+   "document": "Illumine-i – Solutions for lenders page",
+   "shows": "The “$2B” claim, verbatim: transactions supported, not lender reliance on IE reports.",
+   "quote": "We've supported over $2B in clean energy transactions.",
+   "start": "supported over $2B in clean energy transactions",
+   "end": "",
+   "locator": "Lender page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Illumine-i"
+   ]
+  },
+  "X77": {
+   "id": "X77",
+   "source": "S37",
+   "document": "1898 & Co. – IE and technical advisory page",
+   "shows": "1898 & Co. markets lender-facing reports; no named solar/BESS deal was found.",
+   "quote": "Create bankable key findings reports for lenders and field follow-up questions.",
+   "start": "Create bankable key findings reports for lenders",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "1898 & Co. / Burns & McDonnell"
+   ]
+  },
+  "X78": {
+   "id": "X78",
+   "source": "S58",
+   "document": "GroundWork – Advisory page",
+   "shows": "GroundWork markets IE for lenders and investors.",
+   "quote": "Independent Engineering (IE) works for lenders and investors, providing the objective third-party validation that lets a project close on time and meet financing conditions without surprises.",
+   "start": "Independent Engineering (IE) works for lenders and investors",
+   "end": "",
+   "locator": "Service page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "GroundWork"
+   ]
+  },
+  "X79": {
+   "id": "X79",
+   "source": "S61",
+   "document": "RRC Companies – About page",
+   "shows": "RRC's service scope: engineering and field services (no IE found).",
+   "quote": "Since 2007, we have provided full-scope services, including geotechnical, civil, structural, electrical, SCADA, and field services.",
+   "start": "Since 2007, we have provided full-scope services",
+   "end": "",
+   "locator": "About page",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "RRC Companies"
+   ]
+  },
+  "X80": {
+   "id": "X80",
+   "source": "S60",
+   "document": "Solas Energy – U.S. strategy release (Sept 2025)",
+   "shows": "Solas's service scope: owner's engineering and project management.",
+   "quote": "Solas Energy will continue to provide its full suite of services—including owner's engineering, project and construction management, development support, operations, and repowering strategy",
+   "start": "Solas Energy will continue to provide its full suite of services",
+   "end": "",
+   "locator": "Press release",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Solas Energy"
+   ]
+  },
+  "X81": {
+   "id": "X81",
+   "source": "S62",
+   "document": "World Oil – Xodus acquires Daymark (Mar 2025)",
+   "shows": "Ownership change.",
+   "quote": "Global energy consultancy Xodus has acquired Daymark Energy Advisors to expand its power networks capabilities across international energy transition projects.",
+   "start": "Global energy consultancy Xodus has acquired Daymark Energy Advisors",
+   "end": "",
+   "locator": "Article text",
+   "verification": "Verified verbatim against retrieved copy (2026-11-17)",
+   "firms": [
+    "Daymark Energy Advisors / Xodus"
+   ]
   }
  },
  "segments": [

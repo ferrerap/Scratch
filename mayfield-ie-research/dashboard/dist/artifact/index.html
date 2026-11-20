@@ -93,6 +93,19 @@ details.rec>div{padding:0 10px 10px}
 .srcdlg.open{display:flex}
 .srccard{background:#fff;border-radius:8px;max-width:760px;width:100%;max-height:86vh;overflow:auto;box-shadow:0 10px 40px rgba(20,30,45,.25);padding:18px 20px;position:relative}
 .srccard h2{font-size:1.05rem;margin:0 60px 6px 0}
+/* process */
+.g-proc{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr)}
+@media (max-width:1000px){.g-proc{grid-template-columns:minmax(0,1fr)}}
+ol.timeline{list-style:none;margin:0;padding:0;counter-reset:st}
+ol.timeline>li{position:relative;padding:0 0 18px 44px;counter-increment:st}
+ol.timeline>li::before{content:counter(st);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center}
+ol.timeline>li::after{content:"";position:absolute;left:13px;top:30px;bottom:2px;width:2px;background:var(--line)}
+ol.timeline>li:last-child::after{display:none}
+.timeline h4{margin:3px 0 2px;font-size:.95rem;color:var(--ink)}
+.timeline .meta{font-size:.76rem;color:var(--muted);margin:0 0 6px}
+.timeline ul{margin:0 0 6px;padding-left:18px} .timeline ul li{font-size:.86rem;margin:0 0 4px}
+.timeline .out{font-size:.8rem;margin:2px 0}
+.qc{display:inline-block;font-size:.72rem;padding:1px 7px;border-radius:10px;background:var(--ok-soft);color:var(--ok);border:1px solid #cfe3d7;margin:2px 4px 0 0}
 /* legend */
 .mx-wrap{display:block}
 .legend{font-size:.8rem;border-top:1px solid var(--line);margin-top:12px;padding-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px 28px}
@@ -189,7 +202,7 @@ footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);fon
 
 <section class="view" id="v-overview" aria-labelledby="h-overview">
  <h2 id="h-overview">Market overview</h2>
- <p class="lede">Who competes in U.S. solar and storage independent engineering, and which firms have <em>documented</em> financing acceptance. All counts are derived from the verified workbook.</p>
+ <p class="lede">Who competes in U.S. solar and storage independent engineering, and which firms have <em>documented</em> financing acceptance. All counts are derived from the verified workbook. <a href="#process">How this research was built →</a></p>
  <div class="card" style="margin-bottom:16px">
   <h3>Competitive landscape by documented financing acceptance</h3>
   <p class="small muted" style="margin:0 0 8px">Each firm is placed by the strength of public evidence that financing parties have named, approved or relied on it (rows) and by its market position (columns). Outlined names are on the 15-firm priority shortlist. Select a firm to open its profile.</p>
@@ -298,6 +311,18 @@ footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);fon
   <div class="card"><h3>Limitations</h3><ul class="tight" id="limits"></ul></div>
  </div>
 </section>
+<section class="view" id="v-process" aria-labelledby="h-process">
+ <h2 id="h-process">How this was built</h2>
+ <p class="lede" id="proc-intro"></p>
+ <div class="stats" id="proc-stats"></div>
+ <div class="grid g-proc">
+  <div class="card"><h3>Research stages</h3><ol class="timeline" id="proc-stages"></ol></div>
+  <div>
+   <div class="card" style="margin-bottom:16px"><h3>What the process changed</h3><p class="small muted" style="margin:0 0 8px">Material corrections to the initial deep-research output (full list: Evidence audit, on the Findings tab).</p><ul class="tight" id="proc-changes"></ul></div>
+   <div class="card"><h3>What the process does not include</h3><ul class="tight" id="proc-notdone"></ul></div>
+  </div>
+ </div>
+</section>
 </main>
 <footer id="foot"></footer>
 
@@ -355,7 +380,7 @@ $('#stamp').innerHTML = `Data: ${esc(D.meta.workbook)}<br>Built ${esc(D.meta.gen
 $('#foot').innerHTML = `Source of truth: the verified Google Sheet “Mayfield IE Competitive Landscape — Verified V2”. Evidence strength describes the public record, not engineering competence. ${esc(D.narrative.methodology)}`;
 
 /* tabs / routing */
-const VIEWS = [['overview','Overview'],['landscape','Landscape explorer'],['evidence','Financing evidence'],['segments','Market segments'],['mayfield','Mayfield positioning'],['findings','Findings & open questions']];
+const VIEWS = [['overview','Overview'],['landscape','Landscape explorer'],['evidence','Financing evidence'],['segments','Market segments'],['mayfield','Mayfield positioning'],['findings','Findings & open questions'],['process','How this was built']];
 $('#tabs').innerHTML = VIEWS.map(([k,l]) => `<button data-v="${k}">${l}</button>`).join('');
 function show(v){ if(!VIEWS.some(x=>x[0]===v)) v='overview';
   document.querySelectorAll('section.view').forEach(s => s.classList.toggle('active', s.id === 'v-'+v));
@@ -675,6 +700,24 @@ function renderSrc(q){
   $('#src-count').textContent = `${ss.length} of ${SRCS.length} sources shown`;
 }
 renderSrc('');
+
+/* ---------- Process ---------- */
+const P = D.narrative.process;
+if (P) {
+  $('#proc-intro').textContent = P.intro;
+  const baseline = FIRMS.filter(f => !/not in V1/.test(f.v1Tier)).length;
+  const xs = Object.values(D.excerpts); const xv = xs.filter(x => /^Verified/.test(x.verification)).length;
+  const changed = D.audit.filter(a => /correction|incorrect|dated|^Not |Partially|Weakened|qualification|overstated|counter-evidence/i.test(a.result)).length;
+  $('#proc-stats').innerHTML = [[P.stages.length, 'Research stages'], [`${baseline} → ${FIRMS.length}`, 'Firms: baseline → verified'], [D.audit.length, 'Claims audited'],
+    [changed, 'Claims corrected, qualified or not supported'], [Object.keys(D.sources).length, 'Sources registered'], [`${xv} / ${xs.length}`, 'Passages verified word for word']]
+    .map(([n,l]) => `<div class="stat"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join('');
+  $('#proc-stages').innerHTML = P.stages.map(st => `<li><h4>${esc(st.title)}</h4><p class="meta">${esc(st.when)} · ${esc(st.tool)}</p>
+    <ul>${st.did.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
+    <p class="out"><b>Output:</b> ${st.out.map(esc).join(' · ')}</p>
+    <div>${st.qc.map(q => `<span class="qc">✓ ${esc(q)}</span>`).join('')}</div></li>`).join('');
+  $('#proc-changes').innerHTML = P.changes.map(x => `<li>${esc(x)}</li>`).join('');
+  $('#proc-notdone').innerHTML = P.notDone.map(x => `<li>${esc(x)}</li>`).join('');
+}
 
 show(location.hash.slice(1) || 'overview');
 }

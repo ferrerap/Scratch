@@ -343,5 +343,179 @@
   "Specialist workstreams (C&I, microgrid, controls, codes, storage safety) as a subcontractor to an accepted IE – incumbent appetite unverified.",
   "Teaming with storage specialists (e.g., Fractal) or equipment-QA providers (e.g., Intertek CEA) where Mayfield lacks scope.",
   "Transaction-specific lender approval on facilities with broad lists, borrower selection, or private-credit / green-bank lenders."
- ]
+ ],
+ "process": {
+  "intro": "This dashboard is the end of a multi-stage process, not the output of one research prompt. An initial AI deep-research pass was treated as a starting hypothesis. It was audited against primary documents, restructured into a verified dataset, reviewed by a second AI model, corrected, and turned into a tool where every key claim can be traced to the passage that supports it. The project lead set the scope, reviewed each stage's output and decided what to change next.",
+  "stages": [
+   {
+    "title": "Scoping and initial market discovery",
+    "when": "Before 17 Nov 2026",
+    "tool": "ChatGPT Deep Research",
+    "did": [
+     "Framed the central question: where a technically credible but newer IE provider could compete, and what financing counterparties require.",
+     "Ran a broad scan of U.S. solar and storage independent engineering, lender's engineering and technical diligence providers."
+    ],
+    "out": [
+     "Baseline report (narrative market assessment)",
+     "Baseline workbook of 34 firms"
+    ],
+    "qc": [
+     "Baseline preserved unchanged in Drive for comparison"
+    ]
+   },
+   {
+    "title": "Baseline intake and audit planning",
+    "when": "17 Nov 2026",
+    "tool": "Claude",
+    "did": [
+     "Read the baseline report and every workbook tab in full.",
+     "Found that none of the report's citations had survived export (no source URLs) and the workbook held no links, so the source trail had to be rebuilt.",
+     "Picked out the claims that most affect market structure, lender acceptance and Mayfield's options for audit."
+    ],
+    "out": [
+     "Audit plan and claim list"
+    ],
+    "qc": [
+     "Gap in the source trail logged as an audit finding (A36)"
+    ]
+   },
+   {
+    "title": "Parallel verification research",
+    "when": "17 Nov 2026",
+    "tool": "Claude with research sub-agents, web search, SEC EDGAR full-text search",
+    "did": [
+     "Ran five focused research streams in parallel: (1) SEC-filed financing agreements and IE reports; (2) institutional IE firms; (3) specialist and boutique IEs; (4) DG, community-solar and green-bank financing and procurement; (5) Mayfield's public capabilities.",
+     "Retrieved original credit agreements, tax-equity and note documents, ABS IE reports, lender and sponsor announcements, company pages and public RFPs.",
+     "Re-extracted the decisive contract language directly from the filings: IE definitions, approved-engineer schedules and the reliance-liability cap."
+    ],
+    "out": [
+     "Primary-source evidence base",
+     "Source register"
+    ],
+    "qc": [
+     "Primary documents preferred over secondary coverage",
+     "Snippet-only or blocked sources flagged as such"
+    ]
+   },
+   {
+    "title": "Evidence audit and classification",
+    "when": "17 Nov 2026",
+    "tool": "Claude",
+    "did": [
+     "Audited each consequential claim and recorded it as confirmed, partially confirmed, corrected or not found, with confidence and remaining uncertainty.",
+     "Defined a five-level evidence hierarchy that separates reliance, named assignments, contractual eligibility, lender-facing experience and company claims.",
+     "Tested the strongest counterargument: whether DG and community-solar financing really is easier for a new IE."
+    ],
+    "out": [
+     "Evidence audit register",
+     "Evidence classes applied to every firm and record"
+    ],
+    "qc": [
+     "Absence of public evidence never treated as proof of no experience",
+     "No fees, market sizes or market shares invented"
+    ]
+   },
+   {
+    "title": "Verified landscape, report and research plan",
+    "when": "17 Nov 2026",
+    "tool": "Claude",
+    "did": [
+     "Rebuilt the competitive landscape as a structured workbook: full universe, 15-firm priority shortlist, transaction-level evidence, segments, business models, sources and open gaps.",
+     "Added firms found on SEC-filed approved-engineer schedules.",
+     "Wrote the client-ready market report and a primary research and validation plan (10 questions, 8 interview archetypes)."
+    ],
+    "out": [
+     "Verified workbook (V2)",
+     "Final market landscape report",
+     "Primary research plan"
+    ],
+    "qc": [
+     "Every material claim cited to a source ID",
+     "Desk research clearly separated from interviews not yet conducted"
+    ]
+   },
+   {
+    "title": "Independent review and correction round",
+    "when": "17 Nov 2026",
+    "tool": "ChatGPT (review) → Claude (corrections)",
+    "did": [
+     "A second AI model reviewed the report and raised three issues: methodology wording that could imply human verification; an unsupported claim that specialist IEs took decades to become bankable; and an overly categorical market-entry recommendation.",
+     "Corrected all three, then checked the report, workbook and research plan for consistency and fixed the remaining mismatches."
+    ],
+    "out": [
+     "Revised report and workbook"
+    ],
+    "qc": [
+     "Cross-model review",
+     "Corrections carried through every deliverable"
+    ]
+   },
+   {
+    "title": "Interactive dashboard",
+    "when": "17 Nov 2026",
+    "tool": "Claude; Playwright browser testing",
+    "did": [
+     "Built a self-contained interactive dashboard generated by a script from the verified workbook, the single source of truth, with no hand-copied data.",
+     "Added landscape, evidence, segment, Mayfield-positioning and findings views, plus company profiles and comparisons.",
+     "Tested in a real browser at desktop, tablet and phone widths, inspecting rendered screenshots, and fixed the layout and accessibility problems found."
+    ],
+    "out": [
+     "Dashboard HTML, data file and README"
+    ],
+    "qc": [
+     "Automated browser test suite",
+     "Build stops on any broken source or record link"
+    ]
+   },
+   {
+    "title": "Evidence trails: showing how each conclusion was reached",
+    "when": "17–20 Nov 2026",
+    "tool": "Claude; local document retrieval; browser testing",
+    "did": [
+     "Prompted by project-lead feedback that bare source IDs meant little, added step-by-step reasoning for each principal finding.",
+     "Added the exact passage behind every principal finding, every financing evidence record and the key profile claims for 25 firms.",
+     "Checked each quote word for word against a retrieved copy of its document, and tested each 'open at highlighted passage' link against those copies.",
+     "Reading the actual text refined several records: two securitization reports turned out to be sponsor-commissioned, and one firm's volume claim that could no longer be found was removed."
+    ],
+    "out": [
+     "Key Excerpts tab in the workbook",
+     "Reasoning panels, record passages and source cards in the dashboard"
+    ],
+    "qc": [
+     "Verbatim quote verification",
+     "Highlight-link testing",
+     "Unverifiable passages flagged, not hidden"
+    ]
+   },
+   {
+    "title": "Presentation refinements",
+    "when": "20 Nov 2026",
+    "tool": "Claude",
+    "did": [
+     "Moved the landscape matrix to the top of the Overview page and added a legend defining each evidence-strength level and market position. The definitions are stored in the workbook, so they cannot drift from the data.",
+     "Published a private web version alongside the downloadable file."
+    ],
+    "out": [
+     "Current dashboard"
+    ],
+    "qc": [
+     "Definitions sourced from the workbook README"
+    ]
+   }
+  ],
+  "changes": [
+   "The view that DG and community solar are the easiest lender-facing entry point was weakened to an unproven hypothesis.",
+   "A widely repeated Leidos statistic (“125+ projects a year”) could not be found in any Leidos source and was removed.",
+   "An ICF project list could not be verified; ICF's standing rests instead on credit agreements.",
+   "Dates and roles were corrected (e.g., a DNV ABS report was filed in 2025, not 2026; DNV's Spotsylvania role was a 2020 tax-equity engagement).",
+   "The claim that specialist IEs “took decades” to become bankable was withdrawn as unsupported.",
+   "The recommendation that sponsor-side diligence was the “only” option was qualified."
+  ],
+  "notDone": [
+   "No lender, sponsor or competitor interviews have been conducted; the research plan sets them out.",
+   "Source checks were AI-assisted rather than performed by an independent human reviewer. Key passages are shown verbatim so any reader can verify them.",
+   "Signed reliance letters, fee data and lender approval rates are not publicly available and were not obtained.",
+   "Mayfield's non-public engagement history has not yet been reviewed."
+  ]
+ }
 }

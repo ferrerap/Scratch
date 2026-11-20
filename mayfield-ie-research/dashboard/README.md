@@ -46,6 +46,12 @@ download the file first.
 7. **Findings & open questions**: what the research establishes and what remains uncertain, next
    steps, open gaps, planned interviews, the 36-claim evidence audit, the 98-source register,
    and links to the report, workbook and research plan.
+8. **How this was built**: the nine-stage research process, from the initial ChatGPT Deep Research
+   pass through primary-document verification, the evidence audit, cross-model review and
+   corrections, to the dashboard and its evidence trails. Each stage lists what was done, its
+   outputs and its quality controls. The page also shows headline numbers derived from the data,
+   the material corrections to the initial research, and what the process does not include. The
+   stage text lives in `narrative.json` ("process").
 
 **Source cards:** clicking any source ID (e.g., S02) opens a short card instead of the raw
 document. The card shows what the source is, what it was used for, which findings and firms it

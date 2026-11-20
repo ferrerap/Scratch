@@ -182,6 +182,13 @@ const D = require(path.resolve(process.argv[4]));
   const aud2 = await page.$$eval('#aud-table tbody tr', r => r.length);
   check('audit filter not found', aud2 > 0 && aud2 < D.audit.length, aud2);
   await page.screenshot({ path: out + '/07_findings.png' });
+  // process view
+  await page.click('#tabs button[data-v=process]');
+  const stg = await page.$$eval('#proc-stages > li', l => l.length);
+  check('process view lists every stage', stg === D.narrative.process.stages.length, stg);
+  const ps = await page.$$eval('#proc-stats .stat b', b => b.map(x => x.textContent));
+  check('process stats derived from data', ps[2] === String(D.audit.length) && ps[4] === String(Object.keys(D.sources).length), ps.join(','));
+  await page.screenshot({ path: out + '/10_process.png', fullPage: true });
   // text scan
   const all = await page.evaluate(() => document.body.innerText);
   check('no placeholder text', !/\blorem\b|\bplaceholder\b|\bTODO\b|\bundefined\b|\bNaN\b|\[object/.test(all));

@@ -92,6 +92,15 @@ def main():
         if m:
             class_defs.append({"id": int(m.group(1)), "name": m.group(2), "definition": v})
 
+    strength_defs, position_defs = [], []
+    for k, v in readme.items():
+        m = re.match(r"Strength – (.+)", str(k))
+        if m: strength_defs.append({"level": m.group(1), "definition": v})
+        m = re.match(r"Position ([A-F]) – (.+)", str(k))
+        if m: position_defs.append({"key": m.group(1), "name": m.group(2), "definition": v})
+    legend = {"strengthIntro": readme.get("V2 evidence strength", ""), "positionIntro": readme.get("Market position", ""),
+              "strength": strength_defs, "positions": position_defs}
+
     sources = {}
     for r in rows(sheet(wb, "7_")):
         sources[r["Source ID"]] = {
@@ -201,7 +210,7 @@ def main():
                      "workbook": os.path.basename(src), "generated": datetime.date.today().isoformat(),
                      "counts": {"firms": len(firms), "priority": len(priority), "evidence": len(evidence),
                                 "audit": len(audit), "sources": len(sources), "segments": len(segments), "gaps": len(gaps), "excerpts": len(excerpts)}},
-            "classDefs": class_defs, "firms": firms, "priority": priority, "mayfield": mayfield, "evidence": evidence,
+            "classDefs": class_defs, "legend": legend, "firms": firms, "priority": priority, "mayfield": mayfield, "evidence": evidence,
             "excerpts": excerpts, "segments": segments, "models": models, "audit": audit, "sources": sources, "gaps": gaps, "narrative": narrative}
 
     jpath = os.path.join(outdir, "Mayfield_IE_Dashboard_Data.json")

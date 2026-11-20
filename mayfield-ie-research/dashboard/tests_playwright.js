@@ -17,6 +17,12 @@ const D = require(path.resolve(process.argv[4]));
   // overview
   const stats = await page.$$eval('#stats .stat b', els => els.map(e => e.textContent));
   check('stats match data', JSON.stringify(stats) === JSON.stringify([D.meta.counts.firms, D.meta.counts.priority, D.meta.counts.evidence, D.meta.counts.audit, D.meta.counts.sources, D.meta.counts.segments].map(String)), stats.join(','));
+  const order = await page.evaluate(() => { const m = document.querySelector('#matrix'), f = document.querySelector('#findings'); return !!(m.compareDocumentPosition(f) & Node.DOCUMENT_POSITION_FOLLOWING); });
+  check('landscape matrix appears before findings', order);
+  const lg = await page.$$eval('#legend dt', d => d.map(x => x.textContent));
+  check('legend defines every strength row and position column', lg.length === D.legend.strength.length + D.legend.positions.length && D.legend.strength.length === 6 && D.legend.positions.length === 6, lg.length);
+  const rowNames = await page.$$eval('#matrix tbody th', t => t.map(x => x.textContent));
+  check('every matrix row has a legend definition', rowNames.every(r => D.legend.strength.some(x => x.level === r)), rowNames.join('|'));
   const chips = await page.$$eval('#matrix .chip', els => els.length);
   check('matrix shows all firms', chips === D.firms.length, chips);
   await page.screenshot({ path: out + '/01_overview.png', fullPage: true });

@@ -10,8 +10,10 @@ when you click an external source link. Google Drive's preview pane does not run
 download the file first.
 
 ## Views
-1. **Overview**: counts derived from the workbook, principal findings labelled Documented /
-   Unproven / Hypothesis, and a landscape matrix (evidence strength × market position). Each
+1. **Overview**: the landscape matrix comes first, with firms placed by evidence strength (rows)
+   and market position (columns A–F). A legend under it defines every row level and column, using
+   the definitions in the workbook README. Below it come counts derived from the workbook and the
+   principal findings, labelled Documented / Unproven / Hypothesis. Each
    finding has a **"How we concluded this"** panel:
    - the reasoning, step by step;
    - the specific documents behind it, each with why it matters, the exact quoted passage, where

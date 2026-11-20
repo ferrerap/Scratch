@@ -42,6 +42,68 @@
    "definition": "Marketing claims or relevant engineering capability without verified financing assignments."
   }
  ],
+ "legend": {
+  "strengthIntro": "Rows of the dashboard landscape matrix. Describes how strong the PUBLIC evidence of financing acceptance is (not engineering competence). Levels are defined below; qualifiers such as '(dated)', '(public)' or '(U.S.)' narrow the level.",
+  "positionIntro": "Columns of the dashboard landscape matrix (workbook column 'V2 category'). Groups firms by organizational profile and role; the letters are labels, not a ranking.",
+  "strength": [
+   {
+    "level": "Strong",
+    "definition": "Class 1 evidence: named as IE in executed financing agreements that give lenders reliance or address IE certificates to the agent – usually with repeated named roles as well."
+   },
+   {
+    "level": "Moderate–Strong",
+    "definition": "Repeated class 2–3 evidence, including primary documents (financing agreements naming the firm as an acceptable IE, or filed reports), but no class 1 reliance mechanism found."
+   },
+   {
+    "level": "Moderate",
+    "definition": "Some class 2–3 evidence, but mainly company-reported, sponsor-engaged or dated (e.g., one approved-engineer list plus self-reported projects)."
+   },
+   {
+    "level": "Limited",
+    "definition": "Only class 4 (lender-facing work described without named deals) or dated class 3 (an approved-engineer list from 2018–19). Includes 'Limited–Moderate' and 'Limited (dated)'."
+   },
+   {
+    "level": "Thin",
+    "definition": "Only class 5: marketing claims or adjacent capability; no named U.S. solar/storage financing role found. '(U.S.)' means evidence exists mainly outside the U.S."
+   },
+   {
+    "level": "Not re-verified",
+    "definition": "Carried over from the initial research and not checked in the second stage."
+   }
+  ],
+  "positions": [
+   {
+    "key": "A",
+    "name": "Institutional",
+    "definition": "Large engineering/advisory firms with the strongest public financing evidence: named IE in executed agreements or repeated named lender-facing roles (e.g., Leidos, DNV, Enertis)."
+   },
+   {
+    "key": "B",
+    "name": "Bankable specialist",
+    "definition": "Specialist firms without multinational engineering scale that are nonetheless named as acceptable IEs in financing documents and hold named IE assignments (Luminate, E3 Consulting)."
+   },
+   {
+    "key": "C",
+    "name": "Mid-market",
+    "definition": "Mid-sized firms or specialist divisions of larger groups that market lender-facing IE/technical diligence; some named roles or historic eligibility, much of it company-reported."
+   },
+   {
+    "key": "D",
+    "name": "Multidisciplinary / adjacent",
+    "definition": "Large multidisciplinary engineering, testing or consulting groups with relevant capability but no named U.S. solar/storage lender IE assignment found – potential partners or hiring pools."
+   },
+   {
+    "key": "E",
+    "name": "Specialist / emerging",
+    "definition": "Smaller solar/storage engineering and diligence firms, mostly design, owner's-engineering or sponsor-side work, with no named lender reliance found – Mayfield's closest peer set."
+   },
+   {
+    "key": "F",
+    "name": "Named in financing docs (other)",
+    "definition": "Firms found only as names on SEC-filed approved-engineer schedules (2018–19); current IE activity not researched."
+   }
+  ]
+ },
  "firms": [
   {
    "id": "leidos",

@@ -93,12 +93,24 @@ details.rec>div{padding:0 10px 10px}
 .srcdlg.open{display:flex}
 .srccard{background:#fff;border-radius:8px;max-width:760px;width:100%;max-height:86vh;overflow:auto;box-shadow:0 10px 40px rgba(20,30,45,.25);padding:18px 20px;position:relative}
 .srccard h2{font-size:1.05rem;margin:0 60px 6px 0}
+/* legend */
+.mx-wrap{display:block}
+.legend{font-size:.8rem;border-top:1px solid var(--line);margin-top:12px;padding-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px 28px}
+@media (max-width:760px){.legend{grid-template-columns:1fr}}
+.legend>p{grid-column:1/-1}
+.legend dl{display:grid;grid-template-columns:150px 1fr;gap:4px 10px}
+.legend dl dt{margin-top:0} .legend dl dd{margin:0}
+@media (max-width:640px){.legend dl{grid-template-columns:1fr}}
+.legend h4{margin:0 0 4px;font-size:.76rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.legend .intro{color:var(--muted);margin:0 0 6px}
+.legend dl{margin:0 0 6px} .legend dt{font-weight:650;color:var(--navy)} .legend dd{color:var(--ink-2)}
+.legend .lk{display:inline-block;min-width:18px;font-weight:700}
 /* matrix */
 .matrix{width:100%;border-collapse:separate;border-spacing:0;font-size:.82rem}
 .matrix th{font-weight:600;color:var(--ink-2);text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:bottom;font-size:.76rem}
 .matrix td{padding:6px 6px;border-bottom:1px solid var(--line);vertical-align:top;border-right:1px dashed var(--line)}
 .matrix td:last-child{border-right:0}
-.matrix th.rowh{width:120px;vertical-align:top;border-right:1px solid var(--line)}
+.matrix th.rowh{width:130px;vertical-align:top;border-right:1px solid var(--line)}
 .chip{display:inline-block;margin:2px 3px 2px 0;padding:2px 7px;border:1px solid var(--line-2);border-radius:4px;background:#fff;font-size:.76rem;cursor:pointer;text-align:left;line-height:1.3}
 .chip:hover{border-color:var(--navy);color:var(--navy)}
 .chip.p{border-color:var(--navy);font-weight:600;color:var(--navy)}
@@ -178,17 +190,18 @@ footer{max-width:1320px;margin:0 auto;padding:0 24px 30px;color:var(--muted);fon
 <section class="view" id="v-overview" aria-labelledby="h-overview">
  <h2 id="h-overview">Market overview</h2>
  <p class="lede">Who competes in U.S. solar and storage independent engineering, and which firms have <em>documented</em> financing acceptance. All counts are derived from the verified workbook.</p>
+ <div class="card" style="margin-bottom:16px">
+  <h3>Competitive landscape by documented financing acceptance</h3>
+  <p class="small muted" style="margin:0 0 8px">Each firm is placed by the strength of public evidence that financing parties have named, approved or relied on it (rows) and by its market position (columns). Outlined names are on the 15-firm priority shortlist. Select a firm to open its profile.</p>
+  <div class="mx-wrap"><div class="scroll" id="matrix"></div>
+  <div class="legend" id="legend" aria-label="Matrix legend"></div></div>
+ </div>
  <div class="stats" id="stats"></div>
  <div class="card" style="margin-bottom:16px">
   <h3>Principal findings</h3>
   <p class="small muted" style="margin:-4px 0 10px">Each finding shows how it was reached. Expand “How we concluded this” for the reasoning and the exact passages in the underlying documents, with links that open each document at the highlighted passage.</p>
   <div id="findings"></div>
   <p class="small" style="margin:12px 0 0"><b>Bottom line.</b> <span id="bottomline"></span></p>
- </div>
- <div class="card">
-  <h3>Competitive landscape by documented financing acceptance</h3>
-  <p class="small muted" style="margin:0 0 8px">Rows: strength of public evidence of financing acceptance (V2). Columns: market position. Outlined names are on the priority shortlist. Select a firm to open its profile. Evidence strength reflects the public record, not technical competence.</p>
-  <div class="scroll" id="matrix"></div>
  </div>
 </section>
 
@@ -396,9 +409,12 @@ $('#stats').innerHTML = [[C.firms,'Firms researched'],[C.priority,'Priority comp
   .map(([n,l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
 (function matrix(){
   const cats = ['A','B','C','D','E','F'];
-  let h = '<table class="matrix"><thead><tr><th class="rowh">Evidence strength</th>' + cats.map(c => `<th scope="col">${c}. ${esc(CAT_SHORT[c])}</th>`).join('') + '</tr></thead><tbody>';
+  const L = D.legend || {strength:[], positions:[]};
+  const sdef = st => (L.strength.find(x => x.level === st) || {}).definition || '';
+  const pdef = c => (L.positions.find(x => x.key === c) || {}).definition || '';
+  let h = '<table class="matrix"><thead><tr><th class="rowh">Evidence strength ↓ &nbsp;/&nbsp; Market position →</th>' + cats.map(c => `<th scope="col" title="${esc(pdef(c))}">${c}. ${esc(CAT_SHORT[c])}</th>`).join('') + '</tr></thead><tbody>';
   STRENGTH.forEach(st => {
-    h += `<tr><th scope="row" class="rowh">${esc(st)}</th>`;
+    h += `<tr><th scope="row" class="rowh" title="${esc(sdef(st))}">${esc(st)}</th>`;
     cats.forEach(c => {
       const fs = FIRMS.filter(f => catKey(f) === c && strengthBucket(f.strength) === st);
       h += '<td>' + fs.map(f => `<button class="chip${f.priority?' p':''}" data-firm="${f.id}" title="${esc(f.strength)}${f.priority?' · priority shortlist':''}">${esc(f.name)}</button>`).join('') + '</td>';
@@ -406,6 +422,9 @@ $('#stats').innerHTML = [[C.firms,'Firms researched'],[C.priority,'Priority comp
     h += '</tr>';
   });
   $('#matrix').innerHTML = h + '</tbody></table>';
+  $('#legend').innerHTML = (L.strength.length ? `<div><h4>Rows – evidence strength</h4><p class="intro">Strength of public evidence of financing acceptance, not engineering competence. Evidence classes 1–5 are defined on the Financing evidence tab.</p><dl>${L.strength.map(x => `<dt>${esc(x.level)}</dt><dd>${esc(x.definition)}</dd>`).join('')}</dl></div>` : '') +
+    (L.positions.length ? `<div><h4>Columns – market position</h4><p class="intro">Organizational profile and role; the letters are labels, not a ranking.</p><dl>${L.positions.map(x => `<dt><span class="lk">${esc(x.key)}.</span> ${esc(x.name)}</dt><dd>${esc(x.definition)}</dd>`).join('')}</dl></div>` : '') +
+    `<p class="small muted" style="margin:0">Outlined name = priority shortlist (15 firms).</p>`;
 })();
 const typeCls = t => t === 'Documented' ? 'doc' : (t === 'Hypothesis' ? 'hyp' : 'unp');
 $('#findings').innerHTML = D.narrative.findings.map((f, i) => {

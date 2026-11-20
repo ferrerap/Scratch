@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 const path = require('path');
-const file = 'file://' + path.resolve(process.argv[2]);
+const file = /^https?:/.test(process.argv[2]) ? process.argv[2] : 'file://' + path.resolve(process.argv[2]);
 const out = process.argv[3];
 const D = require(path.resolve(process.argv[4]));
 (async () => {
@@ -10,7 +10,7 @@ const D = require(path.resolve(process.argv[4]));
   page.on('pageerror', e => errors.push('pageerror: ' + e.message));
   page.on('console', m => { if (m.type() === 'error') errors.push('console: ' + m.text()); });
   const reqs = [];
-  page.on('request', r => { if (!r.url().startsWith('file:')) reqs.push(r.url()); });
+  page.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('http://127.0.0.1')) reqs.push(u); });
   await page.goto(file);
   const results = [];
   const check = (name, ok, info='') => results.push(`${ok ? 'PASS' : 'FAIL'} ${name} ${info}`);

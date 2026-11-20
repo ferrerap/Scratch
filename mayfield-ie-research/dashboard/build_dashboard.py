@@ -220,6 +220,11 @@ def main():
     html = tpl.replace("/*__DATA__*/null", payload)
     hpath = os.path.join(outdir, "Mayfield_IE_Market_Intelligence.html")
     open(hpath, "w", encoding="utf-8").write(html)
+    # Web/artifact variant: same page, data loaded from the JSON file beside it.
+    adir = os.path.join(outdir, "artifact")
+    os.makedirs(adir, exist_ok=True)
+    open(os.path.join(adir, "index.html"), "w", encoding="utf-8").write(tpl)
+    json.dump(data, open(os.path.join(adir, "Mayfield_IE_Dashboard_Data.json"), "w"), ensure_ascii=False)
     print(json.dumps(data["meta"]["counts"]), "->", hpath)
 
 if __name__ == "__main__":

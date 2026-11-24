@@ -13,3 +13,7 @@ strategic_reasoning_explorer_v1_2/
 
 # v1.2.1 explorer workspace: confidential; repository is public — never commit.
 strategic_reasoning_explorer_v1_2_1/
+
+# Phase 3 selective-synthesis reference build: private; repository is public — never commit.
+# It is its own git repository; private persistence is the Phase 3 Drive folder only.
+project-intelligence-phase-3/
